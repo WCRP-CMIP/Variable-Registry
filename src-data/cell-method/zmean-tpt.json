@@ -1,0 +1,12 @@
+{
+    "id": "zmean-tpt",
+    "validation-key": "zmean-tpt",
+    "ui-label": "Zonal Mean",
+    "description": "longitude: mean time: point",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "amnsnsi-tmn",
+    "validation-key": "amnsnsi-tmn",
+    "ui-label": "Weighted Time Mean over Area of Snow on Sea-Ice",
+    "description": "area: mean where snow over sea_ice area: time: mean where sea_ice",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

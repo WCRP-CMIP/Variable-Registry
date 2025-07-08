@@ -1,0 +1,12 @@
+{
+    "id": "amnds-tmn",
+    "validation-key": "amnds-tmn",
+    "ui-label": "Sum over Upper 100m, Time Mean",
+    "description": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "effectradic",
+    "validation-key": "effectradic",
+    "ui-label": "Effective Radius for Ice Aerosol",
+    "description": "Effective Radius of Ice Aerosols  [Values to be specified]",
+    "axis-flag": "",
+    "cf-standard-name": "",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "universal"
+    ]
+}

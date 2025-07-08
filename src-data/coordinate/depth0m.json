@@ -1,0 +1,13 @@
+{
+    "id": "depth0m",
+    "validation-key": "depth0m",
+    "ui-label": "depth",
+    "description": "vertical coordinate for ocean surface",
+    "axis-flag": "Z",
+    "cf-standard-name": "depth",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "universal"
+    ]
+}

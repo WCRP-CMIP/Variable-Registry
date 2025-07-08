@@ -1,0 +1,14 @@
+{
+    "id": "vegtype",
+    "validation-key": "vegtype",
+    "ui-label": "Vegetation or Land Cover Type",
+    "description": "Vegetation or land cover type. Where possible, please use terms from the CF Convention Area Type table: http://cfconventions.org/Data/area-type-table/6/build/area-type-table",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "universal"
+    ]
+}

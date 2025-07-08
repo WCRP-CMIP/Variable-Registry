@@ -1,0 +1,12 @@
+{
+    "id": "amnsnla-twm",
+    "validation-key": "amnsnla-twm",
+    "ui-label": "Weighted Time Mean in over Snow",
+    "description": "area: time: mean where snow",
+    "mask": "snc",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

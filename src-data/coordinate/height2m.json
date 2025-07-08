@@ -1,0 +1,13 @@
+{
+    "id": "height2m",
+    "validation-key": "height2m",
+    "ui-label": "height",
+    "description": "~2 m standard surface air temperature and surface humidity  height",
+    "axis-flag": "Z",
+    "cf-standard-name": "height",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "universal"
+    ]
+}

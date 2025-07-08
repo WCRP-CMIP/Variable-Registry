@@ -1,0 +1,12 @@
+{
+    "id": "asmgi-twm",
+    "validation-key": "asmgi-twm",
+    "ui-label": "Area Sum Time Mean on Grounded Ice Sheet",
+    "description": "area: sum where grounded_ice_sheet",
+    "mask": "sftgrf",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "olevel",
+    "validation-key": "olevel",
+    "ui-label": "Ocean Model Levels",
+    "description": "generic ocean model vertical coordinate (nondimensional or dimensional)",
+    "axis-flag": "Z",
+    "cf-standard-name": "",
+    "spatial-shape": "Global mean ocean profile,Global ocean field on model levels,Ocean basin meridional section,Ocean basin meridional section (on model grid)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "universal"
+    ]
+}

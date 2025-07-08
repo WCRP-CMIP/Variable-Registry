@@ -1,0 +1,12 @@
+{
+    "id": "amngi-twm",
+    "validation-key": "amngi-twm",
+    "ui-label": "Weighted Time Mean on Grounded Ice Sheet",
+    "description": "area: time: mean where grounded_ice_sheet",
+    "mask": "sftgrf",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

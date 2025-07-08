@@ -1,0 +1,12 @@
+{
+    "id": "asm-fx",
+    "validation-key": "asm-fx",
+    "ui-label": "Fixed Area Sum",
+    "description": "area: sum",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

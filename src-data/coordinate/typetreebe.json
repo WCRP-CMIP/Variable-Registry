@@ -1,0 +1,13 @@
+{
+    "id": "typetreebe",
+    "validation-key": "typetreebe",
+    "ui-label": "Tree area type (Broadleaf Evergreen)",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "universal"
+    ]
+}

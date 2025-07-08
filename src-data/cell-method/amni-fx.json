@@ -1,0 +1,12 @@
+{
+    "id": "amni-fx",
+    "validation-key": "amni-fx",
+    "ui-label": "Fixed Area Mean over Ice Sheets",
+    "description": "area: mean where ice_sheet",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

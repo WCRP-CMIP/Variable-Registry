@@ -1,0 +1,12 @@
+{
+    "id": "amn-dmin",
+    "validation-key": "amn-dmin",
+    "ui-label": "Daily Minimum",
+    "description": "area: mean time: minimum within days time: mean over days",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

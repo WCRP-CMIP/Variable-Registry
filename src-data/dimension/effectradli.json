@@ -1,0 +1,14 @@
+{
+    "id": "effectradli",
+    "validation-key": "effectradli",
+    "ui-label": "Effective Radius for Liquid Aerosols",
+    "description": "Effective Radius of Liquid Aerosols  [Values to be specified]",
+    "axis-flag": "",
+    "cf-standard-name": "",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "universal"
+    ]
+}

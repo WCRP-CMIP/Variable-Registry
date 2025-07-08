@@ -1,0 +1,12 @@
+{
+    "id": "amncrp-twm",
+    "validation-key": "amncrp-twm",
+    "ui-label": "Weighted Time Mean on Crops",
+    "description": "area: time: mean where crops",
+    "mask": "cropFrac",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

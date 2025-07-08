@@ -1,0 +1,14 @@
+{
+    "id": "plev4",
+    "validation-key": "plev4",
+    "ui-label": "Pressure Levels (4)",
+    "description": "Used for two HighResMIP variables, neither of which was published by anybody in CMIP6.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "spatial-shape": "Global field (4 pressure levels)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "universal"
+    ]
+}

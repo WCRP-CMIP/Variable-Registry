@@ -1,0 +1,12 @@
+{
+    "id": "amna-clim",
+    "validation-key": "amna-clim",
+    "ui-label": "Annual Climatology in Atmosphere",
+    "description": "area: mean where air time: mean within years time: mean over years",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

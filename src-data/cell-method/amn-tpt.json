@@ -1,0 +1,12 @@
+{
+    "id": "amn-tpt",
+    "validation-key": "amn-tpt",
+    "ui-label": "Area Mean Instantaneous",
+    "description": "area: mean time: point",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

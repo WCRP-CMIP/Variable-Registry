@@ -1,0 +1,12 @@
+{
+    "id": "amng-twm",
+    "validation-key": "amng-twm",
+    "ui-label": "Weighted Time Mean on Natural Grasses",
+    "description": "area: time: mean where natural_grasses",
+    "mask": "grassFrac",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

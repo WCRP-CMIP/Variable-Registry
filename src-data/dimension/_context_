@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "@base": "https://wcrp-cmip.github.io/Variable-Regirstry/",
+    "@vocab": "https://wcrp-cmip.github.io/Variable-Regirstry/",
+    "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
+  }
+}

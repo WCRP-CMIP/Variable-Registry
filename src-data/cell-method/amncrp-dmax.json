@@ -1,0 +1,12 @@
+{
+    "id": "amncrp-dmax",
+    "validation-key": "amncrp-dmax",
+    "ui-label": "Daily Maximum over Crops",
+    "description": "area: mean where crops time: maximum within days time: mean over days",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

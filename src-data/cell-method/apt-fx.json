@@ -1,0 +1,12 @@
+{
+    "id": "apt-fx",
+    "validation-key": "apt-fx",
+    "ui-label": "Point Values",
+    "description": "area: point",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

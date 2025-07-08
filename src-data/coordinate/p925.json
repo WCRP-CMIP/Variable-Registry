@@ -1,0 +1,13 @@
+{
+    "id": "p925",
+    "validation-key": "p925",
+    "ui-label": "pressure",
+    "description": "925 hPa",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "universal"
+    ]
+}

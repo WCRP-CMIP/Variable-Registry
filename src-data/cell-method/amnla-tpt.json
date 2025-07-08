@@ -1,0 +1,12 @@
+{
+    "id": "amnla-tpt",
+    "validation-key": "amnla-tpt",
+    "ui-label": "Instantaneous Mean over Land",
+    "description": "area: mean where land time: point",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}

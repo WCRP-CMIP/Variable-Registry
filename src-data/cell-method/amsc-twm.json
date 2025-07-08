@@ -1,0 +1,12 @@
+{
+    "id": "amsc-twm",
+    "validation-key": "amsc-twm",
+    "ui-label": "Weighted Time Mean on Stratiform Cloud",
+    "description": "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "universal"
+    ]
+}
