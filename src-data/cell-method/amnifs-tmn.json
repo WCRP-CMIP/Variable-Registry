@@ -7,6 +7,6 @@
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",
-        "universal"
+        "variable"
     ]
 }

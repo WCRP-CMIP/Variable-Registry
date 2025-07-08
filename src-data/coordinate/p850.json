@@ -8,6 +8,6 @@
     "@context": "_context_",
     "type": [
         "wcrp:coordinate",
-        "universal"
+        "variable"
     ]
 }

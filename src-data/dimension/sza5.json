@@ -9,6 +9,6 @@
     "@context": "_context_",
     "type": [
         "wcrp:dimension",
-        "universal"
+        "variable"
     ]
 }
