@@ -3,7 +3,7 @@ description: 'Report a general issue, bug, or request'
 title: 'Issue: <Brief description here>'
 projects: ["WCRP-CMIP/5"]  # WCRP-universe VR project
 labels:
-    - varaibles
+    - variables
     - general
 body:
 
