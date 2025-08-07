@@ -2,11 +2,12 @@
     "id": "ps",
     "validation-key": "ps",
     "ui-label": "ps",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_air_pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

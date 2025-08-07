@@ -2,11 +2,12 @@
     "id": "vegfrac",
     "validation-key": "vegfrac",
     "ui-label": "vegFrac",
+    "description": "",
     "data-type": "real",
     "standard-name": "area_fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

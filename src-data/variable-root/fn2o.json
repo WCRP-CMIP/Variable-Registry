@@ -2,11 +2,12 @@
     "id": "fn2o",
     "validation-key": "fn2o",
     "ui-label": "fN2O",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

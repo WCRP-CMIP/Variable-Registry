@@ -2,11 +2,12 @@
     "id": "zfullo",
     "validation-key": "zfullo",
     "ui-label": "zfullo",
+    "description": "",
     "data-type": "real",
     "standard-name": "depth_below_geoid",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

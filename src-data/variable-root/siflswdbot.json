@@ -2,11 +2,12 @@
     "id": "siflswdbot",
     "validation-key": "siflswdbot",
     "ui-label": "siflswdbot",
+    "description": "",
     "data-type": "real",
     "standard-name": "downwelling_shortwave_flux_in_sea_water_at_sea_ice_base",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

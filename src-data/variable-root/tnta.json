@@ -2,11 +2,12 @@
     "id": "tnta",
     "validation-key": "tnta",
     "ui-label": "tnta",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_air_temperature_due_to_advection",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

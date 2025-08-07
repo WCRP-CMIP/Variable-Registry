@@ -2,11 +2,12 @@
     "id": "pod0",
     "validation-key": "pod0",
     "ui-label": "pod0",
+    "description": "",
     "data-type": "real",
     "standard-name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

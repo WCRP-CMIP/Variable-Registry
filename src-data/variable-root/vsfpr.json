@@ -2,11 +2,12 @@
     "id": "vsfpr",
     "validation-key": "vsfpr",
     "ui-label": "vsfpr",
+    "description": "",
     "data-type": "real",
     "standard-name": "virtual_salt_flux_into_sea_water_due_to_rainfall",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

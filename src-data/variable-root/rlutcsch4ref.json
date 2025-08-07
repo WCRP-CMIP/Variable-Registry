@@ -2,11 +2,12 @@
     "id": "rlutcsch4ref",
     "validation-key": "rlutcsch4ref",
     "ui-label": "rlutcsch4ref",
+    "description": "",
     "data-type": "real",
     "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky_and_reference_mole_fraction_of_methane_in_air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

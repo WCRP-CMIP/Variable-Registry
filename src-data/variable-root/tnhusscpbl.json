@@ -2,11 +2,12 @@
     "id": "tnhusscpbl",
     "validation-key": "tnhusscpbl",
     "ui-label": "tnhusscpbl",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

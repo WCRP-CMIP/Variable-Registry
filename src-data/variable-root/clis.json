@@ -2,11 +2,12 @@
     "id": "clis",
     "validation-key": "clis",
     "ui-label": "clis",
+    "description": "",
     "data-type": "real",
     "standard-name": "mass_fraction_of_stratiform_cloud_ice_in_air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

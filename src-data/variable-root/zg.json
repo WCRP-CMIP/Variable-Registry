@@ -2,11 +2,12 @@
     "id": "zg",
     "validation-key": "zg",
     "ui-label": "zg",
+    "description": "",
     "data-type": "real",
     "standard-name": "geopotential_height",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "orog",
     "validation-key": "orog",
     "ui-label": "orog",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_altitude",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

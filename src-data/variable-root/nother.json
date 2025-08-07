@@ -2,11 +2,12 @@
     "id": "nother",
     "validation-key": "nother",
     "ui-label": "nOther",
+    "description": "",
     "data-type": "real",
     "standard-name": "miscellaneous_living_matter_mass_content_of_nitrogen",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

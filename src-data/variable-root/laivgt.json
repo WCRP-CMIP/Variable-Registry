@@ -2,11 +2,12 @@
     "id": "laivgt",
     "validation-key": "laivgt",
     "ui-label": "laiVgt",
+    "description": "",
     "data-type": "real",
     "standard-name": "leaf_area_index",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "emibbch4",
     "validation-key": "emibbch4",
     "ui-label": "emibbch4",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_atmosphere_mass_content_of_methane_due_to_emission_from_fires",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

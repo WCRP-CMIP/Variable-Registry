@@ -2,11 +2,12 @@
     "id": "wetlandch4",
     "validation-key": "wetlandch4",
     "ui-label": "wetlandCH4",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_net_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_processes",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

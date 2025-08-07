@@ -2,11 +2,12 @@
     "id": "tntogw",
     "validation-key": "tntogw",
     "ui-label": "tntogw",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

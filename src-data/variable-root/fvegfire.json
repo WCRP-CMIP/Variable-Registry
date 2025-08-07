@@ -2,11 +2,12 @@
     "id": "fvegfire",
     "validation-key": "fvegfire",
     "ui-label": "fVegFire",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_vegetation_in_fires",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

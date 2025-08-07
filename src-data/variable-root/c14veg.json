@@ -2,11 +2,12 @@
     "id": "c14veg",
     "validation-key": "c14veg",
     "ui-label": "c14Veg",
+    "description": "",
     "data-type": "real",
     "standard-name": "vegetation_mass_content_of_14C",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

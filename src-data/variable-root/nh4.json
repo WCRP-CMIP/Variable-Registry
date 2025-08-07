@@ -2,11 +2,12 @@
     "id": "nh4",
     "validation-key": "nh4",
     "ui-label": "nh4",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole_concentration_of_ammonium_in_sea_water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

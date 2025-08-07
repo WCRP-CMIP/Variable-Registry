@@ -2,11 +2,12 @@
     "id": "sftlaf",
     "validation-key": "sftlaf",
     "ui-label": "sftlaf",
+    "description": "",
     "data-type": "real",
     "standard-name": "area_fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

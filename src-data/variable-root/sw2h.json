@@ -2,11 +2,12 @@
     "id": "sw2h",
     "validation-key": "sw2h",
     "ui-label": "sw2H",
+    "description": "",
     "data-type": "real",
     "standard-name": "isotope_ratio_of_2H_to_1H_in_sea_water_excluding_solutes_and_solids",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

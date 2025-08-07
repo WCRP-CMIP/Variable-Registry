@@ -2,11 +2,12 @@
     "id": "areacell",
     "validation-key": "areacell",
     "ui-label": "areacell",
+    "description": "",
     "data-type": "real",
     "standard-name": "cell_area",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

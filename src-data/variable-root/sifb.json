@@ -2,11 +2,12 @@
     "id": "sifb",
     "validation-key": "sifb",
     "ui-label": "sifb",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea_ice_freeboard",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "swelut",
     "validation-key": "swelut",
     "ui-label": "sweLut",
+    "description": "",
     "data-type": "real",
     "standard-name": "lwe_thickness_of_surface_snow_amount",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

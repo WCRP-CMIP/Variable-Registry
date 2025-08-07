@@ -2,11 +2,12 @@
     "id": "fnlittersoil",
     "validation-key": "fnlittersoil",
     "ui-label": "fNLitterSoil",
+    "description": "",
     "data-type": "real",
     "standard-name": "nitrogen_mass_flux_into_soil_from_litter",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

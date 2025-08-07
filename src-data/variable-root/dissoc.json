@@ -2,11 +2,12 @@
     "id": "dissoc",
     "validation-key": "dissoc",
     "ui-label": "dissoc",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole_concentration_of_dissolved_organic_carbon_in_sea_water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

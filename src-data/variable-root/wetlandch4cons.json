@@ -2,11 +2,12 @@
     "id": "wetlandch4cons",
     "validation-key": "wetlandch4cons",
     "ui-label": "wetlandCH4cons",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_downward_mass_flux_of_methane_due_to_wetland_biological_consumption",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

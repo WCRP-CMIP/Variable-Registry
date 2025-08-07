@@ -2,11 +2,12 @@
     "id": "dxto",
     "validation-key": "dxto",
     "ui-label": "dxto",
+    "description": "",
     "data-type": "real",
     "standard-name": "cell_x_length",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

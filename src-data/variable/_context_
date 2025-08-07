@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/variable/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/variable/",
+            "area-label": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/area-label/_context_"
+            },
+            "cell-methods": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/cell-method/_context_"
+            },
+            "dimensions": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/area-label/_context_"
+            },
+            "horizontal-label": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/horizontal-label/_context_"
+            },
+            "model-realm": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/WCRP-universe/realm/_context_"
+            },
+            "temporal-label": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/temporal-label/_context_"
+            },
+            "vertical-label": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/vertical-label/_context_"
+            }
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
+}
