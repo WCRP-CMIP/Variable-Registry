@@ -28,6 +28,10 @@
 
 ### Contexts of External Mappings
 
+- **`Variable-root`** → `@type: @id`
+  - Context: [https://wcrp-cmip.github.io/Variable-Registry/variable-root/\_context\_](https://wcrp-cmip.github.io/Variable-Registry/variable-root/_context_)
+  - Source: `Variable-Registry/variable-root/_context_`
+
 - **`cell-methods`** → `@type: @id`
   - Context: [https://wcrp-cmip.github.io/Variable-Registry/cell-method/\_context\_](https://wcrp-cmip.github.io/Variable-Registry/cell-method/_context_)
   - Source: `Variable-Registry/cell-method/_context_`

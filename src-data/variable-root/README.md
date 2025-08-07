@@ -26,6 +26,15 @@
 ## 🔗 Links and Dependencies
 
 
+### External Dependencies
+**variable-root** depends on **1 external vocabularies**  
+
+The following external vocabularies are required to fully describe the data:
+
+
+- `standard-name → cf:standard-name` [link](https://wcrp-cmip.github.io/CF/standard-name/)
+
+
 ### Contexts of External Mappings
 
 - **`standard-name`** → `@type: @id`
@@ -46,6 +55,9 @@
    [**unknown**]
   No Pydantic model found.
 - **`ui-label`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`description`**  
    [**unknown**]
   No Pydantic model found.
 - **`data-type`**  

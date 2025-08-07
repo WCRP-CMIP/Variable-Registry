@@ -26,6 +26,15 @@
 ## 🔗 Links and Dependencies
 
 
+### External Dependencies
+**data-request** depends on **1 external vocabularies**  
+
+The following external vocabularies are required to fully describe the data:
+
+
+- `variable → vr:variable` [link](https://wcrp-cmip.github.io/Variable-Registry/variable/)
+
+
 ### Contexts of External Mappings
 
 - **`variables`** → `@type: @id`

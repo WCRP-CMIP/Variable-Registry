@@ -21,11 +21,14 @@
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/Variable-Registry//tree/main/src-data/horizontal-label) |
 
 </section>
-<section id='links'>
+
+<section id="links">
 
 ## 🔗 Links and Dependencies
 
-No context file found!!!</section> 
+No external links or dependencies found.
+
+</section>
 
 
 <section id="schema">
