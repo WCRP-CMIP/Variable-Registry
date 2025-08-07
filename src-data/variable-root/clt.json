@@ -2,12 +2,11 @@
     "id": "clt",
     "validation-key": "clt",
     "ui-label": "clt",
-    "description": "",
     "data-type": "real",
     "standard-name": "cloud_area_fraction",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

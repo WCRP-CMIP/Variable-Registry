@@ -2,12 +2,11 @@
     "id": "agessc",
     "validation-key": "agessc",
     "ui-label": "agessc",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_water_age_since_surface_contact",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

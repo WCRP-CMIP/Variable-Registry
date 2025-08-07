@@ -1,17 +1,11 @@
 {
-    "@context": [
-        "../_context_",
-        {
-            "@base": "https://wcrp-cmip.github.io/Variable-Registry/variable-root/",
-            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/variable-root/",
-            "standard-name": {
-                "@type": "@id",
-                "@context": "https://wcrp-cmip.github.io/CF/standard-name/_context_"
-            }
+    "@context": {
+        "@base": "https://wcrp-cmip.github.io/Variable-Registry/variable-root/",
+        "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/variable-root/",
+        "standard-name": {
+            "@type": "@id",
+            "@context": "https://wcrp-cmip.github.io/CF/standard-name/_context_"
         }
-    ],
-    "@embed": "@always",
-    "@type": [
-        "vr"
-    ]
+    },
+    "@embed": "@always"
 }

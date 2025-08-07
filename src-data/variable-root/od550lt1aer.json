@@ -2,12 +2,11 @@
     "id": "od550lt1aer",
     "validation-key": "od550lt1aer",
     "ui-label": "od550lt1aer",
-    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere_optical_thickness_due_to_pm1_ambient_aerosol_particles",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

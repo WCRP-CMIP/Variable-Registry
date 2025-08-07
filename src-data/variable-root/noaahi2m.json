@@ -2,12 +2,11 @@
     "id": "noaahi2m",
     "validation-key": "noaahi2m",
     "ui-label": "noaahi2m",
-    "description": "",
     "data-type": "real",
     "standard-name": "heat_index_of_air_temperature",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

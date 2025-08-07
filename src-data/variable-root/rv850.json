@@ -2,12 +2,11 @@
     "id": "rv850",
     "validation-key": "rv850",
     "ui-label": "rv850",
-    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere_relative_vorticity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

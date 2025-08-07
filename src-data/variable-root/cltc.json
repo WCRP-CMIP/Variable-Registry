@@ -2,12 +2,11 @@
     "id": "cltc",
     "validation-key": "cltc",
     "ui-label": "cltc",
-    "description": "",
     "data-type": "real",
     "standard-name": "convective_cloud_area_fraction",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

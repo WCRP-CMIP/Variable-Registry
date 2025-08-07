@@ -2,12 +2,11 @@
     "id": "mpwswell",
     "validation-key": "mpwswell",
     "ui-label": "mpwswell",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_surface_swell_wave_mean_period",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

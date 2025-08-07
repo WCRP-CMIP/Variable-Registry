@@ -2,12 +2,11 @@
     "id": "xvelsurf",
     "validation-key": "xvelsurf",
     "ui-label": "xvelsurf",
-    "description": "",
     "data-type": "real",
     "standard-name": "land_ice_surface_x_velocity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

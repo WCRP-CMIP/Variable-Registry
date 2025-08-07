@@ -2,12 +2,11 @@
     "id": "expsiob",
     "validation-key": "expsiob",
     "ui-label": "expsiob",
-    "description": "",
     "data-type": "real",
     "standard-name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

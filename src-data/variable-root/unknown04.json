@@ -2,12 +2,11 @@
     "id": "unknown04",
     "validation-key": "unknown04",
     "ui-label": "unknown04",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_surface_wave_from_direction_at_variance_spectral_density_maximum",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "fnproduct",
     "validation-key": "fnproduct",
     "ui-label": "fNProduct",
-    "description": "",
     "data-type": "real",
     "standard-name": "nitrogen_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

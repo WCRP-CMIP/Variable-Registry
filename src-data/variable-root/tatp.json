@@ -2,12 +2,11 @@
     "id": "tatp",
     "validation-key": "tatp",
     "ui-label": "tatp",
-    "description": "",
     "data-type": "real",
     "standard-name": "tropopause_air_temperature",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

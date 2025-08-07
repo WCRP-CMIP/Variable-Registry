@@ -2,12 +2,11 @@
     "id": "flittersoil",
     "validation-key": "flittersoil",
     "ui-label": "fLitterSoil",
-    "description": "",
     "data-type": "real",
     "standard-name": "carbon_mass_flux_into_soil_from_litter",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

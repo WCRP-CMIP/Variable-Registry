@@ -2,12 +2,11 @@
     "id": "limirrpico",
     "validation-key": "limirrpico",
     "ui-label": "limirrpico",
-    "description": "",
     "data-type": "real",
     "standard-name": "growth_limitation_of_picophytoplankton_due_to_solar_irradiance",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

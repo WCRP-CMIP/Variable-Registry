@@ -2,12 +2,11 @@
     "id": "sfriver",
     "validation-key": "sfriver",
     "ui-label": "sfriver",
-    "description": "",
     "data-type": "real",
     "standard-name": "salt_flux_into_sea_water_from_rivers",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "siitdsnconc",
     "validation-key": "siitdsnconc",
     "ui-label": "siitdsnconc",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface_snow_area_fraction",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

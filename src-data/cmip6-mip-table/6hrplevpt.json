@@ -1,0 +1,43 @@
+{
+    "id": "6hrplevpt",
+    "validation-key": "6hrplevpt",
+    "ui-label": "6hrPlevPt",
+    "description": "CMIP6 CMOR table 6hrPlevPt containing variables",
+    "variables": [
+        "hur_tpt-100hPa-hxy-u",
+        "hur_tpt-500hPa-hxy-air",
+        "hur_tpt-850hPa-hxy-air",
+        "hus_tpt-p7h-hxy-air",
+        "intuaw_tpt-u-hxy-u",
+        "intvaw_tpt-u-hxy-u",
+        "pr_tpt-u-hxy-u",
+        "prw_tpt-u-hxy-u",
+        "psl_tpt-u-hxy-u",
+        "rv850_tpt-850hPa-hxy-air",
+        "ta_tpt-p3-hxy-air",
+        "ta_tpt-p7h-hxy-air",
+        "ta_tpt-p5u-hxy-u",
+        "ts_tpt-u-hxy-u",
+        "ua_tpt-p3-hxy-air",
+        "ua_tpt-200hPa-hxy-u",
+        "ua_tpt-p7h-hxy-air",
+        "uas_tpt-h10m-hxy-u",
+        "ua_tpt-p5u-hxy-air",
+        "va_tpt-p3-hxy-air",
+        "va_tpt-200hPa-hxy-u",
+        "va_tpt-p7h-hxy-air",
+        "vas_tpt-h10m-hxy-u",
+        "va_tpt-p5u-hxy-air",
+        "zg_tpt-p3-hxy-air",
+        "zg_tpt-500hPa-hxy-air",
+        "zg_tpt-700hPa-hxy-u",
+        "zg_tpt-p7h-hxy-air",
+        "zg_tpt-925hPa-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6"
+    ]
+}

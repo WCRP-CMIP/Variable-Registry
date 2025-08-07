@@ -2,12 +2,11 @@
     "id": "tnhusscp",
     "validation-key": "tnhusscp",
     "ui-label": "tnhusscp",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

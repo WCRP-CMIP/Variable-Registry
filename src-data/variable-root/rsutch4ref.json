@@ -2,12 +2,11 @@
     "id": "rsutch4ref",
     "validation-key": "rsutch4ref",
     "ui-label": "rsutch4ref",
-    "description": "",
     "data-type": "real",
     "standard-name": "toa_outgoing_shortwave_flux_assuming_reference_mole_fraction_of_methane_in_air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

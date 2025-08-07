@@ -2,12 +2,11 @@
     "id": "rld",
     "validation-key": "rld",
     "ui-label": "rld",
-    "description": "",
     "data-type": "real",
     "standard-name": "downwelling_longwave_flux_in_air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

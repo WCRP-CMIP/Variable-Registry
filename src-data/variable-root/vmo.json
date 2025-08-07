@@ -2,12 +2,11 @@
     "id": "vmo",
     "validation-key": "vmo",
     "ui-label": "vmo",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean_mass_y_transport",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

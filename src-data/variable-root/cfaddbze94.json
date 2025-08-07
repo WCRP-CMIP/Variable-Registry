@@ -2,12 +2,11 @@
     "id": "cfaddbze94",
     "validation-key": "cfaddbze94",
     "ui-label": "cfadDbze94",
-    "description": "",
     "data-type": "real",
     "standard-name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

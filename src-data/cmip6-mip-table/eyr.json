@@ -1,0 +1,29 @@
+{
+    "id": "eyr",
+    "validation-key": "eyr",
+    "ui-label": "Eyr",
+    "description": "CMIP6 CMOR table Eyr containing variables",
+    "variables": [
+        "baresoilFrac_tavg-u-hxy-u",
+        "cLitterLut_tpt-u-hxy-multi",
+        "cProductLut_tpt-u-hxy-multi",
+        "cropFrac_tavg-u-hxy-u",
+        "cSoilLut_tpt-u-hxy-multi",
+        "cVegLut_tpt-u-hxy-multi",
+        "fracInLut_tsum-u-hxy-lnd",
+        "fracLut_tpt-u-hxy-u",
+        "fracOutLut_tsum-u-hxy-lnd",
+        "grassFrac_tavg-u-hxy-u",
+        "residualFrac_tavg-u-hxy-u",
+        "shrubFrac_tavg-u-hxy-u",
+        "treeFrac_tavg-u-hxy-u",
+        "vegFrac_tavg-u-hxy-u",
+        "zfullo_tavg-ol-hxy-sea"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6"
+    ]
+}

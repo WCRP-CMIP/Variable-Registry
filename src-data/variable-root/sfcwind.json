@@ -2,12 +2,11 @@
     "id": "sfcwind",
     "validation-key": "sfcwind",
     "ui-label": "sfcWind",
-    "description": "",
     "data-type": "real",
     "standard-name": "wind_speed",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

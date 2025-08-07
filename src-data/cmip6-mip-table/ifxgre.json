@@ -1,0 +1,18 @@
+{
+    "id": "ifxgre",
+    "validation-key": "ifxgre",
+    "ui-label": "IfxGre",
+    "description": "CMIP6 CMOR table IfxGre containing variables",
+    "variables": [
+        "areacell_ti-u-hxy-u",
+        "hfgeoubed_ti-u-hxy-gis",
+        "lithk_ti-u-hxy-is",
+        "topg_ti-u-hxy-gis"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6"
+    ]
+}

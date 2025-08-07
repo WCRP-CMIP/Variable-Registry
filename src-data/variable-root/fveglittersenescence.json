@@ -2,12 +2,11 @@
     "id": "fveglittersenescence",
     "validation-key": "fveglittersenescence",
     "ui-label": "fVegLitterSenescence",
-    "description": "",
     "data-type": "real",
     "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_senescence",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

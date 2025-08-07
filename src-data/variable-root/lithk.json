@@ -2,12 +2,11 @@
     "id": "lithk",
     "validation-key": "lithk",
     "ui-label": "lithk",
-    "description": "",
     "data-type": "real",
     "standard-name": "land_ice_thickness",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

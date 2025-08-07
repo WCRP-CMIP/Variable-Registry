@@ -2,12 +2,11 @@
     "id": "difvho",
     "validation-key": "difvho",
     "ui-label": "difvho",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean_vertical_heat_diffusivity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

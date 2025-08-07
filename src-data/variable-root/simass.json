@@ -2,12 +2,11 @@
     "id": "simass",
     "validation-key": "simass",
     "ui-label": "simass",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_ice_amount",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

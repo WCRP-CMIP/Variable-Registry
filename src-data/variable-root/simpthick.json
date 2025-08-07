@@ -2,12 +2,11 @@
     "id": "simpthick",
     "validation-key": "simpthick",
     "ui-label": "simpthick",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_ice_melt_pond_thickness",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "siextent",
     "validation-key": "siextent",
     "ui-label": "siextent",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea_ice_extent",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

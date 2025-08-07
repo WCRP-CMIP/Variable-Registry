@@ -2,12 +2,11 @@
     "id": "emibc",
     "validation-key": "emibc",
     "ui-label": "emibc",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_emission",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

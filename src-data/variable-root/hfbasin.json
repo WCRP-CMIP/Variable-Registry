@@ -2,12 +2,11 @@
     "id": "hfbasin",
     "validation-key": "hfbasin",
     "ui-label": "hfbasin",
-    "description": "",
     "data-type": "real",
     "standard-name": "northward_ocean_heat_transport",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

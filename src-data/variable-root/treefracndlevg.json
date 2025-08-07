@@ -2,12 +2,11 @@
     "id": "treefracndlevg",
     "validation-key": "treefracndlevg",
     "ui-label": "treeFracNdlEvg",
-    "description": "",
     "data-type": "real",
     "standard-name": "area_fraction",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

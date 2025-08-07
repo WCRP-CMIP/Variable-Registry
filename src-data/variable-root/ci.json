@@ -2,12 +2,11 @@
     "id": "ci",
     "validation-key": "ci",
     "ui-label": "ci",
-    "description": "",
     "data-type": "real",
     "standard-name": "convection_time_fraction",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

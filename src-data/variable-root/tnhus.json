@@ -2,12 +2,11 @@
     "id": "tnhus",
     "validation-key": "tnhus",
     "ui-label": "tnhus",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_specific_humidity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

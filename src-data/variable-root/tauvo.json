@@ -2,12 +2,11 @@
     "id": "tauvo",
     "validation-key": "tauvo",
     "ui-label": "tauvo",
-    "description": "",
     "data-type": "real",
     "standard-name": "downward_y_stress_at_sea_water_surface",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

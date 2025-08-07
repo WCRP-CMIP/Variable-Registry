@@ -2,12 +2,11 @@
     "id": "chepno3",
     "validation-key": "chepno3",
     "ui-label": "chepno3",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_particles_due_to_net_chemical_production",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "toz",
     "validation-key": "toz",
     "ui-label": "toz",
-    "description": "",
     "data-type": "real",
     "standard-name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }
