@@ -2,11 +2,12 @@
     "id": "flulccatmlut",
     "validation-key": "flulccatmlut",
     "ui-label": "fLulccAtmLut",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_land_use_or_land_cover_change_excluding_forestry_and_agricultural_products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

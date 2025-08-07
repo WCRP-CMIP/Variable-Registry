@@ -2,11 +2,12 @@
     "id": "wtem",
     "validation-key": "wtem",
     "ui-label": "wtem",
+    "description": "",
     "data-type": "real",
     "standard-name": "upward_transformed_eulerian_mean_air_velocity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

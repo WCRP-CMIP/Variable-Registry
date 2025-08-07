@@ -2,11 +2,12 @@
     "id": "od550ss",
     "validation-key": "od550ss",
     "ui-label": "od550ss",
+    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "hfgeou",
     "validation-key": "hfgeou",
     "ui-label": "hfgeou",
+    "description": "",
     "data-type": "real",
     "standard-name": "upward_geothermal_heat_flux_at_sea_floor",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

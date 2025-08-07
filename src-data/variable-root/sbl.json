@@ -2,11 +2,12 @@
     "id": "sbl",
     "validation-key": "sbl",
     "ui-label": "sbl",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "epp",
     "validation-key": "epp",
     "ui-label": "epp",
+    "description": "",
     "data-type": "real",
     "standard-name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

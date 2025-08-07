@@ -2,11 +2,12 @@
     "id": "rsutcs4co2",
     "validation-key": "rsutcs4co2",
     "ui-label": "rsutcs4co2",
+    "description": "",
     "data-type": "real",
     "standard-name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "od550bb",
     "validation-key": "od550bb",
     "ui-label": "od550bb",
+    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere_optical_thickness_due_to_biomass_burning_particulate_matter_ambient_aerosol_particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

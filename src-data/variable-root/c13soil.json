@@ -2,11 +2,12 @@
     "id": "c13soil",
     "validation-key": "c13soil",
     "ui-label": "c13Soil",
+    "description": "",
     "data-type": "real",
     "standard-name": "soil_mass_content_of_13C",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "litempbot",
     "validation-key": "litempbot",
     "ui-label": "litempbot",
+    "description": "",
     "data-type": "real",
     "standard-name": "land_ice_basal_temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

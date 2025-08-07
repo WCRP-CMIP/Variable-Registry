@@ -2,11 +2,12 @@
     "id": "obvfsq",
     "validation-key": "obvfsq",
     "ui-label": "obvfsq",
+    "description": "",
     "data-type": "real",
     "standard-name": "square_of_brunt_vaisala_frequency_in_sea_water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

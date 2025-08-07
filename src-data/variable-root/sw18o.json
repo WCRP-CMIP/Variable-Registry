@@ -2,11 +2,12 @@
     "id": "sw18o",
     "validation-key": "sw18o",
     "ui-label": "sw18O",
+    "description": "",
     "data-type": "real",
     "standard-name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

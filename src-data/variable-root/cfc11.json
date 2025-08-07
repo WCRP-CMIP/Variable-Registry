@@ -2,11 +2,12 @@
     "id": "cfc11",
     "validation-key": "cfc11",
     "ui-label": "cfc11",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole_fraction_of_cfc11_in_air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

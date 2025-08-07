@@ -2,11 +2,12 @@
     "id": "gppc13",
     "validation-key": "gppc13",
     "ui-label": "gppc13",
+    "description": "",
     "data-type": "real",
     "standard-name": "gross_primary_productivity_of_biomass_expressed_as_13C",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "fproductdecomp",
     "validation-key": "fproductdecomp",
     "ui-label": "fProductDecomp",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_forestry_and_agricultural_products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

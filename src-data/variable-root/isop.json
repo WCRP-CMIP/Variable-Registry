@@ -2,11 +2,12 @@
     "id": "isop",
     "validation-key": "isop",
     "ui-label": "isop",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole_fraction_of_isoprene_in_air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

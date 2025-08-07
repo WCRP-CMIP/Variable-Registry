@@ -2,11 +2,12 @@
     "id": "hfgeoubed",
     "validation-key": "hfgeoubed",
     "ui-label": "hfgeoubed",
+    "description": "",
     "data-type": "real",
     "standard-name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

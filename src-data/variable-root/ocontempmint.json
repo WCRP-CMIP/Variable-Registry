@@ -2,11 +2,12 @@
     "id": "ocontempmint",
     "validation-key": "ocontempmint",
     "ui-label": "ocontempmint",
+    "description": "",
     "data-type": "real",
     "standard-name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

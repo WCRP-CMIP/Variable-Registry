@@ -2,11 +2,12 @@
     "id": "sisndmasssi",
     "validation-key": "sisndmasssi",
     "ui-label": "sisndmasssi",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency_of_surface_snow_amount_due_to_conversion_of_snow_to_sea_ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

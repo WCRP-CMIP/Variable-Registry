@@ -2,11 +2,12 @@
     "id": "raleaf",
     "validation-key": "raleaf",
     "ui-label": "raLeaf",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_leaves",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "dxvo",
     "validation-key": "dxvo",
     "ui-label": "dxvo",
+    "description": "",
     "data-type": "real",
     "standard-name": "cell_x_length",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

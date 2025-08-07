@@ -1,35 +1,36 @@
-
+[View in HTML](https://wcrp-cmip.github.io/Variable-Registry/coordinate/coordinate)
 
 <section id="description">
 
-# Coordinate  (universal)
-
-
+# Coordinate  (vr)
 
 ## Description
 [View in HTML](https://wcrp-cmip.github.io/Variable-Registry/coordinate/coordinate)
 
-[View in HTML](https://wcrp-cmip.github.io/Variable-Registry/coordinate/coordinate)
-
 </section>
-
-
 
 <section id="info">
 
-
 | Item | Reference |
 | --- | --- |
-| Type | `wrcp:coordinate` |
+| Type | `vr:coordinate` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `vr:coordinate` |
 | Expanded reference link | [https://wcrp-cmip.github.io/Variable-Registry/coordinate](https://wcrp-cmip.github.io/Variable-Registry/coordinate) |
-| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/coordinate) |
-
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/Variable-Registry//tree/main/src-data/coordinate) |
 
 </section>
-    No external links found. 
+
+<section id="links">
+
+## 🔗 Links and Dependencies
+
+No external links or dependencies found.
+
+</section>
+
+
 <section id="schema">
 
 ## Content Schema
@@ -60,9 +61,6 @@
   No Pydantic model found.
 
 
-
-
-
 </section>   
 
 <section id="usage">
@@ -70,35 +68,34 @@
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. 
-eg. https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/coordinate/deltasigt.json
+#### Direct
+To view a file in a browser use the content link with `.json` appended.
 
-### Getting a File. 
+For example: `https://github.com/wcrp-cmip/Variable-Registry//tree/main/src-data/coordinate/deltasigt.json`
+
+#### Use cmipld.js [in development]
+[View self resolving files here](https://wcrp-cmip.github.io/CMIPLD/viewer/index.html?uri=vr%253Acoordinate/deltasigt)
+
+### Getting a File
 
 A short example of how to integrate the computed ld file into your code. 
 
 ```python
-
 import cmipld
-cmipld.get( "vr:coordinate/deltasigt")
-
+cmipld.get("vr:coordinate/deltasigt")
 ```
 
 ### Framing
 Framing is a way we can filter the downloaded data to match what we want. 
 ```python
 frame = {
-            "@context": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/_context_",
-            "@type": "wcrp:coordinate",
-            "keys we want": "",
-            "@explicit": True
-
-        }
+    "@context": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/_context_",
+    "@type": "vr:coordinate",
+    "keys we want": "",
+    "@explicit": True
+}
         
 import cmipld
-cmipld.frame( "vr:coordinate/deltasigt" , frame)
-
+cmipld.frame("vr:coordinate/deltasigt", frame)
 ```
 </section>
-
-    

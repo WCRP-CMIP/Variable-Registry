@@ -2,11 +2,12 @@
     "id": "clwmodis",
     "validation-key": "clwmodis",
     "ui-label": "clwmodis",
+    "description": "",
     "data-type": "real",
     "standard-name": "modis_liquid_topped_cloud_area_fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "raother",
     "validation-key": "raother",
     "ui-label": "raOther",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_miscellaneous_living_matter",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

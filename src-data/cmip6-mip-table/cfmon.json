@@ -101,6 +101,7 @@
     "type": [
         "wcrp:mip-table",
         "variable-registry",
-        "cmip6"
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

@@ -2,11 +2,12 @@
     "id": "netatmoslandc13flux",
     "validation-key": "netatmoslandc13flux",
     "ui-label": "netAtmosLandC13Flux",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "frfe",
     "validation-key": "frfe",
     "ui-label": "frfe",
+    "description": "",
     "data-type": "real",
     "standard-name": "minus_tendency_of_ocean_mole_content_of_iron_due_to_sedimentation",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

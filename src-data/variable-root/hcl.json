@@ -2,11 +2,12 @@
     "id": "hcl",
     "validation-key": "hcl",
     "ui-label": "hcl",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole_fraction_of_hydrogen_chloride_in_air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }
