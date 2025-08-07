@@ -1,0 +1,11 @@
+{
+    "id": "d0m",
+    "validation-key": "d0m",
+    "ui-label": "Surface Level",
+    "description": "surface",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

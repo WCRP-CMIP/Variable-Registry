@@ -1,0 +1,13 @@
+{
+    "id": "tropo3ste",
+    "validation-key": "tropo3ste",
+    "ui-label": "tropo3ste",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-ozone-in-air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

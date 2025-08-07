@@ -1,0 +1,34 @@
+{
+    "id": "ta_tavg-p19-hxy-air",
+    "validation-key": "ta_tavg-p19-hxy-air",
+    "ui-label": "Air Temperature",
+    "description": "Air Temperature",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "ta",
+    "physical-parameter-name": "ta",
+    "positive": "",
+    "remove-cmip6-table": "day",
+    "spatial-shape": "XY-P19",
+    "standard-name": "air_temperature",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "K",
+    "variable-root": "ta",
+    "vertical-label": "p19",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

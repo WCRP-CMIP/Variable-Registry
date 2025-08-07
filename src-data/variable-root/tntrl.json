@@ -1,0 +1,13 @@
+{
+    "id": "tntrl",
+    "validation-key": "tntrl",
+    "ui-label": "tntrl",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-air-temperature-due-to-longwave-heating",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

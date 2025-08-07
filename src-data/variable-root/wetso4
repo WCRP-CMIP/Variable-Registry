@@ -1,0 +1,13 @@
+{
+    "id": "wetso4",
+    "validation-key": "wetso4",
+    "ui-label": "wetso4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-wet-deposition",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

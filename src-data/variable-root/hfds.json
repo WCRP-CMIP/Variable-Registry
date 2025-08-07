@@ -1,0 +1,13 @@
+{
+    "id": "hfds",
+    "validation-key": "hfds",
+    "ui-label": "hfds",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-downward-heat-flux-in-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

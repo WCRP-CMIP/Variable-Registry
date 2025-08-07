@@ -1,0 +1,33 @@
+{
+    "id": "dispkexyfo_tavg-u-hxy-sea",
+    "validation-key": "dispkexyfo_tavg-u-hxy-sea",
+    "ui-label": "Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction",
+    "description": "Depth integrated impacts on kinetic energy arising from lateral frictional dissipation associated with Laplacian and/or biharmonic viscosity. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "dispkexyfo",
+    "physical-parameter-name": "dispkexyfo",
+    "positive": "",
+    "remove-cmip6-table": "Oyr",
+    "spatial-shape": "XY-int",
+    "standard-name": "ocean_kinetic_energy_dissipation_per_unit_area_due_to_xy_friction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W m-2",
+    "variable-root": "dispkexyfo",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

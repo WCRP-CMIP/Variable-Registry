@@ -1,0 +1,13 @@
+{
+    "id": "tauu",
+    "validation-key": "tauu",
+    "ui-label": "tauu",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-downward-eastward-stress",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

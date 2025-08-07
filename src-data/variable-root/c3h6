@@ -1,0 +1,13 @@
+{
+    "id": "c3h6",
+    "validation-key": "c3h6",
+    "ui-label": "c3h6",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-propene-in-air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

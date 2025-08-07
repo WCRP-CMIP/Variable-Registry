@@ -1,0 +1,11 @@
+{
+    "id": "scl",
+    "validation-key": "scl",
+    "ui-label": "Stratiform Cloud",
+    "description": "stratiform_cloud",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

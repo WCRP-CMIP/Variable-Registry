@@ -1,0 +1,13 @@
+{
+    "id": "p200",
+    "validation-key": "p200",
+    "ui-label": "pressure",
+    "description": "200 hPa",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "typesever",
+    "validation-key": "typesever",
+    "ui-label": "surface type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

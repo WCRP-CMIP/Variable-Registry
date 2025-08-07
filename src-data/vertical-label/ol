@@ -1,0 +1,11 @@
+{
+    "id": "ol",
+    "validation-key": "ol",
+    "ui-label": "Ocean Model Levels",
+    "description": "ocean model levels",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

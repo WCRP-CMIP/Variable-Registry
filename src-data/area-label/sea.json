@@ -1,0 +1,11 @@
+{
+    "id": "sea",
+    "validation-key": "sea",
+    "ui-label": "Sea",
+    "description": "sea",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

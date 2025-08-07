@@ -1,0 +1,11 @@
+{
+    "id": "tmaxstat",
+    "validation-key": "tmaxstat",
+    "ui-label": "Maximum Statistic",
+    "description": "maximum (or mean of daily maxima) statistic",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

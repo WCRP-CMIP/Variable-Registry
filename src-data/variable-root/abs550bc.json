@@ -1,0 +1,13 @@
+{
+    "id": "abs550bc",
+    "validation-key": "abs550bc",
+    "ui-label": "abs550bc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-black-carbon-ambient-aerosol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

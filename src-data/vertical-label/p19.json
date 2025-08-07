@@ -1,0 +1,11 @@
+{
+    "id": "p19",
+    "validation-key": "p19",
+    "ui-label": "19 Pressure Levels",
+    "description": "19 pressure levels",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

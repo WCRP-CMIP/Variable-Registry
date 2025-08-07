@@ -1,0 +1,12 @@
+{
+    "id": "amnsi-tpt",
+    "validation-key": "amnsi-tpt",
+    "ui-label": "Instantaneous over Sea-Ice",
+    "description": "area: mean where sea_ice",
+    "mask": "siconc",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

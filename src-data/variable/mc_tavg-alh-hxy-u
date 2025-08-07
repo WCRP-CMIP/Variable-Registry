@@ -1,0 +1,34 @@
+{
+    "id": "mc_tavg-alh-hxy-u",
+    "validation-key": "mc_tavg-alh-hxy-u",
+    "ui-label": "Convective Mass Flux",
+    "description": "The net mass flux should represent the difference between the updraft and downdraft components.  This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "mc",
+    "physical-parameter-name": "mc",
+    "positive": "up",
+    "remove-cmip6-table": "CFday",
+    "spatial-shape": "XY-AH",
+    "standard-name": "atmosphere_net_upward_convective_mass_flux",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "mc",
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

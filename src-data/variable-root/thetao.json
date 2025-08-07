@@ -1,0 +1,13 @@
+{
+    "id": "thetao",
+    "validation-key": "thetao",
+    "ui-label": "thetao",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-water-potential-temperature",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

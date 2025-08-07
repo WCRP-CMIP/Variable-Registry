@@ -1,0 +1,13 @@
+{
+    "id": "lat",
+    "validation-key": "lat",
+    "ui-label": "lat",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "latitude",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

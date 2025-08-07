@@ -1,0 +1,13 @@
+{
+    "id": "co",
+    "validation-key": "co",
+    "ui-label": "co",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-carbon-monoxide-in-air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

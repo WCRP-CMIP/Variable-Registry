@@ -1,0 +1,13 @@
+{
+    "id": "ocontemppsmadvect",
+    "validation-key": "ocontemppsmadvect",
+    "ui-label": "ocontemppsmadvect",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-conservative-temperature-expressed-as-heat-content-due-to-parameterized-submesoscale-eddy-advection",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

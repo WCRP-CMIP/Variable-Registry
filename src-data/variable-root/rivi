@@ -1,0 +1,13 @@
+{
+    "id": "rivi",
+    "validation-key": "rivi",
+    "ui-label": "rivi",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "incoming-water-volume-transport-along-river-channel",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "intpbp_tavg-u-hxy-sea",
+    "validation-key": "intpbp_tavg-u-hxy-sea",
+    "ui-label": "Phosphorus Production",
+    "description": "Vertically integrated biogenic phosphorus production",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "intpbp",
+    "physical-parameter-name": "intpbp",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-int",
+    "standard-name": "tendency_of_ocean_mole_content_of_phosphorus_due_to_biological_production",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "intpbp",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

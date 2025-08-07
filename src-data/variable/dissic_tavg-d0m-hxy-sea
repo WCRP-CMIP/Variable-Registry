@@ -1,0 +1,33 @@
+{
+    "id": "dissic_tavg-d0m-hxy-sea",
+    "validation-key": "dissic_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Dissolved Inorganic Carbon Concentration",
+    "description": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "dissicos",
+    "physical-parameter-name": "dissicos",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3",
+    "variable-root": "dissic",
+    "vertical-label": "d0m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

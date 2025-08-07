@@ -1,0 +1,11 @@
+{
+    "id": "si",
+    "validation-key": "si",
+    "ui-label": "Sea Ice",
+    "description": "sea_ice",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

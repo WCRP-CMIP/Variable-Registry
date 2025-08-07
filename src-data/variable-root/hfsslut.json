@@ -1,0 +1,13 @@
+{
+    "id": "hfsslut",
+    "validation-key": "hfsslut",
+    "ui-label": "hfssLut",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-sensible-heat-flux",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

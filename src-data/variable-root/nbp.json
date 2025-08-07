@@ -1,0 +1,13 @@
+{
+    "id": "nbp",
+    "validation-key": "nbp",
+    "ui-label": "nbp",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

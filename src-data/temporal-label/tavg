@@ -1,0 +1,11 @@
+{
+    "id": "tavg",
+    "validation-key": "tavg",
+    "ui-label": "Mean Statistic",
+    "description": "mean",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "emidms_tavg-u-hxy-u",
+    "validation-key": "emidms_tavg-u-hxy-u",
+    "ui-label": "Total Emission Rate of DMS",
+    "description": "Integrate 3D emission field vertically to 2d field.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "emidms",
+    "physical-parameter-name": "emidms",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_dimethyl_sulfide_due_to_emission",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "emidms",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

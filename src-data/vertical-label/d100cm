@@ -1,0 +1,11 @@
+{
+    "id": "d100cm",
+    "validation-key": "d100cm",
+    "ui-label": "10 Centimeter Depth",
+    "description": "10 cm depth",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

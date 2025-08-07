@@ -1,0 +1,33 @@
+{
+    "id": "sieqthick_tavg-u-hxy-u",
+    "validation-key": "sieqthick_tavg-u-hxy-u",
+    "ui-label": "Sea-Ice Volume per Area",
+    "description": "Total volume of sea ice divided by grid-cell area, also known as the equivalent thickness of sea ice.",
+    "area-label": "u",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "seaice",
+    "out-name": "sivol",
+    "physical-parameter-name": "sivol",
+    "positive": "",
+    "remove-cmip6-table": "SImon",
+    "spatial-shape": "XY-na",
+    "standard-name": "sea_ice_thickness",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m",
+    "variable-root": "sieqthick",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

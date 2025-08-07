@@ -1,0 +1,11 @@
+{
+    "id": "cl",
+    "validation-key": "cl",
+    "ui-label": "Cloud",
+    "description": "cloud",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

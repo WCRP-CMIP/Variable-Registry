@@ -1,0 +1,13 @@
+{
+    "id": "pr18o",
+    "validation-key": "pr18o",
+    "ui-label": "pr18O",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "precipitation-flux-containing-18o",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

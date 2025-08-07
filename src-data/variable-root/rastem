@@ -1,0 +1,13 @@
+{
+    "id": "rastem",
+    "validation-key": "rastem",
+    "ui-label": "raStem",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-plant-respiration-in-stems",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

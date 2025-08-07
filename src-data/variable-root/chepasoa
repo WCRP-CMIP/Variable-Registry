@@ -1,0 +1,13 @@
+{
+    "id": "chepasoa",
+    "validation-key": "chepasoa",
+    "ui-label": "chepasoa",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-secondary-particulate-organic-matter-dry-aerosol-particles-due-to-net-chemical-production",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}
