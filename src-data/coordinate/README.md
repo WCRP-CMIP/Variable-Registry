@@ -5,6 +5,9 @@
 # Coordinate  (vr)
 
 ## Description
+
+Coordinates define reference systems and specific coordinate values used in climate data. These include pressure levels, height coordinates, depth levels, and other spatial reference points that specify where in the Earth system variables are measured or computed.
+
 [View in HTML](https://wcrp-cmip.github.io/Variable-Registry/coordinate/coordinate)
 
 </section>

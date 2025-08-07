@@ -6,6 +6,8 @@
 
 ## Description
 
+Temporal labels define the time sampling and processing characteristics of climate variables. These specify temporal frequencies (hourly, daily, monthly), temporal statistics (instantaneous, averaged, extremes), and other time-related properties of climate data.
+
 
 </section>
 

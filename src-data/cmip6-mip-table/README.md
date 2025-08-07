@@ -6,6 +6,8 @@
 
 ## Description
 
+CMIP6 MIP tables provide mappings between CMIP7 variable definitions and legacy CMIP6 Model Intercomparison Project tables. These maintain backward compatibility and facilitate data transition from CMIP6 to CMIP7 experimental frameworks.
+
 
 </section>
 

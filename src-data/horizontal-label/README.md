@@ -6,6 +6,8 @@
 
 ## Description
 
+Horizontal labels specify the horizontal grid structure and spatial organization of climate variables. These define whether variables are on regular grids, native model grids, or other horizontal coordinate systems used in climate model output.
+
 
 </section>
 

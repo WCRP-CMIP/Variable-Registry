@@ -5,6 +5,9 @@
 # Dimension  (vr)
 
 ## Description
+
+Dimensions define the axes and coordinate systems used to organize climate data arrays. These specify spatial dimensions (longitude, latitude, vertical levels), temporal dimensions (time), and other axes that structure how climate variables are stored and accessed.
+
 [View in HTML](https://wcrp-cmip.github.io/Variable-Registry/dimension/dimension)
 
 </section>

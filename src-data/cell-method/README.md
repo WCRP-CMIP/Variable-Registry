@@ -5,6 +5,9 @@
 # Cell Method  (vr)
 
 ## Description
+
+Cell methods define how climate variables are processed across spatial and temporal dimensions. These specify operations like time averaging, spatial means, maximum/minimum calculations, and other statistical operations applied to grid cells or time intervals in climate model output.
+
 [View in HTML](https://wcrp-cmip.github.io/Variable-Registry/cell-method/cell-method)
 
 </section>

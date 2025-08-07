@@ -6,6 +6,8 @@
 
 ## Description
 
+Area labels define surface area types and spatial domains for climate variables. These labels specify whether a variable applies to land surfaces, ocean areas, sea ice, or other surface types, enabling proper spatial categorization and filtering of climate data.
+
 
 </section>
 

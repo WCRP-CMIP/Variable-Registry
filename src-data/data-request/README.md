@@ -6,6 +6,8 @@
 
 ## Description
 
+Data requests define collections of climate variables organized for specific scientific use cases or modeling experiments. These group variables by research priorities, experimental protocols, or data sharing requirements for CMIP and other climate modeling initiatives.
+
 
 </section>
 
