@@ -4,7 +4,7 @@
     "ui-label": "od550aerh2o",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_optical_thickness_due_to_water_in_ambient_aerosol_particles",
+    "standard-name": "atmosphere-optical-thickness-due-to-water-in-ambient-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

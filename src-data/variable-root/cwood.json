@@ -4,7 +4,7 @@
     "ui-label": "cWood",
     "description": "",
     "data-type": "real",
-    "standard-name": "stem_mass_content_of_carbon",
+    "standard-name": "stem-mass-content-of-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

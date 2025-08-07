@@ -4,7 +4,7 @@
     "ui-label": "intpbsi",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_ocean_mole_content_of_silicon_due_to_biological_production",
+    "standard-name": "tendency-of-ocean-mole-content-of-silicon-due-to-biological-production",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

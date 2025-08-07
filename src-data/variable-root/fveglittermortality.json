@@ -4,7 +4,7 @@
     "ui-label": "fVegLitterMortality",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_mortality",
+    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation-due-to-mortality",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "chepnh4",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_net_chemical_production",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-ammonium-dry-aerosol-particles-due-to-net-chemical-production",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

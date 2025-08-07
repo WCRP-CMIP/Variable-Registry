@@ -4,7 +4,7 @@
     "ui-label": "cldnci",
     "description": "",
     "data-type": "real",
-    "standard-name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top",
+    "standard-name": "number-concentration-of-ice-crystals-in-air-at-ice-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

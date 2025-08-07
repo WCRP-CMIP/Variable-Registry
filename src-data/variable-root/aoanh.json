@@ -4,7 +4,7 @@
     "ui-label": "aoanh",
     "description": "",
     "data-type": "real",
-    "standard-name": "tracer_lifetime",
+    "standard-name": "tracer-lifetime",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

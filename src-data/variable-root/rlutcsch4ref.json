@@ -4,7 +4,7 @@
     "ui-label": "rlutcsch4ref",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky_and_reference_mole_fraction_of_methane_in_air",
+    "standard-name": "toa-outgoing-longwave-flux-assuming-clear-sky-and-reference-mole-fraction-of-methane-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

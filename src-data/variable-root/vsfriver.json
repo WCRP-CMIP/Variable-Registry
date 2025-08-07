@@ -4,7 +4,7 @@
     "ui-label": "vsfriver",
     "description": "",
     "data-type": "real",
-    "standard-name": "virtual_salt_flux_into_sea_water_from_rivers",
+    "standard-name": "virtual-salt-flux-into-sea-water-from-rivers",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

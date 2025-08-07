@@ -4,7 +4,7 @@
     "ui-label": "reffclis",
     "description": "",
     "data-type": "real",
-    "standard-name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "standard-name": "effective-radius-of-stratiform-cloud-ice-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

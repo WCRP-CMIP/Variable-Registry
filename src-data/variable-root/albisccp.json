@@ -4,7 +4,7 @@
     "ui-label": "albisccp",
     "description": "",
     "data-type": "real",
-    "standard-name": "cloud_albedo",
+    "standard-name": "cloud-albedo",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

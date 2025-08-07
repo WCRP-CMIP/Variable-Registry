@@ -4,7 +4,7 @@
     "ui-label": "sifb",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_freeboard",
+    "standard-name": "sea-ice-freeboard",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

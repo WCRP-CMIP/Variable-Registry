@@ -4,7 +4,7 @@
     "ui-label": "rluscs",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upwelling_longwave_flux_assuming_clear_sky",
+    "standard-name": "surface-upwelling-longwave-flux-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

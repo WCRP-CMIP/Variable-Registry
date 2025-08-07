@@ -4,7 +4,7 @@
     "ui-label": "dcw",
     "description": "",
     "data-type": "real",
-    "standard-name": "change_over_time_in_canopy_water_amount",
+    "standard-name": "change-over-time-in-canopy-water-amount",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

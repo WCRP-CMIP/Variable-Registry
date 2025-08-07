@@ -4,7 +4,7 @@
     "ui-label": "noy",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
+    "standard-name": "mole-fraction-of-noy-expressed-as-nitrogen-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

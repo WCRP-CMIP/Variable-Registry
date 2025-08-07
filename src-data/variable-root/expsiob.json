@@ -4,7 +4,7 @@
     "ui-label": "expsiob",
     "description": "",
     "data-type": "real",
-    "standard-name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+    "standard-name": "sinking-mole-flux-of-particulate-silicon-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "wfcorr",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_flux_correction",
+    "standard-name": "water-flux-correction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

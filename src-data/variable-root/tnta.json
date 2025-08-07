@@ -4,7 +4,7 @@
     "ui-label": "tnta",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_air_temperature_due_to_advection",
+    "standard-name": "tendency-of-air-temperature-due-to-advection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

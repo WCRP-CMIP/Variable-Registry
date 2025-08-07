@@ -4,7 +4,7 @@
     "ui-label": "wetss",
     "description": "",
     "data-type": "real",
-    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_wet_deposition",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-wet-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

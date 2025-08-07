@@ -4,7 +4,7 @@
     "ui-label": "rhSoil",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil",
+    "standard-name": "surface-upward-mass-flux-of-carbon-due-to-heterotrophic-respiration-in-soil",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

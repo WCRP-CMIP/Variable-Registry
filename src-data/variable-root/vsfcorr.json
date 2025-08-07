@@ -4,7 +4,7 @@
     "ui-label": "vsfcorr",
     "description": "",
     "data-type": "real",
-    "standard-name": "virtual_salt_flux_correction",
+    "standard-name": "virtual-salt-flux-correction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

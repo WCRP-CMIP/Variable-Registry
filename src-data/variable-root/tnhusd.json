@@ -4,7 +4,7 @@
     "ui-label": "tnhusd",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_specific_humidity_due_to_diffusion",
+    "standard-name": "tendency-of-specific-humidity-due-to-diffusion",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

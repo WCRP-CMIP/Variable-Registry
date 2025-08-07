@@ -4,7 +4,7 @@
     "ui-label": "srfrad",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_net_downward_radiative_flux",
+    "standard-name": "surface-net-downward-radiative-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

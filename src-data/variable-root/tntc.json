@@ -4,7 +4,7 @@
     "ui-label": "tntc",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_air_temperature_due_to_convection",
+    "standard-name": "tendency-of-air-temperature-due-to-convection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

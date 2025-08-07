@@ -4,7 +4,7 @@
     "ui-label": "phalf",
     "description": "",
     "data-type": "real",
-    "standard-name": "air_pressure",
+    "standard-name": "air-pressure",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

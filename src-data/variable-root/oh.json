@@ -4,7 +4,7 @@
     "ui-label": "oh",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_hydroxyl_radical_in_air",
+    "standard-name": "mole-fraction-of-hydroxyl-radical-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

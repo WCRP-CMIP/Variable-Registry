@@ -4,7 +4,7 @@
     "ui-label": "sf6",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_sulfur_hexafluoride_in_sea_water",
+    "standard-name": "mole-concentration-of-sulfur-hexafluoride-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

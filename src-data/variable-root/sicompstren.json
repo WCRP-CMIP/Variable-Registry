@@ -4,7 +4,7 @@
     "ui-label": "sicompstren",
     "description": "",
     "data-type": "real",
-    "standard-name": "compressive_strength_of_sea_ice",
+    "standard-name": "compressive-strength-of-sea-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

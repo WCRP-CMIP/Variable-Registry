@@ -4,7 +4,7 @@
     "ui-label": "rzwc",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+    "standard-name": "mass-content-of-water-in-soil-layer-defined-by-root-depth",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

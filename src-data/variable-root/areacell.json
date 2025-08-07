@@ -4,7 +4,7 @@
     "ui-label": "areacell",
     "description": "",
     "data-type": "real",
-    "standard-name": "cell_area",
+    "standard-name": "cell-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

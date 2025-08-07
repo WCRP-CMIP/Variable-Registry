@@ -4,7 +4,7 @@
     "ui-label": "evspsblveg",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_evaporation_flux_from_canopy",
+    "standard-name": "water-evaporation-flux-from-canopy",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

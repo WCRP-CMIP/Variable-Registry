@@ -4,7 +4,7 @@
     "ui-label": "tauu",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_eastward_stress",
+    "standard-name": "surface-downward-eastward-stress",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

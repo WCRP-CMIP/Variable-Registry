@@ -4,7 +4,7 @@
     "ui-label": "lim",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_mass",
+    "standard-name": "land-ice-mass",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

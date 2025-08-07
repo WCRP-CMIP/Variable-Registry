@@ -4,7 +4,7 @@
     "ui-label": "epfy",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_eliassen_palm_flux_in_air",
+    "standard-name": "northward-eliassen-palm-flux-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

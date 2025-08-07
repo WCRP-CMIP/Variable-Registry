@@ -4,7 +4,7 @@
     "ui-label": "tauuogw",
     "description": "",
     "data-type": "real",
-    "standard-name": "upward_eastward_momentum_flux_in_air_due_to_orographic_gravity_waves",
+    "standard-name": "upward-eastward-momentum-flux-in-air-due-to-orographic-gravity-waves",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

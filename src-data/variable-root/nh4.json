@@ -4,7 +4,7 @@
     "ui-label": "nh4",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_ammonium_in_sea_water",
+    "standard-name": "mole-concentration-of-ammonium-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

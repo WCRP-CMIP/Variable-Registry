@@ -4,7 +4,7 @@
     "ui-label": "po4",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
+    "standard-name": "mole-concentration-of-dissolved-inorganic-phosphorus-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

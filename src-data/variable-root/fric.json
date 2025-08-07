@@ -4,7 +4,7 @@
     "ui-label": "fric",
     "description": "",
     "data-type": "real",
-    "standard-name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
+    "standard-name": "minus-tendency-of-ocean-mole-content-of-inorganic-carbon-due-to-sedimentation",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

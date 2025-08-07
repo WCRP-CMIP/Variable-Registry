@@ -4,7 +4,7 @@
     "ui-label": "reffclws",
     "description": "",
     "data-type": "real",
-    "standard-name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
+    "standard-name": "effective-radius-of-stratiform-cloud-liquid-water-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

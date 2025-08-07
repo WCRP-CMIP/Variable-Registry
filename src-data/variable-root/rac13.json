@@ -4,7 +4,7 @@
     "ui-label": "rac13",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_plant_respiration",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-13c-due-to-plant-respiration",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

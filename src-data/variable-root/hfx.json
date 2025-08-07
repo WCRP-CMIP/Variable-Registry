@@ -4,7 +4,7 @@
     "ui-label": "hfx",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_heat_x_transport",
+    "standard-name": "ocean-heat-x-transport",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

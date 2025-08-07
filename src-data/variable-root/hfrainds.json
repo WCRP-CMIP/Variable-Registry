@@ -4,7 +4,7 @@
     "ui-label": "hfrainds",
     "description": "",
     "data-type": "real",
-    "standard-name": "temperature_flux_due_to_rainfall_expressed_as_heat_flux_into_sea_water",
+    "standard-name": "temperature-flux-due-to-rainfall-expressed-as-heat-flux-into-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

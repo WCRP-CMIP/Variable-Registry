@@ -4,7 +4,7 @@
     "ui-label": "tntogw",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
+    "standard-name": "tendency-of-air-temperature-due-to-dissipation-of-orographic-gravity-waves",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

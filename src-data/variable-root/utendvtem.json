@@ -4,7 +4,7 @@
     "ui-label": "utendvtem",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_eastward_wind_due_to_advection_by_northward_transformed_eulerian_mean_air_velocity",
+    "standard-name": "tendency-of-eastward-wind-due-to-advection-by-northward-transformed-eulerian-mean-air-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sistrydtop",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_y_stress",
+    "standard-name": "surface-downward-y-stress",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

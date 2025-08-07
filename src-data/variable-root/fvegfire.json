@@ -4,7 +4,7 @@
     "ui-label": "fVegFire",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_vegetation_in_fires",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-vegetation-in-fires",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

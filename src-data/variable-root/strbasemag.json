@@ -4,7 +4,7 @@
     "ui-label": "strbasemag",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_basal_drag",
+    "standard-name": "land-ice-basal-drag",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

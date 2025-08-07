@@ -4,7 +4,7 @@
     "ui-label": "rsntds",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_downward_shortwave_flux_at_sea_water_surface",
+    "standard-name": "net-downward-shortwave-flux-at-sea-water-surface",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

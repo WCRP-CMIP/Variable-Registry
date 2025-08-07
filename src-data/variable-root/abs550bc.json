@@ -4,7 +4,7 @@
     "ui-label": "abs550bc",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_absorption_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-black-carbon-ambient-aerosol",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

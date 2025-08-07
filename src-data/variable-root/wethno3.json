@@ -4,7 +4,7 @@
     "ui-label": "wethno3",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_nitric_acid_due_to_wet_deposition",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nitric-acid-due-to-wet-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

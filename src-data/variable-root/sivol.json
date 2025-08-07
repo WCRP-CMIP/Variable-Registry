@@ -4,7 +4,7 @@
     "ui-label": "sivol",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_volume",
+    "standard-name": "sea-ice-volume",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

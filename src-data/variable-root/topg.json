@@ -4,7 +4,7 @@
     "ui-label": "topg",
     "description": "",
     "data-type": "real",
-    "standard-name": "bedrock_altitude",
+    "standard-name": "bedrock-altitude",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

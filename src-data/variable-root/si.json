@@ -4,7 +4,7 @@
     "ui-label": "si",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
+    "standard-name": "mole-concentration-of-dissolved-inorganic-silicon-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

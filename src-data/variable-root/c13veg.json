@@ -4,7 +4,7 @@
     "ui-label": "c13Veg",
     "description": "",
     "data-type": "real",
-    "standard-name": "vegetation_mass_content_of_13C",
+    "standard-name": "vegetation-mass-content-of-13c",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

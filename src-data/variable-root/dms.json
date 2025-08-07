@@ -4,7 +4,7 @@
     "ui-label": "dms",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_dimethyl_sulfide_in_air",
+    "standard-name": "mole-fraction-of-dimethyl-sulfide-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

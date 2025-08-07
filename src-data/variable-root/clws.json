@@ -4,7 +4,7 @@
     "ui-label": "clws",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
+    "standard-name": "mass-fraction-of-stratiform-cloud-liquid-water-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

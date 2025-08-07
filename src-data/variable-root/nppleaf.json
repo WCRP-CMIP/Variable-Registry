@@ -4,7 +4,7 @@
     "ui-label": "nppLeaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_leaves",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-leaves",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

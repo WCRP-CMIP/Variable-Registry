@@ -4,7 +4,7 @@
     "ui-label": "parasolRefl",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_bidirectional_reflectance",
+    "standard-name": "toa-bidirectional-reflectance",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

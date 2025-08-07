@@ -4,7 +4,7 @@
     "ui-label": "fHarvestToProduct",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_into_forestry_and_agricultural_products_due_to_crop_harvesting",
+    "standard-name": "mass-flux-of-carbon-into-forestry-and-agricultural-products-due-to-crop-harvesting",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

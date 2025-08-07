@@ -4,7 +4,7 @@
     "ui-label": "sifllattop",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_latent_heat_flux",
+    "standard-name": "surface-downward-latent-heat-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

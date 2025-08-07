@@ -4,7 +4,7 @@
     "ui-label": "nppVgt",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "deptho",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_floor_depth_below_geoid",
+    "standard-name": "sea-floor-depth-below-geoid",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "pod0",
     "description": "",
     "data-type": "real",
-    "standard-name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
+    "standard-name": "integral-wrt-time-of-mole-stomatal-uptake-of-ozone",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

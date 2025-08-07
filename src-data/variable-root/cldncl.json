@@ -4,7 +4,7 @@
     "ui-label": "cldncl",
     "description": "",
     "data-type": "real",
-    "standard-name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
+    "standard-name": "number-concentration-of-cloud-liquid-water-particles-in-air-at-liquid-water-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

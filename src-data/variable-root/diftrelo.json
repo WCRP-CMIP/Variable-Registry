@@ -4,7 +4,7 @@
     "ui-label": "diftrelo",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_tracer_epineutral_laplacian_diffusivity",
+    "standard-name": "ocean-tracer-epineutral-laplacian-diffusivity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

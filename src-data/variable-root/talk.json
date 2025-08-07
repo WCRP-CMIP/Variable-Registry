@@ -4,7 +4,7 @@
     "ui-label": "talk",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_alkalinity_expressed_as_mole_equivalent",
+    "standard-name": "sea-water-alkalinity-expressed-as-mole-equivalent",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

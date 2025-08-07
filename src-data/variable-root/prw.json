@@ -4,7 +4,7 @@
     "ui-label": "prw",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_water_vapor",
+    "standard-name": "atmosphere-mass-content-of-water-vapor",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "limirrdiat",
     "description": "",
     "data-type": "real",
-    "standard-name": "growth_limitation_of_diatoms_due_to_solar_irradiance",
+    "standard-name": "growth-limitation-of-diatoms-due-to-solar-irradiance",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

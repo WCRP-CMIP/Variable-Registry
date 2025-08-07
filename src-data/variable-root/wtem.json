@@ -4,7 +4,7 @@
     "ui-label": "wtem",
     "description": "",
     "data-type": "real",
-    "standard-name": "upward_transformed_eulerian_mean_air_velocity",
+    "standard-name": "upward-transformed-eulerian-mean-air-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sftgif",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_area_fraction",
+    "standard-name": "land-ice-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

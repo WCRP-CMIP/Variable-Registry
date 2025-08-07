@@ -4,7 +4,7 @@
     "ui-label": "limnpico",
     "description": "",
     "data-type": "real",
-    "standard-name": "nitrogen_growth_limitation_of_picophytoplankton",
+    "standard-name": "nitrogen-growth-limitation-of-picophytoplankton",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

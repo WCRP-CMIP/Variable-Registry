@@ -4,7 +4,7 @@
     "ui-label": "siextent",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_extent",
+    "standard-name": "sea-ice-extent",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

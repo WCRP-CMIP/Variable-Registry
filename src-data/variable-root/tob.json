@@ -4,7 +4,7 @@
     "ui-label": "tob",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_potential_temperature_at_sea_floor",
+    "standard-name": "sea-water-potential-temperature-at-sea-floor",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sdvo",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wave_stokes_drift_northward_velocity",
+    "standard-name": "sea-surface-wave-stokes-drift-northward-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

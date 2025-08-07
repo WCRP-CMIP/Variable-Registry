@@ -4,7 +4,7 @@
     "ui-label": "scldncl",
     "description": "",
     "data-type": "real",
-    "standard-name": "number_concentration_of_stratiform_cloud_liquid_water_particles_at_stratiform_liquid_water_cloud_top",
+    "standard-name": "number-concentration-of-stratiform-cloud-liquid-water-particles-at-stratiform-liquid-water-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

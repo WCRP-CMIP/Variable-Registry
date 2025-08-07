@@ -4,7 +4,7 @@
     "ui-label": "sispeed",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_speed",
+    "standard-name": "sea-ice-speed",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

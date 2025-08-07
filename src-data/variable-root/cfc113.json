@@ -4,7 +4,7 @@
     "ui-label": "cfc113",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_cfc113_in_air",
+    "standard-name": "mole-fraction-of-cfc113-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "ccnp02",
     "description": "",
     "data-type": "real",
-    "standard-name": "number_concentration_of_cloud_condensation_nuclei_assuming_reference_relative_humidity",
+    "standard-name": "number-concentration-of-cloud-condensation-nuclei-assuming-reference-relative-humidity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

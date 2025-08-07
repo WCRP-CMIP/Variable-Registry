@@ -4,7 +4,7 @@
     "ui-label": "volo",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_volume",
+    "standard-name": "sea-water-volume",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

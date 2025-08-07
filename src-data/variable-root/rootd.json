@@ -4,7 +4,7 @@
     "ui-label": "rootd",
     "description": "",
     "data-type": "real",
-    "standard-name": "root_depth",
+    "standard-name": "root-depth",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

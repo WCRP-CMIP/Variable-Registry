@@ -4,7 +4,7 @@
     "ui-label": "qgwr",
     "description": "",
     "data-type": "real",
-    "standard-name": "downward_liquid_water_mass_flux_into_groundwater",
+    "standard-name": "downward-liquid-water-mass-flux-into-groundwater",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

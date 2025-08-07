@@ -4,7 +4,7 @@
     "ui-label": "sossq",
     "description": "",
     "data-type": "real",
-    "standard-name": "square_of_sea_surface_salinity",
+    "standard-name": "square-of-sea-surface-salinity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

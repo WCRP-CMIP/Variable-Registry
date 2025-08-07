@@ -4,7 +4,7 @@
     "ui-label": "rss",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_net_downward_shortwave_flux",
+    "standard-name": "surface-net-downward-shortwave-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

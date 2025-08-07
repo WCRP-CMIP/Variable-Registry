@@ -4,7 +4,7 @@
     "ui-label": "swh",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wave_significant_height",
+    "standard-name": "sea-surface-wave-significant-height",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

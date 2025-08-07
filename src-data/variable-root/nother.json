@@ -4,7 +4,7 @@
     "ui-label": "nOther",
     "description": "",
     "data-type": "real",
-    "standard-name": "miscellaneous_living_matter_mass_content_of_nitrogen",
+    "standard-name": "miscellaneous-living-matter-mass-content-of-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

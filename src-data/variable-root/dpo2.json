@@ -4,7 +4,7 @@
     "ui-label": "dpo2",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air",
+    "standard-name": "surface-molecular-oxygen-partial-pressure-difference-between-sea-water-and-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

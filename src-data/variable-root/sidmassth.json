@@ -4,7 +4,7 @@
     "ui-label": "sidmassth",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_ice_amount_due_to_sea_ice_thermodynamics",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-sea-ice-thermodynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "evu",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_momentum_diffusivity",
+    "standard-name": "atmosphere-momentum-diffusivity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

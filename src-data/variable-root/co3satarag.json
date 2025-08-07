@@ -4,7 +4,7 @@
     "ui-label": "co3satarag",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_carbonate_expressed_as_carbon_at_equilibrium_with_pure_aragonite_in_sea_water",
+    "standard-name": "mole-concentration-of-carbonate-expressed-as-carbon-at-equilibrium-with-pure-aragonite-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

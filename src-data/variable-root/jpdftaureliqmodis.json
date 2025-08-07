@@ -4,7 +4,7 @@
     "ui-label": "jpdftaureliqmodis",
     "description": "",
     "data-type": "real",
-    "standard-name": "modis_cloud_area_fraction",
+    "standard-name": "modis-cloud-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

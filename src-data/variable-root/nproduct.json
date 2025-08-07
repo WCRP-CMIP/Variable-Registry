@@ -4,7 +4,7 @@
     "ui-label": "nProduct",
     "description": "",
     "data-type": "real",
-    "standard-name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
+    "standard-name": "nitrogen-mass-content-of-forestry-and-agricultural-products",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

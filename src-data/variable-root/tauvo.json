@@ -4,7 +4,7 @@
     "ui-label": "tauvo",
     "description": "",
     "data-type": "real",
-    "standard-name": "downward_y_stress_at_sea_water_surface",
+    "standard-name": "downward-y-stress-at-sea-water-surface",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

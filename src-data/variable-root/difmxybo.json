@@ -4,7 +4,7 @@
     "ui-label": "difmxybo",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_momentum_xy_biharmonic_diffusivity",
+    "standard-name": "ocean-momentum-xy-biharmonic-diffusivity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

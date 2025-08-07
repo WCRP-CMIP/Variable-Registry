@@ -4,7 +4,7 @@
     "ui-label": "od550dust",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
+    "standard-name": "atmosphere-optical-thickness-due-to-dust-ambient-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

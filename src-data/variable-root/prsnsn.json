@@ -4,7 +4,7 @@
     "ui-label": "prsnsn",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
+    "standard-name": "mass-fraction-of-solid-precipitation-falling-onto-surface-snow",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

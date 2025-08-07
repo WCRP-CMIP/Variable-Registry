@@ -4,7 +4,7 @@
     "ui-label": "sidmassmeltbot",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_ice_amount_due_to_basal_melting",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-basal-melting",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

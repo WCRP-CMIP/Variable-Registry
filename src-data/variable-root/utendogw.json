@@ -4,7 +4,7 @@
     "ui-label": "utendogw",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_eastward_wind_due_to_orographic_gravity_wave_drag",
+    "standard-name": "tendency-of-eastward-wind-due-to-orographic-gravity-wave-drag",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

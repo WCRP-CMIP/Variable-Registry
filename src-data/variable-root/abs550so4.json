@@ -4,7 +4,7 @@
     "ui-label": "abs550so4",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_absorption_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-sulfate-ambient-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

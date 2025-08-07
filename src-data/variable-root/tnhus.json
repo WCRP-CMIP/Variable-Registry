@@ -4,7 +4,7 @@
     "ui-label": "tnhus",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_specific_humidity",
+    "standard-name": "tendency-of-specific-humidity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

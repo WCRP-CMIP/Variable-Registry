@@ -4,7 +4,7 @@
     "ui-label": "tnhusc",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_specific_humidity_due_to_convection",
+    "standard-name": "tendency-of-specific-humidity-due-to-convection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

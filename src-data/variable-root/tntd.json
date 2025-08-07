@@ -4,7 +4,7 @@
     "ui-label": "tntd",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_air_temperature_due_to_diffusion",
+    "standard-name": "tendency-of-air-temperature-due-to-diffusion",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

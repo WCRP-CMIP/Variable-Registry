@@ -4,7 +4,7 @@
     "ui-label": "orog",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_altitude",
+    "standard-name": "surface-altitude",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

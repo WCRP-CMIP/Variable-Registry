@@ -4,7 +4,7 @@
     "ui-label": "iareagr",
     "description": "",
     "data-type": "real",
-    "standard-name": "grounded_ice_sheet_area",
+    "standard-name": "grounded-ice-sheet-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "psitem",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
+    "standard-name": "atmosphere-transformed-eulerian-mean-meridional-overturning-mass-streamfunction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

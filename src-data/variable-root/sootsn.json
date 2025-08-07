@@ -4,7 +4,7 @@
     "ui-label": "sootsn",
     "description": "",
     "data-type": "real",
-    "standard-name": "soot_content_of_surface_snow",
+    "standard-name": "soot-content-of-surface-snow",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "zvelsurf",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_surface_upward_velocity",
+    "standard-name": "land-ice-surface-upward-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

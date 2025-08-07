@@ -4,7 +4,7 @@
     "ui-label": "vt100",
     "description": "",
     "data-type": "real",
-    "standard-name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
+    "standard-name": "covariance-over-longitude-of-northward-wind-and-air-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

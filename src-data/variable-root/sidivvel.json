@@ -4,7 +4,7 @@
     "ui-label": "sidivvel",
     "description": "",
     "data-type": "real",
-    "standard-name": "divergence_of_sea_ice_velocity",
+    "standard-name": "divergence-of-sea-ice-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "o3ref",
     "description": "",
     "data-type": "real",
-    "standard-name": "reference_mole_fraction_of_ozone_in_air",
+    "standard-name": "reference-mole-fraction-of-ozone-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

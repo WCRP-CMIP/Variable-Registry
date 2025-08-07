@@ -4,7 +4,7 @@
     "ui-label": "tntrlcs",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
+    "standard-name": "tendency-of-air-temperature-due-to-longwave-heating-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

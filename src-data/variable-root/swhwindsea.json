@@ -4,7 +4,7 @@
     "ui-label": "swhwindsea",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wind_wave_significant_height",
+    "standard-name": "sea-surface-wind-wave-significant-height",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

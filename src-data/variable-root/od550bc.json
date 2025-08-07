@@ -4,7 +4,7 @@
     "ui-label": "od550bc",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "standard-name": "atmosphere-optical-thickness-due-to-black-carbon-ambient-aerosol",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

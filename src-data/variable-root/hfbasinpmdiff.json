@@ -4,7 +4,7 @@
     "ui-label": "hfbasinpmdiff",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_diffusion",
+    "standard-name": "northward-ocean-heat-transport-due-to-parameterized-mesoscale-eddy-diffusion",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

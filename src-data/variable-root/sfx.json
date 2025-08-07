@@ -4,7 +4,7 @@
     "ui-label": "sfx",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_salt_x_transport",
+    "standard-name": "ocean-salt-x-transport",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

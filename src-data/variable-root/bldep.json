@@ -4,7 +4,7 @@
     "ui-label": "bldep",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_boundary_layer_thickness",
+    "standard-name": "atmosphere-boundary-layer-thickness",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

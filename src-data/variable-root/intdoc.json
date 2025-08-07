@@ -4,7 +4,7 @@
     "ui-label": "intdoc",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_mass_content_of_dissolved_organic_carbon",
+    "standard-name": "ocean-mass-content-of-dissolved-organic-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

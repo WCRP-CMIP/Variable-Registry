@@ -4,7 +4,7 @@
     "ui-label": "wppwindsea",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wind_wave_period_at_variance_spectral_density_maximum",
+    "standard-name": "sea-surface-wind-wave-period-at-variance-spectral-density-maximum",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

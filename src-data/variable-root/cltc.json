@@ -4,7 +4,7 @@
     "ui-label": "cltc",
     "description": "",
     "data-type": "real",
-    "standard-name": "convective_cloud_area_fraction",
+    "standard-name": "convective-cloud-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

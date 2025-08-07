@@ -4,7 +4,7 @@
     "ui-label": "rlucs4co2",
     "description": "",
     "data-type": "real",
-    "standard-name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
+    "standard-name": "upwelling-longwave-flux-in-air-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

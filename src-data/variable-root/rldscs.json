@@ -4,7 +4,7 @@
     "ui-label": "rldscs",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
+    "standard-name": "surface-downwelling-longwave-flux-in-air-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

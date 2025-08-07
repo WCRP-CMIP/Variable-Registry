@@ -4,7 +4,7 @@
     "ui-label": "rsut",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_outgoing_shortwave_flux",
+    "standard-name": "toa-outgoing-shortwave-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

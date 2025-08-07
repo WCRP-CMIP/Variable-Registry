@@ -4,7 +4,7 @@
     "ui-label": "mrros",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_runoff_flux",
+    "standard-name": "surface-runoff-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

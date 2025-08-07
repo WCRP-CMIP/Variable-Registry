@@ -4,7 +4,7 @@
     "ui-label": "fDeforestToProduct",
     "description": "",
     "data-type": "real",
-    "standard-name": "carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
+    "standard-name": "carbon-mass-flux-into-forestry-and-agricultural-products-due-to-anthropogenic-land-use-or-land-cover-change",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "volcello",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_volume",
+    "standard-name": "ocean-volume",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

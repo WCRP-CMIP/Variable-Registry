@@ -4,7 +4,7 @@
     "ui-label": "prra",
     "description": "",
     "data-type": "real",
-    "standard-name": "rainfall_flux",
+    "standard-name": "rainfall-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

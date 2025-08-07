@@ -4,7 +4,7 @@
     "ui-label": "intvadse",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
+    "standard-name": "northward-atmosphere-dry-static-energy-transport-across-unit-distance",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

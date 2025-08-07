@@ -4,7 +4,7 @@
     "ui-label": "limfediat",
     "description": "",
     "data-type": "real",
-    "standard-name": "iron_growth_limitation_of_diatoms",
+    "standard-name": "iron-growth-limitation-of-diatoms",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

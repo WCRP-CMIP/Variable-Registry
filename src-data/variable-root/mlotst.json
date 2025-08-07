@@ -4,7 +4,7 @@
     "ui-label": "mlotst",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "standard-name": "ocean-mixed-layer-thickness-defined-by-sigma-t",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

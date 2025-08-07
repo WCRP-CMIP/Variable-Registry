@@ -4,7 +4,7 @@
     "ui-label": "dgw",
     "description": "",
     "data-type": "real",
-    "standard-name": "change_over_time_in_groundwater_amount",
+    "standard-name": "change-over-time-in-groundwater-amount",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "dryh2",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_molecular_hydrogen_due_to_dry_deposition",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-molecular-hydrogen-due-to-dry-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

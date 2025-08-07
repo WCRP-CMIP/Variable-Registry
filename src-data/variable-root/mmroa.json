@@ -4,7 +4,7 @@
     "ui-label": "mmroa",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_particulate_organic_matter_dry_aerosol_particles_in_air",
+    "standard-name": "mass-fraction-of-particulate-organic-matter-dry-aerosol-particles-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

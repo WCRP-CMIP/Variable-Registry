@@ -4,7 +4,7 @@
     "ui-label": "simassacrossline",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_transport_across_line",
+    "standard-name": "sea-ice-transport-across-line",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

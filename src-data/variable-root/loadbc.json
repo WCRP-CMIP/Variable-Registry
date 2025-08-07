@@ -4,7 +4,7 @@
     "ui-label": "loadbc",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles",
+    "standard-name": "atmosphere-mass-content-of-elemental-carbon-dry-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

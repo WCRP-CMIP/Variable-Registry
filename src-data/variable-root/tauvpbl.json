@@ -4,7 +4,7 @@
     "ui-label": "tauvpbl",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_northward_stress_due_to_boundary_layer_mixing",
+    "standard-name": "surface-downward-northward-stress-due-to-boundary-layer-mixing",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "hflsLut",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_latent_heat_flux",
+    "standard-name": "surface-upward-latent-heat-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

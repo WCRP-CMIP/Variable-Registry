@@ -4,7 +4,7 @@
     "ui-label": "yvelmean",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_vertical_mean_y_velocity",
+    "standard-name": "land-ice-vertical-mean-y-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

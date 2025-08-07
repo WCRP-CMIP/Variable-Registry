@@ -4,7 +4,7 @@
     "ui-label": "fNleach",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_out_of_soil_due_to_leaching_and_runoff",
+    "standard-name": "mass-flux-of-carbon-out-of-soil-due-to-leaching-and-runoff",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

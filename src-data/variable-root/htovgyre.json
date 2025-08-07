@@ -4,7 +4,7 @@
     "ui-label": "htovgyre",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_ocean_heat_transport_due_to_gyre",
+    "standard-name": "northward-ocean-heat-transport-due-to-gyre",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

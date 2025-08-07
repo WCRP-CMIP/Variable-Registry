@@ -4,7 +4,7 @@
     "ui-label": "lifmassbf",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+    "standard-name": "land-ice-specific-mass-flux-due-to-calving-and-ice-front-melting",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "cLeaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "leaf_mass_content_of_carbon",
+    "standard-name": "leaf-mass-content-of-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "friver",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_flux_into_sea_water_from_rivers",
+    "standard-name": "water-flux-into-sea-water-from-rivers",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

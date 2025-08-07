@@ -4,7 +4,7 @@
     "ui-label": "cVegLut",
     "description": "",
     "data-type": "real",
-    "standard-name": "vegetation_carbon_content",
+    "standard-name": "vegetation-carbon-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

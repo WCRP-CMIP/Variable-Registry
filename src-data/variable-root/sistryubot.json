@@ -4,7 +4,7 @@
     "ui-label": "sistryubot",
     "description": "",
     "data-type": "real",
-    "standard-name": "upward_y_stress_at_sea_ice_base",
+    "standard-name": "upward-y-stress-at-sea-ice-base",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "c3h8",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_propane_in_air",
+    "standard-name": "mole-fraction-of-propane-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

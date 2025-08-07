@@ -4,7 +4,7 @@
     "ui-label": "msftmsmpa",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
+    "standard-name": "ocean-meridional-overturning-mass-streamfunction-due-to-parameterized-submesoscale-eddy-advection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sftlaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "area_fraction",
+    "standard-name": "area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

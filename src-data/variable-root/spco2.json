@@ -4,7 +4,7 @@
     "ui-label": "spco2",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+    "standard-name": "surface-partial-pressure-of-carbon-dioxide-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

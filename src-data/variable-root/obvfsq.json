@@ -4,7 +4,7 @@
     "ui-label": "obvfsq",
     "description": "",
     "data-type": "real",
-    "standard-name": "square_of_brunt_vaisala_frequency_in_sea_water",
+    "standard-name": "square-of-brunt-vaisala-frequency-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "intpn2",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation",
+    "standard-name": "tendency-of-ocean-mole-content-of-elemental-nitrogen-due-to-fixation",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

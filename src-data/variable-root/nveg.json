@@ -4,7 +4,7 @@
     "ui-label": "nVeg",
     "description": "",
     "data-type": "real",
-    "standard-name": "vegetation_mass_content_of_nitrogen",
+    "standard-name": "vegetation-mass-content-of-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

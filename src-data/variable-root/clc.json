@@ -4,7 +4,7 @@
     "ui-label": "clc",
     "description": "",
     "data-type": "real",
-    "standard-name": "convective_cloud_area_fraction_in_atmosphere_layer",
+    "standard-name": "convective-cloud-area-fraction-in-atmosphere-layer",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

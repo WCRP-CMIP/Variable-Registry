@@ -4,7 +4,7 @@
     "ui-label": "vtem",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_transformed_eulerian_mean_air_velocity",
+    "standard-name": "northward-transformed-eulerian-mean-air-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

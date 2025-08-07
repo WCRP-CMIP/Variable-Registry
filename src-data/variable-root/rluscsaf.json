@@ -4,7 +4,7 @@
     "ui-label": "rluscsaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upwelling_longwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+    "standard-name": "surface-upwelling-longwave-flux-in-air-assuming-clear-sky-and-no-aerosol",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

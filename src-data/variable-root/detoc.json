@@ -4,7 +4,7 @@
     "ui-label": "detoc",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_organic_detritus_expressed_as_carbon_in_sea_water",
+    "standard-name": "mole-concentration-of-organic-detritus-expressed-as-carbon-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

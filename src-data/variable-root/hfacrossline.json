@@ -4,7 +4,7 @@
     "ui-label": "hfacrossline",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_heat_transport_across_line",
+    "standard-name": "ocean-heat-transport-across-line",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

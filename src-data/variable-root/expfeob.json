@@ -4,7 +4,7 @@
     "ui-label": "expfeob",
     "description": "",
     "data-type": "real",
-    "standard-name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
+    "standard-name": "sinking-mole-flux-of-particulate-iron-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

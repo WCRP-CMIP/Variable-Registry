@@ -4,7 +4,7 @@
     "ui-label": "wfo",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_flux_into_sea_water",
+    "standard-name": "water-flux-into-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

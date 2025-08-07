@@ -4,7 +4,7 @@
     "ui-label": "rsutcs",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "standard-name": "toa-outgoing-shortwave-flux-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

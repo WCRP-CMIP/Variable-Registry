@@ -4,7 +4,7 @@
     "ui-label": "emiso2",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_emission",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-sulfur-dioxide-due-to-emission",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

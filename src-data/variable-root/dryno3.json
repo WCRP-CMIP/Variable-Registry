@@ -4,7 +4,7 @@
     "ui-label": "dryno3",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_due_to_dry_deposition",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nitrate-dry-aerosol-due-to-dry-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sisnhc",
     "description": "",
     "data-type": "real",
-    "standard-name": "thermal_energy_content_of_surface_snow",
+    "standard-name": "thermal-energy-content-of-surface-snow",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

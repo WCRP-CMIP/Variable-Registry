@@ -4,7 +4,7 @@
     "ui-label": "tslsi",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_temperature",
+    "standard-name": "surface-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "reffclwtop",
     "description": "",
     "data-type": "real",
-    "standard-name": "effective_radius_of_cloud_liquid_water_particles_at_liquid_water_cloud_top",
+    "standard-name": "effective-radius-of-cloud-liquid-water-particles-at-liquid-water-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

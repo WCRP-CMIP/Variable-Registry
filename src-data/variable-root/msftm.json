@@ -4,7 +4,7 @@
     "ui-label": "msftm",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_meridional_overturning_mass_streamfunction",
+    "standard-name": "ocean-meridional-overturning-mass-streamfunction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

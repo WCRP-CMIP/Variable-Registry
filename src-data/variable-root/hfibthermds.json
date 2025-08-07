@@ -4,7 +4,7 @@
     "ui-label": "hfibthermds",
     "description": "",
     "data-type": "real",
-    "standard-name": "heat_flux_into_sea_water_due_to_iceberg_thermodynamics",
+    "standard-name": "heat-flux-into-sea-water-due-to-iceberg-thermodynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

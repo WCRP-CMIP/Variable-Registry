@@ -4,7 +4,7 @@
     "ui-label": "rtmt",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
+    "standard-name": "net-downward-radiative-flux-at-top-of-atmosphere-model",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

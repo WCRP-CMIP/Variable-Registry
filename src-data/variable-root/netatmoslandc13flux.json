@@ -4,7 +4,7 @@
     "ui-label": "netAtmosLandC13Flux",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
+    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-13c-due-to-all-land-processes",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

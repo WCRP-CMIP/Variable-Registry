@@ -4,7 +4,7 @@
     "ui-label": "siarea",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_area",
+    "standard-name": "sea-ice-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

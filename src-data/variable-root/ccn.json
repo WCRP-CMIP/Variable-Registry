@@ -4,7 +4,7 @@
     "ui-label": "ccn",
     "description": "",
     "data-type": "real",
-    "standard-name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
+    "standard-name": "number-concentration-of-cloud-condensation-nuclei-at-stp-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

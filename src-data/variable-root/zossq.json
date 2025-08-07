@@ -4,7 +4,7 @@
     "ui-label": "zossq",
     "description": "",
     "data-type": "real",
-    "standard-name": "square_of_sea_surface_height_above_geoid",
+    "standard-name": "square-of-sea-surface-height-above-geoid",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

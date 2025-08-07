@@ -4,7 +4,7 @@
     "ui-label": "rsdcs",
     "description": "",
     "data-type": "real",
-    "standard-name": "downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "standard-name": "downwelling-shortwave-flux-in-air-assuming-clear-sky",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

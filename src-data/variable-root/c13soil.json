@@ -4,7 +4,7 @@
     "ui-label": "c13Soil",
     "description": "",
     "data-type": "real",
-    "standard-name": "soil_mass_content_of_13C",
+    "standard-name": "soil-mass-content-of-13c",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

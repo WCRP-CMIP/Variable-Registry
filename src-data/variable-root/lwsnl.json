@@ -4,7 +4,7 @@
     "ui-label": "lwsnl",
     "description": "",
     "data-type": "real",
-    "standard-name": "liquid_water_content_of_surface_snow",
+    "standard-name": "liquid-water-content-of-surface-snow",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "siflcondbot",
     "description": "",
     "data-type": "real",
-    "standard-name": "basal_downward_heat_flux_in_sea_ice",
+    "standard-name": "basal-downward-heat-flux-in-sea-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

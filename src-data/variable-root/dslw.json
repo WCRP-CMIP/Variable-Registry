@@ -4,7 +4,7 @@
     "ui-label": "dslw",
     "description": "",
     "data-type": "real",
-    "standard-name": "change_over_time_in_mass_content_of_water_in_soil",
+    "standard-name": "change-over-time-in-mass-content-of-water-in-soil",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

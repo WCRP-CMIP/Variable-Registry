@@ -4,7 +4,7 @@
     "ui-label": "opottemppadvect",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection",
+    "standard-name": "tendency-of-sea-water-potential-temperature-expressed-as-heat-content-due-to-parameterized-eddy-advection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

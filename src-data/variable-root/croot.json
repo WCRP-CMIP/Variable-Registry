@@ -4,7 +4,7 @@
     "ui-label": "cRoot",
     "description": "",
     "data-type": "real",
-    "standard-name": "root_mass_content_of_carbon",
+    "standard-name": "root-mass-content-of-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

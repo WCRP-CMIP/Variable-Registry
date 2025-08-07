@@ -4,7 +4,7 @@
     "ui-label": "tossq",
     "description": "",
     "data-type": "real",
-    "standard-name": "square_of_sea_surface_temperature",
+    "standard-name": "square-of-sea-surface-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

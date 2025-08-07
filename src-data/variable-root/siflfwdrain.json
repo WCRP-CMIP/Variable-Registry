@@ -4,7 +4,7 @@
     "ui-label": "siflfwdrain",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_flux_into_sea_water_due_to_surface_drainage",
+    "standard-name": "water-flux-into-sea-water-due-to-surface-drainage",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

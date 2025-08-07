@@ -4,7 +4,7 @@
     "ui-label": "ttop",
     "description": "",
     "data-type": "real",
-    "standard-name": "air_temperature_at_cloud_top",
+    "standard-name": "air-temperature-at-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

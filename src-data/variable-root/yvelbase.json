@@ -4,7 +4,7 @@
     "ui-label": "yvelbase",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_basal_y_velocity",
+    "standard-name": "land-ice-basal-y-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "unknown01",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wave_mean_period",
+    "standard-name": "sea-surface-wave-mean-period",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

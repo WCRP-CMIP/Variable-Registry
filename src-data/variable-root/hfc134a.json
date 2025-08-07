@@ -4,7 +4,7 @@
     "ui-label": "hfc134a",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_hfc134a_in_air",
+    "standard-name": "mole-fraction-of-hfc134a-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

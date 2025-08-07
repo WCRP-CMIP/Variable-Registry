@@ -4,7 +4,7 @@
     "ui-label": "vegHeight",
     "description": "",
     "data-type": "real",
-    "standard-name": "canopy_height",
+    "standard-name": "canopy-height",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

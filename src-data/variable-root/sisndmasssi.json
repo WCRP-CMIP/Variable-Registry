@@ -4,7 +4,7 @@
     "ui-label": "sisndmasssi",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_surface_snow_amount_due_to_conversion_of_snow_to_sea_ice",
+    "standard-name": "tendency-of-surface-snow-amount-due-to-conversion-of-snow-to-sea-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

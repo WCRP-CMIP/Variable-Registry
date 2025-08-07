@@ -4,7 +4,7 @@
     "ui-label": "fg14co2",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+    "standard-name": "surface-downward-mass-flux-of-14c-dioxide-abiotic-analogue-expressed-as-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

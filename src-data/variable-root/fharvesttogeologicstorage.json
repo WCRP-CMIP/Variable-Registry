@@ -4,7 +4,7 @@
     "ui-label": "fHarvestToGeologicStorage",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_from_biomass_into_geological_storage",
+    "standard-name": "mass-flux-of-carbon-from-biomass-into-geological-storage",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

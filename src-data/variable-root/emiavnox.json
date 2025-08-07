@@ -4,7 +4,7 @@
     "ui-label": "emiavnox",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_moles_of_nox_expressed_as_nitrogen",
+    "standard-name": "tendency-of-atmosphere-moles-of-nox-expressed-as-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

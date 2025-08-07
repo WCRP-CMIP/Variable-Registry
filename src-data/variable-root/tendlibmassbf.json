@@ -4,7 +4,7 @@
     "ui-label": "tendlibmassbf",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+    "standard-name": "tendency-of-land-ice-mass-due-to-basal-mass-balance",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

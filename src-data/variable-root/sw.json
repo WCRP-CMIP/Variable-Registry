@@ -4,7 +4,7 @@
     "ui-label": "sw",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_surface_liquid_water_amount",
+    "standard-name": "land-surface-liquid-water-amount",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

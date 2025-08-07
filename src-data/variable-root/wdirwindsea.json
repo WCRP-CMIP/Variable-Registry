@@ -4,7 +4,7 @@
     "ui-label": "wdirwindsea",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wind_wave_from_direction",
+    "standard-name": "sea-surface-wind-wave-from-direction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

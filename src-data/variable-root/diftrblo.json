@@ -4,7 +4,7 @@
     "ui-label": "diftrblo",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_tracer_laplacian_diffusivity_due_to_parameterized_mesoscale_eddy_advection",
+    "standard-name": "ocean-tracer-laplacian-diffusivity-due-to-parameterized-mesoscale-eddy-advection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

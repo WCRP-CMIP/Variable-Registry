@@ -4,7 +4,7 @@
     "ui-label": "vsfpr",
     "description": "",
     "data-type": "real",
-    "standard-name": "virtual_salt_flux_into_sea_water_due_to_rainfall",
+    "standard-name": "virtual-salt-flux-into-sea-water-due-to-rainfall",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

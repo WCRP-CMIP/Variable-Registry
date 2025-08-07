@@ -4,7 +4,7 @@
     "ui-label": "hfds",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_heat_flux_in_sea_water",
+    "standard-name": "surface-downward-heat-flux-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "do3chm",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_net_chemical_production",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-ozone-due-to-net-chemical-production",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

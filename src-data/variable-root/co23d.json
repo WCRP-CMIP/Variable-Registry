@@ -4,7 +4,7 @@
     "ui-label": "co23D",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
+    "standard-name": "mass-fraction-of-carbon-dioxide-tracer-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

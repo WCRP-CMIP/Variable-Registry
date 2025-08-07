@@ -4,7 +4,7 @@
     "ui-label": "osaltpadvect",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection",
+    "standard-name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-parameterized-eddy-advection",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "dsn",
     "description": "",
     "data-type": "real",
-    "standard-name": "change_over_time_in_amount_of_ice_and_snow_on_land",
+    "standard-name": "change-over-time-in-amount-of-ice-and-snow-on-land",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

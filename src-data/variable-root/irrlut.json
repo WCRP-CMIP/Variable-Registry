@@ -4,7 +4,7 @@
     "ui-label": "irrLut",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "standard-name": "surface-downward-mass-flux-of-water-due-to-irrigation",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

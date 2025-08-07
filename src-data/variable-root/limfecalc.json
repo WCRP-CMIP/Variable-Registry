@@ -4,7 +4,7 @@
     "ui-label": "limfecalc",
     "description": "",
     "data-type": "real",
-    "standard-name": "iron_growth_limitation_of_calcareous_phytoplankton",
+    "standard-name": "iron-growth-limitation-of-calcareous-phytoplankton",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

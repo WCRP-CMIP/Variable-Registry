@@ -4,7 +4,7 @@
     "ui-label": "tauunoegw",
     "description": "",
     "data-type": "real",
-    "standard-name": "upward_eastward_momentum_flux_in_air_due_to_nonorographic_eastward_gravity_waves",
+    "standard-name": "upward-eastward-momentum-flux-in-air-due-to-nonorographic-eastward-gravity-waves",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

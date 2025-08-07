@@ -4,7 +4,7 @@
     "ui-label": "reffccwctop",
     "description": "",
     "data-type": "real",
-    "standard-name": "effective_radius_of_cloud_condensed_water_particles_at_cloud_top",
+    "standard-name": "effective-radius-of-cloud-condensed-water-particles-at-cloud-top",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

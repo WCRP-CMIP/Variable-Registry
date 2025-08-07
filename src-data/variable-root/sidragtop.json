@@ -4,7 +4,7 @@
     "ui-label": "sidragtop",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_drag_coefficient_for_momentum_in_air",
+    "standard-name": "surface-drag-coefficient-for-momentum-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

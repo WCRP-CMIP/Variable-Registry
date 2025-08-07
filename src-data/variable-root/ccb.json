@@ -4,7 +4,7 @@
     "ui-label": "ccb",
     "description": "",
     "data-type": "real",
-    "standard-name": "air_pressure_at_convective_cloud_base",
+    "standard-name": "air-pressure-at-convective-cloud-base",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

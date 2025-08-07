@@ -4,7 +4,7 @@
     "ui-label": "lwp",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_cloud_liquid_water",
+    "standard-name": "atmosphere-mass-content-of-cloud-liquid-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

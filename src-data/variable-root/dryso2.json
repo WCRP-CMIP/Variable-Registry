@@ -4,7 +4,7 @@
     "ui-label": "dryso2",
     "description": "",
     "data-type": "real",
-    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_dry_deposition",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sulfur-dioxide-due-to-dry-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

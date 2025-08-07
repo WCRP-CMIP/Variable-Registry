@@ -4,7 +4,7 @@
     "ui-label": "ps",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_air_pressure",
+    "standard-name": "surface-air-pressure",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "wbgt",
     "description": "",
     "data-type": "real",
-    "standard-name": "wet_bulb_globe_temperature",
+    "standard-name": "wet-bulb-globe-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

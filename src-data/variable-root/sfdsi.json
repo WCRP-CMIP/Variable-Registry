@@ -4,7 +4,7 @@
     "ui-label": "sfdsi",
     "description": "",
     "data-type": "real",
-    "standard-name": "downward_sea_ice_basal_salt_flux",
+    "standard-name": "downward-sea-ice-basal-salt-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

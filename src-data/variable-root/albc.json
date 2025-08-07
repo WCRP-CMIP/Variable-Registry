@@ -4,7 +4,7 @@
     "ui-label": "albc",
     "description": "",
     "data-type": "real",
-    "standard-name": "canopy_albedo",
+    "standard-name": "canopy-albedo",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

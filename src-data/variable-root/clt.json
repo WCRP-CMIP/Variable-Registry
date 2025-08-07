@@ -4,7 +4,7 @@
     "ui-label": "clt",
     "description": "",
     "data-type": "real",
-    "standard-name": "cloud_area_fraction",
+    "standard-name": "cloud-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

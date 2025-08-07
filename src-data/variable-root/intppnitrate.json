@@ -4,7 +4,7 @@
     "ui-label": "intppnitrate",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_due_to_nitrate_utilization",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-due-to-nitrate-utilization",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

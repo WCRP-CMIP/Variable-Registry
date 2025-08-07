@@ -4,7 +4,7 @@
     "ui-label": "od865aer",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
+    "standard-name": "atmosphere-optical-thickness-due-to-ambient-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

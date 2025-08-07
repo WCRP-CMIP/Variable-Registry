@@ -4,7 +4,7 @@
     "ui-label": "fCLandToOcean",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_into_sea_water_from_rivers",
+    "standard-name": "mass-flux-of-carbon-into-sea-water-from-rivers",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "cGeologicStorage",
     "description": "",
     "data-type": "real",
-    "standard-name": "carbon_mass_content_of_geological_storage",
+    "standard-name": "carbon-mass-content-of-geological-storage",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

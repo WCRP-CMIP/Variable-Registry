@@ -4,7 +4,7 @@
     "ui-label": "sisndmassdyn",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_surface_snow_amount_due_to_sea_ice_dynamics",
+    "standard-name": "tendency-of-surface-snow-amount-due-to-sea-ice-dynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

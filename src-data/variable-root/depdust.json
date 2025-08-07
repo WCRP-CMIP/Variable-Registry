@@ -4,7 +4,7 @@
     "ui-label": "depdust",
     "description": "",
     "data-type": "real",
-    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-dust-dry-aerosol-particles-due-to-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

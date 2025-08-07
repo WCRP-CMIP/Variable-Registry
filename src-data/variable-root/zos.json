@@ -4,7 +4,7 @@
     "ui-label": "zos",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_height_above_geoid",
+    "standard-name": "sea-surface-height-above-geoid",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

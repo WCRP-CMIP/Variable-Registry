@@ -4,7 +4,7 @@
     "ui-label": "albsrfc",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_albedo",
+    "standard-name": "surface-albedo",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

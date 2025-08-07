@@ -4,7 +4,7 @@
     "ui-label": "fVegLitter",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation",
+    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

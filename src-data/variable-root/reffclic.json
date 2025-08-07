@@ -4,7 +4,7 @@
     "ui-label": "reffclic",
     "description": "",
     "data-type": "real",
-    "standard-name": "effective_radius_of_convective_cloud_ice_particles",
+    "standard-name": "effective-radius-of-convective-cloud-ice-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

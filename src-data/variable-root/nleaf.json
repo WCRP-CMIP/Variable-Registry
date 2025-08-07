@@ -4,7 +4,7 @@
     "ui-label": "nLeaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "leaf_mass_content_of_nitrogen",
+    "standard-name": "leaf-mass-content-of-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

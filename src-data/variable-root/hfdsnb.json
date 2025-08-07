@@ -4,7 +4,7 @@
     "ui-label": "hfdsnb",
     "description": "",
     "data-type": "real",
-    "standard-name": "downward_heat_flux_at_ground_level_in_snow",
+    "standard-name": "downward-heat-flux-at-ground-level-in-snow",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

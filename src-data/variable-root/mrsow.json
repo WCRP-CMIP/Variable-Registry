@@ -4,7 +4,7 @@
     "ui-label": "mrsow",
     "description": "",
     "data-type": "real",
-    "standard-name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "standard-name": "volume-fraction-of-condensed-water-in-soil-at-field-capacity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "tsl",
     "description": "",
     "data-type": "real",
-    "standard-name": "soil_temperature",
+    "standard-name": "soil-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

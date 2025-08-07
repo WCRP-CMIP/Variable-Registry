@@ -4,7 +4,7 @@
     "ui-label": "sidmasstrany",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_y_transport",
+    "standard-name": "sea-ice-y-transport",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

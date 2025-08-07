@@ -4,7 +4,7 @@
     "ui-label": "lai",
     "description": "",
     "data-type": "real",
-    "standard-name": "leaf_area_index",
+    "standard-name": "leaf-area-index",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "jno2",
     "description": "",
     "data-type": "real",
-    "standard-name": "photolysis_rate_of_nitrogen_dioxide",
+    "standard-name": "photolysis-rate-of-nitrogen-dioxide",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

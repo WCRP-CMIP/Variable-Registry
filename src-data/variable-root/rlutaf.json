@@ -4,7 +4,7 @@
     "ui-label": "rlutaf",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_outgoing_longwave_flux",
+    "standard-name": "toa-outgoing-longwave-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

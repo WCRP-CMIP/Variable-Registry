@@ -4,7 +4,7 @@
     "ui-label": "dmso",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_dimethyl_sulfide_in_sea_water",
+    "standard-name": "mole-concentration-of-dimethyl-sulfide-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

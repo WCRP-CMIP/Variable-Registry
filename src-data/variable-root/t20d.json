@@ -4,7 +4,7 @@
     "ui-label": "t20d",
     "description": "",
     "data-type": "real",
-    "standard-name": "depth_of_isosurface_of_sea_water_potential_temperature",
+    "standard-name": "depth-of-isosurface-of-sea-water-potential-temperature",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

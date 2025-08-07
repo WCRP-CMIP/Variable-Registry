@@ -4,7 +4,7 @@
     "ui-label": "limndiat",
     "description": "",
     "data-type": "real",
-    "standard-name": "nitrogen_growth_limitation_of_diatoms",
+    "standard-name": "nitrogen-growth-limitation-of-diatoms",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

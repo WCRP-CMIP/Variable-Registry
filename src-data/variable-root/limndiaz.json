@@ -4,7 +4,7 @@
     "ui-label": "limndiaz",
     "description": "",
     "data-type": "real",
-    "standard-name": "nitrogen_growth_limitation_of_diazotrophic_phytoplankton",
+    "standard-name": "nitrogen-growth-limitation-of-diazotrophic-phytoplankton",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

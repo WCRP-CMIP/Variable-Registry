@@ -4,7 +4,7 @@
     "ui-label": "wtd",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_table_depth",
+    "standard-name": "water-table-depth",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

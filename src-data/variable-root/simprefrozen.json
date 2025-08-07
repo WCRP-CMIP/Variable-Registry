@@ -4,7 +4,7 @@
     "ui-label": "simprefrozen",
     "description": "",
     "data-type": "real",
-    "standard-name": "thickness_of_ice_on_sea_ice_melt_pond",
+    "standard-name": "thickness-of-ice-on-sea-ice-melt-pond",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

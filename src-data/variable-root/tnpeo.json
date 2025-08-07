@@ -4,7 +4,7 @@
     "ui-label": "tnpeo",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_ocean_potential_energy_content",
+    "standard-name": "tendency-of-ocean-potential-energy-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

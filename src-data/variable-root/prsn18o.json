@@ -4,7 +4,7 @@
     "ui-label": "prsn18O",
     "description": "",
     "data-type": "real",
-    "standard-name": "solid_precipitation_flux_containing_18O",
+    "standard-name": "solid-precipitation-flux-containing-18o",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "dtaus",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
+    "standard-name": "atmosphere-optical-thickness-due-to-stratiform-cloud",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "nh50",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+    "standard-name": "mole-fraction-of-artificial-tracer-with-fixed-lifetime-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

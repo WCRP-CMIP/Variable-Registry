@@ -4,7 +4,7 @@
     "ui-label": "absscint",
     "description": "",
     "data-type": "real",
-    "standard-name": "integral_wrt_depth_of_sea_water_absolute_salinity_expressed_as_salt_mass_content",
+    "standard-name": "integral-wrt-depth-of-sea-water-absolute-salinity-expressed-as-salt-mass-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "phydiazos",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_diazotrophic_phytoplankton_expressed_as_carbon_in_sea_water",
+    "standard-name": "mole-concentration-of-diazotrophic-phytoplankton-expressed-as-carbon-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

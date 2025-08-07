@@ -4,7 +4,7 @@
     "ui-label": "va",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_wind",
+    "standard-name": "northward-wind",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

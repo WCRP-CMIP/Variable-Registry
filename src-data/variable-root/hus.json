@@ -4,7 +4,7 @@
     "ui-label": "hus",
     "description": "",
     "data-type": "real",
-    "standard-name": "specific_humidity",
+    "standard-name": "specific-humidity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

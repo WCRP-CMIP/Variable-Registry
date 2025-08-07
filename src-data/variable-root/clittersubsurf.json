@@ -4,7 +4,7 @@
     "ui-label": "cLitterSubSurf",
     "description": "",
     "data-type": "real",
-    "standard-name": "subsurface_litter_mass_content_of_carbon",
+    "standard-name": "subsurface-litter-mass-content-of-carbon",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

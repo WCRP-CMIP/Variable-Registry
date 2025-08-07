@@ -4,7 +4,7 @@
     "ui-label": "pflw",
     "description": "",
     "data-type": "real",
-    "standard-name": "liquid_water_content_of_permafrost_layer",
+    "standard-name": "liquid-water-content-of-permafrost-layer",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

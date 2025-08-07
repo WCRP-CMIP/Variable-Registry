@@ -4,7 +4,7 @@
     "ui-label": "fNgasNonFire",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_due_to_all_land_processes_excluding_fires",
+    "standard-name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-due-to-all-land-processes-excluding-fires",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "iareafl",
     "description": "",
     "data-type": "real",
-    "standard-name": "floating_ice_shelf_area",
+    "standard-name": "floating-ice-shelf-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

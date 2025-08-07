@@ -4,7 +4,7 @@
     "ui-label": "mmraerh2o",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
+    "standard-name": "mass-fraction-of-water-in-ambient-aerosol-particles-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

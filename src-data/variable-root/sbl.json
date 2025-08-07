@@ -4,7 +4,7 @@
     "ui-label": "sbl",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-water-vapor-due-to-sublimation-of-surface-snow-and-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

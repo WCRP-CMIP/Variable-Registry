@@ -4,7 +4,7 @@
     "ui-label": "litemptop",
     "description": "",
     "data-type": "real",
-    "standard-name": "temperature_at_top_of_ice_sheet_model",
+    "standard-name": "temperature-at-top-of-ice-sheet-model",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

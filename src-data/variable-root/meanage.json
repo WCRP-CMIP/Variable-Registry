@@ -4,7 +4,7 @@
     "ui-label": "meanage",
     "description": "",
     "data-type": "real",
-    "standard-name": "age_of_stratospheric_air",
+    "standard-name": "age-of-stratospheric-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

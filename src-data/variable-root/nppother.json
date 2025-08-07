@@ -4,7 +4,7 @@
     "ui-label": "nppOther",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_miscellaneous_living_matter",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-miscellaneous-living-matter",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

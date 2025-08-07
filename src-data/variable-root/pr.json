@@ -4,7 +4,7 @@
     "ui-label": "pr",
     "description": "",
     "data-type": "real",
-    "standard-name": "precipitation_flux",
+    "standard-name": "precipitation-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

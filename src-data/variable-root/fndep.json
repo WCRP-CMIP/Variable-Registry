@@ -4,7 +4,7 @@
     "ui-label": "fNdep",
     "description": "",
     "data-type": "real",
-    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-deposition",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

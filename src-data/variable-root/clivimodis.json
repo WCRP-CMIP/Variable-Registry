@@ -4,7 +4,7 @@
     "ui-label": "clivimodis",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_cloud_ice",
+    "standard-name": "atmosphere-mass-content-of-cloud-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

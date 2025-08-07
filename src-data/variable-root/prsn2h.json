@@ -4,7 +4,7 @@
     "ui-label": "prsn2h",
     "description": "",
     "data-type": "real",
-    "standard-name": "solid_precipitation_flux_containing_single_2H",
+    "standard-name": "solid-precipitation-flux-containing-single-2h",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

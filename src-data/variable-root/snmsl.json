@@ -4,7 +4,7 @@
     "ui-label": "snmsl",
     "description": "",
     "data-type": "real",
-    "standard-name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
+    "standard-name": "liquid-water-mass-flux-into-soil-due-to-surface-snow-melt",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

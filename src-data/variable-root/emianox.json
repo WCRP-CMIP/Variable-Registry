@@ -4,7 +4,7 @@
     "ui-label": "emianox",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_nox_expressed_as_nitrogen_due_to_emission",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nox-expressed-as-nitrogen-due-to-emission",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

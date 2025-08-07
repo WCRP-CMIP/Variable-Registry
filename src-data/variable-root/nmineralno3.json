@@ -4,7 +4,7 @@
     "ui-label": "nMineralNO3",
     "description": "",
     "data-type": "real",
-    "standard-name": "soil_mass_content_of_inorganic_nitrate_expressed_as_nitrogen",
+    "standard-name": "soil-mass-content-of-inorganic-nitrate-expressed-as-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

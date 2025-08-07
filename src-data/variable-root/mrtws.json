@@ -4,7 +4,7 @@
     "ui-label": "mrtws",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_water_amount",
+    "standard-name": "land-water-amount",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

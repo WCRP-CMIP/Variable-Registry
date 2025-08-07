@@ -4,7 +4,7 @@
     "ui-label": "nRoot",
     "description": "",
     "data-type": "real",
-    "standard-name": "root_mass_content_of_nitrogen",
+    "standard-name": "root-mass-content-of-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

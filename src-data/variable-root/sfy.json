@@ -4,7 +4,7 @@
     "ui-label": "sfy",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_salt_y_transport",
+    "standard-name": "ocean-salt-y-transport",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

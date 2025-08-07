@@ -4,7 +4,7 @@
     "ui-label": "uas",
     "description": "",
     "data-type": "real",
-    "standard-name": "eastward_wind",
+    "standard-name": "eastward-wind",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

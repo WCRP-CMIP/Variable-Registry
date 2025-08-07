@@ -4,7 +4,7 @@
     "ui-label": "aod550volso4",
     "description": "",
     "data-type": "real",
-    "standard-name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
+    "standard-name": "stratosphere-optical-thickness-due-to-volcanic-ambient-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

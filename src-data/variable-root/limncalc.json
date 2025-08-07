@@ -4,7 +4,7 @@
     "ui-label": "limncalc",
     "description": "",
     "data-type": "real",
-    "standard-name": "nitrogen_growth_limitation_of_calcareous_phytoplankton",
+    "standard-name": "nitrogen-growth-limitation-of-calcareous-phytoplankton",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

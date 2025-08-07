@@ -4,7 +4,7 @@
     "ui-label": "c14Litter",
     "description": "",
     "data-type": "real",
-    "standard-name": "litter_mass_content_of_14C",
+    "standard-name": "litter-mass-content-of-14c",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

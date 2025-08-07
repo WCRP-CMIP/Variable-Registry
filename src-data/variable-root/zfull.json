@@ -4,7 +4,7 @@
     "ui-label": "zfull",
     "description": "",
     "data-type": "real",
-    "standard-name": "height_above_reference_ellipsoid",
+    "standard-name": "height-above-reference-ellipsoid",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

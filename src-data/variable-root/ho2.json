@@ -4,7 +4,7 @@
     "ui-label": "ho2",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+    "standard-name": "mole-fraction-of-hydroperoxyl-radical-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "emibbbc",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_emission_from_fires",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-elemental-carbon-dry-aerosol-particles-due-to-emission-from-fires",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

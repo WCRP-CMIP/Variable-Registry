@@ -4,7 +4,7 @@
     "ui-label": "sw18O",
     "description": "",
     "data-type": "real",
-    "standard-name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
+    "standard-name": "isotope-ratio-of-18o-to-16o-in-sea-water-excluding-solutes-and-solids",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

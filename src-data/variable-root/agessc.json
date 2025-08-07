@@ -4,7 +4,7 @@
     "ui-label": "agessc",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_age_since_surface_contact",
+    "standard-name": "sea-water-age-since-surface-contact",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

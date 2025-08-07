@@ -4,7 +4,7 @@
     "ui-label": "tauvnogw",
     "description": "",
     "data-type": "real",
-    "standard-name": "upward_northward_momentum_flux_in_air_due_to_nonorographic_gravity_waves",
+    "standard-name": "upward-northward-momentum-flux-in-air-due-to-nonorographic-gravity-waves",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

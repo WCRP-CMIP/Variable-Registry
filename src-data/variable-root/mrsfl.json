@@ -4,7 +4,7 @@
     "ui-label": "mrsfl",
     "description": "",
     "data-type": "real",
-    "standard-name": "frozen_water_content_of_soil_layer",
+    "standard-name": "frozen-water-content-of-soil-layer",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

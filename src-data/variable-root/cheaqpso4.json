@@ -4,7 +4,7 @@
     "ui-label": "cheaqpso4",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_aqueous_phase_net_chemical_production",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-aqueous-phase-net-chemical-production",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

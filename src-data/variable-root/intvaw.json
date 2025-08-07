@@ -4,7 +4,7 @@
     "ui-label": "intvaw",
     "description": "",
     "data-type": "real",
-    "standard-name": "northward_atmosphere_water_transport_across_unit_distance",
+    "standard-name": "northward-atmosphere-water-transport-across-unit-distance",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

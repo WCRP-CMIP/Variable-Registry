@@ -4,7 +4,7 @@
     "ui-label": "clwvic",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_convective_cloud_condensed_water",
+    "standard-name": "atmosphere-mass-content-of-convective-cloud-condensed-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

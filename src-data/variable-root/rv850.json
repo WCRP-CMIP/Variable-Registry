@@ -4,7 +4,7 @@
     "ui-label": "rv850",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_relative_vorticity",
+    "standard-name": "atmosphere-relative-vorticity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

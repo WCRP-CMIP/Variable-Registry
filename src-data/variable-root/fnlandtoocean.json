@@ -4,7 +4,7 @@
     "ui-label": "fNLandToOcean",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_into_sea_from_rivers",
+    "standard-name": "mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-into-sea-from-rivers",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

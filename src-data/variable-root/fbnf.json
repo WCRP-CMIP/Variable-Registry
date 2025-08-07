@@ -4,7 +4,7 @@
     "ui-label": "fBNF",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+    "standard-name": "tendency-of-soil-and-vegetation-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-fixation",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

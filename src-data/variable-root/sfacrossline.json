@@ -4,7 +4,7 @@
     "ui-label": "sfacrossline",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_salt_transport_across_line",
+    "standard-name": "ocean-salt-transport-across-line",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

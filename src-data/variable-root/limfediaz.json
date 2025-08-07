@@ -4,7 +4,7 @@
     "ui-label": "limfediaz",
     "description": "",
     "data-type": "real",
-    "standard-name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
+    "standard-name": "iron-growth-limitation-of-diazotrophic-phytoplankton",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

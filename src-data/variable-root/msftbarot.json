@@ -4,7 +4,7 @@
     "ui-label": "msftbarot",
     "description": "",
     "data-type": "real",
-    "standard-name": "ocean_barotropic_mass_streamfunction",
+    "standard-name": "ocean-barotropic-mass-streamfunction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

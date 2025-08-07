@@ -4,7 +4,7 @@
     "ui-label": "masso",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_mass",
+    "standard-name": "sea-water-mass",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

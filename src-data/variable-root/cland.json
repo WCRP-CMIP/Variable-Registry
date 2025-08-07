@@ -4,7 +4,7 @@
     "ui-label": "cLand",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_content_of_carbon_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
+    "standard-name": "mass-content-of-carbon-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "pso",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_pressure_at_sea_water_surface",
+    "standard-name": "sea-water-pressure-at-sea-water-surface",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

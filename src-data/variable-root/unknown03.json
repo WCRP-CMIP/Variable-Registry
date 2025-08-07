@@ -4,7 +4,7 @@
     "ui-label": "unknown03",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_wave_from_direction",
+    "standard-name": "sea-surface-wave-from-direction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

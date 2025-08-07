@@ -4,7 +4,7 @@
     "ui-label": "loadno3",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_nitrate_dry_aerosol_particles",
+    "standard-name": "atmosphere-mass-content-of-nitrate-dry-aerosol-particles",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

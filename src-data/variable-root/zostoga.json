@@ -4,7 +4,7 @@
     "ui-label": "zostoga",
     "description": "",
     "data-type": "real",
-    "standard-name": "global_average_thermosteric_sea_level_change",
+    "standard-name": "global-average-thermosteric-sea-level-change",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

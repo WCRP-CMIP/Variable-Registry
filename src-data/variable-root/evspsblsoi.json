@@ -4,7 +4,7 @@
     "ui-label": "evspsblsoi",
     "description": "",
     "data-type": "real",
-    "standard-name": "water_evaporation_flux_from_soil",
+    "standard-name": "water-evaporation-flux-from-soil",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

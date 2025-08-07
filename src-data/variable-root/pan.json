@@ -4,7 +4,7 @@
     "ui-label": "pan",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_fraction_of_peroxyacetyl_nitrate_in_air",
+    "standard-name": "mole-fraction-of-peroxyacetyl-nitrate-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

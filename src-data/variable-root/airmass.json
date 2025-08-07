@@ -4,7 +4,7 @@
     "ui-label": "airmass",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_of_air_per_unit_area",
+    "standard-name": "atmosphere-mass-of-air-per-unit-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "rls",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_net_downward_longwave_flux",
+    "standard-name": "surface-net-downward-longwave-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sidconcdyn",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_ice_area_fraction_due_to_dynamics",
+    "standard-name": "tendency-of-sea-ice-area-fraction-due-to-dynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

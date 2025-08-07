@@ -4,7 +4,7 @@
     "ui-label": "flashrate",
     "description": "",
     "data-type": "real",
-    "standard-name": "frequency_of_lightning_flashes_per_unit_area",
+    "standard-name": "frequency-of-lightning-flashes-per-unit-area",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

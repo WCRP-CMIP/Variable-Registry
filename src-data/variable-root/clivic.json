@@ -4,7 +4,7 @@
     "ui-label": "clivic",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_content_of_convective_cloud_ice",
+    "standard-name": "atmosphere-mass-content-of-convective-cloud-ice",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

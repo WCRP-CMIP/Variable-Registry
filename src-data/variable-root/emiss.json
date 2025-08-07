@@ -4,7 +4,7 @@
     "ui-label": "emiss",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_emission",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-emission",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

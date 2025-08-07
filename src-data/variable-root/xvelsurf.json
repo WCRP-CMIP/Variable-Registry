@@ -4,7 +4,7 @@
     "ui-label": "xvelsurf",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_surface_x_velocity",
+    "standard-name": "land-ice-surface-x-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

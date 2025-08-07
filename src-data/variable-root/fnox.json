@@ -4,7 +4,7 @@
     "ui-label": "fNOx",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_nox_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "standard-name": "surface-upward-mass-flux-of-nox-expressed-as-nitrogen-out-of-vegetation-and-litter-and-soil",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

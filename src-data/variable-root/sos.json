@@ -4,7 +4,7 @@
     "ui-label": "sos",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_surface_salinity",
+    "standard-name": "sea-surface-salinity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

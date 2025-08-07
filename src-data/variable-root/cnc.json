@@ -4,7 +4,7 @@
     "ui-label": "cnc",
     "description": "",
     "data-type": "real",
-    "standard-name": "vegetation_area_fraction",
+    "standard-name": "vegetation-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

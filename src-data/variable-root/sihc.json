@@ -4,7 +4,7 @@
     "ui-label": "sihc",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_enthalpy_content",
+    "standard-name": "sea-ice-enthalpy-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sisnmassacrossline",
     "description": "",
     "data-type": "real",
-    "standard-name": "snow_transport_across_line_due_to_sea_ice_dynamics",
+    "standard-name": "snow-transport-across-line-due-to-sea-ice-dynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

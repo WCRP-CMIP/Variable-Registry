@@ -4,7 +4,7 @@
     "ui-label": "lossn2o",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mole_concentration_of_nitrous_oxide_due_to_chemical_destruction",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-nitrous-oxide-due-to-chemical-destruction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

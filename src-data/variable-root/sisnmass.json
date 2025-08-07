@@ -4,7 +4,7 @@
     "ui-label": "sisnmass",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_snow_mass",
+    "standard-name": "surface-snow-mass",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

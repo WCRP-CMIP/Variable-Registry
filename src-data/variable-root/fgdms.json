@@ -4,7 +4,7 @@
     "ui-label": "fgdms",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mole_flux_of_dimethyl_sulfide",
+    "standard-name": "surface-upward-mole-flux-of-dimethyl-sulfide",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

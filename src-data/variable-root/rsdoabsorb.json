@@ -4,7 +4,7 @@
     "ui-label": "rsdoabsorb",
     "description": "",
     "data-type": "real",
-    "standard-name": "net_rate_of_absorption_of_shortwave_energy_in_ocean_layer",
+    "standard-name": "net-rate-of-absorption-of-shortwave-energy-in-ocean-layer",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

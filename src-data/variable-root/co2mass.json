@@ -4,7 +4,7 @@
     "ui-label": "co2mass",
     "description": "",
     "data-type": "real",
-    "standard-name": "atmosphere_mass_of_carbon_dioxide",
+    "standard-name": "atmosphere-mass-of-carbon-dioxide",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

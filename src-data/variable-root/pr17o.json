@@ -4,7 +4,7 @@
     "ui-label": "pr17O",
     "description": "",
     "data-type": "real",
-    "standard-name": "precipitation_flux_containing_17O",
+    "standard-name": "precipitation-flux-containing-17o",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

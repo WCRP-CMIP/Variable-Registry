@@ -4,7 +4,7 @@
     "ui-label": "hfss",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_sensible_heat_flux",
+    "standard-name": "surface-upward-sensible-heat-flux",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "emivoc",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_atmosphere_mass_content_of_nmvoc_due_to_emission",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nmvoc-due-to-emission",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "dyuo",
     "description": "",
     "data-type": "real",
-    "standard-name": "cell_y_length",
+    "standard-name": "cell-y-length",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

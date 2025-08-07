@@ -4,7 +4,7 @@
     "ui-label": "toz",
     "description": "",
     "data-type": "real",
-    "standard-name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
+    "standard-name": "equivalent-thickness-at-stp-of-atmosphere-ozone-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

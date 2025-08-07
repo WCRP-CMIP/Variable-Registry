@@ -4,7 +4,7 @@
     "ui-label": "ztp",
     "description": "",
     "data-type": "real",
-    "standard-name": "tropopause_altitude",
+    "standard-name": "tropopause-altitude",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

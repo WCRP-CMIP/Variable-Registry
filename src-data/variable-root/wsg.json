@@ -4,7 +4,7 @@
     "ui-label": "wsg",
     "description": "",
     "data-type": "real",
-    "standard-name": "wind_speed_of_gust",
+    "standard-name": "wind-speed-of-gust",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

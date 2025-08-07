@@ -4,7 +4,7 @@
     "ui-label": "phcint",
     "description": "",
     "data-type": "real",
-    "standard-name": "integral_wrt_depth_of_sea_water_potential_temperature_expressed_as_heat_content",
+    "standard-name": "integral-wrt-depth-of-sea-water-potential-temperature-expressed-as-heat-content",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

@@ -4,7 +4,7 @@
     "ui-label": "sidmassdyn",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_ice_amount_due_to_sea_ice_dynamics",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-sea-ice-dynamics",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

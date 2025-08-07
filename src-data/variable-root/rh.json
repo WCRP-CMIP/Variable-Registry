@@ -4,7 +4,7 @@
     "ui-label": "rh",
     "description": "",
     "data-type": "real",
-    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-heterotrophic-respiration",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

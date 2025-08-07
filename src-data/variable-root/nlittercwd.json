@@ -4,7 +4,7 @@
     "ui-label": "nLitterCwd",
     "description": "",
     "data-type": "real",
-    "standard-name": "wood_debris_mass_content_of_nitrogen",
+    "standard-name": "wood-debris-mass-content-of-nitrogen",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

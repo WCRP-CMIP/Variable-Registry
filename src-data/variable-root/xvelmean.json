@@ -4,7 +4,7 @@
     "ui-label": "xvelmean",
     "description": "",
     "data-type": "real",
-    "standard-name": "land_ice_vertical_mean_x_velocity",
+    "standard-name": "land-ice-vertical-mean-x-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

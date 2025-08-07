@@ -4,7 +4,7 @@
     "ui-label": "dfe",
     "description": "",
     "data-type": "real",
-    "standard-name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "standard-name": "mole-concentration-of-dissolved-iron-in-sea-water",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

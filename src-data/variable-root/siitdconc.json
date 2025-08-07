@@ -4,7 +4,7 @@
     "ui-label": "siitdconc",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_ice_area_fraction",
+    "standard-name": "sea-ice-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

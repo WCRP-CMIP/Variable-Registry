@@ -4,7 +4,7 @@
     "ui-label": "sftflf",
     "description": "",
     "data-type": "real",
-    "standard-name": "floating_ice_shelf_area_fraction",
+    "standard-name": "floating-ice-shelf-area-fraction",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

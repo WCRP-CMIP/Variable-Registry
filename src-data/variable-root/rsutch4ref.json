@@ -4,7 +4,7 @@
     "ui-label": "rsutch4ref",
     "description": "",
     "data-type": "real",
-    "standard-name": "toa_outgoing_shortwave_flux_assuming_reference_mole_fraction_of_methane_in_air",
+    "standard-name": "toa-outgoing-shortwave-flux-assuming-reference-mole-fraction-of-methane-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

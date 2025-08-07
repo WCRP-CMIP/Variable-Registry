@@ -4,7 +4,7 @@
     "ui-label": "mfo",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_transport_across_line",
+    "standard-name": "sea-water-transport-across-line",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

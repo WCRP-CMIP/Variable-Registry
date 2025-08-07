@@ -4,7 +4,7 @@
     "ui-label": "uo",
     "description": "",
     "data-type": "real",
-    "standard-name": "sea_water_x_velocity",
+    "standard-name": "sea-water-x-velocity",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

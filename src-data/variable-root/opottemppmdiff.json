@@ -4,7 +4,7 @@
     "ui-label": "opottemppmdiff",
     "description": "",
     "data-type": "real",
-    "standard-name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_eddy_diffusion",
+    "standard-name": "tendency-of-sea-water-potential-temperature-expressed-as-heat-content-due-to-parameterized-mesoscale-eddy-diffusion",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",

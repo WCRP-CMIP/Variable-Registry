@@ -4,7 +4,7 @@
     "ui-label": "cli",
     "description": "",
     "data-type": "real",
-    "standard-name": "mass_fraction_of_cloud_ice_in_air",
+    "standard-name": "mass-fraction-of-cloud-ice-in-air",
     "@context": "_context_",
     "type": [
         "wcrp:variable-root",
