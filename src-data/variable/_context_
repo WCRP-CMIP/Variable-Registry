@@ -2,7 +2,7 @@
     "@context": {
         "@base": "https://wcrp-cmip.github.io/Variable-Registry/variable/",
         "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/variable/",
-        "Variable-root": {
+        "variable-root": {
             "@type": "@id",
             "@context": "https://wcrp-cmip.github.io/Variable-Registry/variable-root/_context_"
         },
