@@ -1,0 +1,33 @@
+{
+    "id": "dmso_tavg-d0m-hxy-sea",
+    "validation-key": "dmso_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
+    "description": "Mole concentration of dimethyl sulphide in water in the near surface layer",
+    "variable-root": "dmso",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_dimethyl_sulfide_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dmsos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dmsos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

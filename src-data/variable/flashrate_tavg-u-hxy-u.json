@@ -1,0 +1,33 @@
+{
+    "id": "flashrate_tavg-u-hxy-u",
+    "validation-key": "flashrate_tavg-u-hxy-u",
+    "ui-label": "Lightning Flash Rate",
+    "description": "Lightning Flash Rate",
+    "variable-root": "flashrate",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "frequency_of_lightning_flashes_per_unit_area",
+    "units": "km-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "flashrate",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "flashrate",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

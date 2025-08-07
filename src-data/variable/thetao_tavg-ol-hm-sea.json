@@ -1,0 +1,32 @@
+{
+    "id": "thetao_tavg-ol-hm-sea",
+    "validation-key": "thetao_tavg-ol-hm-sea",
+    "ui-label": "Global Average Sea Water Potential Temperature",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field",
+    "variable-root": "thetao",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hm",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_water_potential_temperature",
+    "units": "degC",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "",
+    "dimensions": [
+        "olevel",
+        "time"
+    ],
+    "out-name": "thetaoga",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "thetaoga",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

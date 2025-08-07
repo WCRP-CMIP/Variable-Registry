@@ -1,0 +1,33 @@
+{
+    "id": "sbl_tavg-u-hxy-si",
+    "validation-key": "sbl_tavg-u-hxy-si",
+    "ui-label": "Snow Mass Rate of Change Through Evaporation or Sublimation",
+    "description": "Rate of change of snow mass through sublimation divided by grid-cell area. If a model does not differentiate between the sublimation of snow and sea ice, we recommend to report all sublimation within sisndmasssubl as long as the ice is snow covered.",
+    "variable-root": "sbl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sisndmasssubl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sisndmasssubl",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

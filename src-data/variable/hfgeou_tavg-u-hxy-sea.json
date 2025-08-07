@@ -1,0 +1,34 @@
+{
+    "id": "hfgeou_tavg-u-hxy-sea",
+    "validation-key": "hfgeou_tavg-u-hxy-sea",
+    "ui-label": "Upward Geothermal Heat Flux at Sea Floor",
+    "description": "Upward geothermal heat flux per unit area on the sea floor",
+    "variable-root": "hfgeou",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "upward_geothermal_heat_flux_at_sea_floor",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "seafloor"
+    ],
+    "out-name": "hfgeou",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfgeou",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

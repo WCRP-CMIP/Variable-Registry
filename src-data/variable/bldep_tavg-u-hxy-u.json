@@ -1,0 +1,33 @@
+{
+    "id": "bldep_tavg-u-hxy-u",
+    "validation-key": "bldep_tavg-u-hxy-u",
+    "ui-label": "Boundary layer depth",
+    "description": "Boundary Layer depth",
+    "variable-root": "bldep",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "atmosphere_boundary_layer_thickness",
+    "units": "m",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "bldep",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "bldep",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

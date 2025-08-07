@@ -1,0 +1,33 @@
+{
+    "id": "tas_tavg-u-hxy-u",
+    "validation-key": "tas_tavg-u-hxy-u",
+    "ui-label": "Hourly Temperature at Surface",
+    "description": "Hourly Temperature at 2m above the surface",
+    "variable-root": "tas",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "air_temperature",
+    "units": "K",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "tas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tas",
+    "model-realm": "land",
+    "@context": "_context_"
+}

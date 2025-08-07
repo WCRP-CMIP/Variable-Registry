@@ -1,0 +1,33 @@
+{
+    "id": "fVegLitterMortality_tavg-u-hxy-lnd",
+    "validation-key": "fVegLitterMortality_tavg-u-hxy-lnd",
+    "ui-label": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality",
+    "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
+    "variable-root": "fVegLitterMortality",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_mortality",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fVegLitterMortality",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fVegLitterMortality",
+    "model-realm": "land",
+    "@context": "_context_"
+}

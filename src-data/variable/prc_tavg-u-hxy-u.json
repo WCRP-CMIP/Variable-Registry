@@ -1,0 +1,33 @@
+{
+    "id": "prc_tavg-u-hxy-u",
+    "validation-key": "prc_tavg-u-hxy-u",
+    "ui-label": "Convective Precipitation",
+    "description": "at surface; includes both liquid and solid phases.",
+    "variable-root": "prc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "convective_precipitation_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prc",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

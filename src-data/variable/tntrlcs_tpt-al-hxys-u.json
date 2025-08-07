@@ -1,0 +1,33 @@
+{
+    "id": "tntrlcs_tpt-al-hxys-u",
+    "validation-key": "tntrlcs_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "description": "alevel site time1",
+    "variable-root": "tntrlcs",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
+    "units": "K s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tntrlcs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tntrlcs",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

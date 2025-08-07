@@ -1,0 +1,34 @@
+{
+    "id": "siitdthick_tavg-u-hxy-si",
+    "validation-key": "siitdthick_tavg-u-hxy-si",
+    "ui-label": "Sea-Ice Thickness in Ice Thickness Categories",
+    "description": "Actual (floe) thickness of sea ice in each ice thickness category, NOT volume divided by grid area (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis).",
+    "variable-root": "siitdthick",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_thickness",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siitdconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "iceband",
+        "time"
+    ],
+    "out-name": "siitdthick",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siitdthick",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

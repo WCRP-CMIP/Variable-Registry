@@ -1,0 +1,12 @@
+{
+    "id": "evspsblsoi",
+    "validation-key": "evspsblsoi",
+    "ui-label": "evspsblsoi",
+    "data-type": "real",
+    "standard-name": "water_evaporation_flux_from_soil",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

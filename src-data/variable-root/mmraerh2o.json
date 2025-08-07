@@ -1,0 +1,12 @@
+{
+    "id": "mmraerh2o",
+    "validation-key": "mmraerh2o",
+    "ui-label": "mmraerh2o",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

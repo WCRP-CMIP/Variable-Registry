@@ -1,0 +1,34 @@
+{
+    "id": "ua_tpt-p3-hxy-air",
+    "validation-key": "ua_tpt-p3-hxy-air",
+    "ui-label": "Eastward Wind",
+    "description": "Zonal wind (positive in a eastward direction).",
+    "variable-root": "ua",
+    "temporal-label": "tpt",
+    "vertical-label": "p3",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "6hrPlevPt",
+    "frequency": "6hr",
+    "standard-name": "eastward_wind",
+    "units": "m s-1",
+    "cell-methods": "amna-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+    ],
+    "out-name": "ua",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P3",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "ua",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

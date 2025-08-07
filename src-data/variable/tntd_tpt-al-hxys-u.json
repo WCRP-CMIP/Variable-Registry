@@ -1,0 +1,33 @@
+{
+    "id": "tntd_tpt-al-hxys-u",
+    "validation-key": "tntd_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Numerical Diffusion",
+    "description": "alevel site time1",
+    "variable-root": "tntd",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_air_temperature_due_to_diffusion",
+    "units": "K s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tntd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tntd",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

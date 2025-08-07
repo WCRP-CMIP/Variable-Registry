@@ -1,0 +1,12 @@
+{
+    "id": "tntscpbl",
+    "validation-key": "tntscpbl",
+    "ui-label": "tntscpbl",
+    "data-type": "real",
+    "standard-name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

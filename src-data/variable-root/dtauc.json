@@ -1,0 +1,12 @@
+{
+    "id": "dtauc",
+    "validation-key": "dtauc",
+    "ui-label": "dtauc",
+    "data-type": "real",
+    "standard-name": "atmosphere_optical_thickness_due_to_convective_cloud",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

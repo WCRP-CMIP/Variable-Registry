@@ -1,0 +1,33 @@
+{
+    "id": "mmrss_tpt-h2m-hxys-u",
+    "validation-key": "mmrss_tpt-h2m-hxys-u",
+    "ui-label": "Sea salt Aerosol Mass Mixing Ratio at CF sites",
+    "description": "This variable represents instantaneous surface sea salt aerosol mass mixing ratio at CF sites, sampled every 3 hours",
+    "variable-root": "mmrss",
+    "temporal-label": "tpt",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hrPt",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_sea_salt_dry_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "site",
+        "time1",
+        "lowermodellayer"
+    ],
+    "out-name": "mmrss",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "mmrss",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

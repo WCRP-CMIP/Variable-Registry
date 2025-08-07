@@ -1,0 +1,33 @@
+{
+    "id": "hus_tpt-al-hxys-u",
+    "validation-key": "hus_tpt-al-hxys-u",
+    "ui-label": "Specific Humidity",
+    "description": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "variable-root": "hus",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "specific_humidity",
+    "units": "1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "hus",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "hus",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

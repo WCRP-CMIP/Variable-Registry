@@ -1,0 +1,12 @@
+{
+    "id": "burntfractionall",
+    "validation-key": "burntfractionall",
+    "ui-label": "burntFractionAll",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

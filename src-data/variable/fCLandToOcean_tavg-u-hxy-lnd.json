@@ -1,0 +1,33 @@
+{
+    "id": "fCLandToOcean_tavg-u-hxy-lnd",
+    "validation-key": "fCLandToOcean_tavg-u-hxy-lnd",
+    "ui-label": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
+    "description": "leached carbon etc that goes into run off or river routing and finds its way into ocean should be reported here.",
+    "variable-root": "fCLandToOcean",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_flux_of_carbon_into_sea_water_from_rivers",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacellr",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fCLandToOcean",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fCLandToOcean",
+    "model-realm": "land",
+    "@context": "_context_"
+}

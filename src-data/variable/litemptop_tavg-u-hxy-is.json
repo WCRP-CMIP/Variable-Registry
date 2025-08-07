@@ -1,0 +1,33 @@
+{
+    "id": "litemptop_tavg-u-hxy-is",
+    "validation-key": "litemptop_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Temperature at Top of Ice Sheet Model",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "litemptop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "temperature_at_top_of_ice_sheet_model",
+    "units": "K",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "litemptopIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "litemptopIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

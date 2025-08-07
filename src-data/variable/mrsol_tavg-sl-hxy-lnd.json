@@ -1,0 +1,34 @@
+{
+    "id": "mrsol_tavg-sl-hxy-lnd",
+    "validation-key": "mrsol_tavg-sl-hxy-lnd",
+    "ui-label": "Total Water Content of Soil Layer",
+    "description": "in each soil layer, the mass of water in all phases, including ice.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+    "variable-root": "mrsol",
+    "temporal-label": "tavg",
+    "vertical-label": "sl",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_content_of_water_in_soil_layer",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time"
+    ],
+    "out-name": "mrsol",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-S",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrsol",
+    "model-realm": "land",
+    "@context": "_context_"
+}

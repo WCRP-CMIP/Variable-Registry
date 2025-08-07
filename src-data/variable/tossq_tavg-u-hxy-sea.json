@@ -1,0 +1,33 @@
+{
+    "id": "tossq_tavg-u-hxy-sea",
+    "validation-key": "tossq_tavg-u-hxy-sea",
+    "ui-label": "Square of Sea Surface Temperature",
+    "description": "Square of temperature of liquid ocean, averaged over the day.",
+    "variable-root": "tossq",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "square_of_sea_surface_temperature",
+    "units": "degC2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "tossq",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tossq",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "bldep_tmin-u-hxy-u",
+    "validation-key": "bldep_tmin-u-hxy-u",
+    "ui-label": "Minimum PBL Height",
+    "description": "minimum boundary layer height during the day (add cell_methods attribute: \"time: minimum\")",
+    "variable-root": "bldep",
+    "temporal-label": "tmin",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "atmosphere_boundary_layer_thickness",
+    "units": "m",
+    "cell-methods": "amn-tmin",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "minpblz",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "minpblz",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

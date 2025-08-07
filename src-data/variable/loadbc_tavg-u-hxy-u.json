@@ -1,0 +1,33 @@
+{
+    "id": "loadbc_tavg-u-hxy-u",
+    "validation-key": "loadbc_tavg-u-hxy-u",
+    "ui-label": "Load of Black Carbon Aerosol",
+    "description": "The total dry mass of black carbon aerosol particles per unit area.",
+    "variable-root": "loadbc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "loadbc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "loadbc",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "thkcello",
+    "validation-key": "thkcello",
+    "ui-label": "thkcello",
+    "data-type": "real",
+    "standard-name": "cell_thickness",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

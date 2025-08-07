@@ -1,0 +1,33 @@
+{
+    "id": "fNdep_tavg-u-hxy-lnd",
+    "validation-key": "fNdep_tavg-u-hxy-lnd",
+    "ui-label": "Dry and Wet Deposition of Reactive Nitrogen onto Land",
+    "description": "Surface deposition rate of nitrogen.",
+    "variable-root": "fNdep",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fNdep",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fNdep",
+    "model-realm": "land",
+    "@context": "_context_"
+}

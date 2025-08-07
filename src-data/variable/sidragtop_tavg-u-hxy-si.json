@@ -1,0 +1,33 @@
+{
+    "id": "sidragtop_tavg-u-hxy-si",
+    "validation-key": "sidragtop_tavg-u-hxy-si",
+    "ui-label": "Atmospheric Drag Coefficient",
+    "description": "Atmospheric drag coefficient that is used to calculate the atmospheric momentum drag on sea ice.",
+    "variable-root": "sidragtop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_drag_coefficient_for_momentum_in_air",
+    "units": "1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sidragtop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sidragtop",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

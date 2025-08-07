@@ -1,0 +1,33 @@
+{
+    "id": "vegHeight_tavg-u-hxy-tree",
+    "validation-key": "vegHeight_tavg-u-hxy-tree",
+    "ui-label": "Height of Trees",
+    "description": "Vegetation height averaged over the tree fraction of a grid cell.",
+    "variable-root": "vegHeight",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "tree",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "canopy_height",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where trees (mask=treeFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "vegHeightTree",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vegHeightTree",
+    "model-realm": "land",
+    "@context": "_context_"
+}

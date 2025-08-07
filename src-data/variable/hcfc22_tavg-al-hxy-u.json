@@ -1,0 +1,34 @@
+{
+    "id": "hcfc22_tavg-al-hxy-u",
+    "validation-key": "hcfc22_tavg-al-hxy-u",
+    "ui-label": "Mole Fraction of HCFC22",
+    "description": "This is the mole fraction of HCFC22 in air",
+    "variable-root": "hcfc22",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_hcfc22_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "hcfc22",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hcfc22",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

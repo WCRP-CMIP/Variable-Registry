@@ -1,0 +1,33 @@
+{
+    "id": "climodis_tavg-u-hxy-u",
+    "validation-key": "climodis_tavg-u-hxy-u",
+    "ui-label": "MODIS Ice Cloud Area Percentage",
+    "description": "MODIS Ice Cloud Fraction",
+    "variable-root": "climodis",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "modis_ice_topped_cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "climodis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "climodis",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

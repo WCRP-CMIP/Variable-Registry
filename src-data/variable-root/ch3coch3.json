@@ -1,0 +1,12 @@
+{
+    "id": "ch3coch3",
+    "validation-key": "ch3coch3",
+    "ui-label": "ch3coch3",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_acetone_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

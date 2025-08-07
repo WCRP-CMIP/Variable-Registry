@@ -1,0 +1,34 @@
+{
+    "id": "o3ste_tavg-al-hxy-u",
+    "validation-key": "o3ste_tavg-al-hxy-u",
+    "ui-label": "Stratospheric Ozone Tracer Volume Mixing Ratio",
+    "description": "Ozone tracer intended to map out strat-trop exchange (STE) of ozone.",
+    "variable-root": "o3ste",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_ozone_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "o3ste",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "o3ste",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "pr_tmax-u-hxy-u",
+    "validation-key": "pr_tmax-u-hxy-u",
+    "ui-label": "Maximum Hourly Precipitation Rate",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
+    "variable-root": "pr",
+    "temporal-label": "tmax",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "precipitation_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-tmax",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prhmax",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prhmax",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

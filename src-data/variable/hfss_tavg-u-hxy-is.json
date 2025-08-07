@@ -1,0 +1,33 @@
+{
+    "id": "hfss_tavg-u-hxy-is",
+    "validation-key": "hfss_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Surface Upward Sensible Heat Flux",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "hfss",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_sensible_heat_flux",
+    "units": "W m-2",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "hfssIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfssIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

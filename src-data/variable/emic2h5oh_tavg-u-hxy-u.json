@@ -1,0 +1,33 @@
+{
+    "id": "emic2h5oh_tavg-u-hxy-u",
+    "validation-key": "emic2h5oh_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C2H5OH",
+    "description": "This is the total emission rate of ethanol (C2H5OH) into the atmosphere",
+    "variable-root": "emic2h5oh",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_ethanol_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emic2h5oh",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emic2h5oh",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

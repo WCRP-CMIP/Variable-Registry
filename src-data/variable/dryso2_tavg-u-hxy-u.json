@@ -1,0 +1,33 @@
+{
+    "id": "dryso2_tavg-u-hxy-u",
+    "validation-key": "dryso2_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of SO2",
+    "description": "Dry Deposition Rate of SO2",
+    "variable-root": "dryso2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_dry_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dryso2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dryso2",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "limndiat_tavg-u-hxy-sea",
+    "validation-key": "limndiat_tavg-u-hxy-sea",
+    "ui-label": "Nitrogen Limitation of Diatoms",
+    "description": "Diatoms are phytoplankton with an external skeleton made of silica. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Nitrogen growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+    "variable-root": "limndiat",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "nitrogen_growth_limitation_of_diatoms",
+    "units": "1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "limndiat",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "limndiat",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

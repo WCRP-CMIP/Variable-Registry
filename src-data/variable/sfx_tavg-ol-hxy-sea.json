@@ -1,0 +1,34 @@
+{
+    "id": "sfx_tavg-ol-hxy-sea",
+    "validation-key": "sfx_tavg-ol-hxy-sea",
+    "ui-label": "3D Ocean Salt Mass X Transport",
+    "description": "Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+    "variable-root": "sfx",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "ocean_salt_x_transport",
+    "units": "kg s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "out-name": "sfx",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sfx",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

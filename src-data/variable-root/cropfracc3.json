@@ -1,0 +1,12 @@
+{
+    "id": "cropfracc3",
+    "validation-key": "cropfracc3",
+    "ui-label": "cropFracC3",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

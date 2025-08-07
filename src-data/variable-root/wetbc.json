@@ -1,0 +1,12 @@
+{
+    "id": "wetbc",
+    "validation-key": "wetbc",
+    "ui-label": "wetbc",
+    "data-type": "real",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_wet_deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

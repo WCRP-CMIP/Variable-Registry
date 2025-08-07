@@ -1,0 +1,34 @@
+{
+    "id": "abs550ss_tavg-u-hxy-u",
+    "validation-key": "abs550ss_tavg-u-hxy-u",
+    "ui-label": "sea salt aaod@550nm",
+    "description": "This is the sea salt aerosol optical depth at 550nm due to absorption",
+    "variable-root": "abs550ss",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "atmosphere_absorption_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
+    "units": "1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "out-name": "abs550ss",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "abs550ss",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

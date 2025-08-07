@@ -1,0 +1,33 @@
+{
+    "id": "cGeologicStorage_tavg-u-hxy-u",
+    "validation-key": "cGeologicStorage_tavg-u-hxy-u",
+    "ui-label": "Carbon Mass in Geologic Storage",
+    "description": "Mass of carbon that has been intentionally sequestered in geologic storage. The definition of geologic storage here is that it be stored for periods of time that are long as compared to the simulation.",
+    "variable-root": "cGeologicStorage",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "carbon_mass_content_of_geological_storage",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cGeologicStorage",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cGeologicStorage",
+    "model-realm": "land",
+    "@context": "_context_"
+}

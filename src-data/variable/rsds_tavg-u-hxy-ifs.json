@@ -1,0 +1,33 @@
+{
+    "id": "rsds_tavg-u-hxy-ifs",
+    "validation-key": "rsds_tavg-u-hxy-ifs",
+    "ui-label": "Surface Downwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
+    "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
+    "variable-root": "rsds",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ifs",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_downwelling_shortwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "Error: area: time: mean where ice_free_sea over sea not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsdsoni",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsdsoni",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

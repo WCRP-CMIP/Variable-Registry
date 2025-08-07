@@ -1,0 +1,33 @@
+{
+    "id": "unknown04",
+    "validation-key": "unknown04",
+    "ui-label": "Total Peak Wave Direction",
+    "description": "Direction of wave propagation (direction from which the wave is coming) derived from the total wave energy spectrum, incorporating both wind-sea and swell waves, by identifying the direction associated with the peak (maximum) energy density. This variable is usually expressed in degrees relative to true north.",
+    "variable-root": "unknown04",
+    "temporal-label": "unknown04",
+    "vertical-label": "unknown04",
+    "horizontal-label": "unknown04",
+    "area-label": "unknown04",
+    "remove-cmip6-table": "3hrPt",
+    "frequency": "3hr",
+    "standard-name": "sea_surface_wave_from_direction_at_variance_spectral_density_maximum",
+    "units": "degree",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "wpdir",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "wpdir",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

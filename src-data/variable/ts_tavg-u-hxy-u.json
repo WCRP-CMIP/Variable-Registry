@@ -1,0 +1,33 @@
+{
+    "id": "ts_tavg-u-hxy-u",
+    "validation-key": "ts_tavg-u-hxy-u",
+    "ui-label": "Surface Temperature",
+    "description": "Surface temperature (skin for open ocean)",
+    "variable-root": "ts",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "surface_temperature",
+    "units": "K",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "ts",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ts",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

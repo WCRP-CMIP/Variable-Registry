@@ -1,0 +1,12 @@
+{
+    "id": "clic",
+    "validation-key": "clic",
+    "ui-label": "clic",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_convective_cloud_ice_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

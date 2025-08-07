@@ -1,0 +1,12 @@
+{
+    "id": "t17d",
+    "validation-key": "t17d",
+    "ui-label": "t17d",
+    "data-type": "real",
+    "standard-name": "depth_of_isosurface_of_sea_water_potential_temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

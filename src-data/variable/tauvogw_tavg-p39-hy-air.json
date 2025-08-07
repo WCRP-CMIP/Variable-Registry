@@ -1,0 +1,33 @@
+{
+    "id": "tauvogw_tavg-p39-hy-air",
+    "validation-key": "tauvogw_tavg-p39-hy-air",
+    "ui-label": "Zonal mean northward Reynolds stress from orographic gravity wave parameterization",
+    "description": "Zonal mean vertical flux of meridional momentum within the orographic gravity wave parameterization",
+    "variable-root": "tauvogw",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "EdayZ",
+    "frequency": "day",
+    "standard-name": "upward_northward_momentum_flux_in_air_due_to_orographic_gravity_waves",
+    "units": "Pa",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "tauvogw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tauvogw",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

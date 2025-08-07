@@ -1,0 +1,33 @@
+{
+    "id": "cl_tpt-al-hxys-u",
+    "validation-key": "cl_tpt-al-hxys-u",
+    "ui-label": "Percentage Cloud Cover",
+    "description": "Includes both large-scale and convective cloud.",
+    "variable-root": "cl",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "cloud_area_fraction_in_atmosphere_layer",
+    "units": "%",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "cl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "cl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

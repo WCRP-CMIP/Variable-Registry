@@ -1,0 +1,34 @@
+{
+    "id": "vegFrac_tavg-u-hxy-u",
+    "validation-key": "vegFrac_tavg-u-hxy-u",
+    "ui-label": "Total Vegetated Percentage Cover",
+    "description": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions.",
+    "variable-root": "vegFrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eyr",
+    "frequency": "yr",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typeveg"
+    ],
+    "out-name": "vegFrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vegFrac",
+    "model-realm": "land",
+    "@context": "_context_"
+}

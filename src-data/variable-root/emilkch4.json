@@ -1,0 +1,12 @@
+{
+    "id": "emilkch4",
+    "validation-key": "emilkch4",
+    "ui-label": "emilkch4",
+    "data-type": "real",
+    "standard-name": "surface_net_upward_mass_flux_of_methane_due_to_emission_from_freshwater_lakes",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

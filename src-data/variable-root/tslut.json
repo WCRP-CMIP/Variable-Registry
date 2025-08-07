@@ -1,0 +1,12 @@
+{
+    "id": "tslut",
+    "validation-key": "tslut",
+    "ui-label": "tsLut",
+    "data-type": "real",
+    "standard-name": "surface_temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

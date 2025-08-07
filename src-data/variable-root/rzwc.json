@@ -1,0 +1,12 @@
+{
+    "id": "rzwc",
+    "validation-key": "rzwc",
+    "ui-label": "rzwc",
+    "data-type": "real",
+    "standard-name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

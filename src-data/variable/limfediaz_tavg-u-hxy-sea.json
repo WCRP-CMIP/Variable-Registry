@@ -1,0 +1,33 @@
+{
+    "id": "limfediaz_tavg-u-hxy-sea",
+    "validation-key": "limfediaz_tavg-u-hxy-sea",
+    "ui-label": "Iron Limitation of Diazotrophs",
+    "description": "In ocean modelling, diazotrophs are phytoplankton of the phylum cyanobacteria distinct from other phytoplankton groups in their ability to fix nitrogen gas in addition to nitrate and ammonium. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Iron growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+    "variable-root": "limfediaz",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
+    "units": "1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "limfediaz",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "limfediaz",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

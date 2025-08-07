@@ -1,0 +1,12 @@
+{
+    "id": "hfrunoffds",
+    "validation-key": "hfrunoffds",
+    "ui-label": "hfrunoffds",
+    "data-type": "real",
+    "standard-name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

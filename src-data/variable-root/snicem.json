@@ -1,0 +1,12 @@
+{
+    "id": "snicem",
+    "validation-key": "snicem",
+    "ui-label": "snicem",
+    "data-type": "real",
+    "standard-name": "surface_snow_and_ice_melt_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

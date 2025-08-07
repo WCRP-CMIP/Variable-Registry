@@ -1,0 +1,11 @@
+{
+    "id": "sn",
+    "validation-key": "sn",
+    "ui-label": "Snow",
+    "description": "snow",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

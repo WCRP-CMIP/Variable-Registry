@@ -1,0 +1,12 @@
+{
+    "id": "mlotstsq",
+    "validation-key": "mlotstsq",
+    "ui-label": "mlotstsq",
+    "data-type": "real",
+    "standard-name": "square_of_ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cProduct_tavg-u-hxy-lnd",
+    "validation-key": "cProduct_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Products of Land-Use Change",
+    "description": "Carbon mass per unit area in that has been removed from the environment through  land use change.",
+    "variable-root": "cProduct",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "carbon_mass_content_of_forestry_and_agricultural_products",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cProduct",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cProduct",
+    "model-realm": "land",
+    "@context": "_context_"
+}

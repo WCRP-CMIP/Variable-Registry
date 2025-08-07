@@ -1,0 +1,12 @@
+{
+    "id": "uo",
+    "validation-key": "uo",
+    "ui-label": "uo",
+    "data-type": "real",
+    "standard-name": "sea_water_x_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tauvpbl_tavg-u-hxy-u",
+    "validation-key": "tauvpbl_tavg-u-hxy-u",
+    "ui-label": "Northward Surface Stress from Planetary Boundary Layer Scheme",
+    "description": "surface",
+    "variable-root": "tauvpbl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "surface_downward_northward_stress_due_to_boundary_layer_mixing",
+    "units": "Pa",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "tauvpbl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tauvpbl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

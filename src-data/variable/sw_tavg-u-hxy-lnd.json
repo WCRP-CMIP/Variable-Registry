@@ -1,0 +1,33 @@
+{
+    "id": "sw_tavg-u-hxy-lnd",
+    "validation-key": "sw_tavg-u-hxy-lnd",
+    "ui-label": "Surface Water Storage",
+    "description": "Total liquid water storage, other than soil, snow or interception storage (i.e. lakes, river channel or depression storage).",
+    "variable-root": "sw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "land_surface_liquid_water_amount",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sw",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cltmodis_tavg-u-hxy-u",
+    "validation-key": "cltmodis_tavg-u-hxy-u",
+    "ui-label": "MODIS Total Cloud Cover Percentage",
+    "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",
+    "variable-root": "cltmodis",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "modis_cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cltmodis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cltmodis",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

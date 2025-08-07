@@ -1,0 +1,12 @@
+{
+    "id": "o3ref",
+    "validation-key": "o3ref",
+    "ui-label": "o3ref",
+    "data-type": "real",
+    "standard-name": "reference_mole_fraction_of_ozone_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

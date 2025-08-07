@@ -1,0 +1,33 @@
+{
+    "id": "prsn_tavg-u-hxy-u",
+    "validation-key": "prsn_tavg-u-hxy-u",
+    "ui-label": "Snowfall Flux",
+    "description": "at surface; includes precipitation of all forms of water in the solid phase",
+    "variable-root": "prsn",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "snowfall_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prsn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prsn",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

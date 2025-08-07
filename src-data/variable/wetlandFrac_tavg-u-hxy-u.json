@@ -1,0 +1,34 @@
+{
+    "id": "wetlandFrac_tavg-u-hxy-u",
+    "validation-key": "wetlandFrac_tavg-u-hxy-u",
+    "ui-label": "Wetland Percentage Cover",
+    "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",
+    "variable-root": "wetlandFrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typewetla"
+    ],
+    "out-name": "wetlandFrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wetlandFrac",
+    "model-realm": "land",
+    "@context": "_context_"
+}

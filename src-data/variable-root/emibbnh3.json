@@ -1,0 +1,12 @@
+{
+    "id": "emibbnh3",
+    "validation-key": "emibbnh3",
+    "ui-label": "emibbnh3",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission_from_fires",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

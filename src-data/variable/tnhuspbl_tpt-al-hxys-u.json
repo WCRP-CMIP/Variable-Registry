@@ -1,0 +1,33 @@
+{
+    "id": "tnhuspbl_tpt-al-hxys-u",
+    "validation-key": "tnhuspbl_tpt-al-hxys-u",
+    "ui-label": "Tendency of Specific Humidity Due to Boundary Layer Mixing",
+    "description": "alevel site time1",
+    "variable-root": "tnhuspbl",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_specific_humidity_due_to_boundary_layer_mixing",
+    "units": "s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tnhuspbl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tnhuspbl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

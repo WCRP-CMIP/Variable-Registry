@@ -1,0 +1,12 @@
+{
+    "id": "ptp",
+    "validation-key": "ptp",
+    "ui-label": "ptp",
+    "data-type": "real",
+    "standard-name": "tropopause_air_pressure",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "msfty",
+    "validation-key": "msfty",
+    "ui-label": "msfty",
+    "data-type": "real",
+    "standard-name": "ocean_y_overturning_mass_streamfunction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

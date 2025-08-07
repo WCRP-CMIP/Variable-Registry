@@ -1,0 +1,12 @@
+{
+    "id": "rsntds",
+    "validation-key": "rsntds",
+    "ui-label": "rsntds",
+    "data-type": "real",
+    "standard-name": "net_downward_shortwave_flux_at_sea_water_surface",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

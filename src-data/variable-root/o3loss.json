@@ -1,0 +1,12 @@
+{
+    "id": "o3loss",
+    "validation-key": "o3loss",
+    "ui-label": "o3loss",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_destruction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "od443aer",
+    "validation-key": "od443aer",
+    "ui-label": "od443aer",
+    "data-type": "real",
+    "standard-name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

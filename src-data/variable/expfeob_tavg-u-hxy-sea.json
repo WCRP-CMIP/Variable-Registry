@@ -1,0 +1,34 @@
+{
+    "id": "expfeob_tavg-u-hxy-sea",
+    "validation-key": "expfeob_tavg-u-hxy-sea",
+    "ui-label": "Sinking Flux of Particulate Iron Reaching the Ocean Bottom",
+    "description": "Downward sinking flux of particulate iron at seafloor",
+    "variable-root": "expfeob",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "seafloor"
+    ],
+    "out-name": "expfeob",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "expfeob",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

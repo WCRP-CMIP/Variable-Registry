@@ -1,0 +1,34 @@
+{
+    "id": "tnta_tavg-al-hxy-u",
+    "validation-key": "tnta_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Advection",
+    "description": "Tendency of Air Temperature due to Advection",
+    "variable-root": "tnta",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_air_temperature_due_to_advection",
+    "units": "K s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "tnta",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tnta",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

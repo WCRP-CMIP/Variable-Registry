@@ -1,0 +1,12 @@
+{
+    "id": "wdir",
+    "validation-key": "wdir",
+    "ui-label": "wdir",
+    "data-type": "real",
+    "standard-name": "sea_surface_wave_from_direction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

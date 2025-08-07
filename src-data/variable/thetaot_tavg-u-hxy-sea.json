@@ -1,0 +1,33 @@
+{
+    "id": "thetaot_tavg-u-hxy-sea",
+    "validation-key": "thetaot_tavg-u-hxy-sea",
+    "ui-label": "Vertically Averaged Sea Water Potential Temperature",
+    "description": "Vertically averaged ocean temperature",
+    "variable-root": "thetaot",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "sea_water_potential_temperature",
+    "units": "degC",
+    "cell-methods": "admns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "thetaot",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "thetaot",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

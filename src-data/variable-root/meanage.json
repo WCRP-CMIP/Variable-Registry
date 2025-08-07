@@ -1,0 +1,12 @@
+{
+    "id": "meanage",
+    "validation-key": "meanage",
+    "ui-label": "meanage",
+    "data-type": "real",
+    "standard-name": "age_of_stratospheric_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "reffcclwtop_tavg-u-hxy-ccl",
+    "validation-key": "reffcclwtop_tavg-u-hxy-ccl",
+    "ui-label": "Cloud-Top Effective Droplet Radius in Convective Cloud",
+    "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
+    "variable-root": "reffcclwtop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ccl",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "effective_radius_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where convective_cloud not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "reffcclwtop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "reffcclwtop",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

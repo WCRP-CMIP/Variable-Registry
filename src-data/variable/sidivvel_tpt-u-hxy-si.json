@@ -1,0 +1,33 @@
+{
+    "id": "sidivvel_tpt-u-hxy-si",
+    "validation-key": "sidivvel_tpt-u-hxy-si",
+    "ui-label": "Divergence of the Sea-Ice Velocity Field",
+    "description": "Divergence of sea-ice velocity field (first shear strain invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "variable-root": "sidivvel",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "divergence_of_sea_ice_velocity",
+    "units": "s-1",
+    "cell-methods": "Error: area: mean where sea_ice (mask=siconc) time: point not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "sidivvel",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "sidivvel",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

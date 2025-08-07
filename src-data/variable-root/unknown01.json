@@ -1,0 +1,12 @@
+{
+    "id": "unknown01",
+    "validation-key": "unknown01",
+    "ui-label": "unknown01",
+    "data-type": "real",
+    "standard-name": "sea_surface_wave_mean_period",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

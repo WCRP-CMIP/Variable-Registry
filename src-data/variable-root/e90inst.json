@@ -1,0 +1,12 @@
+{
+    "id": "e90inst",
+    "validation-key": "e90inst",
+    "ui-label": "e90inst",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

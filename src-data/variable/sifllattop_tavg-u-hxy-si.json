@@ -1,0 +1,33 @@
+{
+    "id": "sifllattop_tavg-u-hxy-si",
+    "validation-key": "sifllattop_tavg-u-hxy-si",
+    "ui-label": "Net Latent Heat Flux over Sea Ice",
+    "description": "Net latent heat flux over sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
+    "variable-root": "sifllattop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_latent_heat_flux",
+    "units": "W m-2",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconca) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sifllattop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sifllattop",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

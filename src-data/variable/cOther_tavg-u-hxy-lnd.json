@@ -1,0 +1,33 @@
+{
+    "id": "cOther_tavg-u-hxy-lnd",
+    "validation-key": "cOther_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",
+    "description": "E.g. fruits, seeds, etc.",
+    "variable-root": "cOther",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "miscellaneous_living_matter_mass_content_of_carbon",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cOther",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cOther",
+    "model-realm": "land",
+    "@context": "_context_"
+}

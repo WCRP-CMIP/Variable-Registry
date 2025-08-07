@@ -1,0 +1,12 @@
+{
+    "id": "clcalipso",
+    "validation-key": "clcalipso",
+    "ui-label": "clcalipso",
+    "data-type": "real",
+    "standard-name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

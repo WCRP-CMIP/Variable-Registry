@@ -1,0 +1,33 @@
+{
+    "id": "opottempmint_tavg-u-hxy-sea",
+    "validation-key": "opottempmint_tavg-u-hxy-sea",
+    "ui-label": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
+    "description": "Full column sum of density\\*cell thickness\\*potential temperature. If the model is Boussinesq, then use Boussinesq reference density for the density factor.",
+    "variable-root": "opottempmint",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oyr",
+    "frequency": "yr",
+    "standard-name": "integral_wrt_depth_of_product_of_potential_temperature_and_sea_water_density",
+    "units": "degC kg m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "opottempmint",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-int",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "opottempmint",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

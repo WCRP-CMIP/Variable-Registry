@@ -1,0 +1,12 @@
+{
+    "id": "abs550so4",
+    "validation-key": "abs550so4",
+    "ui-label": "abs550so4",
+    "data-type": "real",
+    "standard-name": "atmosphere_absorption_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,32 @@
+{
+    "id": "prw_tpt-u-hxys-u",
+    "validation-key": "prw_tpt-u-hxys-u",
+    "ui-label": "Water Vapor Path",
+    "description": "vertically integrated through the atmospheric column",
+    "variable-root": "prw",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "atmosphere_mass_content_of_water_vapor",
+    "units": "kg m-2",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "prw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "prw",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

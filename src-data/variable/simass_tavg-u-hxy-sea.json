@@ -1,0 +1,33 @@
+{
+    "id": "simass_tavg-u-hxy-sea",
+    "validation-key": "simass_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Mass",
+    "description": "Total mass of sea ice divided by grid-cell area.",
+    "variable-root": "simass",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_amount",
+    "units": "kg m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "simass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "simass",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

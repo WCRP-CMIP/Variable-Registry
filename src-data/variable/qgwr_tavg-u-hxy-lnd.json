@@ -1,0 +1,33 @@
+{
+    "id": "qgwr_tavg-u-hxy-lnd",
+    "validation-key": "qgwr_tavg-u-hxy-lnd",
+    "ui-label": "Groundwater Recharge from Soil Layer",
+    "description": "water_flux_from_soil_layer_to_groundwater",
+    "variable-root": "qgwr",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "downward_liquid_water_mass_flux_into_groundwater",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacellr",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "qgwr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "qgwr",
+    "model-realm": "land",
+    "@context": "_context_"
+}

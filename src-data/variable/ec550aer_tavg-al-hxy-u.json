@@ -1,0 +1,35 @@
+{
+    "id": "ec550aer_tavg-al-hxy-u",
+    "validation-key": "ec550aer_tavg-al-hxy-u",
+    "ui-label": "Aerosol Extinction Coefficient",
+    "description": "Aerosol Extinction at 550nm",
+    "variable-root": "ec550aer",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+    "units": "m-1",
+    "cell-methods": "Error: area: time: mean (weighted by downwelling solar radiation) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time",
+        "lambda550nm"
+    ],
+    "out-name": "ec550aer",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ec550aer",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

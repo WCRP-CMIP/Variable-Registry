@@ -1,0 +1,34 @@
+{
+    "id": "simpconc_tavg-u-hxy-si",
+    "validation-key": "simpconc_tavg-u-hxy-si",
+    "ui-label": "Fraction of Sea Ice Covered by Melt Pond",
+    "description": "Area fraction of sea-ice surface that is covered by melt ponds.",
+    "variable-root": "simpconc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typemp"
+    ],
+    "out-name": "simpconc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "simpconc",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

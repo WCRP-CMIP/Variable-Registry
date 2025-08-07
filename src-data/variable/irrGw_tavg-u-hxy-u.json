@@ -1,0 +1,33 @@
+{
+    "id": "irrGw_tavg-u-hxy-u",
+    "validation-key": "irrGw_tavg-u-hxy-u",
+    "ui-label": "irrigation water withdrawal from groundwater",
+    "description": "the amount of water withdrawal for irrigation from ground water, including deep soil water, confined and unconfined aquifer, etc",
+    "variable-root": "irrGw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "irrGw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "irrGw",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "mlotstmin_tmin-u-hxy-sea",
+    "validation-key": "mlotstmin_tmin-u-hxy-sea",
+    "ui-label": "Minimum Ocean Mixed Layer Thickness Defined by Sigma T",
+    "description": "Sigma T is potential density referenced to ocean surface. Defined by Sigma T of 0.03 kg m-3 wrt to model level closest to 10 m depth.",
+    "variable-root": "mlotstmin",
+    "temporal-label": "tmin",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "units": "m",
+    "cell-methods": "Error: area: mean where sea time: minimum not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "deltasigt"
+    ],
+    "out-name": "mlotstmin",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mlotstmin",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

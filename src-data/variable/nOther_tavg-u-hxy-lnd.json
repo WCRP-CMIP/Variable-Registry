@@ -1,0 +1,33 @@
+{
+    "id": "nOther_tavg-u-hxy-lnd",
+    "validation-key": "nOther_tavg-u-hxy-lnd",
+    "ui-label": "Nitrogen Mass in Vegetation Components Other than Leaves, Stem and Root",
+    "description": "E.g. fruits, seeds, etc.",
+    "variable-root": "nOther",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "miscellaneous_living_matter_mass_content_of_nitrogen",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nOther",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nOther",
+    "model-realm": "land",
+    "@context": "_context_"
+}

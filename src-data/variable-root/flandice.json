@@ -1,0 +1,12 @@
+{
+    "id": "flandice",
+    "validation-key": "flandice",
+    "ui-label": "flandice",
+    "data-type": "real",
+    "standard-name": "water_flux_into_sea_water_from_land_ice",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

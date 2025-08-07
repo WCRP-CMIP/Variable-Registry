@@ -1,0 +1,34 @@
+{
+    "id": "o3_tavg-p19-hxy-air",
+    "validation-key": "o3_tavg-p19-hxy-air",
+    "ui-label": "Mole Fraction of O3",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "variable-root": "o3",
+    "temporal-label": "tavg",
+    "vertical-label": "p19",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_ozone_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "out-name": "o3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P19",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "o3",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

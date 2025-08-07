@@ -1,0 +1,33 @@
+{
+    "id": "evspsblveg_tavg-u-hxy-lnd",
+    "validation-key": "evspsblveg_tavg-u-hxy-lnd",
+    "ui-label": "Evaporation from Canopy",
+    "description": "the canopy evaporation+sublimation (if present in model).",
+    "variable-root": "evspsblveg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "water_evaporation_flux_from_canopy",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "evspsblveg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "evspsblveg",
+    "model-realm": "land",
+    "@context": "_context_"
+}

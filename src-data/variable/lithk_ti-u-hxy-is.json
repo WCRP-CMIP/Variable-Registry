@@ -1,0 +1,32 @@
+{
+    "id": "lithk_ti-u-hxy-is",
+    "validation-key": "lithk_ti-u-hxy-is",
+    "ui-label": "Ice Sheet Thickness",
+    "description": "The thickness of the ice sheet",
+    "variable-root": "lithk",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "IfxGre",
+    "frequency": "fx",
+    "standard-name": "land_ice_thickness",
+    "units": "m",
+    "cell-methods": "amni-fx",
+    "cell-measures": "area: areacellg",
+    "dimensions": [
+        "xgre",
+        "ygre"
+    ],
+    "out-name": "lithk",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XYG-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "lithk",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

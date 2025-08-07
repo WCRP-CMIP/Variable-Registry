@@ -1,0 +1,34 @@
+{
+    "id": "tsLut_tavg-u-hxy-multi",
+    "validation-key": "tsLut_tavg-u-hxy-multi",
+    "ui-label": "Surface Temperature on Landuse Tile",
+    "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",
+    "variable-root": "tsLut",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_temperature",
+    "units": "K",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time"
+    ],
+    "out-name": "tslsiLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tslsiLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

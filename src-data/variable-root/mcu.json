@@ -1,0 +1,12 @@
+{
+    "id": "mcu",
+    "validation-key": "mcu",
+    "ui-label": "mcu",
+    "data-type": "real",
+    "standard-name": "atmosphere_updraft_convective_mass_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

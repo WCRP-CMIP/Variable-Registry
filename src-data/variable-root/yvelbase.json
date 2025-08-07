@@ -1,0 +1,12 @@
+{
+    "id": "yvelbase",
+    "validation-key": "yvelbase",
+    "ui-label": "yvelbase",
+    "data-type": "real",
+    "standard-name": "land_ice_basal_y_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

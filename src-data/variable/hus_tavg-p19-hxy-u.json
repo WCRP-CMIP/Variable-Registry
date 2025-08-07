@@ -1,0 +1,34 @@
+{
+    "id": "hus_tavg-p19-hxy-u",
+    "validation-key": "hus_tavg-p19-hxy-u",
+    "ui-label": "Specific Humidity",
+    "description": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "variable-root": "hus",
+    "temporal-label": "tavg",
+    "vertical-label": "p19",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "specific_humidity",
+    "units": "1",
+    "cell-methods": "ax-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "out-name": "hus",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P19",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hus",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

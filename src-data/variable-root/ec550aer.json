@@ -1,0 +1,12 @@
+{
+    "id": "ec550aer",
+    "validation-key": "ec550aer",
+    "ui-label": "ec550aer",
+    "data-type": "real",
+    "standard-name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

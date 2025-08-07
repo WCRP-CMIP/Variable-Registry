@@ -1,0 +1,33 @@
+{
+    "id": "pr_tpt-u-hxy-u",
+    "validation-key": "pr_tpt-u-hxy-u",
+    "ui-label": "Precipitation",
+    "description": "at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)",
+    "variable-root": "pr",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "precipitation_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "pr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "pr",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

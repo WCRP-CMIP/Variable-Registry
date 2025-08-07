@@ -1,0 +1,12 @@
+{
+    "id": "abs550no3",
+    "validation-key": "abs550no3",
+    "ui-label": "abs550no3",
+    "data-type": "real",
+    "standard-name": "atmosphere_absorption_optical_thickness_due_to_nitrate_ambient_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

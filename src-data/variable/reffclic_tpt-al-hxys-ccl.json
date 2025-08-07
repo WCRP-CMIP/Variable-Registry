@@ -1,0 +1,33 @@
+{
+    "id": "reffclic_tpt-al-hxys-ccl",
+    "validation-key": "reffclic_tpt-al-hxys-ccl",
+    "ui-label": "Hydrometeor Effective Radius of Convective Cloud Ice",
+    "description": "alevel site time1",
+    "variable-root": "reffclic",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "ccl",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "effective_radius_of_convective_cloud_ice_particles",
+    "units": "m",
+    "cell-methods": "amncc-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "reffclic",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "reffclic",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "sidmassdyn_tavg-u-hxy-sea",
+    "validation-key": "sidmassdyn_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Mass Change from Dynamics",
+    "description": "Total rate of change in sea-ice mass through dynamics-related processes (advection, divergence, etc.) divided by grid-cell area.",
+    "variable-root": "sidmassdyn",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_sea_ice_amount_due_to_sea_ice_dynamics",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sidmassdyn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sidmassdyn",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

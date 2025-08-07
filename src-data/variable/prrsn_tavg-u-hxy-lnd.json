@@ -1,0 +1,33 @@
+{
+    "id": "prrsn_tavg-u-hxy-lnd",
+    "validation-key": "prrsn_tavg-u-hxy-lnd",
+    "ui-label": "Fraction of Rainfall on Snow",
+    "description": "mass_fraction_of_rainfall_onto_snow",
+    "variable-root": "prrsn",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "mass_fraction_of_rainfall_falling_onto_surface_snow",
+    "units": "1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prrsn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prrsn",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

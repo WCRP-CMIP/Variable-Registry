@@ -1,0 +1,12 @@
+{
+    "id": "zossq",
+    "validation-key": "zossq",
+    "ui-label": "zossq",
+    "data-type": "real",
+    "standard-name": "square_of_sea_surface_height_above_geoid",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

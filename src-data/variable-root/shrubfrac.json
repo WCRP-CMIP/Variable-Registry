@@ -1,0 +1,12 @@
+{
+    "id": "shrubfrac",
+    "validation-key": "shrubfrac",
+    "ui-label": "shrubFrac",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

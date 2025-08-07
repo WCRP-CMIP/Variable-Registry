@@ -1,0 +1,33 @@
+{
+    "id": "cLitter_tavg-u-hxy-lnd",
+    "validation-key": "cLitter_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Litter Pool",
+    "description": "\"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Content\" indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon.",
+    "variable-root": "cLitter",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "litter_mass_content_of_carbon",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cLitter",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cLitter",
+    "model-realm": "land",
+    "@context": "_context_"
+}

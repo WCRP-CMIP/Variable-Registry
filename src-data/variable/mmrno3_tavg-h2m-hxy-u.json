@@ -1,0 +1,34 @@
+{
+    "id": "mmrno3_tavg-h2m-hxy-u",
+    "validation-key": "mmrno3_tavg-h2m-hxy-u",
+    "ui-label": "Daily mean surface NO3 aerosol",
+    "description": "Daily mean NO3 aerosol mass mixing ratio in lowest model layer",
+    "variable-root": "mmrno3",
+    "temporal-label": "tavg",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "mass_fraction_of_nitrate_dry_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowermodellayer"
+    ],
+    "out-name": "mmrno3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mmrno3",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "emih2_tavg-u-hxy-u",
+    "validation-key": "emih2_tavg-u-hxy-u",
+    "ui-label": "Total emission rate of molecular hydrogen (H2)",
+    "description": "This is the total emission rate of molecular hydrogen (H2) into the atmosphere (i.e., integrate 3D emission field vertically to 2d field)",
+    "variable-root": "emih2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_molecular_hydrogen_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emih2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emih2",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

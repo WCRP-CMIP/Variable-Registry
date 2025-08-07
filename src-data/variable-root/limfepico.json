@@ -1,0 +1,12 @@
+{
+    "id": "limfepico",
+    "validation-key": "limfepico",
+    "ui-label": "limfepico",
+    "data-type": "real",
+    "standard-name": "iron_growth_limitation_of_picophytoplankton",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "gppVgt_tavg-u-hxy-multi",
+    "validation-key": "gppVgt_tavg-u-hxy-multi",
+    "ui-label": "Gross Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "The rate of synthesis of biomass from inorganic precursors by autotrophs (\"producers\") expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. Reported on land-use tiles.",
+    "variable-root": "gppVgt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "vegtype",
+        "time"
+    ],
+    "out-name": "gppVgt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "gppVgt",
+    "model-realm": "land",
+    "@context": "_context_"
+}

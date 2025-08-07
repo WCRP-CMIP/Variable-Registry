@@ -1,0 +1,34 @@
+{
+    "id": "zg_tavg-1000hPa-hxy-air",
+    "validation-key": "zg_tavg-1000hPa-hxy-air",
+    "ui-label": "Geopotential Height at 1000hPa",
+    "description": "Geopotential height on the 1000 hPa surface",
+    "variable-root": "zg",
+    "temporal-label": "tavg",
+    "vertical-label": "1000hPa",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p1000"
+    ],
+    "out-name": "zg1000",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zg1000",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

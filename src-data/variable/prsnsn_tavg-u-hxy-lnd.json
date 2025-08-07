@@ -1,0 +1,33 @@
+{
+    "id": "prsnsn_tavg-u-hxy-lnd",
+    "validation-key": "prsnsn_tavg-u-hxy-lnd",
+    "ui-label": "Fraction of Snowfall (Including Hail and Graupel) on Snow",
+    "description": "mass_fraction_of_snowfall_onto_snow",
+    "variable-root": "prsnsn",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
+    "units": "1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prsnsn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prsnsn",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

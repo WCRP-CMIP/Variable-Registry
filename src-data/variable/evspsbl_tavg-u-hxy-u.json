@@ -1,0 +1,33 @@
+{
+    "id": "evspsbl_tavg-u-hxy-u",
+    "validation-key": "evspsbl_tavg-u-hxy-u",
+    "ui-label": "Evaporation Including Sublimation and Transpiration",
+    "description": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+    "variable-root": "evspsbl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "water_evapotranspiration_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "evspsbl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "evspsbl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

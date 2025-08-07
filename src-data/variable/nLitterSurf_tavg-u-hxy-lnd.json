@@ -1,0 +1,33 @@
+{
+    "id": "nLitterSurf_tavg-u-hxy-lnd",
+    "validation-key": "nLitterSurf_tavg-u-hxy-lnd",
+    "ui-label": "Nitrogen Mass in Above-Ground Litter (non CWD)",
+    "description": "\"Content\" indicates a quantity per unit area. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Surface litter\" means the part of the litter resting above the soil surface. The sum of the quantities with standard names wood_debris_mass_content_of_nitrogen, surface_litter_mass_content_of_nitrogen and subsurface_litter_mass_content_of_nitrogen is the total nitrogen mass content of dead plant material.",
+    "variable-root": "nLitterSurf",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_litter_mass_content_of_nitrogen",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nLitterSurf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nLitterSurf",
+    "model-realm": "land",
+    "@context": "_context_"
+}

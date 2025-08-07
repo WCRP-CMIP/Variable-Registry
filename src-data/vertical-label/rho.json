@@ -1,0 +1,11 @@
+{
+    "id": "rho",
+    "validation-key": "rho",
+    "ui-label": "Density Surface",
+    "description": "density surface",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

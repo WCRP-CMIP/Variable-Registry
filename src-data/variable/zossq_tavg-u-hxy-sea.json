@@ -1,0 +1,33 @@
+{
+    "id": "zossq_tavg-u-hxy-sea",
+    "validation-key": "zossq_tavg-u-hxy-sea",
+    "ui-label": "Square of Sea Surface Height Above Geoid",
+    "description": "Surface ocean geoid defines z=0.",
+    "variable-root": "zossq",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "square_of_sea_surface_height_above_geoid",
+    "units": "m2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "zossq",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zossq",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

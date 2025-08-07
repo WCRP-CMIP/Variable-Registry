@@ -1,0 +1,33 @@
+{
+    "id": "mrtws_tavg-u-hxy-lnd",
+    "validation-key": "mrtws_tavg-u-hxy-lnd",
+    "ui-label": "Terrestrial Water Storage",
+    "description": "requested for C4MIP, OCMIP/OMIP, LUMIP, ScenarioMIP, DECK, DAMIP, GeoMIP, LS3MIP, ??",
+    "variable-root": "mrtws",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "land_water_amount",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "mrtws",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrtws",
+    "model-realm": "land",
+    "@context": "_context_"
+}

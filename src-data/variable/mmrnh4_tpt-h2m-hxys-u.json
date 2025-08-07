@@ -1,0 +1,33 @@
+{
+    "id": "mmrnh4_tpt-h2m-hxys-u",
+    "validation-key": "mmrnh4_tpt-h2m-hxys-u",
+    "ui-label": "Instantaneous surface NH4 aerosol mass mixing ratio at CF sites",
+    "description": "This variable represents the instantaneous surface NH4 Aerosol Mass Mixing Ratio at CF sites, sampled every 3 hours",
+    "variable-root": "mmrnh4",
+    "temporal-label": "tpt",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hrPt",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "site",
+        "time1",
+        "lowermodellayer"
+    ],
+    "out-name": "mmrnh4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "mmrnh4",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

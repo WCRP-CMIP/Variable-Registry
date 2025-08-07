@@ -1,0 +1,12 @@
+{
+    "id": "pan",
+    "validation-key": "pan",
+    "ui-label": "pan",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_peroxyacetyl_nitrate_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

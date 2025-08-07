@@ -1,0 +1,33 @@
+{
+    "id": "intuaw_tavg-u-hxy-u",
+    "validation-key": "intuaw_tavg-u-hxy-u",
+    "ui-label": "Vertically Integrated Eastward Moisture Transport",
+    "description": "Vertically integrated Eastward moisture transport (Mass weighted vertical integral of the product of eastward wind by total water mass per unit mass)",
+    "variable-root": "intuaw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "eastward_atmosphere_water_transport_across_unit_distance",
+    "units": "kg m-1 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "intuaw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "intuaw",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

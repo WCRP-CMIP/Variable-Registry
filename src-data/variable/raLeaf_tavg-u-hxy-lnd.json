@@ -1,0 +1,33 @@
+{
+    "id": "raLeaf_tavg-u-hxy-lnd",
+    "validation-key": "raLeaf_tavg-u-hxy-lnd",
+    "ui-label": "Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "added for completeness with Ra_root",
+    "variable-root": "raLeaf",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_leaves",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "raLeaf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "raLeaf",
+    "model-realm": "land",
+    "@context": "_context_"
+}

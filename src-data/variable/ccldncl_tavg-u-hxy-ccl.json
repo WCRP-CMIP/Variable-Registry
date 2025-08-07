@@ -1,0 +1,33 @@
+{
+    "id": "ccldncl_tavg-u-hxy-ccl",
+    "validation-key": "ccldncl_tavg-u-hxy-ccl",
+    "ui-label": "Cloud Droplet Number Concentration of Convective Cloud Tops",
+    "description": "Cloud Droplet Number Concentration of Convective Cloud Tops",
+    "variable-root": "ccldncl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ccl",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "number_concentration_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
+    "units": "m-3",
+    "cell-methods": "Error: area: time: mean where convective_cloud (mean over the portion of the cell containing liquid topped cloud, as seen from top of atmosphere) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "ccldncl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ccldncl",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

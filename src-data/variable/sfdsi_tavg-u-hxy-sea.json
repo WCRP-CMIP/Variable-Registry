@@ -1,0 +1,33 @@
+{
+    "id": "sfdsi_tavg-u-hxy-sea",
+    "validation-key": "sfdsi_tavg-u-hxy-sea",
+    "ui-label": "Downward Sea Ice Basal Salt Flux",
+    "description": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing.",
+    "variable-root": "sfdsi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "downward_sea_ice_basal_salt_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sfdsi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sfdsi",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

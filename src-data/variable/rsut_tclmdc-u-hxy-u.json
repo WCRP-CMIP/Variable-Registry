@@ -1,0 +1,33 @@
+{
+    "id": "rsut_tclmdc-u-hxy-u",
+    "validation-key": "rsut_tclmdc-u-hxy-u",
+    "ui-label": "TOA Outgoing Shortwave Radiation",
+    "description": "at the top of the atmosphere",
+    "variable-root": "rsut",
+    "temporal-label": "tclmdc",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hrClimMon",
+    "frequency": "1hr",
+    "standard-name": "toa_outgoing_shortwave_flux",
+    "units": "W m-2",
+    "cell-methods": "amn-tdnl",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "out-name": "rsut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "diurnal-cycle",
+    "physical-parameter-name": "rsut",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

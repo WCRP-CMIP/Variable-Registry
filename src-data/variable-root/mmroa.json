@@ -1,0 +1,12 @@
+{
+    "id": "mmroa",
+    "validation-key": "mmroa",
+    "ui-label": "mmroa",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_particulate_organic_matter_dry_aerosol_particles_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

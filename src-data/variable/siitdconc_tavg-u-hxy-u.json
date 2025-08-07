@@ -1,0 +1,34 @@
+{
+    "id": "siitdconc_tavg-u-hxy-u",
+    "validation-key": "siitdconc_tavg-u-hxy-u",
+    "ui-label": "Sea-Ice Area Fractions in Ice Thickness Categories",
+    "description": "Area fraction of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+    "variable-root": "siitdconc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_area_fraction",
+    "units": "1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "iceband",
+        "time"
+    ],
+    "out-name": "siitdconc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siitdconc",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

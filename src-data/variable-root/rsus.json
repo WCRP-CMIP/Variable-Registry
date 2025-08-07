@@ -1,0 +1,12 @@
+{
+    "id": "rsus",
+    "validation-key": "rsus",
+    "ui-label": "rsus",
+    "data-type": "real",
+    "standard-name": "surface_upwelling_shortwave_flux_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

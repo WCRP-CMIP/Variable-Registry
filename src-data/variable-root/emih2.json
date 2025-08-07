@@ -1,0 +1,12 @@
+{
+    "id": "emih2",
+    "validation-key": "emih2",
+    "ui-label": "emih2",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_molecular_hydrogen_due_to_emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

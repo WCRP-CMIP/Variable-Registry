@@ -1,0 +1,33 @@
+{
+    "id": "vsfriver_tavg-u-hxy-sea",
+    "validation-key": "vsfriver_tavg-u-hxy-sea",
+    "ui-label": "Virtual Salt Flux into Sea Water from Rivers",
+    "description": "zero for models using real water fluxes.",
+    "variable-root": "vsfriver",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "virtual_salt_flux_into_sea_water_from_rivers",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "vsfriver",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vsfriver",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "tnhus_tavg-al-hxy-u",
+    "validation-key": "tnhus_tavg-al-hxy-u",
+    "ui-label": "Tendency of Specific Humidity",
+    "description": "Tendency of Specific Humidity",
+    "variable-root": "tnhus",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_specific_humidity",
+    "units": "s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "tnhus",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tnhus",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "phcint_tavg-op4-hxy-sea",
+    "validation-key": "phcint_tavg-op4-hxy-sea",
+    "ui-label": "Integrated Ocean Heat Content from Potential Temperature",
+    "description": "This is the vertically-integrated heat content derived from potential temperature (thetao).",
+    "variable-root": "phcint",
+    "temporal-label": "tavg",
+    "vertical-label": "op4",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "integral_wrt_depth_of_sea_water_potential_temperature_expressed_as_heat_content",
+    "units": "J m-2",
+    "cell-methods": "Error: area: time: mean where sea not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "oplayer4",
+        "time"
+    ],
+    "out-name": "phcint",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-B",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "phcint",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

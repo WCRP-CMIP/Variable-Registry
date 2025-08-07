@@ -1,0 +1,12 @@
+{
+    "id": "zfull",
+    "validation-key": "zfull",
+    "ui-label": "zfull",
+    "data-type": "real",
+    "standard-name": "height_above_reference_ellipsoid",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

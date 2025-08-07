@@ -1,0 +1,33 @@
+{
+    "id": "exparagob_tavg-u-hxy-sea",
+    "validation-key": "exparagob_tavg-u-hxy-sea",
+    "ui-label": "Sinking Flux of Aragonite Reaching the Ocean Bottom",
+    "description": "Downward sinking flux of aragonite at seafloor",
+    "variable-root": "exparagob",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "exparagob",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "exparagob",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

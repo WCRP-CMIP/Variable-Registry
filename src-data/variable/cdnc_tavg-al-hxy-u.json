@@ -1,0 +1,34 @@
+{
+    "id": "cdnc_tavg-al-hxy-u",
+    "validation-key": "cdnc_tavg-al-hxy-u",
+    "ui-label": "Cloud Liquid Droplet Number Concentration",
+    "description": "Cloud Droplet Number Concentration in liquid water clouds.",
+    "variable-root": "cdnc",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "number_concentration_of_cloud_liquid_water_particles_in_air",
+    "units": "m-3",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "cdnc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cdnc",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

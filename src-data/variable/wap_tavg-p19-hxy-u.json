@@ -1,0 +1,34 @@
+{
+    "id": "wap_tavg-p19-hxy-u",
+    "validation-key": "wap_tavg-p19-hxy-u",
+    "ui-label": "Omega (=dp/dt)",
+    "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "variable-root": "wap",
+    "temporal-label": "tavg",
+    "vertical-label": "p19",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "lagrangian_tendency_of_air_pressure",
+    "units": "Pa s-1",
+    "cell-methods": "ax-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "out-name": "wap",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P19",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wap",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

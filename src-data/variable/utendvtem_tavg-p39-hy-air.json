@@ -1,0 +1,33 @@
+{
+    "id": "utendvtem_tavg-p39-hy-air",
+    "validation-key": "utendvtem_tavg-p39-hy-air",
+    "ui-label": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
+    "description": "Zonal mean tendency of eastward wind due to TEM northward advection and Coriolis term",
+    "variable-root": "utendvtem",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "EdayZ",
+    "frequency": "day",
+    "standard-name": "tendency_of_eastward_wind_due_to_advection_by_northward_transformed_eulerian_mean_air_velocity",
+    "units": "m s-2",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "utendvtem",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "utendvtem",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

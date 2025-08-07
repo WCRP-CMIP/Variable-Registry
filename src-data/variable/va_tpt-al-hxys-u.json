@@ -1,0 +1,33 @@
+{
+    "id": "va_tpt-al-hxys-u",
+    "validation-key": "va_tpt-al-hxys-u",
+    "ui-label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "variable-root": "va",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "northward_wind",
+    "units": "m s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "va",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "va",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

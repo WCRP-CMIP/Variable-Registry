@@ -1,0 +1,33 @@
+{
+    "id": "nMineralNO3_tavg-u-hxy-lnd",
+    "validation-key": "nMineralNO3_tavg-u-hxy-lnd",
+    "ui-label": "Mineral Nitrate in the Soil",
+    "description": "SUM of nitrate over all soil layers",
+    "variable-root": "nMineralNO3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "soil_mass_content_of_inorganic_nitrate_expressed_as_nitrogen",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nMineralNO3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nMineralNO3",
+    "model-realm": "land",
+    "@context": "_context_"
+}

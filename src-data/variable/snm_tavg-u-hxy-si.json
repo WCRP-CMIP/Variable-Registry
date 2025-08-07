@@ -1,0 +1,33 @@
+{
+    "id": "snm_tavg-u-hxy-si",
+    "validation-key": "snm_tavg-u-hxy-si",
+    "ui-label": "Snow Mass Rate of Change Through Melt",
+    "description": "Rate of change of snow mass through melt divided by grid-cell area. Always negative or zero.",
+    "variable-root": "snm",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_snow_melt_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sisndmassmelt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sisndmassmelt",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

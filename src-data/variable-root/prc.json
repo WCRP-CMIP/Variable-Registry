@@ -1,0 +1,12 @@
+{
+    "id": "prc",
+    "validation-key": "prc",
+    "ui-label": "prc",
+    "data-type": "real",
+    "standard-name": "convective_precipitation_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

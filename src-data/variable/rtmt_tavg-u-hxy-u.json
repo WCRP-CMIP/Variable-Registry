@@ -1,0 +1,33 @@
+{
+    "id": "rtmt_tavg-u-hxy-u",
+    "validation-key": "rtmt_tavg-u-hxy-u",
+    "ui-label": "Net Downward Radiative Flux at Top of Model",
+    "description": "i.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
+    "variable-root": "rtmt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rtmt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rtmt",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

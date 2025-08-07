@@ -1,0 +1,12 @@
+{
+    "id": "dsw",
+    "validation-key": "dsw",
+    "ui-label": "dsw",
+    "data-type": "real",
+    "standard-name": "change_over_time_in_land_water_amount",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

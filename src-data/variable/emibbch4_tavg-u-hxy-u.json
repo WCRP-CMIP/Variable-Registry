@@ -1,0 +1,33 @@
+{
+    "id": "emibbch4_tavg-u-hxy-u",
+    "validation-key": "emibbch4_tavg-u-hxy-u",
+    "ui-label": "total emission of CH4 from all biomass burning",
+    "description": "Total emission rate of methane (CH4) into the atmosphere from all biomass burning (natural and anthropogenic)",
+    "variable-root": "emibbch4",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_methane_due_to_emission_from_fires",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emibbch4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emibbch4",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "xvelbase",
+    "validation-key": "xvelbase",
+    "ui-label": "xvelbase",
+    "data-type": "real",
+    "standard-name": "land_ice_basal_x_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "sw17o",
+    "validation-key": "sw17o",
+    "ui-label": "sw17O",
+    "data-type": "real",
+    "standard-name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

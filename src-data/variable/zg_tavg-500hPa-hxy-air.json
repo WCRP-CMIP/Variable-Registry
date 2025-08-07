@@ -1,0 +1,34 @@
+{
+    "id": "zg_tavg-500hPa-hxy-air",
+    "validation-key": "zg_tavg-500hPa-hxy-air",
+    "ui-label": "Geopotential Height at 500hPa",
+    "description": "geopotential height on the 500 hPa surface",
+    "variable-root": "zg",
+    "temporal-label": "tavg",
+    "vertical-label": "500hPa",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+    ],
+    "out-name": "zg500",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zg500",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

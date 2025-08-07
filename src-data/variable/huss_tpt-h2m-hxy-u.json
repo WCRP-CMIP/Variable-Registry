@@ -1,0 +1,34 @@
+{
+    "id": "huss_tpt-h2m-hxy-u",
+    "validation-key": "huss_tpt-h2m-hxy-u",
+    "ui-label": "Near-Surface Specific Humidity",
+    "description": "Specific humidity at 2m.",
+    "variable-root": "huss",
+    "temporal-label": "tpt",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "specific_humidity",
+    "units": "1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height2m"
+    ],
+    "out-name": "huss",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "huss",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

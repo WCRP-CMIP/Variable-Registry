@@ -1,0 +1,33 @@
+{
+    "id": "wap_tpt-al-hxys-u",
+    "validation-key": "wap_tpt-al-hxys-u",
+    "ui-label": "Omega (=dp/dt)",
+    "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "variable-root": "wap",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "lagrangian_tendency_of_air_pressure",
+    "units": "Pa s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "wap",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "wap",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "conccn",
+    "validation-key": "conccn",
+    "ui-label": "conccn",
+    "data-type": "real",
+    "standard-name": "number_concentration_of_ambient_aerosol_particles_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

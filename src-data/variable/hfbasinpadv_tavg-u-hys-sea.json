@@ -1,0 +1,33 @@
+{
+    "id": "hfbasinpadv_tavg-u-hys-sea",
+    "validation-key": "hfbasinpadv_tavg-u-hys-sea",
+    "ui-label": "Northward Ocean Heat Transport Due to Parameterized Eddy Advection",
+    "description": "Contributions to heat transport from parameterized eddy-induced advective transport due to any subgrid advective process. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",
+    "variable-root": "hfbasinpadv",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hys",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "northward_ocean_heat_transport_due_to_parameterized_eddy_advection",
+    "units": "W",
+    "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean not found in cell methods, please register",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "out-name": "hfbasinpadv",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "YB-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfbasinpadv",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

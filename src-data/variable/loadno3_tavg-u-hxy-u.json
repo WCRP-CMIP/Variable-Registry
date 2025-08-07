@@ -1,0 +1,33 @@
+{
+    "id": "loadno3_tavg-u-hxy-u",
+    "validation-key": "loadno3_tavg-u-hxy-u",
+    "ui-label": "Load of NO3",
+    "description": "The total dry mass of nitrate aerosol particles per unit area.",
+    "variable-root": "loadno3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "atmosphere_mass_content_of_nitrate_dry_aerosol_particles",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "loadno3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "loadno3",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tntc_tpt-al-hxys-u",
+    "validation-key": "tntc_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Convection",
+    "description": "Tendencies from cumulus convection scheme.",
+    "variable-root": "tntc",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_air_temperature_due_to_convection",
+    "units": "K s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tntc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tntc",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

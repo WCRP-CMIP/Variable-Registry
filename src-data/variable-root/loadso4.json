@@ -1,0 +1,12 @@
+{
+    "id": "loadso4",
+    "validation-key": "loadso4",
+    "ui-label": "loadso4",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_sulfate_dry_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

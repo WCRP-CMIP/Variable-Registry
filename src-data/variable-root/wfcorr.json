@@ -1,0 +1,12 @@
+{
+    "id": "wfcorr",
+    "validation-key": "wfcorr",
+    "ui-label": "wfcorr",
+    "data-type": "real",
+    "standard-name": "water_flux_correction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

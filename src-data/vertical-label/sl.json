@@ -1,0 +1,11 @@
+{
+    "id": "sl",
+    "validation-key": "sl",
+    "ui-label": "Model Soil Levels",
+    "description": "model soil levels",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

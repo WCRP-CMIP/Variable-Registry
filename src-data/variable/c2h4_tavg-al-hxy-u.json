@@ -1,0 +1,34 @@
+{
+    "id": "c2h4_tavg-al-hxy-u",
+    "validation-key": "c2h4_tavg-al-hxy-u",
+    "ui-label": "C2H4  volume mixing ratio",
+    "description": "Mole fraction of ethene (C2H4) in air",
+    "variable-root": "c2h4",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_ethene_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "c2h4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "c2h4",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

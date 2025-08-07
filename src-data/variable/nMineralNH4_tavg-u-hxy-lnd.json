@@ -1,0 +1,33 @@
+{
+    "id": "nMineralNH4_tavg-u-hxy-lnd",
+    "validation-key": "nMineralNH4_tavg-u-hxy-lnd",
+    "ui-label": "Mineral Ammonium in the Soil",
+    "description": "SUM of ammonium over all soil layers",
+    "variable-root": "nMineralNH4",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "soil_mass_content_of_inorganic_ammonium_expressed_as_nitrogen",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nMineralNH4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nMineralNH4",
+    "model-realm": "land",
+    "@context": "_context_"
+}

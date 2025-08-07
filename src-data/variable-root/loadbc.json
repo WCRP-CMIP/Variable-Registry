@@ -1,0 +1,12 @@
+{
+    "id": "loadbc",
+    "validation-key": "loadbc",
+    "ui-label": "loadbc",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

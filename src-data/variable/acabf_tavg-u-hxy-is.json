@@ -1,0 +1,33 @@
+{
+    "id": "acabf_tavg-u-hxy-is",
+    "validation-key": "acabf_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Surface Mass Balance Flux",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "acabf",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "land_ice_surface_specific_mass_balance_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "acabfIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "acabfIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

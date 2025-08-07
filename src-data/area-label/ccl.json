@@ -1,0 +1,11 @@
+{
+    "id": "ccl",
+    "validation-key": "ccl",
+    "ui-label": "Convective Cloud",
+    "description": "convective_cloud",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

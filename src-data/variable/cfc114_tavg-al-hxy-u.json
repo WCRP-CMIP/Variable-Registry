@@ -1,0 +1,34 @@
+{
+    "id": "cfc114_tavg-al-hxy-u",
+    "validation-key": "cfc114_tavg-al-hxy-u",
+    "ui-label": "Mole Fraction of CFC114",
+    "description": "Mole fraction of cfc114 in air",
+    "variable-root": "cfc114",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_cfc114_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "cfc114",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cfc114",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

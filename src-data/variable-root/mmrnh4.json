@@ -1,0 +1,12 @@
+{
+    "id": "mmrnh4",
+    "validation-key": "mmrnh4",
+    "ui-label": "mmrnh4",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

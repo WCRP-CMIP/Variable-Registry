@@ -1,0 +1,33 @@
+{
+    "id": "reffsclwtop_tavg-u-hxy-scl",
+    "validation-key": "reffsclwtop_tavg-u-hxy-scl",
+    "ui-label": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
+    "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
+    "variable-root": "reffsclwtop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "scl",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "effective_radius_of_stratiform_cloud_liquid_water_particles_at_stratiform_liquid_water_cloud_top",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where stratiform_cloud not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "reffsclwtop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "reffsclwtop",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

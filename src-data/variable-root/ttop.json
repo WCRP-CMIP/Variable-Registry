@@ -1,0 +1,12 @@
+{
+    "id": "ttop",
+    "validation-key": "ttop",
+    "ui-label": "ttop",
+    "data-type": "real",
+    "standard-name": "air_temperature_at_cloud_top",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

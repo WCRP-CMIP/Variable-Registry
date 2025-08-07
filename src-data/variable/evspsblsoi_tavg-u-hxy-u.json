@@ -1,0 +1,33 @@
+{
+    "id": "evspsblsoi_tavg-u-hxy-u",
+    "validation-key": "evspsblsoi_tavg-u-hxy-u",
+    "ui-label": "Daily water evaporation flux from soil",
+    "description": "Water evaporation flux from soil but for daily averages i.e., the evspsblsoi variable, which is only currently defined for monthly averages",
+    "variable-root": "evspsblsoi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "water_evaporation_flux_from_soil",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "evspsblsoi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "evspsblsoi",
+    "model-realm": "land",
+    "@context": "_context_"
+}

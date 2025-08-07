@@ -1,0 +1,33 @@
+{
+    "id": "pr_tavg-u-hxy-crp",
+    "validation-key": "pr_tavg-u-hxy-crp",
+    "ui-label": "Precipitation over Crop Tile",
+    "description": "includes both liquid and solid phases",
+    "variable-root": "pr",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "crp",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "precipitation_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where crops (mask=cropFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prCrop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prCrop",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

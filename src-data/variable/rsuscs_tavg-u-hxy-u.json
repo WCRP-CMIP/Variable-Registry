@@ -1,0 +1,33 @@
+{
+    "id": "rsuscs_tavg-u-hxy-u",
+    "validation-key": "rsuscs_tavg-u-hxy-u",
+    "ui-label": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "description": "Surface Upwelling Clear-sky Shortwave Radiation",
+    "variable-root": "rsuscs",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFday",
+    "frequency": "day",
+    "standard-name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsuscs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsuscs",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

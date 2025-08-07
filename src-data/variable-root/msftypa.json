@@ -1,0 +1,12 @@
+{
+    "id": "msftypa",
+    "validation-key": "msftypa",
+    "ui-label": "msftypa",
+    "data-type": "real",
+    "standard-name": "ocean_y_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

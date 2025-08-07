@@ -1,0 +1,33 @@
+{
+    "id": "rsuto3ref_tavg-u-hxy-u",
+    "validation-key": "rsuto3ref_tavg-u-hxy-u",
+    "ui-label": "TOA shortwave flux assuming reference ozone field",
+    "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",
+    "variable-root": "rsuto3ref",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "toa_outgoing_shortwave_flux_assuming_reference_mole_fraction_of_ozone_in_air",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsuto3ref",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsuto3ref",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

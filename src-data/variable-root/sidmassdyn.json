@@ -1,0 +1,12 @@
+{
+    "id": "sidmassdyn",
+    "validation-key": "sidmassdyn",
+    "ui-label": "sidmassdyn",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_ice_amount_due_to_sea_ice_dynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

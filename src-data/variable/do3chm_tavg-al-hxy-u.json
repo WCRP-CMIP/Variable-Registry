@@ -1,0 +1,34 @@
+{
+    "id": "do3chm_tavg-al-hxy-u",
+    "validation-key": "do3chm_tavg-al-hxy-u",
+    "ui-label": "Net Chemistry Tendency of O3",
+    "description": "Net chemical production of ozone in the atmosphere",
+    "variable-root": "do3chm",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_net_chemical_production",
+    "units": "mol m-3 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "do3chm",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "do3chm",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

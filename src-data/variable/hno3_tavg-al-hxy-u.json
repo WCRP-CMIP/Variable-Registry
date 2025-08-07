@@ -1,0 +1,34 @@
+{
+    "id": "hno3_tavg-al-hxy-u",
+    "validation-key": "hno3_tavg-al-hxy-u",
+    "ui-label": "HNO3 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "variable-root": "hno3",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_nitric_acid_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "hno3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hno3",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

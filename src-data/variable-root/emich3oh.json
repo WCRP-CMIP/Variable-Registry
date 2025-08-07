@@ -1,0 +1,12 @@
+{
+    "id": "emich3oh",
+    "validation-key": "emich3oh",
+    "ui-label": "emich3oh",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_methanol_due_to_emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

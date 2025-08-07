@@ -1,0 +1,12 @@
+{
+    "id": "volo",
+    "validation-key": "volo",
+    "ui-label": "volo",
+    "data-type": "real",
+    "standard-name": "sea_water_volume",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

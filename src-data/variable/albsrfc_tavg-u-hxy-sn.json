@@ -1,0 +1,33 @@
+{
+    "id": "albsrfc_tavg-u-hxy-sn",
+    "validation-key": "albsrfc_tavg-u-hxy-sn",
+    "ui-label": "Snow Albedo",
+    "description": "This is similar to Eday.albsn, but providing monthly averages",
+    "variable-root": "albsrfc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sn",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_albedo",
+    "units": "1",
+    "cell-methods": "Error: area: time: mean where snow (mask=snc) not found in cell methods, please register",
+    "cell-measures": "area: areacella area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "albsn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "albsn",
+    "model-realm": "land",
+    "@context": "_context_"
+}

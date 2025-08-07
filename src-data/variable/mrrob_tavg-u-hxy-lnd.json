@@ -1,0 +1,33 @@
+{
+    "id": "mrrob_tavg-u-hxy-lnd",
+    "validation-key": "mrrob_tavg-u-hxy-lnd",
+    "ui-label": "Subsurface Runoff",
+    "description": "subsurface_runoff_flux",
+    "variable-root": "mrrob",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "subsurface_runoff_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "mrrob",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrrob",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "mrro_tavg-u-hxy-lnd",
+    "validation-key": "mrro_tavg-u-hxy-lnd",
+    "ui-label": "Total Runoff",
+    "description": "the total runoff (including \"drainage\" through the base of the soil model) leaving the land portion of the grid cell.",
+    "variable-root": "mrro",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "runoff_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "mrro",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrro",
+    "model-realm": "land",
+    "@context": "_context_"
+}

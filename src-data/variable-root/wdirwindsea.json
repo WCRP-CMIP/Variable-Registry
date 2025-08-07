@@ -1,0 +1,12 @@
+{
+    "id": "wdirwindsea",
+    "validation-key": "wdirwindsea",
+    "ui-label": "wdirwindsea",
+    "data-type": "real",
+    "standard-name": "sea_surface_wind_wave_from_direction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

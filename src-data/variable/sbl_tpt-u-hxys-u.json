@@ -1,0 +1,32 @@
+{
+    "id": "sbl_tpt-u-hxys-u",
+    "validation-key": "sbl_tpt-u-hxys-u",
+    "ui-label": "Surface Snow and Ice Sublimation Flux",
+    "description": "The snow and ice sublimation flux is the loss of snow and ice mass from the surface resulting from their conversion to water vapor that enters the atmosphere.",
+    "variable-root": "sbl",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+    "units": "kg m-2 s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "sbl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "sbl",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

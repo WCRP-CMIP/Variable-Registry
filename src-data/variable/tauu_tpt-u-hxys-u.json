@@ -1,0 +1,32 @@
+{
+    "id": "tauu_tpt-u-hxys-u",
+    "validation-key": "tauu_tpt-u-hxys-u",
+    "ui-label": "Surface Downward Eastward Wind Stress",
+    "description": "Downward eastward wind stress at the surface",
+    "variable-root": "tauu",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "surface_downward_eastward_stress",
+    "units": "Pa",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "tauu",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tauu",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

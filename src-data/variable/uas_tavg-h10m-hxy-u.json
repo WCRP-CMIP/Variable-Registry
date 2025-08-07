@@ -1,0 +1,34 @@
+{
+    "id": "uas_tavg-h10m-hxy-u",
+    "validation-key": "uas_tavg-h10m-hxy-u",
+    "ui-label": "Eastward Near-Surface Wind",
+    "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+    "variable-root": "uas",
+    "temporal-label": "tavg",
+    "vertical-label": "h10m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "eastward_wind",
+    "units": "m s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+    ],
+    "out-name": "uas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "uas",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

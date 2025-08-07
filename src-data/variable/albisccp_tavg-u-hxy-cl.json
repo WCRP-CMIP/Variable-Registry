@@ -1,0 +1,33 @@
+{
+    "id": "albisccp_tavg-u-hxy-cl",
+    "validation-key": "albisccp_tavg-u-hxy-cl",
+    "ui-label": "ISCCP Mean Cloud Albedo",
+    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+    "variable-root": "albisccp",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "cl",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "cloud_albedo",
+    "units": "1",
+    "cell-methods": "amncl-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "albisccp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "albisccp",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

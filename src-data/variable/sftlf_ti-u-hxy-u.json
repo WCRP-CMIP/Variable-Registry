@@ -1,0 +1,32 @@
+{
+    "id": "sftlf_ti-u-hxy-u",
+    "validation-key": "sftlf_ti-u-hxy-u",
+    "ui-label": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
+    "description": "Percentage of horizontal area occupied by land.",
+    "variable-root": "sftlf",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "fx",
+    "frequency": "fx",
+    "standard-name": "land_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-fx",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "sftlf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "sftlf",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

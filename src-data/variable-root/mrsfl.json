@@ -1,0 +1,12 @@
+{
+    "id": "mrsfl",
+    "validation-key": "mrsfl",
+    "ui-label": "mrsfl",
+    "data-type": "real",
+    "standard-name": "frozen_water_content_of_soil_layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "albc_tavg-u-hxy-veg",
+    "validation-key": "albc_tavg-u-hxy-veg",
+    "ui-label": "Canopy Albedo",
+    "description": "Canopy Albedo",
+    "variable-root": "albc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "veg",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "canopy_albedo",
+    "units": "1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "albc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "albc",
+    "model-realm": "land",
+    "@context": "_context_"
+}

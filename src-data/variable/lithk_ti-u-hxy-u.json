@@ -1,0 +1,32 @@
+{
+    "id": "lithk_ti-u-hxy-u",
+    "validation-key": "lithk_ti-u-hxy-u",
+    "ui-label": "Ice sheet thickness",
+    "description": "This variable identifies the thickness of a prescribed ice sheet. This information is relevant to better understand how different models treat ice. For models where an ice sheet is just orography + an ice sheet mask, the value should be set to zero. For models that explicitly resolve an ice sheet thickness, the thickness of the ice sheet should be provided.",
+    "variable-root": "lithk",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "fx",
+    "frequency": "fx",
+    "standard-name": "land_ice_thickness",
+    "units": "m",
+    "cell-methods": "amn-fx",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "lithk",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "lithk",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "dryno3",
+    "validation-key": "dryno3",
+    "ui-label": "dryno3",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_due_to_dry_deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

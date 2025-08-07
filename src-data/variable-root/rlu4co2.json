@@ -1,0 +1,12 @@
+{
+    "id": "rlu4co2",
+    "validation-key": "rlu4co2",
+    "ui-label": "rlu4co2",
+    "data-type": "real",
+    "standard-name": "upwelling_longwave_flux_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

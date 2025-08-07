@@ -1,0 +1,33 @@
+{
+    "id": "irrDem_tavg-u-hxy-u",
+    "validation-key": "irrDem_tavg-u-hxy-u",
+    "ui-label": "irrigation water demand",
+    "description": "the total amount of irrigation water demand",
+    "variable-root": "irrDem",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "irrDem",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "irrDem",
+    "model-realm": "land",
+    "@context": "_context_"
+}

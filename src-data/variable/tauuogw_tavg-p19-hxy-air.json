@@ -1,0 +1,34 @@
+{
+    "id": "tauuogw_tavg-p19-hxy-air",
+    "validation-key": "tauuogw_tavg-p19-hxy-air",
+    "ui-label": "Eastward Reynolds stress from orographic gravity wave parameterization",
+    "description": "The vertical flux of zonal momentum within the orographic gravity wave parameterization.",
+    "variable-root": "tauuogw",
+    "temporal-label": "tavg",
+    "vertical-label": "p19",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "upward_eastward_momentum_flux_in_air_due_to_orographic_gravity_waves",
+    "units": "Pa",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "out-name": "tauuogw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P19",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tauuogw",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

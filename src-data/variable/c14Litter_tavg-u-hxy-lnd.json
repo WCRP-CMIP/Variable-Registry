@@ -1,0 +1,33 @@
+{
+    "id": "c14Litter_tavg-u-hxy-lnd",
+    "validation-key": "c14Litter_tavg-u-hxy-lnd",
+    "ui-label": "Mass of 14C in Litter Pool",
+    "description": "Carbon-14 mass content per unit area litter (dead plant material in or above the soil).",
+    "variable-root": "c14Litter",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "litter_mass_content_of_14C",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "c14Litter",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "c14Litter",
+    "model-realm": "land",
+    "@context": "_context_"
+}

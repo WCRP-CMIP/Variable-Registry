@@ -1,0 +1,34 @@
+{
+    "id": "osaltpadvect_tavg-ol-hxy-sea",
+    "validation-key": "osaltpadvect_tavg-ol-hxy-sea",
+    "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection",
+    "description": "Tendency of salt content for a grid cell from parameterized eddy advection (any form of eddy advection).",
+    "variable-root": "osaltpadvect",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oyr",
+    "frequency": "yr",
+    "standard-name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "out-name": "osaltpadvect",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "osaltpadvect",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

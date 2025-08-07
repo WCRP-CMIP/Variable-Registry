@@ -1,0 +1,33 @@
+{
+    "id": "topg_tavg-u-hxy-gis",
+    "validation-key": "topg_tavg-u-hxy-gis",
+    "ui-label": "Bedrock Altitude",
+    "description": "This is needed in case bed rock elevation changes in time",
+    "variable-root": "topg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "gis",
+    "remove-cmip6-table": "IyrGre",
+    "frequency": "yr",
+    "standard-name": "bedrock_altitude",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where grounded_ice_sheet (mask=sfgrlf) not found in cell methods, please register",
+    "cell-measures": "area: areacellg",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "out-name": "topg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XYG-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "topg",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "csoil",
+    "validation-key": "csoil",
+    "ui-label": "cSoil",
+    "data-type": "real",
+    "standard-name": "soil_mass_content_of_carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "rss_tavg-u-hxy-u",
+    "validation-key": "rss_tavg-u-hxy-u",
+    "ui-label": "Net Shortwave Surface Radiation",
+    "description": "Net downward shortwave radiation at the surface",
+    "variable-root": "rss",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_net_downward_shortwave_flux",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rss",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rss",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

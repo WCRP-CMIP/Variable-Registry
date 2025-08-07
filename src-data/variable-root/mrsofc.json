@@ -1,0 +1,12 @@
+{
+    "id": "mrsofc",
+    "validation-key": "mrsofc",
+    "ui-label": "mrsofc",
+    "data-type": "real",
+    "standard-name": "soil_moisture_content_at_field_capacity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

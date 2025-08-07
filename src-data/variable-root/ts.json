@@ -1,0 +1,12 @@
+{
+    "id": "ts",
+    "validation-key": "ts",
+    "ui-label": "ts",
+    "data-type": "real",
+    "standard-name": "surface_temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "prw_tavg-u-hxy-u",
+    "validation-key": "prw_tavg-u-hxy-u",
+    "ui-label": "Water Vapor Path",
+    "description": "vertically integrated through the atmospheric column",
+    "variable-root": "prw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "atmosphere_mass_content_of_water_vapor",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prw",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

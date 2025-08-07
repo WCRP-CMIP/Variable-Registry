@@ -1,0 +1,33 @@
+{
+    "id": "hfevapds_tavg-u-hxy-ifs",
+    "validation-key": "hfevapds_tavg-u-hxy-ifs",
+    "ui-label": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
+    "description": "This is defined as \"where ice_free_sea over sea\"",
+    "variable-root": "hfevapds",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ifs",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "temperature_flux_due_to_evaporation_expressed_as_heat_flux_out_of_sea_water",
+    "units": "W m-2",
+    "cell-methods": "Error: area: time: mean where ice_free_sea over sea not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "hfevapds",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfevapds",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "va_tpt-h100m-hxy-u",
+    "validation-key": "va_tpt-h100m-hxy-u",
+    "ui-label": "Northward Wind at 100m",
+    "description": "Meridional wind (positive in a northward direction) at 100m above the surface.",
+    "variable-root": "va",
+    "temporal-label": "tpt",
+    "vertical-label": "h100m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "northward_wind",
+    "units": "m s-1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height100m"
+    ],
+    "out-name": "va100m",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "va100m",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "opottemppmdiff",
+    "validation-key": "opottemppmdiff",
+    "ui-label": "opottemppmdiff",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_eddy_diffusion",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

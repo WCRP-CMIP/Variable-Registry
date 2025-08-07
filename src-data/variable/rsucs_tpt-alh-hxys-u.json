@@ -1,0 +1,33 @@
+{
+    "id": "rsucs_tpt-alh-hxys-u",
+    "validation-key": "rsucs_tpt-alh-hxys-u",
+    "ui-label": "Upwelling Clear-Sky Shortwave Radiation",
+    "description": "Upwelling clear-sky shortwave radiation  (includes the fluxes at the surface and TOA)",
+    "variable-root": "rsucs",
+    "temporal-label": "tpt",
+    "vertical-label": "alh",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "units": "W m-2",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "out-name": "rsucs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "S-AH",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "rsucs",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

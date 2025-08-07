@@ -1,0 +1,12 @@
+{
+    "id": "unknown02",
+    "validation-key": "unknown02",
+    "ui-label": "unknown02",
+    "data-type": "real",
+    "standard-name": "sea_surface_wave_significant_height",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

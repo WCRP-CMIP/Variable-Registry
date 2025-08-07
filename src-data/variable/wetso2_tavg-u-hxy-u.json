@@ -1,0 +1,33 @@
+{
+    "id": "wetso2_tavg-u-hxy-u",
+    "validation-key": "wetso2_tavg-u-hxy-u",
+    "ui-label": "Wet Deposition Rate of SO2",
+    "description": "Deposition rate of sulfur dioxide due to wet processes",
+    "variable-root": "wetso2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_wet_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wetso2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wetso2",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "clic_tpt-al-hxy-u",
+    "validation-key": "clic_tpt-al-hxy-u",
+    "ui-label": "Mass Fraction of Convective Cloud Ice",
+    "description": "Calculated as the mass of convective cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "variable-root": "clic",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_convective_cloud_ice_in_air",
+    "units": "1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "clic",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "clic",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

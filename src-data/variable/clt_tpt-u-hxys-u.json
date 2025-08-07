@@ -1,0 +1,32 @@
+{
+    "id": "clt_tpt-u-hxys-u",
+    "validation-key": "clt_tpt-u-hxys-u",
+    "ui-label": "Total Cloud Cover Percentage",
+    "description": "for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Include both large-scale and convective cloud.",
+    "variable-root": "clt",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "clt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "clt",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

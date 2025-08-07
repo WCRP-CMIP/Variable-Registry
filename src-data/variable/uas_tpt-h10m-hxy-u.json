@@ -1,0 +1,34 @@
+{
+    "id": "uas_tpt-h10m-hxy-u",
+    "validation-key": "uas_tpt-h10m-hxy-u",
+    "ui-label": "Surface wind speed Eastward Components",
+    "description": "Zonal wind (positive in a eastward direction) at 10 meters above the surface.",
+    "variable-root": "uas",
+    "temporal-label": "tpt",
+    "vertical-label": "h10m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "eastward_wind",
+    "units": "m s-1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height10m"
+    ],
+    "out-name": "uas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "uas",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

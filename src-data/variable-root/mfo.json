@@ -1,0 +1,12 @@
+{
+    "id": "mfo",
+    "validation-key": "mfo",
+    "ui-label": "mfo",
+    "data-type": "real",
+    "standard-name": "sea_water_transport_across_line",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

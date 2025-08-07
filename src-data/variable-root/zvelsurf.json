@@ -1,0 +1,12 @@
+{
+    "id": "zvelsurf",
+    "validation-key": "zvelsurf",
+    "ui-label": "zvelsurf",
+    "data-type": "real",
+    "standard-name": "land_ice_surface_upward_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

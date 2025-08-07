@@ -1,0 +1,33 @@
+{
+    "id": "phyc_tavg-d0m-hxy-sea",
+    "validation-key": "phyc_tavg-d0m-hxy-sea",
+    "ui-label": "Sea Surface Phytoplankton Carbon Concentration",
+    "description": "sum of phytoplankton carbon component concentrations.  In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., \"Diatom Carbon Concentration\" and \"Non-Diatom Phytoplankton Carbon Concentration\"",
+    "variable-root": "phyc",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "phycos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "phycos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

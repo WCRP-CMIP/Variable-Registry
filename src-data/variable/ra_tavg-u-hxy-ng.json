@@ -1,0 +1,33 @@
+{
+    "id": "ra_tavg-u-hxy-ng",
+    "validation-key": "ra_tavg-u-hxy-ng",
+    "ui-label": "Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total RA of grass in the grid cell",
+    "variable-root": "ra",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ng",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where natural_grasses (mask=grassFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "raGrass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "raGrass",
+    "model-realm": "land",
+    "@context": "_context_"
+}

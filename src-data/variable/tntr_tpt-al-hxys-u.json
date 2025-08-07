@@ -1,0 +1,33 @@
+{
+    "id": "tntr_tpt-al-hxys-u",
+    "validation-key": "tntr_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Radiative Heating",
+    "description": "Tendency of Air Temperature due to Radiative Heating",
+    "variable-root": "tntr",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_air_temperature_due_to_radiative_heating",
+    "units": "K s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tntr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tntr",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

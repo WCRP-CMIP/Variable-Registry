@@ -1,0 +1,32 @@
+{
+    "id": "basin_ti-u-hxy-u",
+    "validation-key": "basin_ti-u-hxy-u",
+    "ui-label": "Region Selection Index",
+    "description": "A variable with the standard name of region contains strings which indicate geographical regions. These strings must be chosen from the standard region list.",
+    "variable-root": "basin",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "region",
+    "units": "1",
+    "cell-methods": "amn-fx",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "basin",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "basin",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

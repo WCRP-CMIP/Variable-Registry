@@ -1,0 +1,33 @@
+{
+    "id": "wppwindsea_tavg-u-hxy-sea",
+    "validation-key": "wppwindsea_tavg-u-hxy-sea",
+    "ui-label": "Wind Sea Wave Peak Period",
+    "description": "Wave period associated with the most energetic wind-sea waves (i.e., local wind waves). In spectral wind wave models, this represents the spectral peak across part of the two-dimensional wave spectrum, incorporating just wind-sea waves.",
+    "variable-root": "wppwindsea",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_wind_wave_period_at_variance_spectral_density_maximum",
+    "units": "s",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wppwindsea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wppwindsea",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

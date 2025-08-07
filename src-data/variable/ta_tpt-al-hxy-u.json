@@ -1,0 +1,34 @@
+{
+    "id": "ta_tpt-al-hxy-u",
+    "validation-key": "ta_tpt-al-hxy-u",
+    "ui-label": "Air Temperature",
+    "description": "Air Temperature",
+    "variable-root": "ta",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "air_temperature",
+    "units": "K",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "ta",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "ta",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

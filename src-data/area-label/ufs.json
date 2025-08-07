@@ -1,0 +1,11 @@
+{
+    "id": "ufs",
+    "validation-key": "ufs",
+    "ui-label": "Unfrozen Soil",
+    "description": "unfrozen_soil",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

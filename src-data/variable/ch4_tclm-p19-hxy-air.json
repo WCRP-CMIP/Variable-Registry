@@ -1,0 +1,34 @@
+{
+    "id": "ch4_tclm-p19-hxy-air",
+    "validation-key": "ch4_tclm-p19-hxy-air",
+    "ui-label": "Mole Fraction of CH4",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "variable-root": "ch4",
+    "temporal-label": "tclm",
+    "vertical-label": "p19",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_methane_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "amna-clim",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+    ],
+    "out-name": "ch4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P19",
+    "temporal-shape": "climatology",
+    "physical-parameter-name": "ch4",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "lnd",
+    "validation-key": "lnd",
+    "ui-label": "Land",
+    "description": "land",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

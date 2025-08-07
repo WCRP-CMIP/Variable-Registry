@@ -1,0 +1,12 @@
+{
+    "id": "vtem",
+    "validation-key": "vtem",
+    "ui-label": "vtem",
+    "data-type": "real",
+    "standard-name": "northward_transformed_eulerian_mean_air_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "sftgrf_tavg-u-hxy-u",
+    "validation-key": "sftgrf_tavg-u-hxy-u",
+    "ui-label": "Grounded Ice Sheet Area Percentage",
+    "description": "Percentage of grid cell covered by grounded ice sheet",
+    "variable-root": "sftgrf",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "grounded_ice_sheet_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sftgrf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sftgrf",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "sistrydtop_tavg-u-hxy-si",
+    "validation-key": "sistrydtop_tavg-u-hxy-si",
+    "ui-label": "Y-Component of Atmospheric Stress on Sea Ice",
+    "description": "Y-component of the atmospheric stress on the surface of sea ice divided by grid-cell area.",
+    "variable-root": "sistrydtop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_y_stress",
+    "units": "N m-2",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sistrydtop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sistrydtop",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

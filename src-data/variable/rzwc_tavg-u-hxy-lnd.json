@@ -1,0 +1,33 @@
+{
+    "id": "rzwc_tavg-u-hxy-lnd",
+    "validation-key": "rzwc_tavg-u-hxy-lnd",
+    "ui-label": "Root Zone Soil Moisture",
+    "description": "water_content_of_root_zone",
+    "variable-root": "rzwc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rzwc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rzwc",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "rootd",
+    "validation-key": "rootd",
+    "ui-label": "rootd",
+    "data-type": "real",
+    "standard-name": "root_depth",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

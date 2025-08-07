@@ -1,0 +1,12 @@
+{
+    "id": "h2loss",
+    "validation-key": "h2loss",
+    "ui-label": "h2loss",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_molecular_hydrogen_due_to_chemical_destruction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

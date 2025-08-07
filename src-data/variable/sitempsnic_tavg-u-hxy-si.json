@@ -1,0 +1,33 @@
+{
+    "id": "sitempsnic_tavg-u-hxy-si",
+    "validation-key": "sitempsnic_tavg-u-hxy-si",
+    "ui-label": "Temperature at Snow-Ice Interface",
+    "description": "Mean temperature at the snow-ice interface. This is the surface temperature of ice where snow thickness is zero.",
+    "variable-root": "sitempsnic",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_surface_temperature",
+    "units": "K",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sitempsnic",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sitempsnic",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

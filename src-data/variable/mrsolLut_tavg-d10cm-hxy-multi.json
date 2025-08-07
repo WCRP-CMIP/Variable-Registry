@@ -1,0 +1,35 @@
+{
+    "id": "mrsolLut_tavg-d10cm-hxy-multi",
+    "validation-key": "mrsolLut_tavg-d10cm-hxy-multi",
+    "ui-label": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
+    "description": "the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm",
+    "variable-root": "mrsolLut",
+    "temporal-label": "tavg",
+    "vertical-label": "d10cm",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_content_of_water_in_soil_layer",
+    "units": "kg m-2",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time",
+        "sdepth10cm"
+    ],
+    "out-name": "mrsosLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrsosLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

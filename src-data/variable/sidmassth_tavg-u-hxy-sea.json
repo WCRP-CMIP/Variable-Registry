@@ -1,0 +1,33 @@
+{
+    "id": "sidmassth_tavg-u-hxy-sea",
+    "validation-key": "sidmassth_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Mass Change from Thermodynamics",
+    "description": "Total rate of change in sea-ice mass from thermodynamic processes divided by grid-cell area.",
+    "variable-root": "sidmassth",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_sea_ice_amount_due_to_sea_ice_thermodynamics",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sidmassth",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sidmassth",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

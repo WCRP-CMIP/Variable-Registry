@@ -1,0 +1,12 @@
+{
+    "id": "sisnmassacrossline",
+    "validation-key": "sisnmassacrossline",
+    "ui-label": "sisnmassacrossline",
+    "data-type": "real",
+    "standard-name": "snow_transport_across_line_due_to_sea_ice_dynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

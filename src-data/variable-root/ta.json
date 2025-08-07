@@ -1,0 +1,12 @@
+{
+    "id": "ta",
+    "validation-key": "ta",
+    "ui-label": "ta",
+    "data-type": "real",
+    "standard-name": "air_temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

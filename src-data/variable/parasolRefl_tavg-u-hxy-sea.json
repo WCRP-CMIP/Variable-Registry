@@ -1,0 +1,34 @@
+{
+    "id": "parasolRefl_tavg-u-hxy-sea",
+    "validation-key": "parasolRefl_tavg-u-hxy-sea",
+    "ui-label": "PARASOL Reflectance",
+    "description": "PARASOL Reflectance",
+    "variable-root": "parasolRefl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "toa_bidirectional_reflectance",
+    "units": "1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sza5",
+        "time"
+    ],
+    "out-name": "parasolRefl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "parasolRefl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

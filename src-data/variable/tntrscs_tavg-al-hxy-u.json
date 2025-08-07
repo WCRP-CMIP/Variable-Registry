@@ -1,0 +1,34 @@
+{
+    "id": "tntrscs_tavg-al-hxy-u",
+    "validation-key": "tntrscs_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
+    "description": "Tendency of Air Temperature due to Clear Sky Shortwave Radiative Heating",
+    "variable-root": "tntrscs",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_air_temperature_due_to_shortwave_heating_assuming_clear_sky",
+    "units": "K s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "tntrscs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tntrscs",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

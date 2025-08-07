@@ -1,0 +1,33 @@
+{
+    "id": "sidmassmeltlat_tavg-u-hxy-sea",
+    "validation-key": "sidmassmeltlat_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Mass Change Through Lateral Melting",
+    "description": "Rate of change of sea-ice mass through lateral melting/dissolution divided by grid-cell area (report zero if not explicitly calculated thermodynamically). Always negative or zero.",
+    "variable-root": "sidmassmeltlat",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_sea_ice_amount_due_to_lateral_melting",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sidmassmeltlat",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sidmassmeltlat",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

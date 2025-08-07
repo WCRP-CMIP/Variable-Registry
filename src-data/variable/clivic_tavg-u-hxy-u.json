@@ -1,0 +1,33 @@
+{
+    "id": "clivic_tavg-u-hxy-u",
+    "validation-key": "clivic_tavg-u-hxy-u",
+    "ui-label": "Convective Ice Water Path",
+    "description": "calculate mass of convective ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). This includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "variable-root": "clivic",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "atmosphere_mass_content_of_convective_cloud_ice",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "clivic",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "clivic",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "ps_tavg-u-hxy-u",
+    "validation-key": "ps_tavg-u-hxy-u",
+    "ui-label": "Surface Air Pressure",
+    "description": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
+    "variable-root": "ps",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFday",
+    "frequency": "day",
+    "standard-name": "surface_air_pressure",
+    "units": "Pa",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "ps",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ps",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

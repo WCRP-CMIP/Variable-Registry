@@ -1,0 +1,33 @@
+{
+    "id": "icfriver_tavg-u-hxy-sea",
+    "validation-key": "icfriver_tavg-u-hxy-sea",
+    "ui-label": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
+    "description": "Inorganic Carbon supply to ocean through runoff (separate from gas exchange)",
+    "variable-root": "icfriver",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_runoff_and_sediment_dissolution",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "icfriver",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "icfriver",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

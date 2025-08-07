@@ -1,0 +1,12 @@
+{
+    "id": "pfull",
+    "validation-key": "pfull",
+    "ui-label": "pfull",
+    "data-type": "real",
+    "standard-name": "air_pressure",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cli_tpt-al-hxys-u",
+    "validation-key": "cli_tpt-al-hxys-u",
+    "ui-label": "Mass Fraction of Cloud Ice",
+    "description": "Includes both large-scale and convective cloud. This is the mass of  cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "variable-root": "cli",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "mass_fraction_of_cloud_ice_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "cli",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "cli",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

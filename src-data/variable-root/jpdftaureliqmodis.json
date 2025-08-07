@@ -1,0 +1,12 @@
+{
+    "id": "jpdftaureliqmodis",
+    "validation-key": "jpdftaureliqmodis",
+    "ui-label": "jpdftaureliqmodis",
+    "data-type": "real",
+    "standard-name": "modis_cloud_area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

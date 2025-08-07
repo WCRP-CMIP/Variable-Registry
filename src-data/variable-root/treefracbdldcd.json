@@ -1,0 +1,12 @@
+{
+    "id": "treefracbdldcd",
+    "validation-key": "treefracbdldcd",
+    "ui-label": "treeFracBdlDcd",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

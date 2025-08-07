@@ -1,0 +1,33 @@
+{
+    "id": "litempbot_tavg-u-hxy-fis",
+    "validation-key": "litempbot_tavg-u-hxy-fis",
+    "ui-label": "Basal Temperature of Floating Ice Shelf",
+    "description": "quantity averaged over floating land ice",
+    "variable-root": "litempbot",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "fis",
+    "remove-cmip6-table": "IyrGre",
+    "frequency": "yr",
+    "standard-name": "land_ice_basal_temperature",
+    "units": "K",
+    "cell-methods": "Error: area: time: mean where floating_ice_shelf (mask=sftflf) not found in cell methods, please register",
+    "cell-measures": "area: areacellg",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "out-name": "litempbotfl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XYG-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "litempbotfl",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "zmicro",
+    "validation-key": "zmicro",
+    "ui-label": "zmicro",
+    "data-type": "real",
+    "standard-name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

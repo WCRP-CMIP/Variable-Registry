@@ -1,0 +1,12 @@
+{
+    "id": "acabf",
+    "validation-key": "acabf",
+    "ui-label": "acabf",
+    "data-type": "real",
+    "standard-name": "land_ice_surface_specific_mass_balance_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

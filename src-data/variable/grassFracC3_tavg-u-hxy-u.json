@@ -1,0 +1,34 @@
+{
+    "id": "grassFracC3_tavg-u-hxy-u",
+    "validation-key": "grassFracC3_tavg-u-hxy-u",
+    "ui-label": "C3 Natural Grass Area Percentage",
+    "description": "Percentage of entire grid cell covered by C3 natural grass.",
+    "variable-root": "grassFracC3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typec3natg"
+    ],
+    "out-name": "grassFracC3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "grassFracC3",
+    "model-realm": "land",
+    "@context": "_context_"
+}

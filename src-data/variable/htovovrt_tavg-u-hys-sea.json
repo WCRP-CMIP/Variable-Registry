@@ -1,0 +1,33 @@
+{
+    "id": "htovovrt_tavg-u-hys-sea",
+    "validation-key": "htovovrt_tavg-u-hys-sea",
+    "ui-label": "Northward Ocean Heat Transport Due to Overturning",
+    "description": "From all advective mass transport processes, resolved and parameterized.",
+    "variable-root": "htovovrt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hys",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "northward_ocean_heat_transport_due_to_overturning",
+    "units": "W",
+    "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "out-name": "htovovrt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "YB-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "htovovrt",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

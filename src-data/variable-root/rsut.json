@@ -1,0 +1,12 @@
+{
+    "id": "rsut",
+    "validation-key": "rsut",
+    "ui-label": "rsut",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_shortwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

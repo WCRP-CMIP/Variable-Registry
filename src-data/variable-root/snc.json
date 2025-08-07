@@ -1,0 +1,12 @@
+{
+    "id": "snc",
+    "validation-key": "snc",
+    "ui-label": "snc",
+    "data-type": "real",
+    "standard-name": "surface_snow_area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

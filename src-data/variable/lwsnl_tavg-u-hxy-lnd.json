@@ -1,0 +1,33 @@
+{
+    "id": "lwsnl_tavg-u-hxy-lnd",
+    "validation-key": "lwsnl_tavg-u-hxy-lnd",
+    "ui-label": "Liquid Water Content of Snow Layer",
+    "description": "where land over land: this is computed as the total mass of liquid water contained interstitially within the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell.",
+    "variable-root": "lwsnl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "liquid_water_content_of_surface_snow",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "lwsnl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "lwsnl",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

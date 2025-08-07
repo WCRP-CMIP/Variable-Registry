@@ -1,0 +1,33 @@
+{
+    "id": "siflcondtop_tavg-u-hxy-si",
+    "validation-key": "siflcondtop_tavg-u-hxy-si",
+    "ui-label": "Net Conductive Heat Flux in Sea Ice at the Surface",
+    "description": "Net heat conduction flux at the ice surface, i.e. the conductive heat flux from the centre of the uppermost vertical sea-ice grid box to the surface of the sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
+    "variable-root": "siflcondtop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_heat_flux_in_sea_ice",
+    "units": "W m-2",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "siflcondtop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siflcondtop",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

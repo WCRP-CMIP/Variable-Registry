@@ -1,0 +1,12 @@
+{
+    "id": "mlotstmax",
+    "validation-key": "mlotstmax",
+    "ui-label": "mlotstmax",
+    "data-type": "real",
+    "standard-name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

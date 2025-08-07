@@ -1,0 +1,34 @@
+{
+    "id": "hur_tpt-100hPa-hxy-u",
+    "validation-key": "hur_tpt-100hPa-hxy-u",
+    "ui-label": "hur100",
+    "description": "Relative humidity at 100 hPa",
+    "variable-root": "hur",
+    "temporal-label": "tpt",
+    "vertical-label": "100hPa",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "6hrPlevPt",
+    "frequency": "6hr",
+    "standard-name": "relative_humidity",
+    "units": "%",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p100"
+    ],
+    "out-name": "hur100",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "hur100",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

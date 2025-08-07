@@ -1,0 +1,12 @@
+{
+    "id": "tdps",
+    "validation-key": "tdps",
+    "ui-label": "tdps",
+    "data-type": "real",
+    "standard-name": "dew_point_temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

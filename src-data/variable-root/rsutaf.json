@@ -1,0 +1,12 @@
+{
+    "id": "rsutaf",
+    "validation-key": "rsutaf",
+    "ui-label": "rsutaf",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_shortwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

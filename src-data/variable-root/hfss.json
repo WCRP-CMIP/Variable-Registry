@@ -1,0 +1,12 @@
+{
+    "id": "hfss",
+    "validation-key": "hfss",
+    "ui-label": "hfss",
+    "data-type": "real",
+    "standard-name": "surface_upward_sensible_heat_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

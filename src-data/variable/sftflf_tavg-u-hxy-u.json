@@ -1,0 +1,33 @@
+{
+    "id": "sftflf_tavg-u-hxy-u",
+    "validation-key": "sftflf_tavg-u-hxy-u",
+    "ui-label": "Floating Ice Shelf Area Percentage",
+    "description": "Percentage of grid cell covered by floating ice shelf, the component of the ice sheet that is flowing over sea water",
+    "variable-root": "sftflf",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "floating_ice_shelf_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sftflf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sftflf",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

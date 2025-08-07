@@ -1,0 +1,11 @@
+{
+    "id": "hy",
+    "validation-key": "hy",
+    "ui-label": "Zonal Mean",
+    "description": "zonal mean",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}

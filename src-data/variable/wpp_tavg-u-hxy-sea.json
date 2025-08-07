@@ -1,0 +1,33 @@
+{
+    "id": "wpp_tavg-u-hxy-sea",
+    "validation-key": "wpp_tavg-u-hxy-sea",
+    "ui-label": "Total Wave Peak Period",
+    "description": "Wave period associated with the most energetic waves in total wave spectrum, incorporating both wind-sea and swell waves. In spectral wind wave models, this represents the spectral peak across the entire two-dimensional wave spectrum, incorporating both wind-sea and swell waves.",
+    "variable-root": "wpp",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+    "units": "s",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wpp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wpp",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

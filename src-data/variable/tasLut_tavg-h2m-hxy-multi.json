@@ -1,0 +1,35 @@
+{
+    "id": "tasLut_tavg-h2m-hxy-multi",
+    "validation-key": "tasLut_tavg-h2m-hxy-multi",
+    "ui-label": "Near-Surface Air Temperature on Land Use Tile",
+    "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+    "variable-root": "tasLut",
+    "temporal-label": "tavg",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "air_temperature",
+    "units": "K",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time",
+        "height2m"
+    ],
+    "out-name": "tasLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tasLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

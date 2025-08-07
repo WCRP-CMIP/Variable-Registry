@@ -1,0 +1,12 @@
+{
+    "id": "sfx",
+    "validation-key": "sfx",
+    "ui-label": "sfx",
+    "data-type": "real",
+    "standard-name": "ocean_salt_x_transport",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

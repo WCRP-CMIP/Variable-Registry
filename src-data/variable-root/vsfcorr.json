@@ -1,0 +1,12 @@
+{
+    "id": "vsfcorr",
+    "validation-key": "vsfcorr",
+    "ui-label": "vsfcorr",
+    "data-type": "real",
+    "standard-name": "virtual_salt_flux_correction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

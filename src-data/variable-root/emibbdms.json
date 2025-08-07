@@ -1,0 +1,12 @@
+{
+    "id": "emibbdms",
+    "validation-key": "emibbdms",
+    "ui-label": "emibbdms",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_dimethyl_sulfide_due_to_emission_from_fires",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

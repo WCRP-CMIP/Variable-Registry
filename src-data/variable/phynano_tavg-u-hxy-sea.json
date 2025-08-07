@@ -1,0 +1,33 @@
+{
+    "id": "phynano_tavg-u-hxy-sea",
+    "validation-key": "phynano_tavg-u-hxy-sea",
+    "ui-label": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
+    "description": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
+    "variable-root": "phynano",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oday",
+    "frequency": "day",
+    "standard-name": "mole_concentration_of_nanophytoplankton_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "phynano",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "phynano",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "rlus_tavg-u-hxy-si",
+    "validation-key": "rlus_tavg-u-hxy-si",
+    "ui-label": "Upwelling Longwave Flux over Sea Ice",
+    "description": "Upward longwave flux from the sea-ice surface to the atmosphere (energy flow per sea ice area). Always positive or zero.",
+    "variable-root": "rlus",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "surface_upwelling_longwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconca) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sifllwutop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sifllwutop",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

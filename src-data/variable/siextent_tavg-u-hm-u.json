@@ -1,0 +1,31 @@
+{
+    "id": "siextent_tavg-u-hm-u",
+    "validation-key": "siextent_tavg-u-hm-u",
+    "ui-label": "Sea-Ice Extent South",
+    "description": "Total integrated area of all Southern Hemisphere grid cells that are covered by at least 15% areal fraction of sea ice (siconc >= 0.15). Does not include grid cells partially covered by land.",
+    "variable-root": "siextent",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "u",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_extent",
+    "units": "1e6 km2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "time"
+    ],
+    "out-name": "siextents",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siextents",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

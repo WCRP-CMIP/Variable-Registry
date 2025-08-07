@@ -1,0 +1,33 @@
+{
+    "id": "cltc_tavg-u-hxy-u",
+    "validation-key": "cltc_tavg-u-hxy-u",
+    "ui-label": "Convective Cloud Cover Percentage",
+    "description": "Convective cloud fraction",
+    "variable-root": "cltc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "convective_cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cltc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cltc",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

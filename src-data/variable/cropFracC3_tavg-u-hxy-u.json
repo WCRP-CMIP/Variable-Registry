@@ -1,0 +1,34 @@
+{
+    "id": "cropFracC3_tavg-u-hxy-u",
+    "validation-key": "cropFracC3_tavg-u-hxy-u",
+    "ui-label": "Percentage Cover by C3 Crops",
+    "description": "Percentage of entire grid cell covered by C3 crops",
+    "variable-root": "cropFracC3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typec3crop"
+    ],
+    "out-name": "cropFracC3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cropFracC3",
+    "model-realm": "land",
+    "@context": "_context_"
+}

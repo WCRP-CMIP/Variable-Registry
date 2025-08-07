@@ -1,0 +1,12 @@
+{
+    "id": "rsutcsaf",
+    "validation-key": "rsutcsaf",
+    "ui-label": "rsutcsaf",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_shortwave_flux_assuming_clear_sky_and_no_aerosol",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

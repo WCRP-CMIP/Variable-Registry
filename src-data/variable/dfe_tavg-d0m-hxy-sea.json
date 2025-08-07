@@ -1,0 +1,33 @@
+{
+    "id": "dfe_tavg-d0m-hxy-sea",
+    "validation-key": "dfe_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Dissolved Iron Concentration",
+    "description": "dissolved iron in sea water is meant to include both Fe2+ and Fe3+ ions (but not, e.g., particulate detrital iron)",
+    "variable-root": "dfe",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dfeos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dfeos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

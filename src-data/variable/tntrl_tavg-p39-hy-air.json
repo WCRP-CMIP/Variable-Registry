@@ -1,0 +1,33 @@
+{
+    "id": "tntrl_tavg-p39-hy-air",
+    "validation-key": "tntrl_tavg-p39-hy-air",
+    "ui-label": "Tendency of Air Temperature Due to Longwave Radiative Heating",
+    "description": "zonal mean; hence YZT",
+    "variable-root": "tntrl",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "EmonZ",
+    "frequency": "mon",
+    "standard-name": "tendency_of_air_temperature_due_to_longwave_heating",
+    "units": "K s-1",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "tntrl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tntrl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

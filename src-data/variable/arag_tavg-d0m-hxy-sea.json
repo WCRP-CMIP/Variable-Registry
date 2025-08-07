@@ -1,0 +1,33 @@
+{
+    "id": "arag_tavg-d0m-hxy-sea",
+    "validation-key": "arag_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Aragonite Concentration",
+    "description": "sum of particulate aragonite components (e.g. Phytoplankton, Detrital, etc.)",
+    "variable-root": "arag",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "aragos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "aragos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

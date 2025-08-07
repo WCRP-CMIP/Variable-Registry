@@ -1,0 +1,12 @@
+{
+    "id": "mrsll",
+    "validation-key": "mrsll",
+    "ui-label": "mrsll",
+    "data-type": "real",
+    "standard-name": "liquid_water_content_of_soil_layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

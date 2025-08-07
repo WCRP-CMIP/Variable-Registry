@@ -1,0 +1,32 @@
+{
+    "id": "tas_tavg-h2m-hm-is",
+    "validation-key": "tas_tavg-h2m-hm-is",
+    "ui-label": "Near-Surface Air Temperature",
+    "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",
+    "variable-root": "tas",
+    "temporal-label": "tavg",
+    "vertical-label": "h2m",
+    "horizontal-label": "hm",
+    "area-label": "is",
+    "remove-cmip6-table": "ImonGre",
+    "frequency": "mon",
+    "standard-name": "air_temperature",
+    "units": "K",
+    "cell-methods": "amni-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "time",
+        "height2m"
+    ],
+    "out-name": "tas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tas",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

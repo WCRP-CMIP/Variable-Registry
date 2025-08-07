@@ -1,0 +1,33 @@
+{
+    "id": "toz_tavg-u-hxy-u",
+    "validation-key": "toz_tavg-u-hxy-u",
+    "ui-label": "Total Column Ozone",
+    "description": "total ozone column in DU",
+    "variable-root": "toz",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
+    "units": "m",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "toz",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "toz",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

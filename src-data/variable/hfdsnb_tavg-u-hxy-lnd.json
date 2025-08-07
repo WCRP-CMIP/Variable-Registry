@@ -1,0 +1,33 @@
+{
+    "id": "hfdsnb_tavg-u-hxy-lnd",
+    "validation-key": "hfdsnb_tavg-u-hxy-lnd",
+    "ui-label": "Downward Heat Flux at Snow Base",
+    "description": "Downward heat flux at snow botton",
+    "variable-root": "hfdsnb",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "downward_heat_flux_at_ground_level_in_snow",
+    "units": "W m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "hfdsnb",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfdsnb",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "tas_tmin-h2m-hxy-u",
+    "validation-key": "tas_tmin-h2m-hxy-u",
+    "ui-label": "Daily Minimum Near-Surface Air Temperature",
+    "description": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")",
+    "variable-root": "tas",
+    "temporal-label": "tmin",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "air_temperature",
+    "units": "K",
+    "cell-methods": "amn-tmin",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "out-name": "tasmin",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tasmin",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

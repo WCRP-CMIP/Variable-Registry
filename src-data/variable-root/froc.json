@@ -1,0 +1,12 @@
+{
+    "id": "froc",
+    "validation-key": "froc",
+    "ui-label": "froc",
+    "data-type": "real",
+    "standard-name": "minus_tendency_of_ocean_mole_content_of_organic_carbon_due_to_sedimentation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

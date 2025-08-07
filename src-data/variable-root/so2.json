@@ -1,0 +1,12 @@
+{
+    "id": "so2",
+    "validation-key": "so2",
+    "ui-label": "so2",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_sulfur_dioxide_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

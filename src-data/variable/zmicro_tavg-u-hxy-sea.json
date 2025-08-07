@@ -1,0 +1,33 @@
+{
+    "id": "zmicro_tavg-u-hxy-sea",
+    "validation-key": "zmicro_tavg-u-hxy-sea",
+    "ui-label": "Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
+    "description": "carbon  concentration from the microzooplankton (<20 um) component alone",
+    "variable-root": "zmicro",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "zmicroos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zmicroos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

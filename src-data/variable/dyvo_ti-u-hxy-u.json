@@ -1,0 +1,32 @@
+{
+    "id": "dyvo_ti-u-hxy-u",
+    "validation-key": "dyvo_ti-u-hxy-u",
+    "ui-label": "Cell Length in the Y Direction at v-points",
+    "description": "The linear extent of the cell in the y direction of the horizontal grid centered at v-points (points for velocity in the y-direction). Not applicable to unstructured grids.",
+    "variable-root": "dyvo",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "cell_y_length",
+    "units": "m",
+    "cell-methods": "apt-fx",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "dyvo",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "dyvo",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

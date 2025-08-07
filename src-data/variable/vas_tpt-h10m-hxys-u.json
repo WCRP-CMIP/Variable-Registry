@@ -1,0 +1,33 @@
+{
+    "id": "vas_tpt-h10m-hxys-u",
+    "validation-key": "vas_tpt-h10m-hxys-u",
+    "ui-label": "Northward Near-Surface Wind",
+    "description": "Northward component of the near surface wind",
+    "variable-root": "vas",
+    "temporal-label": "tpt",
+    "vertical-label": "h10m",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "northward_wind",
+    "units": "m s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1",
+        "height10m"
+    ],
+    "out-name": "vas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "vas",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

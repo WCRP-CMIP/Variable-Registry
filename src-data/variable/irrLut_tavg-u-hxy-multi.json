@@ -1,0 +1,34 @@
+{
+    "id": "irrLut_tavg-u-hxy-multi",
+    "validation-key": "irrLut_tavg-u-hxy-multi",
+    "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
+    "description": "Mass flux of water due to irrigation.",
+    "variable-root": "irrLut",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time"
+    ],
+    "out-name": "irrLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "irrLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

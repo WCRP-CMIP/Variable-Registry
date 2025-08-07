@@ -1,0 +1,34 @@
+{
+    "id": "mlotstmax_tmax-u-hxy-sea",
+    "validation-key": "mlotstmax_tmax-u-hxy-sea",
+    "ui-label": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
+    "description": "Sigma T is potential density referenced to ocean surface. Defined by Sigma T of 0.03 kg m-3 wrt to model level closest to 10 m depth.",
+    "variable-root": "mlotstmax",
+    "temporal-label": "tmax",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "units": "m",
+    "cell-methods": "amns-tmax",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "deltasigt"
+    ],
+    "out-name": "mlotstmax",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mlotstmax",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

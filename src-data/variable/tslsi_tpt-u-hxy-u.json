@@ -1,0 +1,33 @@
+{
+    "id": "tslsi_tpt-u-hxy-u",
+    "validation-key": "tslsi_tpt-u-hxy-u",
+    "ui-label": "Surface Temperature Where Land or Sea Ice",
+    "description": "Surface temperature of all surfaces except open ocean, sampled synoptically.",
+    "variable-root": "tslsi",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "3hr",
+    "frequency": "3hr",
+    "standard-name": "surface_temperature",
+    "units": "K",
+    "cell-methods": "amnlsi-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "tslsi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tslsi",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "sfriver_tavg-u-hxy-sea",
+    "validation-key": "sfriver_tavg-u-hxy-sea",
+    "ui-label": "Salt Flux into Sea Water from Rivers",
+    "description": "This field is physical, and it arises when rivers carry a nonzero salt content.  Often this is zero, with rivers assumed to be fresh.",
+    "variable-root": "sfriver",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "salt_flux_into_sea_water_from_rivers",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sfriver",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sfriver",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

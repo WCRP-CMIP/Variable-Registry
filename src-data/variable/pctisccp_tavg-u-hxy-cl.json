@@ -1,0 +1,33 @@
+{
+    "id": "pctisccp_tavg-u-hxy-cl",
+    "validation-key": "pctisccp_tavg-u-hxy-cl",
+    "ui-label": "ISCCP Mean Cloud Top Pressure",
+    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+    "variable-root": "pctisccp",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "cl",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "air_pressure_at_cloud_top",
+    "units": "Pa",
+    "cell-methods": "Error: area: time: mean where cloud (weighted by ISCCP total cloud area) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "pctisccp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pctisccp",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

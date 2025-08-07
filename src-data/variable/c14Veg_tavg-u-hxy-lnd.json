@@ -1,0 +1,33 @@
+{
+    "id": "c14Veg_tavg-u-hxy-lnd",
+    "validation-key": "c14Veg_tavg-u-hxy-lnd",
+    "ui-label": "Mass of 14C in Vegetation",
+    "description": "only requested for DECK HIST",
+    "variable-root": "c14Veg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "vegetation_mass_content_of_14C",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "c14Veg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "c14Veg",
+    "model-realm": "land",
+    "@context": "_context_"
+}

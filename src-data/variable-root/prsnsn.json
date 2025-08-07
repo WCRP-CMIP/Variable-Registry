@@ -1,0 +1,12 @@
+{
+    "id": "prsnsn",
+    "validation-key": "prsnsn",
+    "ui-label": "prsnsn",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

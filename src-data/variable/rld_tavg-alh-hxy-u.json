@@ -1,0 +1,34 @@
+{
+    "id": "rld_tavg-alh-hxy-u",
+    "validation-key": "rld_tavg-alh-hxy-u",
+    "ui-label": "Downwelling Longwave Radiation",
+    "description": "Includes also the fluxes at the surface and TOA.",
+    "variable-root": "rld",
+    "temporal-label": "tavg",
+    "vertical-label": "alh",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "downwelling_longwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "out-name": "rld",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-AH",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rld",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

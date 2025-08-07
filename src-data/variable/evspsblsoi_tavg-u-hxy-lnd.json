@@ -1,0 +1,33 @@
+{
+    "id": "evspsblsoi_tavg-u-hxy-lnd",
+    "validation-key": "evspsblsoi_tavg-u-hxy-lnd",
+    "ui-label": "Water Evaporation from Soil",
+    "description": "includes sublimation.",
+    "variable-root": "evspsblsoi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "water_evaporation_flux_from_soil",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "evspsblsoi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "evspsblsoi",
+    "model-realm": "land",
+    "@context": "_context_"
+}

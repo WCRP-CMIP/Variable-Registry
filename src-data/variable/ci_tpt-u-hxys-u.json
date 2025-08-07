@@ -1,0 +1,32 @@
+{
+    "id": "ci_tpt-u-hxys-u",
+    "validation-key": "ci_tpt-u-hxys-u",
+    "ui-label": "Fraction of Time Convection Occurs in Cell",
+    "description": "Fraction of time that convection occurs in the grid cell .",
+    "variable-root": "ci",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "convection_time_fraction",
+    "units": "1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "ci",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "ci",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

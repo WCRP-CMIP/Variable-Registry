@@ -1,0 +1,12 @@
+{
+    "id": "mrtws",
+    "validation-key": "mrtws",
+    "ui-label": "mrtws",
+    "data-type": "real",
+    "standard-name": "land_water_amount",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

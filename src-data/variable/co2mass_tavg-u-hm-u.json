@@ -1,0 +1,31 @@
+{
+    "id": "co2mass_tavg-u-hm-u",
+    "validation-key": "co2mass_tavg-u-hm-u",
+    "ui-label": "Total Atmospheric Mass of CO2",
+    "description": "Total atmospheric mass of Carbon Dioxide",
+    "variable-root": "co2mass",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "u",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "atmosphere_mass_of_carbon_dioxide",
+    "units": "kg",
+    "cell-methods": "vsm-tmn",
+    "cell-measures": "",
+    "dimensions": [
+        "time"
+    ],
+    "out-name": "co2mass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "co2mass",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

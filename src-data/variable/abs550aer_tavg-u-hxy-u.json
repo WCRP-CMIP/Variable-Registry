@@ -1,0 +1,34 @@
+{
+    "id": "abs550aer_tavg-u-hxy-u",
+    "validation-key": "abs550aer_tavg-u-hxy-u",
+    "ui-label": "Ambient Aerosol Absorption Optical Thickness at 550nm",
+    "description": "Optical thickness of atmospheric aerosols at wavelength 550 nanometers.",
+    "variable-root": "abs550aer",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles",
+    "units": "1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "out-name": "abs550aer",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "abs550aer",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

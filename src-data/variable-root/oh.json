@@ -1,0 +1,12 @@
+{
+    "id": "oh",
+    "validation-key": "oh",
+    "ui-label": "oh",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_hydroxyl_radical_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

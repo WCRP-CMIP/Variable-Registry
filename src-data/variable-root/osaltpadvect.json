@@ -1,0 +1,12 @@
+{
+    "id": "osaltpadvect",
+    "validation-key": "osaltpadvect",
+    "ui-label": "osaltpadvect",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "npp_tavg-u-hxy-ng",
+    "validation-key": "npp_tavg-u-hxy-ng",
+    "ui-label": "Net Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total NPP of grass in the grid cell",
+    "variable-root": "npp",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ng",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where natural_grasses (mask=grassFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nppGrass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nppGrass",
+    "model-realm": "land",
+    "@context": "_context_"
+}

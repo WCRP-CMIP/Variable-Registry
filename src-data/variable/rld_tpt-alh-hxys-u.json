@@ -1,0 +1,33 @@
+{
+    "id": "rld_tpt-alh-hxys-u",
+    "validation-key": "rld_tpt-alh-hxys-u",
+    "ui-label": "Downwelling Longwave Radiation",
+    "description": "Downwelling Longwave Radiation (includes the fluxes at the surface and TOA)",
+    "variable-root": "rld",
+    "temporal-label": "tpt",
+    "vertical-label": "alh",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "downwelling_longwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "out-name": "rld",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "S-AH",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "rld",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

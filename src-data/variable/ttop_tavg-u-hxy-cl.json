@@ -1,0 +1,33 @@
+{
+    "id": "ttop_tavg-u-hxy-cl",
+    "validation-key": "ttop_tavg-u-hxy-cl",
+    "ui-label": "Air Temperature at Cloud Top",
+    "description": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+    "variable-root": "ttop",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "cl",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "air_temperature_at_cloud_top",
+    "units": "K",
+    "cell-methods": "amncl-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "ttop",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ttop",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

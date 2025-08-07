@@ -1,0 +1,12 @@
+{
+    "id": "clwvimodis",
+    "validation-key": "clwvimodis",
+    "ui-label": "clwvimodis",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_cloud_condensed_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

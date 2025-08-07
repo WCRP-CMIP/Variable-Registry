@@ -1,0 +1,33 @@
+{
+    "id": "vegHeight_tavg-u-hxy-ng",
+    "validation-key": "vegHeight_tavg-u-hxy-ng",
+    "ui-label": "Height of Grass",
+    "description": "Vegetation height averaged over the grass fraction of a grid cell.",
+    "variable-root": "vegHeight",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "ng",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "canopy_height",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where natural_grasses (mask=grassFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "vegHeightGrass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vegHeightGrass",
+    "model-realm": "land",
+    "@context": "_context_"
+}

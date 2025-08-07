@@ -1,0 +1,33 @@
+{
+    "id": "zg_tavg-p39-hy-air",
+    "validation-key": "zg_tavg-p39-hy-air",
+    "ui-label": "Geopotential Height",
+    "description": "zonal mean; hence YZT",
+    "variable-root": "zg",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "EdayZ",
+    "frequency": "day",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "zg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zg",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

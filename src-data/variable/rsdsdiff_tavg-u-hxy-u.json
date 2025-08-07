@@ -1,0 +1,33 @@
+{
+    "id": "rsdsdiff_tavg-u-hxy-u",
+    "validation-key": "rsdsdiff_tavg-u-hxy-u",
+    "ui-label": "Surface Diffuse Downwelling Shortwave Radiation",
+    "description": "Surface downwelling solar irradiance from diffuse radiation for UV calculations.",
+    "variable-root": "rsdsdiff",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "surface_diffuse_downwelling_shortwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsdsdiff",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsdsdiff",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

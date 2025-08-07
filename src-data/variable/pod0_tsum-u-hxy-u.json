@@ -1,0 +1,33 @@
+{
+    "id": "pod0_tsum-u-hxy-u",
+    "validation-key": "pod0_tsum-u-hxy-u",
+    "ui-label": "Phytotoxic Ozone Dose",
+    "description": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration \\* stomatal conductance \\* Rc/(Rb+Rc) )",
+    "variable-root": "pod0",
+    "temporal-label": "tsum",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
+    "units": "mol m-2",
+    "cell-methods": "amn-ts",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "pod0",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pod0",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "cVegLut_tpt-u-hxy-multi",
+    "validation-key": "cVegLut_tpt-u-hxy-multi",
+    "ui-label": "Carbon in Vegetation on Land-Use Tiles",
+    "description": "end of year values (not annual mean)",
+    "variable-root": "cVegLut",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Eyr",
+    "frequency": "yr",
+    "standard-name": "vegetation_carbon_content",
+    "units": "kg m-2",
+    "cell-methods": "amnlu-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time1"
+    ],
+    "out-name": "cVegLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "cVegLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

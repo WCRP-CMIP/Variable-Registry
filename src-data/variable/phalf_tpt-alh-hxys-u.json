@@ -1,0 +1,33 @@
+{
+    "id": "phalf_tpt-alh-hxys-u",
+    "validation-key": "phalf_tpt-alh-hxys-u",
+    "ui-label": "Pressure on Model Half-Levels",
+    "description": "Air pressure on model half-levels",
+    "variable-root": "phalf",
+    "temporal-label": "tpt",
+    "vertical-label": "alh",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "air_pressure",
+    "units": "Pa",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "out-name": "phalf",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-AH",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "phalf",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

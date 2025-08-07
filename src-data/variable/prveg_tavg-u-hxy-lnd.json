@@ -1,0 +1,33 @@
+{
+    "id": "prveg_tavg-u-hxy-lnd",
+    "validation-key": "prveg_tavg-u-hxy-lnd",
+    "ui-label": "Precipitation onto Canopy",
+    "description": "the precipitation flux that is intercepted by the vegetation canopy (if present in model) before reaching the ground.",
+    "variable-root": "prveg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "precipitation_flux_onto_canopy",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prveg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prveg",
+    "model-realm": "land",
+    "@context": "_context_"
+}

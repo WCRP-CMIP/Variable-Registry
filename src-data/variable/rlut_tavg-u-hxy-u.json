@@ -1,0 +1,33 @@
+{
+    "id": "rlut_tavg-u-hxy-u",
+    "validation-key": "rlut_tavg-u-hxy-u",
+    "ui-label": "TOA Outgoing Longwave Radiation",
+    "description": "TOA outgoing longwave radiation",
+    "variable-root": "rlut",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hr",
+    "frequency": "3hr",
+    "standard-name": "toa_outgoing_longwave_flux",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rlut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rlut",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

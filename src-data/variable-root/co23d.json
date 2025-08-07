@@ -1,0 +1,12 @@
+{
+    "id": "co23d",
+    "validation-key": "co23d",
+    "ui-label": "co23D",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

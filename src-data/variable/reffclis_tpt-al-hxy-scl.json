@@ -1,0 +1,34 @@
+{
+    "id": "reffclis_tpt-al-hxy-scl",
+    "validation-key": "reffclis_tpt-al-hxy-scl",
+    "ui-label": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+    "description": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+    "variable-root": "reffclis",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "scl",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "units": "m",
+    "cell-methods": "amnsc-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "reffclis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "reffclis",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

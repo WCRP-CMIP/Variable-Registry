@@ -1,0 +1,33 @@
+{
+    "id": "dryno3_tavg-u-hxy-u",
+    "validation-key": "dryno3_tavg-u-hxy-u",
+    "ui-label": "dry deposition of NO3 aerosol",
+    "description": "Loss rate of nitrate (NO3) aerosol from the atmosphere due to dry deposition",
+    "variable-root": "dryno3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_due_to_dry_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dryno3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dryno3",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cVeg_tavg-u-hxy-lnd",
+    "validation-key": "cVeg_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Vegetation",
+    "description": "Carbon mass per unit area in vegetation.",
+    "variable-root": "cVeg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "vegetation_carbon_content",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cVeg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cVeg",
+    "model-realm": "land",
+    "@context": "_context_"
+}

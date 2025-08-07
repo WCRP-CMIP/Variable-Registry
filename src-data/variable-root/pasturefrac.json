@@ -1,0 +1,12 @@
+{
+    "id": "pasturefrac",
+    "validation-key": "pasturefrac",
+    "ui-label": "pastureFrac",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "agesno",
+    "validation-key": "agesno",
+    "ui-label": "agesno",
+    "data-type": "real",
+    "standard-name": "age_of_surface_snow",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

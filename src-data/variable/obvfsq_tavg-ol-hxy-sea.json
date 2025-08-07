@@ -1,0 +1,34 @@
+{
+    "id": "obvfsq_tavg-ol-hxy-sea",
+    "validation-key": "obvfsq_tavg-ol-hxy-sea",
+    "ui-label": "Square of Brunt Vaisala Frequency in Sea Water",
+    "description": "The phrase \"square_of_X\" means X\\*X. Frequency is the number of oscillations of a wave per unit time. Brunt-Vaisala frequency is also sometimes called \"buoyancy frequency\" and is a measure of the vertical stratification of the medium.",
+    "variable-root": "obvfsq",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "square_of_brunt_vaisala_frequency_in_sea_water",
+    "units": "s-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "out-name": "obvfsq",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "obvfsq",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

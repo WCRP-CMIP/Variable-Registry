@@ -1,0 +1,12 @@
+{
+    "id": "parasolrefl",
+    "validation-key": "parasolrefl",
+    "ui-label": "parasolRefl",
+    "data-type": "real",
+    "standard-name": "toa_bidirectional_reflectance",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

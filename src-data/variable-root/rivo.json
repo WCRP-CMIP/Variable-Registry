@@ -1,0 +1,12 @@
+{
+    "id": "rivo",
+    "validation-key": "rivo",
+    "ui-label": "rivo",
+    "data-type": "real",
+    "standard-name": "outgoing_water_volume_transport_along_river_channel",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

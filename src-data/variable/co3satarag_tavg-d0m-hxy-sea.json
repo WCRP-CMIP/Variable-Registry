@@ -1,0 +1,33 @@
+{
+    "id": "co3satarag_tavg-d0m-hxy-sea",
+    "validation-key": "co3satarag_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water",
+    "description": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3) for sea water in equilibrium with pure Aragonite. Aragonite (CaCO3) is a mineral that is a polymorph of calcium carbonate.",
+    "variable-root": "co3satarag",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oday",
+    "frequency": "day",
+    "standard-name": "mole_concentration_of_carbonate_expressed_as_carbon_at_equilibrium_with_pure_aragonite_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "co3sataragos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "co3sataragos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

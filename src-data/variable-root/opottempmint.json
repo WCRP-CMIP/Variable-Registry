@@ -1,0 +1,12 @@
+{
+    "id": "opottempmint",
+    "validation-key": "opottempmint",
+    "ui-label": "opottempmint",
+    "data-type": "real",
+    "standard-name": "integral_wrt_depth_of_product_of_potential_temperature_and_sea_water_density",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

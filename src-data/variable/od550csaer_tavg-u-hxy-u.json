@@ -1,0 +1,34 @@
+{
+    "id": "od550csaer_tavg-u-hxy-u",
+    "validation-key": "od550csaer_tavg-u-hxy-u",
+    "ui-label": "Ambient Aerosol Optical Thickness at 550nm",
+    "description": "AOD from the ambient aerosols in clear skies if od550aer is for all-sky (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 550 nm\"",
+    "variable-root": "od550csaer",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles_assuming_clear_sky",
+    "units": "1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "out-name": "od550csaer",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "od550csaer",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

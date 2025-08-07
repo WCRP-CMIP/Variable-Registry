@@ -1,0 +1,12 @@
+{
+    "id": "wo",
+    "validation-key": "wo",
+    "ui-label": "wo",
+    "data-type": "real",
+    "standard-name": "upward_sea_water_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

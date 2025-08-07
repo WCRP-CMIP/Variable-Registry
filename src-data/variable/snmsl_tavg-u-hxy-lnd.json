@@ -1,0 +1,33 @@
+{
+    "id": "snmsl_tavg-u-hxy-lnd",
+    "validation-key": "snmsl_tavg-u-hxy-lnd",
+    "ui-label": "Water Flowing out of Snowpack",
+    "description": "surface_snow_melt_flux_into_soil_layer",
+    "variable-root": "snmsl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "snmsl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "snmsl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

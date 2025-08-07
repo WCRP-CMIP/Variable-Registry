@@ -1,0 +1,33 @@
+{
+    "id": "intuadse_tavg-u-hxy-u",
+    "validation-key": "intuadse_tavg-u-hxy-u",
+    "ui-label": "Vertically Integrated Eastward Dry Static Energy Transport",
+    "description": "Vertically integrated eastward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of eastward wind by dry static_energy per mass unit)",
+    "variable-root": "intuadse",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "eastward_atmosphere_dry_static_energy_transport_across_unit_distance",
+    "units": "MJ m-1 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "intuadse",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "intuadse",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "hus_tpt-p7h-hxy-air",
+    "validation-key": "hus_tpt-p7h-hxy-air",
+    "ui-label": "Specific Humidity",
+    "description": "Extra levels - 925, 700, 600, 300, 50",
+    "variable-root": "hus",
+    "temporal-label": "tpt",
+    "vertical-label": "p7h",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "6hrPlevPt",
+    "frequency": "6hr",
+    "standard-name": "specific_humidity",
+    "units": "1",
+    "cell-methods": "amna-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7h",
+        "time1"
+    ],
+    "out-name": "hus",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P7T",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "hus",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

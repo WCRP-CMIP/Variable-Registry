@@ -1,0 +1,12 @@
+{
+    "id": "tendacabf",
+    "validation-key": "tendacabf",
+    "ui-label": "tendacabf",
+    "data-type": "real",
+    "standard-name": "tendency_of_land_ice_mass_due_to_surface_mass_balance",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

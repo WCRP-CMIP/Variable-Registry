@@ -1,0 +1,35 @@
+{
+    "id": "clmisr_tavg-h16-hxy-air",
+    "validation-key": "clmisr_tavg-h16-hxy-air",
+    "ui-label": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
+    "description": "MISR cloud area fraction",
+    "variable-root": "clmisr",
+    "temporal-label": "tavg",
+    "vertical-label": "h16",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "cloud_area_fraction_in_atmosphere_layer",
+    "units": "%",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt16",
+        "tau",
+        "time"
+    ],
+    "out-name": "clmisr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-H16",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "clmisr",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

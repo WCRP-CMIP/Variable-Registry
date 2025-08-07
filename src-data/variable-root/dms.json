@@ -1,0 +1,12 @@
+{
+    "id": "dms",
+    "validation-key": "dms",
+    "ui-label": "dms",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_dimethyl_sulfide_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

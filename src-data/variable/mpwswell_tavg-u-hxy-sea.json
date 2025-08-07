@@ -1,0 +1,33 @@
+{
+    "id": "mpwswell_tavg-u-hxy-sea",
+    "validation-key": "mpwswell_tavg-u-hxy-sea",
+    "ui-label": "Swell Wave Mean Period",
+    "description": "Average wave period (i.e., time in-between two wave crests) of swell waves only (i.e., waves that have propagated away from their generation area). In spectral wind wave models, it is calculated using spectral moments, mathematical measures that describe the shape and characteristics of the wave spectrum.",
+    "variable-root": "mpwswell",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_swell_wave_mean_period",
+    "units": "s",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "mpwswell",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mpwswell",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

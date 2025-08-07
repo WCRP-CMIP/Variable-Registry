@@ -1,0 +1,12 @@
+{
+    "id": "clwvic",
+    "validation-key": "clwvic",
+    "ui-label": "clwvic",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_convective_cloud_condensed_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

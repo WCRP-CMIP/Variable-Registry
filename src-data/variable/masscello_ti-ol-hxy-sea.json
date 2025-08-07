@@ -1,0 +1,33 @@
+{
+    "id": "masscello_ti-ol-hxy-sea",
+    "validation-key": "masscello_ti-ol-hxy-sea",
+    "ui-label": "Ocean Grid-Cell Mass per Area",
+    "description": "Tracer grid-cell mass per unit area used for computing tracer budgets. For Boussinesq models with static ocean grid cell thickness, masscello = rhozero\\*thickcello, where thickcello is static cell thickness and rhozero is constant Boussinesq reference density. More generally, masscello is time dependent and reported as part of Omon.",
+    "variable-root": "masscello",
+    "temporal-label": "ti",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "sea_water_mass_per_unit_area",
+    "units": "kg m-2",
+    "cell-methods": "amns-fx",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel"
+    ],
+    "out-name": "masscello",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "None",
+    "physical-parameter-name": "masscello",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

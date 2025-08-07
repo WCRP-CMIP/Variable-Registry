@@ -1,0 +1,12 @@
+{
+    "id": "vegheight",
+    "validation-key": "vegheight",
+    "ui-label": "vegHeight",
+    "data-type": "real",
+    "standard-name": "canopy_height",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

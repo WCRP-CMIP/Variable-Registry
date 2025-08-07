@@ -1,0 +1,12 @@
+{
+    "id": "fnleach",
+    "validation-key": "fnleach",
+    "ui-label": "fNleach",
+    "data-type": "real",
+    "standard-name": "mass_flux_of_carbon_out_of_soil_due_to_leaching_and_runoff",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "wa",
+    "validation-key": "wa",
+    "ui-label": "wa",
+    "data-type": "real",
+    "standard-name": "upward_air_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

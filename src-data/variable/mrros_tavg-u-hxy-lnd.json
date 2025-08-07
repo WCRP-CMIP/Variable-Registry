@@ -1,0 +1,33 @@
+{
+    "id": "mrros_tavg-u-hxy-lnd",
+    "validation-key": "mrros_tavg-u-hxy-lnd",
+    "ui-label": "Surface Runoff",
+    "description": "the total surface runoff leaving the land portion of the grid cell.",
+    "variable-root": "mrros",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "surface_runoff_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "mrros",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrros",
+    "model-realm": "land",
+    "@context": "_context_"
+}

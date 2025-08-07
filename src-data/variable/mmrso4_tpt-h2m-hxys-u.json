@@ -1,0 +1,33 @@
+{
+    "id": "mmrso4_tpt-h2m-hxys-u",
+    "validation-key": "mmrso4_tpt-h2m-hxys-u",
+    "ui-label": "Instantaneous Aerosol Sulfate Mass Mixing Ratio at CF sites",
+    "description": "This variable is for instantaneous surface mass mixing ratio of sulfate aerosol at CF sites, sampled every 3 hours",
+    "variable-root": "mmrso4",
+    "temporal-label": "tpt",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hrPt",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "site",
+        "time1",
+        "lowermodellayer"
+    ],
+    "out-name": "mmrso4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "mmrso4",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

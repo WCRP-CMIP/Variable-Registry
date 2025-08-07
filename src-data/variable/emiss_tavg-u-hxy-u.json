@@ -1,0 +1,33 @@
+{
+    "id": "emiss_tavg-u-hxy-u",
+    "validation-key": "emiss_tavg-u-hxy-u",
+    "ui-label": "Total Emission Rate of Sea-Salt Aerosol",
+    "description": "Integrate 3D emission field vertically to 2d field.",
+    "variable-root": "emiss",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emiss",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emiss",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "nRoot_tavg-u-hxy-lnd",
+    "validation-key": "nRoot_tavg-u-hxy-lnd",
+    "ui-label": "Nitrogen Mass in Roots",
+    "description": "including fine and coarse roots.",
+    "variable-root": "nRoot",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "root_mass_content_of_nitrogen",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nRoot",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nRoot",
+    "model-realm": "land",
+    "@context": "_context_"
+}

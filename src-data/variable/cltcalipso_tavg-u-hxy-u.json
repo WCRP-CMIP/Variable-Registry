@@ -1,0 +1,33 @@
+{
+    "id": "cltcalipso_tavg-u-hxy-u",
+    "validation-key": "cltcalipso_tavg-u-hxy-u",
+    "ui-label": "CALIPSO Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
+    "variable-root": "cltcalipso",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cltcalipso",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cltcalipso",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

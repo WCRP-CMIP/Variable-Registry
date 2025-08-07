@@ -1,0 +1,12 @@
+{
+    "id": "mc",
+    "validation-key": "mc",
+    "ui-label": "mc",
+    "data-type": "real",
+    "standard-name": "atmosphere_net_upward_convective_mass_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

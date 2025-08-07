@@ -1,0 +1,33 @@
+{
+    "id": "reffclis_tpt-al-hxys-scl",
+    "validation-key": "reffclis_tpt-al-hxys-scl",
+    "ui-label": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+    "description": "alevel site time1",
+    "variable-root": "reffclis",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "scl",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "units": "m",
+    "cell-methods": "amnsc-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "reffclis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "reffclis",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

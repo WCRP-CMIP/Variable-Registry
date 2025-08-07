@@ -1,0 +1,33 @@
+{
+    "id": "rlut4co2_tavg-u-hxy-u",
+    "validation-key": "rlut4co2_tavg-u-hxy-u",
+    "ui-label": "TOA Outgoing Longwave Radiation 4XCO2 Atmosphere",
+    "description": "Top-of-atmosphere outgoing longwave radiation calculated using carbon dioxide concentrations increased fourfold",
+    "variable-root": "rlut4co2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "toa_outgoing_longwave_flux",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rlut4co2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rlut4co2",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

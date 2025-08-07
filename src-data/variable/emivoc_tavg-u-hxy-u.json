@@ -1,0 +1,33 @@
+{
+    "id": "emivoc_tavg-u-hxy-u",
+    "validation-key": "emivoc_tavg-u-hxy-u",
+    "ui-label": "Total Emission Rate of NMVOC",
+    "description": "Integrate 3D emission field vertically to 2d field. _If_ fixed molecular weight of NMVOC is not available in model, please provide in units of kilomole m-2 s-1 (i.e. kg m-2 s-1 as if model NMVOC had molecular weight of 1) and add a comment to your file.",
+    "variable-root": "emivoc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nmvoc_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emivoc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emivoc",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

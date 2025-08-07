@@ -1,0 +1,34 @@
+{
+    "id": "clcalipso_tavg-560hPa-hxy-air",
+    "validation-key": "clcalipso_tavg-560hPa-hxy-air",
+    "ui-label": "CALIPSO Mid Level Cloud Cover Percentage",
+    "description": "Percentage cloud cover in layer centred on 560hPa",
+    "variable-root": "clcalipso",
+    "temporal-label": "tavg",
+    "vertical-label": "560hPa",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "cloud_area_fraction_in_atmosphere_layer",
+    "units": "%",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p560"
+    ],
+    "out-name": "clmcalipso",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "clmcalipso",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

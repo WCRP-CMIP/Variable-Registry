@@ -1,0 +1,33 @@
+{
+    "id": "t20d_tavg-u-hxy-sea",
+    "validation-key": "t20d_tavg-u-hxy-sea",
+    "ui-label": "Depth of 20 degree Celsius Isotherm",
+    "description": "Monthly 20C isotherm depth",
+    "variable-root": "t20d",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "depth_of_isosurface_of_sea_water_potential_temperature",
+    "units": "m",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "t20d",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "t20d",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "zg_tpt-925hPa-hxy-u",
+    "validation-key": "zg_tpt-925hPa-hxy-u",
+    "ui-label": "zg925",
+    "description": "Geopotential Height at 925 hPa, 6 hourly instantaneous",
+    "variable-root": "zg",
+    "temporal-label": "tpt",
+    "vertical-label": "925hPa",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "6hrPlevPt",
+    "frequency": "6hr",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p925"
+    ],
+    "out-name": "zg925",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "zg925",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

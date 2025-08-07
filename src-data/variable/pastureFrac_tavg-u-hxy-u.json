@@ -1,0 +1,34 @@
+{
+    "id": "pastureFrac_tavg-u-hxy-u",
+    "validation-key": "pastureFrac_tavg-u-hxy-u",
+    "ui-label": "Percentage of Land Which Is Anthropogenic Pasture",
+    "description": "fraction of entire grid cell  that is covered by anthropogenic pasture.",
+    "variable-root": "pastureFrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typepasture"
+    ],
+    "out-name": "pastureFrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pastureFrac",
+    "model-realm": "land",
+    "@context": "_context_"
+}

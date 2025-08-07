@@ -1,0 +1,12 @@
+{
+    "id": "depthl",
+    "validation-key": "depthl",
+    "ui-label": "depthl",
+    "data-type": "real",
+    "standard-name": "depth",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

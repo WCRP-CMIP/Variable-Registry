@@ -1,0 +1,33 @@
+{
+    "id": "emich4_tavg-u-hxy-u",
+    "validation-key": "emich4_tavg-u-hxy-u",
+    "ui-label": "total emission rate of CH4",
+    "description": "This is the total emission rate of methane (CH4) into the atmosphere",
+    "variable-root": "emich4",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_methane_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emich4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emich4",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

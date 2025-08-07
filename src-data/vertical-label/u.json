@@ -1,0 +1,11 @@
+{
+    "id": "u",
+    "validation-key": "u",
+    "ui-label": "Unspecified Vertical Dimension",
+    "description": "unspecified (no vertical dimension)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

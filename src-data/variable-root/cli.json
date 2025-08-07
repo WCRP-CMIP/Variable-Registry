@@ -1,0 +1,12 @@
+{
+    "id": "cli",
+    "validation-key": "cli",
+    "ui-label": "cli",
+    "data-type": "real",
+    "standard-name": "mass_fraction_of_cloud_ice_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

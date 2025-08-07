@@ -1,0 +1,34 @@
+{
+    "id": "zg_tpt-p3-hxy-air",
+    "validation-key": "zg_tpt-p3-hxy-air",
+    "ui-label": "Geopotential Height",
+    "description": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+    "variable-root": "zg",
+    "temporal-label": "tpt",
+    "vertical-label": "p3",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "6hrPlevPt",
+    "frequency": "6hr",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amna-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+    ],
+    "out-name": "zg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-P3",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "zg",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

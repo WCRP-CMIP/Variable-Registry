@@ -1,0 +1,33 @@
+{
+    "id": "msftbarot_tavg-u-hxy-sea",
+    "validation-key": "msftbarot_tavg-u-hxy-sea",
+    "ui-label": "Ocean Barotropic Mass Streamfunction",
+    "description": "Streamfunction or its approximation for free surface models. See OMDP document for details.",
+    "variable-root": "msftbarot",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "ocean_barotropic_mass_streamfunction",
+    "units": "kg s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "msftbarot",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "msftbarot",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

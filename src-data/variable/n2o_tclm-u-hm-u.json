@@ -1,0 +1,31 @@
+{
+    "id": "n2o_tclm-u-hm-u",
+    "validation-key": "n2o_tclm-u-hm-u",
+    "ui-label": "Global Mean Mole Fraction of N2O",
+    "description": "Global mean Nitrous Oxide (N2O)",
+    "variable-root": "n2o",
+    "temporal-label": "tclm",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "u",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_nitrous_oxide_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "Error: height: area: time: mean (with all samples weighted by the number of moles of air in the sample) not found in cell methods, please register",
+    "cell-measures": "",
+    "dimensions": [
+        "time2"
+    ],
+    "out-name": "n2o",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "climatology",
+    "physical-parameter-name": "n2o",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "rlutaf",
+    "validation-key": "rlutaf",
+    "ui-label": "rlutaf",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_longwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

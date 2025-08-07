@@ -1,0 +1,12 @@
+{
+    "id": "nmineral",
+    "validation-key": "nmineral",
+    "ui-label": "nMineral",
+    "data-type": "real",
+    "standard-name": "soil_mass_content_of_inorganic_nitrogen_expressed_as_nitrogen",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

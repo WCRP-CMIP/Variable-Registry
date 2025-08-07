@@ -1,0 +1,31 @@
+{
+    "id": "cfc11_tavg-u-hm-u",
+    "validation-key": "cfc11_tavg-u-hm-u",
+    "ui-label": "Global Mean Mole Fraction of CFC11",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC11 is CFCl3.  The IUPAC name for CFC11 is trichloro-fluoro-methane.",
+    "variable-root": "cfc11",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "u",
+    "remove-cmip6-table": "Amon",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_cfc11_in_air",
+    "units": "1E-12",
+    "cell-methods": "Error: height: area: time: mean (with all samples weighted by the number of moles of air in the sample) not found in cell methods, please register",
+    "cell-measures": "",
+    "dimensions": [
+        "time"
+    ],
+    "out-name": "cfc11global",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cfc11global",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

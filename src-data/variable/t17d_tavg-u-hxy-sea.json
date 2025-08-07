@@ -1,0 +1,33 @@
+{
+    "id": "t17d_tavg-u-hxy-sea",
+    "validation-key": "t17d_tavg-u-hxy-sea",
+    "ui-label": "Depth of 17 degree Celsius Isotherm",
+    "description": "Monthly 17C isotherm depth",
+    "variable-root": "t17d",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "depth_of_isosurface_of_sea_water_potential_temperature",
+    "units": "m",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "t17d",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "t17d",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

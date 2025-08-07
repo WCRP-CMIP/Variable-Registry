@@ -1,0 +1,34 @@
+{
+    "id": "co23D_tavg-al-hxy-u",
+    "validation-key": "co23D_tavg-al-hxy-u",
+    "ui-label": "3D-Field of Transported CO2",
+    "description": "requested for all Emissions-driven runs",
+    "variable-root": "co23D",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "co23D",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "co23D",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

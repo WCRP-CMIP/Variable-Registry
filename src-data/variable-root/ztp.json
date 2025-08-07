@@ -1,0 +1,12 @@
+{
+    "id": "ztp",
+    "validation-key": "ztp",
+    "ui-label": "ztp",
+    "data-type": "real",
+    "standard-name": "tropopause_altitude",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

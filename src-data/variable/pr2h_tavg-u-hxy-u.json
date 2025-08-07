@@ -1,0 +1,33 @@
+{
+    "id": "pr2h_tavg-u-hxy-u",
+    "validation-key": "pr2h_tavg-u-hxy-u",
+    "ui-label": "Precipitation Flux of Water Containing Deuterium (1H 2H O)",
+    "description": "Precipitation mass flux of water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O), including solid and liquid phases.",
+    "variable-root": "pr2h",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "precipitation_flux_containing_single_2H",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "pr2h",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pr2h",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

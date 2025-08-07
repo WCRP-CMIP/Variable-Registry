@@ -1,0 +1,34 @@
+{
+    "id": "zg_tpt-al-hxy-u",
+    "validation-key": "zg_tpt-al-hxy-u",
+    "ui-label": "Geopotential height",
+    "description": "Geopotential height",
+    "variable-root": "zg",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "6hrLev",
+    "frequency": "6hr",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "zg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "zg",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

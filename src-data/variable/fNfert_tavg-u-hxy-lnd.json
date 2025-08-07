@@ -1,0 +1,33 @@
+{
+    "id": "fNfert_tavg-u-hxy-lnd",
+    "validation-key": "fNfert_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure)",
+    "description": "Total Nitrogen added for cropland fertilisation (artificial and manure). Relative to total land area of a grid cell, not relative to agricultural area",
+    "variable-root": "fNfert",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_soil_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fertilization",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fNfert",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fNfert",
+    "model-realm": "land",
+    "@context": "_context_"
+}

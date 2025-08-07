@@ -1,0 +1,12 @@
+{
+    "id": "vtendogw",
+    "validation-key": "vtendogw",
+    "ui-label": "vtendogw",
+    "data-type": "real",
+    "standard-name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

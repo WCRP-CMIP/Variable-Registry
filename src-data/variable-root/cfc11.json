@@ -1,0 +1,12 @@
+{
+    "id": "cfc11",
+    "validation-key": "cfc11",
+    "ui-label": "cfc11",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_cfc11_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

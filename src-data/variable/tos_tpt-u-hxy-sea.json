@@ -1,0 +1,33 @@
+{
+    "id": "tos_tpt-u-hxy-sea",
+    "validation-key": "tos_tpt-u-hxy-sea",
+    "ui-label": "Sea Surface Temperature",
+    "description": "temperature of surface of open ocean, sampled synoptically.",
+    "variable-root": "tos",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "3hr",
+    "frequency": "3hr",
+    "standard-name": "sea_surface_temperature",
+    "units": "degC",
+    "cell-methods": "amns-tpt",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "tos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tos",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

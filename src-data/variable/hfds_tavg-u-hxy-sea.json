@@ -1,0 +1,33 @@
+{
+    "id": "hfds_tavg-u-hxy-sea",
+    "validation-key": "hfds_tavg-u-hxy-sea",
+    "ui-label": "Downward Heat Flux at Sea Water Surface",
+    "description": "This is the net flux of heat entering the liquid water column through its upper surface (excluding any \"flux adjustment\") .",
+    "variable-root": "hfds",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_heat_flux_in_sea_water",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "hfds",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfds",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

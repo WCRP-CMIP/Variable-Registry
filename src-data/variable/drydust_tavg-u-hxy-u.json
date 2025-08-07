@@ -1,0 +1,33 @@
+{
+    "id": "drydust_tavg-u-hxy-u",
+    "validation-key": "drydust_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of Dust",
+    "description": "Dry Deposition Rate of Dust",
+    "variable-root": "drydust",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_dry_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "drydust",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "drydust",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

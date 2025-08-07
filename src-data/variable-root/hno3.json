@@ -1,0 +1,12 @@
+{
+    "id": "hno3",
+    "validation-key": "hno3",
+    "ui-label": "hno3",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_nitric_acid_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

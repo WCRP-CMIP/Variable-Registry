@@ -1,0 +1,33 @@
+{
+    "id": "wpdirswell_tavg-u-hxy-sea",
+    "validation-key": "wpdirswell_tavg-u-hxy-sea",
+    "ui-label": "Swell Peak Wave Direction",
+    "description": "Direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area), by identifying the direction associated with the peak (maximum) energy density. This variable is typically expressed in degrees relative to true north.",
+    "variable-root": "wpdirswell",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_swell_wave_from_direction_at_variance_spectral_density_maximum",
+    "units": "degree",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wpdirswell",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wpdirswell",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

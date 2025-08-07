@@ -1,0 +1,33 @@
+{
+    "id": "prsn_tavg-u-hxy-is",
+    "validation-key": "prsn_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Snowfall Flux",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "prsn",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "snowfall_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prsnIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prsnIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

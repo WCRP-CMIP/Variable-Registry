@@ -1,0 +1,32 @@
+{
+    "id": "psl_tpt-u-hxys-u",
+    "validation-key": "psl_tpt-u-hxys-u",
+    "ui-label": "Sea Level Pressure",
+    "description": "not, in general, the same as surface pressure",
+    "variable-root": "psl",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "air_pressure_at_mean_sea_level",
+    "units": "Pa",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "psl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "psl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "loaddust_tavg-u-hxy-u",
+    "validation-key": "loaddust_tavg-u-hxy-u",
+    "ui-label": "Load of Dust",
+    "description": "The total dry mass of dust aerosol particles per unit area.",
+    "variable-root": "loaddust",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "atmosphere_mass_content_of_dust_dry_aerosol_particles",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "loaddust",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "loaddust",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

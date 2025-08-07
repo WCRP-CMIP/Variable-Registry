@@ -1,0 +1,34 @@
+{
+    "id": "conccn_tavg-al-hxy-u",
+    "validation-key": "conccn_tavg-al-hxy-u",
+    "ui-label": "Aerosol Number Concentration",
+    "description": "This is the number concentration of air particles in air",
+    "variable-root": "conccn",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "number_concentration_of_ambient_aerosol_particles_in_air",
+    "units": "m-3",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "conccn",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "conccn",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

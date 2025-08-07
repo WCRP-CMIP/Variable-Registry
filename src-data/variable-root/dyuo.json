@@ -1,0 +1,12 @@
+{
+    "id": "dyuo",
+    "validation-key": "dyuo",
+    "ui-label": "dyuo",
+    "data-type": "real",
+    "standard-name": "cell_y_length",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

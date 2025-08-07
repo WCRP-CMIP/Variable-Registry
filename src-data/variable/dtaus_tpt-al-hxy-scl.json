@@ -1,0 +1,34 @@
+{
+    "id": "dtaus_tpt-al-hxy-scl",
+    "validation-key": "dtaus_tpt-al-hxy-scl",
+    "ui-label": "Stratiform Cloud Optical Depth",
+    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",
+    "variable-root": "dtaus",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "scl",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
+    "units": "1",
+    "cell-methods": "amnsc-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "dtaus",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "dtaus",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

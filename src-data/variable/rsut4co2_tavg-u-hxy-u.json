@@ -1,0 +1,33 @@
+{
+    "id": "rsut4co2_tavg-u-hxy-u",
+    "validation-key": "rsut4co2_tavg-u-hxy-u",
+    "ui-label": "TOA Outgoing Shortwave Radiation in 4XCO2 Atmosphere",
+    "description": "TOA Outgoing Shortwave Radiation calculated using carbon dioxide concentrations increased fourfold",
+    "variable-root": "rsut4co2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFmon",
+    "frequency": "mon",
+    "standard-name": "toa_outgoing_shortwave_flux",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsut4co2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsut4co2",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

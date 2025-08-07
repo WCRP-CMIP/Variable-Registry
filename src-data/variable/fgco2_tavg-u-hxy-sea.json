@@ -1,0 +1,33 @@
+{
+    "id": "fgco2_tavg-u-hxy-sea",
+    "validation-key": "fgco2_tavg-u-hxy-sea",
+    "ui-label": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
+    "description": "Gas exchange flux of CO2 (positive into ocean)",
+    "variable-root": "fgco2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fgco2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fgco2",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

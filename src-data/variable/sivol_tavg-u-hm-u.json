@@ -1,0 +1,31 @@
+{
+    "id": "sivol_tavg-u-hm-u",
+    "validation-key": "sivol_tavg-u-hm-u",
+    "ui-label": "Sea-Ice Volume South",
+    "description": "Total integrated volume of sea ice in the Southern Hemisphere.",
+    "variable-root": "sivol",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "u",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_volume",
+    "units": "1e3 km3",
+    "cell-methods": "asm-tmn",
+    "cell-measures": "",
+    "dimensions": [
+        "time"
+    ],
+    "out-name": "sivols",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sivols",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

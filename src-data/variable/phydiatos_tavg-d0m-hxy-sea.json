@@ -1,0 +1,33 @@
+{
+    "id": "phydiatos_tavg-d0m-hxy-sea",
+    "validation-key": "phydiatos_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "description": "carbon from the diatom phytoplankton component concentration alone",
+    "variable-root": "phydiatos",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "phydiatos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "phydiatos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

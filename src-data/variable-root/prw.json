@@ -1,0 +1,12 @@
+{
+    "id": "prw",
+    "validation-key": "prw",
+    "ui-label": "prw",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_water_vapor",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "tpt",
+    "validation-key": "tpt",
+    "ui-label": "Point in Time",
+    "description": "point",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

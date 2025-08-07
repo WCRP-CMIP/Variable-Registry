@@ -1,0 +1,12 @@
+{
+    "id": "fracoutlut",
+    "validation-key": "fracoutlut",
+    "ui-label": "fracOutLut",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

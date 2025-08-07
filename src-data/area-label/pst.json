@@ -1,0 +1,11 @@
+{
+    "id": "pst",
+    "validation-key": "pst",
+    "ui-label": "Pastures",
+    "description": "pastures",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

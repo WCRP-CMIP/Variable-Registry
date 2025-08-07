@@ -1,0 +1,35 @@
+{
+    "id": "jpdftaureicemodis_tavg-u-hxy-u",
+    "validation-key": "jpdftaureicemodis_tavg-u-hxy-u",
+    "ui-label": "MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",
+    "description": "MODIS Optical Thickness-Particle Size joint distribution, ice",
+    "variable-root": "jpdftaureicemodis",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "modis_cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "effectradic",
+        "tau",
+        "time"
+    ],
+    "out-name": "jpdftaureicemodis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "jpdftaureicemodis",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

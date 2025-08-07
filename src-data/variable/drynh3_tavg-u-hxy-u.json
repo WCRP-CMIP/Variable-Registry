@@ -1,0 +1,33 @@
+{
+    "id": "drynh3_tavg-u-hxy-u",
+    "validation-key": "drynh3_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of NH3",
+    "description": "Monthly Dry Deposition Rate of NH3 at surface",
+    "variable-root": "drynh3",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_dry_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "drynh3",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "drynh3",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

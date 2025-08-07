@@ -1,0 +1,12 @@
+{
+    "id": "lim",
+    "validation-key": "lim",
+    "ui-label": "lim",
+    "data-type": "real",
+    "standard-name": "land_ice_mass",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

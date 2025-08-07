@@ -1,0 +1,33 @@
+{
+    "id": "nppStem_tavg-u-hxy-lnd",
+    "validation-key": "nppStem_tavg-u-hxy-lnd",
+    "ui-label": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "added for completeness with npp_root",
+    "variable-root": "nppStem",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_stems",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "nppStem",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "nppStem",
+    "model-realm": "land",
+    "@context": "_context_"
+}

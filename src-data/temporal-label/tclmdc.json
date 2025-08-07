@@ -1,0 +1,11 @@
+{
+    "id": "tclmdc",
+    "validation-key": "tclmdc",
+    "ui-label": "Diurnal Climatology",
+    "description": "diurnal cycle climatology",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

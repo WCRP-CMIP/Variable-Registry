@@ -1,0 +1,34 @@
+{
+    "id": "pfull_tpt-al-hxy-u",
+    "validation-key": "pfull_tpt-al-hxy-u",
+    "ui-label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
+    "variable-root": "pfull",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "air_pressure",
+    "units": "Pa",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "pfull",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "pfull",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "tntd",
+    "validation-key": "tntd",
+    "ui-label": "tntd",
+    "data-type": "real",
+    "standard-name": "tendency_of_air_temperature_due_to_diffusion",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

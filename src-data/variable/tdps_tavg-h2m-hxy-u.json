@@ -1,0 +1,34 @@
+{
+    "id": "tdps_tavg-h2m-hxy-u",
+    "validation-key": "tdps_tavg-h2m-hxy-u",
+    "ui-label": "2m Dewpoint Temperature",
+    "description": "Dew point temperature is the temperature at which a parcel of air reaches saturation upon being cooled at constant pressure and specific humidity.",
+    "variable-root": "tdps",
+    "temporal-label": "tavg",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "dew_point_temperature",
+    "units": "K",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "out-name": "tdps",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tdps",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

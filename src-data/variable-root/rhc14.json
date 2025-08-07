@@ -1,0 +1,12 @@
+{
+    "id": "rhc14",
+    "validation-key": "rhc14",
+    "ui-label": "rhc14",
+    "data-type": "real",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_14C_due_to_heterotrophic_respiration",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

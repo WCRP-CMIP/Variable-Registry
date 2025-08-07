@@ -1,0 +1,33 @@
+{
+    "id": "siu_tavg-u-hxy-si",
+    "validation-key": "siu_tavg-u-hxy-si",
+    "ui-label": "X-Component of Sea-Ice Velocity",
+    "description": "X-component of sea-ice velocity on native model grid.",
+    "variable-root": "siu",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_x_velocity",
+    "units": "m s-1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "siu",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siu",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

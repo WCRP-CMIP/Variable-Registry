@@ -1,0 +1,12 @@
+{
+    "id": "intpn2",
+    "validation-key": "intpn2",
+    "ui-label": "intpn2",
+    "data-type": "real",
+    "standard-name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

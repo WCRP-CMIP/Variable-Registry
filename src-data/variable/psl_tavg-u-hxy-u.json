@@ -1,0 +1,33 @@
+{
+    "id": "psl_tavg-u-hxy-u",
+    "validation-key": "psl_tavg-u-hxy-u",
+    "ui-label": "Sea Level Pressure",
+    "description": "Sea Level Pressure",
+    "variable-root": "psl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "air_pressure_at_mean_sea_level",
+    "units": "Pa",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "psl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "psl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

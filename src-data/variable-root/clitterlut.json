@@ -1,0 +1,12 @@
+{
+    "id": "clitterlut",
+    "validation-key": "clitterlut",
+    "ui-label": "cLitterLut",
+    "data-type": "real",
+    "standard-name": "litter_mass_content_of_carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

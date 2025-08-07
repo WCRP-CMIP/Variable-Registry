@@ -1,0 +1,33 @@
+{
+    "id": "rh_tavg-u-hxy-lnd",
+    "validation-key": "rh_tavg-u-hxy-lnd",
+    "ui-label": "Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers)",
+    "variable-root": "rh",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rh",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rh",
+    "model-realm": "land",
+    "@context": "_context_"
+}

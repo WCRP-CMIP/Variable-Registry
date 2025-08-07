@@ -1,0 +1,33 @@
+{
+    "id": "siage_tavg-u-hxy-si",
+    "validation-key": "siage_tavg-u-hxy-si",
+    "ui-label": "Age of Sea Ice",
+    "description": "Age of sea ice since its formation in open water.",
+    "variable-root": "siage",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "age_of_sea_ice",
+    "units": "s",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "siage",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siage",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

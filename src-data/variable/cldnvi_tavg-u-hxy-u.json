@@ -1,0 +1,33 @@
+{
+    "id": "cldnvi_tavg-u-hxy-u",
+    "validation-key": "cldnvi_tavg-u-hxy-u",
+    "ui-label": "Column Integrated Cloud Droplet Number",
+    "description": "Droplets are liquid only.  Values are weighted by liquid cloud fraction in each layer when vertically integrating, and for monthly means the samples are weighted by total liquid cloud fraction (as seen from TOA).",
+    "variable-root": "cldnvi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "atmosphere_number_content_of_cloud_droplets",
+    "units": "m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cldnvi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cldnvi",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

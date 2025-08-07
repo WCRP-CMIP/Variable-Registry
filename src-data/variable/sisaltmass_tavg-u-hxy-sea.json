@@ -1,0 +1,33 @@
+{
+    "id": "sisaltmass_tavg-u-hxy-sea",
+    "validation-key": "sisaltmass_tavg-u-hxy-sea",
+    "ui-label": "Mass of Salt in Sea Ice",
+    "description": "Total mass of all salt in sea ice divided by grid-cell area. Sometimes, models implicitly or explicitly assume a different salinity of the ice for thermodynamic considerations than they do for closing the salt budget with the ocean. In these cases, the total mass of all salt in sea ice should be calculated from the salinity value used in the calculation of the salt budget.",
+    "variable-root": "sisaltmass",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_mass_content_of_salt",
+    "units": "kg m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sisaltmass",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sisaltmass",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

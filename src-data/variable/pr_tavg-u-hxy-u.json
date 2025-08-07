@@ -1,0 +1,33 @@
+{
+    "id": "pr_tavg-u-hxy-u",
+    "validation-key": "pr_tavg-u-hxy-u",
+    "ui-label": "Precipitation",
+    "description": "Total precipitation flux",
+    "variable-root": "pr",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E1hr",
+    "frequency": "1hr",
+    "standard-name": "precipitation_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "pr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pr",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

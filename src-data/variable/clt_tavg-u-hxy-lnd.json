@@ -1,0 +1,33 @@
+{
+    "id": "clt_tavg-u-hxy-lnd",
+    "validation-key": "clt_tavg-u-hxy-lnd",
+    "ui-label": "Total Cloud Cover Percentage",
+    "description": "Total cloud fraction",
+    "variable-root": "clt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "cloud_area_fraction",
+    "units": "%",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "clt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "clt",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

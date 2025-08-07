@@ -1,0 +1,34 @@
+{
+    "id": "pfull_tavg-al-hxy-u",
+    "validation-key": "pfull_tavg-al-hxy-u",
+    "ui-label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
+    "variable-root": "pfull",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CFday",
+    "frequency": "day",
+    "standard-name": "air_pressure",
+    "units": "Pa",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "pfull",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "pfull",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

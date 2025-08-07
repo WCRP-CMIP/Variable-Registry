@@ -1,0 +1,33 @@
+{
+    "id": "mmraerh2o_tpt-h2m-hxys-u",
+    "validation-key": "mmraerh2o_tpt-h2m-hxys-u",
+    "ui-label": "Instantaneous surface aerosol water mass mixing ratio at CF sites",
+    "description": "This variable represents the instantaneous surface aerosol water Mass Mixing Ratio at CF sites, sampled every 3 hours",
+    "variable-root": "mmraerh2o",
+    "temporal-label": "tpt",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hrPt",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "site",
+        "time1",
+        "lowermodellayer"
+    ],
+    "out-name": "mmraerh2o",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "mmraerh2o",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

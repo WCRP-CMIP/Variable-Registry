@@ -1,0 +1,33 @@
+{
+    "id": "hcl_tavg-p39-hy-air",
+    "validation-key": "hcl_tavg-p39-hy-air",
+    "ui-label": "HCl Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hydrogen chloride is HCl.",
+    "variable-root": "hcl",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERmonZ",
+    "frequency": "mon",
+    "standard-name": "mole_fraction_of_hydrogen_chloride_in_air",
+    "units": "mol mol-1",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "hcl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hcl",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

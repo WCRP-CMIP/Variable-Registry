@@ -1,0 +1,12 @@
+{
+    "id": "strbasemag",
+    "validation-key": "strbasemag",
+    "ui-label": "strbasemag",
+    "data-type": "real",
+    "standard-name": "land_ice_basal_drag",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

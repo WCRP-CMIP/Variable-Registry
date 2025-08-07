@@ -1,0 +1,34 @@
+{
+    "id": "sob_tavg-u-hxy-sea",
+    "validation-key": "sob_tavg-u-hxy-sea",
+    "ui-label": "Sea Water Salinity at Sea Floor",
+    "description": "Model prognostic salinity at bottom-most model grid cell",
+    "variable-root": "sob",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_water_salinity_at_sea_floor",
+    "units": "1E-03",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "seafloor"
+    ],
+    "out-name": "sob",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sob",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

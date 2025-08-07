@@ -1,0 +1,33 @@
+{
+    "id": "h2o_tavg-p39-hy-air",
+    "validation-key": "h2o_tavg-p39-hy-air",
+    "ui-label": "Mass Fraction of Water",
+    "description": "includes all phases of water",
+    "variable-root": "h2o",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERmonZ",
+    "frequency": "mon",
+    "standard-name": "mass_fraction_of_water_in_air",
+    "units": "1",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "h2o",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "h2o",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "hfrunoffds_tavg-u-hxy-sea",
+    "validation-key": "hfrunoffds_tavg-u-hxy-sea",
+    "ui-label": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "description": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius.",
+    "variable-root": "hfrunoffds",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "hfrunoffds",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "hfrunoffds",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

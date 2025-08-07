@@ -1,0 +1,12 @@
+{
+    "id": "rsdt",
+    "validation-key": "rsdt",
+    "ui-label": "rsdt",
+    "data-type": "real",
+    "standard-name": "toa_incoming_shortwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

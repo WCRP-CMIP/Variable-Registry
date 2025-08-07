@@ -1,0 +1,33 @@
+{
+    "id": "fLitterSoil_tavg-u-hxy-lnd",
+    "validation-key": "fLitterSoil_tavg-u-hxy-lnd",
+    "ui-label": "Total Carbon Mass Flux from Litter to Soil",
+    "description": "Carbon mass flux per unit area into soil from litter (dead plant material in or above the soil).",
+    "variable-root": "fLitterSoil",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "carbon_mass_flux_into_soil_from_litter",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fLitterSoil",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fLitterSoil",
+    "model-realm": "land",
+    "@context": "_context_"
+}

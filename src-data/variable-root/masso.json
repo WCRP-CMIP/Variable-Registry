@@ -1,0 +1,12 @@
+{
+    "id": "masso",
+    "validation-key": "masso",
+    "ui-label": "masso",
+    "data-type": "real",
+    "standard-name": "sea_water_mass",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

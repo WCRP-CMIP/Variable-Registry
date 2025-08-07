@@ -1,0 +1,33 @@
+{
+    "id": "sftgif_tavg-u-hxy-u",
+    "validation-key": "sftgif_tavg-u-hxy-u",
+    "ui-label": "Land Ice Area Percentage",
+    "description": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
+    "variable-root": "sftgif",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "land_ice_area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sftgif",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sftgif",
+    "model-realm": "land",
+    "@context": "_context_"
+}

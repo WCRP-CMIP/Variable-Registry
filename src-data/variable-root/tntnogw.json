@@ -1,0 +1,12 @@
+{
+    "id": "tntnogw",
+    "validation-key": "tntnogw",
+    "ui-label": "tntnogw",
+    "data-type": "real",
+    "standard-name": "tendency_of_air_temperature_due_to_dissipation_of_nonorographic_gravity_waves",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

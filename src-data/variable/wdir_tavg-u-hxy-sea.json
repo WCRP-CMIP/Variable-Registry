@@ -1,0 +1,33 @@
+{
+    "id": "wdir_tavg-u-hxy-sea",
+    "validation-key": "wdir_tavg-u-hxy-sea",
+    "ui-label": "Total Wave Direction",
+    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the total wave energy spectrum, incorporating both wind-sea and swell waves. This variable is usually expressed in degrees relative to true north.",
+    "variable-root": "wdir",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_wave_from_direction",
+    "units": "degree",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wdir",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wdir",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "landcoverfrac",
+    "validation-key": "landcoverfrac",
+    "ui-label": "landCoverFrac",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

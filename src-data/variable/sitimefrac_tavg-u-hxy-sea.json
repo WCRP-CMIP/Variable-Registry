@@ -1,0 +1,33 @@
+{
+    "id": "sitimefrac_tavg-u-hxy-sea",
+    "validation-key": "sitimefrac_tavg-u-hxy-sea",
+    "ui-label": "Fraction of Time Steps with Sea Ice",
+    "description": "Fraction of time steps of the averaging period during which sea ice is present (siconc > 0) in a grid cell.",
+    "variable-root": "sitimefrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
+    "units": "1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sitimefrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sitimefrac",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

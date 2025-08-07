@@ -1,0 +1,33 @@
+{
+    "id": "rsus_tavg-u-hxy-is",
+    "validation-key": "rsus_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Surface Upwelling Shortwave Radiation",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "rsus",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "surface_upwelling_shortwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsusIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsusIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

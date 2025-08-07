@@ -1,0 +1,32 @@
+{
+    "id": "dxto_ti-u-hxy-u",
+    "validation-key": "dxto_ti-u-hxy-u",
+    "ui-label": "Cell Length in the X Direction at t-points",
+    "description": "The linear extent of the cell in the x direction of the horizontal grid centered at t-points (points for tracers such as temperature, salinity, etc.). Not applicable to unstructured grids.",
+    "variable-root": "dxto",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "cell_x_length",
+    "units": "m",
+    "cell-methods": "apt-fx",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "dxto",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "dxto",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

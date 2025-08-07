@@ -1,0 +1,33 @@
+{
+    "id": "fgdms_tavg-u-hxy-sea",
+    "validation-key": "fgdms_tavg-u-hxy-sea",
+    "ui-label": "Surface Upward Flux of DMS",
+    "description": "Gas exchange flux of DMS (positive into atmosphere)",
+    "variable-root": "fgdms",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_mole_flux_of_dimethyl_sulfide",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fgdms",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fgdms",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

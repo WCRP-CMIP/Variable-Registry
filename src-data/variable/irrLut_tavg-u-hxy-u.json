@@ -1,0 +1,33 @@
+{
+    "id": "irrLut_tavg-u-hxy-u",
+    "validation-key": "irrLut_tavg-u-hxy-u",
+    "ui-label": "irrigation water withdrawal",
+    "description": "the total amount of water withdrawal from multiple sources",
+    "variable-root": "irrLut",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "day",
+    "frequency": "day",
+    "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "irrLut",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "irrLut",
+    "model-realm": "land",
+    "@context": "_context_"
+}

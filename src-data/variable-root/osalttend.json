@@ -1,0 +1,12 @@
+{
+    "id": "osalttend",
+    "validation-key": "osalttend",
+    "ui-label": "osalttend",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

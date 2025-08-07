@@ -1,0 +1,12 @@
+{
+    "id": "simpeffconc",
+    "validation-key": "simpeffconc",
+    "ui-label": "simpeffconc",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

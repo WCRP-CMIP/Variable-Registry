@@ -1,0 +1,12 @@
+{
+    "id": "emiso2",
+    "validation-key": "emiso2",
+    "ui-label": "emiso2",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

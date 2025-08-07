@@ -1,0 +1,12 @@
+{
+    "id": "siareaacrossline",
+    "validation-key": "siareaacrossline",
+    "ui-label": "siareaacrossline",
+    "data-type": "real",
+    "standard-name": "sea_ice_area_transport_across_line",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

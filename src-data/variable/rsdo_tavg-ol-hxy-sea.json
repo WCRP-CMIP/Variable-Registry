@@ -1,0 +1,34 @@
+{
+    "id": "rsdo_tavg-ol-hxy-sea",
+    "validation-key": "rsdo_tavg-ol-hxy-sea",
+    "ui-label": "Downwelling Shortwave Radiation in Sea Water",
+    "description": "Downwelling Shortwave Radiation in Sea Water",
+    "variable-root": "rsdo",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oday",
+    "frequency": "day",
+    "standard-name": "downwelling_shortwave_flux_in_sea_water",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "out-name": "rsdo",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsdo",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

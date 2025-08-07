@@ -1,0 +1,33 @@
+{
+    "id": "prsnc_tavg-u-hxy-lnd",
+    "validation-key": "prsnc_tavg-u-hxy-lnd",
+    "ui-label": "Convective Snowfall Flux",
+    "description": "convective_snowfall_flux",
+    "variable-root": "prsnc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "convective_snowfall_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prsnc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prsnc",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

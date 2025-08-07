@@ -1,0 +1,12 @@
+{
+    "id": "epfz",
+    "validation-key": "epfz",
+    "ui-label": "epfz",
+    "data-type": "real",
+    "standard-name": "upward_eliassen_palm_flux_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

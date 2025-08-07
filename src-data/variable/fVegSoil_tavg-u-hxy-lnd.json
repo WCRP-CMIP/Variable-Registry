@@ -1,0 +1,33 @@
+{
+    "id": "fVegSoil_tavg-u-hxy-lnd",
+    "validation-key": "fVegSoil_tavg-u-hxy-lnd",
+    "ui-label": "Total Carbon Mass Flux from Vegetation Directly to Soil",
+    "description": "In some models part of carbon (e.g., root exudate) can go directly into the soil pool without entering litter.",
+    "variable-root": "fVegSoil",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "carbon_mass_flux_into_soil_from_vegetation_excluding_litter",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fVegSoil",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fVegSoil",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "landCoverFrac_tavg-u-hxy-u",
+    "validation-key": "landCoverFrac_tavg-u-hxy-u",
+    "ui-label": "Percentage of Area by Vegetation or Land-Cover Category",
+    "description": "The categories may differ from model to model, depending on their  PFT definitions.   This may include natural PFTs, anthropogenic PFTs, bare soil, lakes, urban areas, etc.   Sum of all should equal the fraction of the grid-cell that is land.",
+    "variable-root": "landCoverFrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "vegtype",
+        "time"
+    ],
+    "out-name": "landCoverFrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "landCoverFrac",
+    "model-realm": "land",
+    "@context": "_context_"
+}

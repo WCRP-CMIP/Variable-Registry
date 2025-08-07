@@ -1,0 +1,33 @@
+{
+    "id": "rsds_tpt-u-hxy-u",
+    "validation-key": "rsds_tpt-u-hxy-u",
+    "ui-label": "Surface Downwelling Shortwave Radiation",
+    "description": "Surface solar irradiance for UV calculations.",
+    "variable-root": "rsds",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "surface_downwelling_shortwave_flux_in_air",
+    "units": "W m-2",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "out-name": "rsds",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "rsds",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

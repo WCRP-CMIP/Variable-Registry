@@ -1,0 +1,12 @@
+{
+    "id": "rss",
+    "validation-key": "rss",
+    "ui-label": "rss",
+    "data-type": "real",
+    "standard-name": "surface_net_downward_shortwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

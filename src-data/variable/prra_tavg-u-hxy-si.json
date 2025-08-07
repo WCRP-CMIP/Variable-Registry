@@ -1,0 +1,33 @@
+{
+    "id": "prra_tavg-u-hxy-si",
+    "validation-key": "prra_tavg-u-hxy-si",
+    "ui-label": "Rainfall Rate over Sea Ice",
+    "description": "Mass of liquid precipitation falling onto sea ice divided by grid-cell area. If the rain is directly put into the ocean, it should not be counted towards sipr. Always positive or zero.",
+    "variable-root": "prra",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "rainfall_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "sipr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "sipr",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "wdirswell_tavg-u-hxy-sea",
+    "validation-key": "wdirswell_tavg-u-hxy-sea",
+    "ui-label": "Swell Wave Direction",
+    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area). This variable is usually expressed in degrees relative to true north.",
+    "variable-root": "wdirswell",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_swell_wave_from_direction",
+    "units": "degree",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "wdirswell",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "wdirswell",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

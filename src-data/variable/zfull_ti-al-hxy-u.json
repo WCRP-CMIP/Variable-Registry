@@ -1,0 +1,33 @@
+{
+    "id": "zfull_ti-al-hxy-u",
+    "validation-key": "zfull_ti-al-hxy-u",
+    "ui-label": "Altitude of Model Full-Levels",
+    "description": "Provide only if altitude of full model levels is fixed",
+    "variable-root": "zfull",
+    "temporal-label": "ti",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "fx",
+    "frequency": "fx",
+    "standard-name": "height_above_reference_ellipsoid",
+    "units": "m",
+    "cell-methods": "amn-fx",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel"
+    ],
+    "out-name": "zfull",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "None",
+    "physical-parameter-name": "zfull",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

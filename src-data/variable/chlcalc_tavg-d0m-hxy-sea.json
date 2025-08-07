@@ -1,0 +1,33 @@
+{
+    "id": "chlcalc_tavg-d0m-hxy-sea",
+    "validation-key": "chlcalc_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "chlorophyll concentration from the calcite-producing phytoplankton component alone",
+    "variable-root": "chlcalc",
+    "temporal-label": "tavg",
+    "vertical-label": "d0m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mass_concentration_of_calcareous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "units": "kg m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "chlcalcos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "chlcalcos",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "clivi",
+    "validation-key": "clivi",
+    "ui-label": "clivi",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_cloud_ice",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

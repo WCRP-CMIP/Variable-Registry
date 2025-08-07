@@ -1,0 +1,33 @@
+{
+    "id": "fNLitterSoil_tavg-u-hxy-lnd",
+    "validation-key": "fNLitterSoil_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Mass Flux from Litter to Soil",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Litter\" is dead plant material in or above the soil.",
+    "variable-root": "fNLitterSoil",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "nitrogen_mass_flux_into_soil_from_litter",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fNLitterSoil",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fNLitterSoil",
+    "model-realm": "land",
+    "@context": "_context_"
+}

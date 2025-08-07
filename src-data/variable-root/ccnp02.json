@@ -1,0 +1,12 @@
+{
+    "id": "ccnp02",
+    "validation-key": "ccnp02",
+    "ui-label": "ccnp02",
+    "data-type": "real",
+    "standard-name": "number_concentration_of_cloud_condensation_nuclei_assuming_reference_relative_humidity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "baresoilFrac_tavg-u-hxy-u",
+    "validation-key": "baresoilFrac_tavg-u-hxy-u",
+    "ui-label": "Bare Soil Percentage Area Coverage",
+    "description": "Percentage of entire grid cell  that is covered by bare soil.",
+    "variable-root": "baresoilFrac",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typebare"
+    ],
+    "out-name": "baresoilFrac",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "baresoilFrac",
+    "model-realm": "land",
+    "@context": "_context_"
+}

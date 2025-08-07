@@ -1,0 +1,32 @@
+{
+    "id": "rlutcs_tpt-u-hxys-u",
+    "validation-key": "rlutcs_tpt-u-hxys-u",
+    "ui-label": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "description": "Upwelling clear-sky longwave radiation at top of atmosphere",
+    "variable-root": "rlutcs",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+    "units": "W m-2",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "rlutcs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "up",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "rlutcs",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

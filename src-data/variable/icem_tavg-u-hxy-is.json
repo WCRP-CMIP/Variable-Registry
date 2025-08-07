@@ -1,0 +1,33 @@
+{
+    "id": "icem_tavg-u-hxy-is",
+    "validation-key": "icem_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Surface Ice Melt Flux",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "variable-root": "icem",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "land_ice_surface_melt_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "icemIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "icemIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

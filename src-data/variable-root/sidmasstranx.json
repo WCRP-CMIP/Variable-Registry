@@ -1,0 +1,12 @@
+{
+    "id": "sidmasstranx",
+    "validation-key": "sidmasstranx",
+    "ui-label": "sidmasstranx",
+    "data-type": "real",
+    "standard-name": "sea_ice_x_transport",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

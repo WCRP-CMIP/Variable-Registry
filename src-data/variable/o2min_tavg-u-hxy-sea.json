@@ -1,0 +1,33 @@
+{
+    "id": "o2min_tavg-u-hxy-sea",
+    "validation-key": "o2min_tavg-u-hxy-sea",
+    "ui-label": "Oxygen Minimum Concentration",
+    "description": "mole concentration of oxygen at the local minimum in the concentration profile that occurs closest to the sea surface.",
+    "variable-root": "o2min",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oday",
+    "frequency": "day",
+    "standard-name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile",
+    "units": "mol m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "o2min",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "o2min",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

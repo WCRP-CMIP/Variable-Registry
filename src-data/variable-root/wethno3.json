@@ -1,0 +1,12 @@
+{
+    "id": "wethno3",
+    "validation-key": "wethno3",
+    "ui-label": "wethno3",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nitric_acid_due_to_wet_deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

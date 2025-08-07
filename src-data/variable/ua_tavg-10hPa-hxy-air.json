@@ -1,0 +1,34 @@
+{
+    "id": "ua_tavg-10hPa-hxy-air",
+    "validation-key": "ua_tavg-10hPa-hxy-air",
+    "ui-label": "Eastward Wind at 10hPa",
+    "description": "Zonal wind on the 10 hPa surface",
+    "variable-root": "ua",
+    "temporal-label": "tavg",
+    "vertical-label": "10hPa",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "eastward_wind",
+    "units": "m s-1",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+    ],
+    "out-name": "ua10",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ua10",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

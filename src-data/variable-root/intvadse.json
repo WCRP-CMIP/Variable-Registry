@@ -1,0 +1,12 @@
+{
+    "id": "intvadse",
+    "validation-key": "intvadse",
+    "ui-label": "intvadse",
+    "data-type": "real",
+    "standard-name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

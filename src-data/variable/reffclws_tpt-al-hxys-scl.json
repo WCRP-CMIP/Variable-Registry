@@ -1,0 +1,33 @@
+{
+    "id": "reffclws_tpt-al-hxys-scl",
+    "validation-key": "reffclws_tpt-al-hxys-scl",
+    "ui-label": "Stratiform Cloud Liquid Droplet Effective Radius",
+    "description": "alevel site time1",
+    "variable-root": "reffclws",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "scl",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
+    "units": "m",
+    "cell-methods": "amnsc-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "reffclws",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "reffclws",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

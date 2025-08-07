@@ -1,0 +1,12 @@
+{
+    "id": "difvso",
+    "validation-key": "difvso",
+    "ui-label": "difvso",
+    "data-type": "real",
+    "standard-name": "ocean_vertical_salt_diffusivity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

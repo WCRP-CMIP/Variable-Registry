@@ -1,0 +1,12 @@
+{
+    "id": "clivic",
+    "validation-key": "clivic",
+    "ui-label": "clivic",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_content_of_convective_cloud_ice",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

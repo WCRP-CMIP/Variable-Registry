@@ -1,0 +1,12 @@
+{
+    "id": "sisi",
+    "validation-key": "sisi",
+    "ui-label": "sisi",
+    "data-type": "real",
+    "standard-name": "sea_ice_mole_content_of_silicon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

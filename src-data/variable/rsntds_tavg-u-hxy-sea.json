@@ -1,0 +1,33 @@
+{
+    "id": "rsntds_tavg-u-hxy-sea",
+    "validation-key": "rsntds_tavg-u-hxy-sea",
+    "ui-label": "Net Downward Shortwave Radiation at Sea Water Surface",
+    "description": "The radiative flux into the surface of liquid sea water only. This excludes shortwave flux absorbed by sea ice, but includes any light that passes through the ice and is absorbed by the ocean.",
+    "variable-root": "rsntds",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "3hr",
+    "frequency": "3hr",
+    "standard-name": "net_downward_shortwave_flux_at_sea_water_surface",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rsntds",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rsntds",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

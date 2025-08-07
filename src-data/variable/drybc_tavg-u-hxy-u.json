@@ -1,0 +1,33 @@
+{
+    "id": "drybc_tavg-u-hxy-u",
+    "validation-key": "drybc_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of Black Carbon Aerosol Mass",
+    "description": "Dry Deposition Rate of Black Carbon Aerosol Mass",
+    "variable-root": "drybc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_dry_deposition",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "drybc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "drybc",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

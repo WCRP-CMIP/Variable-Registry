@@ -1,0 +1,33 @@
+{
+    "id": "scldncl_tavg-u-hxy-scl",
+    "validation-key": "scldncl_tavg-u-hxy-scl",
+    "ui-label": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
+    "description": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
+    "variable-root": "scldncl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "scl",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "number_concentration_of_stratiform_cloud_liquid_water_particles_at_stratiform_liquid_water_cloud_top",
+    "units": "m-3",
+    "cell-methods": "Error: area: time: mean where stratiform_cloud not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "scldncl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "scldncl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "mrrob",
+    "validation-key": "mrrob",
+    "ui-label": "mrrob",
+    "data-type": "real",
+    "standard-name": "subsurface_runoff_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "sidivvel",
+    "validation-key": "sidivvel",
+    "ui-label": "sidivvel",
+    "data-type": "real",
+    "standard-name": "divergence_of_sea_ice_velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

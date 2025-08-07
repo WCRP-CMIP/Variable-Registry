@@ -1,0 +1,32 @@
+{
+    "id": "dxuo_ti-u-hxy-u",
+    "validation-key": "dxuo_ti-u-hxy-u",
+    "ui-label": "Cell Length in the X Direction at u-points",
+    "description": "The linear extent of the cell in the x direction of the horizontal grid centered at u-points (points for velocity in the x-direction). Not applicable to unstructured grids.",
+    "variable-root": "dxuo",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "cell_x_length",
+    "units": "m",
+    "cell-methods": "apt-fx",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "dxuo",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "dxuo",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

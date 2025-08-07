@@ -1,0 +1,33 @@
+{
+    "id": "clivi_tavg-u-hxy-u",
+    "validation-key": "clivi_tavg-u-hxy-u",
+    "ui-label": "Ice Water Path",
+    "description": "Ice water path",
+    "variable-root": "clivi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "E3hr",
+    "frequency": "3hr",
+    "standard-name": "atmosphere_mass_content_of_cloud_ice",
+    "units": "kg m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "clivi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "clivi",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

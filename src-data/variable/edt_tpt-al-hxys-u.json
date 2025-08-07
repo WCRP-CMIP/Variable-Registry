@@ -1,0 +1,33 @@
+{
+    "id": "edt_tpt-al-hxys-u",
+    "validation-key": "edt_tpt-al-hxys-u",
+    "ui-label": "Eddy Diffusivity Coefficient for Temperature",
+    "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
+    "variable-root": "edt",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "atmosphere_heat_diffusivity",
+    "units": "m2 s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "edt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "edt",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

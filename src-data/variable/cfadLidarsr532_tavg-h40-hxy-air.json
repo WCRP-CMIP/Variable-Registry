@@ -1,0 +1,35 @@
+{
+    "id": "cfadLidarsr532_tavg-h40-hxy-air",
+    "validation-key": "cfadLidarsr532_tavg-h40-hxy-air",
+    "ui-label": "CALIPSO Scattering Ratio CFAD",
+    "description": "CALIPSO Scattering Ratio",
+    "variable-root": "cfadLidarsr532",
+    "temporal-label": "tavg",
+    "vertical-label": "h40",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+    "units": "1",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "scatratio",
+        "time"
+    ],
+    "out-name": "cfadLidarsr532",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-H40",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cfadLidarsr532",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

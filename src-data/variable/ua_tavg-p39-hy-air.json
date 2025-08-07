@@ -1,0 +1,33 @@
+{
+    "id": "ua_tavg-p39-hy-air",
+    "validation-key": "ua_tavg-p39-hy-air",
+    "ui-label": "Eastward Wind",
+    "description": "zonal mean; hence YZT",
+    "variable-root": "ua",
+    "temporal-label": "tavg",
+    "vertical-label": "p39",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "EdayZ",
+    "frequency": "day",
+    "standard-name": "eastward_wind",
+    "units": "m s-1",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "out-name": "ua",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-P39",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "ua",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

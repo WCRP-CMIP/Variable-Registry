@@ -1,0 +1,33 @@
+{
+    "id": "emiso2_tavg-u-hxy-u",
+    "validation-key": "emiso2_tavg-u-hxy-u",
+    "ui-label": "Total Emission Rate of SO2",
+    "description": "Integrate 3D emission field vertically to 2d field.",
+    "variable-root": "emiso2",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_emission",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emiso2",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emiso2",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

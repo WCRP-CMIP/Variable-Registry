@@ -1,0 +1,32 @@
+{
+    "id": "clivi_tpt-u-hxys-u",
+    "validation-key": "clivi_tpt-u-hxys-u",
+    "ui-label": "Ice Water Path",
+    "description": "mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
+    "variable-root": "clivi",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "atmosphere_mass_content_of_cloud_ice",
+    "units": "kg m-2",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "clivi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "clivi",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "prsn2h_tavg-u-hxy-u",
+    "validation-key": "prsn2h_tavg-u-hxy-u",
+    "ui-label": "Precipitation Flux of Snow and Ice Containing Deuterium (1H 2H O)",
+    "description": "Precipitation mass flux of water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O), including solid phase only.",
+    "variable-root": "prsn2h",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "solid_precipitation_flux_containing_single_2H",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "prsn2h",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "prsn2h",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "sfdsi_tavg-u-hxy-si",
+    "validation-key": "sfdsi_tavg-u-hxy-si",
+    "ui-label": "Salt Flux from Sea Ice",
+    "description": "Total flux of salt from water into sea ice divided by grid-cell area. This flux is upward (negative) during ice growth when salt is embedded into the ice and downward (positive) during melt when salt from sea ice is again released to the ocean.",
+    "variable-root": "sfdsi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "downward_sea_ice_basal_salt_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "siflsaltbot",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "down",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siflsaltbot",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

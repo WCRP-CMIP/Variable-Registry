@@ -1,0 +1,33 @@
+{
+    "id": "dsw_tavg-u-hxy-lnd",
+    "validation-key": "dsw_tavg-u-hxy-lnd",
+    "ui-label": "Change in Surface Water Storage",
+    "description": "Change in Surface Water Storage",
+    "variable-root": "dsw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "change_over_time_in_land_water_amount",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dsw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dsw",
+    "model-realm": "land",
+    "@context": "_context_"
+}

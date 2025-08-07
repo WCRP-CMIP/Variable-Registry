@@ -1,0 +1,11 @@
+{
+    "id": "veg",
+    "validation-key": "veg",
+    "ui-label": "Vegetation",
+    "description": "vegetation",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cVeg_tavg-u-hxy-shb",
+    "validation-key": "cVeg_tavg-u-hxy-shb",
+    "ui-label": "Carbon Mass in Vegetation on Shrub Tiles",
+    "description": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide.",
+    "variable-root": "cVeg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "shb",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "vegetation_carbon_content",
+    "units": "kg m-2",
+    "cell-methods": "Error: area: time: mean where shrubs (mask=shrubFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cVegShrub",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cVegShrub",
+    "model-realm": "land",
+    "@context": "_context_"
+}

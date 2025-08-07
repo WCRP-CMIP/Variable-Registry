@@ -1,0 +1,33 @@
+{
+    "id": "cRoot_tavg-u-hxy-lnd",
+    "validation-key": "cRoot_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Roots",
+    "description": "including fine and coarse roots.",
+    "variable-root": "cRoot",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Lmon",
+    "frequency": "mon",
+    "standard-name": "root_mass_content_of_carbon",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cRoot",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cRoot",
+    "model-realm": "land",
+    "@context": "_context_"
+}

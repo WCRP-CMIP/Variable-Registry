@@ -1,0 +1,12 @@
+{
+    "id": "sltovovrt",
+    "validation-key": "sltovovrt",
+    "ui-label": "sltovovrt",
+    "data-type": "real",
+    "standard-name": "northward_ocean_salt_transport_due_to_overturning",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "clmodisice",
+    "validation-key": "clmodisice",
+    "ui-label": "clmodisice",
+    "data-type": "real",
+    "standard-name": "modis_ice_topped_cloud_area_fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

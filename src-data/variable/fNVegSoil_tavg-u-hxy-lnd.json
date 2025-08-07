@@ -1,0 +1,33 @@
+{
+    "id": "fNVegSoil_tavg-u-hxy-lnd",
+    "validation-key": "fNVegSoil_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
+    "description": "In some models part of nitrogen (e.g., root exudate) can go directly into the soil pool without entering litter.",
+    "variable-root": "fNVegSoil",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "nitrogen_mass_flux_into_soil_from_vegetation_excluding_litter",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fNVegSoil",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fNVegSoil",
+    "model-realm": "land",
+    "@context": "_context_"
+}

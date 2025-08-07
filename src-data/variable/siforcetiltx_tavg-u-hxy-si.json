@@ -1,0 +1,33 @@
+{
+    "id": "siforcetiltx_tavg-u-hxy-si",
+    "validation-key": "siforcetiltx_tavg-u-hxy-si",
+    "ui-label": "Sea-Surface Tilt Term in Force Balance (X-Component)",
+    "description": "X-component of the force on sea ice caused by sea-surface tilt divided by grid-cell area.",
+    "variable-root": "siforcetiltx",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "si",
+    "remove-cmip6-table": "SImon",
+    "frequency": "mon",
+    "standard-name": "sea_ice_x_force_per_unit_area_due_to_sea_surface_tilt",
+    "units": "N m-2",
+    "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "cell-measures": "::MODEL",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "siforcetiltx",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "siforcetiltx",
+    "model-realm": "seaice",
+    "@context": "_context_"
+}

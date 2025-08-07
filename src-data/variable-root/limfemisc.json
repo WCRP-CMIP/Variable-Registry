@@ -1,0 +1,12 @@
+{
+    "id": "limfemisc",
+    "validation-key": "limfemisc",
+    "ui-label": "limfemisc",
+    "data-type": "real",
+    "standard-name": "iron_growth_limitation_of_miscellaneous_phytoplankton",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

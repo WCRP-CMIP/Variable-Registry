@@ -1,0 +1,33 @@
+{
+    "id": "zos_tavg-u-hxy-sea",
+    "validation-key": "zos_tavg-u-hxy-sea",
+    "ui-label": "Sea Surface Height Above Geoid",
+    "description": "This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.",
+    "variable-root": "zos",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sea_surface_height_above_geoid",
+    "units": "m",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "zos",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zos",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

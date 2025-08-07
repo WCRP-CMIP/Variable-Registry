@@ -1,0 +1,33 @@
+{
+    "id": "fHarvestToProduct_tavg-u-hxy-lnd",
+    "validation-key": "fHarvestToProduct_tavg-u-hxy-lnd",
+    "ui-label": "Harvested Biomass That Goes into Product Pool",
+    "description": "be it food or wood harvest, any carbon that is subsequently stored is reported here",
+    "variable-root": "fHarvestToProduct",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "mass_flux_of_carbon_into_forestry_and_agricultural_products_due_to_crop_harvesting",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fHarvestToProduct",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fHarvestToProduct",
+    "model-realm": "land",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "cStem_tavg-u-hxy-lnd",
+    "validation-key": "cStem_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Stem",
+    "description": "including sapwood and hardwood.",
+    "variable-root": "cStem",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "stem_mass_content_of_carbon",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cStem",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cStem",
+    "model-realm": "land",
+    "@context": "_context_"
+}

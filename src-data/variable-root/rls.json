@@ -1,0 +1,12 @@
+{
+    "id": "rls",
+    "validation-key": "rls",
+    "ui-label": "rls",
+    "data-type": "real",
+    "standard-name": "surface_net_downward_longwave_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "emilkch4_tavg-u-hxy-u",
+    "validation-key": "emilkch4_tavg-u-hxy-u",
+    "ui-label": "lake emission rate of CH4",
+    "description": "This is the emission rate of methane (CH4) into the atmosphere from freshwater lakes",
+    "variable-root": "emilkch4",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "surface_net_upward_mass_flux_of_methane_due_to_emission_from_freshwater_lakes",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emilkch4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emilkch4",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

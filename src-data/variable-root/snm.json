@@ -1,0 +1,12 @@
+{
+    "id": "snm",
+    "validation-key": "snm",
+    "ui-label": "snm",
+    "data-type": "real",
+    "standard-name": "surface_snow_melt_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

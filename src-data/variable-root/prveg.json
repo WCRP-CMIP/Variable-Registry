@@ -1,0 +1,12 @@
+{
+    "id": "prveg",
+    "validation-key": "prveg",
+    "ui-label": "prveg",
+    "data-type": "real",
+    "standard-name": "precipitation_flux_onto_canopy",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

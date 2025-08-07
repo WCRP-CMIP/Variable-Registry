@@ -1,0 +1,33 @@
+{
+    "id": "rlutcso3ref_tavg-u-hxy-u",
+    "validation-key": "rlutcso3ref_tavg-u-hxy-u",
+    "ui-label": "TOA outgoing longwave flux assuming clear sky and reference ozone field",
+    "description": "This is the outgoing longwave flux at the top-of-atmosphere for clear-sky conditions from a diagnostic call to the radiation scheme using a reference ozone field",
+    "variable-root": "rlutcso3ref",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky_and_reference_mole_fraction_of_ozone_in_air",
+    "units": "W m-2",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rlutcso3ref",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rlutcso3ref",
+    "model-realm": "atmoschem",
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "vt100_tavg-100hPa-hy-air",
+    "validation-key": "vt100_tavg-100hPa-hy-air",
+    "ui-label": "Northward Eddy Temperature Flux",
+    "description": "Zonally averaged eddy temperature flux at 100hPa as monthly means derived from daily (or higher frequency) fields.",
+    "variable-root": "vt100",
+    "temporal-label": "tavg",
+    "vertical-label": "100hPa",
+    "horizontal-label": "hy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERmonZ",
+    "frequency": "mon",
+    "standard-name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
+    "units": "K m s-1",
+    "cell-methods": "zmeana-twm",
+    "cell-measures": "",
+    "dimensions": [
+        "latitude",
+        "time",
+        "p100"
+    ],
+    "out-name": "vt100",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "Y-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vt100",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

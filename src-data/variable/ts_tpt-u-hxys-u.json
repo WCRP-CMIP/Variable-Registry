@@ -1,0 +1,32 @@
+{
+    "id": "ts_tpt-u-hxys-u",
+    "validation-key": "ts_tpt-u-hxys-u",
+    "ui-label": "Surface Temperature",
+    "description": "Surface temperature (skin for open ocean)",
+    "variable-root": "ts",
+    "temporal-label": "tpt",
+    "vertical-label": "u",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "CFsubhr",
+    "frequency": "subhr",
+    "standard-name": "surface_temperature",
+    "units": "K",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "out-name": "ts",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-na",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "ts",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

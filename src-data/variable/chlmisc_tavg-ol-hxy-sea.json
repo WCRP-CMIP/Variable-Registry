@@ -1,0 +1,34 @@
+{
+    "id": "chlmisc_tavg-ol-hxy-sea",
+    "validation-key": "chlmisc_tavg-ol-hxy-sea",
+    "ui-label": "Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "chlorophyll from additional phytoplankton component concentrations alone",
+    "variable-root": "chlmisc",
+    "temporal-label": "tavg",
+    "vertical-label": "ol",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "mass_concentration_of_miscellaneous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "units": "kg m-3",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello volume: volcello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "out-name": "chlmisc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-O",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "chlmisc",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

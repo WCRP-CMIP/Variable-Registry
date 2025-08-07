@@ -1,0 +1,34 @@
+{
+    "id": "scint_tavg-op4-hxy-sea",
+    "validation-key": "scint_tavg-op4-hxy-sea",
+    "ui-label": "Integral wrt depth of seawater practical salinity expressed as salt mass content",
+    "description": "This is a fundamental aspect of the changes in the hydrological cycle and their impact on the oceans, and due to new numerical schemes and vertical discretizations, it is important to calculate it consistently with the model formulation.",
+    "variable-root": "scint",
+    "temporal-label": "tavg",
+    "vertical-label": "op4",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "integral_wrt_depth_of_sea_water_practical_salinity_expressed_as_salt_mass_content",
+    "units": "kg m-2",
+    "cell-methods": "Error: area: time: mean where sea not found in cell methods, please register",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "oplayer4",
+        "time"
+    ],
+    "out-name": "scint",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-B",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "scint",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

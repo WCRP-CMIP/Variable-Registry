@@ -1,0 +1,11 @@
+{
+    "id": "olh",
+    "validation-key": "olh",
+    "ui-label": "Ocean Model Half-Levels",
+    "description": "ocean model half-levels",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

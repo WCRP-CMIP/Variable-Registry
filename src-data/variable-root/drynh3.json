@@ -1,0 +1,12 @@
+{
+    "id": "drynh3",
+    "validation-key": "drynh3",
+    "ui-label": "drynh3",
+    "data-type": "real",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_dry_deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "dcw_tavg-u-hxy-lnd",
+    "validation-key": "dcw_tavg-u-hxy-lnd",
+    "ui-label": "Change in Interception Storage",
+    "description": "change_over_time_in_canopy_water_amount",
+    "variable-root": "dcw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "change_over_time_in_canopy_water_amount",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "dcw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "dcw",
+    "model-realm": "land",
+    "@context": "_context_"
+}

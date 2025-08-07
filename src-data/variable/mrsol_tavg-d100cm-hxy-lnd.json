@@ -1,0 +1,34 @@
+{
+    "id": "mrsol_tavg-d100cm-hxy-lnd",
+    "validation-key": "mrsol_tavg-d100cm-hxy-lnd",
+    "ui-label": "Soil moisture in the top 1 m of the soil column",
+    "description": "Soil moisture at 3hr but for 0-1m",
+    "variable-root": "mrsol",
+    "temporal-label": "tavg",
+    "vertical-label": "d100cm",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "3hr",
+    "frequency": "3hr",
+    "standard-name": "mass_content_of_water_in_soil_layer",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "sdepth100cm"
+    ],
+    "out-name": "mrso100",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mrso100",
+    "model-realm": "land",
+    "@context": "_context_"
+}

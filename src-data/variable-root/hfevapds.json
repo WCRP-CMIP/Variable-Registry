@@ -1,0 +1,12 @@
+{
+    "id": "hfevapds",
+    "validation-key": "hfevapds",
+    "ui-label": "hfevapds",
+    "data-type": "real",
+    "standard-name": "temperature_flux_due_to_evaporation_expressed_as_heat_flux_out_of_sea_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

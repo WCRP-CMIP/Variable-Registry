@@ -1,0 +1,34 @@
+{
+    "id": "treeFracNdlEvg_tavg-u-hxy-u",
+    "validation-key": "treeFracNdlEvg_tavg-u-hxy-u",
+    "ui-label": "Needleleaf Evergreen Tree Area Percentage",
+    "description": "This is the percentage of the entire grid cell that is covered by needleleaf evergreen trees.",
+    "variable-root": "treeFracNdlEvg",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "area_fraction",
+    "units": "%",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typetreene"
+    ],
+    "out-name": "treeFracNdlEvg",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "treeFracNdlEvg",
+    "model-realm": "land",
+    "@context": "_context_"
+}

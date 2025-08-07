@@ -1,0 +1,12 @@
+{
+    "id": "intdic",
+    "validation-key": "intdic",
+    "ui-label": "intdic",
+    "data-type": "real",
+    "standard-name": "ocean_mass_content_of_dissolved_inorganic_carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

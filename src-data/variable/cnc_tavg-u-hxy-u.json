@@ -1,0 +1,33 @@
+{
+    "id": "cnc_tavg-u-hxy-u",
+    "validation-key": "cnc_tavg-u-hxy-u",
+    "ui-label": "Canopy Covered Area Percentage",
+    "description": "Canopy covered fraction",
+    "variable-root": "cnc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "vegetation_area_fraction",
+    "units": "%",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "cnc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "cnc",
+    "model-realm": "land",
+    "@context": "_context_"
+}

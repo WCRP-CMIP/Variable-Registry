@@ -1,0 +1,12 @@
+{
+    "id": "ficeberg",
+    "validation-key": "ficeberg",
+    "ui-label": "ficeberg",
+    "data-type": "real",
+    "standard-name": "water_flux_into_sea_water_from_icebergs",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

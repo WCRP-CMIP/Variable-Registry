@@ -1,0 +1,33 @@
+{
+    "id": "tauupbl_tavg-u-hxy-u",
+    "validation-key": "tauupbl_tavg-u-hxy-u",
+    "ui-label": "Eastward Surface Stress from Planetary Boundary Layer Scheme",
+    "description": "surface",
+    "variable-root": "tauupbl",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "surface_downward_eastward_stress_due_to_boundary_layer_mixing",
+    "units": "Pa",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "tauupbl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tauupbl",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

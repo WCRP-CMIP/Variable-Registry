@@ -1,0 +1,33 @@
+{
+    "id": "snm_tavg-u-hxy-is",
+    "validation-key": "snm_tavg-u-hxy-is",
+    "ui-label": "Ice Sheet Surface Snow Melt",
+    "description": "Loss of snow mass resulting from surface melting. Computed as the surface melt water from snow on the ice sheet portion of the grid cell divided by the ice_sheet area in the grid cell; report as 0.0 for snow-free land_ice regions; report as missing where the land fraction is 0.",
+    "variable-root": "snm",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "is",
+    "remove-cmip6-table": "LImon",
+    "frequency": "mon",
+    "standard-name": "surface_snow_melt_flux",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amni-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "snmIs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "snmIs",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

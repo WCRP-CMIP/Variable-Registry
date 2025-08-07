@@ -1,0 +1,33 @@
+{
+    "id": "froc_tavg-u-hxy-sea",
+    "validation-key": "froc_tavg-u-hxy-sea",
+    "ui-label": "Downward Organic Carbon Flux at Ocean Bottom",
+    "description": "Organic Carbon loss to sediments",
+    "variable-root": "froc",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "minus_tendency_of_ocean_mole_content_of_organic_carbon_due_to_sedimentation",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "froc",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "froc",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

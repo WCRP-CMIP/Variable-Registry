@@ -1,0 +1,33 @@
+{
+    "id": "drivw_tavg-u-hxy-lnd",
+    "validation-key": "drivw_tavg-u-hxy-lnd",
+    "ui-label": "Change in River Storage",
+    "description": "Change in River Storage",
+    "variable-root": "drivw",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "change_over_time_in_river_water_amount",
+    "units": "kg m-2",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacellr",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "drivw",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "drivw",
+    "model-realm": "land",
+    "@context": "_context_"
+}

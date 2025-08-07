@@ -1,0 +1,34 @@
+{
+    "id": "epsi_tavg-d100m-hxy-sea",
+    "validation-key": "epsi_tavg-d100m-hxy-sea",
+    "ui-label": "Downward Flux of Particulate Silicon",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+    "variable-root": "epsi",
+    "temporal-label": "tavg",
+    "vertical-label": "d100m",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+    "units": "mol m-2 s-1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+    ],
+    "out-name": "epsi100",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "epsi100",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

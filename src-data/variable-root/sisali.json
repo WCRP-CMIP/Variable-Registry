@@ -1,0 +1,12 @@
+{
+    "id": "sisali",
+    "validation-key": "sisali",
+    "ui-label": "sisali",
+    "data-type": "real",
+    "standard-name": "sea_ice_salinity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

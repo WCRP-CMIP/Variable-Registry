@@ -1,0 +1,34 @@
+{
+    "id": "tntd_tavg-al-hxy-u",
+    "validation-key": "tntd_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Numerical Diffusion",
+    "description": "This includes any horizontal or vertical numerical temperature diffusion not associated with the parametrized moist physics or the resolved dynamics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be excluded, as should any diffusion which is included in the terms from the resolved dynamics.   This term is required to check the closure of the temperature budget.",
+    "variable-root": "tntd",
+    "temporal-label": "tavg",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_air_temperature_due_to_diffusion",
+    "units": "K s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "out-name": "tntd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tntd",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

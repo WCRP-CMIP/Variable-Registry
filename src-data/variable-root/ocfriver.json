@@ -1,0 +1,12 @@
+{
+    "id": "ocfriver",
+    "validation-key": "ocfriver",
+    "ui-label": "ocfriver",
+    "data-type": "real",
+    "standard-name": "tendency_of_ocean_mole_content_of_organic_carbon_due_to_runoff_and_sediment_dissolution",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

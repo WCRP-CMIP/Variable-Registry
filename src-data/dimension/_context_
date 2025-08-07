@@ -1,7 +1,14 @@
 {
-  "@context": {
-    "@base": "https://wcrp-cmip.github.io/Variable-Regirstry/",
-    "@vocab": "https://wcrp-cmip.github.io/Variable-Regirstry/",
-    "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
-  }
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
+            "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
 }

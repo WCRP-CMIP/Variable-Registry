@@ -1,0 +1,34 @@
+{
+    "id": "zg_tavg-10hPa-hxy-air",
+    "validation-key": "zg_tavg-10hPa-hxy-air",
+    "ui-label": "Geopotential Height at 10hPa",
+    "description": "Geopotential height on the 10 hPa surface",
+    "variable-root": "zg",
+    "temporal-label": "tavg",
+    "vertical-label": "10hPa",
+    "horizontal-label": "hxy",
+    "area-label": "air",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "geopotential_height",
+    "units": "m",
+    "cell-methods": "amna-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+    ],
+    "out-name": "zg10",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "zg10",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "iareagr_tavg-u-hm-gis",
+    "validation-key": "iareagr_tavg-u-hm-gis",
+    "ui-label": "Area Covered by Grounded Ice Sheet",
+    "description": "Greenland",
+    "variable-root": "iareagr",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hm",
+    "area-label": "gis",
+    "remove-cmip6-table": "IyrGre",
+    "frequency": "yr",
+    "standard-name": "grounded_ice_sheet_area",
+    "units": "m2",
+    "cell-methods": "Error: area: sum where grounded_ice_sheet (mask=sfgrlf) time: mean not found in cell methods, please register",
+    "cell-measures": "",
+    "dimensions": [
+        "time"
+    ],
+    "out-name": "iareagr",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "na-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "iareagr",
+    "model-realm": "landice",
+    "@context": "_context_"
+}

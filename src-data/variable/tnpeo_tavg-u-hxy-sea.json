@@ -1,0 +1,33 @@
+{
+    "id": "tnpeo_tavg-u-hxy-sea",
+    "validation-key": "tnpeo_tavg-u-hxy-sea",
+    "ui-label": "Tendency of Ocean Potential Energy Content",
+    "description": "Rate that work is done against vertical stratification, as measured by the vertical heat and salt diffusivity. Report here as depth integrated two-dimensional field.",
+    "variable-root": "tnpeo",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Oyr",
+    "frequency": "yr",
+    "standard-name": "tendency_of_ocean_potential_energy_content",
+    "units": "W m-2",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "tnpeo",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-int",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "tnpeo",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

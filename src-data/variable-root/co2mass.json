@@ -1,0 +1,12 @@
+{
+    "id": "co2mass",
+    "validation-key": "co2mass",
+    "ui-label": "co2mass",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_of_carbon_dioxide",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

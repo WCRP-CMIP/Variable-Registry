@@ -1,0 +1,12 @@
+{
+    "id": "rlutcs4co2",
+    "validation-key": "rlutcs4co2",
+    "ui-label": "rlutcs4co2",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

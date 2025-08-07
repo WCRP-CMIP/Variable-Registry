@@ -1,0 +1,12 @@
+{
+    "id": "limndiat",
+    "validation-key": "limndiat",
+    "ui-label": "limndiat",
+    "data-type": "real",
+    "standard-name": "nitrogen_growth_limitation_of_diatoms",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

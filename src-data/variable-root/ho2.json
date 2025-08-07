@@ -1,0 +1,12 @@
+{
+    "id": "ho2",
+    "validation-key": "ho2",
+    "ui-label": "ho2",
+    "data-type": "real",
+    "standard-name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

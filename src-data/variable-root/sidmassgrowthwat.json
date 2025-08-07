@@ -1,0 +1,12 @@
+{
+    "id": "sidmassgrowthwat",
+    "validation-key": "sidmassgrowthwat",
+    "ui-label": "sidmassgrowthwat",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_ice_amount_due_to_frazil_ice_accumulation_in_leads",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

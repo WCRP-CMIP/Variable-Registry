@@ -1,0 +1,12 @@
+{
+    "id": "hur",
+    "validation-key": "hur",
+    "ui-label": "hur",
+    "data-type": "real",
+    "standard-name": "relative_humidity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "tntscp_tpt-al-hxys-u",
+    "validation-key": "tntscp_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
+    "description": "alevel site time1",
+    "variable-root": "tntscp",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxys",
+    "area-label": "u",
+    "remove-cmip6-table": "Esubhr",
+    "frequency": "subhr",
+    "standard-name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation",
+    "units": "K s-1",
+    "cell-methods": "apt-tpt",
+    "cell-measures": "",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "out-name": "tntscp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "S-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "tntscp",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

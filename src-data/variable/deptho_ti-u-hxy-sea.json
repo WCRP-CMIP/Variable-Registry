@@ -1,0 +1,32 @@
+{
+    "id": "deptho_ti-u-hxy-sea",
+    "validation-key": "deptho_ti-u-hxy-sea",
+    "ui-label": "Sea Floor Depth Below Geoid",
+    "description": "Ocean bathymetry. Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",
+    "variable-root": "deptho",
+    "temporal-label": "ti",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Ofx",
+    "frequency": "fx",
+    "standard-name": "sea_floor_depth_below_geoid",
+    "units": "m",
+    "cell-methods": "amns-fx",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "out-name": "deptho",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "None",
+    "physical-parameter-name": "deptho",
+    "model-realm": "ocean",
+    "@context": "_context_"
+}

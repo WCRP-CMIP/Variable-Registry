@@ -1,0 +1,34 @@
+{
+    "id": "clws_tpt-al-hxy-u",
+    "validation-key": "clws_tpt-al-hxy-u",
+    "ui-label": "Mass Fraction of Stratiform Cloud Liquid Water",
+    "description": "Calculated as the mass of stratiform cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "variable-root": "clws",
+    "temporal-label": "tpt",
+    "vertical-label": "al",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "CF3hr",
+    "frequency": "3hr",
+    "standard-name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
+    "units": "1",
+    "cell-methods": "amn-tpt",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "out-name": "clws",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-A",
+    "temporal-shape": "time-point",
+    "physical-parameter-name": "clws",
+    "model-realm": "atmos",
+    "@context": "_context_"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "al",
+    "validation-key": "al",
+    "ui-label": "Atmospheric Model Levels",
+    "description": "atmos. model levels",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

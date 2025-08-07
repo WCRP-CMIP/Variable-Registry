@@ -1,0 +1,12 @@
+{
+    "id": "po4",
+    "validation-key": "po4",
+    "ui-label": "po4",
+    "data-type": "real",
+    "standard-name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "vegHeight_tavg-u-hxy-veg",
+    "validation-key": "vegHeight_tavg-u-hxy-veg",
+    "ui-label": "Height of the Vegetation Canopy",
+    "description": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+    "variable-root": "vegHeight",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "veg",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "canopy_height",
+    "units": "m",
+    "cell-methods": "Error: area: time: mean where vegetation (mask=vegFrac) not found in cell methods, please register",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "vegHeight",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "vegHeight",
+    "model-realm": "land",
+    "@context": "_context_"
+}

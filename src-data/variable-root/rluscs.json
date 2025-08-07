@@ -1,0 +1,12 @@
+{
+    "id": "rluscs",
+    "validation-key": "rluscs",
+    "ui-label": "rluscs",
+    "data-type": "real",
+    "standard-name": "surface_upwelling_longwave_flux_assuming_clear_sky",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

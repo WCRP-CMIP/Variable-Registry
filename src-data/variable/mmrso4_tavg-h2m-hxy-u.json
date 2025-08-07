@@ -1,0 +1,34 @@
+{
+    "id": "mmrso4_tavg-h2m-hxy-u",
+    "validation-key": "mmrso4_tavg-h2m-hxy-u",
+    "ui-label": "Daily mean surface sulfate aerosol",
+    "description": "Daily mean sulfate aerosol mass mixing ratio in lowest model layer",
+    "variable-root": "mmrso4",
+    "temporal-label": "tavg",
+    "vertical-label": "h2m",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERday",
+    "frequency": "day",
+    "standard-name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
+    "units": "kg kg-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowermodellayer"
+    ],
+    "out-name": "mmrso4",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "mmrso4",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

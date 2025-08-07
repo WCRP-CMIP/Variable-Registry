@@ -1,0 +1,34 @@
+{
+    "id": "raVgt_tavg-u-hxy-multi",
+    "validation-key": "raVgt_tavg-u-hxy-multi",
+    "ui-label": "Autotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on vegetation type.",
+    "variable-root": "raVgt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "vegtype",
+        "time"
+    ],
+    "out-name": "raVgt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "raVgt",
+    "model-realm": "land",
+    "@context": "_context_"
+}

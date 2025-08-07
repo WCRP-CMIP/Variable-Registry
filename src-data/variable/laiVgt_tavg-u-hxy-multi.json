@@ -1,0 +1,34 @@
+{
+    "id": "laiVgt_tavg-u-hxy-multi",
+    "validation-key": "laiVgt_tavg-u-hxy-multi",
+    "ui-label": "Leaf Area Index on Vegetation type",
+    "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",
+    "variable-root": "laiVgt",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "multi",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "leaf_area_index",
+    "units": "1",
+    "cell-methods": "amlu-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "vegtype",
+        "time"
+    ],
+    "out-name": "laiVgt",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "laiVgt",
+    "model-realm": "land",
+    "@context": "_context_"
+}

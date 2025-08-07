@@ -1,0 +1,33 @@
+{
+    "id": "fNgas_tavg-u-hxy-lnd",
+    "validation-key": "fNgas_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
+    "description": "Total flux of Nitrogen from the land into the atmosphere.",
+    "variable-root": "fNgas",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Emon",
+    "frequency": "mon",
+    "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "fNgas",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "fNgas",
+    "model-realm": "land",
+    "@context": "_context_"
+}

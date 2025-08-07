@@ -1,0 +1,33 @@
+{
+    "id": "emibbdms_tavg-u-hxy-u",
+    "validation-key": "emibbdms_tavg-u-hxy-u",
+    "ui-label": "total emission of DMS from all biomass burning",
+    "description": "Total emission rate of dimethyl sulfide (DMS) into the atmosphere from all biomass burning (natural and anthropogenic)",
+    "variable-root": "emibbdms",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "u",
+    "remove-cmip6-table": "AERmon",
+    "frequency": "mon",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_dimethyl_sulfide_due_to_emission_from_fires",
+    "units": "kg m-2 s-1",
+    "cell-methods": "amn-twm",
+    "cell-measures": "area: areacella",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "emibbdms",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "emibbdms",
+    "model-realm": "aerosol",
+    "@context": "_context_"
+}

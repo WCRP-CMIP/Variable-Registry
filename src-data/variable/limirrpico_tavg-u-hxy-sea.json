@@ -1,0 +1,33 @@
+{
+    "id": "limirrpico_tavg-u-hxy-sea",
+    "validation-key": "limirrpico_tavg-u-hxy-sea",
+    "ui-label": "Irradiance Limitation of Picophytoplankton",
+    "description": "Growth limitation of picophytoplankton due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+    "variable-root": "limirrpico",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "remove-cmip6-table": "Omon",
+    "frequency": "mon",
+    "standard-name": "growth_limitation_of_picophytoplankton_due_to_solar_irradiance",
+    "units": "1",
+    "cell-methods": "amns-tmn",
+    "cell-measures": "area: areacello",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "limirrpico",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "limirrpico",
+    "model-realm": "ocnbgchem",
+    "@context": "_context_"
+}

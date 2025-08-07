@@ -1,0 +1,12 @@
+{
+    "id": "nproduct",
+    "validation-key": "nproduct",
+    "ui-label": "nProduct",
+    "data-type": "real",
+    "standard-name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

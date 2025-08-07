@@ -1,0 +1,33 @@
+{
+    "id": "rivi_tavg-u-hxy-lnd",
+    "validation-key": "rivi_tavg-u-hxy-lnd",
+    "ui-label": "River Inflow",
+    "description": "water_flux_to_downstream",
+    "variable-root": "rivi",
+    "temporal-label": "tavg",
+    "vertical-label": "u",
+    "horizontal-label": "hxy",
+    "area-label": "lnd",
+    "remove-cmip6-table": "Eday",
+    "frequency": "day",
+    "standard-name": "incoming_water_volume_transport_along_river_channel",
+    "units": "m3 s-1",
+    "cell-methods": "amnla-tmn",
+    "cell-measures": "area: areacellr",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "out-name": "rivi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
+    "positive": "",
+    "spatial-shape": "XY-na",
+    "temporal-shape": "time-intv",
+    "physical-parameter-name": "rivi",
+    "model-realm": "land",
+    "@context": "_context_"
+}

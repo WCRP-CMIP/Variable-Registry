@@ -1,0 +1,12 @@
+{
+    "id": "sistrxdtop",
+    "validation-key": "sistrxdtop",
+    "ui-label": "sistrxdtop",
+    "data-type": "real",
+    "standard-name": "surface_downward_x_stress",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

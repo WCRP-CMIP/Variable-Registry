@@ -1,0 +1,12 @@
+{
+    "id": "siflsensbot",
+    "validation-key": "siflsensbot",
+    "ui-label": "siflsensbot",
+    "data-type": "real",
+    "standard-name": "upward_sea_ice_basal_heat_flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

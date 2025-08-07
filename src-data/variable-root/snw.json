@@ -1,0 +1,12 @@
+{
+    "id": "snw",
+    "validation-key": "snw",
+    "ui-label": "snw",
+    "data-type": "real",
+    "standard-name": "surface_snow_amount",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}
