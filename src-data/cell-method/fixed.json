@@ -1,0 +1,12 @@
+{
+    "id": "fixed",
+    "validation-key": "fixed",
+    "ui-label": "Fixed Field",
+    "description": "fixed",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

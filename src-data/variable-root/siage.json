@@ -1,0 +1,13 @@
+{
+    "id": "siage",
+    "validation-key": "siage",
+    "ui-label": "siage",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "age_of_sea_ice",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

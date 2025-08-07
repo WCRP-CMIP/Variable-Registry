@@ -1,0 +1,11 @@
+{
+    "id": "h10m",
+    "validation-key": "h10m",
+    "ui-label": "10 Meter Height",
+    "description": "10 m height",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

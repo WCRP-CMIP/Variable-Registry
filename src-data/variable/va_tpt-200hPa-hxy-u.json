@@ -1,0 +1,34 @@
+{
+    "id": "va_tpt-200hPa-hxy-u",
+    "validation-key": "va_tpt-200hPa-hxy-u",
+    "ui-label": "va200",
+    "description": "Meridional wind (positive in a northward direction) at 200 hPa, 6 hourly instantaneous",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p200"
+    ],
+    "frequency": "6hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "va200",
+    "physical-parameter-name": "va200",
+    "positive": "",
+    "remove-cmip6-table": "6hrPlevPt",
+    "spatial-shape": "XY-na",
+    "standard-name": "northward_wind",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "m s-1",
+    "variable-root": "va",
+    "vertical-label": "200hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

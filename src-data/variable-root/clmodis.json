@@ -1,0 +1,13 @@
+{
+    "id": "clmodis",
+    "validation-key": "clmodis",
+    "ui-label": "clmodis",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "modis_cloud_area_fraction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "typetreebd",
+    "validation-key": "typetreebd",
+    "ui-label": "Tree area type (Broadleaf Deciduous)",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "dfe",
+    "validation-key": "dfe",
+    "ui-label": "dfe",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

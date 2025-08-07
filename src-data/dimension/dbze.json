@@ -1,0 +1,14 @@
+{
+    "id": "dbze",
+    "validation-key": "dbze",
+    "ui-label": "CloudSat Simulator Equivalent Radar Reflectivity Factor",
+    "description": "15 bins of radar reflectivity for CloudSat simulator CFAD",
+    "axis-flag": "",
+    "cf-standard-name": "equivalent_reflectivity_factor",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "wmo",
+    "validation-key": "wmo",
+    "ui-label": "wmo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "upward_ocean_mass_transport",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

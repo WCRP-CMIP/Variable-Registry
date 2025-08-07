@@ -1,0 +1,11 @@
+{
+    "id": "tmin",
+    "validation-key": "tmin",
+    "ui-label": "Minimum Statistic",
+    "description": "minimum (or mean of daily minima)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

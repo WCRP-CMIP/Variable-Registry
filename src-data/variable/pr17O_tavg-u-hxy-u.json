@@ -1,0 +1,33 @@
+{
+    "id": "pr17O_tavg-u-hxy-u",
+    "validation-key": "pr17O_tavg-u-hxy-u",
+    "ui-label": "Precipitation Flux of Water Containing Oxygen-17 (H2 17O)",
+    "description": "Precipitation mass flux of water molecules that contain the oxygen-17 isotope (H2 17O), including solid and liquid phases.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "pr17O",
+    "physical-parameter-name": "pr17O",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-na",
+    "standard-name": "precipitation_flux_containing_17O",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "pr17O",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

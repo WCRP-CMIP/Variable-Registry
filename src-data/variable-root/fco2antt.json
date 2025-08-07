@@ -1,0 +1,13 @@
+{
+    "id": "fco2antt",
+    "validation-key": "fco2antt",
+    "ui-label": "fco2antt",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

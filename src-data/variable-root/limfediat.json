@@ -1,0 +1,13 @@
+{
+    "id": "limfediat",
+    "validation-key": "limfediat",
+    "ui-label": "limfediat",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "iron_growth_limitation_of_diatoms",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

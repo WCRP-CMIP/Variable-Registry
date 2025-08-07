@@ -1,0 +1,13 @@
+{
+    "id": "ua",
+    "validation-key": "ua",
+    "ui-label": "ua",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "eastward_wind",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

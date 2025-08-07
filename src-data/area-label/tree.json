@@ -1,0 +1,11 @@
+{
+    "id": "tree",
+    "validation-key": "tree",
+    "ui-label": "Trees",
+    "description": "trees",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

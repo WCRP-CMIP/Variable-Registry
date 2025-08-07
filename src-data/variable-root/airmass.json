@@ -1,0 +1,13 @@
+{
+    "id": "airmass",
+    "validation-key": "airmass",
+    "ui-label": "airmass",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere_mass_of_air_per_unit_area",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

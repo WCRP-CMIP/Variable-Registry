@@ -1,0 +1,13 @@
+{
+    "id": "cfadlidarsr532",
+    "validation-key": "cfadlidarsr532",
+    "ui-label": "cfadLidarsr532",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "mcd_tavg-alh-hxy-u",
+    "validation-key": "mcd_tavg-alh-hxy-u",
+    "ui-label": "Downdraft Convective Mass Flux",
+    "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "mcd",
+    "physical-parameter-name": "mcd",
+    "positive": "down",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-AH",
+    "standard-name": "atmosphere_downdraft_convective_mass_flux",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "mcd",
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

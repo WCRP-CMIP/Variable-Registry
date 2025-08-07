@@ -1,0 +1,13 @@
+{
+    "id": "sithick",
+    "validation-key": "sithick",
+    "ui-label": "sithick",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_ice_thickness",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

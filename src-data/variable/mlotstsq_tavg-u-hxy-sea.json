@@ -1,0 +1,34 @@
+{
+    "id": "mlotstsq_tavg-u-hxy-sea",
+    "validation-key": "mlotstsq_tavg-u-hxy-sea",
+    "ui-label": "Square of Ocean Mixed Layer Thickness Defined by Sigma T",
+    "description": "The phrase \"square_of_X\" means X\\*X. The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed. The base of the mixed layer defined by \"temperature\", \"sigma\", \"sigma_theta\", \"sigma_t\" or vertical diffusivity is the level at which the quantity indicated differs from its surface value by a certain amount. A coordinate variable or scalar coordinate variable with standard name sea_water_sigma_t_difference can be used to specify the sigma_t criterion that determines the layer thickness. Sigma-t of sea water is the density of water at atmospheric pressure (i.e. the surface) having the same temperature and salinity, minus 1000 kg m-3. \"Thickness\" means the vertical extent of a layer.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "deltasigt"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "mlotstsq",
+    "physical-parameter-name": "mlotstsq",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "square_of_ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m2",
+    "variable-root": "mlotstsq",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

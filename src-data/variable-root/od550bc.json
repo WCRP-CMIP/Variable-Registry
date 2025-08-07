@@ -1,0 +1,13 @@
+{
+    "id": "od550bc",
+    "validation-key": "od550bc",
+    "ui-label": "od550bc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

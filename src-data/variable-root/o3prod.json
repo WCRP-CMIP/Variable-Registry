@@ -1,0 +1,13 @@
+{
+    "id": "o3prod",
+    "validation-key": "o3prod",
+    "ui-label": "o3prod",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

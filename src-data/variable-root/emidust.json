@@ -1,0 +1,13 @@
+{
+    "id": "emidust",
+    "validation-key": "emidust",
+    "ui-label": "emidust",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_emission",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

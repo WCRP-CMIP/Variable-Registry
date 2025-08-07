@@ -1,0 +1,13 @@
+{
+    "id": "opottemptend",
+    "validation-key": "opottemptend",
+    "ui-label": "opottemptend",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

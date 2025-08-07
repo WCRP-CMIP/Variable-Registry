@@ -1,0 +1,11 @@
+{
+    "id": "hxy",
+    "validation-key": "hxy",
+    "ui-label": "Gridded Horizontal",
+    "description": "gridded",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}

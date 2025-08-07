@@ -1,0 +1,13 @@
+{
+    "id": "cldnvi",
+    "validation-key": "cldnvi",
+    "ui-label": "cldnvi",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere_number_content_of_cloud_droplets",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

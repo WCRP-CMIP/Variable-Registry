@@ -1,0 +1,11 @@
+{
+    "id": "tsum",
+    "validation-key": "tsum",
+    "ui-label": "Sum Statistic",
+    "description": "sum",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

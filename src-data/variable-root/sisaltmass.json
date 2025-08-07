@@ -1,0 +1,13 @@
+{
+    "id": "sisaltmass",
+    "validation-key": "sisaltmass",
+    "ui-label": "sisaltmass",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_ice_mass_content_of_salt",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

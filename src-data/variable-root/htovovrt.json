@@ -1,0 +1,13 @@
+{
+    "id": "htovovrt",
+    "validation-key": "htovovrt",
+    "ui-label": "htovovrt",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "northward_ocean_heat_transport_due_to_overturning",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

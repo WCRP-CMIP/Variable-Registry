@@ -1,0 +1,13 @@
+{
+    "id": "nveg",
+    "validation-key": "nveg",
+    "ui-label": "nVeg",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "vegetation_mass_content_of_nitrogen",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

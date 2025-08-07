@@ -1,0 +1,11 @@
+{
+    "id": "sir",
+    "validation-key": "sir",
+    "ui-label": "Sea Ice Ridges",
+    "description": "sea_ice_ridges",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

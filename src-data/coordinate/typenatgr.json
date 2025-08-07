@@ -1,0 +1,13 @@
+{
+    "id": "typenatgr",
+    "validation-key": "typenatgr",
+    "ui-label": "Natural grass area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

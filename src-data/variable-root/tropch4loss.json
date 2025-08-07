@@ -1,0 +1,13 @@
+{
+    "id": "tropch4loss",
+    "validation-key": "tropch4loss",
+    "ui-label": "tropch4loss",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

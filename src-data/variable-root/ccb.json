@@ -1,0 +1,13 @@
+{
+    "id": "ccb",
+    "validation-key": "ccb",
+    "ui-label": "ccb",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "air_pressure_at_convective_cloud_base",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

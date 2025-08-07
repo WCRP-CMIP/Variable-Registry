@@ -1,0 +1,13 @@
+{
+    "id": "fharvesttogeologicstorage",
+    "validation-key": "fharvesttogeologicstorage",
+    "ui-label": "fHarvestToGeologicStorage",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass_flux_of_carbon_from_biomass_into_geological_storage",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

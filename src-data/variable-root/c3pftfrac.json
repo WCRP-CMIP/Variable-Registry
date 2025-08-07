@@ -1,0 +1,13 @@
+{
+    "id": "c3pftfrac",
+    "validation-key": "c3pftfrac",
+    "ui-label": "c3PftFrac",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "hm",
+    "validation-key": "hm",
+    "ui-label": "Horizontal Mean",
+    "description": "horizontal mean",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}

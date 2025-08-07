@@ -1,0 +1,13 @@
+{
+    "id": "evspsblveg",
+    "validation-key": "evspsblveg",
+    "ui-label": "evspsblveg",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "water_evaporation_flux_from_canopy",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

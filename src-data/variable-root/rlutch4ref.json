@@ -1,0 +1,13 @@
+{
+    "id": "rlutch4ref",
+    "validation-key": "rlutch4ref",
+    "ui-label": "rlutch4ref",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "toa_outgoing_longwave_flux_assuming_reference_mole_fraction_of_methane_in_air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

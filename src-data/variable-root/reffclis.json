@@ -1,0 +1,13 @@
+{
+    "id": "reffclis",
+    "validation-key": "reffclis",
+    "ui-label": "reffclis",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

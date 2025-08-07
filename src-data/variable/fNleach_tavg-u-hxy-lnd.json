@@ -1,0 +1,33 @@
+{
+    "id": "fNleach_tavg-u-hxy-lnd",
+    "validation-key": "fNleach_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The specification of a physical process by the phrase \"due_to_\" process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. \"Leaching\" means the loss of water soluble chemical species from soil. Runoff is the liquid water which drains from land. If not specified, \"runoff\" refers to the sum of surface runoff and subsurface drainage.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "fNleach",
+    "physical-parameter-name": "fNleach",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-na",
+    "standard-name": "mass_flux_of_carbon_out_of_soil_due_to_leaching_and_runoff",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "fNleach",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

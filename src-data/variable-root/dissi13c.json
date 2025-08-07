@@ -1,0 +1,13 @@
+{
+    "id": "dissi13c",
+    "validation-key": "dissi13c",
+    "ui-label": "dissi13c",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole_concentration_of_dissolved_inorganic_13C_in_sea_water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

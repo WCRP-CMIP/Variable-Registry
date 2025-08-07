@@ -1,0 +1,13 @@
+{
+    "id": "msftm",
+    "validation-key": "msftm",
+    "ui-label": "msftm",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean_meridional_overturning_mass_streamfunction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

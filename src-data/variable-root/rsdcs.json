@@ -1,0 +1,13 @@
+{
+    "id": "rsdcs",
+    "validation-key": "rsdcs",
+    "ui-label": "rsdcs",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

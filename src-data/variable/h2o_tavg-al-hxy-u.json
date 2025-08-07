@@ -1,0 +1,34 @@
+{
+    "id": "h2o_tavg-al-hxy-u",
+    "validation-key": "h2o_tavg-al-hxy-u",
+    "ui-label": "Mass Fraction of Water",
+    "description": "includes all phases of water",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "h2o",
+    "physical-parameter-name": "h2o",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mass_fraction_of_water_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1",
+    "variable-root": "h2o",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

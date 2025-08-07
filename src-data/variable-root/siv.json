@@ -1,0 +1,13 @@
+{
+    "id": "siv",
+    "validation-key": "siv",
+    "ui-label": "siv",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_ice_y_velocity",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

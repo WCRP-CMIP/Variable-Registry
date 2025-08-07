@@ -1,0 +1,13 @@
+{
+    "id": "chegph2oo1d",
+    "validation-key": "chegph2oo1d",
+    "ui-label": "chegph2oo1d",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_hydroxyl_radical_due_to_chemical_production_from_atomic_singlet_oxygen_and_water_vapor",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

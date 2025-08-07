@@ -1,0 +1,13 @@
+{
+    "id": "ccn",
+    "validation-key": "ccn",
+    "ui-label": "ccn",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

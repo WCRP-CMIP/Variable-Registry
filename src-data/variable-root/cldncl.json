@@ -1,0 +1,13 @@
+{
+    "id": "cldncl",
+    "validation-key": "cldncl",
+    "ui-label": "cldncl",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

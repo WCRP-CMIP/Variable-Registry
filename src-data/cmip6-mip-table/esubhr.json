@@ -1,0 +1,28 @@
+{
+    "id": "esubhr",
+    "validation-key": "esubhr",
+    "ui-label": "Esubhr",
+    "description": "CMIP6 CMOR table Esubhr containing variables",
+    "variables": [
+        "reffclic_tpt-al-hxys-ccl",
+        "reffclis_tpt-al-hxys-scl",
+        "reffclwc_tpt-al-hxys-ccl",
+        "reffclws_tpt-al-hxys-scl",
+        "tnhuspbl_tpt-al-hxys-u",
+        "tnhusscp_tpt-al-hxys-u",
+        "tntd_tpt-al-hxys-u",
+        "tntpbl_tpt-al-hxys-u",
+        "tntrl_tpt-al-hxys-u",
+        "tntrlcs_tpt-al-hxys-u",
+        "tntrs_tpt-al-hxys-u",
+        "tntrscs_tpt-al-hxys-u",
+        "tntscp_tpt-al-hxys-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ]
+}

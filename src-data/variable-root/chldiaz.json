@@ -1,0 +1,13 @@
+{
+    "id": "chldiaz",
+    "validation-key": "chldiaz",
+    "ui-label": "chldiaz",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "emilnox_tavg-al-hxy-u",
+    "validation-key": "emilnox_tavg-al-hxy-u",
+    "ui-label": "Layer-Integrated Lightning Production of NOx",
+    "description": "Integrate the NOx production for lightning over model layer. proposed name: tendency_of_atmosphere_mass_content_of_nox_from_lightning",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "emilnox",
+    "physical-parameter-name": "emilnox",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_atmosphere_moles_of_nox_expressed_as_nitrogen",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol s-1",
+    "variable-root": "emilnox",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

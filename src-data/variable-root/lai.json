@@ -1,0 +1,13 @@
+{
+    "id": "lai",
+    "validation-key": "lai",
+    "ui-label": "lai",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "leaf_area_index",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

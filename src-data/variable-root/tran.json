@@ -1,0 +1,13 @@
+{
+    "id": "tran",
+    "validation-key": "tran",
+    "ui-label": "tran",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "transpiration_flux",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

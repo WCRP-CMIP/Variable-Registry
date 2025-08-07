@@ -1,0 +1,13 @@
+{
+    "id": "grassfracc4",
+    "validation-key": "grassfracc4",
+    "ui-label": "grassFracC4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "area_fraction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "sduo",
+    "validation-key": "sduo",
+    "ui-label": "sduo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_surface_wave_stokes_drift_eastward_velocity",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

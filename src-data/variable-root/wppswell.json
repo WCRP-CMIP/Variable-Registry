@@ -1,0 +1,13 @@
+{
+    "id": "wppswell",
+    "validation-key": "wppswell",
+    "ui-label": "wppswell",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_surface_swell_wave_period_at_variance_spectral_density_maximum",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

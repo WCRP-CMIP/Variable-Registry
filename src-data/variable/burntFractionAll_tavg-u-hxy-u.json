@@ -1,0 +1,34 @@
+{
+    "id": "burntFractionAll_tavg-u-hxy-u",
+    "validation-key": "burntFractionAll_tavg-u-hxy-u",
+    "ui-label": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
+    "description": "Percentage of grid cell burned due to all fires including natural and anthropogenic fires and those associated with anthropogenic land use change",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typeburnt"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "burntFractionAll",
+    "physical-parameter-name": "burntFractionAll",
+    "positive": "",
+    "remove-cmip6-table": "Lmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "area_fraction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "%",
+    "variable-root": "burntFractionAll",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "fnloss",
+    "validation-key": "fnloss",
+    "ui-label": "fNloss",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

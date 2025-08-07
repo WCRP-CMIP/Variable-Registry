@@ -1,0 +1,34 @@
+{
+    "id": "chegph2oo1d_tavg-al-hxy-u",
+    "validation-key": "chegph2oo1d_tavg-al-hxy-u",
+    "ui-label": "Primary production of OH (H2O+O1D)",
+    "description": "Primary production rate of the hydroxy (OH) radical via H2O+O1D",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "chegph2oo1d",
+    "physical-parameter-name": "chegph2oo1d",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_hydroxyl_radical_due_to_chemical_production_from_atomic_singlet_oxygen_and_water_vapor",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3 s-1",
+    "variable-root": "chegph2oo1d",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

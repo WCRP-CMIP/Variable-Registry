@@ -1,0 +1,34 @@
+{
+    "id": "aoanh_tavg-al-hxy-u",
+    "validation-key": "aoanh_tavg-al-hxy-u",
+    "ui-label": "Northern Hemisphere Tracer Lifetime",
+    "description": "Fixed surface layer mixing ratio over 30o-50oN (0 ppbv), uniform fixed source (at all levels) everywhere else (source is unspecified but must be constant in space and time and documented). Note that the source could be 1yr/yr, so the tracer concentration provides mean age in years. For method using linearly increasing tracer include a method attribute: \"linearly increasing tracer\"For method using uniform source (1yr/yr) include a method attribute: \"uniform source\"",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "Error: area: time: mean (weighted by tracer mass) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "aoanh",
+    "physical-parameter-name": "aoanh",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tracer_lifetime",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "yr",
+    "variable-root": "aoanh",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

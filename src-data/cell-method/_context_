@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/cell-method/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/cell-method/",
+            "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
+}

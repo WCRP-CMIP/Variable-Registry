@@ -1,0 +1,12 @@
+{
+    "id": "amn-dmax",
+    "validation-key": "amn-dmax",
+    "ui-label": "Daily Maximum",
+    "description": "area: mean time: maximum within days time: mean over days",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

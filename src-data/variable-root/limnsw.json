@@ -1,0 +1,13 @@
+{
+    "id": "limnsw",
+    "validation-key": "limnsw",
+    "ui-label": "limnsw",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "land_ice_mass_not_displacing_sea_water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "amnfi-twm",
+    "validation-key": "amnfi-twm",
+    "ui-label": "Weighted Time Mean on Floating Ice Shelf",
+    "description": "area: time: mean where floating_ice_shelf",
+    "mask": "sftflf",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

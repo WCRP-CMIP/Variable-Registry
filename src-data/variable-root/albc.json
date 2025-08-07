@@ -1,0 +1,13 @@
+{
+    "id": "albc",
+    "validation-key": "albc",
+    "ui-label": "albc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "canopy_albedo",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

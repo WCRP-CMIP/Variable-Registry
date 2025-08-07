@@ -1,0 +1,13 @@
+{
+    "id": "siu",
+    "validation-key": "siu",
+    "ui-label": "siu",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea_ice_x_velocity",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "wetnh3",
+    "validation-key": "wetnh3",
+    "ui-label": "wetnh3",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_wet_deposition",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

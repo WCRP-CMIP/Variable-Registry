@@ -1,0 +1,13 @@
+{
+    "id": "nstem",
+    "validation-key": "nstem",
+    "ui-label": "nStem",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "stem_mass_content_of_nitrogen",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

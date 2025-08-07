@@ -1,0 +1,13 @@
+{
+    "id": "photo1d",
+    "validation-key": "photo1d",
+    "ui-label": "photo1d",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "photolysis_rate_of_ozone_to_1D_oxygen_atom",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

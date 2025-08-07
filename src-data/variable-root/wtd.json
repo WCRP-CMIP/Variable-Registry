@@ -1,0 +1,13 @@
+{
+    "id": "wtd",
+    "validation-key": "wtd",
+    "ui-label": "wtd",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "water_table_depth",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

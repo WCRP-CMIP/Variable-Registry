@@ -1,0 +1,11 @@
+{
+    "id": "hxys",
+    "validation-key": "hxys",
+    "ui-label": "Site Values",
+    "description": "site values",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}
