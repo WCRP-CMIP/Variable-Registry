@@ -21,11 +21,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build and Deploy Documentation
-        uses: WCRP-CMIP/CMIP-LD/actions/build-docs@main
+      - name: Build MkDocs documentation
+        uses: WCRP-CMIP/CMIPLD/actions/build-mkdocs@main
         with:
-          source_branch: main
-          target_branch: production
           config_file: '.src/mkdocs/mkdocs.yml'
-          docs_dir: 'docs'
-          force_deploy: ${{ github.event.inputs.force_deploy || 'false' }}
+          build_dir: 'site'
+          upload_artifact: 'false'
+
+      - name: Deploy to production branch
+        uses: WCRP-CMIP/CMIPLD/actions/publish2pages@main
+        with:
+          api_key: ${{ secrets.API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch_name: ${{ github.ref_name }}
