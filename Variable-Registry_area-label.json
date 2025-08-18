@@ -1,0 +1,139 @@
+{
+    "Header": {
+        "file": "Variable-Registry_area-label.json",
+        "file_creation_date": "2025-08-18T16:38:51.672308",
+        "version": "fatal: No names found, cannot describe anything.",
+        "checksum": "md5: 7896cafc4c361bcb9966e9ceb69c074f",
+        "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
+        "repo_prefix": "vr",
+        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "comment": "This is an automatically generated file. Do not edit."
+    },
+    "area-label": {
+        "air": {
+            "description": "air",
+            "ui-label": "Air",
+            "validation-key": "air"
+        },
+        "ccl": {
+            "description": "convective_cloud",
+            "ui-label": "Convective Cloud",
+            "validation-key": "ccl"
+        },
+        "cl": {
+            "description": "cloud",
+            "ui-label": "Cloud",
+            "validation-key": "cl"
+        },
+        "crp": {
+            "description": "crops",
+            "ui-label": "Crops",
+            "validation-key": "crp"
+        },
+        "fis": {
+            "description": "floating_ice_shelf",
+            "ui-label": "Floating Ice Shelf",
+            "validation-key": "fis"
+        },
+        "gis": {
+            "description": "grounded_ice_sheet",
+            "ui-label": "Grounded Ice Sheet",
+            "validation-key": "gis"
+        },
+        "ifs": {
+            "description": "ice_free_sea",
+            "ui-label": "Ice Free Sea",
+            "validation-key": "ifs"
+        },
+        "is": {
+            "description": "ice_sheet",
+            "ui-label": "Ice Sheet",
+            "validation-key": "is"
+        },
+        "li": {
+            "description": "land_ice",
+            "ui-label": "Land Ice",
+            "validation-key": "li"
+        },
+        "lnd": {
+            "description": "land",
+            "ui-label": "Land",
+            "validation-key": "lnd"
+        },
+        "multiuse": {
+            "description": "sector (auxiliary coordinate for land-use or vegetation area types)",
+            "ui-label": "Multi-Use Sector",
+            "validation-key": "multiuse"
+        },
+        "ng": {
+            "description": "natural_grasses",
+            "ui-label": "Natural Grasses",
+            "validation-key": "ng"
+        },
+        "pst": {
+            "description": "pastures",
+            "ui-label": "Pastures",
+            "validation-key": "pst"
+        },
+        "scl": {
+            "description": "stratiform_cloud",
+            "ui-label": "Stratiform Cloud",
+            "validation-key": "scl"
+        },
+        "sea": {
+            "description": "sea",
+            "ui-label": "Sea",
+            "validation-key": "sea"
+        },
+        "shb": {
+            "description": "shrubs",
+            "ui-label": "Shrubs",
+            "validation-key": "shb"
+        },
+        "si": {
+            "description": "sea_ice",
+            "ui-label": "Sea Ice",
+            "validation-key": "si"
+        },
+        "simp": {
+            "description": "sea_ice_melt_pond",
+            "ui-label": "Sea Ice Melt Pond",
+            "validation-key": "simp"
+        },
+        "sir": {
+            "description": "sea_ice_ridges",
+            "ui-label": "Sea Ice Ridges",
+            "validation-key": "sir"
+        },
+        "sn": {
+            "description": "snow",
+            "ui-label": "Snow",
+            "validation-key": "sn"
+        },
+        "tree": {
+            "description": "trees",
+            "ui-label": "Trees",
+            "validation-key": "tree"
+        },
+        "u": {
+            "description": "unmasked (no \"where\" directive included in the cell_methods)",
+            "ui-label": "Unmasked Area",
+            "validation-key": "u"
+        },
+        "ufs": {
+            "description": "unfrozen_soil",
+            "ui-label": "Unfrozen Soil",
+            "validation-key": "ufs"
+        },
+        "veg": {
+            "description": "vegetation",
+            "ui-label": "Vegetation",
+            "validation-key": "veg"
+        },
+        "wl": {
+            "description": "wetland",
+            "ui-label": "Wetland",
+            "validation-key": "wl"
+        }
+    }
+}

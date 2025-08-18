@@ -1,0 +1,224 @@
+{
+    "Header": {
+        "file": "Variable-Registry_vertical-label.json",
+        "file_creation_date": "2025-08-18T16:38:49.968895",
+        "version": "fatal: No names found, cannot describe anything.",
+        "checksum": "md5: 5353cd8f9e2f9a15575b1fd65ede7110",
+        "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
+        "repo_prefix": "vr",
+        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "comment": "This is an automatically generated file. Do not edit."
+    },
+    "vertical-label": {
+        "1000hPa": {
+            "description": "1000 hPa",
+            "ui-label": "1000 hPa Pressure Level",
+            "validation-key": "1000hPa"
+        },
+        "100hPa": {
+            "description": "100 hPa",
+            "ui-label": "100 hPa Pressure Level",
+            "validation-key": "100hPa"
+        },
+        "10hPa": {
+            "description": "10 hPa",
+            "ui-label": "10 hPa Pressure Level",
+            "validation-key": "10hPa"
+        },
+        "200hPa": {
+            "description": "200 hPa²",
+            "ui-label": "200 hPa Pressure Level",
+            "validation-key": "200hPa"
+        },
+        "20bar": {
+            "description": "pressure depth of 20 bar",
+            "ui-label": "20 Bar Pressure Depth",
+            "validation-key": "20bar"
+        },
+        "220hPa": {
+            "description": "220 hPa",
+            "ui-label": "220 hPa Pressure Level",
+            "validation-key": "220hPa"
+        },
+        "500hPa": {
+            "description": "500 hPa",
+            "ui-label": "500 hPa Pressure Level",
+            "validation-key": "500hPa"
+        },
+        "560hPa": {
+            "description": "560 hPa",
+            "ui-label": "560 hPa Pressure Level",
+            "validation-key": "560hPa"
+        },
+        "700hPa": {
+            "description": "700 hPa",
+            "ui-label": "700 hPa Pressure Level",
+            "validation-key": "700hPa"
+        },
+        "840hPa": {
+            "description": "840 hPa",
+            "ui-label": "840 hPa Pressure Level",
+            "validation-key": "840hPa"
+        },
+        "850hPa": {
+            "description": "850 hPa",
+            "ui-label": "850 hPa Pressure Level",
+            "validation-key": "850hPa"
+        },
+        "925hPa": {
+            "description": "925hPa²",
+            "ui-label": "925 hPa Pressure Level",
+            "validation-key": "925hPa"
+        },
+        "al": {
+            "description": "atmos. model levels",
+            "ui-label": "Atmospheric Model Levels",
+            "validation-key": "al"
+        },
+        "alh": {
+            "description": "atmos. model half-levels",
+            "ui-label": "Atmospheric Model Half-Levels",
+            "validation-key": "alh"
+        },
+        "d0m": {
+            "description": "surface",
+            "ui-label": "Surface Level",
+            "validation-key": "d0m"
+        },
+        "d100cm": {
+            "description": "10 cm depth",
+            "ui-label": "10 Centimeter Depth",
+            "validation-key": "d100cm"
+        },
+        "d100m": {
+            "description": "100 m depth",
+            "ui-label": "100 Meter Depth",
+            "validation-key": "d100m"
+        },
+        "d10cm": {
+            "description": "0.1 cm depth",
+            "ui-label": "0.1 Meter Depth",
+            "validation-key": "d10cm"
+        },
+        "d2000m": {
+            "description": "upper 2000 m",
+            "ui-label": "Upper 2000 Meter Depth",
+            "validation-key": "d2000m"
+        },
+        "d300m": {
+            "description": "upper 300 m",
+            "ui-label": "Upper 300 Meter Depth",
+            "validation-key": "d300m"
+        },
+        "d700m": {
+            "description": "upper 700 m",
+            "ui-label": "Upper 700 Meter Depth",
+            "validation-key": "d700m"
+        },
+        "h100m": {
+            "description": "100 m height",
+            "ui-label": "100 Meter Height",
+            "validation-key": "h100m"
+        },
+        "h10m": {
+            "description": "10 m height",
+            "ui-label": "10 Meter Height",
+            "validation-key": "h10m"
+        },
+        "h16": {
+            "description": "16 height levels",
+            "ui-label": "16 Height Levels",
+            "validation-key": "h16"
+        },
+        "h2m": {
+            "description": "2 m height",
+            "ui-label": "2 Meter Height",
+            "validation-key": "h2m"
+        },
+        "h40": {
+            "description": "40 height levels",
+            "ui-label": "40 Height Levels",
+            "validation-key": "h40"
+        },
+        "ol": {
+            "description": "ocean model levels",
+            "ui-label": "Ocean Model Levels",
+            "validation-key": "ol"
+        },
+        "olh": {
+            "description": "ocean model half-levels",
+            "ui-label": "Ocean Model Half-Levels",
+            "validation-key": "olh"
+        },
+        "op4": {
+            "description": "4 ocean pressure layers²",
+            "ui-label": "4 Ocean Pressure Layers",
+            "validation-key": "op4"
+        },
+        "p19": {
+            "description": "19 pressure levels",
+            "ui-label": "19 Pressure Levels",
+            "validation-key": "p19"
+        },
+        "p27": {
+            "description": "27 pressure levels",
+            "ui-label": "27 Pressure Levels",
+            "validation-key": "p27"
+        },
+        "p3": {
+            "description": "3 pressure levels",
+            "ui-label": "3 Pressure Levels",
+            "validation-key": "p3"
+        },
+        "p39": {
+            "description": "39 pressure levels",
+            "ui-label": "39 Pressure Levels",
+            "validation-key": "p39"
+        },
+        "p4": {
+            "description": "4 pressure levels",
+            "ui-label": "4 Pressure Levels",
+            "validation-key": "p4"
+        },
+        "p5u": {
+            "description": "5 pressure levels²",
+            "ui-label": "5 Pressure Levels",
+            "validation-key": "p5u"
+        },
+        "p6": {
+            "description": "6 pressure levels²",
+            "ui-label": "6 Pressure Levels",
+            "validation-key": "p6"
+        },
+        "p7c": {
+            "description": "7 pressure levels",
+            "ui-label": "7 Pressure Levels (Climate)",
+            "validation-key": "p7c"
+        },
+        "p7h": {
+            "description": "7 pressure levels",
+            "ui-label": "7 Pressure Levels (High)",
+            "validation-key": "p7h"
+        },
+        "p8": {
+            "description": "8 pressure levels",
+            "ui-label": "8 Pressure Levels",
+            "validation-key": "p8"
+        },
+        "rho": {
+            "description": "density surface",
+            "ui-label": "Density Surface",
+            "validation-key": "rho"
+        },
+        "sl": {
+            "description": "model soil levels",
+            "ui-label": "Model Soil Levels",
+            "validation-key": "sl"
+        },
+        "u": {
+            "description": "unspecified (no vertical dimension)",
+            "ui-label": "Unspecified Vertical Dimension",
+            "validation-key": "u"
+        }
+    }
+}

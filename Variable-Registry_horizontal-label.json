@@ -1,0 +1,44 @@
+{
+    "Header": {
+        "file": "Variable-Registry_horizontal-label.json",
+        "file_creation_date": "2025-08-18T16:38:49.803521",
+        "version": "fatal: No names found, cannot describe anything.",
+        "checksum": "md5: c7eed5ecf85ccf743ca2a18e93802185",
+        "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
+        "repo_prefix": "vr",
+        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "comment": "This is an automatically generated file. Do not edit."
+    },
+    "horizontal-label": {
+        "hm": {
+            "description": "horizontal mean",
+            "ui-label": "Horizontal Mean",
+            "validation-key": "hm"
+        },
+        "ht": {
+            "description": "mean across labeled areas or mean along a line",
+            "ui-label": "Mean Along Line",
+            "validation-key": "ht"
+        },
+        "hxy": {
+            "description": "gridded",
+            "ui-label": "Gridded Horizontal",
+            "validation-key": "hxy"
+        },
+        "hxys": {
+            "description": "site values",
+            "ui-label": "Site Values",
+            "validation-key": "hxys"
+        },
+        "hy": {
+            "description": "zonal mean",
+            "ui-label": "Zonal Mean",
+            "validation-key": "hy"
+        },
+        "hybs": {
+            "description": "zonal mean within a basin",
+            "ui-label": "Zonal Mean Within Basin",
+            "validation-key": "hybs"
+        }
+    }
+}
