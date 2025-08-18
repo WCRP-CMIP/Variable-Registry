@@ -3,9 +3,10 @@ name: Deploy static content to Pages
 on:
   workflow_dispatch:
   # Uncomment to trigger on push to the production branch as well
-  # push:
-  #   branches: 
-  #     - "production"
+  push:
+    branches: ["production"]
+    paths:
+      - 'src-data/**'
 
 permissions:
   contents: read
