@@ -1,0 +1,31 @@
+name: Build Documentation
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Force deployment even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build and Deploy Documentation
+        uses: WCRP-CMIP/CMIP-LD/actions/build-docs@main
+        with:
+          source_branch: main
+          target_branch: production
+          config_file: '.src/mkdocs/mkdocs.yml'
+          docs_dir: 'docs'
+          force_deploy: ${{ github.event.inputs.force_deploy || 'false' }}
