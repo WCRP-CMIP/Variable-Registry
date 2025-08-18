@@ -1,6 +1,5 @@
 {
     "id": "amn-twm",
-    "validation-key": "amn-twm",
     "ui-label": "Area and Time Mean",
     "description": "area: time: mean",
     "mask": "",

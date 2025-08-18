@@ -1,6 +1,5 @@
 {
     "id": "tas_tavg-u-hxy-u",
-    "validation-key": "tas_tavg-u-hxy-u",
     "ui-label": "Hourly Temperature at Surface",
     "description": "Hourly Temperature at 2m above the surface",
     "area-label": "u",

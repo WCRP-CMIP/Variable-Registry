@@ -1,0 +1,54 @@
+{
+    "Header": {
+        "file": "Variable-Registry_temporal-label.json",
+        "file_creation_date": "2025-08-18T16:38:48.981199",
+        "version": "fatal: No names found, cannot describe anything.",
+        "checksum": "md5: 3a03445e831a029225846e0f5ebf3e70",
+        "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
+        "repo_prefix": "vr",
+        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "comment": "This is an automatically generated file. Do not edit."
+    },
+    "temporal-label": {
+        "tavg": {
+            "description": "mean",
+            "ui-label": "Mean Statistic",
+            "validation-key": "tavg"
+        },
+        "tclm": {
+            "description": "annual cycle climatology",
+            "ui-label": "Annual Climatology",
+            "validation-key": "tclm"
+        },
+        "tclmdc": {
+            "description": "diurnal cycle climatology",
+            "ui-label": "Diurnal Climatology",
+            "validation-key": "tclmdc"
+        },
+        "ti": {
+            "description": "time independent",
+            "ui-label": "Time Independent",
+            "validation-key": "ti"
+        },
+        "tmaxstat": {
+            "description": "maximum (or mean of daily maxima) statistic",
+            "ui-label": "Maximum Statistic",
+            "validation-key": "tmaxstat"
+        },
+        "tmin": {
+            "description": "minimum (or mean of daily minima)",
+            "ui-label": "Minimum Statistic",
+            "validation-key": "tmin"
+        },
+        "tpt": {
+            "description": "point",
+            "ui-label": "Point in Time",
+            "validation-key": "tpt"
+        },
+        "tsum": {
+            "description": "sum",
+            "ui-label": "Sum Statistic",
+            "validation-key": "tsum"
+        }
+    }
+}
