@@ -1,0 +1,88 @@
+name: Build Documentation
+
+on:
+  push:
+    branches: [ published ]
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Force deployment even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f ".src/mkdocs/requirements.txt" ]; then
+            pip install -r .src/mkdocs/requirements.txt
+          else
+            pip install mkdocs mkdocs-material mkdocs-plotly-plugin
+          fi
+
+      - name: Build documentation
+        run: |
+          mkdocs build -f .src/mkdocs/mkdocs.yml
+
+      - name: Setup target branch
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          # Create or checkout target branch
+          if git ls-remote --heads origin production | grep -q production; then
+            git fetch origin production
+            git worktree add target-branch origin/production
+          else
+            git worktree add --orphan target-branch production
+          fi
+
+      - name: Deploy to target branch
+        run: |
+          # Find the built site directory
+          if [ -d "site" ]; then
+            SITE_DIR="site"
+          elif [ -d ".src/mkdocs/site" ]; then
+            SITE_DIR=".src/mkdocs/site"
+          else
+            echo "Error: Could not find built site directory"
+            exit 1
+          fi
+          
+          # Clear target and copy new content
+          cd target-branch
+          rm -rf docs/ || true
+          mkdir -p docs/
+          cd ..
+          cp -r "$SITE_DIR"/* target-branch/docs/
+          
+          # Add GitHub Pages files
+          touch target-branch/.nojekyll
+          
+          # Commit and push
+          cd target-branch
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Deploy docs from published - $(date)"
+            git push origin production
+          fi
+
+      - name: Cleanup
+        if: always()
+        run: |
+          git worktree remove target-branch --force || true
