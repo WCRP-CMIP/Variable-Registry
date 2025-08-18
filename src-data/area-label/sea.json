@@ -1,6 +1,5 @@
 {
     "id": "sea",
-    "validation-key": "sea",
     "ui-label": "Sea",
     "description": "sea",
     "@context": "_context_",
