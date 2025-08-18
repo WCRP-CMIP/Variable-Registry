@@ -1,0 +1,17 @@
+_src_path: /Users/daniel.ellis/WIPwork/CMIP-LD/copier/mkdocs
+_commit: HEAD
+_timestamp: '2025-08-18T20:30:03.903375'
+_auto_generated: true
+_script_version: '2.1'
+project_name: Variable Registry Documentation
+repo_name: Variable-Registry
+author_name: Daniel Ellis
+author_email: daniel.ellis@ext.esa.int
+github_username: WCRP-CMIP
+site_url: https://WCRP-CMIP.github.io/Variable-Registry/
+repo_url: https://github.com/WCRP-CMIP/Variable-Registry
+json_data_folder: json_data
+description: Documentation for Variable Registry
+header_color: blue-grey
+generate_static_files: true
+static_files_folder: static_output
