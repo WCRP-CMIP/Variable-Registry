@@ -3,7 +3,7 @@ site_url: https://WCRP-CMIP.github.io/Variable-Registry/
 repo_url: https://github.com/WCRP-CMIP/Variable-Registry
 
 docs_dir: ../../docs
-site_dir: ./site
+site_dir: site
 
 theme:
   name: material
