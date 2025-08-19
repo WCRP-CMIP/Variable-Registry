@@ -4,7 +4,9 @@
         {
             "@base": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
             "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
-            "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
+             "Cf-standard-name": {
+            "@type": "@id",
+            "@context": "https://wcrp-cmip.github.io/CF/standard-name/_context_"
         }
     ],
     "@embed": "@always",
