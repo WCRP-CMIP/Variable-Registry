@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "type": "barpolar",
+      "r": [
+        5,
+        5
+      ],
+      "theta": [
+        0.0,
+        0.0
+      ],
+      "width": [
+        120,
+        120
+      ],
+      "name": "horizontal-label",
+      "text": [
+        "horizontal-label",
+        "horizontal-label"
+      ],
+      "hoverinfo": "text+r",
+      "hovertemplate": "<b>horizontal-label</b><br>Files: 10<extra></extra>",
+      "marker": {
+        "color": [
+          "rgba(70,  102,  178, 0.2)",
+          "rgba(70,  102,  178, 1.0)"
+        ],
+        "line": {
+          "width": 0.5,
+          "color": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "showlegend": false
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Data Content Directory Structure",
+      "font": {
+        "size": 20,
+        "color": "#333333"
+      }
+    },
+    "polar": {
+      "radialaxis": {
+        "visible": true,
+        "range": [
+          0,
+          10.5
+        ],
+        "showticklabels": true,
+        "ticksuffix": " files",
+        "tickangle": 45,
+        "showline": true,
+        "linecolor": "rgba(0,0,0,0.2)"
+      },
+      "angularaxis": {
+        "direction": "clockwise",
+        "showticklabels": true,
+        "tickvals": [
+          0.0
+        ],
+        "ticktext": [
+          "horizontal-label"
+        ],
+        "tickfont": {
+          "size": 12,
+          "weight": "bold"
+        }
+      },
+      "bargap": 0.03
+    },
+    "showlegend": false,
+    "margin": {
+      "l": 60,
+      "r": 60,
+      "t": 80,
+      "b": 60
+    },
+    "paper_bgcolor": "rgba(0,0,0,0)",
+    "plot_bgcolor": "rgba(0,0,0,0)",
+    "autosize": true,
+    "height": 500,
+    "width": 700
+  }
+}

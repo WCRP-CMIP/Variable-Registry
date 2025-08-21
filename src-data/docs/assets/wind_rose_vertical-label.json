@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "type": "barpolar",
+      "r": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        1
+      ],
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "name": "vertical-label",
+      "text": [
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label",
+        "vertical-label"
+      ],
+      "hoverinfo": "text+r",
+      "hovertemplate": "<b>vertical-label</b><br>Files: 46<extra></extra>",
+      "marker": {
+        "color": [
+          "rgba(70,  102,  178, 0.2)",
+          "rgba(70,  102,  178, 0.2888888888888889)",
+          "rgba(70,  102,  178, 0.37777777777777777)",
+          "rgba(70,  102,  178, 0.46666666666666673)",
+          "rgba(70,  102,  178, 0.5555555555555556)",
+          "rgba(70,  102,  178, 0.6444444444444444)",
+          "rgba(70,  102,  178, 0.7333333333333334)",
+          "rgba(70,  102,  178, 0.8222222222222222)",
+          "rgba(70,  102,  178, 0.9111111111111112)",
+          "rgba(70,  102,  178, 1.0)"
+        ],
+        "line": {
+          "width": 0.5,
+          "color": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "showlegend": false
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Data Content Directory Structure",
+      "font": {
+        "size": 20,
+        "color": "#333333"
+      }
+    },
+    "polar": {
+      "radialaxis": {
+        "visible": true,
+        "range": [
+          0,
+          48.300000000000004
+        ],
+        "showticklabels": true,
+        "ticksuffix": " files",
+        "tickangle": 45,
+        "showline": true,
+        "linecolor": "rgba(0,0,0,0.2)"
+      },
+      "angularaxis": {
+        "direction": "clockwise",
+        "showticklabels": true,
+        "tickvals": [
+          0.0
+        ],
+        "ticktext": [
+          "vertical-label"
+        ],
+        "tickfont": {
+          "size": 12,
+          "weight": "bold"
+        }
+      },
+      "bargap": 0.03
+    },
+    "showlegend": false,
+    "margin": {
+      "l": 60,
+      "r": 60,
+      "t": 80,
+      "b": 60
+    },
+    "paper_bgcolor": "rgba(0,0,0,0)",
+    "plot_bgcolor": "rgba(0,0,0,0)",
+    "autosize": true,
+    "height": 500,
+    "width": 700
+  }
+}

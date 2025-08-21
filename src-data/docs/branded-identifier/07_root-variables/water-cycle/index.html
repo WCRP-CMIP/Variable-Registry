@@ -1,0 +1,2934 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://WCRP-CMIP.github.io/Variable-Registry/branded-identifier/07_root-variables/water-cycle/">
+      
+      
+        <link rel="prev" href="../temperature/">
+      
+      
+        <link rel="next" href="../../08_components/area-label/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>Water Cycle - Variable Registry Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#water-cycle-variables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Variable Registry Documentation" class="md-header__button md-logo" aria-label="Variable Registry Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/_doclogo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Variable Registry Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Water Cycle
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/WCRP-CMIP/Variable-Registry" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Variable Registry Documentation" class="md-nav__button md-logo" aria-label="Variable Registry Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/_doclogo.svg" alt="logo">
+
+    </a>
+    Variable Registry Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/WCRP-CMIP/Variable-Registry" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Branded Identifier:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Branded Identifier:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-what-is-branded-identifier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What Is Branded Identifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-why-we-need-this/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why We Need This
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-root-variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Root Variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    How To Construct:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            How To Construct:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_How%20to%20Construct/01_general_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_How%20to%20Construct/examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_How%20to%20Construct/patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Patterns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Root Variables:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Root Variables:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_what_is_a_root_variable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What Is A Root Variable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../temperature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temperature
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Water Cycle
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Water Cycle
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Precipitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#total-precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Precipitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precipitation-by-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation by Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precipitation-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation Properties
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaporation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaporation &amp; Humidity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaporation &amp; Humidity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evapotranspiration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evapotranspiration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atmospheric-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atmospheric Humidity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-vapor-transport" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Vapor Transport
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hydrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soil &amp; Hydrology
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Soil &amp; Hydrology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#soil-moisture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soil Moisture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-water-runoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surface Water &amp; Runoff
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#groundwater-deep-hydrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groundwater &amp; Deep Hydrology
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection Guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selection Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decision-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decision Tree
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Applications
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physical Relationships
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physical Relationships">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#water-cycle-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Cycle Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-balance-equation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Balance Equation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units-and-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Units and Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Units and Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard Units
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cf-standard-names" class="md-nav__link">
+    <span class="md-ellipsis">
+      CF Standard Names
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#typical-value-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Typical Value Ranges
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-quality-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Quality Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Quality Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measurement-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurement Challenges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browse-specific-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browse Specific Variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Components:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Components:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_components/area-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Area Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_components/component-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Component Examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_components/horizontal-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horizontal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_components/temporal-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temporal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Repository Contents:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Repository Contents:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Available Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/area-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Area Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/cell-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cell Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/cmip6-mip-table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cmip6 Mip Table
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/coordinate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coordinate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/data-request/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Request
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/dimension/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dimension
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/horizontal-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horizontal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/temporal-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temporal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/variable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/variable-root/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variable Root
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../src-data-docs/vertical-label/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vertical Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Summary of Data:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Summary of Data:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_area-label_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Area Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_cell-method_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cell Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_cmip6-mip-table_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cmip6 Mip Table
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_coordinate_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coordinate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_dimension_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dimension
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_horizontal-label_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horizontal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_temporal-label_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temporal Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_variable_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_variable-root_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variable Root
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../data-summaries/Variable-Registry_vertical-label_detailed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vertical Label
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Additional Resources:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Additional Resources:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliary/acknowledgements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acknowledgements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliary/how_to_use_this/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How To Use This
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliary/statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    External Links:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            External Links:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.wcrp-cmip.org" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CMIP Website
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Repository:
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Repository:
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/WCRP-CMIP/Variable-Registry" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub Repository
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/WCRP-CMIP/Variable-Registry/issues" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Add a new Content/Issue/Discussion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Precipitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#total-precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Precipitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precipitation-by-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation by Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precipitation-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precipitation Properties
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaporation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaporation &amp; Humidity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaporation &amp; Humidity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evapotranspiration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evapotranspiration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atmospheric-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atmospheric Humidity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-vapor-transport" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Vapor Transport
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hydrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soil &amp; Hydrology
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Soil &amp; Hydrology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#soil-moisture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soil Moisture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-water-runoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surface Water &amp; Runoff
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#groundwater-deep-hydrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groundwater &amp; Deep Hydrology
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection Guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selection Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decision-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decision Tree
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Applications
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physical Relationships
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physical Relationships">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#water-cycle-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Cycle Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-balance-equation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Balance Equation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units-and-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Units and Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Units and Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard Units
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cf-standard-names" class="md-nav__link">
+    <span class="md-ellipsis">
+      CF Standard Names
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#typical-value-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Typical Value Ranges
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-quality-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Quality Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Quality Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measurement-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurement Challenges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browse-specific-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browse Specific Variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="water-cycle-variables">Water Cycle Variables 🌧️</h1>
+<p>Water cycle variables represent the movement and storage of water through the Earth system, including precipitation, evaporation, humidity, and soil moisture.</p>
+<p><a class="md-button md-button--primary" href="https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/variable-root">Browse Water Cycle Variables on GitHub</a></p>
+<h2 id="precipitation">Precipitation</h2>
+<h3 id="total-precipitation">Total Precipitation</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>pr</code></strong></td>
+<td>Precipitation Rate</td>
+<td>Total precipitation (liquid + solid)</td>
+<td>Climate monitoring, water resources</td>
+</tr>
+<tr>
+<td><strong><code>prtot</code></strong></td>
+<td>Total Precipitation Amount</td>
+<td>Accumulated precipitation over period</td>
+<td>Hydrological analysis, extremes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>pr_tavg-u-hxy-u         → Monthly mean precipitation rate
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pr_tsum-u-hxy-u         → Monthly total precipitation amount
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>pr_tmax-u-hxy-u         → Daily maximum precipitation rate
+</code></pre></div></p>
+<h3 id="precipitation-by-type">Precipitation by Type</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>prc</code></strong></td>
+<td>Convective Precipitation Rate</td>
+<td>Precipitation from convection/thunderstorms</td>
+<td>Weather forecasting, extremes</td>
+</tr>
+<tr>
+<td><strong><code>prl</code></strong></td>
+<td>Large Scale Precipitation Rate</td>
+<td>Stratiform/large-scale precipitation</td>
+<td>Climate modeling, regional studies</td>
+</tr>
+<tr>
+<td><strong><code>prsn</code></strong></td>
+<td>Snowfall Rate</td>
+<td>Solid precipitation only</td>
+<td>Snow hydrology, winter climate</td>
+</tr>
+<tr>
+<td><strong><code>prra</code></strong></td>
+<td>Rainfall Rate</td>
+<td>Liquid precipitation only</td>
+<td>Tropical meteorology, flooding</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>prc_tavg-u-hxy-u        → Monthly mean convective precipitation
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>prsn_tavg-u-hxy-u       → Monthly mean snowfall rate
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>prra_tmax-u-hxy-u       → Daily maximum rainfall rate
+</code></pre></div></p>
+<h3 id="precipitation-properties">Precipitation Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>prhmax</code></strong></td>
+<td>Maximum Hourly Precipitation Rate</td>
+<td>Peak hourly precipitation intensity</td>
+<td>Flash flood analysis, urban drainage</td>
+</tr>
+<tr>
+<td><strong><code>pr1h</code></strong></td>
+<td>1-Hour Precipitation Rate</td>
+<td>Precipitation rate in 1-hour periods</td>
+<td>Weather warnings, infrastructure</td>
+</tr>
+<tr>
+<td><strong><code>pr3h</code></strong></td>
+<td>3-Hour Precipitation Rate</td>
+<td>3-hourly precipitation accumulation</td>
+<td>Operational meteorology</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>prhmax_tmax-u-hxy-u     → Daily maximum hourly precipitation
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>pr1h_tavg-u-hxy-u       → Mean 1-hour precipitation rates
+</code></pre></div></p>
+<h2 id="evaporation">Evaporation &amp; Humidity</h2>
+<h3 id="evapotranspiration">Evapotranspiration</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>evspsbl</code></strong></td>
+<td>Evaporation Including Sublimation</td>
+<td>Total evapotranspiration from surface</td>
+<td>Water balance, drought monitoring</td>
+</tr>
+<tr>
+<td><strong><code>evspsblsoi</code></strong></td>
+<td>Water Evaporation from Soil</td>
+<td>Bare soil evaporation</td>
+<td>Land surface modeling, irrigation</td>
+</tr>
+<tr>
+<td><strong><code>evspsblveg</code></strong></td>
+<td>Evaporation from Canopy</td>
+<td>Plant transpiration + canopy evaporation</td>
+<td>Ecosystem studies, agriculture</td>
+</tr>
+<tr>
+<td><strong><code>evspsblpot</code></strong></td>
+<td>Potential Evapotranspiration</td>
+<td>Atmospheric evaporative demand</td>
+<td>Drought indices, irrigation planning</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>evspsbl_tavg-lnd-hxy-u  → Monthly mean total evapotranspiration
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a>evspsblsoi_tavg-lnd-hxy-u → Monthly mean soil evaporation
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a>evspsblpot_tavg-u-hxy-u → Monthly potential evapotranspiration
+</code></pre></div></p>
+<h3 id="atmospheric-humidity">Atmospheric Humidity</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>hus</code></strong></td>
+<td>Specific Humidity</td>
+<td>Mass of water vapor per unit mass air</td>
+<td>Upper-air analysis, moisture transport</td>
+</tr>
+<tr>
+<td><strong><code>hurs</code></strong></td>
+<td>Relative Humidity</td>
+<td>Percentage humidity relative to saturation</td>
+<td>Weather analysis, human comfort</td>
+</tr>
+<tr>
+<td><strong><code>huss</code></strong></td>
+<td>Near-Surface Specific Humidity</td>
+<td>Specific humidity at ~2m height</td>
+<td>Surface meteorology, validation</td>
+</tr>
+<tr>
+<td><strong><code>prw</code></strong></td>
+<td>Precipitable Water</td>
+<td>Total atmospheric water vapor column</td>
+<td>Weather forecasting, climate monitoring</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>hus_tavg-al-hxy-air     → Monthly mean specific humidity profile
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>hurs_tavg-h2m-hxy-u     → Monthly mean relative humidity at 2m  
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>prw_tavg-u-hxy-u        → Monthly mean precipitable water
+</code></pre></div></p>
+<h3 id="water-vapor-transport">Water Vapor Transport</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>uq</code></strong></td>
+<td>Eastward Water Vapor Flux</td>
+<td>Horizontal moisture transport (eastward)</td>
+<td>Monsoon studies, moisture budgets</td>
+</tr>
+<tr>
+<td><strong><code>vq</code></strong></td>
+<td>Northward Water Vapor Flux</td>
+<td>Horizontal moisture transport (northward)</td>
+<td>Atmospheric rivers, water cycle</td>
+</tr>
+<tr>
+<td><strong><code>wq</code></strong></td>
+<td>Upward Water Vapor Flux</td>
+<td>Vertical moisture transport</td>
+<td>Convection studies, cloud formation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>uq_tavg-al-hxy-air      → Monthly mean eastward moisture transport
+<a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a>vq_tavg-al-hxy-air      → Monthly mean northward moisture transport
+</code></pre></div></p>
+<h2 id="hydrology">Soil &amp; Hydrology</h2>
+<h3 id="soil-moisture">Soil Moisture</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>mrso</code></strong></td>
+<td>Total Soil Moisture Content</td>
+<td>Total water in entire soil column</td>
+<td>Drought monitoring, agriculture</td>
+</tr>
+<tr>
+<td><strong><code>mrsol</code></strong></td>
+<td>Moisture in Upper Portion of Soil Column</td>
+<td>Soil moisture in specific layers</td>
+<td>Root zone analysis, irrigation</td>
+</tr>
+<tr>
+<td><strong><code>mrsos</code></strong></td>
+<td>Moisture in Upper 10cm of Soil Column</td>
+<td>Surface soil moisture</td>
+<td>Satellite validation, land-atmosphere coupling</td>
+</tr>
+<tr>
+<td><strong><code>mrro</code></strong></td>
+<td>Total Runoff</td>
+<td>Surface + subsurface water flow</td>
+<td>River discharge, flood forecasting</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>mrso_tavg-lnd-hxy-u     → Monthly mean total soil moisture
+<a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a>mrsos_tavg-lnd-hxy-u    → Monthly mean surface soil moisture  
+<a href="#__codelineno-6-3" id="__codelineno-6-3" name="__codelineno-6-3"></a>mrro_tavg-lnd-hxy-u     → Monthly mean total runoff
+</code></pre></div></p>
+<h3 id="surface-water-runoff">Surface Water &amp; Runoff</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>mrros</code></strong></td>
+<td>Surface Runoff</td>
+<td>Water flow over land surface</td>
+<td>Flash flood studies, erosion</td>
+</tr>
+<tr>
+<td><strong><code>mrrob</code></strong></td>
+<td>Subsurface Runoff</td>
+<td>Groundwater discharge to rivers</td>
+<td>Baseflow analysis, water resources</td>
+</tr>
+<tr>
+<td><strong><code>rzwc</code></strong></td>
+<td>Root Zone Water Content</td>
+<td>Water available to plant roots</td>
+<td>Crop modeling, ecosystem studies</td>
+</tr>
+<tr>
+<td><strong><code>tws</code></strong></td>
+<td>Terrestrial Water Storage</td>
+<td>Total water stored on land</td>
+<td>GRACE satellite validation, water cycle</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>mrros_tavg-lnd-hxy-u    → Monthly mean surface runoff
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a>mrrob_tavg-lnd-hxy-u    → Monthly mean subsurface runoff
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a>tws_tavg-lnd-hxy-u      → Monthly mean terrestrial water storage
+</code></pre></div></p>
+<h3 id="groundwater-deep-hydrology">Groundwater &amp; Deep Hydrology</h3>
+<table>
+<thead>
+<tr>
+<th>Root ID</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Common Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>wtd</code></strong></td>
+<td>Water Table Depth</td>
+<td>Depth to groundwater table</td>
+<td>Groundwater studies, well planning</td>
+</tr>
+<tr>
+<td><strong><code>qgwr</code></strong></td>
+<td>Groundwater Recharge Rate</td>
+<td>Rate of groundwater replenishment</td>
+<td>Water resource management</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Identifiers</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a>wtd_tavg-lnd-hxy-u      → Monthly mean water table depth
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a>qgwr_tavg-lnd-hxy-u     → Monthly mean groundwater recharge
+</code></pre></div></p>
+<h2 id="selection-guide">Selection Guide</h2>
+<h3 id="decision-tree">Decision Tree</h3>
+<pre class="mermaid"><code>flowchart TD
+    A[Need Water Cycle Variable?] --&gt; B{Which process?}
+
+    B --&gt;|Precipitation| C{Which type?}
+    B --&gt;|Evaporation| D{From where?}
+    B --&gt;|Humidity| E{Which form?}
+    B --&gt;|Soil Water| F{Which layer?}
+    B --&gt;|Runoff| G{Surface or subsurface?}
+
+    C --&gt;|Total| H[pr - Total precipitation&lt;br/&gt;prtot - Accumulated total]
+    C --&gt;|By source| I[prc - Convective&lt;br/&gt;prl - Large scale]  
+    C --&gt;|By phase| J[prsn - Snow&lt;br/&gt;prra - Rain only]
+
+    D --&gt;|Total| K[evspsbl - Total evapotranspiration]
+    D --&gt;|Soil only| L[evspsblsoi - Soil evaporation]
+    D --&gt;|Plants| M[evspsblveg - Plant transpiration]
+
+    E --&gt;|Mass-based| N[hus - Specific humidity&lt;br/&gt;prw - Column water vapor]
+    E --&gt;|Relative| O[hurs - Relative humidity]
+    E --&gt;|Transport| P[uq, vq - Moisture flux]
+
+    F --&gt;|Total column| Q[mrso - Total soil moisture]
+    F --&gt;|Surface layer| R[mrsos - Surface 10cm]
+    F --&gt;|Root zone| S[rzwc - Root zone water]
+
+    G --&gt;|Surface| T[mrros - Surface runoff]
+    G --&gt;|Subsurface| U[mrrob - Baseflow]
+    G --&gt;|Combined| V[mrro - Total runoff]
+
+    style H fill:#e3f2fd
+    style K fill:#e0f2f1
+    style N fill:#e8f5e8
+    style Q fill:#fff3e0
+    style T fill:#f3e5f5</code></pre>
+<h3 id="common-applications">Common Applications</h3>
+<p><strong>Drought Monitoring</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a>pr_tavg-u-hxy-u         → Precipitation deficits
+<a href="#__codelineno-9-2" id="__codelineno-9-2" name="__codelineno-9-2"></a>evspsblpot_tavg-u-hxy-u → Atmospheric demand
+<a href="#__codelineno-9-3" id="__codelineno-9-3" name="__codelineno-9-3"></a>mrso_tavg-lnd-hxy-u     → Soil moisture status
+</code></pre></div></p>
+<p><strong>Flood Forecasting</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a>pr_tmax-u-hxy-u         → Extreme precipitation events
+<a href="#__codelineno-10-2" id="__codelineno-10-2" name="__codelineno-10-2"></a>mrros_tavg-lnd-hxy-u    → Surface runoff generation
+<a href="#__codelineno-10-3" id="__codelineno-10-3" name="__codelineno-10-3"></a>mrro_tavg-lnd-hxy-u     → Total runoff to rivers
+</code></pre></div></p>
+<p><strong>Agricultural Applications</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a>pr_tsum-u-hxy-u         → Growing season precipitation
+<a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a>evspsbl_tavg-lnd-hxy-u  → Crop water use
+<a href="#__codelineno-11-3" id="__codelineno-11-3" name="__codelineno-11-3"></a>mrsos_tavg-lnd-hxy-u    → Surface soil moisture
+</code></pre></div></p>
+<p><strong>Climate Studies</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a>prw_tavg-u-hxy-u        → Atmospheric water vapor trends
+<a href="#__codelineno-12-2" id="__codelineno-12-2" name="__codelineno-12-2"></a>hus_tavg-al-hxy-air     → Humidity profile changes
+<a href="#__codelineno-12-3" id="__codelineno-12-3" name="__codelineno-12-3"></a>evspsbl_tavg-lnd-hxy-u  → Evapotranspiration changes
+</code></pre></div></p>
+<h2 id="physical-relationships">Physical Relationships</h2>
+<h3 id="water-cycle-components">Water Cycle Components</h3>
+<pre class="mermaid"><code>graph TD
+    A[Atmospheric Water Vapor&lt;br/&gt;prw, hus, hurs] --&gt; B[Precipitation&lt;br/&gt;pr, prc, prsn]
+
+    B --&gt; C[Surface Water]
+    C --&gt; D[Soil Moisture&lt;br/&gt;mrso, mrsos]
+    C --&gt; E[Runoff&lt;br/&gt;mrros, mrrob]
+
+    D --&gt; F[Evapotranspiration&lt;br/&gt;evspsbl, evspsblsoi]
+    F --&gt; A
+
+    D --&gt; G[Groundwater&lt;br/&gt;wtd, qgwr]
+    G --&gt; E
+
+    style A fill:#e3f2fd
+    style B fill:#e0f2f1
+    style D fill:#e8f5e8
+    style F fill:#fff3e0
+    style E fill:#f3e5f5</code></pre>
+<h3 id="water-balance-equation">Water Balance Equation</h3>
+<p><strong>Surface Water Balance</strong>:
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-13-1" id="__codelineno-13-1" name="__codelineno-13-1"></a>P - E - R - ΔS = 0
+<a href="#__codelineno-13-2" id="__codelineno-13-2" name="__codelineno-13-2"></a>
+<a href="#__codelineno-13-3" id="__codelineno-13-3" name="__codelineno-13-3"></a>Where:
+<a href="#__codelineno-13-4" id="__codelineno-13-4" name="__codelineno-13-4"></a>P = Precipitation (pr)
+<a href="#__codelineno-13-5" id="__codelineno-13-5" name="__codelineno-13-5"></a>E = Evapotranspiration (evspsbl)  
+<a href="#__codelineno-13-6" id="__codelineno-13-6" name="__codelineno-13-6"></a>R = Runoff (mrro)
+<a href="#__codelineno-13-7" id="__codelineno-13-7" name="__codelineno-13-7"></a>ΔS = Change in soil moisture (mrso)
+</code></pre></div></p>
+<h2 id="units-and-standards">Units and Standards</h2>
+<h3 id="standard-units">Standard Units</h3>
+<ul>
+<li><strong>Precipitation rates</strong>: kg m⁻² s⁻¹ (equivalent to mm/s)</li>
+<li><strong>Humidity</strong>: kg kg⁻¹ (specific) or % (relative)</li>
+<li><strong>Soil moisture</strong>: kg m⁻² (column water equivalent)</li>
+<li><strong>Precipitable water</strong>: kg m⁻² (column total)</li>
+</ul>
+<h3 id="cf-standard-names">CF Standard Names</h3>
+<table>
+<thead>
+<tr>
+<th>Root Variable</th>
+<th>CF Standard Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pr</code></td>
+<td><code>precipitation_flux</code></td>
+</tr>
+<tr>
+<td><code>evspsbl</code></td>
+<td><code>water_evapotranspiration_flux</code></td>
+</tr>
+<tr>
+<td><code>hus</code></td>
+<td><code>specific_humidity</code></td>
+</tr>
+<tr>
+<td><code>mrso</code></td>
+<td><code>soil_moisture_content</code></td>
+</tr>
+<tr>
+<td><code>prw</code></td>
+<td><code>atmosphere_mass_content_of_water_vapor</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="typical-value-ranges">Typical Value Ranges</h3>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Global Range</th>
+<th>Typical Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pr</code></td>
+<td>0-0.01 kg m⁻² s⁻¹</td>
+<td>0-300 mm/month</td>
+</tr>
+<tr>
+<td><code>hurs</code></td>
+<td>0-100%</td>
+<td>30-90% typical</td>
+</tr>
+<tr>
+<td><code>prw</code></td>
+<td>0-80 kg m⁻²</td>
+<td>10-60 mm column</td>
+</tr>
+<tr>
+<td><code>mrso</code></td>
+<td>0-1000 kg m⁻²</td>
+<td>100-500 mm</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-quality-considerations">Data Quality Considerations</h2>
+<h3 id="measurement-challenges">Measurement Challenges</h3>
+<ul>
+<li><strong>Precipitation</strong>: Gauge undercatch, spatial variability</li>
+<li><strong>Evaporation</strong>: Direct measurement difficulty, energy balance closure</li>
+<li><strong>Soil moisture</strong>: Depth representation, spatial heterogeneity  </li>
+<li><strong>Humidity</strong>: Sensor calibration, temperature dependence</li>
+</ul>
+<h3 id="validation-methods">Validation Methods</h3>
+<ul>
+<li><strong>Water balance closure</strong>: P - E - R - ΔS = 0</li>
+<li><strong>Energy balance</strong>: Available energy = sensible + latent heat</li>
+<li><strong>Multi-platform comparison</strong>: Satellite vs. ground observations</li>
+<li><strong>Model validation</strong>: Process-based evaluation</li>
+</ul>
+<h2 id="browse-specific-variables">Browse Specific Variables</h2>
+<p><a class="md-button" href="https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/variable-root">Search GitHub for water cycle variables</a></p>
+<p><strong>Quick searches</strong>:
+- <strong>Precipitation</strong>: Look for <code>pr.json</code>, <code>prc.json</code>, <code>prsn.json</code>
+- <strong>Evaporation</strong>: Find <code>evspsbl*.json</code> files
+- <strong>Humidity</strong>: Search <code>hus.json</code>, <code>hurs.json</code>, <code>prw.json</code>
+- <strong>Soil moisture</strong>: Look for <code>mrs*.json</code>, <code>mrr*.json</code></p>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><a href="../temperature/">← Temperature &amp; Energy</a></li>
+<li><a href="dynamics.md">Atmospheric Dynamics →</a></li>
+<li><a href="land-ecosystems.md">Land &amp; Ecosystems →</a></li>
+<li><a href="index.md">← Root Variables Overview</a></li>
+</ul>
+<hr/>
+<p><em>Water cycle variables are essential for understanding hydrological processes, drought, flooding, and water resource management. Choose based on the specific water cycle component and process you need to represent.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <!-- Clean Footer Template - No embedded CSS/JS -->
+<footer class="md-footer">
+    
+      
+        
+        <nav class="md-footer__inner md-grid" aria-label="Footer" >
+          
+            
+            <a href="../temperature/" class="md-footer__link md-footer__link--prev" rel="prev">
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+              </div>
+              <div class="md-footer__title">
+                <span class="md-footer__direction">Previous</span>
+                <div class="md-ellipsis">Temperature</div>
+              </div>
+            </a>
+          
+          
+            
+            <a href="../../08_components/area-label/" class="md-footer__link md-footer__link--next" rel="next">
+              <div class="md-footer__title">
+                <span class="md-footer__direction">Next</span>
+                <div class="md-ellipsis">Area Label</div>
+              </div>
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+              </div>
+            </a>
+          
+        </nav>
+      
+    
+    
+    
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.suggest", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.instant.progress"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+        <script src="../../../scripts/embed.js"></script>
+      
+    
+  </body>
+</html>

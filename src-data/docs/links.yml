@@ -1,0 +1,27 @@
+# Custom Links Configuration
+# Add your external links and custom menu items here
+
+links:
+  # Root-level links (appear directly under the section)
+  - title: "CMIP Website"
+    url: "https://www.wcrp-cmip.org"
+    description: "Official CMIP website"
+
+  # Categorized links (grouped under subsections)
+  - title: "GitHub Repository"
+    url: "https://github.com/WCRP-CMIP/Variable-Registry"
+    category: "Repository"
+    description: "Source code repository"
+  
+  - title: "Add a new Content/Issue/Discussion"
+    url: "https://github.com/WCRP-CMIP/Variable-Registry/issues"
+    category: "Repository"
+    description: "Source code repository"
+
+  
+
+# Format guidelines:
+# - title: Required - Display name for the link
+# - url: Required - Target URL
+# - category: Optional - Groups links under subsections  
+# - description: Optional - For documentation purposes (not displayed)
