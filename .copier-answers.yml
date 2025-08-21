@@ -1,6 +1,6 @@
 _src_path: /Users/daniel.ellis/WIPwork/CMIP-LD/copier/mkdocs
 _commit: HEAD
-_timestamp: '2025-08-19T12:02:59.887658'
+_timestamp: '2025-08-20T17:48:03.063912'
 _auto_generated: true
 _script_version: '2.1'
 project_name: Variable Registry Documentation
@@ -12,6 +12,6 @@ site_url: https://WCRP-CMIP.github.io/Variable-Registry/
 repo_url: https://github.com/WCRP-CMIP/Variable-Registry
 json_data_folder: json_data
 description: Documentation for Variable Registry
-header_color: deep-orange
+header_color: red
 generate_static_files: true
 static_files_folder: static_output

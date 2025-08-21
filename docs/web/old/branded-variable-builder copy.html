@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMIP Branded Variable Builder</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .structure-info {
+            background: rgba(255,255,255,0.1);
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        .builder-container {
+            padding: 30px;
+        }
+
+        .component-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 25px;
+            align-items: flex-start;
+        }
+
+        .component-group {
+            flex: 1;
+            min-width: 280px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .component-group:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .component-group h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 10px rgba(102,126,234,0.2);
+        }
+
+        select:hover {
+            border-color: #ced4da;
+        }
+
+        .description-box {
+            margin-top: 12px;
+            padding: 12px;
+            background: white;
+            border-radius: 6px;
+            min-height: 70px;
+            font-size: 13px;
+            color: #6c757d;
+            border-left: 4px solid #e9ecef;
+            transition: all 0.3s;
+            line-height: 1.4;
+        }
+
+        .description-box.filled {
+            border-left-color: #28a745;
+            color: #495057;
+            background: #f8fff9;
+        }
+
+        .result-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            color: white;
+            text-align: center;
+        }
+
+        .result-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .branded-identifier {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+            border: 2px solid rgba(255,255,255,0.2);
+            transition: all 0.3s;
+        }
+
+        .branded-identifier:not(:empty) {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.4);
+        }
+
+        .interpretation {
+            font-size: 16px;
+            font-style: italic;
+            margin: 20px 0;
+            line-height: 1.5;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .component-colors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .color-legend {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .color-legend:hover {
+            transform: scale(1.05);
+        }
+
+        .root { background: #e1f5fe; color: #01579b; }
+        .temporal { background: #f3e5f5; color: #4a148c; }
+        .area { background: #e8f5e8; color: #1b5e20; }
+        .horizontal { background: #fff3e0; color: #e65100; }
+        .vertical { background: #fce4ec; color: #880e4f; }
+
+        .reset-button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .reset-button:hover {
+            background: rgba(255,255,255,0.3);
+            border-color: rgba(255,255,255,0.5);
+            transform: translateY(-1px);
+        }
+
+        .examples {
+            margin-top: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+
+        .examples h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+
+        .example-item {
+            margin: 15px 0;
+            padding: 12px;
+            background: white;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .example-code {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .example-desc {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .component-row {
+                flex-direction: column;
+            }
+            
+            .component-group {
+                min-width: auto;
+            }
+            
+            .branded-identifier {
+                font-size: 20px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 CMIP Branded Variable Builder</h1>
+            <p>Interactive tool for constructing standardized climate variable identifiers</p>
+            <div class="structure-info">
+                [Variable Root]_[Temporal Label]-[Area Label]-[Horizontal Label]-[Vertical Label]
+            </div>
+        </div>
+
+        <div class="builder-container">
+            <div class="component-row">
+                <div class="component-group">
+                    <h3>🌡️ Variable Root</h3>
+                    <select id="variableRoot">
+                        <option value="">Select variable root...</option>
+                        <option value="tas" data-description="Near-surface air temperature (typically at 2m height)">tas - Air Temperature (Surface)</option>
+                        <option value="tos" data-description="Sea surface temperature at the ocean surface">tos - Sea Surface Temperature</option>
+                        <option value="pr" data-description="Precipitation flux (rain and snow)">pr - Precipitation</option>
+                        <option value="huss" data-description="Specific humidity at the surface">huss - Specific Humidity</option>
+                        <option value="ta" data-description="Air temperature at various atmospheric levels">ta - Air Temperature (3D)</option>
+                        <option value="ua" data-description="Eastward component of wind velocity">ua - Eastward Wind</option>
+                        <option value="clt" data-description="Total cloud area fraction covering the sky">clt - Cloud Fraction</option>
+                        <option value="mrso" data-description="Total water content of soil layer">mrso - Soil Moisture</option>
+                        <option value="siconc" data-description="Sea ice area fraction (concentration)">siconc - Sea Ice Concentration</option>
+                    </select>
+                    <div class="description-box" id="rootDesc">Select a variable root to see its description...</div>
+                </div>
+
+                <div class="component-group">
+                    <h3>⏰ Temporal Label</h3>
+                    <select id="temporalLabel">
+                        <option value="">Select temporal method...</option>
+                        <option value="tavg" data-description="Mean value averaged over time">tavg - Time Average</option>
+                        <option value="tclm" data-description="Annual cycle climatology (monthly means over years)">tclm - Annual Climatology</option>
+                        <option value="tclmdc" data-description="Diurnal cycle climatology (hourly means over days)">tclmdc - Diurnal Climatology</option>
+                        <option value="ti" data-description="Time independent data (constant values)">ti - Time Independent</option>
+                        <option value="tmaxstat" data-description="Maximum value or mean of daily maxima">tmaxstat - Maximum Statistic</option>
+                        <option value="tmin" data-description="Minimum value or mean of daily minima">tmin - Minimum Statistic</option>
+                        <option value="tpt" data-description="Instantaneous point in time">tpt - Point in Time</option>
+                        <option value="tsum" data-description="Sum accumulated over time">tsum - Time Sum</option>
+                    </select>
+                    <div class="description-box" id="temporalDesc">Select a temporal method to see its description...</div>
+                </div>
+            </div>
+
+            <div class="component-row">
+                <div class="component-group">
+                    <h3>🌍 Area Label</h3>
+                    <select id="areaLabel">
+                        <option value="">Select area type...</option>
+                        <option value="air" data-description="Over atmospheric air region">air - Air</option>
+                        <option value="sea" data-description="Over ocean/sea water surface">sea - Sea</option>
+                        <option value="lnd" data-description="Over land surface area">lnd - Land</option>
+                        <option value="si" data-description="Over sea ice covered region">si - Sea Ice</option>
+                        <option value="cl" data-description="Over cloud-covered region">cl - Cloud</option>
+                        <option value="veg" data-description="Over vegetated land surface">veg - Vegetation</option>
+                        <option value="sn" data-description="Over snow-covered surface">sn - Snow</option>
+                        <option value="u" data-description="Unmasked - no specific area restriction">u - Unmasked</option>
+                        <option value="tree" data-description="Over tree/forest covered areas">tree - Trees</option>
+                        <option value="crp" data-description="Over agricultural crop areas">crp - Crops</option>
+                        <option value="ng" data-description="Over natural grassland areas">ng - Natural Grasses</option>
+                        <option value="pst" data-description="Over pasture land used for grazing">pst - Pastures</option>
+                    </select>
+                    <div class="description-box" id="areaDesc">Select an area type to see its description...</div>
+                </div>
+
+                <div class="component-group">
+                    <h3>🗺️ Horizontal Label</h3>
+                    <select id="horizontalLabel">
+                        <option value="">Select horizontal processing...</option>
+                        <option value="hxy" data-description="Gridded horizontal data (latitude-longitude grid)">hxy - Gridded</option>
+                        <option value="hm" data-description="Mean value over the entire horizontal domain">hm - Horizontal Mean</option>
+                        <option value="hy" data-description="Zonal mean (averaged along longitude)">hy - Zonal Mean</option>
+                        <option value="ht" data-description="Mean along a specific line or across labeled areas">ht - Line/Area Mean</option>
+                        <option value="hxys" data-description="Site-specific point measurements">hxys - Site Values</option>
+                        <option value="hybs" data-description="Zonal mean calculated within an ocean basin">hybs - Basin Zonal Mean</option>
+                    </select>
+                    <div class="description-box" id="horizontalDesc">Select horizontal processing to see its description...</div>
+                </div>
+            </div>
+
+            <div class="component-row">
+                <div class="component-group">
+                    <h3>📏 Vertical Label</h3>
+                    <select id="verticalLabel">
+                        <option value="">Select vertical level...</option>
+                        <option value="u" data-description="Unspecified vertical dimension (2D field)">u - Unspecified</option>
+                        <option value="h2m" data-description="At 2 meter height above surface">h2m - 2m Height</option>
+                        <option value="h10m" data-description="At 10 meter height above surface">h10m - 10m Height</option>
+                        <option value="h100m" data-description="At 100 meter height above surface">h100m - 100m Height</option>
+                        <option value="d0m" data-description="At the surface level (depth = 0)">d0m - Surface</option>
+                        <option value="d100m" data-description="At 100 meter depth below surface">d100m - 100m Depth</option>
+                        <option value="al" data-description="Multiple atmospheric model levels">al - Atmosphere Levels</option>
+                        <option value="ol" data-description="Multiple ocean model levels">ol - Ocean Levels</option>
+                        <option value="sl" data-description="Multiple soil model levels">sl - Soil Levels</option>
+                        <option value="500hPa" data-description="At 500 hectoPascal pressure level (~5.5km altitude)">500hPa - 500hPa Level</option>
+                        <option value="850hPa" data-description="At 850 hectoPascal pressure level (~1.5km altitude)">850hPa - 850hPa Level</option>
+                        <option value="1000hPa" data-description="At 1000 hectoPascal pressure level (near surface)">1000hPa - 1000hPa Level</option>
+                    </select>
+                    <div class="description-box" id="verticalDesc">Select a vertical level to see its description...</div>
+                </div>
+            </div>
+
+            <div class="result-section">
+                <h2>🎯 Your Branded Identifier</h2>
+                <div class="component-colors">
+                    <span class="color-legend root">Variable Root</span>
+                    <span class="color-legend temporal">Temporal</span>
+                    <span class="color-legend area">Area</span>
+                    <span class="color-legend horizontal">Horizontal</span>
+                    <span class="color-legend vertical">Vertical</span>
+                </div>
+                <div class="branded-identifier" id="result">Select components above to build your identifier...</div>
+                <div class="interpretation" id="interpretation">Your selection will be interpreted here...</div>
+                <button class="reset-button" onclick="resetBuilder()">🔄 Reset All</button>
+            </div>
+
+            <div class="examples">
+                <h3>📚 Example Branded Identifiers</h3>
+                <div class="example-item">
+                    <div class="example-code">tas_tavg-u-hxy-h2m</div>
+                    <div class="example-desc">Near-surface air temperature, time-averaged, unmasked, gridded, at 2m height</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">tos_tavg-sea-hxy-d0m</div>
+                    <div class="example-desc">Sea surface temperature, time-averaged, over sea, gridded, at surface</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">pr_tsum-u-hxy-u</div>
+                    <div class="example-desc">Precipitation, time-summed, unmasked, gridded, unspecified vertical</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">ua_tavg-air-hy-500hPa</div>
+                    <div class="example-desc">Eastward wind, time-averaged, over air, zonal mean, at 500hPa</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">siconc_tavg-si-hxy-u</div>
+                    <div class="example-desc">Sea ice concentration, time-averaged, over sea ice, gridded, unspecified vertical</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const selectors = {
+            variableRoot: document.getElementById('variableRoot'),
+            temporalLabel: document.getElementById('temporalLabel'),
+            areaLabel: document.getElementById('areaLabel'),
+            horizontalLabel: document.getElementById('horizontalLabel'),
+            verticalLabel: document.getElementById('verticalLabel')
+        };
+
+        const descriptions = {
+            variableRoot: document.getElementById('rootDesc'),
+            temporalLabel: document.getElementById('temporalDesc'),
+            areaLabel: document.getElementById('areaDesc'),
+            horizontalLabel: document.getElementById('horizontalDesc'),
+            verticalLabel: document.getElementById('verticalDesc')
+        };
+
+        const resultElement = document.getElementById('result');
+        const interpretationElement = document.getElementById('interpretation');
+
+        function updateDescription(selectorName, element) {
+            const selectedOption = element.options[element.selectedIndex];
+            const description = selectedOption.getAttribute('data-description');
+            const descBox = descriptions[selectorName];
+            
+            if (description && element.value !== '') {
+                descBox.textContent = description;
+                descBox.classList.add('filled');
+            } else {
+                const defaultText = {
+                    variableRoot: 'Select a variable root to see its description...',
+                    temporalLabel: 'Select a temporal method to see its description...',
+                    areaLabel: 'Select an area type to see its description...',
+                    horizontalLabel: 'Select horizontal processing to see its description...',
+                    verticalLabel: 'Select a vertical level to see its description...'
+                };
+                descBox.textContent = defaultText[selectorName];
+                descBox.classList.remove('filled');
+            }
+            updateResult();
+        }
+
+        function updateResult() {
+            const values = {
+                root: selectors.variableRoot.value,
+                temporal: selectors.temporalLabel.value,
+                area: selectors.areaLabel.value,
+                horizontal: selectors.horizontalLabel.value,
+                vertical: selectors.verticalLabel.value
+            };
+
+            // Build the identifier
+            let identifier = '';
+            let interpretation = '';
+            
+            if (values.root) {
+                identifier = values.root;
+                const rootOption = selectors.variableRoot.options[selectors.variableRoot.selectedIndex];
+                interpretation = rootOption.getAttribute('data-description') || values.root;
+            }
+
+            if (values.temporal) {
+                identifier += '_' + values.temporal;
+                const tempOption = selectors.temporalLabel.options[selectors.temporalLabel.selectedIndex];
+                const tempDesc = tempOption.getAttribute('data-description') || values.temporal;
+                interpretation += ', ' + tempDesc.toLowerCase();
+            }
+
+            if (values.area) {
+                identifier += '-' + values.area;
+                const areaOption = selectors.areaLabel.options[selectors.areaLabel.selectedIndex];
+                const areaDesc = areaOption.getAttribute('data-description') || values.area;
+                interpretation += ', ' + areaDesc.toLowerCase();
+            }
+
+            if (values.horizontal) {
+                identifier += '-' + values.horizontal;
+                const horizOption = selectors.horizontalLabel.options[selectors.horizontalLabel.selectedIndex];
+                const horizDesc = horizOption.getAttribute('data-description') || values.horizontal;
+                interpretation += ', ' + horizDesc.toLowerCase();
+            }
+
+            if (values.vertical) {
+                identifier += '-' + values.vertical;
+                const vertOption = selectors.verticalLabel.options[selectors.verticalLabel.selectedIndex];
+                const vertDesc = vertOption.getAttribute('data-description') || values.vertical;
+                interpretation += ', ' + vertDesc.toLowerCase();
+            }
+
+            // Update display
+            if (identifier) {
+                interpretationElement.textContent = interpretation;
+                
+                // Color-code the identifier
+                let coloredIdentifier = `<span class="root">${values.root}</span>`;
+                if (values.temporal) coloredIdentifier += `_<span class="temporal">${values.temporal}</span>`;
+                if (values.area) coloredIdentifier += `-<span class="area">${values.area}</span>`;
+                if (values.horizontal) coloredIdentifier += `-<span class="horizontal">${values.horizontal}</span>`;
+                if (values.vertical) coloredIdentifier += `-<span class="vertical">${values.vertical}</span>`;
+                
+                resultElement.innerHTML = coloredIdentifier;
+            } else {
+                resultElement.textContent = 'Select components above to build your identifier...';
+                interpretationElement.textContent = 'Your selection will be interpreted here...';
+            }
+        }
+
+        function resetBuilder() {
+            Object.values(selectors).forEach(selector => {
+                selector.selectedIndex = 0;
+                updateDescription(selector.id, selector);
+            });
+            updateResult();
+        }
+
+        // Add event listeners
+        Object.entries(selectors).forEach(([name, selector]) => {
+            selector.addEventListener('change', () => updateDescription(name, selector));
+        });
+
+        // Add some interactive effects
+        document.querySelectorAll('.component-group').forEach(group => {
+            group.addEventListener('mouseenter', () => {
+                group.style.transform = 'translateY(-3px)';
+            });
+            group.addEventListener('mouseleave', () => {
+                group.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Initialize
+        updateResult();
+    </script>
+</body>
+</html>

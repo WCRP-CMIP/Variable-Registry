@@ -7,7 +7,7 @@ site_dir: site
 
 theme:
   name: material
-  logo: assets/CMIP_Icon_CMYK_negative.svg
+  logo: assets/_doclogo.svg
   custom_dir: overrides
   features:
     - navigation.footer
@@ -25,15 +25,15 @@ theme:
   palette: 
     # Palette toggle for light mode
     - scheme: default
-      primary: deep orange
-      accent: deep orange
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: deep orange
-      accent: deep orange
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode

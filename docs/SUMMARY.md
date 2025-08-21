@@ -1,8 +1,27 @@
 - [Home](index.md)
-- Auxilary:
-  - [Acknowledgements](auxilary/acknowledgements.md)
-  - [How To Use This](auxilary/how_to_use_this.md)
-  - [Statistics](auxilary/statistics.md)
+- Branded Identifier:
+  - [What Is Branded Identifier](branded-identifier/01-what-is-branded-identifier.md)
+  - [Why We Need This](branded-identifier/04-why-we-need-this.md)
+  - [Root Variables](branded-identifier/05-root-variables.md)
+  - How To Construct:
+    - [General Structure](branded-identifier/02_How to Construct/01_general_structure.md)
+    - [Examples](branded-identifier/02_How to Construct/examples.md)
+    - [Patterns](branded-identifier/02_How to Construct/patterns.md)
+  - Root Variables:
+    - [What Is A Root Variable](branded-identifier/07_root-variables/01_what_is_a_root_variable.md)
+    - [Temperature](branded-identifier/07_root-variables/temperature.md)
+    - [Water Cycle](branded-identifier/07_root-variables/water-cycle.md)
+  - Components:
+    - [Area Label](branded-identifier/08_components/area-label.md)
+    - [Component Examples](branded-identifier/08_components/component-examples.md)
+    - [Horizontal Label](branded-identifier/08_components/horizontal-label.md)
+    - [Temporal Label](branded-identifier/08_components/temporal-label.md)
+  - Construction:
+    - [Patterns](branded-identifier/construction/patterns.md)
+- Web:
+  - [Branded Variable Builder](web/branded-variable-builder.md)
+  - Old:
+    - [Branded Variable Builder Copy](web/old/branded-variable-builder copy.md)
 - Repository Contents:
   - [Available Files](src-data-docs/index.md)
   - [Area Label](src-data-docs/area-label.md)
@@ -28,6 +47,10 @@
   - [Variable](data-summaries/Variable-Registry_variable_detailed.md)
   - [Variable Root](data-summaries/Variable-Registry_variable-root_detailed.md)
   - [Vertical Label](data-summaries/Variable-Registry_vertical-label_detailed.md)
+- Additional Resources:
+  - [Acknowledgements](auxiliary/acknowledgements.md)
+  - [How To Use This](auxiliary/how_to_use_this.md)
+  - [Statistics](auxiliary/statistics.md)
 - External Links:
   - [CMIP Website](https://www.wcrp-cmip.org)
   - Repository:
