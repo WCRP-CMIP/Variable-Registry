@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMIP Branded Variable Builder</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -211,7 +212,7 @@
             text-align: center;
         }
         .status-loading { background: #e3f2fd; color: #1976d2; }
-        .status-loaded { background: #e8f5e8; color: #1b5e20; }
+        .status-loaded { color: #036afa; }
         .status-error { background: #ffebee; color: #c62828; }
         .examples { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
         .example-item { margin: 8px 0; padding: 8px; background: white; border-radius: 4px; border-left: 3px solid #667eea; }
@@ -226,7 +227,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎯 CMIP Branded Variable Builder</h1>
+            <h1>CMIP Branded Variable Explorer</h1>
             <p>Interactive tool for constructing standardized climate variable identifiers</p>
             <div class="structure-info">
                 [Variable Root]_[Temporal Label]-[Area Label]-[Horizontal Label]-[Vertical Label]
@@ -235,7 +236,7 @@
         <div class="builder-container">
             <div class="components-row">
                 <div class="component-group">
-                    <h4>🌡️ Variable Root</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">thermostat</span> Variable Root</h4>
                     <div class="autocomplete-container">
                         <input type="text" id="variableRoot" placeholder="e.g. tas, tos, pr">
                         <div class="autocomplete-suggestions" id="variableRootSuggestions"></div>
@@ -247,7 +248,7 @@
                 </div>
 
                 <div class="component-group">
-                    <h4>⏰ Temporal</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">schedule</span> Temporal</h4>
                     <div class="autocomplete-container">
                         <input type="text" id="temporalLabel" placeholder="e.g. tavg, tclm">
                         <div class="autocomplete-suggestions" id="temporalLabelSuggestions"></div>
@@ -259,7 +260,7 @@
                 </div>
 
                 <div class="component-group">
-                    <h4>🌍 Area</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">public</span> Area</h4>
                     <div class="autocomplete-container">
                         <input type="text" id="areaLabel" placeholder="e.g. air, sea, u">
                         <div class="autocomplete-suggestions" id="areaLabelSuggestions"></div>
@@ -271,7 +272,7 @@
                 </div>
 
                 <div class="component-group">
-                    <h4>🗺️ Horizontal</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">grid_on</span> Horizontal</h4>
                     <div class="autocomplete-container">
                         <input type="text" id="horizontalLabel" placeholder="e.g. hxy, hm">
                         <div class="autocomplete-suggestions" id="horizontalLabelSuggestions"></div>
@@ -283,7 +284,7 @@
                 </div>
 
                 <div class="component-group">
-                    <h4>📏 Vertical</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">height</span> Vertical</h4>
                     <div class="autocomplete-container">
                         <input type="text" id="verticalLabel" placeholder="e.g. u, h2m">
                         <div class="autocomplete-suggestions" id="verticalLabelSuggestions"></div>
@@ -296,7 +297,7 @@
             </div>
 
             <div class="result-section">
-                <h2>🎯 Your Branded Identifier</h2>
+                <h2>Your Branded Identifier</h2>
                 <div class="component-colors">
                     <span class="color-legend root">Variable Root</span>
                     <span class="color-legend temporal">Temporal</span>
@@ -310,7 +311,7 @@
             </div>
 
             <div class="examples">
-                <h3>📚 Examples</h3>
+                <h3>Examples</h3>
                 <p style="margin-bottom: 15px; color: #6c757d; font-size: 13px;">Try these examples or use ?branding=identifier in URL:</p>
                 <div class="example-item">
                     <div class="example-code">tas_tavg-u-hxy-h2m</div>
@@ -328,7 +329,7 @@
 
             <div style="margin-top: 15px; padding: 12px; background: #e8f4fd; border-radius: 6px; border-left: 3px solid #2196f3;">
                 <p style="font-size: 12px; margin: 0;">
-                    📡 <strong>Data Sources:</strong> Loads live data from Variable Registry APIs. 
+                    <strong>Data Sources:</strong> Loads live data from Variable Registry APIs. 
                     Press F12 and type <code>testAutocomplete()</code> for debugging.
                 </p>
             </div>
@@ -336,12 +337,12 @@
     </div>
 
     <script>
-        console.log('🚀 Script starting...');
+        console.debug('🚀 Script starting...');
 
         // Parse query parameters for pre-filling
         const urlParams = new URLSearchParams(window.location.search);
         const queryBranding = urlParams.get('branding');
-        console.log('🔗 Query parameter branding:', queryBranding);
+        console.debug('🔗 Query parameter branding:', queryBranding);
 
         const selectors = {
             variableRoot: document.getElementById('variableRoot'),
@@ -389,37 +390,37 @@
         };
 
         async function loadComponentData() {
-            console.log('📡 Loading component data...');
+            console.debug('📡 Loading component data...');
             
             for (const [component, url] of Object.entries(dataEndpoints)) {
                 const statusEl = statusElements[component];
                 try {
-                    console.log(`[${component}] 🔄 Fetching: ${url}`);
+                    console.debug(`[${component}] 🔄 Fetching: ${url}`);
                     statusEl.textContent = 'Loading...';
                     statusEl.className = 'status-indicator status-loading';
                     
                     const response = await fetch(url);
-                    console.log(`[${component}] ✅ Status: ${response.status}`);
+                    console.debug(`[${component}] ✅ Status: ${response.status}`);
                     
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     
                     const data = await response.json();
-                    console.log(`[${component}] 📊 Keys:`, Object.keys(data));
+                    console.debug(`[${component}] 📊 Keys:`, Object.keys(data));
                     
                     // Parse data structure - try multiple approaches
                     let items = [];
                     
                     if (data['@graph']) {
-                        console.log(`[${component}] 📋 Using @graph (${data['@graph'].length} items)`);
+                        console.debug(`[${component}] 📋 Using @graph (${data['@graph'].length} items)`);
                         items = data['@graph'];
                     } else if (Array.isArray(data)) {
-                        console.log(`[${component}] 📋 Using array (${data.length} items)`);
+                        console.debug(`[${component}] 📋 Using array (${data.length} items)`);
                         items = data;
                     } else {
                         // Try component-specific keys
                         const componentKey = component.replace('Label', '-label');
                         if (data[componentKey]) {
-                            console.log(`[${component}] 📋 Using key: ${componentKey}`);
+                            console.debug(`[${component}] 📋 Using key: ${componentKey}`);
                             items = Object.entries(data[componentKey]).map(([id, obj]) => ({
                                 '@id': id,
                                 'rdfs:label': obj['ui-label'] || obj.description || id,
@@ -430,7 +431,7 @@
                         }
                     }
                     
-                    console.log(`[${component}] 🔍 Items parsed: ${items.length}`);
+                    console.debug(`[${component}] 🔍 Items parsed: ${items.length}`);
                     
                     if (items.length > 0) {
                         const validItems = items.filter(item => 
@@ -447,7 +448,7 @@
                                 searchText: `${item['@id'] || item.id} ${item['ui-label'] || item['rdfs:label'] || item.label || ''}`.toLowerCase()
                             }));
                         
-                        console.log(`[${component}] ✅ Processed: ${componentData[component].length} items`);
+                        console.debug(`[${component}] ✅ Processed: ${componentData[component].length} items`);
                         
                         statusEl.innerHTML = `<a href="https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/${component.replace('Label', '-label')}/" target="_blank" style="color: inherit; text-decoration: underline;">${componentData[component].length} values</a>`;
                         statusEl.className = 'status-indicator status-loaded';
@@ -462,7 +463,7 @@
                     componentData[component] = getFallbackData(component);
                 }
             }
-            console.log('📊 All data loaded');
+            console.debug('📊 All data loaded');
         }
 
         function getFallbackData(component) {
@@ -502,7 +503,7 @@
         }
 
         function setupAutocomplete(component, input, suggestionsDiv) {
-            console.log(`[${component}] 🔧 Setup (${componentData[component]?.length || 0} items)`);
+            console.debug(`[${component}] 🔧 Setup (${componentData[component]?.length || 0} items)`);
             
             input.addEventListener('input', function() {
                 const query = input.value.toLowerCase().trim();
@@ -524,7 +525,7 @@
                         }[component];
                         labelDisplay.innerHTML = `<span class="${colorClass}" style="font-size: 10px; padding: 2px 6px; border-radius: 8px;">${exactMatch.label}</span>`;
                     }
-                    console.log(`[${component}] ✅ Match: ${exactMatch.id} - ${exactMatch.label}`);
+                    console.debug(`[${component}] ✅ Match: ${exactMatch.id} - ${exactMatch.label}`);
                 } else {
                     input.removeAttribute('data-description');
                     input.removeAttribute('data-label');
@@ -546,7 +547,7 @@
                     item.searchText.includes(query)
                 ) || [];
                 
-                console.log(`[${component}] 📊 ${matches.length} matches`);
+                console.debug(`[${component}] 📊 ${matches.length} matches`);
 
                 if (matches.length === 0) {
                     suggestionsDiv.style.display = 'none';
@@ -559,7 +560,7 @@
                     div.className = 'autocomplete-suggestion';
                     div.innerHTML = `<strong>${item.id}</strong> - ${item.label}`;
                     div.onclick = function() {
-                        console.log(`[${component}] 👆 Selected: ${item.id} - ${item.label}`);
+                        console.debug(`[${component}] 👆 Selected: ${item.id} - ${item.label}`);
                         input.value = item.id;
                         input.setAttribute('data-description', item.description);
                         input.setAttribute('data-label', item.label);
@@ -742,7 +743,7 @@
         function parseBrandingFromQuery(branding) {
             if (!branding) return;
             
-            console.log('🔗 Parsing branding from URL:', branding);
+            console.debug('🔗 Parsing branding from URL:', branding);
             
             // Parse the branding identifier: root_temporal-area-horizontal-vertical
             const parts = branding.split(/[_-]/);
@@ -751,14 +752,14 @@
                 parts.forEach((part, index) => {
                     if (part && mapping[index] && selectors[mapping[index]]) {
                         selectors[mapping[index]].value = part;
-                        console.log(`🔗 Set ${mapping[index]} = ${part}`);
+                        console.debug(`🔗 Set ${mapping[index]} = ${part}`);
                     }
                 });
             }
         }
 
         function resetBuilder() {
-            console.log('🔄 Resetting...');
+            console.debug('🔄 Resetting...');
             Object.values(selectors).forEach(input => {
                 input.value = '';
                 input.removeAttribute('data-description');
@@ -775,12 +776,12 @@
         }
 
         window.testAutocomplete = function() {
-            console.log('🧪 === TEST ===');
-            console.log('📊 Data:', Object.keys(componentData));
+            console.debug('🧪 === TEST ===');
+            console.debug('📊 Data:', Object.keys(componentData));
             Object.entries(componentData).forEach(([key, data]) => {
-                console.log(`📋 ${key}: ${data?.length || 0} items`);
+                console.debug(`📋 ${key}: ${data?.length || 0} items`);
                 if (data && data.length > 0) {
-                    console.log(`   Sample: ${data[0].id} - ${data[0].label} - ${data[0].description}`);
+                    console.debug(`   Sample: ${data[0].id} - ${data[0].label} - ${data[0].description}`);
                 }
             });
             
@@ -793,9 +794,9 @@
         };
 
         // Initialize
-        console.log('🚀 Initializing...');
+        console.debug('🚀 Initializing...');
         loadComponentData().then(() => {
-            console.log('✅ Data loaded, setting up autocomplete...');
+            console.debug('✅ Data loaded, setting up autocomplete...');
             Object.entries(selectors).forEach(([component, input]) => {
                 setupAutocomplete(component, input, suggestions[component]);
             });
@@ -828,7 +829,7 @@
             }
             
             updateResult();
-            console.log('🎉 Ready!');
+            console.debug('🎉 Ready!');
         });
     </script>
 </body>
