@@ -1,0 +1,12 @@
+{
+    "id": "amnifs-tmn",
+    "validation-key": "amnifs-tmn",
+    "ui-label": "Partial Mean over Ice-Free sea",
+    "description": "area: mean where ice_free_sea over sea time: mean",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

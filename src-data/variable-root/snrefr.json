@@ -1,0 +1,13 @@
+{
+    "id": "snrefr",
+    "validation-key": "snrefr",
+    "ui-label": "snrefr",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-snow-and-ice-refreezing-flux",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

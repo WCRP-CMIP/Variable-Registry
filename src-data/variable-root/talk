@@ -1,0 +1,13 @@
+{
+    "id": "talk",
+    "validation-key": "talk",
+    "ui-label": "talk",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-water-alkalinity-expressed-as-mole-equivalent",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

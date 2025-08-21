@@ -1,0 +1,13 @@
+{
+    "id": "exparagob",
+    "validation-key": "exparagob",
+    "ui-label": "exparagob",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sinking-mole-flux-of-aragonite-expressed-as-carbon-in-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

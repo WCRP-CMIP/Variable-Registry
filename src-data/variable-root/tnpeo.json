@@ -1,0 +1,13 @@
+{
+    "id": "tnpeo",
+    "validation-key": "tnpeo",
+    "ui-label": "tnpeo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-potential-energy-content",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

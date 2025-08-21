@@ -1,0 +1,11 @@
+{
+    "id": "d300m",
+    "validation-key": "d300m",
+    "ui-label": "Upper 300 Meter Depth",
+    "description": "upper 300 m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

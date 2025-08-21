@@ -1,0 +1,11 @@
+{
+    "id": "ti",
+    "validation-key": "ti",
+    "ui-label": "Time Independent",
+    "description": "time independent",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

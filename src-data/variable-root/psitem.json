@@ -1,0 +1,13 @@
+{
+    "id": "psitem",
+    "validation-key": "psitem",
+    "ui-label": "psitem",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-transformed-eulerian-mean-meridional-overturning-mass-streamfunction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "zmisc",
+    "validation-key": "zmisc",
+    "ui-label": "zmisc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-miscellaneous-zooplankton-expressed-as-carbon-in-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "li",
+    "validation-key": "li",
+    "ui-label": "Land Ice",
+    "description": "land_ice",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

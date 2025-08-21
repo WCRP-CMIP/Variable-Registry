@@ -1,0 +1,13 @@
+{
+    "id": "snd",
+    "validation-key": "snd",
+    "ui-label": "snd",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-snow-thickness",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

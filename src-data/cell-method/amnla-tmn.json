@@ -1,0 +1,12 @@
+{
+    "id": "amnla-tmn",
+    "validation-key": "amnla-tmn",
+    "ui-label": "Time Mean over Land",
+    "description": "area: mean where land time: mean",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

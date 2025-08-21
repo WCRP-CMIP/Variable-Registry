@@ -1,0 +1,11 @@
+{
+    "id": "wl",
+    "validation-key": "wl",
+    "ui-label": "Wetland",
+    "description": "wetland",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

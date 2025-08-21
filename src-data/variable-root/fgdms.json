@@ -1,0 +1,13 @@
+{
+    "id": "fgdms",
+    "validation-key": "fgdms",
+    "ui-label": "fgdms",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mole-flux-of-dimethyl-sulfide",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "ng",
+    "validation-key": "ng",
+    "ui-label": "Natural Grasses",
+    "description": "natural_grasses",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

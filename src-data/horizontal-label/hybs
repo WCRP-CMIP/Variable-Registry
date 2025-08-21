@@ -1,0 +1,11 @@
+{
+    "id": "hybs",
+    "validation-key": "hybs",
+    "ui-label": "Zonal Mean Within Basin",
+    "description": "zonal mean within a basin",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}

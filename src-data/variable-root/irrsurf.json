@@ -1,0 +1,13 @@
+{
+    "id": "irrsurf",
+    "validation-key": "irrsurf",
+    "ui-label": "irrSurf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-downward-mass-flux-of-water-due-to-irrigation",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

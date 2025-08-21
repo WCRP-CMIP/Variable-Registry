@@ -1,0 +1,13 @@
+{
+    "id": "ph",
+    "validation-key": "ph",
+    "ui-label": "ph",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-water-ph-reported-on-total-scale",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

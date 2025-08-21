@@ -1,0 +1,11 @@
+{
+    "id": "amn-twm",
+    "ui-label": "Area and Time Mean",
+    "description": "area: time: mean",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

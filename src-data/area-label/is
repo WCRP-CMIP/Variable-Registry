@@ -1,0 +1,11 @@
+{
+    "id": "is",
+    "validation-key": "is",
+    "ui-label": "Ice Sheet",
+    "description": "ice_sheet",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

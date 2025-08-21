@@ -1,0 +1,14 @@
+{
+    "id": "timefxc",
+    "validation-key": "timefxc",
+    "ui-label": "Time Intervals for Fixed Climatology",
+    "description": "For fixed monthly climatologies. In CF terms this is an interval mean over each month for an arbitrary year.",
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

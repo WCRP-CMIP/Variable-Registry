@@ -1,0 +1,14 @@
+{
+    "id": "scatratio",
+    "validation-key": "scatratio",
+    "ui-label": "lidar backscattering ratio",
+    "description": "15 bins of scattering ratio for the CALIPSO simulator CFAD",
+    "axis-flag": "",
+    "cf-standard-name": "backscattering_ratio",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "vmo",
+    "validation-key": "vmo",
+    "ui-label": "vmo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-mass-y-transport",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

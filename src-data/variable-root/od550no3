@@ -1,0 +1,13 @@
+{
+    "id": "od550no3",
+    "validation-key": "od550no3",
+    "ui-label": "od550no3",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-optical-thickness-due-to-nitrate-ambient-aerosol-particles",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

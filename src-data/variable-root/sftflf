@@ -1,0 +1,13 @@
+{
+    "id": "sftflf",
+    "validation-key": "sftflf",
+    "ui-label": "sftflf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "floating-ice-shelf-area-fraction",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

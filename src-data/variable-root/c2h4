@@ -1,0 +1,13 @@
+{
+    "id": "c2h4",
+    "validation-key": "c2h4",
+    "ui-label": "c2h4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-ethene-in-air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

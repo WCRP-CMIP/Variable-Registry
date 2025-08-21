@@ -1,0 +1,35 @@
+{
+    "id": "clisccp_tavg-p7c-hxy-air",
+    "validation-key": "clisccp_tavg-p7c-hxy-air",
+    "ui-label": "ISCCP Cloud Area Percentage",
+    "description": "Percentage cloud cover in optical depth categories.",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7c",
+        "tau",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "clisccp",
+    "physical-parameter-name": "clisccp",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-P7",
+    "standard-name": "isccp_cloud_area_fraction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "%",
+    "variable-root": "clisccp",
+    "vertical-label": "p7c",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

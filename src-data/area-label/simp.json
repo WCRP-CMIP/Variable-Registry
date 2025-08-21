@@ -1,0 +1,11 @@
+{
+    "id": "simp",
+    "validation-key": "simp",
+    "ui-label": "Sea Ice Melt Pond",
+    "description": "sea_ice_melt_pond",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

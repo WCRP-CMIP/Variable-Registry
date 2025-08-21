@@ -1,0 +1,13 @@
+{
+    "id": "olayer100m",
+    "validation-key": "olayer100m",
+    "ui-label": "depth",
+    "description": "coordinate for 100 m ocean surface layer",
+    "axis-flag": "Z",
+    "cf-standard-name": "depth",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

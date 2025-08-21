@@ -1,0 +1,13 @@
+{
+    "id": "utendwtem",
+    "validation-key": "utendwtem",
+    "ui-label": "utendwtem",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-eastward-wind-due-to-advection-by-upward-transformed-eulerian-mean-air-velocity",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

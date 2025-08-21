@@ -1,0 +1,14 @@
+{
+    "id": "plev7h",
+    "validation-key": "plev7h",
+    "ui-label": "Pressure Levels (7, Tropospheric)",
+    "description": "7 pressure levels used for tropospheric studies (note it was originally a subset of plev27, but inclusion of 50hPa broke this link);",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "spatial-shape": "Global field (7 pressure tropospheric levels)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

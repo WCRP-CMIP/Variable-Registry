@@ -1,0 +1,13 @@
+{
+    "id": "vsf",
+    "validation-key": "vsf",
+    "ui-label": "vsf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "virtual-salt-flux-into-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

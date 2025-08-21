@@ -1,0 +1,11 @@
+{
+    "id": "fis",
+    "validation-key": "fis",
+    "ui-label": "Floating Ice Shelf",
+    "description": "floating_ice_shelf",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}
