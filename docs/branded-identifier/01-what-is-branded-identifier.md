@@ -4,7 +4,6 @@
 
 A **Branded Identifier** is a unique, structured name that completely describes a climate variable by combining standardized components into a single, unambiguous identifier.
 
-
 **Climate variables** Examples
 
 | Vague Description | Branded Identifier | 
@@ -56,6 +55,8 @@ tas     _tavg  -h2m  -hxy         -u
 | 🌐 **Standardized**     | - Works across different models and institutions<br>- International collaboration made easier |
 
 
+## Try out the branded variable constructor and dictionary. 
+To better understand how the branded variable name describes something, we can view it using [The Viewer (here).](http://127.0.0.1:8000/web/branded-variable-builder.html?branding=abs550no3_tavg-u-hxy-u)
 
 ## Next Steps
 
