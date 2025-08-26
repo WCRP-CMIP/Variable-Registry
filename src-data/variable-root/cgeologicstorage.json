@@ -2,12 +2,11 @@
     "id": "cgeologicstorage",
     "validation-key": "cgeologicstorage",
     "ui-label": "cGeologicStorage",
-    "description": "",
     "data-type": "real",
     "standard-name": "carbon-mass-content-of-geological-storage",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "difvso",
     "validation-key": "difvso",
     "ui-label": "difvso",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean-vertical-salt-diffusivity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "clwc",
     "validation-key": "clwc",
     "ui-label": "clwc",
-    "description": "",
     "data-type": "real",
     "standard-name": "mass-fraction-of-convective-cloud-liquid-water-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,7 +2,7 @@
     "id": "ti",
     "validation-key": "ti",
     "ui-label": "Time Independent",
-    "description": "time independent",
+    "description": "Time-independent values that do not vary with time, such as fixed geographic coordinates, topography, land-sea masks, or other static boundary conditions and model parameters.",
     "@context": "_context_",
     "type": [
         "wcrp:temporal-label",

@@ -2,12 +2,11 @@
     "id": "umo",
     "validation-key": "umo",
     "ui-label": "umo",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean-mass-x-transport",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

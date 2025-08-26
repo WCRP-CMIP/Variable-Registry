@@ -4,68 +4,71 @@
 
 A **Branded Identifier** is a unique, structured name that completely describes a climate variable by combining standardized components into a single, unambiguous identifier.
 
-**Climate variables** Examples
-
-| Vague Description | Branded Identifier | 
-|-------------------|-------------------|
-| "Surface temperature" | `tas_tavg-h2m-hxy-u` | 
-| "Ocean temperature" | `tos_tavg-u-hxy-sea` |
-
-## Structure Preview
+## Structure
 
 Every branded identifier follows this pattern:
+
+```
+[root-variable]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
+```
 
 ```mermaid
 graph LR
     A[Variable Root] --> B[Temporal Label]
-    B --> C[Area Label]  
+    B --> C[Vertical Label]  
     C --> D[Horizontal Label]
-    D --> E[Vertical Label]
+    D --> E[Area Label]
     
     style A fill:#e1f5fe
     style B fill:#f3e5f5
-    style C fill:#e8f5e8
+    style C fill:#fce4ec
     style D fill:#fff3e0
-    style E fill:#fce4ec
+    style E fill:#e8f5e8
 ```
 
-## Real Example Breakdown
+## Real Examples
 
-### `tas_tavg-h2m-hxy-u`
+| Vague Description | Branded Identifier | Meaning |
+|-------------------|-------------------|---------|
+| "Surface temperature" | `tas_tavg-h2m-hxy-u` | Near-surface air temperature, time-averaged, at 2m height, gridded, unmasked |
+| "Ocean temperature" | `tos_tavg-u-hxy-sea` | Sea surface temperature, time-averaged, unspecified vertical, gridded, over sea |
+| "Heat flux" | `hfds_tavg-u-hxy-sea` | Downward heat flux, time-averaged, surface, gridded, over sea |
+
+## Example Breakdown: `hfds_tavg-u-hxy-sea`
 
 ```
-tas     _tavg  -h2m  -hxy         -u
+hfds    _tavg  -u    -hxy         -sea
 │        │      │     │            │
-│        │      │     │            └── Vertical: Surface/unspecified
+│        │      │     │            └── Area: Ocean/sea areas only
 │        │      │     └────────────── Horizontal: Gridded lat-lon
-│        │      └──────────────────── Area: 2-meter height
+│        │      └──────────────────── Vertical: Surface/unspecified
 │        └─────────────────────────── Temporal: Time average
-└──────────────────────────────────── Root: Near-surface air temperature
+└──────────────────────────────────── Root: Downward heat flux at sea surface
 ```
 
-**Result**: *"Near-surface air temperature, time-averaged, at 2-meter height, on a gridded horizontal grid, at the surface"*
+**Result**: *"Downward heat flux at sea surface, time-averaged, at surface level, on a gridded grid, over ocean areas"*
 
-## 🔑 Key Benefits of Standardized Variable Identifiers
+## 🔑 Key Benefits
 
-| Benefit            | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| 🎯 **Uniqueness**   | - No two variables can have the same identifier<br>- Eliminates confusion between similar variables |
-| 📖 **Self-Documenting** | - The identifier tells you what the variable represents<br>- No need to look up additional metadata |
-| 🔧 **Machine-Readable** | - Computers can parse and validate identifiers<br>- Automatic error detection |
-| 🌐 **Standardized**     | - Works across different models and institutions<br>- International collaboration made easier |
+| Benefit | Description |
+|---------| ------------|
+| 🎯 **Unique** | No two variables can have the same identifier |
+| 📖 **Self-Documenting** | The identifier tells you what the variable represents |
+| 🔧 **Machine-Readable** | Computers can parse and validate identifiers |
+| 🌐 **Standardized** | Works across different models and institutions |
 
+## Interactive Explorer
 
-## Try out the branded variable constructor and dictionary. 
-To better understand how the branded variable name describes something, we can view it using [The Viewer (here).](http://127.0.0.1:8000/web/branded-variable-builder.html?branding=abs550no3_tavg-u-hxy-u)
+Build and explore identifiers with the [Variable Registry Explorer](../web/branded-variable-builder.html).
+
+Try with a complete example: [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
 
 ## Next Steps
 
-Now that you understand what branded identifiers are, let's learn:
-
-1. **[How to construct them →](02-how-to-construct.md)**
-2. **[Where to find valid components →](03-component-reference.md)**
+1. **[How to construct them →](02_How%20to%20Construct/01_general_structure.md)**
+2. **[See examples →](02_How%20to%20Construct/examples.md)**
 3. **[Why we need this system →](04-why-we-need-this.md)**
 
 ---
 
-*Think of branded identifiers as the "scientific names" for climate variables - precise, unambiguous, and universally understood.*
+*Construction pattern: root_temporal-vertical-horizontal-area*

@@ -2,12 +2,11 @@
     "id": "irrgw",
     "validation-key": "irrgw",
     "ui-label": "irrGw",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-downward-mass-flux-of-water-due-to-irrigation",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

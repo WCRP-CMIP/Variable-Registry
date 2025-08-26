@@ -2,12 +2,11 @@
     "id": "siflcondtop",
     "validation-key": "siflcondtop",
     "ui-label": "siflcondtop",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-downward-heat-flux-in-sea-ice",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

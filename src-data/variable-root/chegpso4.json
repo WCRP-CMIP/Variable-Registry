@@ -2,12 +2,11 @@
     "id": "chegpso4",
     "validation-key": "chegpso4",
     "ui-label": "chegpso4",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-gaseous-phase-net-chemical-production",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "hfls",
     "validation-key": "hfls",
     "ui-label": "hfls",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-upward-latent-heat-flux",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

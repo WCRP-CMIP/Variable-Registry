@@ -2,12 +2,11 @@
     "id": "fdeforesttoproduct",
     "validation-key": "fdeforesttoproduct",
     "ui-label": "fDeforestToProduct",
-    "description": "",
     "data-type": "real",
     "standard-name": "carbon-mass-flux-into-forestry-and-agricultural-products-due-to-anthropogenic-land-use-or-land-cover-change",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

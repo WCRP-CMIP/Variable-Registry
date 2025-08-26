@@ -2,12 +2,11 @@
     "id": "wpdirswell",
     "validation-key": "wpdirswell",
     "ui-label": "wpdirswell",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-swell-wave-from-direction-at-variance-spectral-density-maximum",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

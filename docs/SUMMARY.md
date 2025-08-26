@@ -9,6 +9,12 @@
     - [Patterns](branded-identifier/02_How to Construct/patterns.md)
   - Root Variables:
     - [What Is A Root Variable](branded-identifier/07_root-variables/01_what_is_a_root_variable.md)
+    - [Clouds Chemistry](branded-identifier/07_root-variables/clouds-chemistry.md)
+    - [Dynamics](branded-identifier/07_root-variables/dynamics.md)
+    - [Ice Snow](branded-identifier/07_root-variables/ice-snow.md)
+    - [Land Ecosystems](branded-identifier/07_root-variables/land-ecosystems.md)
+    - [Ocean](branded-identifier/07_root-variables/ocean.md)
+    - [Radiation Energy](branded-identifier/07_root-variables/radiation-energy.md)
     - [Temperature](branded-identifier/07_root-variables/temperature.md)
     - [Water Cycle](branded-identifier/07_root-variables/water-cycle.md)
   - Components:
@@ -16,8 +22,7 @@
     - [Component Examples](branded-identifier/08_components/component-examples.md)
     - [Horizontal Label](branded-identifier/08_components/horizontal-label.md)
     - [Temporal Label](branded-identifier/08_components/temporal-label.md)
-  - Construction:
-    - [Patterns](branded-identifier/construction/patterns.md)
+    - [Vertical Label](branded-identifier/08_components/vertical-label.md)
 - Repository Contents:
   - [Available Files](src-data-docs/index.md)
   - [Area Label](src-data-docs/area-label.md)

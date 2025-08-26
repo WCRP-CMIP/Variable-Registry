@@ -2,12 +2,11 @@
     "id": "clittersurf",
     "validation-key": "clittersurf",
     "ui-label": "cLitterSurf",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-litter-mass-content-of-carbon",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

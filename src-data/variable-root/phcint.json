@@ -2,12 +2,11 @@
     "id": "phcint",
     "validation-key": "phcint",
     "ui-label": "phcint",
-    "description": "",
     "data-type": "real",
     "standard-name": "integral-wrt-depth-of-sea-water-potential-temperature-expressed-as-heat-content",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "cwood",
     "validation-key": "cwood",
     "ui-label": "cWood",
-    "description": "",
     "data-type": "real",
     "standard-name": "stem-mass-content-of-carbon",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

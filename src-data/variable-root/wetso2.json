@@ -2,12 +2,11 @@
     "id": "wetso2",
     "validation-key": "wetso2",
     "ui-label": "wetso2",
-    "description": "",
     "data-type": "real",
     "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sulfur-dioxide-due-to-wet-deposition",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

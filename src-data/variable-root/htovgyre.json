@@ -2,12 +2,11 @@
     "id": "htovgyre",
     "validation-key": "htovgyre",
     "ui-label": "htovgyre",
-    "description": "",
     "data-type": "real",
     "standard-name": "northward-ocean-heat-transport-due-to-gyre",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

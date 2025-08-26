@@ -2,12 +2,11 @@
     "id": "graz",
     "validation-key": "graz",
     "ui-label": "graz",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-mole-concentration-of-particulate-organic-matter-expressed-as-carbon-in-sea-water-due-to-grazing-of-phytoplankton",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

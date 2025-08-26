@@ -2,12 +2,11 @@
     "id": "eminox",
     "validation-key": "eminox",
     "ui-label": "eminox",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-nox-expressed-as-nitrogen-due-to-emission",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

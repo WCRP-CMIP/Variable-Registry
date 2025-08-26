@@ -2,12 +2,11 @@
     "id": "epfy",
     "validation-key": "epfy",
     "ui-label": "epfy",
-    "description": "",
     "data-type": "real",
     "standard-name": "northward-eliassen-palm-flux-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

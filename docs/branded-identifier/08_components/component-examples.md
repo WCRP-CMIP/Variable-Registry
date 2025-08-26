@@ -11,9 +11,9 @@ Let's examine the variable `abs550aer_tavg-u-hxy-u` and break down each componen
 abs550aer_tavg-u-hxy-u
 └── abs550aer        (variable-root)
 └── tavg             (temporal-label)
-└── u                (area-label)
-└── hxy              (horizontal-label)
 └── u                (vertical-label)
+└── hxy              (horizontal-label)
+└── u                (area-label)
 ```
 
 ### Component Breakdown
@@ -30,23 +30,6 @@ abs550aer_tavg-u-hxy-u
 > - **Description**: Data averaged over the temporal sampling period
 > - **Usage**: Monthly, daily, or other regular time averages
 
-#### Area Label: `u`
-**File**: `src-data/area-label/u.json`
-> - **Purpose**: Unmasked area
-> - **Description**: No spatial masking applied - global coverage
-> - **Alternative Options**:
->     - `lnd` - Land areas only
->     - `sea` - Ocean/sea areas only
->     - `ice` - Ice-covered areas only
-
-#### Horizontal Label: `hxy`
-**File**: `src-data/horizontal-label/hxy.json`
-> - **Purpose**: Gridded horizontal representation
-> - **Description**: Regular latitude-longitude grid
-> - **Alternative Options**:
->     - `hys` - Meridional section (latitude-depth)
->     - `ht` - Transect along specific path
-
 #### Vertical Label: `u`
 **File**: `src-data/vertical-label/u.json`
 > - **Purpose**: Unspecified vertical coordinate
@@ -54,7 +37,24 @@ abs550aer_tavg-u-hxy-u
 > - **Alternative Options**:
 >     - `al` - All atmospheric levels
 >     - `ol` - All ocean levels
->     - `plev` - Pressure levels
+>     - `h2m` - 2-meter height
+
+#### Horizontal Label: `hxy`
+**File**: `src-data/horizontal-label/hxy.json`
+> - **Purpose**: Gridded horizontal representation
+> - **Description**: Regular latitude-longitude grid
+> - **Alternative Options**:
+>     - `hm` - Global mean
+>     - `hy` - Zonal mean
+
+#### Area Label: `u`
+**File**: `src-data/area-label/u.json`
+> - **Purpose**: Unmasked area
+> - **Description**: No spatial masking applied - global coverage
+> - **Alternative Options**:
+>     - `lnd` - Land areas only
+>     - `sea` - Ocean/sea areas only
+>     - `air` - Atmospheric region
 
 ## More Variable Examples
 
@@ -64,27 +64,18 @@ abs550aer_tavg-u-hxy-u
     ```yaml
     variable-root: tas (Near-surface air temperature)
     temporal-label: tpt (Time point - instantaneous)
-    area-label: h2m (2-meter height)
+    vertical-label: h2m (2-meter height)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Unspecified/surface)
+    area-label: u (Global/unmasked)
     ```
 
-    #### Maximum Daily Temperature: `tas_tmax-h2m-hxy-u`
+    #### Ocean Heat Flux: `hfds_tavg-u-hxy-sea`
     ```yaml
-    variable-root: tas (Near-surface air temperature)
-    temporal-label: tmax (Daily maximum)
-    area-label: h2m (2-meter height)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Unspecified/surface)
-    ```
-
-    #### 3D Temperature: `ta_tavg-al-hxy-air`
-    ```yaml
-    variable-root: ta (Air temperature)
+    variable-root: hfds (Downward heat flux at sea surface)
     temporal-label: tavg (Time average)
-    area-label: al (All atmospheric levels)
+    vertical-label: u (Surface level)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: air (Atmospheric levels)
+    area-label: sea (Over sea areas)
     ```
 
 === "Precipitation Variables"
@@ -93,27 +84,18 @@ abs550aer_tavg-u-hxy-u
     ```yaml
     variable-root: pr (Precipitation rate)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked - global)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Surface)
+    area-label: u (Global/unmasked)
     ```
 
     #### Snow Precipitation: `prsn_tavg-u-hxy-u`
     ```yaml
     variable-root: prsn (Snowfall rate)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked - global)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Surface)
-    ```
-
-    #### Maximum Daily Precipitation: `pr_tmax-u-hxy-u`
-    ```yaml
-    variable-root: pr (Precipitation rate)
-    temporal-label: tmax (Daily maximum)
-    area-label: u (Unmasked - global)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Surface)
+    area-label: u (Global/unmasked)
     ```
 
 === "Ocean Variables"
@@ -122,209 +104,127 @@ abs550aer_tavg-u-hxy-u
     ```yaml
     variable-root: tos (Sea surface temperature)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: sea (Sea surface)
+    area-label: sea (Over ocean areas)
     ```
 
-    #### Ocean Temperature Profile: `thetao_tavg-ol-hxy-sea`
+    #### Ocean Velocity: `uo_tavg-ol-hxy-sea`
     ```yaml
-    variable-root: thetao (Sea water potential temperature)
+    variable-root: uo (Eastward ocean velocity)
     temporal-label: tavg (Time average)
-    area-label: ol (All ocean levels)
+    vertical-label: ol (All ocean levels)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: sea (Ocean levels)
-    ```
-
-    #### Ocean Salinity: `so_tavg-ol-hxy-sea`
-    ```yaml
-    variable-root: so (Sea water salinity)
-    temporal-label: tavg (Time average)
-    area-label: ol (All ocean levels)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: sea (Ocean levels)
-    ```
-
-=== "Atmospheric Variables"
-
-    #### Wind Speed: `sfcWind_tavg-h10m-hxy-u`
-    ```yaml
-    variable-root: sfcWind (Near-surface wind speed)
-    temporal-label: tavg (Time average)
-    area-label: h10m (10-meter height)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Unspecified/surface)
-    ```
-
-    #### Zonal Wind: `ua_tavg-al-hxy-air`
-    ```yaml
-    variable-root: ua (Eastward wind)
-    temporal-label: tavg (Time average)
-    area-label: al (All atmospheric levels)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: air (Atmospheric levels)
-    ```
-
-    #### Surface Pressure: `ps_tavg-u-hxy-u`
-    ```yaml
-    variable-root: ps (Surface air pressure)
-    temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Surface)
+    area-label: sea (Ocean domain)
     ```
 
 === "Land Variables"
-
-    #### Soil Temperature: `tsl_tavg-sl-hxy-lnd`
-    ```yaml
-    variable-root: tsl (Soil temperature)
-    temporal-label: tavg (Time average)
-    area-label: sl (All soil levels)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: lnd (Land areas)
-    ```
 
     #### Soil Moisture: `mrsol_tavg-sl-hxy-lnd`
     ```yaml
     variable-root: mrsol (Soil moisture content)
     temporal-label: tavg (Time average)
-    area-label: sl (All soil levels)
+    vertical-label: sl (All soil levels)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: lnd (Land areas)
+    area-label: lnd (Over land areas)
     ```
 
     #### Vegetation Carbon: `cVeg_tavg-u-hxy-lnd`
     ```yaml
-    variable-root: cVeg (Vegetation carbon content)
+    variable-root: cVeg (Vegetation carbon)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: lnd (Land areas)
+    area-label: lnd (Over land areas)
     ```
 
 === "Ice Variables"
 
     #### Sea Ice Concentration: `siconc_tavg-u-hxy-u`
     ```yaml
-    variable-root: siconc (Sea ice area percentage)
+    variable-root: siconc (Sea ice area fraction)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: u (Surface)
+    area-label: u (Global/unmasked)
     ```
 
     #### Sea Ice Thickness: `sithick_tavg-u-hxy-si`
     ```yaml
     variable-root: sithick (Sea ice thickness)
     temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
+    vertical-label: u (Surface/unspecified)
     horizontal-label: hxy (Gridded horizontal)
-    vertical-label: si (Sea ice)
-    ```
-
-    #### Land Ice Thickness: `lithk_tavg-u-hxy-is`
-    ```yaml
-    variable-root: lithk (Land ice thickness)
-    temporal-label: tavg (Time average)
-    area-label: u (Unmasked)
-    horizontal-label: hxy (Gridded horizontal)
-    vertical-label: is (Ice sheet)
+    area-label: si (Over sea ice)
     ```
 
 ## Component Combination Rules
 
-### Naming Convention
-Variables follow the pattern:
+### Pattern
 ```
-[variable-root]_[temporal-label]-[area-label]-[horizontal-label]-[vertical-label]
+[variable-root]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
 ```
 
-### Required Components
-Every variable must specify:
-1. **Variable Root**: The base physical parameter
-2. **Temporal Label**: Time sampling method
-3. **Area Label**: Spatial masking (can be 'u' for unmasked)
-4. **Horizontal Label**: Horizontal representation
-5. **Vertical Label**: Vertical coordinate system
-
-### Optional Components
-Additional metadata is provided through:
-> - **Cell Methods**: Aggregation operations
-> - **Coordinates**: Coordinate system details
-> - **Dimensions**: Dimensional specifications
-
-### Physical Consistency
-Component combinations must be physically meaningful:
-> - Ocean variables (`sea`, `ol`) cannot use atmospheric vertical labels (`al`, `air`)
-> - Surface variables typically use `u` for vertical label
-> - Height-specific variables use appropriate area labels (`h2m`, `h10m`)
-
-## Validation Examples
+### Physical Consistency Rules
+- Ocean variables must use ocean-compatible area labels (`sea`)
+- Land variables must use land-compatible area labels (`lnd`)
+- Surface variables typically use `u` for vertical label
+- 3D variables use level-specific vertical labels (`al`, `ol`)
 
 ### Valid Combinations
 ```
-✓ tas_tavg-h2m-hxy-u          (Surface temperature, time-averaged)
-✓ pr_tmax-u-hxy-u             (Maximum precipitation rate)
-✓ thetao_tavg-ol-hxy-sea      (Ocean temperature at all levels)
-✓ ua_tpt-al-hxy-air           (Instantaneous wind at all atmospheric levels)
+✓ hfds_tavg-u-hxy-sea        (Heat flux at sea surface)
+✓ tas_tmax-h2m-hxy-u         (Maximum temperature at 2m)
+✓ uo_tavg-ol-hxy-sea         (Ocean velocity at all levels)
+✓ mrsol_tavg-sl-hxy-lnd      (Soil moisture in all layers)
 ```
 
 ### Invalid Combinations
 ```
-✗ tas_tavg-ol-hxy-u           (Temperature with ocean levels - inconsistent)
-✗ tos_tavg-al-hxy-air         (Sea temperature with atmospheric levels)
-✗ pr_tavg-h100km-hxy-u        (Precipitation at 100km height - unrealistic)
+✗ tos_tavg-al-hxy-air        (Sea temperature with atmospheric levels)
+✗ ua_tavg-ol-hxy-sea         (Atmospheric wind with ocean levels)
+✗ siconc_tavg-sl-hxy-lnd     (Sea ice with soil levels)
 ```
 
-## Supporting Component Examples
+## Interactive Explorer
 
-### Cell Methods
-> - `amn-twm`: Area mean, time mean
-> - `amx-twm`: Area mean, time maximum  
-> - `asm-twm`: Area sum, time mean
+Use the [Variable Registry Explorer](../web/branded-variable-builder.html) to:
+- Build identifiers interactively
+- Validate component combinations
+- Explore all available components
+- See real variable examples
 
-### CMIP6 Tables
-> - `AERmon`: Aerosol monthly output
-> - `Amon`: Atmospheric monthly output
-> - `Omon`: Ocean monthly output
-> - `LImon`: Land ice monthly output
+Try these examples:
+- [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
+- [tas_tmax-h2m-hxy-u](../web/branded-variable-builder.html?branding=tas_tmax-h2m-hxy-u)
+- [abs550aer_tavg-u-hxy-u](../web/branded-variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
 
-### Coordinates
-> - `longitude`: East-west spatial coordinate
-> - `latitude`: North-south spatial coordinate
-> - `time`: Temporal coordinate
-> - `plev`: Pressure level coordinate
-> - `height`: Height coordinate
+## Supporting Variable Data
 
-## Usage in Variable Files
-
-Each complete variable file includes references to all relevant components:
+Each complete variable includes:
 
 ```json
 {
-    "id": "abs550aer_tavg-u-hxy-u",
-    "validation-key": "abs550aer_tavg-u-hxy-u",
-    "variable-root": "abs550aer",
+    "id": "hfds_tavg-u-hxy-sea",
+    "validation-key": "hfds_tavg-u-hxy-sea",
+    "variable-root": "hfds",
     "temporal-label": "tavg",
-    "area-label": "u",
-    "horizontal-label": "hxy",
     "vertical-label": "u",
-    "cell-methods": "amn-twm",
-    "dimensions": ["longitude", "latitude", "time", "lambda550nm"],
-    "standard-name": "atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles",
-    "units": "1",
-    "description": "Optical thickness of atmospheric aerosols at wavelength 550 nanometers."
+    "horizontal-label": "hxy",
+    "area-label": "sea",
+    "ui-label": "Downward Heat Flux at Sea Water Surface",
+    "description": "Net flux of heat entering the liquid water column...",
+    "standard-name": "surface_downward_heat_flux_in_sea_water",
+    "units": "W m-2"
 }
 ```
 
-## Navigation
+## Next Steps
 
-> - [Main Documentation](index.md) - Complete system overview
-> - [Tutorial Series](tutorial-index.md) - University-style learning
-> - [Components Table](components-table.md) - Component reference table
-> - [../../src-data/](../../src-data/) - Source component definitions
+- **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
+- **[Component reference →](../08_components/)**
+- **[Root variables →](../05-root-variables.md)**
 
-> ---
+---
 
-*These examples demonstrate how the Branded Identifier System combines standardized components to create unique, meaningful variable identifiers while maintaining physical consistency and registry standards.*
+*Pattern: root_temporal-vertical-horizontal-area*

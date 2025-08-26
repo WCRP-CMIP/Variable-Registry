@@ -2,12 +2,11 @@
     "id": "tntmp",
     "validation-key": "tntmp",
     "ui-label": "tntmp",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-air-temperature-due-to-model-physics",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

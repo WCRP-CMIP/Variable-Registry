@@ -2,12 +2,11 @@
     "id": "emioa",
     "validation-key": "emioa",
     "ui-label": "emioa",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles-due-to-net-chemical-production-and-emission",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

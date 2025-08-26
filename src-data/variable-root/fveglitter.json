@@ -2,12 +2,11 @@
     "id": "fveglitter",
     "validation-key": "fveglitter",
     "ui-label": "fVegLitter",
-    "description": "",
     "data-type": "real",
     "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

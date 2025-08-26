@@ -2,12 +2,11 @@
     "id": "mlotst",
     "validation-key": "mlotst",
     "ui-label": "mlotst",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean-mixed-layer-thickness-defined-by-sigma-t",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

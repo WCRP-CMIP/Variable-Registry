@@ -2,12 +2,11 @@
     "id": "intpbp",
     "validation-key": "intpbp",
     "ui-label": "intpbp",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-ocean-mole-content-of-phosphorus-due-to-biological-production",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

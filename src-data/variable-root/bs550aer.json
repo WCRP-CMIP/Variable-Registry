@@ -2,12 +2,11 @@
     "id": "bs550aer",
     "validation-key": "bs550aer",
     "ui-label": "bs550aer",
-    "description": "",
     "data-type": "real",
     "standard-name": "volume-scattering-function-of-radiative-flux-in-air-due-to-ambient-aerosol-particles",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

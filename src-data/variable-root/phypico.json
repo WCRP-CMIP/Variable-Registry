@@ -2,12 +2,11 @@
     "id": "phypico",
     "validation-key": "phypico",
     "ui-label": "phypico",
-    "description": "",
     "data-type": "real",
     "standard-name": "mole-concentration-of-picophytoplankton-expressed-as-carbon-in-sea-water",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

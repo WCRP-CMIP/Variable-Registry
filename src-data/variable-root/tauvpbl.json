@@ -2,12 +2,11 @@
     "id": "tauvpbl",
     "validation-key": "tauvpbl",
     "ui-label": "tauvpbl",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-downward-northward-stress-due-to-boundary-layer-mixing",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

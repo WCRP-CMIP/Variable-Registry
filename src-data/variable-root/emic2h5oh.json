@@ -2,12 +2,11 @@
     "id": "emic2h5oh",
     "validation-key": "emic2h5oh",
     "ui-label": "emic2h5oh",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-ethanol-due-to-emission",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "mpwwindsea",
     "validation-key": "mpwwindsea",
     "ui-label": "mpwwindsea",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-wind-wave-mean-period",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

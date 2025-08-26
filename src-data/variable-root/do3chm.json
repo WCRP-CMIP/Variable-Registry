@@ -2,12 +2,11 @@
     "id": "do3chm",
     "validation-key": "do3chm",
     "ui-label": "do3chm",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mole-concentration-of-ozone-due-to-net-chemical-production",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

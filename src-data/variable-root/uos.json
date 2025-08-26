@@ -2,12 +2,11 @@
     "id": "uos",
     "validation-key": "uos",
     "ui-label": "uos",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-sea-water-x-velocity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

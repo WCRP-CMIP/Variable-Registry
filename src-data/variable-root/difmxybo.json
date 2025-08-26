@@ -2,12 +2,11 @@
     "id": "difmxybo",
     "validation-key": "difmxybo",
     "ui-label": "difmxybo",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean-momentum-xy-biharmonic-diffusivity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

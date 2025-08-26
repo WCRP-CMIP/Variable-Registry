@@ -2,7 +2,7 @@
     "id": "air",
     "validation-key": "air",
     "ui-label": "Air",
-    "description": "air",
+    "description": "Variables calculated over atmospheric air regions, typically representing conditions in the atmosphere above the surface. Used for atmospheric composition, temperature, humidity, and other meteorological variables.",
     "@context": "_context_",
     "type": [
         "wcrp:area-label",

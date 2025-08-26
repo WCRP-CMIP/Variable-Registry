@@ -2,12 +2,11 @@
     "id": "ccldncl",
     "validation-key": "ccldncl",
     "ui-label": "ccldncl",
-    "description": "",
     "data-type": "real",
     "standard-name": "number-concentration-of-convective-cloud-liquid-water-particles-at-convective-liquid-water-cloud-top",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

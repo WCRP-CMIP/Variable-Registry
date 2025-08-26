@@ -2,12 +2,11 @@
     "id": "c3h8",
     "validation-key": "c3h8",
     "ui-label": "c3h8",
-    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-propane-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

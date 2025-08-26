@@ -2,12 +2,11 @@
     "id": "bigthetao",
     "validation-key": "bigthetao",
     "ui-label": "bigthetao",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea-water-conservative-temperature",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

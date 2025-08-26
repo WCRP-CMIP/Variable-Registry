@@ -2,12 +2,11 @@
     "id": "lon",
     "validation-key": "lon",
     "ui-label": "lon",
-    "description": "",
     "data-type": "real",
     "standard-name": "longitude",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

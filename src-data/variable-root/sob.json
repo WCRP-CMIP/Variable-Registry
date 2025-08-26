@@ -2,12 +2,11 @@
     "id": "sob",
     "validation-key": "sob",
     "ui-label": "sob",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea-water-salinity-at-sea-floor",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "dsn",
     "validation-key": "dsn",
     "ui-label": "dsn",
-    "description": "",
     "data-type": "real",
     "standard-name": "change-over-time-in-amount-of-ice-and-snow-on-land",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -5,253 +5,142 @@
 Every branded identifier follows this **exact pattern**:
 
 ```
-[root-variable]_[temporal-label]-[area-label]-[horizontal-label]-[vertical-label]
+[root-variable]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
 ```
 
 ```mermaid
 graph LR
     A[Variable Root] --> B[Temporal Label]
-    B --> C[Area Label]  
+    B --> C[Vertical Label]  
     C --> D[Horizontal Label]
-    D --> E[Vertical Label]
+    D --> E[Area Label]
     
     style A fill:#e1f5fe
     style B fill:#f3e5f5
-    style C fill:#e8f5e8
+    style C fill:#fce4ec
     style D fill:#fff3e0
-    style E fill:#fce4ec
+    style E fill:#e8f5e8
 ```
 
-## Step-by-Step Construction Walkthrough
+## Step-by-Step Construction
 
-### Example: Building `pr_tmax-lnd-hxy-u`
+### Example: Building `hfds_tavg-u-hxy-sea`
 
-**Scenario**: You need daily maximum precipitation over land areas for flood risk assessment.
+**Scenario**: You need downward heat flux at the sea surface for ocean energy studies.
 
 #### Step 1: Choose Variable Root 🌱
 - **Question**: What are you measuring?
-- **Answer**: Precipitation rate
-- **Choice**: `pr`
+- **Answer**: Downward heat flux at sea surface
+- **Choice**: `hfds`
 
 #### Step 2: Define Temporal Aggregation ⏰
 - **Question**: How is data sampled in time?
-- **Answer**: Daily maximum values
-- **Choice**: `tmax`
+- **Answer**: Time-averaged values
+- **Choice**: `tavg`
 
-#### Step 3: Specify Spatial Domain 🗺️
-- **Question**: What area does this cover?
-- **Answer**: Land areas only (floods happen on land)
-- **Choice**: `lnd`
+#### Step 3: Define Vertical Coordinate 📏
+- **Question**: What vertical level?
+- **Answer**: Surface level (unspecified vertical dimension)
+- **Choice**: `u`
 
 #### Step 4: Choose Horizontal Representation 📊
 - **Question**: How is data distributed spatially?
 - **Answer**: Regular latitude-longitude grid
 - **Choice**: `hxy`
 
-#### Step 5: Define Vertical Coordinate 📏
-- **Question**: What vertical level?
-- **Answer**: Surface precipitation (no vertical dimension)
-- **Choice**: `u`
+#### Step 5: Specify Spatial Domain 🗺️
+- **Question**: What area does this cover?
+- **Answer**: Sea/ocean areas only
+- **Choice**: `sea`
 
 #### Assembly
 ```
-pr + _ + tmax + - + lnd + - + hxy + - + u
-= pr_tmax-lnd-hxy-u
+hfds + _ + tavg + - + u + - + hxy + - + sea
+= hfds_tavg-u-hxy-sea
 ```
 
+## 🧩 Component Guide
 
+=== "Step 1: Variable Root 🌱"
 
-## 🧩 How to Build a Variable Identifier
-
-Follow these 5 simple steps to create a clear, standardized variable name.
-
-=== "Step 1: Core Variable 🌱"
-
-    **Start with the main physical quantity you're describing.**
-
-    Choose the fundamental parameter that represents what you're measuring:
+    **Choose the main physical quantity you're measuring.**
 
     ```yaml
-    # Common Variable Roots
-    tas: Air temperature near the surface
-    pr: Rainfall/precipitation rate  
-    tos: Sea surface temperature
-    abs550aer: Aerosol absorption at 550nm
-    ua: Eastward wind component
-    va: Northward wind component
-    ps: Surface air pressure
-    hurs: Near-surface relative humidity
+    # Common Examples
+    tas: Near-surface air temperature
+    tos: Sea surface temperature  
+    pr: Precipitation rate
+    hfds: Downward heat flux
+    ua: Eastward wind
+    va: Northward wind
     ```
 
-    **Examples:**
-    - For temperature measurements → `tas`
-    - For rainfall data → `pr` 
-    - For wind measurements → `ua` or `va`
-    - For pressure data → `ps`
+=== "Step 2: Temporal ⏰"
 
-=== "Step 2: Time Info ⏰"
-
-    **Describe how the data is sampled over time.**
-
-    Specify the temporal aggregation or sampling method:
+    **How is the data sampled over time?**
 
     ```yaml
-    # Temporal Labels
-    tavg: Average over time (monthly mean, daily mean)
-    tmax: Maximum value in a time period
-    tmin: Minimum value in a time period  
-    tpt: Snapshot at a specific time (instantaneous)
+    tavg: Time average (most common)
+    tmax: Maximum value in period
+    tmin: Minimum value in period  
+    tpt: Snapshot/instantaneous
     tsum: Sum over time period
     ```
 
-    **Usage Guide:**
-    - Climate normals → `tavg`
-    - Extreme values → `tmax` or `tmin`
-    - Weather forecasts → `tpt`
-    - Accumulated quantities → `tsum`
+=== "Step 3: Vertical 📏"
 
-=== "Step 3: Define Area 🗺️"
-
-    **Specify where the data applies spatially.**
-
-    Choose the spatial domain or masking:
+    **What vertical level or dimension?**
 
     ```yaml
-    # Area Labels  
-    u: Global coverage (no mask)
-    lnd: Land areas only
-    sea: Ocean/sea areas only
-    ice: Ice-covered areas only
+    u: Surface/unspecified
     h2m: 2 meters above ground
-    h10m: 10 meters above ground
-    h100m: 100 meters above ground
+    al: All atmospheric levels
+    ol: All ocean levels
     ```
 
-    **Decision Tree:**
-    - Global studies → `u`
-    - Land-only analysis → `lnd`
-    - Ocean research → `sea`
-    - Near-surface weather → `h2m` or `h10m`
+=== "Step 4: Horizontal 📊"
 
-=== "Step 4: Horizontal Layout 📊"
-
-    **Explain how the data is distributed horizontally.**
-
-    Define the spatial representation:
+    **How is data distributed spatially?**
 
     ```yaml
-    # Horizontal Labels
-    hxy: Regular grid (latitude-longitude)
-    hys: Meridional section (latitude-depth slice)
-    ht: Transect along a specific path
-    hm: Global mean (no spatial dimension)
+    hxy: Regular lat-lon grid (most common)
+    hm: Global mean
+    hy: Zonal mean
     ```
 
-    **Common Uses:**
-    - Global climate models → `hxy`
-    - Ocean sections → `hys`  
-    - Ship/aircraft tracks → `ht`
-    - Global averages → `hm`
+=== "Step 5: Area 🗺️"
 
-=== "Step 5: Vertical Level 📏"
-
-    **Indicate the vertical dimension of the data.**
-
-    Specify the vertical coordinate system:
+    **What spatial domain/masking?**
 
     ```yaml
-    # Vertical Labels
-    u: Surface or unspecified vertical dimension
-    al: All atmospheric levels (full 3D atmosphere)
-    ol: All ocean levels (full 3D ocean)
-    plev: Standard pressure levels
-    sea: Sea surface or ocean-specific
-    air: Atmospheric levels
-    lnd: Land surface
+    u: Global/unmasked
+    sea: Ocean areas only
+    lnd: Land areas only
+    air: Atmospheric region
     ```
-
-    **Selection Guide:**
-    - Surface variables → `u`
-    - 3D atmospheric data → `al` or `plev`
-    - 3D ocean data → `ol` or `sea`
-    - Land surface only → `lnd`
-
-## Visual Construction Guide
-
-```mermaid
-flowchart TD
-    A[Start: What variable do you need?] --> B[Choose Root Variable]
-    B --> C{How sampled in time?}
-    C -->|Average| D[tavg]
-    C -->|Maximum| E[tmax] 
-    C -->|Minimum| F[tmin]
-    C -->|Instantaneous| G[tpt]
-    
-    D --> H{What area?}
-    E --> H
-    F --> H  
-    G --> H
-    
-    H -->|Global| I[u]
-    H -->|Land only| J[lnd]
-    H -->|Ocean only| K[sea]
-    H -->|Specific height| L[h2m/h10m]
-    
-    I --> M[Choose Horizontal: hxy, hys, ht]
-    J --> M
-    K --> M
-    L --> M
-    
-    M --> N[Choose Vertical: u, al, ol, plev, sea]
-    N --> O[Combine with underscores and dashes]
-    O --> P[Validate the result]
-```
-
-## Interactive Construction
-
-**Try building your own:**
-
-1. **What physical parameter?** → Choose from [root variables](../05-root-variables.md)
-2. **How sampled in time?** → Choose from [temporal labels](../03-component-reference.md#temporal-labels)  
-3. **What spatial area?** → Choose from [area labels](../03-component-reference.md#area-labels)
-4. **Horizontal distribution?** → Choose from [horizontal labels](../03-component-reference.md#horizontal-labels)
-5. **Vertical coordinate?** → Choose from [vertical labels](../03-component-reference.md#vertical-labels)
-
-## Construction Resources
-
-Explore detailed guidance for each aspect of construction:
-
-### 📚 **[Construction Examples →](examples.md)**
-Step-by-step examples organized by domain (atmospheric, ocean, land, precipitation)
-
-### 🎯 **[Common Patterns →](patterns.md)**  
-Standard patterns for different variable types and naming conventions
-
-### ✅ **[Rules & Validation →](rules-and-validation.md)**
-Construction rules, validation checklist, and error prevention
-
-### 🔧 **[Validation Checklist →](checklist.md)**
-Interactive checklist to validate your constructed identifiers
 
 ## Quick Reference
 
 | Component | Separator | Example |
 |-----------|-----------|---------|
-| Variable Root | `_` | `tas_` |
+| Variable Root | `_` | `hfds_` |
 | Temporal Label | `-` | `tavg-` |
-| Area Label | `-` | `h2m-` |
+| Vertical Label | `-` | `u-` |
 | Horizontal Label | `-` | `hxy-` |
-| Vertical Label | (end) | `u` |
+| Area Label | (end) | `sea` |
 
-**Final Result**: `tas_tavg-h2m-hxy-u`
+**Final Result**: `hfds_tavg-u-hxy-sea`
+
+## Interactive Explorer
+
+Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) to build and validate your identifiers interactively.
 
 ## Next Steps
 
 - **[See construction examples →](examples.md)**
 - **[Learn common patterns →](patterns.md)**  
-- **[Validate your identifier →](rules-and-validation.md)**
-- **[Find valid components →](../03-component-reference.md)**
+- **[Find valid components →](../08_components/)**
 
 ---
 
-*Remember: Construction is systematic and rule-based. Follow the formula, check physical consistency, and validate against available components.*
+*Construction follows the pattern: root_temporal-vertical-horizontal-area with area going last.*

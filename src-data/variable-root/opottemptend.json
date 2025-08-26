@@ -2,12 +2,11 @@
     "id": "opottemptend",
     "validation-key": "opottemptend",
     "ui-label": "opottemptend",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-sea-water-potential-temperature-expressed-as-heat-content",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

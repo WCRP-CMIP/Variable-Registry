@@ -2,12 +2,11 @@
     "id": "sistrxubot",
     "validation-key": "sistrxubot",
     "ui-label": "sistrxubot",
-    "description": "",
     "data-type": "real",
     "standard-name": "upward-x-stress-at-sea-ice-base",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

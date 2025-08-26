@@ -2,12 +2,11 @@
     "id": "dms",
     "validation-key": "dms",
     "ui-label": "dms",
-    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-dimethyl-sulfide-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

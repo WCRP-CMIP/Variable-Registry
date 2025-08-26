@@ -2,12 +2,11 @@
     "id": "npp",
     "validation-key": "npp",
     "ui-label": "npp",
-    "description": "",
     "data-type": "real",
     "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

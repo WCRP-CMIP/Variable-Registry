@@ -2,12 +2,11 @@
     "id": "ncfc22",
     "validation-key": "ncfc22",
     "ui-label": "ncfc22",
-    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-hcfc22-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

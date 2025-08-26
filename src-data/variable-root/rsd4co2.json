@@ -2,12 +2,11 @@
     "id": "rsd4co2",
     "validation-key": "rsd4co2",
     "ui-label": "rsd4co2",
-    "description": "",
     "data-type": "real",
     "standard-name": "downwelling-shortwave-flux-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

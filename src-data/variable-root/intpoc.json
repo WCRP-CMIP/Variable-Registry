@@ -2,12 +2,11 @@
     "id": "intpoc",
     "validation-key": "intpoc",
     "ui-label": "intpoc",
-    "description": "",
     "data-type": "real",
     "standard-name": "ocean-mass-content-of-particulate-organic-matter-expressed-as-carbon",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

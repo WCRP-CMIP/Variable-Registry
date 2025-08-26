@@ -2,12 +2,11 @@
     "id": "scldncl",
     "validation-key": "scldncl",
     "ui-label": "scldncl",
-    "description": "",
     "data-type": "real",
     "standard-name": "number-concentration-of-stratiform-cloud-liquid-water-particles-at-stratiform-liquid-water-cloud-top",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "mmrbc",
     "validation-key": "mmrbc",
     "ui-label": "mmrbc",
-    "description": "",
     "data-type": "real",
     "standard-name": "mass-fraction-of-elemental-carbon-dry-aerosol-particles-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "sltbasin",
     "validation-key": "sltbasin",
     "ui-label": "sltbasin",
-    "description": "",
     "data-type": "real",
     "standard-name": "northward-ocean-salt-transport",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

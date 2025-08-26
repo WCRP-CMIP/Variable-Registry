@@ -2,12 +2,11 @@
     "id": "cleaf",
     "validation-key": "cleaf",
     "ui-label": "cLeaf",
-    "description": "",
     "data-type": "real",
     "standard-name": "leaf-mass-content-of-carbon",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

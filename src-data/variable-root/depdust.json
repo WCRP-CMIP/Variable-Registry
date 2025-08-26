@@ -2,12 +2,11 @@
     "id": "depdust",
     "validation-key": "depdust",
     "ui-label": "depdust",
-    "description": "",
     "data-type": "real",
     "standard-name": "minus-tendency-of-atmosphere-mass-content-of-dust-dry-aerosol-particles-due-to-deposition",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

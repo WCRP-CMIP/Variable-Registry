@@ -2,12 +2,11 @@
     "id": "c2h5oh",
     "validation-key": "c2h5oh",
     "ui-label": "c2h5oh",
-    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-ethanol-in-air",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

@@ -2,12 +2,11 @@
     "id": "gppc14",
     "validation-key": "gppc14",
     "ui-label": "gppc14",
-    "description": "",
     "data-type": "real",
     "standard-name": "gross-primary-productivity-of-biomass-expressed-as-14c",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

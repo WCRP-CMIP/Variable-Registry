@@ -2,12 +2,11 @@
     "id": "fclandtoocean",
     "validation-key": "fclandtoocean",
     "ui-label": "fCLandToOcean",
-    "description": "",
     "data-type": "real",
     "standard-name": "mass-flux-of-carbon-into-sea-water-from-rivers",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

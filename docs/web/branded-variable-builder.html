@@ -269,10 +269,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>CMIP Branded Variable Explorer</h1>
-            <p>Interactive tool for constructing standardized climate variable identifiers</p>
+            <h1>CMIP Variable Registry Explorer</h1>
+            <p>Build and explore standardized climate variable identifiers</p>
             <div class="structure-info">
-                [Variable Root]_[Temporal Label]-[Area Label]-[Horizontal Label]-[Vertical Label]
+                [Variable Root]_[Temporal]-[Vertical]-[Horizontal]-[Area]
             </div>
         </div>
         <div class="builder-container">
@@ -280,7 +280,7 @@
                 <div class="component-group">
                     <h4><span class="material-icons" style="font-size: 16px;">thermostat</span> Variable Root</h4>
                     <div class="autocomplete-container">
-                        <input type="text" id="variableRoot" placeholder="e.g. tas, tos, pr">
+                        <input type="text" id="variableRoot" placeholder="e.g. tas, tos, hfds">
                         <div class="autocomplete-suggestions" id="variableRootSuggestions"></div>
                     </div>
                     <div class="source-link" id="rootLabel">
@@ -302,15 +302,15 @@
                 </div>
 
                 <div class="component-group">
-                    <h4><span class="material-icons" style="font-size: 16px;">public</span> Area</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">height</span> Vertical</h4>
                     <div class="autocomplete-container">
-                        <input type="text" id="areaLabel" placeholder="e.g. air, sea, u">
-                        <div class="autocomplete-suggestions" id="areaLabelSuggestions"></div>
+                        <input type="text" id="verticalLabel" placeholder="e.g. u, h2m">
+                        <div class="autocomplete-suggestions" id="verticalLabelSuggestions"></div>
                     </div>
-                    <div class="source-link" id="areaLabelDisplay">
+                    <div class="source-link" id="verticalLabelDisplay">
                         <span style="color: #999; font-size: 10px;">No selection</span>
                     </div>
-                    <div class="status-indicator status-loading" id="areaStatus">Loading...</div>
+                    <div class="status-indicator status-loading" id="verticalStatus">Loading...</div>
                 </div>
 
                 <div class="component-group">
@@ -326,29 +326,29 @@
                 </div>
 
                 <div class="component-group">
-                    <h4><span class="material-icons" style="font-size: 16px;">height</span> Vertical</h4>
+                    <h4><span class="material-icons" style="font-size: 16px;">public</span> Area</h4>
                     <div class="autocomplete-container">
-                        <input type="text" id="verticalLabel" placeholder="e.g. u, h2m">
-                        <div class="autocomplete-suggestions" id="verticalLabelSuggestions"></div>
+                        <input type="text" id="areaLabel" placeholder="e.g. sea, air, u">
+                        <div class="autocomplete-suggestions" id="areaLabelSuggestions"></div>
                     </div>
-                    <div class="source-link" id="verticalLabelDisplay">
+                    <div class="source-link" id="areaLabelDisplay">
                         <span style="color: #999; font-size: 10px;">No selection</span>
                     </div>
-                    <div class="status-indicator status-loading" id="verticalStatus">Loading...</div>
+                    <div class="status-indicator status-loading" id="areaStatus">Loading...</div>
                 </div>
             </div>
 
             <div class="result-section">
-                <h2>Your Branded Identifier</h2>
+                <h2>Variable Identifier</h2>
                 <div class="component-colors">
                     <span class="color-legend root">Variable Root</span>
                     <span class="color-legend temporal">Temporal</span>
-                    <span class="color-legend area">Area</span>
-                    <span class="color-legend horizontal">Horizontal</span>
                     <span class="color-legend vertical">Vertical</span>
+                    <span class="color-legend horizontal">Horizontal</span>
+                    <span class="color-legend area">Area</span>
                 </div>
-                <div class="branded-identifier" id="result">Type in the fields above to build your identifier...</div>
-                <div class="interpretation" id="interpretation">Your selection will be interpreted here...</div>
+                <div class="branded-identifier" id="result">Complete fields to build your identifier...</div>
+                <div class="interpretation" id="interpretation">Variable description will appear here...</div>
                 <button class="reset-button" onclick="resetBuilder()">🔄 Reset All</button>
             </div>
 
@@ -364,23 +364,23 @@
                 <h3>Examples</h3>
                 <p style="margin-bottom: 15px; color: #6c757d; font-size: 13px;">Try these examples or use ?branding=identifier in URL:</p>
                 <div class="example-item">
-                    <div class="example-code">tas_tavg-u-hxy-h2m</div>
-                    <div class="example-desc">Near-surface air temperature, time-averaged, unmasked, gridded, at 2m height</div>
+                    <div class="example-code">hfds_tavg-u-hxy-sea</div>
+                    <div class="example-desc">Downward heat flux at sea surface, time-averaged, unspecified vertical, gridded, over sea</div>
                 </div>
                 <div class="example-item">
-                    <div class="example-code">tos_tavg-sea-hxy-d0m</div>
-                    <div class="example-desc">Sea surface temperature, time-averaged, over sea, gridded, at surface</div>
+                    <div class="example-code">tas_tavg-h2m-hxy-u</div>
+                    <div class="example-desc">Near-surface air temperature, time-averaged, at 2m height, gridded, unmasked</div>
                 </div>
                 <div class="example-item">
-                    <div class="example-code">pr_tsum-u-hxy-u</div>
-                    <div class="example-desc">Precipitation, time-summed, unmasked, gridded, unspecified vertical</div>
+                    <div class="example-code">abs550aer_tavg-u-hxy-u</div>
+                    <div class="example-desc">Aerosol absorption at 550nm, time-averaged, unspecified vertical, gridded, unmasked</div>
                 </div>
             </div>
 
             <div style="margin-top: 15px; padding: 12px; background: #e8f4fd; border-radius: 6px; border-left: 3px solid #2196f3;">
                 <p style="font-size: 12px; margin: 0;">
-                    <strong>Data Sources:</strong> Loads live data from Variable Registry APIs. 
-                    Press F12 and type <code>testAutocomplete()</code> for debugging.
+                    <strong>Data:</strong> Live from Variable Registry APIs. 
+                    Debug: F12 → <code>testAutocomplete()</code>
                 </p>
             </div>
         </div>
@@ -709,13 +709,13 @@
             const values = {
                 root: selectors.variableRoot.value || 'undefined',
                 temporal: selectors.temporalLabel.value || 'undefined',
-                area: selectors.areaLabel.value || 'undefined',
+                vertical: selectors.verticalLabel.value || 'undefined',
                 horizontal: selectors.horizontalLabel.value || 'undefined',
-                vertical: selectors.verticalLabel.value || 'undefined'
+                area: selectors.areaLabel.value || 'undefined'
             };
 
-            // Always build the identifier with undefined placeholders
-            let identifier = `${values.root}_${values.temporal}-${values.area}-${values.horizontal}-${values.vertical}`;
+            // Build the identifier in correct order: root_temporal-vertical-horizontal-area
+            let identifier = `${values.root}_${values.temporal}-${values.vertical}-${values.horizontal}-${values.area}`;
             
             // Check if all components are defined (no 'undefined' values)
             const isComplete = !Object.values(values).includes('undefined');
@@ -750,12 +750,12 @@
                 descriptionsLine += ', temporal method not specified';
             }
             
-            // Area
-            if (values.area !== 'undefined') {
-                const areaDesc = selectors.areaLabel.getAttribute('data-description') || '';
-                descriptionsLine += areaDesc ? `, ${areaDesc.toLowerCase()}` : `, ${selectors.areaLabel.getAttribute('data-label') || values.area}`;
+            // Vertical
+            if (values.vertical !== 'undefined') {
+                const vertDesc = selectors.verticalLabel.getAttribute('data-description') || '';
+                descriptionsLine += vertDesc ? `, ${vertDesc.toLowerCase()}` : `, ${selectors.verticalLabel.getAttribute('data-label') || values.vertical}`;
             } else {
-                descriptionsLine += ', area not specified';
+                descriptionsLine += ', vertical level not specified';
             }
             
             // Horizontal
@@ -766,19 +766,19 @@
                 descriptionsLine += ', horizontal processing not specified';
             }
             
-            // Vertical
-            if (values.vertical !== 'undefined') {
-                const vertDesc = selectors.verticalLabel.getAttribute('data-description') || '';
-                descriptionsLine += vertDesc ? `, ${vertDesc.toLowerCase()}` : `, ${selectors.verticalLabel.getAttribute('data-label') || values.vertical}`;
+            // Area
+            if (values.area !== 'undefined') {
+                const areaDesc = selectors.areaLabel.getAttribute('data-description') || '';
+                descriptionsLine += areaDesc ? `, ${areaDesc.toLowerCase()}` : `, ${selectors.areaLabel.getAttribute('data-label') || values.area}`;
             } else {
-                descriptionsLine += ', vertical level not specified';
+                descriptionsLine += ', area not specified';
             }
 
             // Create the full interpretation with descriptions only
             interpretation = `<div class="descriptions">${descriptionsLine}</div>`;
             
-            // Color-code the identifier
-            let coloredIdentifier = `<span class="root">${values.root}</span>_<span class="temporal">${values.temporal}</span>-<span class="area">${values.area}</span>-<span class="horizontal">${values.horizontal}</span>-<span class="vertical">${values.vertical}</span>`;
+            // Color-code the identifier in correct order
+            let coloredIdentifier = `<span class="root">${values.root}</span>_<span class="temporal">${values.temporal}</span>-<span class="vertical">${values.vertical}</span>-<span class="horizontal">${values.horizontal}</span>-<span class="area">${values.area}</span>`;
             
             resultElement.innerHTML = coloredIdentifier;
             interpretationElement.innerHTML = interpretation;
@@ -787,13 +787,13 @@
             const hasDefinedValues = Object.values({
                 root: selectors.variableRoot.value,
                 temporal: selectors.temporalLabel.value,
-                area: selectors.areaLabel.value,
+                vertical: selectors.verticalLabel.value,
                 horizontal: selectors.horizontalLabel.value,
-                vertical: selectors.verticalLabel.value
+                area: selectors.areaLabel.value
             }).some(v => v !== '');
             
             if (hasDefinedValues) {
-                const actualIdentifier = `${selectors.variableRoot.value || 'undefined'}_${selectors.temporalLabel.value || 'undefined'}-${selectors.areaLabel.value || 'undefined'}-${selectors.horizontalLabel.value || 'undefined'}-${selectors.verticalLabel.value || 'undefined'}`;
+                const actualIdentifier = `${selectors.variableRoot.value || 'undefined'}_${selectors.temporalLabel.value || 'undefined'}-${selectors.verticalLabel.value || 'undefined'}-${selectors.horizontalLabel.value || 'undefined'}-${selectors.areaLabel.value || 'undefined'}`;
                 const newUrl = new URL(window.location);
                 newUrl.searchParams.set('branding', actualIdentifier);
                 window.history.replaceState({}, '', newUrl);
@@ -809,10 +809,10 @@
             
             console.debug('🔗 Parsing branding from URL:', branding);
             
-            // Parse the branding identifier: root_temporal-area-horizontal-vertical
+            // Parse the branding identifier: root_temporal-vertical-horizontal-area
             const parts = branding.split(/[_-]/);
             if (parts.length >= 1) {
-                const mapping = ['variableRoot', 'temporalLabel', 'areaLabel', 'horizontalLabel', 'verticalLabel'];
+                const mapping = ['variableRoot', 'temporalLabel', 'verticalLabel', 'horizontalLabel', 'areaLabel'];
                 parts.forEach((part, index) => {
                     if (part && mapping[index] && selectors[mapping[index]]) {
                         selectors[mapping[index]].value = part;
@@ -876,9 +876,9 @@
             const values = {
                 root: selectors.variableRoot.value,
                 temporal: selectors.temporalLabel.value,
-                area: selectors.areaLabel.value,
+                vertical: selectors.verticalLabel.value,
                 horizontal: selectors.horizontalLabel.value,
-                vertical: selectors.verticalLabel.value
+                area: selectors.areaLabel.value
             };
             
             // Check if complete
@@ -886,7 +886,7 @@
                 return; // Don't fetch if incomplete
             }
             
-            const identifier = `${values.root}_${values.temporal}-${values.area}-${values.horizontal}-${values.vertical}`;
+            const identifier = `${values.root}_${values.temporal}-${values.vertical}-${values.horizontal}-${values.area}`;
             
             // Avoid duplicate fetches
             if (identifier === lastFetchedIdentifier) {
@@ -998,9 +998,9 @@
                 const urlValues = {
                     root: selectors.variableRoot.value,
                     temporal: selectors.temporalLabel.value,
-                    area: selectors.areaLabel.value,
+                    vertical: selectors.verticalLabel.value,
                     horizontal: selectors.horizontalLabel.value,
-                    vertical: selectors.verticalLabel.value
+                    area: selectors.areaLabel.value
                 };
                 
                 const isUrlComplete = Object.values(urlValues).every(v => v && v !== 'undefined');

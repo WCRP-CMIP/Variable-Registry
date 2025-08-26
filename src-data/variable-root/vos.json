@@ -2,12 +2,11 @@
     "id": "vos",
     "validation-key": "vos",
     "ui-label": "vos",
-    "description": "",
     "data-type": "real",
     "standard-name": "surface-sea-water-y-velocity",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

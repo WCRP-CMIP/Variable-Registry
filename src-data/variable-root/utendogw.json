@@ -2,12 +2,11 @@
     "id": "utendogw",
     "validation-key": "utendogw",
     "ui-label": "utendogw",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-eastward-wind-due-to-orographic-gravity-wave-drag",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

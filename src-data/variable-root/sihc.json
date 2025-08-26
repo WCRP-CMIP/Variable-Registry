@@ -2,12 +2,11 @@
     "id": "sihc",
     "validation-key": "sihc",
     "ui-label": "sihc",
-    "description": "",
     "data-type": "real",
     "standard-name": "sea-ice-enthalpy-content",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

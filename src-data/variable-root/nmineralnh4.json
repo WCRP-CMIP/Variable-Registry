@@ -2,12 +2,11 @@
     "id": "nmineralnh4",
     "validation-key": "nmineralnh4",
     "ui-label": "nMineralNH4",
-    "description": "",
     "data-type": "real",
     "standard-name": "soil-mass-content-of-inorganic-ammonium-expressed-as-nitrogen",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }

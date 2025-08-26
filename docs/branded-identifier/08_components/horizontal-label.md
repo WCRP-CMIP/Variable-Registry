@@ -1,365 +1,139 @@
-# Horizontal Labels 📊
+# Horizontal Labels
 
-**Horizontal labels** define how variables are distributed or represented in the horizontal spatial dimensions. They answer the question: *"How is this variable arranged horizontally across space?"*
+**Horizontal labels** define how climate variables are distributed, processed, or aggregated in horizontal space within CMIP model outputs. They are the **fourth component** in branded identifiers.
 
-[Browse Horizontal Labels on GitHub](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/horizontal-label){ .md-button .md-button--primary }
+## Role in CMIP
 
-## Definition
+Horizontal representation is crucial for CMIP model comparison because climate models use different grid resolutions, coordinate systems, and analysis methods. The same physical process can be represented as:
+- **Full spatial fields** for detailed regional analysis
+- **Zonal averages** for circulation studies  
+- **Global means** for monitoring Earth system changes
+- **Cross-sections** for specific process investigations
 
-Horizontal labels specify the horizontal spatial structure of the data - whether it's on a regular grid, along specific transects, as point observations, or other horizontal arrangements.
+Horizontal labels ensure that all CMIP models provide data with consistent spatial processing and representation.
+
+### Why Horizontal Labels Matter
+
+Different horizontal representations serve different scientific needs:
+- **Gridded fields** (`hxy`) preserve spatial patterns for regional impacts
+- **Global means** (`hm`) track Earth system energy and mass budgets
+- **Zonal means** (`hy`) reveal atmospheric and oceanic circulation patterns
+- **Cross-sections** (`hys`, `ht`) examine specific transport processes
+
+This standardization enables direct comparison of spatial analysis methods across different climate models.
+
+## Pattern Position
+
+```
+[root-variable]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
+                                                   ↑
+                                              Horizontal position
+```
 
 ## Common Horizontal Labels
 
-### 🔲 **Regular Grids**
+=== "Gridded Data"
 
-| Label ID | Full Name | Description | Usage Examples |
-|----------|-----------|-------------|----------------|
-| **`hxy`** | Gridded Horizontal | Regular latitude-longitude grid | Most climate model output, reanalysis data |
+    **Full spatial resolution data:**
 
-### 📊 **Cross-Sections and Transects**
+    | Label | Description | Spatial Structure | Example Usage |
+    |-------|-------------|-------------------|---------------|
+    | **`hxy`** | Regular lat-lon grid | Full 2D spatial field | `tas_tavg-h2m-hxy-u` |
+    | **`hxys`** | Site/station data | Point locations | `tas_tpt-h2m-hxys-u` |
 
-| Label ID | Full Name | Description | Usage Examples |
-|----------|-----------|-------------|----------------|
-| **`hys`** | Meridional Section | Latitude-depth or latitude-pressure slice | Ocean circulation studies, atmospheric cross-sections |
-| **`hxs`** | Zonal Section | Longitude-depth or longitude-pressure slice | Equatorial ocean studies, zonal wind analysis |
-| **`ht`** | Transect | Along specific path or trajectory | Ship tracks, flight paths, satellite tracks |
+=== "Spatial Averages"
 
-### 📍 **Point and Station Data**
+    **Aggregated spatial representations:**
 
-| Label ID | Full Name | Description | Usage Examples |
-|----------|-----------|-------------|----------------|
-| **`hpt`** | Point | Single location | Weather stations, buoy observations |
-| **`hsite`** | Site | Specific geographic site | Flux towers, research stations |
+    | Label | Description | Spatial Structure | Example Usage |
+    |-------|-------------|-------------------|---------------|
+    | **`hm`** | Global mean | Single value per time | `co2_tavg-u-hm-u` |
+    | **`hy`** | Zonal mean | Latitude-dependent | `ta_tavg-p39-hy-air` |
 
-## Usage in Branded Identifiers
+=== "Cross-Sections"
 
-Horizontal labels are the fourth component in the identifier construction:
+    **Specific spatial slices for process studies:**
 
-```
-[variable-root]_[temporal-label]-[area-label]-[horizontal-label]-[vertical-label]
-```
+    | Label | Description | Spatial Structure | Example Usage |
+    |-------|-------------|-------------------|---------------|
+    | **`hys`** | Meridional section | Latitude-depth/height | `thetao_tavg-ol-hys-sea` |
+    | **`ht`** | Transect/path | Along specific route | `tos_tpt-u-ht-sea` |
 
-### Examples by Horizontal Structure
+## Selection Guide
 
-#### Regular Gridded Data (`hxy`)
-```
-tas_tavg-h2m-hxy-u     → Temperature on regular lat-lon grid
-pr_tavg-u-hxy-u        → Precipitation on regular lat-lon grid
-tos_tavg-sea-hxy-sea   → Sea surface temperature on regular grid
-```
+### By Analysis Purpose
+- **Regional impacts** → `hxy` (preserve spatial detail)
+- **Global monitoring** → `hm` (Earth system budgets)
+- **Circulation studies** → `hy` (zonal patterns), `hys` (meridional transport)
+- **Model validation** → Match observational structure (`hxys` for stations)
+- **Process investigation** → `ht` (specific transects)
 
-#### Meridional Cross-Sections (`hys`)
-```
-thetao_tavg-ol-hys-sea → Ocean temperature on latitude-depth section
-ua_tavg-al-hys-air     → Eastward wind on latitude-pressure section
-so_tavg-ol-hys-sea     → Ocean salinity on meridional section
-```
+### By Computational Requirements
+- **High resolution analysis** → `hxy` (full spatial detail)
+- **Efficient storage** → `hm`, `hy` (reduced data volume)
+- **Targeted analysis** → `hys`, `ht` (focused domains)
 
-#### Zonal Cross-Sections (`hxs`)
-```
-thetao_tavg-ol-hxs-sea → Ocean temperature on longitude-depth section  
-va_tavg-al-hxs-air     → Northward wind on longitude-pressure section
-```
-
-#### Transect Data (`ht`)
-```
-tos_tpt-sea-ht-sea     → SST along ship track or satellite path
-ta_tpt-al-ht-air       → Atmospheric temperature along flight path
-```
-
-#### Point Observations (`hpt`)
-```
-tas_tavg-h2m-hpt-u     → Temperature at weather station
-pr_tsum-u-hpt-u        → Daily precipitation total at rain gauge
-```
-
-## Horizontal Structure Concepts
-
-### Grid Type Visualization
-
-```mermaid
-graph TD
-    A[Horizontal Data Structures] --> B[Regular Grids]
-    A --> C[Cross-Sections]
-    A --> D[Trajectories] 
-    A --> E[Point Data]
-    
-    B --> F[hxy: Lat-Lon Grid<br/>🔲🔲🔲<br/>🔲🔲🔲<br/>🔲🔲🔲]
-    
-    C --> G[hys: Meridional<br/>Latitude vs Depth<br/>📊]
-    C --> H[hxs: Zonal<br/>Longitude vs Depth<br/>📈]
-    
-    D --> I[ht: Transects<br/>Ship/satellite tracks<br/>➡️➡️➡️]
-    
-    E --> J[hpt: Point Obs<br/>Weather stations<br/>📍]
-    
-    style B fill:#e3f2fd
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#f3e5f5
-```
-
-### Coordinate System Relationships
-
-```mermaid
-graph LR
-    A[hxy<br/>Full 2D Grid] --> B[Longitude × Latitude]
-    C[hys<br/>Meridional] --> D[Latitude × Depth/Pressure]
-    E[hxs<br/>Zonal] --> F[Longitude × Depth/Pressure]  
-    G[ht<br/>Transect] --> H[Distance along path]
-    I[hpt<br/>Point] --> J[Single location]
-    
-    style A fill:#e3f2fd
-    style C fill:#e8f5e8
-    style E fill:#fff3e0
-    style G fill:#f3e5f5
-    style I fill:#ffebee
-```
-
-## Selection Guidelines
-
-### Decision Tree
-
-```mermaid
-flowchart TD
-    A[What horizontal structure?] --> B{Data arrangement?}
-    
-    B -->|Regular 2D grid| C[hxy - Gridded Horizontal]
-    B -->|North-south slice| D[hys - Meridional Section]
-    B -->|East-west slice| E[hxs - Zonal Section]
-    B -->|Path/trajectory| F[ht - Transect]
-    B -->|Single location| G[hpt - Point]
-    B -->|Specific research site| H[hsite - Site]
-    
-    style C fill:#e3f2fd
-    style D fill:#e8f5e8
-    style E fill:#fff3e0
-    style F fill:#f3e5f5
-    style G fill:#ffebee
-    style H fill:#e0f2f1
-```
-
-### Common Choices by Data Type
-
-**Climate Model Output**:
-- **Standard**: Use `hxy` for regular lat-lon grid output
-- **Analysis**: Use `hys` or `hxs` for circulation studies
-- **Process studies**: Use `ht` for specific pathway analysis
-
-**Observational Data**:
-- **Satellite**: Use `hxy` for gridded products, `ht` for swath data
-- **Weather stations**: Use `hpt` for individual stations
-- **Research campaigns**: Use `ht` for ship/aircraft tracks
-- **Flux towers**: Use `hsite` for ecosystem monitoring sites
-
-**Reanalysis Products**:
-- **Standard grids**: Use `hxy` for global regular grids
-- **Diagnostic sections**: Use `hys`/`hxs` for circulation analysis
+### By Scientific Domain
+- **Atmospheric dynamics** → `hy` (zonal winds), `hxy` (storm tracks)
+- **Ocean circulation** → `hys` (overturning), `hxy` (surface currents)
+- **Land processes** → `hxy` (heterogeneous surface)
+- **Global change** → `hm` (planetary averages)
 
 ## Physical Applications
 
-### Regular Grids (`hxy`)
-
-**Best for**:
-- Global climate analysis
-- Weather prediction models
-- Satellite-derived gridded products
-- Most atmospheric and oceanic modeling
-
-**Typical resolutions**:
-- Climate models: 1° × 1° to 0.25° × 0.25°
-- Weather models: 0.1° × 0.1° or finer
-- Reanalysis: 0.25° × 0.25° to 2.5° × 2.5°
-
-### Meridional Sections (`hys`)
-
-**Best for**:
-- Ocean overturning circulation studies
-- Atmospheric circulation (Hadley cells)
-- Cross-basin ocean transport
-- Meridional heat transport analysis
-
-**Typical usage**:
-- Atlantic meridional section (26°N, 45°N)
-- Pacific circulation studies
-- Atmospheric zonal means
-
-### Zonal Sections (`hxs`)
-
-**Best for**:
-- Equatorial ocean dynamics
-- Zonal wind patterns
-- Pacific/Atlantic cross-sections
-- Walker circulation studies
-
-**Typical usage**:
-- Equatorial Pacific (5°S-5°N average)
-- Tropical Atlantic sections
-- Monsoon circulation analysis
-
-### Transects (`ht`)
-
-**Best for**:
-- Ship-based observations
-- Aircraft measurement campaigns  
-- Satellite ground tracks
-- Specific research transects
-
-**Examples**:
-- CalCOFI oceanographic surveys
-- Aircraft atmospheric chemistry missions
-- Argo float trajectories
-
-### Point Data (`hpt`)
-
-**Best for**:
-- Weather station observations
-- Buoy measurements
-- Individual measurement sites
-- Model-observation comparisons
-
-**Applications**:
-- Climate monitoring networks
-- Validation datasets
-- Local impact studies
-
-## Data Structure Implications
-
-### Grid Properties
-
-| Label | Dimensions | Coordinates | Data Structure |
-|-------|------------|-------------|----------------|
-| `hxy` | 2D grid | lat, lon | `data[lat, lon]` |
-| `hys` | 2D section | lat, depth/pressure | `data[lat, level]` |
-| `hxs` | 2D section | lon, depth/pressure | `data[lon, level]` |
-| `ht` | 1D path | distance/time | `data[position]` |
-| `hpt` | 0D point | single location | `data[scalar]` |
-
-### Processing Considerations
-
-**Regular grids** (`hxy`):
-- Area weighting for global averages
-- Interpolation between grid points
-- Map projections and coordinate transformations
-
-**Cross-sections** (`hys`, `hxs`):
-- Vertical interpolation to standard levels
-- Integration along sections for transports
-- Gradient calculations across sections
-
-**Transects** (`ht`):
-- Path-following coordinates
-- Distance-based analysis
-- Temporal sequencing along tracks
-
-**Point data** (`hpt`):
-- Quality control for individual observations
-- Spatial representativeness considerations
-- Aggregation to larger scales
-
-## Physical Consistency Rules
-
-### ✅ Valid Combinations
-
-**Standard grid applications**:
+### Atmospheric Science
 ```
-✓ tas_tavg-h2m-hxy-u     (surface temperature on regular grid)
-✓ tos_tavg-sea-hxy-sea   (SST on regular grid)
-✓ pr_tavg-u-hxy-u        (precipitation on regular grid)
+✓ ua_tavg-p39-hy-air     # Zonal wind patterns (Hadley/jet stream)
+✓ ta_tavg-al-hxy-air     # Temperature fields (heat waves, cold fronts)
+✓ slp_tavg-u-hm-u        # Global mean sea level pressure (climate indices)
 ```
 
-**Cross-section studies**:
+### Ocean Science
 ```
-✓ thetao_tavg-ol-hys-sea (ocean temperature meridional section)
-✓ so_tavg-ol-hxs-sea     (salinity zonal section)
-✓ ua_tavg-al-hys-air     (zonal wind meridional section)
-```
-
-**Transect observations**:
-```
-✓ tos_tpt-sea-ht-sea     (SST along ship track)
-✓ co2_tpt-h2m-ht-u       (CO2 along aircraft path)
+✓ thetao_tavg-ol-hys-sea # Meridional overturning circulation
+✓ tos_tavg-u-hxy-sea     # Sea surface temperature patterns (El Niño)
+✓ zostoga_tavg-u-hm-sea  # Global mean sea level rise
 ```
 
-### ❌ Invalid Combinations
-
-**Dimensionally inconsistent**:
+### Land Science
 ```
-❌ pr_tavg-u-hpt-u       (precipitation at single point - usually use station totals)
-❌ global_avg_hxy-*      (global average shouldn't be on a grid)
+✓ mrsol_tavg-sl-hxy-lnd  # Soil moisture spatial patterns (drought)
+✓ gpp_tavg-u-hm-lnd      # Global primary productivity (carbon cycle)
 ```
 
-**Physically inappropriate**:
+## CMIP Standard Grids
+
+Most CMIP models provide `hxy` data on regular latitude-longitude grids:
+- **Low resolution**: ~200-400 km (1-2 degrees)
+- **Standard resolution**: ~100-200 km (0.5-1 degrees)  
+- **High resolution**: ~25-50 km (0.25 degrees)
+
+Zonal means (`hy`) typically use the same latitude resolution as the native model grid.
+
+## Consistency Examples
+
+### Valid Combinations
 ```
-❌ tos_tavg-lnd-hxy-u    (sea surface temperature over land)
-❌ lai_tavg-sea-hys-u    (leaf area index in ocean section)
-```
-
-## JSON Structure
-
-Each horizontal label is defined with this structure:
-
-```json
-{
-    "id": "hxy",
-    "validation-key": "hxy",
-    "ui-label": "Gridded Horizontal",
-    "description": "Regular latitude-longitude grid with uniform spacing",
-    "@context": "_context_", 
-    "type": ["wcrp:horizontal-label", "variable"]
-}
+✓ tas_tavg-h2m-hxy-u     # Surface temperature on regular grid
+✓ co2_tavg-u-hm-u        # Global mean CO₂ concentration
+✓ ua_tavg-p19-hy-air     # Zonal mean winds at standard levels
+✓ msftmz_tavg-ol-hys-sea # Meridional overturning streamfunction
 ```
 
-## Common Usage Patterns
-
-### Climate Research
-- **Model intercomparison**: `*-hxy-*` for standard grid comparisons
-- **Process studies**: `*-hys-*`, `*-hxs-*` for circulation analysis
-- **Observational analysis**: `*-hpt-*` for station data, `*-ht-*` for campaigns
-
-### Operational Meteorology
-- **Numerical weather prediction**: `*-hxy-*` for model grids
-- **Station observations**: `*-hpt-*` for weather networks
-- **Satellite products**: `*-hxy-*` for gridded, `*-ht-*` for swaths
-
-### Oceanography
-- **Global ocean models**: `*-hxy-*` for basin-scale studies
-- **Section studies**: `*-hys-*` for overturning, `*-hxs-*` for equatorial
-- **Ship observations**: `*-ht-*` for cruise data, `*-hpt-*` for moorings
-
-## Integration Example
-
-Here's how horizontal labels fit into the complete identifier:
-
+### Physically Appropriate Choices
 ```
-Root: tos (sea surface temperature)
-Temporal: tavg (time average)
-Area: sea (ocean surfaces)
-Horizontal: hxy (regular grid)
-Vertical: sea (sea surface)
-
-Result: tos_tavg-sea-hxy-sea  
-Meaning: "Sea surface temperature, time-averaged, over ocean surfaces,
-         on regular lat-lon grid, at sea surface level"
+✓ Global budgets       → hm  (energy, water, carbon)
+✓ Regional patterns    → hxy (precipitation, temperature extremes)
+✓ Circulation studies  → hy  (westerlies), hys (overturning)
+✓ Validation studies   → hxys (match station/buoy locations)
 ```
 
-## Browse and Explore
+## Next Steps
 
-[Browse All Horizontal Labels on GitHub](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/horizontal-label){ .md-button .md-button--primary }
-
-**Key files to examine**:
-- `hxy.json` - Most common for climate model output
-- `hys.json` - Standard for meridional ocean/atmosphere sections  
-- `ht.json` - Essential for observational campaigns
-- `hpt.json` - Standard for station observations
-
-## Navigation
-
-- [← Area Labels](area-label.md)
-- [Vertical Labels →](vertical-label.md)
-- [← Back to Components](index.md)
-- [Construction Guide](../02-how-to-construct.md)
+- **[Browse all horizontal labels](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/horizontal-label)** in the registry
+- **[Area labels →](area-label.md)**
+- **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
 
 ---
 
-*Horizontal labels define the spatial structure of your data. Choose based on whether you have gridded data, cross-sections, transects, or point observations.*
+*Horizontal labels specify spatial processing for consistent CMIP model analysis.*

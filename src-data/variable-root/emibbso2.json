@@ -2,12 +2,11 @@
     "id": "emibbso2",
     "validation-key": "emibbso2",
     "ui-label": "emibbso2",
-    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-sulfur-dioxide-due-to-emission-from-fires",
-    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "@context": "_context_"
 }
