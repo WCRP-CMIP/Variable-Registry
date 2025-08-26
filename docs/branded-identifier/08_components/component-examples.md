@@ -1,230 +1,317 @@
 # Component Examples
 
-This document provides detailed examples of how components work together in the Branded Identifier System.
+## Role in CMIP Variable Construction
 
-## Complete Variable Example
+Component examples demonstrate how the five elements of branded identifiers work together to create unambiguous, physically consistent variable definitions for CMIP. These examples serve as:
 
-Let's examine the variable `abs550aer_tavg-u-hxy-u` and break down each component:
+- **Construction templates** for new variable development
+- **Validation references** for checking component compatibility  
+- **Best practice demonstrations** from operational CMIP usage
+- **Quality assurance tools** for scientific consistency
 
-### Variable Structure
+Understanding component interactions ensures robust variable construction that works across all CMIP modeling centers.
+
+## Complete Variable Breakdown
+
+### Example: `abs550aer_tavg-u-hxy-u`
+
+Let's examine how each component contributes to this aerosol absorption variable:
+
 ```
 abs550aer_tavg-u-hxy-u
-└── abs550aer        (variable-root)
-└── tavg             (temporal-label)
-└── u                (vertical-label)
-└── hxy              (horizontal-label)
+├── abs550aer        (variable-root)
+├── tavg             (temporal-label)  
+├── u                (vertical-label)
+├── hxy              (horizontal-label)
 └── u                (area-label)
 ```
 
-### Component Breakdown
+=== "Variable Root: abs550aer"
 
-#### Variable Root: `abs550aer`
-**File**: `src-data/variable-root/abs550aer.json`
-> - **Purpose**: Aerosol absorption optical thickness at 550nm wavelength
-> - **Physical Parameter**: Atmospheric aerosol absorption coefficient
-> - **Base Units**: Dimensionless (1)
+    **Definition**: Aerosol absorption optical thickness at 550nm wavelength
+    
+    **Physical Meaning**: Atmospheric aerosol absorption coefficient
+    
+    **CMIP Applications**: 
+    - Aerosol radiative forcing studies
+    - Air quality assessments  
+    - Climate model validation against satellite data
+    
+    **Units**: Dimensionless (optical depth)
+    
+    **Registry**: [abs550aer.json](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/variable-root)
 
-#### Temporal Label: `tavg`
-**File**: `src-data/temporal-label/tavg.json`
-> - **Purpose**: Time-averaged data
-> - **Description**: Data averaged over the temporal sampling period
-> - **Usage**: Monthly, daily, or other regular time averages
+=== "Temporal Label: tavg"
 
-#### Vertical Label: `u`
-**File**: `src-data/vertical-label/u.json`
-> - **Purpose**: Unspecified vertical coordinate
-> - **Description**: Typically indicates surface or column-integrated values
-> - **Alternative Options**:
->     - `al` - All atmospheric levels
->     - `ol` - All ocean levels
->     - `h2m` - 2-meter height
+    **Definition**: Time-averaged data over sampling period
+    
+    **Physical Meaning**: Mean value computed from high-frequency data
+    
+    **CMIP Applications**:
+    - Monthly climatologies for model comparison
+    - Seasonal cycle analysis
+    - Long-term trend detection
+    
+    **Processing**: Raw model output → temporal averaging → monthly/daily means
+    
+    **Registry**: [tavg.json](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/temporal-label)
 
-#### Horizontal Label: `hxy`
-**File**: `src-data/horizontal-label/hxy.json`
-> - **Purpose**: Gridded horizontal representation
-> - **Description**: Regular latitude-longitude grid
-> - **Alternative Options**:
->     - `hm` - Global mean
->     - `hy` - Zonal mean
+=== "Vertical Label: u"
 
-#### Area Label: `u`
-**File**: `src-data/area-label/u.json`
-> - **Purpose**: Unmasked area
-> - **Description**: No spatial masking applied - global coverage
-> - **Alternative Options**:
->     - `lnd` - Land areas only
->     - `sea` - Ocean/sea areas only
->     - `air` - Atmospheric region
+    **Definition**: Unspecified vertical coordinate (typically column-integrated)
+    
+    **Physical Meaning**: Total atmospheric column for aerosol absorption
+    
+    **CMIP Applications**:
+    - Satellite comparison (column measurements)
+    - Radiative forcing calculations
+    - Global aerosol burden assessment
+    
+    **Alternative Options**: `al` (3D profiles), `h2m` (near-surface)
+    
+    **Registry**: [u.json](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/vertical-label)
 
-## More Variable Examples
+=== "Horizontal Label: hxy"
 
-=== "Temperature Variables"
+    **Definition**: Regular latitude-longitude grid representation
+    
+    **Physical Meaning**: Spatially distributed data on model's native grid
+    
+    **CMIP Applications**:
+    - Regional pattern analysis
+    - Spatial model validation
+    - Impact assessment studies
+    
+    **Grid Structure**: 2D arrays with lat/lon coordinates
+    
+    **Registry**: [hxy.json](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/horizontal-label)
 
-    #### Surface Air Temperature: `tas_tpt-h2m-hxy-u`
+=== "Area Label: u"
+
+    **Definition**: Unmasked/global coverage (no spatial domain restriction)
+    
+    **Physical Meaning**: Aerosol absorption exists globally in atmosphere
+    
+    **CMIP Applications**:
+    - Global aerosol studies
+    - Earth system model validation
+    - Climate forcing assessments
+    
+    **Coverage**: All grid points where atmosphere exists
+    
+    **Registry**: [u.json](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/area-label)
+
+## Multi-Domain Variable Examples
+
+=== "Atmospheric Variables"
+
+    ### Surface Meteorology
     ```yaml
-    variable-root: tas (Near-surface air temperature)
-    temporal-label: tpt (Time point - instantaneous)
-    vertical-label: h2m (2-meter height)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: u (Global/unmasked)
+    tas_tpt-h2m-hxy-u:
+      Description: Instantaneous 2m air temperature
+      Usage: Weather prediction, model initialization
+      Components:
+        - tas: Near-surface air temperature
+        - tpt: Time point (instantaneous)
+        - h2m: 2-meter height above surface
+        - hxy: Gridded spatial representation  
+        - u: Global coverage
     ```
 
-    #### Ocean Heat Flux: `hfds_tavg-u-hxy-sea`
+    ### 3D Atmospheric Fields  
     ```yaml
-    variable-root: hfds (Downward heat flux at sea surface)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface level)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: sea (Over sea areas)
-    ```
-
-=== "Precipitation Variables"
-
-    #### Monthly Precipitation: `pr_tavg-u-hxy-u`
-    ```yaml
-    variable-root: pr (Precipitation rate)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: u (Global/unmasked)
-    ```
-
-    #### Snow Precipitation: `prsn_tavg-u-hxy-u`
-    ```yaml
-    variable-root: prsn (Snowfall rate)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: u (Global/unmasked)
+    ua_tavg-al-hxy-air:
+      Description: Monthly mean eastward wind profiles
+      Usage: Atmospheric circulation, jet stream analysis
+      Components:
+        - ua: Eastward wind component
+        - tavg: Time averaged monthly means
+        - al: All atmospheric model levels
+        - hxy: Gridded horizontal structure
+        - air: Atmospheric domain only
     ```
 
 === "Ocean Variables"
 
-    #### Sea Surface Temperature: `tos_tavg-u-hxy-sea`
+    ### Sea Surface Properties
     ```yaml
-    variable-root: tos (Sea surface temperature)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: sea (Over ocean areas)
+    tos_tavg-u-hxy-sea:
+      Description: Monthly mean sea surface temperature
+      Usage: Climate indices (El Niño), marine ecosystems
+      Components:
+        - tos: Sea surface temperature
+        - tavg: Monthly time averages  
+        - u: Surface level (unspecified depth)
+        - hxy: Regular lat-lon ocean grid
+        - sea: Ocean areas only
     ```
 
-    #### Ocean Velocity: `uo_tavg-ol-hxy-sea`
+    ### Ocean Interior
     ```yaml
-    variable-root: uo (Eastward ocean velocity)
-    temporal-label: tavg (Time average)
-    vertical-label: ol (All ocean levels)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: sea (Ocean domain)
+    thetao_tavg-ol-hxy-sea:
+      Description: Ocean potential temperature profiles  
+      Usage: Ocean heat content, circulation studies
+      Components:
+        - thetao: Ocean potential temperature
+        - tavg: Monthly averages for climate analysis
+        - ol: All ocean depth levels
+        - hxy: 3D ocean grid structure
+        - sea: Marine environment only
     ```
 
 === "Land Variables"
 
-    #### Soil Moisture: `mrsol_tavg-sl-hxy-lnd`
+    ### Surface Land Processes
     ```yaml
-    variable-root: mrsol (Soil moisture content)
-    temporal-label: tavg (Time average)
-    vertical-label: sl (All soil levels)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: lnd (Over land areas)
+    lai_tavg-u-hxy-lnd:
+      Description: Monthly leaf area index
+      Usage: Vegetation phenology, carbon cycle
+      Components:
+        - lai: Leaf area index
+        - tavg: Monthly growing season averages
+        - u: Surface canopy level
+        - hxy: Terrestrial grid representation
+        - lnd: Land areas only
     ```
 
-    #### Vegetation Carbon: `cVeg_tavg-u-hxy-lnd`
+    ### Subsurface Processes  
     ```yaml
-    variable-root: cVeg (Vegetation carbon)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: lnd (Over land areas)
+    mrsol_tavg-sl-hxy-lnd:
+      Description: Soil moisture content profiles
+      Usage: Drought monitoring, agricultural impacts  
+      Components:
+        - mrsol: Soil moisture content
+        - tavg: Monthly hydrological averages
+        - sl: All soil model layers
+        - hxy: Land surface grid
+        - lnd: Terrestrial domain only
     ```
 
 === "Ice Variables"
 
-    #### Sea Ice Concentration: `siconc_tavg-u-hxy-u`
+    ### Sea Ice Properties
     ```yaml
-    variable-root: siconc (Sea ice area fraction)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: u (Global/unmasked)
+    siconc_tavg-u-hxy-u:
+      Description: Monthly sea ice concentration
+      Usage: Arctic/Antarctic monitoring, shipping routes
+      Components:
+        - siconc: Sea ice area percentage  
+        - tavg: Monthly averages for climate analysis
+        - u: Sea surface level
+        - hxy: Polar region grids
+        - u: Global coverage (ice can occur anywhere)
     ```
 
-    #### Sea Ice Thickness: `sithick_tavg-u-hxy-si`
-    ```yaml
-    variable-root: sithick (Sea ice thickness)
-    temporal-label: tavg (Time average)
-    vertical-label: u (Surface/unspecified)
-    horizontal-label: hxy (Gridded horizontal)
-    area-label: si (Over sea ice)
+    ### Ice-Specific Processes
+    ```yaml  
+    sithick_tavg-u-hxy-si:
+      Description: Sea ice thickness  
+      Usage: Ice volume calculations, climate trends
+      Components:
+        - sithick: Sea ice thickness
+        - tavg: Monthly thickness averages
+        - u: Ice surface level
+        - hxy: Sea ice grid representation
+        - si: Sea ice regions only
     ```
 
-## Component Combination Rules
+## Physical Consistency Rules
 
-### Pattern
-```
-[variable-root]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
-```
+### Valid Component Interactions
 
-### Physical Consistency Rules
-- Ocean variables must use ocean-compatible area labels (`sea`)
-- Land variables must use land-compatible area labels (`lnd`)
-- Surface variables typically use `u` for vertical label
-- 3D variables use level-specific vertical labels (`al`, `ol`)
+**Domain-appropriate combinations**:
+```yaml
+Ocean variables:
+  ✓ tos_tavg-u-hxy-sea      # Ocean temperature over sea
+  ✓ uo_tavg-ol-hxy-sea      # Ocean currents in water column
+  ✓ hfds_tavg-u-hxy-sea     # Heat flux into ocean
 
-### Valid Combinations
-```
-✓ hfds_tavg-u-hxy-sea        (Heat flux at sea surface)
-✓ tas_tmax-h2m-hxy-u         (Maximum temperature at 2m)
-✓ uo_tavg-ol-hxy-sea         (Ocean velocity at all levels)
-✓ mrsol_tavg-sl-hxy-lnd      (Soil moisture in all layers)
-```
+Land variables:
+  ✓ mrsol_tavg-sl-hxy-lnd   # Soil moisture in ground  
+  ✓ gpp_tavg-u-hxy-lnd      # Plant productivity over land
+  ✓ mrro_tavg-u-hxy-lnd     # Surface runoff from land
 
-### Invalid Combinations
-```
-✗ tos_tavg-al-hxy-air        (Sea temperature with atmospheric levels)
-✗ ua_tavg-ol-hxy-sea         (Atmospheric wind with ocean levels)
-✗ siconc_tavg-sl-hxy-lnd     (Sea ice with soil levels)
+Atmospheric variables:
+  ✓ tas_tavg-h2m-hxy-u      # Air temperature in atmosphere
+  ✓ pr_tavg-u-hxy-u         # Precipitation (global process)
+  ✓ ua_tavg-al-hxy-air      # Wind in atmospheric column
 ```
 
-## Interactive Explorer
+### Invalid Component Combinations
 
-Use the [Variable Registry Explorer](../web/branded-variable-builder.html) to:
-- Build identifiers interactively
-- Validate component combinations
-- Explore all available components
-- See real variable examples
+**Domain mismatches**:
+```yaml
+❌ tos_tavg-al-hxy-air      # Sea temperature with air levels
+❌ tas_tavg-ol-hxy-sea      # Air temperature with ocean levels  
+❌ mrsol_tavg-u-hxy-sea     # Soil moisture over ocean
+❌ siconc_tavg-sl-hxy-lnd   # Sea ice with soil coordinates
+```
 
-Try these examples:
-- [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
-- [tas_tmax-h2m-hxy-u](../web/branded-variable-builder.html?branding=tas_tmax-h2m-hxy-u)
-- [abs550aer_tavg-u-hxy-u](../web/branded-variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
+**Physically meaningless**:
+```yaml
+❌ ps_tsum-u-hxy-u          # Pressure "sum" (undefined)
+❌ tas_tavg-ol-hxy-air      # Air temp with ocean coordinates  
+❌ pr_tavg-sl-hxy-u         # Precipitation in soil layers
+```
 
-## Supporting Variable Data
+## Component Validation Workflow
 
-Each complete variable includes:
+### Interactive Validation
+
+Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) for:
+
+1. **Real-time validation** of component combinations
+2. **Autocomplete suggestions** from registry data  
+3. **Physical consistency checking** 
+4. **Variable definition lookup** with complete metadata
+
+**Test these examples**:
+- [abs550aer_tavg-u-hxy-u](../../web/branded-variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
+- [tas_tavg-h2m-hxy-u](../../web/branded-variable-builder.html?branding=tas_tavg-h2m-hxy-u)  
+- [tos_tavg-u-hxy-sea](../../web/branded-variable-builder.html?branding=tos_tavg-u-hxy-sea)
+
+### Registry Integration
+
+Each validated component combination includes:
 
 ```json
 {
-    "id": "hfds_tavg-u-hxy-sea",
-    "validation-key": "hfds_tavg-u-hxy-sea",
-    "variable-root": "hfds",
-    "temporal-label": "tavg",
-    "vertical-label": "u",
-    "horizontal-label": "hxy",
-    "area-label": "sea",
-    "ui-label": "Downward Heat Flux at Sea Water Surface",
-    "description": "Net flux of heat entering the liquid water column...",
-    "standard-name": "surface_downward_heat_flux_in_sea_water",
-    "units": "W m-2"
+  "id": "hfds_tavg-u-hxy-sea",
+  "variable-root": "hfds",
+  "temporal-label": "tavg", 
+  "vertical-label": "u",
+  "horizontal-label": "hxy",
+  "area-label": "sea",
+  "ui-label": "Downward Heat Flux at Sea Water Surface",
+  "description": "Net flux of heat entering ocean...",
+  "standard-name": "surface_downward_heat_flux_in_sea_water",
+  "units": "W m-2"
 }
 ```
 
+## Quality Assurance Checklist
+
+### Before Using Component Combinations
+
+- **All components exist** in Variable Registry
+- **Physical consistency** validated by domain experts
+- **CMIP precedent** established in operational use
+- **Standard format** follows exact separator pattern  
+- **Documentation complete** with scientific descriptions
+
+### Community Standards
+
+- **CF Convention compliance** for all metadata
+- **Version control** for component updates
+- **Peer review** through CMIP working groups
+- **Automated validation** in CMIP processing systems
+
 ## Next Steps
 
-- **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
-- **[Component reference →](../08_components/)**
-- **[Root variables →](../05-root-variables.md)**
+- **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)** - Build identifiers step-by-step
+- **[Common patterns →](../02_How%20to%20Construct/patterns.md)** - Learn established patterns
+- **[Interactive explorer →](../../web/branded-variable-builder.html)** - Try building variables
 
 ---
 
-*Pattern: root_temporal-vertical-horizontal-area*
+*Component examples demonstrate physically consistent variable construction for CMIP.*
