@@ -2,7 +2,7 @@
     "id": "p1000",
     "validation-key": "p1000",
     "ui-label": "pressure",
-    "description": "1000 hPa",
+    "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
     "axis-flag": "Z",
     "cf-standard-name": "air_pressure",
     "@context": "_context_",

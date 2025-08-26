@@ -2,7 +2,7 @@
     "id": "hxys",
     "validation-key": "hxys",
     "ui-label": "Site Values",
-    "description": "site values",
+    "description": "Variables represented as point measurements at specific geographic sites or stations. Used for observational data, tower measurements, or model output extracted at particular locations rather than gridded data.",
     "@context": "_context_",
     "type": [
         "wcrp:horizontal-label",

@@ -2,7 +2,7 @@
     "id": "ifs",
     "validation-key": "ifs",
     "ui-label": "Ice Free Sea",
-    "description": "ice_free_sea",
+    "description": "Variables calculated over ocean areas that are free of sea ice. Represents open ocean conditions without ice cover, used for ocean-atmosphere exchange processes and marine ecosystem variables.",
     "@context": "_context_",
     "type": [
         "wcrp:area-label",

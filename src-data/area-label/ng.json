@@ -2,7 +2,7 @@
     "id": "ng",
     "validation-key": "ng",
     "ui-label": "Natural Grasses",
-    "description": "natural_grasses",
+    "description": "Variables calculated over natural grassland areas, including prairies, steppes, and other non-cultivated grass-dominated ecosystems. Encompasses natural vegetation dynamics, carbon cycling, and ecosystem productivity in grassland environments.",
     "@context": "_context_",
     "type": [
         "wcrp:area-label",

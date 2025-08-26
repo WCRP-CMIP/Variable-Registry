@@ -2,7 +2,7 @@
     "id": "500hPa",
     "validation-key": "500hPa",
     "ui-label": "500 hPa Pressure Level",
-    "description": "500 hPa",
+    "description": "Variables at the 500 hPa pressure level, located in the middle troposphere at approximately 5-6 km altitude. This level is crucial for weather analysis, representing mid-level atmospheric dynamics and circulation patterns.",
     "@context": "_context_",
     "type": [
         "wcrp:vertical-label",

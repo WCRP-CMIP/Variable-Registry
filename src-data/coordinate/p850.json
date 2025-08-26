@@ -2,7 +2,7 @@
     "id": "p850",
     "validation-key": "p850",
     "ui-label": "pressure",
-    "description": "850 hPa",
+    "description": "Atmospheric pressure coordinate at 850 hPa level, located in the lower troposphere at approximately 1.5 km altitude. Commonly used for boundary layer analysis and near-surface weather patterns.",
     "axis-flag": "Z",
     "cf-standard-name": "air_pressure",
     "@context": "_context_",

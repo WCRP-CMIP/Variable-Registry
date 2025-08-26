@@ -2,7 +2,7 @@
     "id": "amn-tpt",
     "validation-key": "amn-tpt",
     "ui-label": "Area Mean Instantaneous",
-    "description": "area: mean time: point",
+    "description": "Cell method representing spatial area mean of instantaneous (point-in-time) values. Variables are spatially averaged over grid cells or regions but represent snapshot conditions at specific time instances.",
     "mask": "",
     "@context": "_context_",
     "type": [

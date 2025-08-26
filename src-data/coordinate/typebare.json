@@ -2,7 +2,7 @@
     "id": "typebare",
     "validation-key": "typebare",
     "ui-label": "surface type",
-    "description": "",
+    "description": "Coordinate for bare soil or unvegetated surface area type, used to identify and analyze variables over regions with no vegetation cover.",
     "axis-flag": "",
     "cf-standard-name": "area_type",
     "@context": "_context_",

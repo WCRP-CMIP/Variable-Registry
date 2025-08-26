@@ -2,7 +2,7 @@
     "id": "hy",
     "validation-key": "hy",
     "ui-label": "Zonal Mean",
-    "description": "zonal mean",
+    "description": "Variables calculated as zonal means, averaged along lines of constant latitude (east-west direction). Removes longitudinal variability to show meridional (north-south) patterns and large-scale circulation features.",
     "@context": "_context_",
     "type": [
         "wcrp:horizontal-label",

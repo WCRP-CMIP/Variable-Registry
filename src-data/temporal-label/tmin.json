@@ -2,7 +2,7 @@
     "id": "tmin",
     "validation-key": "tmin",
     "ui-label": "Minimum Statistic",
-    "description": "minimum (or mean of daily minima)",
+    "description": "Variables representing minimum values or mean of daily minimum values over a time period. Used for extreme statistics, temperature minima, or other variables where lowest conditions are of interest.",
     "@context": "_context_",
     "type": [
         "wcrp:temporal-label",

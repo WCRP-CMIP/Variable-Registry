@@ -2,7 +2,7 @@
     "id": "tclmdc",
     "validation-key": "tclmdc",
     "ui-label": "Diurnal Climatology",
-    "description": "diurnal cycle climatology",
+    "description": "Variables representing long-term diurnal cycle climatology, calculated as multi-year averages for each hour or time of day. Shows typical daily patterns and diurnal variations in climate variables over extended time periods.",
     "@context": "_context_",
     "type": [
         "wcrp:temporal-label",

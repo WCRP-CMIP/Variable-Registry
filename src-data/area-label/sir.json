@@ -2,7 +2,7 @@
     "id": "sir",
     "validation-key": "sir",
     "ui-label": "Sea Ice Ridges",
-    "description": "sea_ice_ridges",
+    "description": "Variables calculated over sea ice ridge areas, which are linear features formed by ice deformation and pressure. These ridged areas have different thermal and mechanical properties compared to level sea ice.",
     "@context": "_context_",
     "type": [
         "wcrp:area-label",

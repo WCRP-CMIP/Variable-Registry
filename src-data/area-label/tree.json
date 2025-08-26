@@ -2,7 +2,7 @@
     "id": "tree",
     "validation-key": "tree",
     "ui-label": "Trees",
-    "description": "trees",
+    "description": "Variables calculated over tree-covered areas, including forests, woodlands, and other tree-dominated ecosystems. Covers forest structure, canopy properties, tree growth, and forest carbon dynamics.",
     "@context": "_context_",
     "type": [
         "wcrp:area-label",

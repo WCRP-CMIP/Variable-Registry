@@ -2,7 +2,7 @@
     "id": "basin",
     "validation-key": "basin",
     "ui-label": "Ocean Basin",
-    "description": "",
+    "description": "Dimension representing different ocean basins for regional analysis, allowing variables to be categorized by major oceanic regions such as Atlantic, Pacific, and Indian Ocean basins.",
     "axis-flag": "",
     "cf-standard-name": "region",
     "spatial-shape": "Ocean basin meridional section,Ocean basin meridional section (on density surfaces),Ocean basin meridional section (on model grid and density surfaces),Ocean basin meridional section (on model grid),Ocean basin zonal mean",

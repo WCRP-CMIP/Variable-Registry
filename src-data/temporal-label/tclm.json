@@ -2,7 +2,7 @@
     "id": "tclm",
     "validation-key": "tclm",
     "ui-label": "Annual Climatology",
-    "description": "annual cycle climatology",
+    "description": "Variables representing long-term annual cycle climatology, calculated as multi-year averages for each month or season. Shows typical seasonal patterns and annual variations in climate variables over extended time periods.",
     "@context": "_context_",
     "type": [
         "wcrp:temporal-label",

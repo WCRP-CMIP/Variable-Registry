@@ -2,7 +2,7 @@
     "id": "asm-fx",
     "validation-key": "asm-fx",
     "ui-label": "Fixed Area Sum",
-    "description": "area: sum",
+    "description": "Cell method representing spatial summation over areas for fixed (time-invariant) variables. Used for total quantities like grid cell areas or basin volumes that don't change over time.",
     "mask": "",
     "@context": "_context_",
     "type": [
