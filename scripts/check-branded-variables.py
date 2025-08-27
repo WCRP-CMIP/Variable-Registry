@@ -35,7 +35,8 @@ def split_branded_variable_into_components(bv: str) -> dict[str, str]:
 def main():
     """Run the checks"""
     # Make long cell_methods display
-    pd.options.display.max_colwidth = 150
+    pd.options.display.max_colwidth = 200
+    # pd.options.display.max_columns = 10
 
     IN_FILE = Path(".src") / "v1.2.2_vars.json"
     with open(IN_FILE) as fh:
@@ -124,11 +125,110 @@ def main():
     print(error_types)
     print()
     print(f"{error_types.shape[0]} different kinds of errors")
+
     print()
     print(
         failing_compounds.reset_index(
             ["cell_methods", "dimensions"], drop=True
         ).sort_index()
+    )
+
+    error_types["comment"] = (
+        # None
+        "Error applying branding algorithm, "
+        "should be fixed with a simple re-run over the DR (?)"
+    )
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "lnd")
+        & (error_types["actual_value"] == "sn")
+        & (error_types["cell_methods"] == "area: mean where land time: mean"),
+        "comment",
+    ] = "cell_methods should be 'area: mean where snow'?"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "lnd")
+        & (error_types["actual_value"] == "sn")
+        & (
+            error_types["cell_methods"]
+            == "area: mean where land time: mean (weighted by snow area)"
+        ),
+        "comment",
+    ] = "cell_methods should be 'area: mean where snow'?"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "lnd")
+        & (error_types["actual_value"] == "veg"),
+        "comment",
+    ] = "cell_methods should be 'area: mean where vegetation'?"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "lsi")
+        & (error_types["actual_value"] == "u"),
+        "comment",
+    ] = "needs re-run of branding algorithm to fix known issue"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "sea")
+        & (error_types["actual_value"] == "si"),
+        "comment",
+    ] = "cell_methods should be 'area: mean where sea_ice'?"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "sea")
+        & (error_types["actual_value"] == "u"),
+        "comment",
+    ] = "cell_methods should be 'area: mean where sea_ice'?"
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "si")
+        & (error_types["actual_value"] == "u"),
+        "comment",
+    ] = (
+        "unclear if branding algorithm needs an update "
+        "(i.e. actual_value is correct, this should be unspecified because of the weird masking) "
+        "or actual_value is just wrong "
+        "(i.e. need to re-run the branding algorithm on the DR)"
+    )
+    error_types.loc[
+        (error_types["component"] == "area_label")
+        & (error_types["exp_value"] == "u")
+        & (error_types["actual_value"] == "lnd"),
+        "comment",
+    ] = "cell_methods should be 'area: mean where sea_ice' (same as day.snc)?"
+    error_types.loc[
+        (error_types["component"] == "horizontal_label"),
+        "comment",
+    ] = "Need to check branding algorithm logic with Karl"
+    error_types.loc[
+        (error_types["component"] == "temporal_label")
+        & (error_types["exp_value"] == "ti")
+        & (error_types["actual_value"] == "tclm"),
+        "comment",
+    ] = "is dimension 'timefxc' a thing? If yes, need to update the branding algorithm. If no, need to fix the dimensions"
+    error_types.loc[
+        (error_types["component"] == "vertical_label")
+        & (error_types["exp_value"] == "u")
+        & (error_types["actual_value"] == "d0m"),
+        "comment",
+    ] = "need to add depth0m to the dimensions?"
+    error_types.loc[
+        (error_types["component"] == "vertical_label")
+        & (error_types["exp_value"] == "u")
+        & (error_types["actual_value"] == "h2m"),
+        "comment",
+    ] = "need to add height2m to the dimensions? Is 'lowerModelLayer' a dimension we should be able to handle?"
+
+    pd.options.display.max_colwidth = 130
+    print(
+        error_types[
+            [
+                "comment",
+                "component",
+                "exp_value",
+                "actual_value",
+            ]
+        ]
     )
 
 
