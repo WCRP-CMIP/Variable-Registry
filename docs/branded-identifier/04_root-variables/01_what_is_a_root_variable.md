@@ -18,6 +18,9 @@ Root variables are the first component of every branded identifier:
 
 All other components describe HOW, WHEN, and WHERE the measurement is processed.
 
+
+
+
 ## CMIP Root Variable Categories
 
 === "Atmospheric Variables"
@@ -72,21 +75,25 @@ All other components describe HOW, WHEN, and WHERE the measurement is processed.
 ### By Scientific Domain
 
 **Studying atmospheric processes?**
+
 - Temperature: `tas` (2m air), `ta` (profiles), `ts` (surface skin)
 - Water: `pr` (precipitation), `hurs` (humidity), `evspsbl` (evaporation)  
 - Dynamics: `ua`/`va` (wind), `ps` (pressure), `wap` (vertical motion)
 
 **Studying ocean processes?**  
+
 - Temperature: `tos` (surface), `thetao` (3D potential), `to` (in-situ)
 - Dynamics: `uo`/`vo` (currents), `zos` (sea level), `msftmz` (overturning)
 - Properties: `so` (salinity), `rho` (density), `mlotst` (mixed layer)
 
 **Studying land processes?**
+
 - Hydrology: `mrsol` (soil moisture), `mrro` (runoff), `mrsos` (surface soil)
 - Vegetation: `lai` (leaf area), `gpp` (productivity), `npp` (net productivity)  
 - Carbon: `cVeg` (vegetation), `cSoil` (soil), `nbp` (net biome productivity)
 
 **Studying ice processes?**
+
 - Sea ice: `siconc` (concentration), `sithick` (thickness), `siu`/`siv` (velocity)
 - Land ice: `lithk` (thickness), `lifmassbf` (mass flux), `ligroundf` (grounding line)
 - Snow: `snd` (depth), `snw` (water equivalent), `tsn` (temperature)
@@ -94,15 +101,32 @@ All other components describe HOW, WHEN, and WHERE the measurement is processed.
 ### By Measurement Type
 
 **Direct observations match:**
+
 - Weather stations → `tas`, `pr`, `hurs`, `sfcWind`  
 - Ocean buoys → `tos`, `sos`, `zos`
 - Satellite data → `siconc`, `lai`, `ts`
 - Flux towers → `gpp`, `evspsbl`, `hfss`
 
 **Model diagnostics:**
+
 - Energy fluxes → `hfds`, `hfls`, `rlut`, `rsdt`
 - Circulation → `ua`, `va`, `uo`, `vo`, `wap`  
 - Biogeochemistry → `o2`, `no3`, `co3`, `ph`
+
+
+
+
+## Common Patterns
+
+| Variable Type | Typical Pattern |
+|---------------|----------------|
+| **Surface meteorology** | `{var}_tavg-h2m-hxy-u` |
+| **3D atmosphere** | `{var}_tavg-al-hxy-air` |
+| **Ocean surface** | `{var}_tavg-u-hxy-sea` |
+| **Ocean 3D** | `{var}_tavg-ol-hxy-sea` |
+| **Land surface** | `{var}_tavg-u-hxy-lnd` |
+| **Soil layers** | `{var}_tavg-sl-hxy-lnd` |
+
 
 ## Physical Consistency Requirements
 
@@ -162,7 +186,8 @@ The CMIP Variable Registry contains **620+ root variables** covering:
 
 ### Interactive Tools
 
-**[Variable Registry Explorer](../../web/branded-variable-builder.html)**:
+[Variable Registry Explorer](../../web/branded-variable-builder.html){.md-button}
+
 - Browse all 620+ root variables with descriptions
 - Search by keyword or scientific domain
 - Autocomplete functionality with variable details
@@ -171,17 +196,23 @@ The CMIP Variable Registry contains **620+ root variables** covering:
 ### Browse by Category
 
 **Atmospheric Variables**:
+
 - **[Temperature & Energy →](temperature.md)** - Heat and radiation variables
+
 - **[Water Cycle →](water-cycle.md)** - Precipitation, humidity, clouds
+
 - **[Dynamics →](dynamics.md)** - Wind, pressure, circulation
 
 **Ocean Variables**:
+
 - **[Ocean →](ocean.md)** - Temperature, salinity, currents, biogeochemistry
 
 **Terrestrial Variables**:  
+
 - **[Land Ecosystems →](land-ecosystems.md)** - Vegetation, carbon, hydrology
 
 **Cryospheric Variables**:
+
 - **[Ice & Snow →](ice-snow.md)** - Sea ice, land ice, snow processes
 
 ### Registry Resources

@@ -1,14 +1,5 @@
 # What is a Branded Identifier?
 
-## Role in CMIP
-
-Branded identifiers are the foundation of CMIP variable standardization, solving a critical problem in climate model intercomparison. Without standardized naming, the same physical variable appears differently across models:
-
-- Model A: `T2M` (2-meter temperature)
-- Model B: `TEMP_SFC` (surface temperature)  
-- Model C: `tas` (near-surface air temperature)
-
-This inconsistency makes model comparison impossible and wastes countless hours of scientific effort trying to match equivalent variables.
 
 ## Definition
 
@@ -58,6 +49,15 @@ hfds    _tavg  -u    -hxy         -sea
 
 **Result**: *"Downward heat flux at sea surface, time-averaged, at surface level, on a gridded grid, over ocean areas"*
 
+## Interactive Explorer
+
+Build and explore identifiers with the 
+
+[Variable Registry Explorer](../web/branded-variable-builder.html){ .md-button }.
+
+
+Try with a complete example: [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
+
 ## Key Benefits for CMIP
 
 === "Scientific Benefits"
@@ -96,29 +96,6 @@ hfds    _tavg  -u    -hxy         -sea
     - Automated discovery of equivalent variables
     - Standardized analysis workflows
 
-## Physical Consistency
-
-Branded identifiers enforce physical consistency by preventing meaningless combinations:
-
-### Valid Combinations
-```
-✓ tos_tavg-u-hxy-sea     # Sea temperature over ocean (physical)
-✓ mrsol_tavg-sl-hxy-lnd  # Soil moisture over land (physical)
-✓ co2_tavg-al-hxy-air    # CO₂ in atmosphere (physical)
-```
-
-### Invalid Combinations  
-```
-❌ tos_tavg-u-hxy-lnd    # Sea temperature over land (impossible)
-❌ mrsol_tavg-al-hxy-sea # Soil moisture in atmosphere (nonsensical)
-❌ ps_tsum-u-hxy-u       # Pressure "sum" (undefined)
-```
-
-## Interactive Explorer
-
-Build and explore identifiers with the [Variable Registry Explorer](../web/branded-variable-builder.html).
-
-Try with a complete example: [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
 
 ## Registry Scale
 

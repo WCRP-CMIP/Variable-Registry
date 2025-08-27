@@ -1,28 +1,27 @@
-- [Home](index.md)
 - Branded Identifier:
   - [What Is Branded Identifier](branded-identifier/01-what-is-branded-identifier.md)
-  - [Why We Need This](branded-identifier/04-why-we-need-this.md)
-  - [Root Variables](branded-identifier/05-root-variables.md)
+  - [Why We Need This](branded-identifier/03-why-we-need-this.md)
   - How To Construct:
     - [General Structure](branded-identifier/02_How to Construct/01_general_structure.md)
-    - [Examples](branded-identifier/02_How to Construct/examples.md)
     - [Patterns](branded-identifier/02_How to Construct/patterns.md)
   - Root Variables:
-    - [What Is A Root Variable](branded-identifier/07_root-variables/01_what_is_a_root_variable.md)
-    - [Clouds Chemistry](branded-identifier/07_root-variables/clouds-chemistry.md)
-    - [Dynamics](branded-identifier/07_root-variables/dynamics.md)
-    - [Ice Snow](branded-identifier/07_root-variables/ice-snow.md)
-    - [Land Ecosystems](branded-identifier/07_root-variables/land-ecosystems.md)
-    - [Ocean](branded-identifier/07_root-variables/ocean.md)
-    - [Radiation Energy](branded-identifier/07_root-variables/radiation-energy.md)
-    - [Temperature](branded-identifier/07_root-variables/temperature.md)
-    - [Water Cycle](branded-identifier/07_root-variables/water-cycle.md)
-  - Components:
-    - [Area Label](branded-identifier/08_components/area-label.md)
-    - [Component Examples](branded-identifier/08_components/component-examples.md)
-    - [Horizontal Label](branded-identifier/08_components/horizontal-label.md)
-    - [Temporal Label](branded-identifier/08_components/temporal-label.md)
-    - [Vertical Label](branded-identifier/08_components/vertical-label.md)
+    - [What Is A Root Variable](branded-identifier/04_root-variables/01_what_is_a_root_variable.md)
+    - Domain Specific Examples:
+      - [Clouds Chemistry](branded-identifier/04_root-variables/02_domain_specific_examples/clouds-chemistry.md)
+      - [Dynamics](branded-identifier/04_root-variables/02_domain_specific_examples/dynamics.md)
+      - [Examples](branded-identifier/04_root-variables/02_domain_specific_examples/examples.md)
+      - [Ice Snow](branded-identifier/04_root-variables/02_domain_specific_examples/ice-snow.md)
+      - [Land Ecosystems](branded-identifier/04_root-variables/02_domain_specific_examples/land-ecosystems.md)
+      - [Ocean](branded-identifier/04_root-variables/02_domain_specific_examples/ocean.md)
+      - [Radiation Energy](branded-identifier/04_root-variables/02_domain_specific_examples/radiation-energy.md)
+      - [Temperature](branded-identifier/04_root-variables/02_domain_specific_examples/temperature.md)
+      - [Water Cycle](branded-identifier/04_root-variables/02_domain_specific_examples/water-cycle.md)
+  - What Are The Components:
+    - [Area Label](branded-identifier/05_what_are_the_components/area-label.md)
+    - [Component Examples](branded-identifier/05_what_are_the_components/component-examples.md)
+    - [Horizontal Label](branded-identifier/05_what_are_the_components/horizontal-label.md)
+    - [Temporal Label](branded-identifier/05_what_are_the_components/temporal-label.md)
+    - [Vertical Label](branded-identifier/05_what_are_the_components/vertical-label.md)
 - Repository Contents:
   - [Available Files](src-data-docs/index.md)
   - [Area Label](src-data-docs/area-label.md)
@@ -52,8 +51,3 @@
   - [Acknowledgements](auxiliary/acknowledgements.md)
   - [How To Use This](auxiliary/how_to_use_this.md)
   - [Statistics](auxiliary/statistics.md)
-- External Links:
-  - [CMIP Website](https://www.wcrp-cmip.org)
-  - Repository:
-    - [GitHub Repository](https://github.com/WCRP-CMIP/Variable-Registry)
-    - [Add a new Content/Issue/Discussion](https://github.com/WCRP-CMIP/Variable-Registry/issues)

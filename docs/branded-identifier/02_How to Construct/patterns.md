@@ -17,6 +17,62 @@ Understanding these patterns accelerates CMIP variable development and ensures c
 [root-variable]_[temporal-label]-[vertical-label]-[horizontal-label]-[area-label]
 ```
 
+
+## Most Common Patterns
+
+**Based on CMIP variable frequency analysis**:
+
+| Pattern | Usage Frequency | Typical Domains | Example Variables |
+|---------|----------------|-----------------|-------------------|
+| `*_tavg-u-hxy-u` | 35% | All surface variables | `pr`, `ps`, `siconc`, `rsds` |
+| `*_tavg-al-hxy-air` | 15% | 3D atmosphere | `ta`, `ua`, `hus` |
+| `*_tavg-ol-hxy-sea` | 12% | 3D ocean | `thetao`, `so`, `uo` |
+| `*_tavg-h2m-hxy-u` | 8% | Surface meteorology | `tas`, `hurs` |
+| `*_tavg-u-hxy-lnd` | 7% | Land surface | `lai`, `gpp` |
+| `*_tavg-u-hxy-sea` | 6% | Ocean surface | `tos`, `sos` |
+
+## Pattern Selection Strategy
+
+### For CMIP Variable Development
+
+=== "Step 1: Domain Classification"
+
+    **Identify the physical domain first**
+    
+    - **Atmosphere**: `air`, `u`, or height labels (`h2m`, `h10m`)
+    - **Ocean**: `sea` area with ocean coordinates (`u`, `ol`)
+    - **Land**: `lnd` area with surface or soil coordinates (`u`, `sl`)
+    - **Global**: `u` area for variables spanning multiple domains
+
+=== "Step 2: Dimensionality Matching"
+
+    **Match vertical structure to data dimensionality**
+    
+    - **2D Surface**: `u` (most common)
+    - **3D Atmosphere**: `al` (full profiles), `p19`/`p39` (standard levels)  
+    - **3D Ocean**: `ol` (full profiles), specific depths (`d100m`, `d1000m`)
+    - **Soil Profiles**: `sl` (all soil levels)
+    - **Specific Heights**: `h2m`, `h10m` (standard reference levels)
+
+=== "Step 3: Temporal Requirements"
+
+    **Choose based on scientific application**
+    
+    - **Climate studies**: `tavg` (95% of CMIP variables)
+    - **Extreme analysis**: `tmax`, `tmin`
+    - **Weather applications**: `tpt` (instantaneous)
+    - **Budget calculations**: `tsum` (accumulated totals)
+
+=== "Step 4: Spatial Processing"
+
+    **Almost always `hxy` for CMIP gridded output**
+    
+    - **Standard output**: `hxy` (regular lat-lon grid)
+    - **Global monitoring**: `hm` (Earth system indicators)
+    - **Circulation studies**: `hy` (zonal means)
+
+
+
 ## Domain-Specific Patterns
 
 === "Atmospheric Variables"
@@ -135,58 +191,6 @@ Understanding these patterns accelerates CMIP variable development and ensures c
     | **Surface Downwelling** | `rlds_[time]-u-hxy-u` | `rlds_tavg-u-hxy-u` | Surface energy |
     | **Surface Upwelling** | `rlus_[time]-u-hxy-u` | `rlus_tavg-u-hxy-u` | Surface emission |
 
-## Most Common Patterns
-
-**Based on CMIP variable frequency analysis**:
-
-| Pattern | Usage Frequency | Typical Domains | Example Variables |
-|---------|----------------|-----------------|-------------------|
-| `*_tavg-u-hxy-u` | 35% | All surface variables | `pr`, `ps`, `siconc`, `rsds` |
-| `*_tavg-al-hxy-air` | 15% | 3D atmosphere | `ta`, `ua`, `hus` |
-| `*_tavg-ol-hxy-sea` | 12% | 3D ocean | `thetao`, `so`, `uo` |
-| `*_tavg-h2m-hxy-u` | 8% | Surface meteorology | `tas`, `hurs` |
-| `*_tavg-u-hxy-lnd` | 7% | Land surface | `lai`, `gpp` |
-| `*_tavg-u-hxy-sea` | 6% | Ocean surface | `tos`, `sos` |
-
-## Pattern Selection Strategy
-
-### For CMIP Variable Development
-
-=== "Step 1: Domain Classification"
-
-    **Identify the physical domain first**
-    
-    - **Atmosphere**: `air`, `u`, or height labels (`h2m`, `h10m`)
-    - **Ocean**: `sea` area with ocean coordinates (`u`, `ol`)
-    - **Land**: `lnd` area with surface or soil coordinates (`u`, `sl`)
-    - **Global**: `u` area for variables spanning multiple domains
-
-=== "Step 2: Dimensionality Matching"
-
-    **Match vertical structure to data dimensionality**
-    
-    - **2D Surface**: `u` (most common)
-    - **3D Atmosphere**: `al` (full profiles), `p19`/`p39` (standard levels)  
-    - **3D Ocean**: `ol` (full profiles), specific depths (`d100m`, `d1000m`)
-    - **Soil Profiles**: `sl` (all soil levels)
-    - **Specific Heights**: `h2m`, `h10m` (standard reference levels)
-
-=== "Step 3: Temporal Requirements"
-
-    **Choose based on scientific application**
-    
-    - **Climate studies**: `tavg` (95% of CMIP variables)
-    - **Extreme analysis**: `tmax`, `tmin`
-    - **Weather applications**: `tpt` (instantaneous)
-    - **Budget calculations**: `tsum` (accumulated totals)
-
-=== "Step 4: Spatial Processing"
-
-    **Almost always `hxy` for CMIP gridded output**
-    
-    - **Standard output**: `hxy` (regular lat-lon grid)
-    - **Global monitoring**: `hm` (Earth system indicators)
-    - **Circulation studies**: `hy` (zonal means)
 
 ## Quality Validation Checklist
 
