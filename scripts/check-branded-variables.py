@@ -34,6 +34,9 @@ def split_branded_variable_into_components(bv: str) -> dict[str, str]:
 
 def main():
     """Run the checks"""
+    # Make long cell_methods display
+    pd.options.display.max_colwidth = 300
+
     IN_FILE = Path(".src") / "v1.2.2_vars.json"
     with open(IN_FILE) as fh:
         raw_json = json.load(fh)
@@ -90,6 +93,8 @@ def main():
                         "component": k,
                         "exp_value": v_exp,
                         "actual_value": info_components[k],
+                        "cell_methods": info["cell_methods"],
+                        "dimensions": info["dimensions"],
                     }
 
                     failures.append(failure_summary)
@@ -100,8 +105,10 @@ def main():
     print()
     print(f"Issues for {len(failures_df['compound_name'].unique())} compound names")
     print(failures_df["component"].value_counts())
-    disp_cols = ["component", "exp_value", "actual_value"]
-    print(failures_df[disp_cols].drop_duplicates().sort_values(by=disp_cols))
+    disp_cols = ["component", "exp_value", "actual_value", "cell_methods", "dimensions"]
+    error_types = failures_df[disp_cols].drop_duplicates().sort_values(by=disp_cols)
+    print(error_types)
+    print(f"{error_types.shape[0]} different kinds of errors")
 
 
 if __name__ == "__main__":
