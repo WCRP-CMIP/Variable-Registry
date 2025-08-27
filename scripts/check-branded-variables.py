@@ -35,7 +35,7 @@ def split_branded_variable_into_components(bv: str) -> dict[str, str]:
 def main():
     """Run the checks"""
     # Make long cell_methods display
-    pd.options.display.max_colwidth = 300
+    pd.options.display.max_colwidth = 150
 
     IN_FILE = Path(".src") / "v1.2.2_vars.json"
     with open(IN_FILE) as fh:
@@ -104,11 +104,32 @@ def main():
     print(failures_df)
     print()
     print(f"Issues for {len(failures_df['compound_name'].unique())} compound names")
+
+    print()
     print(failures_df["component"].value_counts())
+
     disp_cols = ["component", "exp_value", "actual_value", "cell_methods", "dimensions"]
     error_types = failures_df[disp_cols].drop_duplicates().sort_values(by=disp_cols)
+    failing_compounds = (
+        failures_df.groupby(disp_cols)
+        .apply(lambda x: x["compound_name"].unique().tolist(), include_groups=False)
+        .to_frame("affected_compounds")
+    )
+    failing_compounds["n_affected"] = failing_compounds["affected_compounds"].apply(len)
+    failing_compounds["affected_compounds"] = failing_compounds[
+        "affected_compounds"
+    ].apply(lambda x: x if len(x) <= 5 else f"{str(x[:5])[:-1]}...")
+    failing_compounds = failing_compounds[["n_affected", "affected_compounds"]]
+    print()
     print(error_types)
+    print()
     print(f"{error_types.shape[0]} different kinds of errors")
+    print()
+    print(
+        failing_compounds.reset_index(
+            ["cell_methods", "dimensions"], drop=True
+        ).sort_index()
+    )
 
 
 if __name__ == "__main__":
