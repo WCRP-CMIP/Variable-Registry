@@ -1,3 +1,4 @@
+- [Home](index.md)
 - Branded Identifier:
   - [What Is Branded Identifier](branded-identifier/01-what-is-branded-identifier.md)
   - [Why We Need This](branded-identifier/03-why-we-need-this.md)
@@ -17,11 +18,11 @@
       - [Temperature](branded-identifier/04_root-variables/02_domain_specific_examples/temperature.md)
       - [Water Cycle](branded-identifier/04_root-variables/02_domain_specific_examples/water-cycle.md)
   - What Are The Components:
-    - [Area Label](branded-identifier/05_what_are_the_components/area-label.md)
-    - [Component Examples](branded-identifier/05_what_are_the_components/component-examples.md)
-    - [Horizontal Label](branded-identifier/05_what_are_the_components/horizontal-label.md)
-    - [Temporal Label](branded-identifier/05_what_are_the_components/temporal-label.md)
-    - [Vertical Label](branded-identifier/05_what_are_the_components/vertical-label.md)
+    - [Temporal Label](branded-identifier/05_what_are_the_components/2_temporal-label.md)
+    - [Vertical Label](branded-identifier/05_what_are_the_components/3_vertical-label.md)
+    - [Horizontal Label](branded-identifier/05_what_are_the_components/4_horizontal-label.md)
+    - [Area Label](branded-identifier/05_what_are_the_components/5_area-label.md)
+    - [Component Examples](branded-identifier/05_what_are_the_components/99_component-examples.md)
 - Repository Contents:
   - [Available Files](src-data-docs/index.md)
   - [Area Label](src-data-docs/area-label.md)
@@ -48,6 +49,6 @@
   - [Variable Root](data-summaries/Variable-Registry_variable-root_detailed.md)
   - [Vertical Label](data-summaries/Variable-Registry_vertical-label_detailed.md)
 - Additional Resources:
-  - [Acknowledgements](auxiliary/acknowledgements.md)
-  - [How To Use This](auxiliary/how_to_use_this.md)
-  - [Statistics](auxiliary/statistics.md)
+  - [Acknowledgements](auxilary/acknowledgements.md)
+  - [How To Use This](auxilary/how_to_use_this.md)
+  - [Statistics](auxilary/statistics.md)
