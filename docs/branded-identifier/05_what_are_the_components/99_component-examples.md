@@ -258,7 +258,7 @@ Atmospheric variables:
 
 ### Interactive Validation
 
-Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) for:
+Use the [Variable Registry Explorer](../../variable-builder.html) for:
 
 1. **Real-time validation** of component combinations
 2. **Autocomplete suggestions** from registry data  
@@ -266,9 +266,9 @@ Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) fo
 4. **Variable definition lookup** with complete metadata
 
 **Test these examples**:
-- [abs550aer_tavg-u-hxy-u](../../web/branded-variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
-- [tas_tavg-h2m-hxy-u](../../web/branded-variable-builder.html?branding=tas_tavg-h2m-hxy-u)  
-- [tos_tavg-u-hxy-sea](../../web/branded-variable-builder.html?branding=tos_tavg-u-hxy-sea)
+- [abs550aer_tavg-u-hxy-u](../../variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
+- [tas_tavg-h2m-hxy-u](../../variable-builder.html?branding=tas_tavg-h2m-hxy-u)  
+- [tos_tavg-u-hxy-sea](../../variable-builder.html?branding=tos_tavg-u-hxy-sea)
 
 ### Registry Integration
 
@@ -310,7 +310,7 @@ Each validated component combination includes:
 
 - **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)** - Build identifiers step-by-step
 - **[Common patterns →](../02_How%20to%20Construct/patterns.md)** - Learn established patterns
-- **[Interactive explorer →](../../web/branded-variable-builder.html)** - Try building variables
+- **[Interactive explorer →](../../variable-builder.html)** - Try building variables
 
 ---
 

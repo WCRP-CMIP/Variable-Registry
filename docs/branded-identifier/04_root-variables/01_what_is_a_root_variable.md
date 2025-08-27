@@ -186,7 +186,7 @@ The CMIP Variable Registry contains **620+ root variables** covering:
 
 ### Interactive Tools
 
-[Variable Registry Explorer](../../web/branded-variable-builder.html){.md-button}
+[Variable Registry Explorer](../../variable-builder.html){.md-button}
 
 - Browse all 620+ root variables with descriptions
 - Search by keyword or scientific domain
@@ -197,23 +197,23 @@ The CMIP Variable Registry contains **620+ root variables** covering:
 
 **Atmospheric Variables**:
 
-- **[Temperature & Energy →](temperature.md)** - Heat and radiation variables
+- **[Temperature & Energy →](02_domain_specific_examples/temperature.md)** - Heat and radiation variables
 
-- **[Water Cycle →](water-cycle.md)** - Precipitation, humidity, clouds
+- **[Water Cycle →](02_domain_specific_examples/water-cycle.md)** - Precipitation, humidity, clouds
 
-- **[Dynamics →](dynamics.md)** - Wind, pressure, circulation
+- **[Dynamics →](02_domain_specific_examples/dynamics.md)** - Wind, pressure, circulation
 
 **Ocean Variables**:
 
-- **[Ocean →](ocean.md)** - Temperature, salinity, currents, biogeochemistry
+- **[Ocean →](02_domain_specific_examples/ocean.md)** - Temperature, salinity, currents, biogeochemistry
 
 **Terrestrial Variables**:  
 
-- **[Land Ecosystems →](land-ecosystems.md)** - Vegetation, carbon, hydrology
+- **[Land Ecosystems →](02_domain_specific_examples/land-ecosystems.md)** - Vegetation, carbon, hydrology
 
 **Cryospheric Variables**:
 
-- **[Ice & Snow →](ice-snow.md)** - Sea ice, land ice, snow processes
+- **[Ice & Snow →](02_domain_specific_examples/ice-snow.md)** - Sea ice, land ice, snow processes
 
 ### Registry Resources
 
@@ -261,9 +261,9 @@ All CMIP root variables follow strict standards:
 
 ## Next Steps
 
-- **[Browse variable categories →](../07_root-variables/)** - Explore by scientific domain
+- **[Browse variable categories →](02_domain_specific_examples/)** - Explore by scientific domain
 - **[Learn construction →](../02_How%20to%20Construct/01_general_structure.md)** - Build complete identifiers
-- **[Interactive explorer →](../../web/branded-variable-builder.html)** - Try building identifiers
+- **[Interactive explorer →](../../variable-builder.html)** - Try building identifiers
 
 ---
 

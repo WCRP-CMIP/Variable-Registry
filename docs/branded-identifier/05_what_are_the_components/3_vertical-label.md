@@ -120,7 +120,7 @@ These levels are specifically chosen to capture:
 ## Next Steps
 
 - **[Browse all vertical labels](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/vertical-label)** in the registry
-- **[Horizontal labels →](horizontal-label.md)**
+- **[Horizontal labels →](4_horizontal-label.md)**
 - **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
 
 ---

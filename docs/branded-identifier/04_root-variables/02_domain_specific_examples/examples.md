@@ -270,7 +270,7 @@ All 620+ root variables are available in the registry:
 
 ### Find Variables
 - **Full list**: [src-data/variable-root/](../../src-data/variable-root/)
-- **Interactive search**: [Variable Registry Explorer](../web/branded-variable-builder.html)
+- **Interactive search**: [Variable Registry Explorer](../../../../variable-builder.html)
 - **By domain**: Use the category tabs above
 
 ## Common Patterns
@@ -286,9 +286,9 @@ All 620+ root variables are available in the registry:
 
 ## Next Steps
 
-- **[Construction guide →](02_How%20to%20Construct/01_general_structure.md)**
-- **[Component reference →](08_components/)**
-- **[Interactive explorer →](../web/branded-variable-builder.html)**
+- **[Construction guide →](../../02_How%20to%20Construct/01_general_structure.md)**
+- **[Component reference →](../../05_what_are_the_components/)**
+- **[Interactive explorer →](../../../../variable-builder.html)**
 
 ---
 

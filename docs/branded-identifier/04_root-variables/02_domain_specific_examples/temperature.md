@@ -198,18 +198,18 @@ Standardized temperature variables ensure consistent thermal measurements across
 
 ## Interactive Temperature Variable Builder
 
-Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) to build temperature variables:
+Use the [Variable Registry Explorer](../../../../variable-builder.html) to build temperature variables:
 
 **Try these examples**:
-- [tas_tavg-h2m-hxy-u](../../web/branded-variable-builder.html?branding=tas_tavg-h2m-hxy-u) - Standard air temperature
-- [tos_tavg-u-hxy-sea](../../web/branded-variable-builder.html?branding=tos_tavg-u-hxy-sea) - Sea surface temperature  
-- [hfds_tavg-u-hxy-sea](../../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea) - Ocean heat flux
+- [tas_tavg-h2m-hxy-u](../../../../variable-builder.html?branding=tas_tavg-h2m-hxy-u) - Standard air temperature
+- [tos_tavg-u-hxy-sea](../../../../variable-builder.html?branding=tos_tavg-u-hxy-sea) - Sea surface temperature  
+- [hfds_tavg-u-hxy-sea](../../../../variable-builder.html?branding=hfds_tavg-u-hxy-sea) - Ocean heat flux
 
 ## Registry Resources
 
 - **[Complete temperature variable list](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/variable-root)** - All temperature variables
 - **[Water cycle variables →](water-cycle.md)** - Related humidity and precipitation
-- **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)** - Build custom identifiers
+- **[Construction guide →](../../02_How%20to%20Construct/01_general_structure.md)** - Build custom identifiers
 
 ---
 

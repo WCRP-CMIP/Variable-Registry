@@ -131,7 +131,7 @@ Zonal means (`hy`) typically use the same latitude resolution as the native mode
 ## Next Steps
 
 - **[Browse all horizontal labels](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/horizontal-label)** in the registry
-- **[Area labels →](area-label.md)**
+- **[Area labels →](5_area-label.md)**
 - **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
 
 ---

@@ -35,20 +35,25 @@ A structured naming system that creates unique, self-documenting variable names:
 ## Interactive Explorer
 
 Build and validate variable identifiers using the 
-[Variable Registry Explorer](web/branded-variable-builder.html){ .md-button }.
+
+[Variable Registry Explorer](https://wcrp-cmip.github.io/Variable-Registry/docs/variable-builder.html){ .md-button }.
+
 
 
 Try with examples:
-- [hfds_tavg-u-hxy-sea](web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
-- [tas_tavg-h2m-hxy-u](web/branded-variable-builder.html?branding=tas_tavg-h2m-hxy-u)
-- [abs550aer_tavg-u-hxy-u](web/branded-variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
+
+- [hfds_tavg-u-hxy-sea](https://wcrp-cmip.github.io/Variable-Registry/docs/variable-builder.html?branding=hfds_tavg-u-hxy-sea)
+
+- [tas_tavg-h2m-hxy-u](https://wcrp-cmip.github.io/Variable-Registry/docs/variable-builder.html?branding=tas_tavg-h2m-hxy-u)
+
+- [abs550aer_tavg-u-hxy-u](https://wcrp-cmip.github.io/Variable-Registry/docs/variable-builder.html?branding=abs550aer_tavg-u-hxy-u)
 
 ## Quick Start
 
-1. **[What is a branded identifier?](branded-identifier/01-what-is-branded-identifier.md)** - Learn the basics
-2. **[How to construct](branded-identifier/02_How%20to%20Construct/01_general_structure.md)** - Step-by-step guide  
-3. **[Root variables](branded-identifier/05-root-variables.md)** - Available variables
-4. **[Components](branded-identifier/08_components/)** - Component reference
+1. **[What is a branded identifier?](https://wcrp-cmip.github.io/Variable-Registry/docs/branded-identifier/01-what-is-branded-identifier/)** - Learn the basics
+2. **[How to construct](https://wcrp-cmip.github.io/Variable-Registry/docs/branded-identifier/02_How%20to%20Construct/01_general_structure/)** - Step-by-step guide  
+3. **[Root variables](https://wcrp-cmip.github.io/Variable-Registry/docs/branded-identifier/04_root-variables/01_what_is_a_root_variable/)** - Available variables
+4. **[Components](https://wcrp-cmip.github.io/Variable-Registry/docs/branded-identifier/05_what_are_the_components/)** - Component reference
 
 ## Registry Contents
 

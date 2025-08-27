@@ -1,4 +1,5 @@
 - [Home](index.md)
+- [🌐 Variable Builder](variable-builder.html)
 - Branded Identifier:
   - [What Is Branded Identifier](branded-identifier/01-what-is-branded-identifier.md)
   - [Why We Need This](branded-identifier/03-why-we-need-this.md)

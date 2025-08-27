@@ -186,7 +186,7 @@ hfds + _ + tavg + - + u + - + hxy + - + sea = hfds_tavg-u-hxy-sea
 
 ## Interactive Construction
 
-Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) to:
+Use the [Variable Registry Explorer](../../variable-builder.html) to:
 
 - **Build identifiers step-by-step** with guided selection
 - **Validate combinations** in real-time  
@@ -195,9 +195,9 @@ Use the [Variable Registry Explorer](../../web/branded-variable-builder.html) to
 
 ### Try These Examples
 
-- [hfds_tavg-u-hxy-sea](../../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea) - Ocean heat flux
-- [tas_tavg-h2m-hxy-u](../../web/branded-variable-builder.html?branding=tas_tavg-h2m-hxy-u) - Air temperature
-- [pr_tavg-u-hxy-u](../../web/branded-variable-builder.html?branding=pr_tavg-u-hxy-u) - Precipitation
+- [hfds_tavg-u-hxy-sea](../../variable-builder.html?branding=hfds_tavg-u-hxy-sea) - Ocean heat flux
+- [tas_tavg-h2m-hxy-u](../../variable-builder.html?branding=tas_tavg-h2m-hxy-u) - Air temperature
+- [pr_tavg-u-hxy-u](../../variable-builder.html?branding=pr_tavg-u-hxy-u) - Precipitation
 
 ## Quality Assurance
 
@@ -219,10 +219,10 @@ All validated branded identifiers become part of the community registry:
 
 ## Next Steps
 
-- **[See detailed examples →](examples.md)**
+- **[See detailed examples →](../04_root-variables/02_domain_specific_examples/examples.md)**
 - **[Learn common patterns →](patterns.md)**
-- **[Explore component details →](../08_components/)**
-- **[Build identifiers interactively →](../../web/branded-variable-builder.html)**
+- **[Explore component details →](../05_what_are_the_components/)**
+- **[Build identifiers interactively →](../../variable-builder.html)**
 
 ---
 

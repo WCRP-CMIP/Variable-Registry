@@ -94,7 +94,7 @@ Area labels prevent confusion and ensure scientific consistency across CMIP mode
 
 - **[Browse all area labels](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/area-label)** in the registry
 - **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
-- **[Component examples →](component-examples.md)**
+- **[Component examples →](99_component-examples.md)**
 
 ---
 

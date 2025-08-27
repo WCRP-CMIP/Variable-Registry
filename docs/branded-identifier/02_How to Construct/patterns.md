@@ -204,7 +204,7 @@ Understanding these patterns accelerates CMIP variable development and ensures c
 
 ### Pattern Testing Workflow
 
-1. **Build identifier** using [Variable Registry Explorer](../../web/branded-variable-builder.html)
+1. **Build identifier** using [Variable Registry Explorer](../../variable-builder.html)
 2. **Validate physics** with domain experts
 3. **Check registry** for existing similar variables
 4. **Test workflows** with CMIP processing tools
@@ -212,9 +212,9 @@ Understanding these patterns accelerates CMIP variable development and ensures c
 
 ## Registry Resources
 
-- **[Interactive Pattern Builder](../../web/branded-variable-builder.html)** - Build and test patterns
-- **[Component Browser](../08_components/)** - Explore all available components  
-- **[Variable Examples](examples.md)** - Detailed construction examples
+- **[Interactive Pattern Builder](../../variable-builder.html)** - Build and test patterns
+- **[Component Browser](../05_what_are_the_components/)** - Explore all available components  
+- **[Variable Examples](../04_root-variables/02_domain_specific_examples/examples.md)** - Detailed construction examples
 - **[Registry Repository](https://github.com/WCRP-CMIP/Variable-Registry)** - Complete component definitions
 
 ---

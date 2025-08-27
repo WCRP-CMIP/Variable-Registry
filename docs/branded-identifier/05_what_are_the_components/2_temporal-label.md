@@ -102,7 +102,7 @@ Temporal labels eliminate this ambiguity by explicitly specifying the temporal t
 ## Next Steps
 
 - **[Browse all temporal labels](https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/temporal-label)** in the registry
-- **[Vertical labels →](vertical-label.md)**
+- **[Vertical labels →](3_vertical-label.md)**
 - **[Construction guide →](../02_How%20to%20Construct/01_general_structure.md)**
 
 ---

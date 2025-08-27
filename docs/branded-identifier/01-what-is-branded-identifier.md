@@ -53,10 +53,10 @@ hfds    _tavg  -u    -hxy         -sea
 
 Build and explore identifiers with the 
 
-[Variable Registry Explorer](../web/branded-variable-builder.html){ .md-button }.
+[Variable Registry Explorer](../variable-builder.html){ .md-button }.
 
 
-Try with a complete example: [hfds_tavg-u-hxy-sea](../web/branded-variable-builder.html?branding=hfds_tavg-u-hxy-sea)
+Try with a complete example: [hfds_tavg-u-hxy-sea](../variable-builder.html?branding=hfds_tavg-u-hxy-sea)
 
 ## Key Benefits for CMIP
 
@@ -109,8 +109,8 @@ The CMIP Variable Registry contains:
 ## Next Steps
 
 1. **[How to construct them →](02_How%20to%20Construct/01_general_structure.md)**
-2. **[See examples →](02_How%20to%20Construct/examples.md)**
-3. **[Why we need this system →](04-why-we-need-this.md)**
+2. **[See examples →](04_root-variables/02_domain_specific_examples/examples.md)**
+3. **[Why we need this system →](03-why-we-need-this.md)**
 
 ---
 
