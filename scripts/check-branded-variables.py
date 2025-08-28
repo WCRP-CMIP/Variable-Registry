@@ -144,7 +144,7 @@ def main():
         & (error_types["actual_value"] == "sn")
         & (error_types["cell_methods"] == "area: mean where land time: mean"),
         "comment",
-    ] = "cell_methods should be 'area: mean where snow'?"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/84"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "lnd")
@@ -154,13 +154,13 @@ def main():
             == "area: mean where land time: mean (weighted by snow area)"
         ),
         "comment",
-    ] = "cell_methods should be 'area: mean where snow'?"
+    ] = "https://github.com/WCRP-CMIP/Variable-Registry/issues/26"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "lnd")
         & (error_types["actual_value"] == "veg"),
         "comment",
-    ] = "cell_methods should be 'area: mean where vegetation'?"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/103"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "lsi")
@@ -172,30 +172,25 @@ def main():
         & (error_types["exp_value"] == "sea")
         & (error_types["actual_value"] == "si"),
         "comment",
-    ] = "cell_methods should be 'area: mean where sea_ice'?"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/104"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "sea")
         & (error_types["actual_value"] == "u"),
         "comment",
-    ] = "cell_methods should be 'area: mean where sea_ice'?"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/105"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "si")
         & (error_types["actual_value"] == "u"),
         "comment",
-    ] = (
-        "unclear if branding algorithm needs an update "
-        "(i.e. actual_value is correct, this should be unspecified because of the weird masking) "
-        "or actual_value is just wrong "
-        "(i.e. need to re-run the branding algorithm on the DR)"
-    )
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/106"
     error_types.loc[
         (error_types["component"] == "area_label")
         & (error_types["exp_value"] == "u")
         & (error_types["actual_value"] == "lnd"),
         "comment",
-    ] = "cell_methods should be 'area: mean where sea_ice' (same as day.snc)?"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/96"
     error_types.loc[
         (error_types["component"] == "horizontal_label"),
         "comment",
@@ -205,19 +200,19 @@ def main():
         & (error_types["exp_value"] == "ti")
         & (error_types["actual_value"] == "tclm"),
         "comment",
-    ] = "is dimension 'timefxc' a thing? If yes, need to update the branding algorithm. If no, need to fix the dimensions"
+    ] = "https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/80"
     error_types.loc[
         (error_types["component"] == "vertical_label")
         & (error_types["exp_value"] == "u")
         & (error_types["actual_value"] == "d0m"),
         "comment",
-    ] = "need to add depth0m to the dimensions?"
+    ] = "https://github.com/WCRP-CMIP/Variable-Registry/issues/21 and https://github.com/WCRP-CMIP/Variable-Registry/issues/17"
     error_types.loc[
         (error_types["component"] == "vertical_label")
         & (error_types["exp_value"] == "u")
         & (error_types["actual_value"] == "h2m"),
         "comment",
-    ] = "need to add height2m to the dimensions? Is 'lowerModelLayer' a dimension we should be able to handle?"
+    ] = "https://github.com/WCRP-CMIP/Variable-Registry/issues/18"
 
     pd.options.display.max_colwidth = 130
     print(
@@ -230,6 +225,14 @@ def main():
             ]
         ]
     )
+
+    for vv in (
+        failing_compounds.join(error_types.set_index(failing_compounds.index.names))
+        .reset_index()
+        .to_dict(orient="records")
+    ):
+        print(json.dumps(vv, indent=2, sort_keys=True))
+        breakpoint()
 
 
 if __name__ == "__main__":
