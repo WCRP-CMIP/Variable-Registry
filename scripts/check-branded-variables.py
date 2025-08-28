@@ -100,6 +100,11 @@ def main():
 
                     failures.append(failure_summary)
 
+    # Below here is just me trying to parse this in a way
+    # that makes my life easier.
+    # This can all be ignored for whatever final application
+    # we end up using
+
     # Can also make this a pandas dataframe if we want
     failures_df = pd.DataFrame(failures)
     print(failures_df)
