@@ -232,7 +232,6 @@ def main():
         .to_dict(orient="records")
     ):
         print(json.dumps(vv, indent=2, sort_keys=True))
-        breakpoint()
 
 
 if __name__ == "__main__":
