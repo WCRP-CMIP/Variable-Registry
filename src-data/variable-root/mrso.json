@@ -1,0 +1,12 @@
+{
+    "id": "mrso",
+    "validation-key": "mrso",
+    "ui-label": "mrso",
+    "data-type": "real",
+    "standard-name": "mass-content-of-water-in-soil",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

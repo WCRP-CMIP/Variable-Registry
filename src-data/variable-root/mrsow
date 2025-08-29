@@ -1,0 +1,12 @@
+{
+    "id": "mrsow",
+    "validation-key": "mrsow",
+    "ui-label": "mrsow",
+    "data-type": "real",
+    "standard-name": "volume-fraction-of-condensed-water-in-soil-at-field-capacity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

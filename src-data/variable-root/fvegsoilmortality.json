@@ -1,0 +1,12 @@
+{
+    "id": "fvegsoilmortality",
+    "validation-key": "fvegsoilmortality",
+    "ui-label": "fVegSoilMortality",
+    "data-type": "real",
+    "standard-name": "mass-flux-of-carbon-into-soil-from-vegetation-due-to-mortality",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

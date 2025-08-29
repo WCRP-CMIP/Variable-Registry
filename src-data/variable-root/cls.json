@@ -1,0 +1,12 @@
+{
+    "id": "cls",
+    "validation-key": "cls",
+    "ui-label": "cls",
+    "data-type": "real",
+    "standard-name": "stratiform-cloud-area-fraction-in-atmosphere-layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

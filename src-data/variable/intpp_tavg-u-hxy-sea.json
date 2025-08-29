@@ -1,0 +1,33 @@
+{
+    "id": "intpp_tavg-u-hxy-sea",
+    "validation-key": "intpp_tavg-u-hxy-sea",
+    "ui-label": "Primary Organic Carbon Production by All Types of Phytoplankton",
+    "description": "Vertically integrated total primary (organic carbon) production by phytoplankton.  This should equal the sum of intpdiat+intpphymisc, but those individual components may be unavailable in some models.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "intpp",
+    "physical-parameter-name": "intpp",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-int",
+    "standard-name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_phytoplankton",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "intpp",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

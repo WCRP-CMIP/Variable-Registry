@@ -1,0 +1,12 @@
+{
+    "id": "intpppico",
+    "validation-key": "intpppico",
+    "ui-label": "intpppico",
+    "data-type": "real",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-picophytoplankton",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

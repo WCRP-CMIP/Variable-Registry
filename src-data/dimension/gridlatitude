@@ -1,0 +1,14 @@
+{
+    "id": "gridlatitude",
+    "validation-key": "gridlatitude",
+    "ui-label": "Grid Latitude",
+    "description": "",
+    "axis-flag": "Y",
+    "cf-standard-name": "grid_latitude",
+    "spatial-shape": "Ocean basin meridional section (on model grid)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

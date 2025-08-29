@@ -1,0 +1,12 @@
+{
+    "id": "clmodisliquid",
+    "validation-key": "clmodisliquid",
+    "ui-label": "clmodisliquid",
+    "data-type": "real",
+    "standard-name": "modis-liquid-topped-cloud-area-fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

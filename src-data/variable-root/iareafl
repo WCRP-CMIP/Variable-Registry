@@ -1,0 +1,12 @@
+{
+    "id": "iareafl",
+    "validation-key": "iareafl",
+    "ui-label": "iareafl",
+    "data-type": "real",
+    "standard-name": "floating-ice-shelf-area",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

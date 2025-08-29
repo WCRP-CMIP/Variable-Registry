@@ -1,0 +1,12 @@
+{
+    "id": "ravgt",
+    "validation-key": "ravgt",
+    "ui-label": "raVgt",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-plant-respiration",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

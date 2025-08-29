@@ -1,0 +1,12 @@
+{
+    "id": "loaddust",
+    "validation-key": "loaddust",
+    "ui-label": "loaddust",
+    "data-type": "real",
+    "standard-name": "atmosphere-mass-content-of-dust-dry-aerosol-particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

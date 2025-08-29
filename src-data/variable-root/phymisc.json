@@ -1,0 +1,12 @@
+{
+    "id": "phymisc",
+    "validation-key": "phymisc",
+    "ui-label": "phymisc",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-miscellaneous-phytoplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

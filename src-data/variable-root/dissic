@@ -1,0 +1,12 @@
+{
+    "id": "dissic",
+    "validation-key": "dissic",
+    "ui-label": "dissic",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-dissolved-inorganic-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "sidmasstrany",
+    "validation-key": "sidmasstrany",
+    "ui-label": "sidmasstrany",
+    "data-type": "real",
+    "standard-name": "sea-ice-y-transport",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

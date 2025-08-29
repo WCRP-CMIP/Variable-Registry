@@ -1,0 +1,34 @@
+{
+    "id": "stratch4loss_tavg-al-hxy-u",
+    "validation-key": "stratch4loss_tavg-al-hxy-u",
+    "ui-label": "Loss of Stratospheric Methane by all chemical destruction",
+    "description": "This is the loss rate of stratospheric methane by all chemical destruction. The distinction between the stratosphere and troposphere should be consistent with the tropopause as used in the calculation of the tropopause pressure (ptp). It should have zero values in the troposphere.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "stratch4loss",
+    "physical-parameter-name": "stratch4loss",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3 s-1",
+    "variable-root": "stratch4loss",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

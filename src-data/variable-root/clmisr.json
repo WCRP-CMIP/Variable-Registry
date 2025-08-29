@@ -1,0 +1,12 @@
+{
+    "id": "clmisr",
+    "validation-key": "clmisr",
+    "ui-label": "clmisr",
+    "data-type": "real",
+    "standard-name": "cloud-area-fraction-in-atmosphere-layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

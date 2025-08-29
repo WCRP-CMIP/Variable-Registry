@@ -1,0 +1,12 @@
+{
+    "id": "rac13",
+    "validation-key": "rac13",
+    "ui-label": "rac13",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-13c-due-to-plant-respiration",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

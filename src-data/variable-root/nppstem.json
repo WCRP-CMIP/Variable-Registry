@@ -1,0 +1,12 @@
+{
+    "id": "nppstem",
+    "validation-key": "nppstem",
+    "ui-label": "nppStem",
+    "data-type": "real",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-stems",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

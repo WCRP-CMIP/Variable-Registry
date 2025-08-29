@@ -1,0 +1,12 @@
+{
+    "id": "sidconcdyn",
+    "validation-key": "sidconcdyn",
+    "ui-label": "sidconcdyn",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-ice-area-fraction-due-to-dynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

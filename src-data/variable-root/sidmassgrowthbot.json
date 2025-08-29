@@ -1,0 +1,12 @@
+{
+    "id": "sidmassgrowthbot",
+    "validation-key": "sidmassgrowthbot",
+    "ui-label": "sidmassgrowthbot",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-congelation-ice-accumulation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

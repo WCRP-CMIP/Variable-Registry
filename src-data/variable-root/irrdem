@@ -1,0 +1,12 @@
+{
+    "id": "irrdem",
+    "validation-key": "irrdem",
+    "ui-label": "irrDem",
+    "data-type": "real",
+    "standard-name": "surface-downward-mass-flux-of-water-due-to-irrigation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

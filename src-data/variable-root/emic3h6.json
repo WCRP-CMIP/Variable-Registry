@@ -1,0 +1,12 @@
+{
+    "id": "emic3h6",
+    "validation-key": "emic3h6",
+    "ui-label": "emic3h6",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-propene-due-to-emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

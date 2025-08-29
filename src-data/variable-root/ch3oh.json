@@ -1,0 +1,12 @@
+{
+    "id": "ch3oh",
+    "validation-key": "ch3oh",
+    "ui-label": "ch3oh",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-methanol-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

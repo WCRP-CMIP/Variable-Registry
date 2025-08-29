@@ -1,0 +1,12 @@
+{
+    "id": "siitdconc",
+    "validation-key": "siitdconc",
+    "ui-label": "siitdconc",
+    "data-type": "real",
+    "standard-name": "sea-ice-area-fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

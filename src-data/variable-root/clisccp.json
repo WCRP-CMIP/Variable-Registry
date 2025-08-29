@@ -1,0 +1,12 @@
+{
+    "id": "clisccp",
+    "validation-key": "clisccp",
+    "ui-label": "clisccp",
+    "data-type": "real",
+    "standard-name": "isccp-cloud-area-fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

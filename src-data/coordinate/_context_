@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/",
+            "vr": "https://wcrp-cmip.github.io/Variable-Registry/"
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
+}

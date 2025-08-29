@@ -1,0 +1,12 @@
+{
+    "id": "tntrs",
+    "validation-key": "tntrs",
+    "ui-label": "tntrs",
+    "data-type": "real",
+    "standard-name": "tendency-of-air-temperature-due-to-shortwave-heating",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

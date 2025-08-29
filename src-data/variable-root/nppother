@@ -1,0 +1,12 @@
+{
+    "id": "nppother",
+    "validation-key": "nppother",
+    "ui-label": "nppOther",
+    "data-type": "real",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-miscellaneous-living-matter",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

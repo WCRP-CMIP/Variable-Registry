@@ -1,0 +1,12 @@
+{
+    "id": "swhswell",
+    "validation-key": "swhswell",
+    "ui-label": "swhswell",
+    "data-type": "real",
+    "standard-name": "sea-surface-swell-wave-significant-height",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

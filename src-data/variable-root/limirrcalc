@@ -1,0 +1,12 @@
+{
+    "id": "limirrcalc",
+    "validation-key": "limirrcalc",
+    "ui-label": "limirrcalc",
+    "data-type": "real",
+    "standard-name": "growth-limitation-of-calcareous-phytoplankton-due-to-solar-irradiance",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

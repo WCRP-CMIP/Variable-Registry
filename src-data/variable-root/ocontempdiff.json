@@ -1,0 +1,12 @@
+{
+    "id": "ocontempdiff",
+    "validation-key": "ocontempdiff",
+    "ui-label": "ocontempdiff",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-conservative-temperature-expressed-as-heat-content-due-to-parameterized-dianeutral-mixing",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

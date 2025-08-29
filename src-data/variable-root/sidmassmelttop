@@ -1,0 +1,12 @@
+{
+    "id": "sidmassmelttop",
+    "validation-key": "sidmassmelttop",
+    "ui-label": "sidmassmelttop",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-surface-melting",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "emico",
+    "validation-key": "emico",
+    "ui-label": "emico",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-carbon-monoxide-due-to-emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

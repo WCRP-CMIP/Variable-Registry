@@ -1,0 +1,12 @@
+{
+    "id": "tossq",
+    "validation-key": "tossq",
+    "ui-label": "tossq",
+    "data-type": "real",
+    "standard-name": "square-of-sea-surface-temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

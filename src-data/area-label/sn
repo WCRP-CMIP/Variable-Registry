@@ -1,0 +1,11 @@
+{
+    "id": "sn",
+    "validation-key": "sn",
+    "ui-label": "Snow",
+    "description": "Variables calculated over snow-covered areas, including snowpack properties, snow depth, snow water equivalent, and snow-atmosphere interactions. Covers both seasonal and permanent snow cover.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

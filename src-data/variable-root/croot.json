@@ -1,0 +1,12 @@
+{
+    "id": "croot",
+    "validation-key": "croot",
+    "ui-label": "cRoot",
+    "data-type": "real",
+    "standard-name": "root-mass-content-of-carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

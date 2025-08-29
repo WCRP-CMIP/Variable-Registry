@@ -1,0 +1,12 @@
+{
+    "id": "dtaus",
+    "validation-key": "dtaus",
+    "ui-label": "dtaus",
+    "data-type": "real",
+    "standard-name": "atmosphere-optical-thickness-due-to-stratiform-cloud",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

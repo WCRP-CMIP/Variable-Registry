@@ -1,0 +1,12 @@
+{
+    "id": "siforceintstry",
+    "validation-key": "siforceintstry",
+    "ui-label": "siforceintstry",
+    "data-type": "real",
+    "standard-name": "sea-ice-y-internal-stress",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "mmrno3",
+    "validation-key": "mmrno3",
+    "ui-label": "mmrno3",
+    "data-type": "real",
+    "standard-name": "mass-fraction-of-nitrate-dry-aerosol-particles-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

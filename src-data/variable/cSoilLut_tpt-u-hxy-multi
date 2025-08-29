@@ -1,0 +1,34 @@
+{
+    "id": "cSoilLut_tpt-u-hxy-multi",
+    "validation-key": "cSoilLut_tpt-u-hxy-multi",
+    "ui-label": "Carbon in Soil Pool on Land-Use Tiles",
+    "description": "end of year values (not annual mean)",
+    "area-label": "multi",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amnlu-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time1"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "cSoilLut",
+    "physical-parameter-name": "cSoilLut",
+    "positive": "",
+    "remove-cmip6-table": "Eyr",
+    "spatial-shape": "XY-na",
+    "standard-name": "soil_mass_content_of_carbon",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "kg m-2",
+    "variable-root": "cSoilLut",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

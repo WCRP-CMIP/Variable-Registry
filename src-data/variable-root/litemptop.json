@@ -1,0 +1,12 @@
+{
+    "id": "litemptop",
+    "validation-key": "litemptop",
+    "ui-label": "litemptop",
+    "data-type": "real",
+    "standard-name": "temperature-at-top-of-ice-sheet-model",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

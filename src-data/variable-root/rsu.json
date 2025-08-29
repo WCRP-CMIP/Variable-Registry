@@ -1,0 +1,12 @@
+{
+    "id": "rsu",
+    "validation-key": "rsu",
+    "ui-label": "rsu",
+    "data-type": "real",
+    "standard-name": "upwelling-shortwave-flux-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

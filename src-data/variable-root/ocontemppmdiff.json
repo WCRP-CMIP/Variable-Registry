@@ -1,0 +1,12 @@
+{
+    "id": "ocontemppmdiff",
+    "validation-key": "ocontemppmdiff",
+    "ui-label": "ocontemppmdiff",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-conservative-temperature-expressed-as-heat-content-due-to-parameterized-mesoscale-eddy-diffusion",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

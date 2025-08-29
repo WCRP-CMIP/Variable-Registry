@@ -1,0 +1,12 @@
+{
+    "id": "vsfsit",
+    "validation-key": "vsfsit",
+    "ui-label": "vsfsit",
+    "data-type": "real",
+    "standard-name": "virtual-salt-flux-into-sea-water-due-to-sea-ice-thermodynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

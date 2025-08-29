@@ -1,0 +1,12 @@
+{
+    "id": "expfeob",
+    "validation-key": "expfeob",
+    "ui-label": "expfeob",
+    "data-type": "real",
+    "standard-name": "sinking-mole-flux-of-particulate-iron-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

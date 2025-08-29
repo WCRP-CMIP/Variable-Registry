@@ -1,0 +1,12 @@
+{
+    "id": "mmrso4",
+    "validation-key": "mmrso4",
+    "ui-label": "mmrso4",
+    "data-type": "real",
+    "standard-name": "mass-fraction-of-sulfate-dry-aerosol-particles-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

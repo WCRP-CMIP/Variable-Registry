@@ -1,0 +1,12 @@
+{
+    "id": "dmc",
+    "validation-key": "dmc",
+    "ui-label": "dmc",
+    "data-type": "real",
+    "standard-name": "atmosphere-net-upward-deep-convective-mass-flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

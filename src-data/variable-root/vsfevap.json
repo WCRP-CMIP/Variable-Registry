@@ -1,0 +1,12 @@
+{
+    "id": "vsfevap",
+    "validation-key": "vsfevap",
+    "ui-label": "vsfevap",
+    "data-type": "real",
+    "standard-name": "virtual-salt-flux-into-sea-water-due-to-evaporation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

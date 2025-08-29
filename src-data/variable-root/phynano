@@ -1,0 +1,12 @@
+{
+    "id": "phynano",
+    "validation-key": "phynano",
+    "ui-label": "phynano",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-nanophytoplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "amnlax-tsum",
+    "validation-key": "amnlax-tsum",
+    "ui-label": "Temporal Sum",
+    "description": "area: mean where land over all_area_types time: sum",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

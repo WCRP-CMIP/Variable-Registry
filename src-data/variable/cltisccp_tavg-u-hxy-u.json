@@ -1,0 +1,33 @@
+{
+    "id": "cltisccp_tavg-u-hxy-u",
+    "validation-key": "cltisccp_tavg-u-hxy-u",
+    "ui-label": "ISCCP Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the International Satellite Cloud Climatology Project (ISCCP) analysis. Includes both large-scale and convective cloud.  (MODIS). Includes both large-scale and convective cloud.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "cltisccp",
+    "physical-parameter-name": "cltisccp",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "cloud_area_fraction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "%",
+    "variable-root": "cltisccp",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

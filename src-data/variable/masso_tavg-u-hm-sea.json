@@ -1,0 +1,31 @@
+{
+    "id": "masso_tavg-u-hm-sea",
+    "validation-key": "masso_tavg-u-hm-sea",
+    "ui-label": "Sea Water Mass",
+    "description": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",
+    "area-label": "sea",
+    "cell-measures": "",
+    "cell-methods": "asms-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hm",
+    "model-realm": "ocean",
+    "out-name": "masso",
+    "physical-parameter-name": "masso",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "na-na",
+    "standard-name": "sea_water_mass",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg",
+    "variable-root": "masso",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

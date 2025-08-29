@@ -1,0 +1,12 @@
+{
+    "id": "csoillut",
+    "validation-key": "csoillut",
+    "ui-label": "cSoilLut",
+    "data-type": "real",
+    "standard-name": "soil-mass-content-of-carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

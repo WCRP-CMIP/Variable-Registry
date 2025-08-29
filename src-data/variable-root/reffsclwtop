@@ -1,0 +1,12 @@
+{
+    "id": "reffsclwtop",
+    "validation-key": "reffsclwtop",
+    "ui-label": "reffsclwtop",
+    "data-type": "real",
+    "standard-name": "effective-radius-of-stratiform-cloud-liquid-water-particles-at-stratiform-liquid-water-cloud-top",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

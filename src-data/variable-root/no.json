@@ -1,0 +1,12 @@
+{
+    "id": "no",
+    "validation-key": "no",
+    "ui-label": "no",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-nitrogen-monoxide-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

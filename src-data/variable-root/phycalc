@@ -1,0 +1,12 @@
+{
+    "id": "phycalc",
+    "validation-key": "phycalc",
+    "ui-label": "phycalc",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-calcareous-phytoplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

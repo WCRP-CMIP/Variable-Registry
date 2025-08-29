@@ -1,0 +1,12 @@
+{
+    "id": "osaltdiff",
+    "validation-key": "osaltdiff",
+    "ui-label": "osaltdiff",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-parameterized-dianeutral-mixing",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

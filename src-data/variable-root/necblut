@@ -1,0 +1,12 @@
+{
+    "id": "necblut",
+    "validation-key": "necblut",
+    "ui-label": "necbLut",
+    "data-type": "real",
+    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "od550aerh2o",
+    "validation-key": "od550aerh2o",
+    "ui-label": "od550aerh2o",
+    "data-type": "real",
+    "standard-name": "atmosphere-optical-thickness-due-to-water-in-ambient-aerosol-particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

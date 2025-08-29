@@ -1,0 +1,12 @@
+{
+    "id": "phydiazos",
+    "validation-key": "phydiazos",
+    "ui-label": "phydiazos",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-diazotrophic-phytoplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

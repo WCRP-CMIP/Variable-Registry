@@ -1,0 +1,12 @@
+{
+    "id": "rtmt",
+    "validation-key": "rtmt",
+    "ui-label": "rtmt",
+    "data-type": "real",
+    "standard-name": "net-downward-radiative-flux-at-top-of-atmosphere-model",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

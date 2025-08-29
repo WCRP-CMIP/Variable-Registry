@@ -1,0 +1,12 @@
+{
+    "id": "siforcetilty",
+    "validation-key": "siforcetilty",
+    "ui-label": "siforcetilty",
+    "data-type": "real",
+    "standard-name": "sea-ice-y-force-per-unit-area-due-to-sea-surface-tilt",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

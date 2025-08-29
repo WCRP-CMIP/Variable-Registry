@@ -1,0 +1,12 @@
+{
+    "id": "lossch4",
+    "validation-key": "lossch4",
+    "ui-label": "lossch4",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-methane-due-to-chemical-destruction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

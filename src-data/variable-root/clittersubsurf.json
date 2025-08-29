@@ -1,0 +1,12 @@
+{
+    "id": "clittersubsurf",
+    "validation-key": "clittersubsurf",
+    "ui-label": "cLitterSubSurf",
+    "data-type": "real",
+    "standard-name": "subsurface-litter-mass-content-of-carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

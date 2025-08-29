@@ -1,0 +1,10 @@
+{
+    "id": "u",
+    "ui-label": "Unmasked Area",
+    "description": "unmasked (no \"where\" directive included in the cell_methods)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

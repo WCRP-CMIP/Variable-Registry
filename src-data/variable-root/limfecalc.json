@@ -1,0 +1,12 @@
+{
+    "id": "limfecalc",
+    "validation-key": "limfecalc",
+    "ui-label": "limfecalc",
+    "data-type": "real",
+    "standard-name": "iron-growth-limitation-of-calcareous-phytoplankton",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

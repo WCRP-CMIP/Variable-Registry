@@ -1,0 +1,12 @@
+{
+    "id": "srfrad",
+    "validation-key": "srfrad",
+    "ui-label": "srfrad",
+    "data-type": "real",
+    "standard-name": "surface-net-downward-radiative-flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

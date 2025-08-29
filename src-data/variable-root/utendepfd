@@ -1,0 +1,12 @@
+{
+    "id": "utendepfd",
+    "validation-key": "utendepfd",
+    "ui-label": "utendepfd",
+    "data-type": "real",
+    "standard-name": "tendency-of-eastward-wind-due-to-eliassen-palm-flux-divergence",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

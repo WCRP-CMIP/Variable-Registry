@@ -1,0 +1,12 @@
+{
+    "id": "emivoc",
+    "validation-key": "emivoc",
+    "ui-label": "emivoc",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nmvoc-due-to-emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

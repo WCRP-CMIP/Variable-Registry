@@ -1,0 +1,13 @@
+{
+    "id": "p500",
+    "validation-key": "p500",
+    "ui-label": "pressure",
+    "description": "Atmospheric pressure coordinate at 500 hPa level, located in the middle troposphere at approximately 5.5 km altitude. Critical for weather analysis and mid-level atmospheric dynamics.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

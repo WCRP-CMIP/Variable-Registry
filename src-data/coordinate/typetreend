@@ -1,0 +1,13 @@
+{
+    "id": "typetreend",
+    "validation-key": "typetreend",
+    "ui-label": "Tree area type (Needleleaf Deciduous)",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "dryss",
+    "validation-key": "dryss",
+    "ui-label": "dryss",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-dry-deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

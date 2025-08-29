@@ -1,0 +1,12 @@
+{
+    "id": "bry",
+    "validation-key": "bry",
+    "ui-label": "bry",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-inorganic-bromine-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

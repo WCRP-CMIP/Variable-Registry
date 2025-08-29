@@ -1,0 +1,12 @@
+{
+    "id": "tos",
+    "validation-key": "tos",
+    "ui-label": "tos",
+    "data-type": "real",
+    "standard-name": "sea-surface-temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

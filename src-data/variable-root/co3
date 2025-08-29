@@ -1,0 +1,12 @@
+{
+    "id": "co3",
+    "validation-key": "co3",
+    "ui-label": "co3",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-carbonate-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

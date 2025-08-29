@@ -1,0 +1,12 @@
+{
+    "id": "wbgt",
+    "validation-key": "wbgt",
+    "ui-label": "wbgt",
+    "data-type": "real",
+    "standard-name": "wet-bulb-globe-temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

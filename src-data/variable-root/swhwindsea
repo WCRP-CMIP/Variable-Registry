@@ -1,0 +1,12 @@
+{
+    "id": "swhwindsea",
+    "validation-key": "swhwindsea",
+    "ui-label": "swhwindsea",
+    "data-type": "real",
+    "standard-name": "sea-surface-wind-wave-significant-height",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

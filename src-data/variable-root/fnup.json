@@ -1,0 +1,12 @@
+{
+    "id": "fnup",
+    "validation-key": "fnup",
+    "ui-label": "fNup",
+    "data-type": "real",
+    "standard-name": "tendency-of-vegetation-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-fixation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

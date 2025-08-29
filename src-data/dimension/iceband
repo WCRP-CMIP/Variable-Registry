@@ -1,0 +1,14 @@
+{
+    "id": "iceband",
+    "validation-key": "iceband",
+    "ui-label": "Ice Depth Band",
+    "description": "Ice depth bands",
+    "axis-flag": "",
+    "cf-standard-name": "sea_ice_thickness",
+    "spatial-shape": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "hfrainds",
+    "validation-key": "hfrainds",
+    "ui-label": "hfrainds",
+    "data-type": "real",
+    "standard-name": "temperature-flux-due-to-rainfall-expressed-as-heat-flux-into-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

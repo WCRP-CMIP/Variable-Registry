@@ -1,0 +1,12 @@
+{
+    "id": "mrros",
+    "validation-key": "mrros",
+    "ui-label": "mrros",
+    "data-type": "real",
+    "standard-name": "surface-runoff-flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

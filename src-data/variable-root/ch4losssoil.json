@@ -1,0 +1,12 @@
+{
+    "id": "ch4losssoil",
+    "validation-key": "ch4losssoil",
+    "ui-label": "ch4losssoil",
+    "data-type": "real",
+    "standard-name": "surface-downward-mass-flux-of-methane-due-to-soil-biological-consumption",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

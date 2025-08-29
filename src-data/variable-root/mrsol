@@ -1,0 +1,12 @@
+{
+    "id": "mrsol",
+    "validation-key": "mrsol",
+    "ui-label": "mrsol",
+    "data-type": "real",
+    "standard-name": "mass-content-of-water-in-soil-layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

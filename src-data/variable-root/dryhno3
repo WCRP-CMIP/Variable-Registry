@@ -1,0 +1,12 @@
+{
+    "id": "dryhno3",
+    "validation-key": "dryhno3",
+    "ui-label": "dryhno3",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nitric-acid-due-to-dry-deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

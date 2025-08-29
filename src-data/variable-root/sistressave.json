@@ -1,0 +1,12 @@
+{
+    "id": "sistressave",
+    "validation-key": "sistressave",
+    "ui-label": "sistressave",
+    "data-type": "real",
+    "standard-name": "sea-ice-average-normal-horizontal-stress",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

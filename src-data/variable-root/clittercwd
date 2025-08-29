@@ -1,0 +1,12 @@
+{
+    "id": "clittercwd",
+    "validation-key": "clittercwd",
+    "ui-label": "cLitterCwd",
+    "data-type": "real",
+    "standard-name": "wood-debris-mass-content-of-carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

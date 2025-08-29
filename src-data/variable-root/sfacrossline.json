@@ -1,0 +1,12 @@
+{
+    "id": "sfacrossline",
+    "validation-key": "sfacrossline",
+    "ui-label": "sfacrossline",
+    "data-type": "real",
+    "standard-name": "ocean-salt-transport-across-line",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

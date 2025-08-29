@@ -1,0 +1,12 @@
+{
+    "id": "chl",
+    "validation-key": "chl",
+    "ui-label": "chl",
+    "data-type": "real",
+    "standard-name": "mass-concentration-of-phytoplankton-expressed-as-chlorophyll-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "epn",
+    "validation-key": "epn",
+    "ui-label": "epn",
+    "data-type": "real",
+    "standard-name": "sinking-mole-flux-of-particulate-organic-nitrogen-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

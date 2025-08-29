@@ -1,0 +1,12 @@
+{
+    "id": "rlucs4co2",
+    "validation-key": "rlucs4co2",
+    "ui-label": "rlucs4co2",
+    "data-type": "real",
+    "standard-name": "upwelling-longwave-flux-in-air-assuming-clear-sky",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

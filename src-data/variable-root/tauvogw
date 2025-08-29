@@ -1,0 +1,12 @@
+{
+    "id": "tauvogw",
+    "validation-key": "tauvogw",
+    "ui-label": "tauvogw",
+    "data-type": "real",
+    "standard-name": "upward-northward-momentum-flux-in-air-due-to-orographic-gravity-waves",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

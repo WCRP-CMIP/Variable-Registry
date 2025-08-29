@@ -1,0 +1,12 @@
+{
+    "id": "intpbn",
+    "validation-key": "intpbn",
+    "ui-label": "intpbn",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-mole-content-of-nitrogen-due-to-biological-production",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

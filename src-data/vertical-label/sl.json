@@ -1,0 +1,11 @@
+{
+    "id": "sl",
+    "validation-key": "sl",
+    "ui-label": "Model Soil Levels",
+    "description": "Variables on native soil model vertical levels, representing different depths within the soil column. Used for soil temperature, moisture, carbon content, and other subsurface properties at various soil layer depths.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

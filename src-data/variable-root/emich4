@@ -1,0 +1,12 @@
+{
+    "id": "emich4",
+    "validation-key": "emich4",
+    "ui-label": "emich4",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-methane-due-to-emission",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "reffclwc",
+    "validation-key": "reffclwc",
+    "ui-label": "reffclwc",
+    "data-type": "real",
+    "standard-name": "effective-radius-of-convective-cloud-liquid-water-particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

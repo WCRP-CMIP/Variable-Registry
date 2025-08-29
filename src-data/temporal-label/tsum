@@ -1,0 +1,11 @@
+{
+    "id": "tsum",
+    "validation-key": "tsum",
+    "ui-label": "Sum Statistic",
+    "description": "Time-summed values representing the accumulation or total amount over a specified time period. Commonly used for precipitation totals, energy fluxes, or other cumulative quantities.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:temporal-label",
+        "variable"
+    ]
+}

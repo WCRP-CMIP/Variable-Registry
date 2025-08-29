@@ -1,0 +1,12 @@
+{
+    "id": "nmineralno3",
+    "validation-key": "nmineralno3",
+    "ui-label": "nMineralNO3",
+    "data-type": "real",
+    "standard-name": "soil-mass-content-of-inorganic-nitrate-expressed-as-nitrogen",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

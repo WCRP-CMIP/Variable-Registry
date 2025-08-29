@@ -1,0 +1,12 @@
+{
+    "id": "clcalipsoliq",
+    "validation-key": "clcalipsoliq",
+    "ui-label": "clcalipsoliq",
+    "data-type": "real",
+    "standard-name": "liquid-water-cloud-area-fraction-in-atmosphere-layer",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

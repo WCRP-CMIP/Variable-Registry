@@ -1,0 +1,34 @@
+{
+    "id": "laiLut_tavg-u-hxy-multi",
+    "validation-key": "laiLut_tavg-u-hxy-multi",
+    "ui-label": "Leaf Area Index on Land-Use Tile",
+    "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",
+    "area-label": "multi",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amlu-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "laiLut",
+    "physical-parameter-name": "laiLut",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-na",
+    "standard-name": "leaf_area_index",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1",
+    "variable-root": "laiLut",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

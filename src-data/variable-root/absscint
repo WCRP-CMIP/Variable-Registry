@@ -1,0 +1,12 @@
+{
+    "id": "absscint",
+    "validation-key": "absscint",
+    "ui-label": "absscint",
+    "data-type": "real",
+    "standard-name": "integral-wrt-depth-of-sea-water-absolute-salinity-expressed-as-salt-mass-content",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

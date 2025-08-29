@@ -1,0 +1,12 @@
+{
+    "id": "tsl",
+    "validation-key": "tsl",
+    "ui-label": "tsl",
+    "data-type": "real",
+    "standard-name": "soil-temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

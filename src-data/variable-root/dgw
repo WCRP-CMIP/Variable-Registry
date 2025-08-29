@@ -1,0 +1,12 @@
+{
+    "id": "dgw",
+    "validation-key": "dgw",
+    "ui-label": "dgw",
+    "data-type": "real",
+    "standard-name": "change-over-time-in-groundwater-amount",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "fsfe",
+    "validation-key": "fsfe",
+    "ui-label": "fsfe",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-mole-content-of-iron-due-to-deposition-and-runoff-and-sediment-dissolution",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

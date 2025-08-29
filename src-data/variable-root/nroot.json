@@ -1,0 +1,12 @@
+{
+    "id": "nroot",
+    "validation-key": "nroot",
+    "ui-label": "nRoot",
+    "data-type": "real",
+    "standard-name": "root-mass-content-of-nitrogen",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "wpdirwindsea",
+    "validation-key": "wpdirwindsea",
+    "ui-label": "wpdirwindsea",
+    "data-type": "real",
+    "standard-name": "sea-surface-wind-wave-from-direction-at-variance-spectral-density-maximum",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

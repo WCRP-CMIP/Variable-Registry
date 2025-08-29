@@ -1,0 +1,34 @@
+{
+    "id": "rsu4co2_tavg-alh-hxy-u",
+    "validation-key": "rsu4co2_tavg-alh-hxy-u",
+    "ui-label": "Upwelling Shortwave Radiation 4XCO2 Atmosphere",
+    "description": "Upwelling Shortwave Radiation calculated using carbon dioxide concentrations increased fourfold",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "rsu4co2",
+    "physical-parameter-name": "rsu4co2",
+    "positive": "up",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-AH",
+    "standard-name": "upwelling_shortwave_flux_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W m-2",
+    "variable-root": "rsu4co2",
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

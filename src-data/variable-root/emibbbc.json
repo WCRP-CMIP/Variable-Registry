@@ -1,0 +1,12 @@
+{
+    "id": "emibbbc",
+    "validation-key": "emibbbc",
+    "ui-label": "emibbbc",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-elemental-carbon-dry-aerosol-particles-due-to-emission-from-fires",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

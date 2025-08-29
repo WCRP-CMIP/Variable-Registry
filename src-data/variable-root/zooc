@@ -1,0 +1,12 @@
+{
+    "id": "zooc",
+    "validation-key": "zooc",
+    "ui-label": "zooc",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-zooplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

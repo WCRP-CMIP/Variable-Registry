@@ -1,0 +1,12 @@
+{
+    "id": "wetoa",
+    "validation-key": "wetoa",
+    "ui-label": "wetoa",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles-due-to-wet-deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

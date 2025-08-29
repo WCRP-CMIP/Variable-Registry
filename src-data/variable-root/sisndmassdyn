@@ -1,0 +1,12 @@
+{
+    "id": "sisndmassdyn",
+    "validation-key": "sisndmassdyn",
+    "ui-label": "sisndmassdyn",
+    "data-type": "real",
+    "standard-name": "tendency-of-surface-snow-amount-due-to-sea-ice-dynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

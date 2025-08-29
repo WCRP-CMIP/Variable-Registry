@@ -1,0 +1,12 @@
+{
+    "id": "chldiat",
+    "validation-key": "chldiat",
+    "ui-label": "chldiat",
+    "data-type": "real",
+    "standard-name": "mass-concentration-of-diatoms-expressed-as-chlorophyll-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

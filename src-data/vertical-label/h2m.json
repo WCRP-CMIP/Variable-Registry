@@ -1,0 +1,11 @@
+{
+    "id": "h2m",
+    "validation-key": "h2m",
+    "ui-label": "2 Meter Height",
+    "description": "Variables at 2 meter height above the surface, the standard measurement height for near-surface air temperature and humidity in meteorological observations and climate models.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

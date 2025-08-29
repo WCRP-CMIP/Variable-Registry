@@ -1,0 +1,12 @@
+{
+    "id": "diftrblo",
+    "validation-key": "diftrblo",
+    "ui-label": "diftrblo",
+    "data-type": "real",
+    "standard-name": "ocean-tracer-laplacian-diffusivity-due-to-parameterized-mesoscale-eddy-advection",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

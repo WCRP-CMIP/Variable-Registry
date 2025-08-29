@@ -1,0 +1,34 @@
+{
+    "id": "masscello_tavg-ol-hxy-sea",
+    "validation-key": "masscello_tavg-ol-hxy-sea",
+    "ui-label": "Ocean Grid-Cell Mass per Area",
+    "description": "For Boussinesq models, report this diagnostic as Boussinesq reference density times grid celll volume.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "masscello",
+    "physical-parameter-name": "masscello",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-O",
+    "standard-name": "sea_water_mass_per_unit_area",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2",
+    "variable-root": "masscello",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

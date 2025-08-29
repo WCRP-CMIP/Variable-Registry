@@ -1,0 +1,12 @@
+{
+    "id": "tnhusd",
+    "validation-key": "tnhusd",
+    "ui-label": "tnhusd",
+    "data-type": "real",
+    "standard-name": "tendency-of-specific-humidity-due-to-diffusion",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

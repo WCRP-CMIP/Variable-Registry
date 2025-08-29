@@ -1,0 +1,34 @@
+{
+    "id": "evu_tavg-al-hxy-u",
+    "validation-key": "evu_tavg-al-hxy-u",
+    "ui-label": "Eddy Viscosity Coefficient for Momentum",
+    "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "evu",
+    "physical-parameter-name": "evu",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "atmosphere_momentum_diffusivity",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m2 s-1",
+    "variable-root": "evu",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

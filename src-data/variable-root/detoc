@@ -1,0 +1,12 @@
+{
+    "id": "detoc",
+    "validation-key": "detoc",
+    "ui-label": "detoc",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-organic-detritus-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

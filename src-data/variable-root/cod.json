@@ -1,0 +1,12 @@
+{
+    "id": "cod",
+    "validation-key": "cod",
+    "ui-label": "cod",
+    "data-type": "real",
+    "standard-name": "atmosphere-optical-thickness-due-to-cloud",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

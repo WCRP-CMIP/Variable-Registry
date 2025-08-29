@@ -1,0 +1,12 @@
+{
+    "id": "od550aer",
+    "validation-key": "od550aer",
+    "ui-label": "od550aer",
+    "data-type": "real",
+    "standard-name": "atmosphere-optical-thickness-due-to-ambient-aerosol-particles",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

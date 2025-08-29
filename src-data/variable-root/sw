@@ -1,0 +1,12 @@
+{
+    "id": "sw",
+    "validation-key": "sw",
+    "ui-label": "sw",
+    "data-type": "real",
+    "standard-name": "land-surface-liquid-water-amount",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

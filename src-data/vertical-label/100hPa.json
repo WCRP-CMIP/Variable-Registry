@@ -1,0 +1,11 @@
+{
+    "id": "100hPa",
+    "validation-key": "100hPa",
+    "ui-label": "100 hPa Pressure Level",
+    "description": "Variables at the 100 hPa pressure level, located in the lower stratosphere at approximately 16 km altitude. This level is important for stratospheric dynamics, ozone studies, and upper-level atmospheric analysis.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

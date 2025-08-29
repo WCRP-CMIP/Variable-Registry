@@ -1,0 +1,12 @@
+{
+    "id": "sitemptop",
+    "validation-key": "sitemptop",
+    "ui-label": "sitemptop",
+    "data-type": "real",
+    "standard-name": "sea-ice-surface-temperature",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

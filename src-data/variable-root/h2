@@ -1,0 +1,12 @@
+{
+    "id": "h2",
+    "validation-key": "h2",
+    "ui-label": "h2",
+    "data-type": "real",
+    "standard-name": "mole-fraction-of-molecular-hydrogen-in-air",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

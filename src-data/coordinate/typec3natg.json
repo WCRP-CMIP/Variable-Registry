@@ -1,0 +1,13 @@
+{
+    "id": "typec3natg",
+    "validation-key": "typec3natg",
+    "ui-label": "C3 Natural grass area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

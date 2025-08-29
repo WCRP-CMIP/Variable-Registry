@@ -1,0 +1,12 @@
+{
+    "id": "dslw",
+    "validation-key": "dslw",
+    "ui-label": "dslw",
+    "data-type": "real",
+    "standard-name": "change-over-time-in-mass-content-of-water-in-soil",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

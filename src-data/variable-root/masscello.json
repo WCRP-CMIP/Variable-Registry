@@ -1,0 +1,12 @@
+{
+    "id": "masscello",
+    "validation-key": "masscello",
+    "ui-label": "masscello",
+    "data-type": "real",
+    "standard-name": "sea-water-mass-per-unit-area",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

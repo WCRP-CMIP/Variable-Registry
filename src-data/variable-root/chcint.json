@@ -1,0 +1,12 @@
+{
+    "id": "chcint",
+    "validation-key": "chcint",
+    "ui-label": "chcint",
+    "data-type": "real",
+    "standard-name": "integral-wrt-depth-of-sea-water-conservative-temperature-expressed-as-heat-content",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

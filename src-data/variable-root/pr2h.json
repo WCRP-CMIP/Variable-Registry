@@ -1,0 +1,12 @@
+{
+    "id": "pr2h",
+    "validation-key": "pr2h",
+    "ui-label": "pr2h",
+    "data-type": "real",
+    "standard-name": "precipitation-flux-containing-single-2h",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

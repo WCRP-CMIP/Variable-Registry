@@ -1,0 +1,12 @@
+{
+    "id": "expcalcob",
+    "validation-key": "expcalcob",
+    "ui-label": "expcalcob",
+    "data-type": "real",
+    "standard-name": "sinking-mole-flux-of-calcite-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

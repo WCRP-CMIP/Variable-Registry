@@ -1,0 +1,12 @@
+{
+    "id": "lossn2o",
+    "validation-key": "lossn2o",
+    "ui-label": "lossn2o",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-nitrous-oxide-due-to-chemical-destruction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

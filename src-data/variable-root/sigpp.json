@@ -1,0 +1,12 @@
+{
+    "id": "sigpp",
+    "validation-key": "sigpp",
+    "ui-label": "sigpp",
+    "data-type": "real",
+    "standard-name": "gross-primary-productivity-of-biomass-expressed-as-carbon-due-to-ice-algae-in-sea-ice",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

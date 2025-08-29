@@ -1,0 +1,12 @@
+{
+    "id": "sifllattop",
+    "validation-key": "sifllattop",
+    "ui-label": "sifllattop",
+    "data-type": "real",
+    "standard-name": "surface-downward-latent-heat-flux",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

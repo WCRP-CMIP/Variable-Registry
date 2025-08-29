@@ -1,0 +1,12 @@
+{
+    "id": "tauuo",
+    "validation-key": "tauuo",
+    "ui-label": "tauuo",
+    "data-type": "real",
+    "standard-name": "downward-x-stress-at-sea-water-surface",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

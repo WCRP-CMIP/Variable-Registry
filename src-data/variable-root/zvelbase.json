@@ -1,0 +1,12 @@
+{
+    "id": "zvelbase",
+    "validation-key": "zvelbase",
+    "ui-label": "zvelbase",
+    "data-type": "real",
+    "standard-name": "land-ice-basal-upward-velocity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "hfibthermds",
+    "validation-key": "hfibthermds",
+    "ui-label": "hfibthermds",
+    "data-type": "real",
+    "standard-name": "heat-flux-into-sea-water-due-to-iceberg-thermodynamics",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

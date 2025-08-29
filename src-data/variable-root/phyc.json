@@ -1,0 +1,12 @@
+{
+    "id": "phyc",
+    "validation-key": "phyc",
+    "ui-label": "phyc",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-phytoplankton-expressed-as-carbon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "fgco2",
+    "validation-key": "fgco2",
+    "ui-label": "fgco2",
+    "data-type": "real",
+    "standard-name": "surface-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

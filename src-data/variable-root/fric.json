@@ -1,0 +1,12 @@
+{
+    "id": "fric",
+    "validation-key": "fric",
+    "ui-label": "fric",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-ocean-mole-content-of-inorganic-carbon-due-to-sedimentation",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

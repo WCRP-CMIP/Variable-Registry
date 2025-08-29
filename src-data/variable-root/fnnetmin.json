@@ -1,0 +1,12 @@
+{
+    "id": "fnnetmin",
+    "validation-key": "fnnetmin",
+    "ui-label": "fNnetmin",
+    "data-type": "real",
+    "standard-name": "mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-out-of-litter-and-soil-due-to-immobilisation-and-remineralization",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

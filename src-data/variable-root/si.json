@@ -1,0 +1,12 @@
+{
+    "id": "si",
+    "validation-key": "si",
+    "ui-label": "si",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-dissolved-inorganic-silicon-in-sea-water",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

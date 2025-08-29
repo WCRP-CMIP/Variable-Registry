@@ -1,0 +1,12 @@
+{
+    "id": "lossco",
+    "validation-key": "lossco",
+    "ui-label": "lossco",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-carbon-monoxide-due-to-chemical-destruction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

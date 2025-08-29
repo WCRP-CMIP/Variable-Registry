@@ -1,0 +1,12 @@
+{
+    "id": "licalvf",
+    "validation-key": "licalvf",
+    "ui-label": "licalvf",
+    "data-type": "real",
+    "standard-name": "land-ice-specific-mass-flux-due-to-calving",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

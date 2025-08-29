@@ -1,0 +1,12 @@
+{
+    "id": "nlittersurf",
+    "validation-key": "nlittersurf",
+    "ui-label": "nLitterSurf",
+    "data-type": "real",
+    "standard-name": "surface-litter-mass-content-of-nitrogen",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

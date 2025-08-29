@@ -1,0 +1,12 @@
+{
+    "id": "intpbfe",
+    "validation-key": "intpbfe",
+    "ui-label": "intpbfe",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-mole-content-of-iron-due-to-biological-production",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "difmxylo",
+    "validation-key": "difmxylo",
+    "ui-label": "difmxylo",
+    "data-type": "real",
+    "standard-name": "ocean-momentum-xy-laplacian-diffusivity",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

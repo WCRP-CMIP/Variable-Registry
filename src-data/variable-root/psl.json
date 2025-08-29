@@ -1,0 +1,12 @@
+{
+    "id": "psl",
+    "validation-key": "psl",
+    "ui-label": "psl",
+    "data-type": "real",
+    "standard-name": "air-pressure-at-mean-sea-level",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "crp",
+    "validation-key": "crp",
+    "ui-label": "Crops",
+    "description": "Variables calculated over agricultural crop areas. Includes crop yield, growth stages, irrigation effects, and agricultural land use patterns. Focuses on cultivated areas used for food and fiber production.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

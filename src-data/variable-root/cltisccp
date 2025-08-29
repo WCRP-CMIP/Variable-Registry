@@ -1,0 +1,12 @@
+{
+    "id": "cltisccp",
+    "validation-key": "cltisccp",
+    "ui-label": "cltisccp",
+    "data-type": "real",
+    "standard-name": "cloud-area-fraction",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "c14litter",
+    "validation-key": "c14litter",
+    "ui-label": "c14Litter",
+    "data-type": "real",
+    "standard-name": "litter-mass-content-of-14c",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

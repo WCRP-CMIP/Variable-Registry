@@ -1,0 +1,12 @@
+{
+    "id": "hfdsnb",
+    "validation-key": "hfdsnb",
+    "ui-label": "hfdsnb",
+    "data-type": "real",
+    "standard-name": "downward-heat-flux-at-ground-level-in-snow",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

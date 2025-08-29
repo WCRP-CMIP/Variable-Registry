@@ -1,0 +1,12 @@
+{
+    "id": "snmsl",
+    "validation-key": "snmsl",
+    "ui-label": "snmsl",
+    "data-type": "real",
+    "standard-name": "liquid-water-mass-flux-into-soil-due-to-surface-snow-melt",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "wetss",
+    "validation-key": "wetss",
+    "ui-label": "wetss",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-wet-deposition",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ],
+    "@context": "_context_"
+}
