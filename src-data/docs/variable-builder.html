@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMIP Branded Variable Builder</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+        .structure-info {
+            background: rgba(255,255,255,0.1);
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .builder-container { padding: 30px; }
+        .components-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+            justify-content: space-between;
+        }
+        .component-group {
+            flex: 1 1 calc(20% - 12px);
+            min-width: 160px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        @media (max-width: 900px) {
+            .component-group { flex: 1 1 calc(33.33% - 10px); }
+        }
+        @media (max-width: 600px) {
+            .component-group { flex: 1 1 calc(50% - 7px); }
+        }
+        @media (max-width: 400px) {
+            .components-row { flex-direction: column; }
+            .component-group { flex: 1 1 auto; min-width: auto; }
+        }
+        .component-group:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .component-group h4 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 13px;
+            background: white;
+            transition: all 0.3s;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 8px rgba(102,126,234,0.2);
+        }
+        .autocomplete-container { position: relative; }
+        .autocomplete-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid #667eea;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            max-height: 180px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .autocomplete-suggestion {
+            padding: 8px 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.2s;
+            font-size: 12px;
+        }
+        .autocomplete-suggestion:hover,
+        .autocomplete-suggestion.highlighted { background: #f0f8ff; }
+        .autocomplete-suggestion strong { color: #667eea; }
+        .source-link { font-size: 10px; margin-top: 6px; text-align: center; }
+        .source-link a { color: #667eea; text-decoration: none; font-weight: 500; }
+        .description-area {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .description-box {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            min-height: 50px;
+            font-size: 13px;
+            color: #6c757d;
+            border-left: 4px solid #e9ecef;
+            transition: all 0.3s;
+            line-height: 1.4;
+        }
+        .description-box.filled {
+            border-left-color: #28a745;
+            color: #495057;
+            background: #f8fff9;
+        }
+        .description-box .label {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 4px;
+        }
+        .result-section {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        .branded-identifier {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+        .interpretation {
+            font-size: 15px;
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+        .interpretation .descriptions {
+            font-style: italic;
+            opacity: 0.9;
+            font-size: 14px;
+            text-align: center;
+        }
+        .component-colors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 12px 0;
+            justify-content: center;
+        }
+        .color-legend { padding: 4px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+        .root { background: #e1f5fe; color: #01579b; }
+        .temporal { background: #f3e5f5; color: #4a148c; }
+        .area { background: #e8f5e8; color: #1b5e20; }
+        .horizontal { background: #fff3e0; color: #e65100; }
+        .vertical { background: #fce4ec; color: #880e4f; }
+        .reset-button {
+            margin-top: 12px;
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 18px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .status-indicator {
+            font-size: 10px;
+            padding: 3px 6px;
+            border-radius: 10px;
+            margin-top: 6px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .status-loading { background: #e3f2fd; color: #1976d2; }
+        .status-loaded { color: #036afa; }
+        .status-error { background: #ffebee; color: #c62828; }
+        .examples { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .example-item { margin: 8px 0; padding: 8px; background: white; border-radius: 4px; border-left: 3px solid #667eea; }
+        .example-code { font-family: 'Courier New', monospace; font-weight: bold; color: #495057; font-size: 13px; }
+        .example-desc { font-size: 12px; color: #6c757d; margin-top: 3px; }
+        .json-display {
+            margin-top: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+        }
+        .json-display h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .json-content {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #4a5568;
+        }
+        .json-string { color: #a78bfa; }
+        .json-number { color: #60a5fa; }
+        .json-boolean { color: #34d399; }
+        .json-null { color: #9ca3af; }
+        .json-key { color: #fbbf24; font-weight: bold; }
+        .json-punctuation { color: #e5e7eb; }
+        .json-warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .components-row { flex-direction: column; }
+            .component-group { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CMIP Variable Registry Explorer</h1>
+            <p>Build and explore standardized climate variable identifiers</p>
+            <div class="structure-info">
+                [Variable Root]_[Temporal]-[Vertical]-[Horizontal]-[Area]
+            </div>
+        </div>
+        <div class="builder-container">
+            <div class="components-row">
+                <div class="component-group">
+                    <h4><span class="material-icons" style="font-size: 16px;">thermostat</span> Variable Root</h4>
+                    <div class="autocomplete-container">
+                        <input type="text" id="variableRoot" placeholder="e.g. tas, tos, hfds">
+                        <div class="autocomplete-suggestions" id="variableRootSuggestions"></div>
+                    </div>
+                    <div class="source-link" id="rootLabel">
+                        <span style="color: #999; font-size: 10px;">No selection</span>
+                    </div>
+                    <div class="status-indicator status-loading" id="rootStatus">Loading...</div>
+                </div>
+
+                <div class="component-group">
+                    <h4><span class="material-icons" style="font-size: 16px;">schedule</span> Temporal</h4>
+                    <div class="autocomplete-container">
+                        <input type="text" id="temporalLabel" placeholder="e.g. tavg, tclm">
+                        <div class="autocomplete-suggestions" id="temporalLabelSuggestions"></div>
+                    </div>
+                    <div class="source-link" id="temporalLabelDisplay">
+                        <span style="color: #999; font-size: 10px;">No selection</span>
+                    </div>
+                    <div class="status-indicator status-loading" id="temporalStatus">Loading...</div>
+                </div>
+
+                <div class="component-group">
+                    <h4><span class="material-icons" style="font-size: 16px;">height</span> Vertical</h4>
+                    <div class="autocomplete-container">
+                        <input type="text" id="verticalLabel" placeholder="e.g. u, h2m">
+                        <div class="autocomplete-suggestions" id="verticalLabelSuggestions"></div>
+                    </div>
+                    <div class="source-link" id="verticalLabelDisplay">
+                        <span style="color: #999; font-size: 10px;">No selection</span>
+                    </div>
+                    <div class="status-indicator status-loading" id="verticalStatus">Loading...</div>
+                </div>
+
+                <div class="component-group">
+                    <h4><span class="material-icons" style="font-size: 16px;">grid_on</span> Horizontal</h4>
+                    <div class="autocomplete-container">
+                        <input type="text" id="horizontalLabel" placeholder="e.g. hxy, hm">
+                        <div class="autocomplete-suggestions" id="horizontalLabelSuggestions"></div>
+                    </div>
+                    <div class="source-link" id="horizontalLabelDisplay">
+                        <span style="color: #999; font-size: 10px;">No selection</span>
+                    </div>
+                    <div class="status-indicator status-loading" id="horizontalStatus">Loading...</div>
+                </div>
+
+                <div class="component-group">
+                    <h4><span class="material-icons" style="font-size: 16px;">public</span> Area</h4>
+                    <div class="autocomplete-container">
+                        <input type="text" id="areaLabel" placeholder="e.g. sea, air, u">
+                        <div class="autocomplete-suggestions" id="areaLabelSuggestions"></div>
+                    </div>
+                    <div class="source-link" id="areaLabelDisplay">
+                        <span style="color: #999; font-size: 10px;">No selection</span>
+                    </div>
+                    <div class="status-indicator status-loading" id="areaStatus">Loading...</div>
+                </div>
+            </div>
+
+            <div class="result-section">
+                <h2>Variable Identifier</h2>
+                <div class="component-colors">
+                    <span class="color-legend root">Variable Root</span>
+                    <span class="color-legend temporal">Temporal</span>
+                    <span class="color-legend vertical">Vertical</span>
+                    <span class="color-legend horizontal">Horizontal</span>
+                    <span class="color-legend area">Area</span>
+                </div>
+                <div class="branded-identifier" id="result">Complete fields to build your identifier...</div>
+                <div class="interpretation" id="interpretation">Variable description will appear here...</div>
+                <button class="reset-button" onclick="resetBuilder()">🔄 Reset All</button>
+            </div>
+
+            <div class="json-display" id="jsonDisplay" style="display: none;">
+                <h3>
+                    <span class="material-icons">code</span>
+                    Variable Registry Data
+                </h3>
+                <div id="jsonContent"></div>
+            </div>
+
+            <div class="examples">
+                <h3>Examples</h3>
+                <p style="margin-bottom: 15px; color: #6c757d; font-size: 13px;">Try these examples or use ?branding=identifier in URL:</p>
+                <div class="example-item">
+                    <div class="example-code">hfds_tavg-u-hxy-sea</div>
+                    <div class="example-desc">Downward heat flux at sea surface, time-averaged, unspecified vertical, gridded, over sea</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">tas_tavg-h2m-hxy-u</div>
+                    <div class="example-desc">Near-surface air temperature, time-averaged, at 2m height, gridded, unmasked</div>
+                </div>
+                <div class="example-item">
+                    <div class="example-code">abs550aer_tavg-u-hxy-u</div>
+                    <div class="example-desc">Aerosol absorption at 550nm, time-averaged, unspecified vertical, gridded, unmasked</div>
+                </div>
+            </div>
+
+            <div style="margin-top: 15px; padding: 12px; background: #e8f4fd; border-radius: 6px; border-left: 3px solid #2196f3;">
+                <p style="font-size: 12px; margin: 0;">
+                    <strong>Data:</strong> Live from Variable Registry APIs. 
+                    Debug: F12 → <code>testAutocomplete()</code>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        console.debug('🚀 Script starting...');
+
+        // Parse query parameters for pre-filling
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryBranding = urlParams.get('branding');
+        console.debug('🔗 Query parameter branding:', queryBranding);
+
+        const selectors = {
+            variableRoot: document.getElementById('variableRoot'),
+            temporalLabel: document.getElementById('temporalLabel'),
+            areaLabel: document.getElementById('areaLabel'),
+            horizontalLabel: document.getElementById('horizontalLabel'),
+            verticalLabel: document.getElementById('verticalLabel')
+        };
+
+        const suggestions = {
+            variableRoot: document.getElementById('variableRootSuggestions'),
+            temporalLabel: document.getElementById('temporalLabelSuggestions'),
+            areaLabel: document.getElementById('areaLabelSuggestions'),
+            horizontalLabel: document.getElementById('horizontalLabelSuggestions'),
+            verticalLabel: document.getElementById('verticalLabelSuggestions')
+        };
+
+        const labelDisplays = {
+            variableRoot: document.getElementById('rootLabel'),
+            temporalLabel: document.getElementById('temporalLabelDisplay'),
+            areaLabel: document.getElementById('areaLabelDisplay'),
+            horizontalLabel: document.getElementById('horizontalLabelDisplay'),
+            verticalLabel: document.getElementById('verticalLabelDisplay')
+        };
+
+        const statusElements = {
+            variableRoot: document.getElementById('rootStatus'),
+            temporalLabel: document.getElementById('temporalStatus'),
+            areaLabel: document.getElementById('areaStatus'),
+            horizontalLabel: document.getElementById('horizontalStatus'),
+            verticalLabel: document.getElementById('verticalStatus')
+        };
+
+        const resultElement = document.getElementById('result');
+        const interpretationElement = document.getElementById('interpretation');
+
+        let componentData = {};
+
+        const dataEndpoints = {
+            variableRoot: 'https://wcrp-cmip.github.io/Variable-Registry/variable-root/graph.jsonld',
+            temporalLabel: 'https://wcrp-cmip.github.io/Variable-Registry/temporal-label/graph.jsonld',
+            areaLabel: 'https://wcrp-cmip.github.io/Variable-Registry/area-label/graph.jsonld',
+            horizontalLabel: 'https://wcrp-cmip.github.io/Variable-Registry/horizontal-label/graph.jsonld',
+            verticalLabel: 'https://wcrp-cmip.github.io/Variable-Registry/vertical-label/graph.jsonld'
+        };
+
+        async function loadComponentData() {
+            console.debug('📡 Loading component data...');
+            
+            for (const [component, url] of Object.entries(dataEndpoints)) {
+                const statusEl = statusElements[component];
+                try {
+                    console.debug(`[${component}] 🔄 Fetching: ${url}`);
+                    statusEl.textContent = 'Loading...';
+                    statusEl.className = 'status-indicator status-loading';
+                    
+                    const response = await fetch(url);
+                    console.debug(`[${component}] ✅ Status: ${response.status}`);
+                    
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    
+                    const data = await response.json();
+                    console.debug(`[${component}] 📊 Keys:`, Object.keys(data));
+                    
+                    // Parse data structure - try multiple approaches
+                    let items = [];
+                    
+                    if (data['@graph']) {
+                        console.debug(`[${component}] 📋 Using @graph (${data['@graph'].length} items)`);
+                        items = data['@graph'];
+                    } else if (Array.isArray(data)) {
+                        console.debug(`[${component}] 📋 Using array (${data.length} items)`);
+                        items = data;
+                    } else {
+                        // Try component-specific keys
+                        const componentKey = component.replace('Label', '-label');
+                        if (data[componentKey]) {
+                            console.debug(`[${component}] 📋 Using key: ${componentKey}`);
+                            items = Object.entries(data[componentKey]).map(([id, obj]) => ({
+                                '@id': id,
+                                'rdfs:label': obj['ui-label'] || obj.description || id,
+                                'rdfs:comment': obj.description || obj['ui-label'] || id,
+                                'ui-label': obj['ui-label'],
+                                'description': obj.description
+                            }));
+                        }
+                    }
+                    
+                    console.debug(`[${component}] 🔍 Items parsed: ${items.length}`);
+                    
+                    if (items.length > 0) {
+                        const validItems = items.filter(item => 
+                            (item['@id'] || item.id) && 
+                            (item['rdfs:label'] || item.label || item['ui-label'])
+                        );
+                        
+                        componentData[component] = validItems
+                            .sort((a, b) => (a['@id'] || a.id).localeCompare(b['@id'] || b.id))
+                            .map(item => ({
+                                id: item['@id'] || item.id,
+                                label: item['ui-label'] || item['rdfs:label'] || item.label || item.description,
+                                description: item.description || item['rdfs:comment'] || item['ui-label'] || item['rdfs:label'],
+                                searchText: `${item['@id'] || item.id} ${item['ui-label'] || item['rdfs:label'] || item.label || ''}`.toLowerCase()
+                            }));
+                        
+                        console.debug(`[${component}] ✅ Processed: ${componentData[component].length} items`);
+                        
+                        statusEl.innerHTML = `<a href="https://github.com/WCRP-CMIP/Variable-Registry/tree/main/src-data/${component.replace('Label', '-label')}/" target="_blank" style="color: inherit; text-decoration: underline;">${componentData[component].length} values</a>`;
+                        statusEl.className = 'status-indicator status-loaded';
+                    } else {
+                        throw new Error('No items found');
+                    }
+                    
+                } catch (error) {
+                    console.error(`[${component}] ❌ Error:`, error);
+                    statusEl.textContent = '❌ Fallback';
+                    statusEl.className = 'status-indicator status-error';
+                    componentData[component] = getFallbackData(component);
+                }
+            }
+            console.debug('📊 All data loaded');
+        }
+
+        function getFallbackData(component) {
+            const fallback = {
+                variableRoot: [
+                    { id: 'tas', label: 'Near-Surface Air Temperature', description: 'Air temperature at surface (typically 2m height)' },
+                    { id: 'tos', label: 'Sea Surface Temperature', description: 'Temperature at the ocean surface' },
+                    { id: 'pr', label: 'Precipitation', description: 'Precipitation flux (rain and snow)' }
+                ],
+                temporalLabel: [
+                    { id: 'tavg', label: 'Time Average', description: 'Mean value averaged over time' },
+                    { id: 'tclm', label: 'Annual Climatology', description: 'Annual cycle climatology' },
+                    { id: 'tpt', label: 'Point in Time', description: 'Instantaneous value at a point in time' }
+                ],
+                areaLabel: [
+                    { id: 'air', label: 'Air', description: 'Over atmospheric air region' },
+                    { id: 'sea', label: 'Sea', description: 'Over ocean/sea water surface' },
+                    { id: 'lnd', label: 'Land', description: 'Over land surface area' },
+                    { id: 'u', label: 'Unmasked', description: 'No specific area restriction applied' }
+                ],
+                horizontalLabel: [
+                    { id: 'hxy', label: 'Gridded', description: 'Gridded horizontal data (lat-lon grid)' },
+                    { id: 'hm', label: 'Horizontal Mean', description: 'Mean over entire horizontal domain' },
+                    { id: 'hy', label: 'Zonal Mean', description: 'Mean along lines of longitude' }
+                ],
+                verticalLabel: [
+                    { id: 'u', label: 'Unspecified', description: 'No specific vertical dimension (2D field)' },
+                    { id: 'h2m', label: '2m Height', description: 'At 2 meter height above surface' },
+                    { id: 'd0m', label: 'Surface', description: 'At the surface level' }
+                ]
+            };
+            
+            return (fallback[component] || []).map(opt => ({
+                ...opt,
+                searchText: `${opt.id} ${opt.label}`.toLowerCase()
+            }));
+        }
+
+        function setupAutocomplete(component, input, suggestionsDiv) {
+            console.debug(`[${component}] 🔧 Setup (${componentData[component]?.length || 0} items)`);
+            
+            input.addEventListener('input', function() {
+                const query = input.value.toLowerCase().trim();
+                
+                // Check exact match and store both description and label
+                const exactMatch = componentData[component]?.find(item => item.id === input.value);
+                if (exactMatch) {
+                    input.setAttribute('data-description', exactMatch.description);
+                    input.setAttribute('data-label', exactMatch.label);
+                    // Update the label display in the component group
+                    const labelDisplay = labelDisplays[component];
+                    if (labelDisplay) {
+                        const colorClass = {
+                            variableRoot: 'root',
+                            temporalLabel: 'temporal',
+                            areaLabel: 'area',
+                            horizontalLabel: 'horizontal',
+                            verticalLabel: 'vertical'
+                        }[component];
+                        labelDisplay.innerHTML = `<span class="${colorClass}" style="font-size: 10px; padding: 2px 6px; border-radius: 8px;">${exactMatch.label}</span>`;
+                    }
+                    console.debug(`[${component}] ✅ Match: ${exactMatch.id} - ${exactMatch.label}`);
+                } else {
+                    input.removeAttribute('data-description');
+                    input.removeAttribute('data-label');
+                    // Reset label display
+                    const labelDisplay = labelDisplays[component];
+                    if (labelDisplay) {
+                        labelDisplay.innerHTML = `<span style="color: #999; font-size: 10px;">No selection</span>`;
+                    }
+                }
+                
+                updateResult();
+                
+                if (query.length === 0) {
+                    suggestionsDiv.style.display = 'none';
+                    return;
+                }
+
+                const matches = componentData[component]?.filter(item => 
+                    item.searchText.includes(query)
+                ) || [];
+                
+                console.debug(`[${component}] 📊 ${matches.length} matches`);
+
+                if (matches.length === 0) {
+                    suggestionsDiv.style.display = 'none';
+                    return;
+                }
+
+                suggestionsDiv.innerHTML = '';
+                matches.slice(0, 12).forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'autocomplete-suggestion';
+                    div.innerHTML = `<strong>${item.id}</strong> - ${item.label}`;
+                    div.onclick = function() {
+                        console.debug(`[${component}] 👆 Selected: ${item.id} - ${item.label}`);
+                        input.value = item.id;
+                        input.setAttribute('data-description', item.description);
+                        input.setAttribute('data-label', item.label);
+                        // Update the label display in the component group
+                        const labelDisplay = labelDisplays[component];
+                        if (labelDisplay) {
+                            const colorClass = {
+                                variableRoot: 'root',
+                                temporalLabel: 'temporal',
+                                areaLabel: 'area',
+                                horizontalLabel: 'horizontal',
+                                verticalLabel: 'vertical'
+                            }[component];
+                            labelDisplay.innerHTML = `<span class="${colorClass}" style="font-size: 10px; padding: 2px 6px; border-radius: 8px;">${item.label}</span>`;
+                        }
+                        suggestionsDiv.style.display = 'none';
+                        updateResult();
+                    };
+                    suggestionsDiv.appendChild(div);
+                });
+
+                suggestionsDiv.style.display = 'block';
+            });
+
+            // Keyboard navigation
+            let highlightedIndex = -1;
+            input.addEventListener('keydown', function(e) {
+                const suggestionElements = suggestionsDiv.querySelectorAll('.autocomplete-suggestion');
+                
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    highlightedIndex = Math.min(highlightedIndex + 1, suggestionElements.length - 1);
+                    updateHighlight(suggestionElements);
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    highlightedIndex = Math.max(highlightedIndex - 1, -1);
+                    updateHighlight(suggestionElements);
+                } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (highlightedIndex >= 0 && suggestionElements[highlightedIndex]) {
+                        suggestionElements[highlightedIndex].click();
+                    }
+                } else if (e.key === 'Escape') {
+                    suggestionsDiv.style.display = 'none';
+                    highlightedIndex = -1;
+                }
+            });
+
+            input.addEventListener('blur', function() {
+                setTimeout(() => suggestionsDiv.style.display = 'none', 200);
+            });
+
+            function updateHighlight(suggestionElements) {
+                suggestionElements.forEach((sugg, i) => {
+                    sugg.classList.toggle('highlighted', i === highlightedIndex);
+                });
+            }
+        }
+
+        function updateDescription(component, input) {
+            const description = input.getAttribute('data-description');
+            const label = input.getAttribute('data-label');
+            const descBox = descriptions[component];
+            
+            if (description && input.value !== '') {
+                const labelDiv = descBox.querySelector('.label');
+                const componentName = {
+                    variableRoot: 'Variable Root',
+                    temporalLabel: 'Temporal',
+                    areaLabel: 'Area', 
+                    horizontalLabel: 'Horizontal',
+                    verticalLabel: 'Vertical'
+                }[component];
+                
+                labelDiv.textContent = `${componentName}: ${input.value} - ${label || input.value}`;
+                descBox.innerHTML = labelDiv.outerHTML + description;
+                descBox.classList.add('filled');
+            } else {
+                const labelDiv = descBox.querySelector('.label');
+                const componentName = {
+                    variableRoot: 'Variable Root',
+                    temporalLabel: 'Temporal',
+                    areaLabel: 'Area',
+                    horizontalLabel: 'Horizontal', 
+                    verticalLabel: 'Vertical'
+                }[component];
+                
+                labelDiv.textContent = `${componentName}:`;
+                descBox.innerHTML = labelDiv.outerHTML + `Select a ${componentName.toLowerCase()} to see its description...`;
+                descBox.classList.remove('filled');
+            }
+            updateResult();
+        }
+
+        function updateResult() {
+            const values = {
+                root: selectors.variableRoot.value || 'undefined',
+                temporal: selectors.temporalLabel.value || 'undefined',
+                vertical: selectors.verticalLabel.value || 'undefined',
+                horizontal: selectors.horizontalLabel.value || 'undefined',
+                area: selectors.areaLabel.value || 'undefined'
+            };
+
+            // Build the identifier in correct order: root_temporal-vertical-horizontal-area
+            let identifier = `${values.root}_${values.temporal}-${values.vertical}-${values.horizontal}-${values.area}`;
+            
+            // Check if all components are defined (no 'undefined' values)
+            const isComplete = !Object.values(values).includes('undefined');
+            
+            // Auto-fetch when complete
+            if (isComplete) {
+                fetchVariableData();
+            } else {
+                // Hide JSON display when incomplete
+                const jsonDisplay = document.getElementById('jsonDisplay');
+                if (jsonDisplay) {
+                    jsonDisplay.style.display = 'none';
+                }
+            }
+            
+            // Build interpretation using descriptions only
+            let descriptionsLine = '';
+            
+            // Variable Root
+            if (values.root !== 'undefined') {
+                const rootDesc = selectors.variableRoot.getAttribute('data-description') || '';
+                descriptionsLine += rootDesc;
+            } else {
+                descriptionsLine += 'Variable root not specified';
+            }
+            
+            // Temporal
+            if (values.temporal !== 'undefined') {
+                const tempDesc = selectors.temporalLabel.getAttribute('data-description') || '';
+                descriptionsLine += tempDesc ? `, ${tempDesc.toLowerCase()}` : `, ${selectors.temporalLabel.getAttribute('data-label') || values.temporal}`;
+            } else {
+                descriptionsLine += ', temporal method not specified';
+            }
+            
+            // Vertical
+            if (values.vertical !== 'undefined') {
+                const vertDesc = selectors.verticalLabel.getAttribute('data-description') || '';
+                descriptionsLine += vertDesc ? `, ${vertDesc.toLowerCase()}` : `, ${selectors.verticalLabel.getAttribute('data-label') || values.vertical}`;
+            } else {
+                descriptionsLine += ', vertical level not specified';
+            }
+            
+            // Horizontal
+            if (values.horizontal !== 'undefined') {
+                const horizDesc = selectors.horizontalLabel.getAttribute('data-description') || '';
+                descriptionsLine += horizDesc ? `, ${horizDesc.toLowerCase()}` : `, ${selectors.horizontalLabel.getAttribute('data-label') || values.horizontal}`;
+            } else {
+                descriptionsLine += ', horizontal processing not specified';
+            }
+            
+            // Area
+            if (values.area !== 'undefined') {
+                const areaDesc = selectors.areaLabel.getAttribute('data-description') || '';
+                descriptionsLine += areaDesc ? `, ${areaDesc.toLowerCase()}` : `, ${selectors.areaLabel.getAttribute('data-label') || values.area}`;
+            } else {
+                descriptionsLine += ', area not specified';
+            }
+
+            // Create the full interpretation with descriptions only
+            interpretation = `<div class="descriptions">${descriptionsLine}</div>`;
+            
+            // Color-code the identifier in correct order
+            let coloredIdentifier = `<span class="root">${values.root}</span>_<span class="temporal">${values.temporal}</span>-<span class="vertical">${values.vertical}</span>-<span class="horizontal">${values.horizontal}</span>-<span class="area">${values.area}</span>`;
+            
+            resultElement.innerHTML = coloredIdentifier;
+            interpretationElement.innerHTML = interpretation;
+            
+            // Update URL with current branding (only if not all undefined)
+            const hasDefinedValues = Object.values({
+                root: selectors.variableRoot.value,
+                temporal: selectors.temporalLabel.value,
+                vertical: selectors.verticalLabel.value,
+                horizontal: selectors.horizontalLabel.value,
+                area: selectors.areaLabel.value
+            }).some(v => v !== '');
+            
+            if (hasDefinedValues) {
+                const actualIdentifier = `${selectors.variableRoot.value || 'undefined'}_${selectors.temporalLabel.value || 'undefined'}-${selectors.verticalLabel.value || 'undefined'}-${selectors.horizontalLabel.value || 'undefined'}-${selectors.areaLabel.value || 'undefined'}`;
+                const newUrl = new URL(window.location);
+                newUrl.searchParams.set('branding', actualIdentifier);
+                window.history.replaceState({}, '', newUrl);
+            } else {
+                const newUrl = new URL(window.location);
+                newUrl.searchParams.delete('branding');
+                window.history.replaceState({}, '', newUrl);
+            }
+        }
+
+        function parseBrandingFromQuery(branding) {
+            if (!branding) return;
+            
+            console.debug('🔗 Parsing branding from URL:', branding);
+            
+            // Parse the branding identifier: root_temporal-vertical-horizontal-area
+            const parts = branding.split(/[_-]/);
+            if (parts.length >= 1) {
+                const mapping = ['variableRoot', 'temporalLabel', 'verticalLabel', 'horizontalLabel', 'areaLabel'];
+                parts.forEach((part, index) => {
+                    if (part && mapping[index] && selectors[mapping[index]]) {
+                        selectors[mapping[index]].value = part;
+                        console.debug(`🔗 Set ${mapping[index]} = ${part}`);
+                    }
+                });
+            }
+        }
+
+        function resetBuilder() {
+            console.debug('🔄 Resetting...');
+            Object.values(selectors).forEach(input => {
+                input.value = '';
+                input.removeAttribute('data-description');
+                input.removeAttribute('data-label');
+            });
+            // Reset label displays
+            Object.values(labelDisplays).forEach(labelDisplay => {
+                if (labelDisplay) {
+                    labelDisplay.innerHTML = `<span style="color: #999; font-size: 10px;">No selection</span>`;
+                }
+            });
+            Object.values(suggestions).forEach(div => div.style.display = 'none');
+            
+            // Reset JSON display
+            const jsonDisplay = document.getElementById('jsonDisplay');
+            if (jsonDisplay) {
+                jsonDisplay.style.display = 'none';
+            }
+            
+            updateResult();
+        }
+
+        let lastFetchedIdentifier = '';
+        
+        function syntaxHighlightJson(json) {
+            if (typeof json !== 'string') {
+                json = JSON.stringify(json, null, 2);
+            }
+            
+            json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            
+            return json.replace(/"(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, function (match) {
+                let cls = 'json-number';
+                if (/^"/.test(match)) {
+                    if (/:$/.test(match)) {
+                        cls = 'json-key';
+                    } else {
+                        cls = 'json-string';
+                    }
+                } else if (/true|false/.test(match)) {
+                    cls = 'json-boolean';
+                } else if (/null/.test(match)) {
+                    cls = 'json-null';
+                }
+                return '<span class="' + cls + '">' + match + '</span>';
+            });
+        }
+        
+        async function fetchVariableData() {
+            const values = {
+                root: selectors.variableRoot.value,
+                temporal: selectors.temporalLabel.value,
+                vertical: selectors.verticalLabel.value,
+                horizontal: selectors.horizontalLabel.value,
+                area: selectors.areaLabel.value
+            };
+            
+            // Check if complete
+            if (Object.values(values).some(v => !v || v === 'undefined')) {
+                return; // Don't fetch if incomplete
+            }
+            
+            const identifier = `${values.root}_${values.temporal}-${values.vertical}-${values.horizontal}-${values.area}`;
+            
+            // Avoid duplicate fetches
+            if (identifier === lastFetchedIdentifier) {
+                return;
+            }
+            lastFetchedIdentifier = identifier;
+            
+            const url = `https://wcrp-cmip.github.io/Variable-Registry/variable/${identifier}.json`;
+            
+            const jsonDisplay = document.getElementById('jsonDisplay');
+            const jsonContent = document.getElementById('jsonContent');
+            
+            try {
+                console.debug('🔄 Auto-fetching variable data from:', url);
+                
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`Variable not found (HTTP ${response.status})`);
+                }
+                
+                const jsonData = await response.json();
+                
+                // Display the JSON with syntax highlighting
+                const highlightedJson = syntaxHighlightJson(jsonData);
+                jsonContent.innerHTML = `<div class="json-content">${highlightedJson}</div>`;
+                jsonDisplay.style.display = 'block';
+                
+                // Scroll to the JSON display after a short delay
+                setTimeout(() => {
+                    jsonDisplay.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+                
+                console.debug('✅ Variable data fetched successfully');
+                
+            } catch (error) {
+                console.error('❌ Error fetching variable data:', error);
+                
+                // Show warning for variable not found
+                jsonContent.innerHTML = `
+                    <div class="json-warning">
+                        <strong>⚠️ Variable Not Found</strong><br>
+                        The variable "${identifier}" does not yet exist in the registry.<br>
+                        <small>URL attempted: <a href="${url}" target="_blank">${url}</a></small>
+                    </div>
+                `;
+                jsonDisplay.style.display = 'block';
+                
+                // Scroll to the warning after a short delay
+                setTimeout(() => {
+                    jsonDisplay.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+
+        window.testAutocomplete = function() {
+            console.debug('🧪 === TEST ===');
+            console.debug('📊 Data:', Object.keys(componentData));
+            Object.entries(componentData).forEach(([key, data]) => {
+                console.debug(`📋 ${key}: ${data?.length || 0} items`);
+                if (data && data.length > 0) {
+                    console.debug(`   Sample: ${data[0].id} - ${data[0].label} - ${data[0].description}`);
+                }
+            });
+            
+            const testInput = selectors.variableRoot;
+            if (testInput) {
+                testInput.value = 'ta';
+                testInput.dispatchEvent(new Event('input'));
+            }
+            return '✅ Check console';
+        };
+
+        // Initialize
+        console.debug('🚀 Initializing...');
+        loadComponentData().then(() => {
+            console.debug('✅ Data loaded, setting up autocomplete...');
+            Object.entries(selectors).forEach(([component, input]) => {
+                setupAutocomplete(component, input, suggestions[component]);
+            });
+            
+            // Parse query parameter after data is loaded
+            if (queryBranding) {
+                parseBrandingFromQuery(queryBranding);
+                // Set up descriptions and label displays for pre-filled values
+                Object.entries(selectors).forEach(([component, input]) => {
+                    if (input.value) {
+                        const match = componentData[component]?.find(item => item.id === input.value);
+                        if (match) {
+                            input.setAttribute('data-description', match.description);
+                            input.setAttribute('data-label', match.label);
+                            // Update the label display
+                            const labelDisplay = labelDisplays[component];
+                            if (labelDisplay) {
+                                const colorClass = {
+                                    variableRoot: 'root',
+                                    temporalLabel: 'temporal',
+                                    areaLabel: 'area',
+                                    horizontalLabel: 'horizontal',
+                                    verticalLabel: 'vertical'
+                                }[component];
+                                labelDisplay.innerHTML = `<span class="${colorClass}" style="font-size: 10px; padding: 2px 6px; border-radius: 8px;">${match.label}</span>`;
+                            }
+                        }
+                    }
+                });
+                
+                // Auto-fetch if complete identifier provided via URL
+                const urlValues = {
+                    root: selectors.variableRoot.value,
+                    temporal: selectors.temporalLabel.value,
+                    vertical: selectors.verticalLabel.value,
+                    horizontal: selectors.horizontalLabel.value,
+                    area: selectors.areaLabel.value
+                };
+                
+                const isUrlComplete = Object.values(urlValues).every(v => v && v !== 'undefined');
+                if (isUrlComplete) {
+                    // Small delay to allow UI to update first
+                    setTimeout(() => {
+                        fetchVariableData();
+                    }, 500);
+                }
+            }
+            
+            updateResult();
+            console.debug('🎉 Ready!');
+        });
+    </script>
+</body>
+</html>
