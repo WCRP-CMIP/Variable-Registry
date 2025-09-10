@@ -1,6 +1,6 @@
 {
-    "id": "ncfc22_tavg-u-hm-u",
-    "validation-key": "ncfc22_tavg-u-hm-u",
+    "id": "hcfc22_tavg-u-hm-u",
+    "validation-key": "hcfc22_tavg-u-hm-u",
     "ui-label": "Global Mean Mole Fraction of HCFC22",
     "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox\\_expressed\\_as\\_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane.",
     "area-label": "u",
