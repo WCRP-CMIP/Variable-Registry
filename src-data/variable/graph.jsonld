@@ -4774,7 +4774,7 @@
       "description": "Canopy covered fraction",
       "area-label": "u",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: mean where land time: mean",
+      "cell-methods": "area: time: mean",
       "dimensions": [
         "longitude",
         "latitude",
@@ -33464,7 +33464,7 @@
       "description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
       "area-label": "is",
       "cell-measures": "area: areacella",
-      "cell-methods": "depth: area: time: mean where ice_sheet (weighted by snow mass on ice_sheet)",
+      "cell-methods": "area: time: mean where ice_sheet",
       "dimensions": [
         "longitude",
         "latitude",
@@ -33490,7 +33490,7 @@
       "description": "This temperature is averaged over all the snow in the grid cell that rests on land or land ice.  When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.   Reported as \"missing in regions free of snow on land.",
       "area-label": "lnd",
       "cell-measures": "area: areacella",
-      "cell-methods": "depth: area: mean where land time: mean (weighted by snow mass on land)",
+      "cell-methods": "area: mean where land time: mean (weighted by snow mass on land)",
       "dimensions": [
         "longitude",
         "latitude",
