@@ -10879,6 +10879,30 @@
       ]
     },
     {
+      "id": "hcfc22_tavg-u-hm-u",
+      "validation-key": "hcfc22_tavg-u-hm-u",
+      "ui-label": "Global Mean Mole Fraction of HCFC22",
+      "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox\\_expressed\\_as\\_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane.",
+      "area-label": "u",
+      "cell-measures": null,
+      "cell-methods": "height: area: time: mean (with all samples weighted by the number of moles of air in the sample)",
+      "dimensions": [
+        "time"
+      ],
+      "horizontal-label": "hm",
+      "model-realm": "atmosChem",
+      "physical-parameter-name": "hcfc22global",
+      "standard-name": "mole_fraction_of_hcfc22_in_air",
+      "temporal-label": "tavg",
+      "units": "1E-12",
+      "variable-root": "hcfc22global",
+      "vertical-label": "u",
+      "type": [
+        "wcrp:variable",
+        "variable-registry"
+      ]
+    },
+    {
       "id": "hcho_tavg-al-hxy-u",
       "validation-key": "hcho_tavg-al-hxy-u",
       "ui-label": "Formaldehyde Volume Mixing Ratio",
@@ -17308,30 +17332,6 @@
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
       "variable-root": "nbp",
-      "vertical-label": "u",
-      "type": [
-        "wcrp:variable",
-        "variable-registry"
-      ]
-    },
-    {
-      "id": "ncfc22_tavg-u-hm-u",
-      "validation-key": "ncfc22_tavg-u-hm-u",
-      "ui-label": "Global Mean Mole Fraction of HCFC22",
-      "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox\\_expressed\\_as\\_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane.",
-      "area-label": "u",
-      "cell-measures": null,
-      "cell-methods": "height: area: time: mean (with all samples weighted by the number of moles of air in the sample)",
-      "dimensions": [
-        "time"
-      ],
-      "horizontal-label": "hm",
-      "model-realm": "atmosChem",
-      "physical-parameter-name": "hcfc22global",
-      "standard-name": "mole_fraction_of_hcfc22_in_air",
-      "temporal-label": "tavg",
-      "units": "1E-12",
-      "variable-root": "hcfc22global",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
