@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-10T19:24:20.580255",
+        "file_creation_date": "2025-09-10T19:56:17.788676",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: e915738ee812ad595dcb7e5e4d60decb",
+        "checksum": "md5: cd3a767ab78c0d50e5aeb5efee483f4f",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "058f29bb5d1f2e35415f953b5ce6d8f1e3e32038",
+        "last_commit": "d1630ad1f774cdf44f5053c27edd8d879c91462d",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -26855,7 +26855,7 @@
         "tsn_tavg-u-hxy-is": {
             "area-label": "is",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where ice_sheet",
+            "cell-methods": "vr:cell-method/ area: time: mean where ice_sheet (weighted by snow mass on ice_sheet)",
             "description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
             "dimensions": [
                 "longitude",
@@ -26876,7 +26876,7 @@
         "tsn_tavg-u-hxy-lnd": {
             "area-label": "lnd",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean where land time: mean (weighted by snow mass on land)",
+            "cell-methods": "vr:cell-method/ area: mean where land time: mean (weighted by snow mass on land)",
             "description": "This temperature is averaged over all the snow in the grid cell that rests on land or land ice.  When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.   Reported as \"missing in regions free of snow on land.",
             "dimensions": [
                 "longitude",
