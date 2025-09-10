@@ -9,8 +9,7 @@
     "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "depth0m"
+        "time"
     ],
     "horizontal-label": "hxy",
     "model-realm": "ocnBgchem",
