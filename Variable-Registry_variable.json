@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-10T20:02:39.845205",
+        "file_creation_date": "2025-09-10T20:10:09.935840",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 8dc55721ca8cad4dba4aaefb481ffee2",
+        "checksum": "md5: c20bc99e0889baa2e19f159a5bc0e2ac",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "f80f6bfffed3497f5be77e95bbfa57c232c928b4",
+        "last_commit": "f99bc0d783fdfbcf982ae2459d4470b7159dd42c",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -3820,7 +3820,7 @@
         "cnc_tavg-u-hxy-u": {
             "area-label": "u",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean",
+            "cell-methods": "vr:cell-method/ mean where land time: mean",
             "description": "Canopy covered fraction",
             "dimensions": [
                 "longitude",
@@ -4870,8 +4870,7 @@
             "dimensions": [
                 "longitude",
                 "latitude",
-                "time",
-                "depth0m"
+                "time"
             ],
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/ocnBgchem",
@@ -23602,8 +23601,7 @@
             "dimensions": [
                 "longitude",
                 "latitude",
-                "time",
-                "depth0m"
+                "time"
             ],
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/ocnBgchem",
@@ -27418,8 +27416,7 @@
             "dimensions": [
                 "longitude",
                 "latitude",
-                "time",
-                "depth0m"
+                "time"
             ],
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/ocean",
@@ -28117,8 +28114,7 @@
             "dimensions": [
                 "longitude",
                 "latitude",
-                "time",
-                "depth0m"
+                "time"
             ],
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/ocean",

@@ -4774,7 +4774,7 @@
       "description": "Canopy covered fraction",
       "area-label": "u",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean",
+      "cell-methods": "area: mean where land time: mean",
       "dimensions": [
         "longitude",
         "latitude",
@@ -6074,8 +6074,7 @@
       "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "depth0m"
+        "time"
       ],
       "horizontal-label": "hxy",
       "model-realm": "ocnBgchem",
@@ -29381,8 +29380,7 @@
       "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "depth0m"
+        "time"
       ],
       "horizontal-label": "hxy",
       "model-realm": "ocnBgchem",
@@ -34159,8 +34157,7 @@
       "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "depth0m"
+        "time"
       ],
       "horizontal-label": "hxy",
       "model-realm": "ocean",
@@ -35034,8 +35031,7 @@
       "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "depth0m"
+        "time"
       ],
       "horizontal-label": "hxy",
       "model-realm": "ocean",
