@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T12:19:16.926006",
+        "file_creation_date": "2025-09-11T12:23:54.132021",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: ad07fd4afb13432a78cef40b75f90fc0",
+        "checksum": "md5: 8d23181a5b7cddcb9249729f1f38e063",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "05cb21e199b8ac5a8f203dd74f5da31d8b80852d",
+        "last_commit": "cacade052f9e8e43cff414f7cadbe5cec9409147",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -2624,7 +2624,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that convection occurs in the grid cell .",
+            "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20561,7 +20561,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that shallow convection occurs in the grid cell.",
+            "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -26713,7 +26713,7 @@
         "ts_tavg-u-hxy-sn": {
             "area-label": "sn",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where snow (on land)",
+            "cell-methods": "vr:cell-method/ mean where land time: mean (weighted by snow area)",
             "description": "Snow Surface Temperature",
             "dimensions": [
                 "longitude",
