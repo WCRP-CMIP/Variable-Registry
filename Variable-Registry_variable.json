@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T10:27:27.876631",
+        "file_creation_date": "2025-09-11T10:32:37.205556",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 67e8278f0a591d95fc324eaa4a3bcc2b",
+        "checksum": "md5: a20512280fbc940189e85132ec9e0b31",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "5e74415c6ccb8f1a7a8bb522b06f8f5f3d521111",
+        "last_commit": "c313be6a84834e3e63b9ba6c6122af50ae98c5cb",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -271,48 +271,6 @@
             "validation-key": "airmass_tavg-al-hxy-u",
             "variable-root": "airmass",
             "vertical-label": "al"
-        },
-        "albc_tavg-u-hxy-veg": {
-            "area-label": "veg",
-            "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean where land time: mean",
-            "description": "Canopy Albedo",
-            "dimensions": [
-                "longitude",
-                "latitude",
-                "time"
-            ],
-            "horizontal-label": "hxy",
-            "model-realm": "universal:realm/land",
-            "physical-parameter-name": "albc",
-            "standard-name": "canopy_albedo",
-            "temporal-label": "tavg",
-            "ui-label": "Canopy Albedo",
-            "units": "1",
-            "validation-key": "albc_tavg-u-hxy-veg",
-            "variable-root": "albc",
-            "vertical-label": "u"
-        },
-        "albisccp_tavg-u-hxy-cl": {
-            "area-label": "cl",
-            "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where cloud",
-            "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
-            "dimensions": [
-                "longitude",
-                "latitude",
-                "time"
-            ],
-            "horizontal-label": "hxy",
-            "model-realm": "universal:realm/atmos",
-            "physical-parameter-name": "albisccp",
-            "standard-name": "cloud_albedo",
-            "temporal-label": "tavg",
-            "ui-label": "ISCCP Mean Cloud Albedo",
-            "units": "1",
-            "validation-key": "albisccp_tavg-u-hxy-cl",
-            "variable-root": "albisccp",
-            "vertical-label": "u"
         },
         "aoanh_tavg-al-hxy-u": {
             "area-label": "u",
