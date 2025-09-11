@@ -15,6 +15,24 @@ def main():
     """
     REPO_ROOT = Path(__file__).parents[1]
 
+    variable_root_lib = {}
+    for f in (REPO_ROOT / "src-data" / "variable-root").glob("*.json"):
+        with open(f) as fh:
+            raw = json.load(fh)
+
+        variable_root_lib[raw["id"]] = raw
+
+    cell_methods_lib = {}
+    for f in (REPO_ROOT / "src-data" / "cell-method").glob("*.json"):
+        with open(f) as fh:
+            raw = json.load(fh)
+
+        # if raw["description"] in cell_methods:
+        #     msg = f"{raw=}\n" f"{cell_methods[raw['description']]}"
+        #     raise AssertionError(msg)
+
+        cell_methods_lib[raw["description"]] = raw
+
     DR_RELEASE_EXPORT = (
         REPO_ROOT
         / ".."
@@ -97,6 +115,19 @@ def main():
             vertical_label = "u"
             horizontal_label = "u"
             area_label = "u"
+
+        # # TODO: check and link cell methods
+        # cell_methods_lib[cell_methods]
+
+        # TODO: check against variable root
+        if variable_root.lower() not in variable_root_lib:
+            raise KeyError(variable_root.lower())
+
+        # TODO: check against air label
+        # TODO: check against dimensions
+        # TODO: check against horizontal label
+        # TODO: check against temporal label
+        # TODO: check against vertical label
 
         out_info = {
             "id": branded_variable,
