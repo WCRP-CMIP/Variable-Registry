@@ -5,12 +5,12 @@
     "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
     "area-label": "u",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: time: mean (monthly mean fixed annual cycle)",
+    "cell-methods": "area: mean time: mean within years time: mean over years",
     "dimensions": [
         "longitude",
         "latitude",
         "alevel",
-        "timefxc"
+        "time2"
     ],
     "horizontal-label": "hxy",
     "model-realm": "atmosChem",
