@@ -14,7 +14,7 @@
     "horizontal-label": "hxy",
     "model-realm": "ocnBgchem",
     "physical-parameter-name": "exparagob",
-    "standard-name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water",
+    "standard-name": "sinking_mole_flux_at_sea_floor_of_aragonite_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "units": "mol m-2 s-1",
     "variable-root": "exparagob",

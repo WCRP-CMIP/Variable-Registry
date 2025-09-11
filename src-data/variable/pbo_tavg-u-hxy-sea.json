@@ -9,8 +9,7 @@
     "dimensions": [
         "longitude",
         "latitude",
-        "time",
-        "seafloor"
+        "time"
     ],
     "horizontal-label": "hxy",
     "model-realm": "ocean",

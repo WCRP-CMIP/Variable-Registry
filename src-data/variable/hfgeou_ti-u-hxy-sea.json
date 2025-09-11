@@ -8,8 +8,7 @@
     "cell-methods": "area: mean where sea",
     "dimensions": [
         "longitude",
-        "latitude",
-        "seafloor"
+        "latitude"
     ],
     "horizontal-label": "hxy",
     "model-realm": "ocean",
