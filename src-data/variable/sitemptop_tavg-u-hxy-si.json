@@ -14,7 +14,7 @@
     "horizontal-label": "hxy",
     "model-realm": "seaIce",
     "physical-parameter-name": "sitemptop",
-    "standard-name": "sea_ice_surface_temperature",
+    "standard-name": "surfaace_temperature",
     "temporal-label": "tavg",
     "units": "K",
     "variable-root": "sitemptop",
