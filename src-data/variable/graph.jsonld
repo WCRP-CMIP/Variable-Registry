@@ -391,7 +391,7 @@
       "description": "Time-means are weighted by the ISCCP Total Cloud Fraction - see cfmip.org/tools-and-data/cosp. Values will be missing where there are no clouds or no sunlight.",
       "area-label": "cl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where cloud (weighted by the ISCCP total cloud area)",
+      "cell-methods": "area: time: mean where cloud",
       "dimensions": [
         "longitude",
         "latitude",
@@ -21938,7 +21938,7 @@
       "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
       "area-label": "ccl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where convective_cloud",
+      "cell-methods": "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -21964,7 +21964,7 @@
       "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
       "area-label": "ccl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where convective_cloud",
+      "cell-methods": "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -22336,7 +22336,7 @@
       "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
       "area-label": "scl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where stratiform_cloud",
+      "cell-methods": "area: time: mean where stratiform_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",

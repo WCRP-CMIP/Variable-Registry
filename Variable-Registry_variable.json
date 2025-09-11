@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T08:48:33.172767",
+        "file_creation_date": "2025-09-11T10:23:49.028859",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: f3cfe76a5ca2e46814fcf9e1a1011e1d",
+        "checksum": "md5: 8c2979acd8c2bac5bcc5bc6212ab7df5",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d47ddcf3555a0a0bb82ede1ae33b0e1720e63e6a",
+        "last_commit": "b4c568769b68f3f8a38938a2736fb9a35473dafe",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -296,8 +296,8 @@
         "albisccp_tavg-u-hxy-cl": {
             "area-label": "cl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where cloud (weighted by the ISCCP total cloud area)",
-            "description": "Time-means are weighted by the ISCCP Total Cloud Fraction - see cfmip.org/tools-and-data/cosp. Values will be missing where there are no clouds or no sunlight.",
+            "cell-methods": "vr:cell-method/ time: mean where cloud",
+            "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -17630,7 +17630,7 @@
         "reffcclwtop_tavg-u-hxy-ccl": {
             "area-label": "ccl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where convective_cloud",
+            "cell-methods": "vr:cell-method/ time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
             "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
             "dimensions": [
                 "longitude",
@@ -17651,7 +17651,7 @@
         "reffccwctop_tavg-u-hxy-ccl": {
             "area-label": "ccl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where convective_cloud",
+            "cell-methods": "vr:cell-method/ time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
             "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
             "dimensions": [
                 "longitude",
@@ -17949,7 +17949,7 @@
         "reffsclwtop_tavg-u-hxy-scl": {
             "area-label": "scl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where stratiform_cloud",
+            "cell-methods": "vr:cell-method/ time: mean where stratiform_cloud (weighted by area of upper-most cloud layer)",
             "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
             "dimensions": [
                 "longitude",
