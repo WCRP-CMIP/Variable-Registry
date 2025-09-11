@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T12:23:54.132021",
+        "file_creation_date": "2025-09-11T12:28:15.878893",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 8d23181a5b7cddcb9249729f1f38e063",
+        "checksum": "md5: 56123a01d426359e111a3003c2569fec",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "cacade052f9e8e43cff414f7cadbe5cec9409147",
+        "last_commit": "a27f94dc627ce12de7bbc382a6e95a38a7e00474",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -2624,7 +2624,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
+            "description": "Fraction of time that convection occurs in the grid cell .",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -6443,8 +6443,8 @@
         "esn_tavg-u-hxy-sn": {
             "area-label": "sn",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean where land time: mean",
-            "description": "liquid\\_water\\_evaporation\\_flux\\_from\\_surface\\_snow",
+            "cell-methods": "vr:cell-method/ mean where snow (on land only) time: mean",
+            "description": "Evapotranspiration flux due to conversion of liquid or solid water into vapor at the surface where there is snow on land",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20561,7 +20561,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
+            "description": "Fraction of time that shallow convection occurs in the grid cell.",
             "dimensions": [
                 "longitude",
                 "latitude",
