@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T12:36:53.934112",
+        "file_creation_date": "2025-09-11T17:25:37.608660",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 2f3c422fc9bd5cde07df3ad5cf839081",
+        "checksum": "md5: e0865d901fdd97ec540e93ea41e5e793",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "bda681e587becc882aae644dc808bcf91bddd996",
+        "last_commit": "c579be104875bc9ec7cbd066df6bb94e332b6bcb",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -461,7 +461,7 @@
             "ui-label": "The Cell Area of the Ice Sheet Model",
             "units": "m2",
             "validation-key": "areacell_tavg-u-hxy-u",
-            "variable-root": "modelCellAreai",
+            "variable-root": "modelcellareai",
             "vertical-label": "u"
         },
         "areacell_ti-u-hxy-u": {
@@ -523,7 +523,7 @@
             "ui-label": "Bare Soil Percentage Area Coverage",
             "units": "%",
             "validation-key": "baresoilFrac_tavg-u-hxy-u",
-            "variable-root": "baresoilFrac",
+            "variable-root": "baresoilfrac",
             "vertical-label": "u"
         },
         "basin_ti-u-hxy-u": {
@@ -755,7 +755,7 @@
             "ui-label": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
             "units": "%",
             "validation-key": "burntFractionAll_tavg-u-hxy-u",
-            "variable-root": "burntFractionAll",
+            "variable-root": "burntfractionall",
             "vertical-label": "u"
         },
         "c13Land_tavg-u-hxy-lnd": {
@@ -776,7 +776,7 @@
             "ui-label": "Mass of 13C in All Terrestrial Carbon Pools",
             "units": "kg m-2",
             "validation-key": "c13Land_tavg-u-hxy-lnd",
-            "variable-root": "c13Land",
+            "variable-root": "c13land",
             "vertical-label": "u"
         },
         "c13Litter_tavg-u-hxy-lnd": {
@@ -797,7 +797,7 @@
             "ui-label": "Mass of 13C in Litter Pool",
             "units": "kg m-2",
             "validation-key": "c13Litter_tavg-u-hxy-lnd",
-            "variable-root": "c13Litter",
+            "variable-root": "c13litter",
             "vertical-label": "u"
         },
         "c13Soil_tavg-u-hxy-lnd": {
@@ -818,7 +818,7 @@
             "ui-label": "Mass of 13C in Soil Pool",
             "units": "kg m-2",
             "validation-key": "c13Soil_tavg-u-hxy-lnd",
-            "variable-root": "c13Soil",
+            "variable-root": "c13soil",
             "vertical-label": "u"
         },
         "c13Veg_tavg-u-hxy-lnd": {
@@ -839,7 +839,7 @@
             "ui-label": "Mass of 13C in Vegetation",
             "units": "kg m-2",
             "validation-key": "c13Veg_tavg-u-hxy-lnd",
-            "variable-root": "c13Veg",
+            "variable-root": "c13veg",
             "vertical-label": "u"
         },
         "c14Land_tavg-u-hxy-lnd": {
@@ -860,7 +860,7 @@
             "ui-label": "Mass of 14C in All Terrestrial Carbon Pools",
             "units": "kg m-2",
             "validation-key": "c14Land_tavg-u-hxy-lnd",
-            "variable-root": "c14Land",
+            "variable-root": "c14land",
             "vertical-label": "u"
         },
         "c14Litter_tavg-u-hxy-lnd": {
@@ -881,7 +881,7 @@
             "ui-label": "Mass of 14C in Litter Pool",
             "units": "kg m-2",
             "validation-key": "c14Litter_tavg-u-hxy-lnd",
-            "variable-root": "c14Litter",
+            "variable-root": "c14litter",
             "vertical-label": "u"
         },
         "c14Soil_tavg-u-hxy-lnd": {
@@ -902,7 +902,7 @@
             "ui-label": "Mass of 14C in Soil Pool",
             "units": "kg m-2",
             "validation-key": "c14Soil_tavg-u-hxy-lnd",
-            "variable-root": "c14Soil",
+            "variable-root": "c14soil",
             "vertical-label": "u"
         },
         "c14Veg_tavg-u-hxy-lnd": {
@@ -923,7 +923,7 @@
             "ui-label": "Mass of 14C in Vegetation",
             "units": "kg m-2",
             "validation-key": "c14Veg_tavg-u-hxy-lnd",
-            "variable-root": "c14Veg",
+            "variable-root": "c14veg",
             "vertical-label": "u"
         },
         "c2h4_tavg-al-hxy-u": {
@@ -1011,7 +1011,7 @@
             "ui-label": "Percentage Cover by C3 Plant Functional Type",
             "units": "%",
             "validation-key": "c3PftFrac_tavg-u-hxy-u",
-            "variable-root": "c3PftFrac",
+            "variable-root": "c3pftfrac",
             "vertical-label": "u"
         },
         "c3h6_tavg-al-hxy-u": {
@@ -1077,7 +1077,7 @@
             "ui-label": "Percentage Cover by C4 Plant Functional Type",
             "units": "%",
             "validation-key": "c4PftFrac_tavg-u-hxy-u",
-            "variable-root": "c4PftFrac",
+            "variable-root": "c4pftfrac",
             "vertical-label": "u"
         },
         "c4h10_tavg-al-hxy-u": {
@@ -1120,7 +1120,7 @@
             "ui-label": "Carbon Mass in Geologic Storage",
             "units": "kg m-2",
             "validation-key": "cGeologicStorage_tavg-u-hxy-u",
-            "variable-root": "cGeologicStorage",
+            "variable-root": "cgeologicstorage",
             "vertical-label": "u"
         },
         "cLand_tavg-u-hxy-lnd": {
@@ -1141,7 +1141,7 @@
             "ui-label": "Total Carbon in All Terrestrial Carbon Pools",
             "units": "kg m-2",
             "validation-key": "cLand_tavg-u-hxy-lnd",
-            "variable-root": "cLand",
+            "variable-root": "cland",
             "vertical-label": "u"
         },
         "cLeaf_tavg-u-hxy-lnd": {
@@ -1162,7 +1162,7 @@
             "ui-label": "Carbon Mass in Leaves",
             "units": "kg m-2",
             "validation-key": "cLeaf_tavg-u-hxy-lnd",
-            "variable-root": "cLeaf",
+            "variable-root": "cleaf",
             "vertical-label": "u"
         },
         "cLitterCwd_tavg-u-hxy-lnd": {
@@ -1183,7 +1183,7 @@
             "ui-label": "Carbon Mass in Coarse Woody Debris",
             "units": "kg m-2",
             "validation-key": "cLitterCwd_tavg-u-hxy-lnd",
-            "variable-root": "cLitterCwd",
+            "variable-root": "clittercwd",
             "vertical-label": "u"
         },
         "cLitterLut_tpt-u-hxy-multi": {
@@ -1205,7 +1205,7 @@
             "ui-label": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
             "units": "kg m-2",
             "validation-key": "cLitterLut_tpt-u-hxy-multi",
-            "variable-root": "cLitterLut",
+            "variable-root": "clitterlut",
             "vertical-label": "u"
         },
         "cLitterSubSurf_tavg-u-hxy-lnd": {
@@ -1226,7 +1226,7 @@
             "ui-label": "Carbon Mass in Below-Ground Litter",
             "units": "kg m-2",
             "validation-key": "cLitterSubSurf_tavg-u-hxy-lnd",
-            "variable-root": "cLitterSubSurf",
+            "variable-root": "clittersubsurf",
             "vertical-label": "u"
         },
         "cLitterSurf_tavg-u-hxy-lnd": {
@@ -1247,7 +1247,7 @@
             "ui-label": "Carbon Mass in Above-Ground Litter",
             "units": "kg m-2",
             "validation-key": "cLitterSurf_tavg-u-hxy-lnd",
-            "variable-root": "cLitterSurf",
+            "variable-root": "clittersurf",
             "vertical-label": "u"
         },
         "cLitter_tavg-u-hxy-lnd": {
@@ -1268,7 +1268,7 @@
             "ui-label": "Carbon Mass in Litter Pool",
             "units": "kg m-2",
             "validation-key": "cLitter_tavg-u-hxy-lnd",
-            "variable-root": "cLitter",
+            "variable-root": "clitter",
             "vertical-label": "u"
         },
         "cOther_tavg-u-hxy-lnd": {
@@ -1289,7 +1289,7 @@
             "ui-label": "Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",
             "units": "kg m-2",
             "validation-key": "cOther_tavg-u-hxy-lnd",
-            "variable-root": "cOther",
+            "variable-root": "cother",
             "vertical-label": "u"
         },
         "cProductLut_tpt-u-hxy-multi": {
@@ -1311,7 +1311,7 @@
             "ui-label": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
             "units": "kg m-2",
             "validation-key": "cProductLut_tpt-u-hxy-multi",
-            "variable-root": "cProductLut",
+            "variable-root": "cproductlut",
             "vertical-label": "u"
         },
         "cProduct_tavg-u-hxy-lnd": {
@@ -1332,7 +1332,7 @@
             "ui-label": "Carbon Mass in Products of Land-Use Change",
             "units": "kg m-2",
             "validation-key": "cProduct_tavg-u-hxy-lnd",
-            "variable-root": "cProduct",
+            "variable-root": "cproduct",
             "vertical-label": "u"
         },
         "cRoot_tavg-u-hxy-lnd": {
@@ -1353,7 +1353,7 @@
             "ui-label": "Carbon Mass in Roots",
             "units": "kg m-2",
             "validation-key": "cRoot_tavg-u-hxy-lnd",
-            "variable-root": "cRoot",
+            "variable-root": "croot",
             "vertical-label": "u"
         },
         "cSoilLut_tpt-u-hxy-multi": {
@@ -1375,7 +1375,7 @@
             "ui-label": "Carbon in Soil Pool on Land-Use Tiles",
             "units": "kg m-2",
             "validation-key": "cSoilLut_tpt-u-hxy-multi",
-            "variable-root": "cSoilLut",
+            "variable-root": "csoillut",
             "vertical-label": "u"
         },
         "cSoilPools_tavg-u-hxy-lnd": {
@@ -1397,7 +1397,7 @@
             "ui-label": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
             "units": "kg m-2",
             "validation-key": "cSoilPools_tavg-u-hxy-lnd",
-            "variable-root": "cSoilPools",
+            "variable-root": "csoilpools",
             "vertical-label": "u"
         },
         "cSoil_tavg-d100cm-hxy-lnd": {
@@ -1419,7 +1419,7 @@
             "ui-label": "Carbon Mass in Soil Pool Above 1m Depth",
             "units": "kg m-2",
             "validation-key": "cSoil_tavg-d100cm-hxy-lnd",
-            "variable-root": "cSoilAbove1m",
+            "variable-root": "csoilabove1m",
             "vertical-label": "d100cm"
         },
         "cSoil_tavg-sl-hxy-lnd": {
@@ -1441,7 +1441,7 @@
             "ui-label": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
             "units": "kg m-2",
             "validation-key": "cSoil_tavg-sl-hxy-lnd",
-            "variable-root": "cSoilLevels",
+            "variable-root": "csoillevels",
             "vertical-label": "sl"
         },
         "cSoil_tavg-u-hxy-lnd": {
@@ -1462,7 +1462,7 @@
             "ui-label": "Carbon Mass in Model Soil Pool",
             "units": "kg m-2",
             "validation-key": "cSoil_tavg-u-hxy-lnd",
-            "variable-root": "cSoil",
+            "variable-root": "csoil",
             "vertical-label": "u"
         },
         "cStem_tavg-u-hxy-lnd": {
@@ -1483,7 +1483,7 @@
             "ui-label": "Carbon Mass in Stem",
             "units": "kg m-2",
             "validation-key": "cStem_tavg-u-hxy-lnd",
-            "variable-root": "cStem",
+            "variable-root": "cstem",
             "vertical-label": "u"
         },
         "cVegLut_tpt-u-hxy-multi": {
@@ -1505,7 +1505,7 @@
             "ui-label": "Carbon in Vegetation on Land-Use Tiles",
             "units": "kg m-2",
             "validation-key": "cVegLut_tpt-u-hxy-multi",
-            "variable-root": "cVegLut",
+            "variable-root": "cveglut",
             "vertical-label": "u"
         },
         "cVeg_tavg-u-hxy-lnd": {
@@ -1526,7 +1526,7 @@
             "ui-label": "Carbon Mass in Vegetation",
             "units": "kg m-2",
             "validation-key": "cVeg_tavg-u-hxy-lnd",
-            "variable-root": "cVeg",
+            "variable-root": "cveg",
             "vertical-label": "u"
         },
         "cVeg_tavg-u-hxy-ng": {
@@ -1547,7 +1547,7 @@
             "ui-label": "Carbon Mass in Vegetation on Grass Tiles",
             "units": "kg m-2",
             "validation-key": "cVeg_tavg-u-hxy-ng",
-            "variable-root": "cVegGrass",
+            "variable-root": "cveggrass",
             "vertical-label": "u"
         },
         "cVeg_tavg-u-hxy-shb": {
@@ -1568,7 +1568,7 @@
             "ui-label": "Carbon Mass in Vegetation on Shrub Tiles",
             "units": "kg m-2",
             "validation-key": "cVeg_tavg-u-hxy-shb",
-            "variable-root": "cVegShrub",
+            "variable-root": "cvegshrub",
             "vertical-label": "u"
         },
         "cVeg_tavg-u-hxy-tree": {
@@ -1589,7 +1589,7 @@
             "ui-label": "Carbon Mass in Vegetation on Tree Tiles",
             "units": "kg m-2",
             "validation-key": "cVeg_tavg-u-hxy-tree",
-            "variable-root": "cVegTree",
+            "variable-root": "cvegtree",
             "vertical-label": "u"
         },
         "cWood_tavg-u-hxy-lnd": {
@@ -1610,7 +1610,7 @@
             "ui-label": "Carbon Mass in Wood",
             "units": "kg m-2",
             "validation-key": "cWood_tavg-u-hxy-lnd",
-            "variable-root": "cWood",
+            "variable-root": "cwood",
             "vertical-label": "u"
         },
         "calc_tavg-d0m-hxy-sea": {
@@ -1866,7 +1866,7 @@
             "ui-label": "CloudSat Radar Reflectivity CFAD",
             "units": "1",
             "validation-key": "cfadDbze94_tavg-h40-hxy-air",
-            "variable-root": "cfadDbze94",
+            "variable-root": "cfaddbze94",
             "vertical-label": "h40"
         },
         "cfadLidarsr532_tavg-h40-hxy-air": {
@@ -1889,7 +1889,7 @@
             "ui-label": "CALIPSO Scattering Ratio CFAD",
             "units": "1",
             "validation-key": "cfadLidarsr532_tavg-h40-hxy-air",
-            "variable-root": "cfadLidarsr532",
+            "variable-root": "cfadlidarsr532",
             "vertical-label": "h40"
         },
         "cfc113_tavg-u-hm-u": {
@@ -3262,7 +3262,7 @@
             "ui-label": "MODIS Ice Topped Cloud Area Fraction",
             "units": "%",
             "validation-key": "clmodisiceReff_tavg-u-hxy-u",
-            "variable-root": "clmodisiceReff",
+            "variable-root": "clmodisicereff",
             "vertical-label": "u"
         },
         "clmodisice_tavg-p7c-hxy-air": {
@@ -3308,7 +3308,7 @@
             "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
             "units": "%",
             "validation-key": "clmodisliquidReff_tavg-u-hxy-u",
-            "variable-root": "clmodisliquidReff",
+            "variable-root": "clmodisliquidreff",
             "vertical-label": "u"
         },
         "clmodisliquid_tavg-p7c-hxy-air": {
@@ -3857,7 +3857,7 @@
             "ui-label": "3D-Field of Transported CO2",
             "units": "kg kg-1",
             "validation-key": "co23D_tavg-al-hxy-u",
-            "variable-root": "co23D",
+            "variable-root": "co23d",
             "vertical-label": "al"
         },
         "co2_tavg-al-hxy-u": {
@@ -4192,7 +4192,7 @@
             "ui-label": "Percentage Cover by C3 Crops",
             "units": "%",
             "validation-key": "cropFracC3_tavg-u-hxy-u",
-            "variable-root": "cropFracC3",
+            "variable-root": "cropfracc3",
             "vertical-label": "u"
         },
         "cropFracC4_tavg-u-hxy-u": {
@@ -4214,7 +4214,7 @@
             "ui-label": "Percentage Cover by C4 Crops",
             "units": "%",
             "validation-key": "cropFracC4_tavg-u-hxy-u",
-            "variable-root": "cropFracC4",
+            "variable-root": "cropfracc4",
             "vertical-label": "u"
         },
         "cropFrac_tavg-u-hxy-u": {
@@ -4236,7 +4236,7 @@
             "ui-label": "Percentage Crop Cover",
             "units": "%",
             "validation-key": "cropFrac_tavg-u-hxy-u",
-            "variable-root": "cropFrac",
+            "variable-root": "cropfrac",
             "vertical-label": "u"
         },
         "dcw_tavg-u-hxy-lnd": {
@@ -7008,7 +7008,7 @@
             "ui-label": "Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fAnthDisturb_tavg-u-hxy-lnd",
-            "variable-root": "fAnthDisturb",
+            "variable-root": "fanthdisturb",
             "vertical-label": "u"
         },
         "fBNF_tavg-u-hxy-lnd": {
@@ -7029,7 +7029,7 @@
             "ui-label": "Biological Nitrogen Fixation",
             "units": "kg m-2 s-1",
             "validation-key": "fBNF_tavg-u-hxy-lnd",
-            "variable-root": "fBNF",
+            "variable-root": "fbnf",
             "vertical-label": "u"
         },
         "fCLandToOcean_tavg-u-hxy-lnd": {
@@ -7050,7 +7050,7 @@
             "ui-label": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
             "units": "kg m-2 s-1",
             "validation-key": "fCLandToOcean_tavg-u-hxy-lnd",
-            "variable-root": "fCLandToOcean",
+            "variable-root": "fclandtoocean",
             "vertical-label": "u"
         },
         "fDeforestToAtmos_tavg-u-hxy-lnd": {
@@ -7071,7 +7071,7 @@
             "ui-label": "Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fDeforestToAtmos_tavg-u-hxy-lnd",
-            "variable-root": "fDeforestToAtmos",
+            "variable-root": "fdeforesttoatmos",
             "vertical-label": "u"
         },
         "fDeforestToProduct_tavg-u-hxy-lnd": {
@@ -7092,7 +7092,7 @@
             "ui-label": "Deforested Biomass That Goes into Product Pool as a Result of Anthropogenic Land-Use Change",
             "units": "kg m-2 s-1",
             "validation-key": "fDeforestToProduct_tavg-u-hxy-lnd",
-            "variable-root": "fDeforestToProduct",
+            "variable-root": "fdeforesttoproduct",
             "vertical-label": "u"
         },
         "fFireAll_tavg-u-hxy-lnd": {
@@ -7113,7 +7113,7 @@
             "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fFireAll_tavg-u-hxy-lnd",
-            "variable-root": "fFireAll",
+            "variable-root": "ffireall",
             "vertical-label": "u"
         },
         "fFireNat_tavg-u-hxy-lnd": {
@@ -7134,7 +7134,7 @@
             "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fFireNat_tavg-u-hxy-lnd",
-            "variable-root": "fFireNat",
+            "variable-root": "ffirenat",
             "vertical-label": "u"
         },
         "fFire_tavg-u-hxy-lnd": {
@@ -7155,7 +7155,7 @@
             "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fFire_tavg-u-hxy-lnd",
-            "variable-root": "fFire",
+            "variable-root": "ffire",
             "vertical-label": "u"
         },
         "fHarvestToAtmos_tavg-u-hxy-lnd": {
@@ -7176,7 +7176,7 @@
             "ui-label": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fHarvestToAtmos_tavg-u-hxy-lnd",
-            "variable-root": "fHarvestToAtmos",
+            "variable-root": "fharvesttoatmos",
             "vertical-label": "u"
         },
         "fHarvestToGeologicStorage_tavg-u-hxy-lnd": {
@@ -7197,7 +7197,7 @@
             "ui-label": "Harvested Biomass That Goes into Geological Storage",
             "units": "kg m-2 s-1",
             "validation-key": "fHarvestToGeologicStorage_tavg-u-hxy-lnd",
-            "variable-root": "fHarvestToGeologicStorage",
+            "variable-root": "fharvesttogeologicstorage",
             "vertical-label": "u"
         },
         "fHarvestToProduct_tavg-u-hxy-lnd": {
@@ -7218,7 +7218,7 @@
             "ui-label": "Harvested Biomass That Goes into Product Pool",
             "units": "kg m-2 s-1",
             "validation-key": "fHarvestToProduct_tavg-u-hxy-lnd",
-            "variable-root": "fHarvestToProduct",
+            "variable-root": "fharvesttoproduct",
             "vertical-label": "u"
         },
         "fLitterFire_tavg-u-hxy-lnd": {
@@ -7239,7 +7239,7 @@
             "ui-label": "Carbon Mass Flux from Litter, CWD or any non-Living Pool into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fLitterFire_tavg-u-hxy-lnd",
-            "variable-root": "fLitterFire",
+            "variable-root": "flitterfire",
             "vertical-label": "u"
         },
         "fLitterSoil_tavg-u-hxy-lnd": {
@@ -7260,7 +7260,7 @@
             "ui-label": "Total Carbon Mass Flux from Litter to Soil",
             "units": "kg m-2 s-1",
             "validation-key": "fLitterSoil_tavg-u-hxy-lnd",
-            "variable-root": "fLitterSoil",
+            "variable-root": "flittersoil",
             "vertical-label": "u"
         },
         "fLuc_tavg-u-hxy-lnd": {
@@ -7281,7 +7281,7 @@
             "ui-label": "Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fLuc_tavg-u-hxy-lnd",
-            "variable-root": "fLuc",
+            "variable-root": "fluc",
             "vertical-label": "u"
         },
         "fLulccAtmLut_tavg-u-hxy-multi": {
@@ -7303,7 +7303,7 @@
             "ui-label": "Carbon Transferred Directly to Atmosphere Due to any Land-Use or Land-Cover Change Activities [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fLulccAtmLut_tavg-u-hxy-multi",
-            "variable-root": "fLulccAtmLut",
+            "variable-root": "flulccatmlut",
             "vertical-label": "u"
         },
         "fN2O_tavg-u-hxy-lnd": {
@@ -7324,7 +7324,7 @@
             "ui-label": "Total Land N2O Flux",
             "units": "kg m-2 s-1",
             "validation-key": "fN2O_tavg-u-hxy-lnd",
-            "variable-root": "fN2O",
+            "variable-root": "fn2o",
             "vertical-label": "u"
         },
         "fNAnthDisturb_tavg-u-hxy-lnd": {
@@ -7345,7 +7345,7 @@
             "ui-label": "Nitrogen Mass Flux out of Land Due to any Human Activity",
             "units": "kg m-2 s-1",
             "validation-key": "fNAnthDisturb_tavg-u-hxy-lnd",
-            "variable-root": "fNAnthDisturb",
+            "variable-root": "fnanthdisturb",
             "vertical-label": "u"
         },
         "fNLandToOcean_tavg-u-hxy-lnd": {
@@ -7366,7 +7366,7 @@
             "ui-label": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
             "units": "kg m-2 s-1",
             "validation-key": "fNLandToOcean_tavg-u-hxy-lnd",
-            "variable-root": "fNLandToOcean",
+            "variable-root": "fnlandtoocean",
             "vertical-label": "u"
         },
         "fNLitterSoil_tavg-u-hxy-lnd": {
@@ -7387,7 +7387,7 @@
             "ui-label": "Total Nitrogen Mass Flux from Litter to Soil",
             "units": "kg m-2 s-1",
             "validation-key": "fNLitterSoil_tavg-u-hxy-lnd",
-            "variable-root": "fNLitterSoil",
+            "variable-root": "fnlittersoil",
             "vertical-label": "u"
         },
         "fNOx_tavg-u-hxy-lnd": {
@@ -7408,7 +7408,7 @@
             "ui-label": "Total Land NOx Flux",
             "units": "kg m-2 s-1",
             "validation-key": "fNOx_tavg-u-hxy-lnd",
-            "variable-root": "fNOx",
+            "variable-root": "fnox",
             "vertical-label": "u"
         },
         "fNProduct_tavg-u-hxy-lnd": {
@@ -7429,7 +7429,7 @@
             "ui-label": "Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change",
             "units": "kg m-2 s-1",
             "validation-key": "fNProduct_tavg-u-hxy-lnd",
-            "variable-root": "fNProduct",
+            "variable-root": "fnproduct",
             "vertical-label": "u"
         },
         "fNVegLitter_tavg-u-hxy-lnd": {
@@ -7450,7 +7450,7 @@
             "ui-label": "Total Nitrogen Mass Flux from Vegetation to Litter",
             "units": "kg m-2 s-1",
             "validation-key": "fNVegLitter_tavg-u-hxy-lnd",
-            "variable-root": "fNVegLitter",
+            "variable-root": "fnveglitter",
             "vertical-label": "u"
         },
         "fNVegSoil_tavg-u-hxy-lnd": {
@@ -7471,7 +7471,7 @@
             "ui-label": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
             "units": "kg m-2 s-1",
             "validation-key": "fNVegSoil_tavg-u-hxy-lnd",
-            "variable-root": "fNVegSoil",
+            "variable-root": "fnvegsoil",
             "vertical-label": "u"
         },
         "fNdep_tavg-u-hxy-lnd": {
@@ -7492,7 +7492,7 @@
             "ui-label": "Dry and Wet Deposition of Reactive Nitrogen onto Land",
             "units": "kg m-2 s-1",
             "validation-key": "fNdep_tavg-u-hxy-lnd",
-            "variable-root": "fNdep",
+            "variable-root": "fndep",
             "vertical-label": "u"
         },
         "fNfert_tavg-u-hxy-lnd": {
@@ -7513,7 +7513,7 @@
             "ui-label": "Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure)",
             "units": "kg m-2 s-1",
             "validation-key": "fNfert_tavg-u-hxy-lnd",
-            "variable-root": "fNfert",
+            "variable-root": "fnfert",
             "vertical-label": "u"
         },
         "fNgasFire_tavg-u-hxy-lnd": {
@@ -7534,7 +7534,7 @@
             "ui-label": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from Fire",
             "units": "kg m-2 s-1",
             "validation-key": "fNgasFire_tavg-u-hxy-lnd",
-            "variable-root": "fNgasFire",
+            "variable-root": "fngasfire",
             "vertical-label": "u"
         },
         "fNgasNonFire_tavg-u-hxy-lnd": {
@@ -7555,7 +7555,7 @@
             "ui-label": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from All Processes Except Fire",
             "units": "kg m-2 s-1",
             "validation-key": "fNgasNonFire_tavg-u-hxy-lnd",
-            "variable-root": "fNgasNonFire",
+            "variable-root": "fngasnonfire",
             "vertical-label": "u"
         },
         "fNgas_tavg-u-hxy-lnd": {
@@ -7576,7 +7576,7 @@
             "ui-label": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
             "units": "kg m-2 s-1",
             "validation-key": "fNgas_tavg-u-hxy-lnd",
-            "variable-root": "fNgas",
+            "variable-root": "fngas",
             "vertical-label": "u"
         },
         "fNleach_tavg-u-hxy-lnd": {
@@ -7597,7 +7597,7 @@
             "ui-label": "Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)",
             "units": "kg m-2 s-1",
             "validation-key": "fNleach_tavg-u-hxy-lnd",
-            "variable-root": "fNleach",
+            "variable-root": "fnleach",
             "vertical-label": "u"
         },
         "fNloss_tavg-u-hxy-lnd": {
@@ -7618,7 +7618,7 @@
             "ui-label": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
             "units": "kg m-2 s-1",
             "validation-key": "fNloss_tavg-u-hxy-lnd",
-            "variable-root": "fNloss",
+            "variable-root": "fnloss",
             "vertical-label": "u"
         },
         "fNnetmin_tavg-u-hxy-lnd": {
@@ -7639,7 +7639,7 @@
             "ui-label": "Net Nitrogen Release from Soil and Litter as the Outcome of Nitrogen Immobilisation and Gross Mineralisation",
             "units": "kg m-2 s-1",
             "validation-key": "fNnetmin_tavg-u-hxy-lnd",
-            "variable-root": "fNnetmin",
+            "variable-root": "fnnetmin",
             "vertical-label": "u"
         },
         "fNup_tavg-u-hxy-lnd": {
@@ -7660,7 +7660,7 @@
             "ui-label": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen",
             "units": "kg m-2 s-1",
             "validation-key": "fNup_tavg-u-hxy-lnd",
-            "variable-root": "fNup",
+            "variable-root": "fnup",
             "vertical-label": "u"
         },
         "fProductDecomp_tavg-u-hxy-lnd": {
@@ -7681,7 +7681,7 @@
             "ui-label": "Decomposition out of Product Pools to CO2 in Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fProductDecomp_tavg-u-hxy-lnd",
-            "variable-root": "fProductDecomp",
+            "variable-root": "fproductdecomp",
             "vertical-label": "u"
         },
         "fVegFire_tavg-u-hxy-lnd": {
@@ -7702,7 +7702,7 @@
             "ui-label": "Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "fVegFire_tavg-u-hxy-lnd",
-            "variable-root": "fVegFire",
+            "variable-root": "fvegfire",
             "vertical-label": "u"
         },
         "fVegLitterMortality_tavg-u-hxy-lnd": {
@@ -7723,7 +7723,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality",
             "units": "kg m-2 s-1",
             "validation-key": "fVegLitterMortality_tavg-u-hxy-lnd",
-            "variable-root": "fVegLitterMortality",
+            "variable-root": "fveglittermortality",
             "vertical-label": "u"
         },
         "fVegLitterSenescence_tavg-u-hxy-lnd": {
@@ -7744,7 +7744,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",
             "units": "kg m-2 s-1",
             "validation-key": "fVegLitterSenescence_tavg-u-hxy-lnd",
-            "variable-root": "fVegLitterSenescence",
+            "variable-root": "fveglittersenescence",
             "vertical-label": "u"
         },
         "fVegLitter_tavg-u-hxy-lnd": {
@@ -7765,7 +7765,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation to Litter",
             "units": "kg m-2 s-1",
             "validation-key": "fVegLitter_tavg-u-hxy-lnd",
-            "variable-root": "fVegLitter",
+            "variable-root": "fveglitter",
             "vertical-label": "u"
         },
         "fVegSoilMortality_tavg-u-hxy-lnd": {
@@ -7786,7 +7786,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Mortality",
             "units": "kg m-2 s-1",
             "validation-key": "fVegSoilMortality_tavg-u-hxy-lnd",
-            "variable-root": "fVegSoilMortality",
+            "variable-root": "fvegsoilmortality",
             "vertical-label": "u"
         },
         "fVegSoilSenescence_tavg-u-hxy-lnd": {
@@ -7807,7 +7807,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Leaf, Branch, and Root Senescence",
             "units": "kg m-2 s-1",
             "validation-key": "fVegSoilSenescence_tavg-u-hxy-lnd",
-            "variable-root": "fVegSoilSenescence",
+            "variable-root": "fvegsoilsenescence",
             "vertical-label": "u"
         },
         "fVegSoil_tavg-u-hxy-lnd": {
@@ -7828,7 +7828,7 @@
             "ui-label": "Total Carbon Mass Flux from Vegetation Directly to Soil",
             "units": "kg m-2 s-1",
             "validation-key": "fVegSoil_tavg-u-hxy-lnd",
-            "variable-root": "fVegSoil",
+            "variable-root": "fvegsoil",
             "vertical-label": "u"
         },
         "fco2antt_tavg-u-hxy-u": {
@@ -8160,7 +8160,7 @@
             "ui-label": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
             "units": "%",
             "validation-key": "fracInLut_tsum-u-hxy-lnd",
-            "variable-root": "fracInLut",
+            "variable-root": "fracinlut",
             "vertical-label": "u"
         },
         "fracLut_tpt-u-hxy-u": {
@@ -8182,7 +8182,7 @@
             "ui-label": "Percentage of Grid Cell for Each Land-Use Tile",
             "units": "%",
             "validation-key": "fracLut_tpt-u-hxy-u",
-            "variable-root": "fracLut",
+            "variable-root": "fraclut",
             "vertical-label": "u"
         },
         "fracOutLut_tsum-u-hxy-lnd": {
@@ -8204,7 +8204,7 @@
             "ui-label": "Annual Gross Percentage of Land-Use Tile That Was Transferred into Other Land-Use Tiles",
             "units": "%",
             "validation-key": "fracOutLut_tsum-u-hxy-lnd",
-            "variable-root": "fracOutLut",
+            "variable-root": "fracoutlut",
             "vertical-label": "u"
         },
         "frfe_tavg-u-hxy-sea": {
@@ -8373,7 +8373,7 @@
             "ui-label": "Gross Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "gppLut_tavg-u-hxy-multi",
-            "variable-root": "gppLut",
+            "variable-root": "gpplut",
             "vertical-label": "u"
         },
         "gppVgt_tavg-u-hxy-multi": {
@@ -8395,7 +8395,7 @@
             "ui-label": "Gross Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "gppVgt_tavg-u-hxy-multi",
-            "variable-root": "gppVgt",
+            "variable-root": "gppvgt",
             "vertical-label": "u"
         },
         "gpp_tavg-u-hxy-lnd": {
@@ -8437,7 +8437,7 @@
             "ui-label": "Gross Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "gpp_tavg-u-hxy-ng",
-            "variable-root": "gppGrass",
+            "variable-root": "gppgrass",
             "vertical-label": "u"
         },
         "gpp_tavg-u-hxy-shb": {
@@ -8458,7 +8458,7 @@
             "ui-label": "Gross Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "gpp_tavg-u-hxy-shb",
-            "variable-root": "gppShrub",
+            "variable-root": "gppshrub",
             "vertical-label": "u"
         },
         "gpp_tavg-u-hxy-tree": {
@@ -8479,7 +8479,7 @@
             "ui-label": "Gross Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "gpp_tavg-u-hxy-tree",
-            "variable-root": "gppTree",
+            "variable-root": "gpptree",
             "vertical-label": "u"
         },
         "gppc13_tavg-u-hxy-lnd": {
@@ -8543,7 +8543,7 @@
             "ui-label": "C3 Natural Grass Area Percentage",
             "units": "%",
             "validation-key": "grassFracC3_tavg-u-hxy-u",
-            "variable-root": "grassFracC3",
+            "variable-root": "grassfracc3",
             "vertical-label": "u"
         },
         "grassFracC4_tavg-u-hxy-u": {
@@ -8565,7 +8565,7 @@
             "ui-label": "C4 Natural Grass Area Percentage",
             "units": "%",
             "validation-key": "grassFracC4_tavg-u-hxy-u",
-            "variable-root": "grassFracC4",
+            "variable-root": "grassfracc4",
             "vertical-label": "u"
         },
         "grassFrac_tavg-u-hxy-u": {
@@ -8587,7 +8587,7 @@
             "ui-label": "Natural Grass Area Percentage",
             "units": "%",
             "validation-key": "grassFrac_tavg-u-hxy-u",
-            "variable-root": "grassFrac",
+            "variable-root": "grassfrac",
             "vertical-label": "u"
         },
         "graz_tavg-ol-hxy-sea": {
@@ -9236,7 +9236,7 @@
             "ui-label": "Latent Heat Flux on Land-Use Tile",
             "units": "W m-2",
             "validation-key": "hflsLut_tavg-u-hxy-multi",
-            "variable-root": "hflsLut",
+            "variable-root": "hflslut",
             "vertical-label": "u"
         },
         "hfls_tavg-u-hxy-is": {
@@ -9257,7 +9257,7 @@
             "ui-label": "Ice Sheet Surface Upward Latent Heat Flux",
             "units": "W m-2",
             "validation-key": "hfls_tavg-u-hxy-is",
-            "variable-root": "hflsIs",
+            "variable-root": "hflsis",
             "vertical-label": "u"
         },
         "hfls_tavg-u-hxy-u": {
@@ -9426,7 +9426,7 @@
             "ui-label": "Sensible Heat Flux on Land-Use Tile",
             "units": "W m-2",
             "validation-key": "hfssLut_tavg-u-hxy-multi",
-            "variable-root": "hfssLut",
+            "variable-root": "hfsslut",
             "vertical-label": "u"
         },
         "hfss_tavg-u-hxy-is": {
@@ -9915,7 +9915,7 @@
             "ui-label": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
             "units": "%",
             "validation-key": "hurs_tmin-h2m-hxy-crp",
-            "variable-root": "hursminCrop",
+            "variable-root": "hursmincrop",
             "vertical-label": "h2m"
         },
         "hurs_tmin-h2m-hxy-u": {
@@ -10226,7 +10226,7 @@
             "ui-label": "Ice Sheet Surface Ice Melt Flux",
             "units": "kg m-2 s-1",
             "validation-key": "icem_tavg-u-hxy-is",
-            "variable-root": "icemIs",
+            "variable-root": "icemis",
             "vertical-label": "u"
         },
         "icfriver_tavg-u-hxy-sea": {
@@ -10772,7 +10772,7 @@
             "ui-label": "irrigation water demand",
             "units": "kg m-2 s-1",
             "validation-key": "irrDem_tavg-u-hxy-u",
-            "variable-root": "irrDem",
+            "variable-root": "irrdem",
             "vertical-label": "u"
         },
         "irrGw_tavg-u-hxy-u": {
@@ -10793,7 +10793,7 @@
             "ui-label": "irrigation water withdrawal from groundwater",
             "units": "kg m-2 s-1",
             "validation-key": "irrGw_tavg-u-hxy-u",
-            "variable-root": "irrGw",
+            "variable-root": "irrgw",
             "vertical-label": "u"
         },
         "irrLut_tavg-u-hxy-multi": {
@@ -10815,7 +10815,7 @@
             "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
             "units": "kg m-2 s-1",
             "validation-key": "irrLut_tavg-u-hxy-multi",
-            "variable-root": "irrLut",
+            "variable-root": "irrlut",
             "vertical-label": "u"
         },
         "irrLut_tavg-u-hxy-u": {
@@ -10836,7 +10836,7 @@
             "ui-label": "irrigation water withdrawal",
             "units": "kg m-2 s-1",
             "validation-key": "irrLut_tavg-u-hxy-u",
-            "variable-root": "irrLut",
+            "variable-root": "irrlut",
             "vertical-label": "u"
         },
         "irrSurf_tavg-u-hxy-u": {
@@ -10857,7 +10857,7 @@
             "ui-label": "irrigation water withdrawal from surface water",
             "units": "kg m-2 s-1",
             "validation-key": "irrSurf_tavg-u-hxy-u",
-            "variable-root": "irrSurf",
+            "variable-root": "irrsurf",
             "vertical-label": "u"
         },
         "isop_tavg-al-hxy-u": {
@@ -10969,7 +10969,7 @@
             "ui-label": "Leaf Area Index on Land-Use Tile",
             "units": "1",
             "validation-key": "laiLut_tavg-u-hxy-multi",
-            "variable-root": "laiLut",
+            "variable-root": "lailut",
             "vertical-label": "u"
         },
         "laiVgt_tavg-u-hxy-multi": {
@@ -10991,7 +10991,7 @@
             "ui-label": "Leaf Area Index on Vegetation type",
             "units": "1",
             "validation-key": "laiVgt_tavg-u-hxy-multi",
-            "variable-root": "laiVgt",
+            "variable-root": "laivgt",
             "vertical-label": "u"
         },
         "lai_tavg-u-hxy-lnd": {
@@ -11034,7 +11034,7 @@
             "ui-label": "Percentage of Area by Vegetation or Land-Cover Category",
             "units": "%",
             "validation-key": "landCoverFrac_tavg-u-hxy-u",
-            "variable-root": "landCoverFrac",
+            "variable-root": "landcoverfrac",
             "vertical-label": "u"
         },
         "lat_ti-u-hxys-u": {
@@ -12925,7 +12925,7 @@
             "ui-label": "Land Ice Runoff Flux",
             "units": "kg m-2 s-1",
             "validation-key": "mrroLi_tavg-u-hxy-is",
-            "variable-root": "mrroLi",
+            "variable-root": "mrroli",
             "vertical-label": "u"
         },
         "mrro_tavg-u-hxy-is": {
@@ -12946,7 +12946,7 @@
             "ui-label": "Ice Sheet Total Runoff",
             "units": "kg m-2 s-1",
             "validation-key": "mrro_tavg-u-hxy-is",
-            "variable-root": "mrroIs",
+            "variable-root": "mrrois",
             "vertical-label": "u"
         },
         "mrro_tavg-u-hxy-lnd": {
@@ -13117,7 +13117,7 @@
             "ui-label": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
             "units": "kg m-2",
             "validation-key": "mrsolLut_tavg-d10cm-hxy-multi",
-            "variable-root": "mrsosLut",
+            "variable-root": "mrsoslut",
             "vertical-label": "d10cm"
         },
         "mrsol_tavg-d100cm-hxy-lnd": {
@@ -13594,7 +13594,7 @@
             "ui-label": "Total Nitrogen in All Terrestrial Nitrogen Pools",
             "units": "kg m-2",
             "validation-key": "nLand_tavg-u-hxy-lnd",
-            "variable-root": "nLand",
+            "variable-root": "nland",
             "vertical-label": "u"
         },
         "nLeaf_tavg-u-hxy-lnd": {
@@ -13615,7 +13615,7 @@
             "ui-label": "Nitrogen Mass in Leaves",
             "units": "kg m-2",
             "validation-key": "nLeaf_tavg-u-hxy-lnd",
-            "variable-root": "nLeaf",
+            "variable-root": "nleaf",
             "vertical-label": "u"
         },
         "nLitterCwd_tavg-u-hxy-lnd": {
@@ -13636,7 +13636,7 @@
             "ui-label": "Nitrogen Mass in Coarse Woody Debris",
             "units": "kg m-2",
             "validation-key": "nLitterCwd_tavg-u-hxy-lnd",
-            "variable-root": "nLitterCwd",
+            "variable-root": "nlittercwd",
             "vertical-label": "u"
         },
         "nLitterSubSurf_tavg-u-hxy-lnd": {
@@ -13657,7 +13657,7 @@
             "ui-label": "Nitrogen Mass in Below-Ground Litter (non CWD)",
             "units": "kg m-2",
             "validation-key": "nLitterSubSurf_tavg-u-hxy-lnd",
-            "variable-root": "nLitterSubSurf",
+            "variable-root": "nlittersubsurf",
             "vertical-label": "u"
         },
         "nLitterSurf_tavg-u-hxy-lnd": {
@@ -13678,7 +13678,7 @@
             "ui-label": "Nitrogen Mass in Above-Ground Litter (non CWD)",
             "units": "kg m-2",
             "validation-key": "nLitterSurf_tavg-u-hxy-lnd",
-            "variable-root": "nLitterSurf",
+            "variable-root": "nlittersurf",
             "vertical-label": "u"
         },
         "nLitter_tavg-u-hxy-lnd": {
@@ -13699,7 +13699,7 @@
             "ui-label": "Nitrogen Mass in Litter Pool",
             "units": "kg m-2",
             "validation-key": "nLitter_tavg-u-hxy-lnd",
-            "variable-root": "nLitter",
+            "variable-root": "nlitter",
             "vertical-label": "u"
         },
         "nMineralNH4_tavg-u-hxy-lnd": {
@@ -13720,7 +13720,7 @@
             "ui-label": "Mineral Ammonium in the Soil",
             "units": "kg m-2",
             "validation-key": "nMineralNH4_tavg-u-hxy-lnd",
-            "variable-root": "nMineralNH4",
+            "variable-root": "nmineralnh4",
             "vertical-label": "u"
         },
         "nMineralNO3_tavg-u-hxy-lnd": {
@@ -13741,7 +13741,7 @@
             "ui-label": "Mineral Nitrate in the Soil",
             "units": "kg m-2",
             "validation-key": "nMineralNO3_tavg-u-hxy-lnd",
-            "variable-root": "nMineralNO3",
+            "variable-root": "nmineralno3",
             "vertical-label": "u"
         },
         "nMineral_tavg-u-hxy-lnd": {
@@ -13762,7 +13762,7 @@
             "ui-label": "Mineral Nitrogen in the Soil",
             "units": "kg m-2",
             "validation-key": "nMineral_tavg-u-hxy-lnd",
-            "variable-root": "nMineral",
+            "variable-root": "nmineral",
             "vertical-label": "u"
         },
         "nOther_tavg-u-hxy-lnd": {
@@ -13783,7 +13783,7 @@
             "ui-label": "Nitrogen Mass in Vegetation Components Other than Leaves, Stem and Root",
             "units": "kg m-2",
             "validation-key": "nOther_tavg-u-hxy-lnd",
-            "variable-root": "nOther",
+            "variable-root": "nother",
             "vertical-label": "u"
         },
         "nProduct_tavg-u-hxy-lnd": {
@@ -13804,7 +13804,7 @@
             "ui-label": "Nitrogen Mass in Products of Land-Use Change",
             "units": "kg m-2",
             "validation-key": "nProduct_tavg-u-hxy-lnd",
-            "variable-root": "nProduct",
+            "variable-root": "nproduct",
             "vertical-label": "u"
         },
         "nRoot_tavg-u-hxy-lnd": {
@@ -13825,7 +13825,7 @@
             "ui-label": "Nitrogen Mass in Roots",
             "units": "kg m-2",
             "validation-key": "nRoot_tavg-u-hxy-lnd",
-            "variable-root": "nRoot",
+            "variable-root": "nroot",
             "vertical-label": "u"
         },
         "nSoil_tavg-u-hxy-lnd": {
@@ -13846,7 +13846,7 @@
             "ui-label": "Nitrogen Mass in Soil Pool",
             "units": "kg m-2",
             "validation-key": "nSoil_tavg-u-hxy-lnd",
-            "variable-root": "nSoil",
+            "variable-root": "nsoil",
             "vertical-label": "u"
         },
         "nStem_tavg-u-hxy-lnd": {
@@ -13867,7 +13867,7 @@
             "ui-label": "Nitrogen Mass in Stem",
             "units": "kg m-2",
             "validation-key": "nStem_tavg-u-hxy-lnd",
-            "variable-root": "nStem",
+            "variable-root": "nstem",
             "vertical-label": "u"
         },
         "nVeg_tavg-u-hxy-lnd": {
@@ -13888,7 +13888,7 @@
             "ui-label": "Nitrogen Mass in Vegetation",
             "units": "kg m-2",
             "validation-key": "nVeg_tavg-u-hxy-lnd",
-            "variable-root": "nVeg",
+            "variable-root": "nveg",
             "vertical-label": "u"
         },
         "nbp_tavg-u-hxy-lnd": {
@@ -13947,7 +13947,7 @@
             "ui-label": "Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "necbLut_tavg-u-hxy-multi",
-            "variable-root": "necbLut",
+            "variable-root": "necblut",
             "vertical-label": "u"
         },
         "nep_tavg-u-hxy-lnd": {
@@ -13989,7 +13989,7 @@
             "ui-label": "Net Mass Flux of 13C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "netAtmosLandC13Flux_tavg-u-hxy-lnd",
-            "variable-root": "netAtmosLandC13Flux",
+            "variable-root": "netatmoslandc13flux",
             "vertical-label": "u"
         },
         "netAtmosLandC14Flux_tavg-u-hxy-lnd": {
@@ -14010,7 +14010,7 @@
             "ui-label": "Net Mass Flux of 14C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
-            "variable-root": "netAtmosLandC14Flux",
+            "variable-root": "netatmoslandc14flux",
             "vertical-label": "u"
         },
         "netAtmosLandCO2Flux_tavg-u-hxy-lnd": {
@@ -14031,7 +14031,7 @@
             "ui-label": "Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "netAtmosLandCO2Flux_tavg-u-hxy-lnd",
-            "variable-root": "netAtmosLandCO2Flux",
+            "variable-root": "netatmoslandco2flux",
             "vertical-label": "u"
         },
         "nh4_tavg-d0m-hxy-sea": {
@@ -14290,7 +14290,7 @@
             "ui-label": "Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppLeaf_tavg-u-hxy-lnd",
-            "variable-root": "nppLeaf",
+            "variable-root": "nppleaf",
             "vertical-label": "u"
         },
         "nppLut_tavg-u-hxy-multi": {
@@ -14312,7 +14312,7 @@
             "ui-label": "Net Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppLut_tavg-u-hxy-multi",
-            "variable-root": "nppLut",
+            "variable-root": "npplut",
             "vertical-label": "u"
         },
         "nppOther_tavg-u-hxy-lnd": {
@@ -14333,7 +14333,7 @@
             "ui-label": "Net Primary Production Allocated to Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppOther_tavg-u-hxy-lnd",
-            "variable-root": "nppOther",
+            "variable-root": "nppother",
             "vertical-label": "u"
         },
         "nppRoot_tavg-u-hxy-lnd": {
@@ -14354,7 +14354,7 @@
             "ui-label": "Net Primary Production Allocated to Roots as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppRoot_tavg-u-hxy-lnd",
-            "variable-root": "nppRoot",
+            "variable-root": "npproot",
             "vertical-label": "u"
         },
         "nppStem_tavg-u-hxy-lnd": {
@@ -14375,7 +14375,7 @@
             "ui-label": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppStem_tavg-u-hxy-lnd",
-            "variable-root": "nppStem",
+            "variable-root": "nppstem",
             "vertical-label": "u"
         },
         "nppVgt_tavg-u-hxy-multi": {
@@ -14397,7 +14397,7 @@
             "ui-label": "Net Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "nppVgt_tavg-u-hxy-multi",
-            "variable-root": "nppVgt",
+            "variable-root": "nppvgt",
             "vertical-label": "u"
         },
         "npp_tavg-u-hxy-lnd": {
@@ -14439,7 +14439,7 @@
             "ui-label": "Net Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "npp_tavg-u-hxy-ng",
-            "variable-root": "nppGrass",
+            "variable-root": "nppgrass",
             "vertical-label": "u"
         },
         "npp_tavg-u-hxy-shb": {
@@ -14460,7 +14460,7 @@
             "ui-label": "Net Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "npp_tavg-u-hxy-shb",
-            "variable-root": "nppShrub",
+            "variable-root": "nppshrub",
             "vertical-label": "u"
         },
         "npp_tavg-u-hxy-tree": {
@@ -14481,7 +14481,7 @@
             "ui-label": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "npp_tavg-u-hxy-tree",
-            "variable-root": "nppTree",
+            "variable-root": "npptree",
             "vertical-label": "u"
         },
         "o2_tavg-d0m-hxy-sea": {
@@ -15570,7 +15570,7 @@
             "ui-label": "Ice Sheet Surface Altitude",
             "units": "m",
             "validation-key": "orog_tavg-u-hxy-is",
-            "variable-root": "orogIs",
+            "variable-root": "orogis",
             "vertical-label": "u"
         },
         "orog_ti-u-hxy-u": {
@@ -15766,7 +15766,7 @@
             "ui-label": "PARASOL Reflectance",
             "units": "1",
             "validation-key": "parasolRefl_tavg-u-hxy-sea",
-            "variable-root": "parasolRefl",
+            "variable-root": "parasolrefl",
             "vertical-label": "u"
         },
         "pastureFracC3_tavg-u-hxy-u": {
@@ -15788,7 +15788,7 @@
             "ui-label": "C3 Pasture Area Percentage",
             "units": "%",
             "validation-key": "pastureFracC3_tavg-u-hxy-u",
-            "variable-root": "pastureFracC3",
+            "variable-root": "pasturefracc3",
             "vertical-label": "u"
         },
         "pastureFracC4_tavg-u-hxy-u": {
@@ -15810,7 +15810,7 @@
             "ui-label": "C4 Pasture Area Percentage",
             "units": "%",
             "validation-key": "pastureFracC4_tavg-u-hxy-u",
-            "variable-root": "pastureFracC4",
+            "variable-root": "pasturefracc4",
             "vertical-label": "u"
         },
         "pastureFrac_tavg-u-hxy-u": {
@@ -15832,7 +15832,7 @@
             "ui-label": "Percentage of Land Which Is Anthropogenic Pasture",
             "units": "%",
             "validation-key": "pastureFrac_tavg-u-hxy-u",
-            "variable-root": "pastureFrac",
+            "variable-root": "pasturefrac",
             "vertical-label": "u"
         },
         "pbo_tavg-u-hxy-sea": {
@@ -16627,7 +16627,7 @@
             "ui-label": "Precipitation Flux of Water Containing Oxygen-17 (H2 17O)",
             "units": "kg m-2 s-1",
             "validation-key": "pr17O_tavg-u-hxy-u",
-            "variable-root": "pr17O",
+            "variable-root": "pr17o",
             "vertical-label": "u"
         },
         "pr18O_tavg-u-hxy-u": {
@@ -16648,7 +16648,7 @@
             "ui-label": "Precipitation Flux of Water Containing Oxygen-18 (H2 18O)",
             "units": "kg m-2 s-1",
             "validation-key": "pr18O_tavg-u-hxy-u",
-            "variable-root": "pr18O",
+            "variable-root": "pr18o",
             "vertical-label": "u"
         },
         "pr2h_tavg-u-hxy-u": {
@@ -16690,7 +16690,7 @@
             "ui-label": "Precipitation over Crop Tile",
             "units": "kg m-2 s-1",
             "validation-key": "pr_tavg-u-hxy-crp",
-            "variable-root": "prCrop",
+            "variable-root": "prcrop",
             "vertical-label": "u"
         },
         "pr_tavg-u-hxy-u": {
@@ -16833,7 +16833,7 @@
             "ui-label": "Ice Sheet Rainfall Rate",
             "units": "kg m-2 s-1",
             "validation-key": "prra_tavg-u-hxy-is",
-            "variable-root": "prraIs",
+            "variable-root": "prrais",
             "vertical-label": "u"
         },
         "prra_tavg-u-hxy-lnd": {
@@ -16938,7 +16938,7 @@
             "ui-label": "Precipitation Flux of Snow and Ice Containing Oxygen-18 (H2 18O)",
             "units": "kg m-2 s-1",
             "validation-key": "prsn18O_tavg-u-hxy-u",
-            "variable-root": "prsn18O",
+            "variable-root": "prsn18o",
             "vertical-label": "u"
         },
         "prsn2h_tavg-u-hxy-u": {
@@ -17391,7 +17391,7 @@
             "ui-label": "Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raLeaf_tavg-u-hxy-lnd",
-            "variable-root": "raLeaf",
+            "variable-root": "raleaf",
             "vertical-label": "u"
         },
         "raLut_tavg-u-hxy-multi": {
@@ -17413,7 +17413,7 @@
             "ui-label": "Autotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raLut_tavg-u-hxy-multi",
-            "variable-root": "raLut",
+            "variable-root": "ralut",
             "vertical-label": "u"
         },
         "raOther_tavg-u-hxy-lnd": {
@@ -17434,7 +17434,7 @@
             "ui-label": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raOther_tavg-u-hxy-lnd",
-            "variable-root": "raOther",
+            "variable-root": "raother",
             "vertical-label": "u"
         },
         "raRoot_tavg-u-hxy-lnd": {
@@ -17455,7 +17455,7 @@
             "ui-label": "Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raRoot_tavg-u-hxy-lnd",
-            "variable-root": "raRoot",
+            "variable-root": "raroot",
             "vertical-label": "u"
         },
         "raStem_tavg-u-hxy-lnd": {
@@ -17476,7 +17476,7 @@
             "ui-label": "Total Respiration from Stem as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raStem_tavg-u-hxy-lnd",
-            "variable-root": "raStem",
+            "variable-root": "rastem",
             "vertical-label": "u"
         },
         "raVgt_tavg-u-hxy-multi": {
@@ -17498,7 +17498,7 @@
             "ui-label": "Autotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "raVgt_tavg-u-hxy-multi",
-            "variable-root": "raVgt",
+            "variable-root": "ravgt",
             "vertical-label": "u"
         },
         "ra_tavg-u-hxy-lnd": {
@@ -17540,7 +17540,7 @@
             "ui-label": "Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "ra_tavg-u-hxy-ng",
-            "variable-root": "raGrass",
+            "variable-root": "ragrass",
             "vertical-label": "u"
         },
         "ra_tavg-u-hxy-shb": {
@@ -17561,7 +17561,7 @@
             "ui-label": "Autotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "ra_tavg-u-hxy-shb",
-            "variable-root": "raShrub",
+            "variable-root": "rashrub",
             "vertical-label": "u"
         },
         "ra_tavg-u-hxy-tree": {
@@ -17582,7 +17582,7 @@
             "ui-label": "Autotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "ra_tavg-u-hxy-tree",
-            "variable-root": "raTree",
+            "variable-root": "ratree",
             "vertical-label": "u"
         },
         "rac13_tavg-u-hxy-lnd": {
@@ -17986,7 +17986,7 @@
             "ui-label": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
             "units": "%",
             "validation-key": "residualFrac_tavg-u-hxy-u",
-            "variable-root": "residualFrac",
+            "variable-root": "residualfrac",
             "vertical-label": "u"
         },
         "rhLitter_tavg-u-hxy-lnd": {
@@ -18007,7 +18007,7 @@
             "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Litter on Land",
             "units": "kg m-2 s-1",
             "validation-key": "rhLitter_tavg-u-hxy-lnd",
-            "variable-root": "rhLitter",
+            "variable-root": "rhlitter",
             "vertical-label": "u"
         },
         "rhLut_tavg-u-hxy-multi": {
@@ -18029,7 +18029,7 @@
             "ui-label": "Heterotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "rhLut_tavg-u-hxy-multi",
-            "variable-root": "rhLut",
+            "variable-root": "rhlut",
             "vertical-label": "u"
         },
         "rhSoil_tavg-u-hxy-lnd": {
@@ -18050,7 +18050,7 @@
             "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
             "units": "kg m-2 s-1",
             "validation-key": "rhSoil_tavg-u-hxy-lnd",
-            "variable-root": "rhSoil",
+            "variable-root": "rhsoil",
             "vertical-label": "u"
         },
         "rhVgt_tavg-u-hxy-multi": {
@@ -18072,7 +18072,7 @@
             "ui-label": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "rhVgt_tavg-u-hxy-multi",
-            "variable-root": "rhVgt",
+            "variable-root": "rhvgt",
             "vertical-label": "u"
         },
         "rh_tavg-u-hxy-lnd": {
@@ -18114,7 +18114,7 @@
             "ui-label": "Heterotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "rh_tavg-u-hxy-ng",
-            "variable-root": "rhGrass",
+            "variable-root": "rhgrass",
             "vertical-label": "u"
         },
         "rh_tavg-u-hxy-shb": {
@@ -18135,7 +18135,7 @@
             "ui-label": "Heterotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "rh_tavg-u-hxy-shb",
-            "variable-root": "rhShrub",
+            "variable-root": "rhshrub",
             "vertical-label": "u"
         },
         "rh_tavg-u-hxy-tree": {
@@ -18156,7 +18156,7 @@
             "ui-label": "Heterotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
             "units": "kg m-2 s-1",
             "validation-key": "rh_tavg-u-hxy-tree",
-            "variable-root": "rhTree",
+            "variable-root": "rhtree",
             "vertical-label": "u"
         },
         "rhc13_tavg-u-hxy-lnd": {
@@ -18389,7 +18389,7 @@
             "ui-label": "Ice Sheet Surface Downwelling Longwave Radiation",
             "units": "W m-2",
             "validation-key": "rlds_tavg-u-hxy-is",
-            "variable-root": "rldsIs",
+            "variable-root": "rldsis",
             "vertical-label": "u"
         },
         "rlds_tavg-u-hxy-si": {
@@ -18702,7 +18702,7 @@
             "ui-label": "Ice Sheet Surface Upwelling Longwave Radiation",
             "units": "W m-2",
             "validation-key": "rlus_tavg-u-hxy-is",
-            "variable-root": "rlusIs",
+            "variable-root": "rlusis",
             "vertical-label": "u"
         },
         "rlus_tavg-u-hxy-si": {
@@ -19371,7 +19371,7 @@
             "ui-label": "Ice Sheet Surface Downwelling Shortwave Radiation",
             "units": "W m-2",
             "validation-key": "rsds_tavg-u-hxy-is",
-            "variable-root": "rsdsIs",
+            "variable-root": "rsdsis",
             "vertical-label": "u"
         },
         "rsds_tavg-u-hxy-si": {
@@ -19871,7 +19871,7 @@
             "ui-label": "Ice Sheet Surface Upwelling Shortwave Radiation",
             "units": "W m-2",
             "validation-key": "rsus_tavg-u-hxy-is",
-            "variable-root": "rsusIs",
+            "variable-root": "rsusis",
             "vertical-label": "u"
         },
         "rsus_tavg-u-hxy-si": {
@@ -20472,7 +20472,7 @@
             "ui-label": "Ice Sheet Surface Snow and Ice Sublimation Flux",
             "units": "kg m-2 s-1",
             "validation-key": "sbl_tavg-u-hxy-is",
-            "variable-root": "sblIs",
+            "variable-root": "sblis",
             "vertical-label": "u"
         },
         "sbl_tavg-u-hxy-lnd": {
@@ -20561,7 +20561,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
+            "description": "Fraction of time that shallow convection occurs in the grid cell.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20581,7 +20581,7 @@
         "sci_tavg-u-hxys-u": {
             "area-label": "u",
             "cell-methods": "vr:cell-method/ point time: point",
-            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
+            "description": "Fraction of time that shallow convection occurs in the grid cell.",
             "dimensions": [
                 "site",
                 "time1"
@@ -20743,7 +20743,7 @@
             "ui-label": "Near-Surface Wind Speed",
             "units": "m s-1",
             "validation-key": "sfcWind_tavg-h10m-hxy-u",
-            "variable-root": "sfcWind",
+            "variable-root": "sfcwind",
             "vertical-label": "h10m"
         },
         "sfcWind_tmax-h10m-hxy-u": {
@@ -20765,7 +20765,7 @@
             "ui-label": "Daily Maximum Near-Surface Wind Speed",
             "units": "m s-1",
             "validation-key": "sfcWind_tmax-h10m-hxy-u",
-            "variable-root": "sfcWindmax",
+            "variable-root": "sfcwindmax",
             "vertical-label": "h10m"
         },
         "sfcWind_tpt-h10m-hxys-u": {
@@ -20785,7 +20785,7 @@
             "ui-label": "Near-Surface Wind Speed",
             "units": "m s-1",
             "validation-key": "sfcWind_tpt-h10m-hxys-u",
-            "variable-root": "sfcWind",
+            "variable-root": "sfcwind",
             "vertical-label": "h10m"
         },
         "sfdsi_tavg-u-hxy-sea": {
@@ -21228,7 +21228,7 @@
             "ui-label": "Percentage Cover by Shrub",
             "units": "%",
             "validation-key": "shrubFrac_tavg-u-hxy-u",
-            "variable-root": "shrubFrac",
+            "variable-root": "shrubfrac",
             "vertical-label": "u"
         },
         "si_tavg-d0m-hxy-sea": {
@@ -23098,7 +23098,7 @@
             "ui-label": "Ice Sheet Snow Cover Percentage",
             "units": "%",
             "validation-key": "snc_tavg-u-hxy-is",
-            "variable-root": "sncIs",
+            "variable-root": "sncis",
             "vertical-label": "u"
         },
         "snc_tavg-u-hxy-lnd": {
@@ -23224,7 +23224,7 @@
             "ui-label": "Ice Sheet Surface Snow Melt",
             "units": "kg m-2 s-1",
             "validation-key": "snm_tavg-u-hxy-is",
-            "variable-root": "snmIs",
+            "variable-root": "snmis",
             "vertical-label": "u"
         },
         "snm_tavg-u-hxy-lnd": {
@@ -23308,7 +23308,7 @@
             "ui-label": "Ice Sheet Surface Snow and Ice Refreeze Flux",
             "units": "kg m-2 s-1",
             "validation-key": "snrefr_tavg-u-hxy-is",
-            "variable-root": "snicefreezIs",
+            "variable-root": "snicefreezis",
             "vertical-label": "u"
         },
         "snrefr_tavg-u-hxy-lnd": {
@@ -23704,7 +23704,7 @@
             "ui-label": "Isotopic Ratio of Oxygen-17 in Sea Water",
             "units": "1",
             "validation-key": "sw17O_tavg-ol-hxy-sea",
-            "variable-root": "sw17O",
+            "variable-root": "sw17o",
             "vertical-label": "ol"
         },
         "sw18O_tavg-ol-hxy-sea": {
@@ -23726,7 +23726,7 @@
             "ui-label": "Isotopic Ratio of Oxygen-18 in Sea Water",
             "units": "1",
             "validation-key": "sw18O_tavg-ol-hxy-sea",
-            "variable-root": "sw18O",
+            "variable-root": "sw18o",
             "vertical-label": "ol"
         },
         "sw2H_tavg-ol-hxy-sea": {
@@ -23748,7 +23748,7 @@
             "ui-label": "Isotopic Ratio of Deuterium in Sea Water",
             "units": "1",
             "validation-key": "sw2H_tavg-ol-hxy-sea",
-            "variable-root": "sw2H",
+            "variable-root": "sw2h",
             "vertical-label": "ol"
         },
         "sw_tavg-u-hxy-lnd": {
@@ -23791,7 +23791,7 @@
             "ui-label": "Snow Water Equivalent on Land-Use Tile",
             "units": "m",
             "validation-key": "sweLut_tavg-u-hxy-multi",
-            "variable-root": "sweLut",
+            "variable-root": "swelut",
             "vertical-label": "u"
         },
         "swh_tavg-u-hxy-sea": {
@@ -24112,7 +24112,7 @@
             "ui-label": "6 hourly instantaneous temperature in the UTLS region ",
             "units": "K",
             "validation-key": "ta_tpt-p5u-hxy-u",
-            "variable-root": "taUTLS",
+            "variable-root": "tautls",
             "vertical-label": "p5u"
         },
         "ta_tpt-p6-hxy-air": {
@@ -24201,7 +24201,7 @@
             "ui-label": "Near-Surface Air Temperature on Land Use Tile",
             "units": "K",
             "validation-key": "tasLut_tavg-h2m-hxy-multi",
-            "variable-root": "tasLut",
+            "variable-root": "taslut",
             "vertical-label": "h2m"
         },
         "tas_tavg-h2m-hm-is": {
@@ -24263,7 +24263,7 @@
             "ui-label": "Ice Sheet Near-Surface Air Temperature",
             "units": "K",
             "validation-key": "tas_tavg-u-hxy-is",
-            "variable-root": "tasIs",
+            "variable-root": "tasis",
             "vertical-label": "u"
         },
         "tas_tavg-u-hxy-u": {
@@ -24306,7 +24306,7 @@
             "ui-label": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
             "units": "K",
             "validation-key": "tas_tmax-h2m-hxy-crp",
-            "variable-root": "tasmaxCrop",
+            "variable-root": "tasmaxcrop",
             "vertical-label": "h2m"
         },
         "tas_tmax-h2m-hxy-u": {
@@ -24350,7 +24350,7 @@
             "ui-label": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
             "units": "K",
             "validation-key": "tas_tmin-h2m-hxy-crp",
-            "variable-root": "tasminCrop",
+            "variable-root": "tasmincrop",
             "vertical-label": "h2m"
         },
         "tas_tmin-h2m-hxy-u": {
@@ -26467,7 +26467,7 @@
             "ui-label": "Broadleaf Deciduous Tree Area Percentage",
             "units": "%",
             "validation-key": "treeFracBdlDcd_tavg-u-hxy-u",
-            "variable-root": "treeFracBdlDcd",
+            "variable-root": "treefracbdldcd",
             "vertical-label": "u"
         },
         "treeFracBdlEvg_tavg-u-hxy-u": {
@@ -26489,7 +26489,7 @@
             "ui-label": "Broadleaf Evergreen Tree Area Percentage",
             "units": "%",
             "validation-key": "treeFracBdlEvg_tavg-u-hxy-u",
-            "variable-root": "treeFracBdlEvg",
+            "variable-root": "treefracbdlevg",
             "vertical-label": "u"
         },
         "treeFracNdlDcd_tavg-u-hxy-u": {
@@ -26511,7 +26511,7 @@
             "ui-label": "Needleleaf Deciduous Tree Area Percentage",
             "units": "%",
             "validation-key": "treeFracNdlDcd_tavg-u-hxy-u",
-            "variable-root": "treeFracNdlDcd",
+            "variable-root": "treefracndldcd",
             "vertical-label": "u"
         },
         "treeFracNdlEvg_tavg-u-hxy-u": {
@@ -26533,7 +26533,7 @@
             "ui-label": "Needleleaf Evergreen Tree Area Percentage",
             "units": "%",
             "validation-key": "treeFracNdlEvg_tavg-u-hxy-u",
-            "variable-root": "treeFracNdlEvg",
+            "variable-root": "treefracndlevg",
             "vertical-label": "u"
         },
         "treeFrac_tavg-u-hxy-u": {
@@ -26555,7 +26555,7 @@
             "ui-label": "Tree Cover Percentage",
             "units": "%",
             "validation-key": "treeFrac_tavg-u-hxy-u",
-            "variable-root": "treeFrac",
+            "variable-root": "treefrac",
             "vertical-label": "u"
         },
         "tropch4loss_tavg-al-hxy-u": {
@@ -26686,7 +26686,7 @@
             "ui-label": "Surface Temperature on Landuse Tile",
             "units": "K",
             "validation-key": "tsLut_tavg-u-hxy-multi",
-            "variable-root": "tslsiLut",
+            "variable-root": "tslsilut",
             "vertical-label": "u"
         },
         "ts_tavg-u-hxy-is": {
@@ -26707,7 +26707,7 @@
             "ui-label": "Ice Sheet Surface Temperature",
             "units": "K",
             "validation-key": "ts_tavg-u-hxy-is",
-            "variable-root": "tsIs",
+            "variable-root": "tsis",
             "vertical-label": "u"
         },
         "ts_tavg-u-hxy-sn": {
@@ -26874,7 +26874,7 @@
             "ui-label": "Ice Sheet Snow Internal Temperature",
             "units": "K",
             "validation-key": "tsn_tavg-u-hxy-is",
-            "variable-root": "tsnIs",
+            "variable-root": "tsnis",
             "vertical-label": "u"
         },
         "tsn_tavg-u-hxy-lnd": {
@@ -27154,7 +27154,7 @@
             "ui-label": "6 hourly instantaneous eastward wind in the UTLS region ",
             "units": "m s-1",
             "validation-key": "ua_tpt-p5u-hxy-air",
-            "variable-root": "uaUTLS",
+            "variable-root": "uautls",
             "vertical-label": "p5u"
         },
         "ua_tpt-p6-hxy-air": {
@@ -27792,7 +27792,7 @@
             "ui-label": "6 hourly instantaneous northward wind in the UTLS region ",
             "units": "m s-1",
             "validation-key": "va_tpt-p5u-hxy-air",
-            "variable-root": "vaUTLS",
+            "variable-root": "vautls",
             "vertical-label": "p5u"
         },
         "va_tpt-p6-hxy-air": {
@@ -27922,7 +27922,7 @@
             "ui-label": "Total Vegetated Percentage Cover",
             "units": "%",
             "validation-key": "vegFrac_tavg-u-hxy-u",
-            "variable-root": "vegFrac",
+            "variable-root": "vegfrac",
             "vertical-label": "u"
         },
         "vegHeight_tavg-u-hxy-ng": {
@@ -27943,7 +27943,7 @@
             "ui-label": "Height of Grass",
             "units": "m",
             "validation-key": "vegHeight_tavg-u-hxy-ng",
-            "variable-root": "vegHeightGrass",
+            "variable-root": "vegheightgrass",
             "vertical-label": "u"
         },
         "vegHeight_tavg-u-hxy-shb": {
@@ -27964,7 +27964,7 @@
             "ui-label": "Height of Shrubs",
             "units": "m",
             "validation-key": "vegHeight_tavg-u-hxy-shb",
-            "variable-root": "vegHeightShrub",
+            "variable-root": "vegheightshrub",
             "vertical-label": "u"
         },
         "vegHeight_tavg-u-hxy-tree": {
@@ -27985,7 +27985,7 @@
             "ui-label": "Height of Trees",
             "units": "m",
             "validation-key": "vegHeight_tavg-u-hxy-tree",
-            "variable-root": "vegHeightTree",
+            "variable-root": "vegheighttree",
             "vertical-label": "u"
         },
         "vegHeight_tavg-u-hxy-veg": {
@@ -28006,7 +28006,7 @@
             "ui-label": "Height of the Vegetation Canopy",
             "units": "m",
             "validation-key": "vegHeight_tavg-u-hxy-veg",
-            "variable-root": "vegHeight",
+            "variable-root": "vegheight",
             "vertical-label": "u"
         },
         "vmo_tavg-ol-hxy-sea": {
@@ -28684,7 +28684,7 @@
             "ui-label": "Grid Averaged Methane Emissions from Wetlands",
             "units": "kg m-2 s-1",
             "validation-key": "wetlandCH4_tavg-u-hxy-lnd",
-            "variable-root": "wetlandCH4",
+            "variable-root": "wetlandch4",
             "vertical-label": "u"
         },
         "wetlandCH4cons_tavg-u-hxy-lnd": {
@@ -28705,7 +28705,7 @@
             "ui-label": "Grid Averaged Methane Consumption (Methanotrophy) from Wetlands",
             "units": "kg m-2 s-1",
             "validation-key": "wetlandCH4cons_tavg-u-hxy-lnd",
-            "variable-root": "wetlandCH4cons",
+            "variable-root": "wetlandch4cons",
             "vertical-label": "u"
         },
         "wetlandCH4prod_tavg-u-hxy-lnd": {
@@ -28726,7 +28726,7 @@
             "ui-label": "Grid Averaged Methane Production (Methanogenesis) from Wetlands",
             "units": "kg m-2 s-1",
             "validation-key": "wetlandCH4prod_tavg-u-hxy-lnd",
-            "variable-root": "wetlandCH4prod",
+            "variable-root": "wetlandch4prod",
             "vertical-label": "u"
         },
         "wetlandFrac_tavg-u-hxy-u": {
@@ -28748,7 +28748,7 @@
             "ui-label": "Wetland Percentage Cover",
             "units": "%",
             "validation-key": "wetlandFrac_tavg-u-hxy-u",
-            "variable-root": "wetlandFrac",
+            "variable-root": "wetlandfrac",
             "vertical-label": "u"
         },
         "wetnh3_tavg-u-hxy-u": {

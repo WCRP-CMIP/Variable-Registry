@@ -588,7 +588,7 @@
       "standard-name": "cell_area",
       "temporal-label": "tavg",
       "units": "m2",
-      "variable-root": "modelCellAreai",
+      "variable-root": "modelcellareai",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -666,7 +666,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "baresoilFrac",
+      "variable-root": "baresoilfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -955,7 +955,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "burntFractionAll",
+      "variable-root": "burntfractionall",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -981,7 +981,7 @@
       "standard-name": "mass_content_of_13C_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c13Land",
+      "variable-root": "c13land",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1007,7 +1007,7 @@
       "standard-name": "litter_mass_content_of_13C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c13Litter",
+      "variable-root": "c13litter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1033,7 +1033,7 @@
       "standard-name": "soil_mass_content_of_13C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c13Soil",
+      "variable-root": "c13soil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1059,7 +1059,7 @@
       "standard-name": "vegetation_mass_content_of_13C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c13Veg",
+      "variable-root": "c13veg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1085,7 +1085,7 @@
       "standard-name": "mass_content_of_14C_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c14Land",
+      "variable-root": "c14land",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1111,7 +1111,7 @@
       "standard-name": "litter_mass_content_of_14C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c14Litter",
+      "variable-root": "c14litter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1137,7 +1137,7 @@
       "standard-name": "soil_mass_content_of_14C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c14Soil",
+      "variable-root": "c14soil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1163,7 +1163,7 @@
       "standard-name": "vegetation_mass_content_of_14C",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "c14Veg",
+      "variable-root": "c14veg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1271,7 +1271,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "c3PftFrac",
+      "variable-root": "c3pftfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1352,7 +1352,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "c4PftFrac",
+      "variable-root": "c4pftfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1405,7 +1405,7 @@
       "standard-name": "carbon_mass_content_of_geological_storage",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cGeologicStorage",
+      "variable-root": "cgeologicstorage",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1431,7 +1431,7 @@
       "standard-name": "mass_content_of_carbon_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLand",
+      "variable-root": "cland",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1457,7 +1457,7 @@
       "standard-name": "leaf_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLeaf",
+      "variable-root": "cleaf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1483,7 +1483,7 @@
       "standard-name": "wood_debris_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLitterCwd",
+      "variable-root": "clittercwd",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1510,7 +1510,7 @@
       "standard-name": "litter_mass_content_of_carbon",
       "temporal-label": "tpt",
       "units": "kg m-2",
-      "variable-root": "cLitterLut",
+      "variable-root": "clitterlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1536,7 +1536,7 @@
       "standard-name": "subsurface_litter_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLitterSubSurf",
+      "variable-root": "clittersubsurf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1562,7 +1562,7 @@
       "standard-name": "surface_litter_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLitterSurf",
+      "variable-root": "clittersurf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1588,7 +1588,7 @@
       "standard-name": "litter_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cLitter",
+      "variable-root": "clitter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1614,7 +1614,7 @@
       "standard-name": "miscellaneous_living_matter_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cOther",
+      "variable-root": "cother",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1641,7 +1641,7 @@
       "standard-name": "carbon_mass_content_of_forestry_and_agricultural_products",
       "temporal-label": "tpt",
       "units": "kg m-2",
-      "variable-root": "cProductLut",
+      "variable-root": "cproductlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1667,7 +1667,7 @@
       "standard-name": "carbon_mass_content_of_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cProduct",
+      "variable-root": "cproduct",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1693,7 +1693,7 @@
       "standard-name": "root_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cRoot",
+      "variable-root": "croot",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1720,7 +1720,7 @@
       "standard-name": "soil_mass_content_of_carbon",
       "temporal-label": "tpt",
       "units": "kg m-2",
-      "variable-root": "cSoilLut",
+      "variable-root": "csoillut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1747,7 +1747,7 @@
       "standard-name": "soil_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cSoilPools",
+      "variable-root": "csoilpools",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1774,7 +1774,7 @@
       "standard-name": "soil_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cSoilAbove1m",
+      "variable-root": "csoilabove1m",
       "vertical-label": "d100cm",
       "type": [
         "wcrp:variable",
@@ -1801,7 +1801,7 @@
       "standard-name": "soil_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cSoilLevels",
+      "variable-root": "csoillevels",
       "vertical-label": "sl",
       "type": [
         "wcrp:variable",
@@ -1827,7 +1827,7 @@
       "standard-name": "soil_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cSoil",
+      "variable-root": "csoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1853,7 +1853,7 @@
       "standard-name": "stem_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cStem",
+      "variable-root": "cstem",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1880,7 +1880,7 @@
       "standard-name": "vegetation_carbon_content",
       "temporal-label": "tpt",
       "units": "kg m-2",
-      "variable-root": "cVegLut",
+      "variable-root": "cveglut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1906,7 +1906,7 @@
       "standard-name": "vegetation_carbon_content",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cVeg",
+      "variable-root": "cveg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1932,7 +1932,7 @@
       "standard-name": "vegetation_carbon_content",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cVegGrass",
+      "variable-root": "cveggrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1958,7 +1958,7 @@
       "standard-name": "vegetation_carbon_content",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cVegShrub",
+      "variable-root": "cvegshrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -1984,7 +1984,7 @@
       "standard-name": "vegetation_carbon_content",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cVegTree",
+      "variable-root": "cvegtree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -2010,7 +2010,7 @@
       "standard-name": "stem_mass_content_of_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "cWood",
+      "variable-root": "cwood",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -2328,7 +2328,7 @@
       "standard-name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "cfadDbze94",
+      "variable-root": "cfaddbze94",
       "vertical-label": "h40",
       "type": [
         "wcrp:variable",
@@ -2356,7 +2356,7 @@
       "standard-name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "cfadLidarsr532",
+      "variable-root": "cfadlidarsr532",
       "vertical-label": "h40",
       "type": [
         "wcrp:variable",
@@ -4074,7 +4074,7 @@
       "standard-name": "modis_ice_topped_cloud_area_fraction",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "clmodisiceReff",
+      "variable-root": "clmodisicereff",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -4130,7 +4130,7 @@
       "standard-name": "modis_liquid_topped_cloud_area_fraction",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "clmodisliquidReff",
+      "variable-root": "clmodisliquidreff",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -4813,7 +4813,7 @@
       "standard-name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
       "temporal-label": "tavg",
       "units": "kg kg-1",
-      "variable-root": "co23D",
+      "variable-root": "co23d",
       "vertical-label": "al",
       "type": [
         "wcrp:variable",
@@ -5234,7 +5234,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "cropFracC3",
+      "variable-root": "cropfracc3",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -5261,7 +5261,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "cropFracC4",
+      "variable-root": "cropfracc4",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -5288,7 +5288,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "cropFrac",
+      "variable-root": "cropfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8720,7 +8720,7 @@
       "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fAnthDisturb",
+      "variable-root": "fanthdisturb",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8746,7 +8746,7 @@
       "standard-name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fBNF",
+      "variable-root": "fbnf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8772,7 +8772,7 @@
       "standard-name": "mass_flux_of_carbon_into_sea_water_from_rivers",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fCLandToOcean",
+      "variable-root": "fclandtoocean",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8798,7 +8798,7 @@
       "standard-name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fDeforestToAtmos",
+      "variable-root": "fdeforesttoatmos",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8824,7 +8824,7 @@
       "standard-name": "carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fDeforestToProduct",
+      "variable-root": "fdeforesttoproduct",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8850,7 +8850,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fFireAll",
+      "variable-root": "ffireall",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8876,7 +8876,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fFireNat",
+      "variable-root": "ffirenat",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8902,7 +8902,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires_excluding_anthropogenic_land_use_change",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fFire",
+      "variable-root": "ffire",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8928,7 +8928,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fHarvestToAtmos",
+      "variable-root": "fharvesttoatmos",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8954,7 +8954,7 @@
       "standard-name": "mass_flux_of_carbon_from_biomass_into_geological_storage",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fHarvestToGeologicStorage",
+      "variable-root": "fharvesttogeologicstorage",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -8980,7 +8980,7 @@
       "standard-name": "mass_flux_of_carbon_into_forestry_and_agricultural_products_due_to_crop_harvesting",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fHarvestToProduct",
+      "variable-root": "fharvesttoproduct",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9006,7 +9006,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_litter_in_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fLitterFire",
+      "variable-root": "flitterfire",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9032,7 +9032,7 @@
       "standard-name": "carbon_mass_flux_into_soil_from_litter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fLitterSoil",
+      "variable-root": "flittersoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9058,7 +9058,7 @@
       "standard-name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fLuc",
+      "variable-root": "fluc",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9085,7 +9085,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_land_use_or_land_cover_change_excluding_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fLulccAtmLut",
+      "variable-root": "flulccatmlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9111,7 +9111,7 @@
       "standard-name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fN2O",
+      "variable-root": "fn2o",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9137,7 +9137,7 @@
       "standard-name": "tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_anthropogenic_emission",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNAnthDisturb",
+      "variable-root": "fnanthdisturb",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9163,7 +9163,7 @@
       "standard-name": "mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_into_sea_from_rivers",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNLandToOcean",
+      "variable-root": "fnlandtoocean",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9189,7 +9189,7 @@
       "standard-name": "nitrogen_mass_flux_into_soil_from_litter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNLitterSoil",
+      "variable-root": "fnlittersoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9215,7 +9215,7 @@
       "standard-name": "surface_upward_mass_flux_of_nox_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNOx",
+      "variable-root": "fnox",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9241,7 +9241,7 @@
       "standard-name": "nitrogen_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNProduct",
+      "variable-root": "fnproduct",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9267,7 +9267,7 @@
       "standard-name": "nitrogen_mass_flux_into_litter_from_vegetation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNVegLitter",
+      "variable-root": "fnveglitter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9293,7 +9293,7 @@
       "standard-name": "nitrogen_mass_flux_into_soil_from_vegetation_excluding_litter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNVegSoil",
+      "variable-root": "fnvegsoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9319,7 +9319,7 @@
       "standard-name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNdep",
+      "variable-root": "fndep",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9345,7 +9345,7 @@
       "standard-name": "tendency_of_soil_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fertilization",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNfert",
+      "variable-root": "fnfert",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9371,7 +9371,7 @@
       "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_due_to_emission_from_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNgasFire",
+      "variable-root": "fngasfire",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9397,7 +9397,7 @@
       "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_due_to_all_land_processes_excluding_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNgasNonFire",
+      "variable-root": "fngasnonfire",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9423,7 +9423,7 @@
       "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNgas",
+      "variable-root": "fngas",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9449,7 +9449,7 @@
       "standard-name": "mass_flux_of_carbon_out_of_soil_due_to_leaching_and_runoff",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNleach",
+      "variable-root": "fnleach",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9475,7 +9475,7 @@
       "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNloss",
+      "variable-root": "fnloss",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9501,7 +9501,7 @@
       "standard-name": "mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_out_of_litter_and_soil_due_to_immobilisation_and_remineralization",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNnetmin",
+      "variable-root": "fnnetmin",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9527,7 +9527,7 @@
       "standard-name": "tendency_of_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fNup",
+      "variable-root": "fnup",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9553,7 +9553,7 @@
       "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fProductDecomp",
+      "variable-root": "fproductdecomp",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9579,7 +9579,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_vegetation_in_fires",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegFire",
+      "variable-root": "fvegfire",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9605,7 +9605,7 @@
       "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_mortality",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegLitterMortality",
+      "variable-root": "fveglittermortality",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9631,7 +9631,7 @@
       "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_senescence",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegLitterSenescence",
+      "variable-root": "fveglittersenescence",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9657,7 +9657,7 @@
       "standard-name": "mass_flux_of_carbon_into_litter_from_vegetation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegLitter",
+      "variable-root": "fveglitter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9683,7 +9683,7 @@
       "standard-name": "mass_flux_of_carbon_into_soil_from_vegetation_due_to_mortality",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegSoilMortality",
+      "variable-root": "fvegsoilmortality",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9709,7 +9709,7 @@
       "standard-name": "mass_flux_of_carbon_into_soil_from_vegetation_due_to_senescence",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegSoilSenescence",
+      "variable-root": "fvegsoilsenescence",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -9735,7 +9735,7 @@
       "standard-name": "carbon_mass_flux_into_soil_from_vegetation_excluding_litter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "fVegSoil",
+      "variable-root": "fvegsoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10150,7 +10150,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tsum",
       "units": "%",
-      "variable-root": "fracInLut",
+      "variable-root": "fracinlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10177,7 +10177,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tpt",
       "units": "%",
-      "variable-root": "fracLut",
+      "variable-root": "fraclut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10204,7 +10204,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tsum",
       "units": "%",
-      "variable-root": "fracOutLut",
+      "variable-root": "fracoutlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10413,7 +10413,7 @@
       "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "gppLut",
+      "variable-root": "gpplut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10440,7 +10440,7 @@
       "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "gppVgt",
+      "variable-root": "gppvgt",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10492,7 +10492,7 @@
       "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "gppGrass",
+      "variable-root": "gppgrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10518,7 +10518,7 @@
       "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "gppShrub",
+      "variable-root": "gppshrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10544,7 +10544,7 @@
       "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "gppTree",
+      "variable-root": "gpptree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10623,7 +10623,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "grassFracC3",
+      "variable-root": "grassfracc3",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10650,7 +10650,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "grassFracC4",
+      "variable-root": "grassfracc4",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -10677,7 +10677,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "grassFrac",
+      "variable-root": "grassfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -11491,7 +11491,7 @@
       "standard-name": "surface_upward_latent_heat_flux",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "hflsLut",
+      "variable-root": "hflslut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -11517,7 +11517,7 @@
       "standard-name": "surface_upward_latent_heat_flux",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "hflsIs",
+      "variable-root": "hflsis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -11727,7 +11727,7 @@
       "standard-name": "surface_upward_sensible_heat_flux",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "hfssLut",
+      "variable-root": "hfsslut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -12337,7 +12337,7 @@
       "standard-name": "relative_humidity",
       "temporal-label": "tmin",
       "units": "%",
-      "variable-root": "hursminCrop",
+      "variable-root": "hursmincrop",
       "vertical-label": "h2m",
       "type": [
         "wcrp:variable",
@@ -12732,7 +12732,7 @@
       "standard-name": "land_ice_surface_melt_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "icemIs",
+      "variable-root": "icemis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13408,7 +13408,7 @@
       "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "irrDem",
+      "variable-root": "irrdem",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13434,7 +13434,7 @@
       "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "irrGw",
+      "variable-root": "irrgw",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13461,7 +13461,7 @@
       "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "irrLut",
+      "variable-root": "irrlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13487,7 +13487,7 @@
       "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "irrLut",
+      "variable-root": "irrlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13513,7 +13513,7 @@
       "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "irrSurf",
+      "variable-root": "irrsurf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13650,7 +13650,7 @@
       "standard-name": "leaf_area_index",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "laiLut",
+      "variable-root": "lailut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13677,7 +13677,7 @@
       "standard-name": "leaf_area_index",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "laiVgt",
+      "variable-root": "laivgt",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -13730,7 +13730,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "landCoverFrac",
+      "variable-root": "landcoverfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -16089,7 +16089,7 @@
       "standard-name": "land_ice_runoff_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "mrroLi",
+      "variable-root": "mrroli",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -16115,7 +16115,7 @@
       "standard-name": "runoff_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "mrroIs",
+      "variable-root": "mrrois",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -16326,7 +16326,7 @@
       "standard-name": "mass_content_of_water_in_soil_layer",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "mrsosLut",
+      "variable-root": "mrsoslut",
       "vertical-label": "d10cm",
       "type": [
         "wcrp:variable",
@@ -16934,7 +16934,7 @@
       "standard-name": "mass_content_of_nitrogen_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLand",
+      "variable-root": "nland",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -16960,7 +16960,7 @@
       "standard-name": "leaf_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLeaf",
+      "variable-root": "nleaf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -16986,7 +16986,7 @@
       "standard-name": "wood_debris_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLitterCwd",
+      "variable-root": "nlittercwd",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17012,7 +17012,7 @@
       "standard-name": "subsurface_litter_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLitterSubSurf",
+      "variable-root": "nlittersubsurf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17038,7 +17038,7 @@
       "standard-name": "surface_litter_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLitterSurf",
+      "variable-root": "nlittersurf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17064,7 +17064,7 @@
       "standard-name": "litter_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nLitter",
+      "variable-root": "nlitter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17090,7 +17090,7 @@
       "standard-name": "soil_mass_content_of_inorganic_ammonium_expressed_as_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nMineralNH4",
+      "variable-root": "nmineralnh4",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17116,7 +17116,7 @@
       "standard-name": "soil_mass_content_of_inorganic_nitrate_expressed_as_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nMineralNO3",
+      "variable-root": "nmineralno3",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17142,7 +17142,7 @@
       "standard-name": "soil_mass_content_of_inorganic_nitrogen_expressed_as_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nMineral",
+      "variable-root": "nmineral",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17168,7 +17168,7 @@
       "standard-name": "miscellaneous_living_matter_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nOther",
+      "variable-root": "nother",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17194,7 +17194,7 @@
       "standard-name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nProduct",
+      "variable-root": "nproduct",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17220,7 +17220,7 @@
       "standard-name": "root_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nRoot",
+      "variable-root": "nroot",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17246,7 +17246,7 @@
       "standard-name": "soil_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nSoil",
+      "variable-root": "nsoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17272,7 +17272,7 @@
       "standard-name": "stem_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nStem",
+      "variable-root": "nstem",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17298,7 +17298,7 @@
       "standard-name": "vegetation_mass_content_of_nitrogen",
       "temporal-label": "tavg",
       "units": "kg m-2",
-      "variable-root": "nVeg",
+      "variable-root": "nveg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17375,7 +17375,7 @@
       "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "necbLut",
+      "variable-root": "necblut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17427,7 +17427,7 @@
       "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "netAtmosLandC13Flux",
+      "variable-root": "netatmoslandc13flux",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17453,7 +17453,7 @@
       "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_14C_due_to_all_land_processes",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "netAtmosLandC14Flux",
+      "variable-root": "netatmoslandc14flux",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17479,7 +17479,7 @@
       "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "netAtmosLandCO2Flux",
+      "variable-root": "netatmoslandco2flux",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17799,7 +17799,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_leaves",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppLeaf",
+      "variable-root": "nppleaf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17826,7 +17826,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppLut",
+      "variable-root": "npplut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17852,7 +17852,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_miscellaneous_living_matter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppOther",
+      "variable-root": "nppother",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17878,7 +17878,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_roots",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppRoot",
+      "variable-root": "npproot",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17904,7 +17904,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_stems",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppStem",
+      "variable-root": "nppstem",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17931,7 +17931,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppVgt",
+      "variable-root": "nppvgt",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -17983,7 +17983,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppGrass",
+      "variable-root": "nppgrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -18009,7 +18009,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppShrub",
+      "variable-root": "nppshrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -18035,7 +18035,7 @@
       "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "nppTree",
+      "variable-root": "npptree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -19376,7 +19376,7 @@
       "standard-name": "surface_altitude",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "orogIs",
+      "variable-root": "orogis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -19617,7 +19617,7 @@
       "standard-name": "toa_bidirectional_reflectance",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "parasolRefl",
+      "variable-root": "parasolrefl",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -19644,7 +19644,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "pastureFracC3",
+      "variable-root": "pasturefracc3",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -19671,7 +19671,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "pastureFracC4",
+      "variable-root": "pasturefracc4",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -19698,7 +19698,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "pastureFrac",
+      "variable-root": "pasturefrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -20680,7 +20680,7 @@
       "standard-name": "precipitation_flux_containing_17O",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "pr17O",
+      "variable-root": "pr17o",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -20706,7 +20706,7 @@
       "standard-name": "precipitation_flux_containing_18O",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "pr18O",
+      "variable-root": "pr18o",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -20758,7 +20758,7 @@
       "standard-name": "precipitation_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "prCrop",
+      "variable-root": "prcrop",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -20938,7 +20938,7 @@
       "standard-name": "rainfall_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "prraIs",
+      "variable-root": "prrais",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21068,7 +21068,7 @@
       "standard-name": "solid_precipitation_flux_containing_18O",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "prsn18O",
+      "variable-root": "prsn18o",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21636,7 +21636,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_leaves",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raLeaf",
+      "variable-root": "raleaf",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21663,7 +21663,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raLut",
+      "variable-root": "ralut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21689,7 +21689,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_miscellaneous_living_matter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raOther",
+      "variable-root": "raother",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21715,7 +21715,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_roots",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raRoot",
+      "variable-root": "raroot",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21741,7 +21741,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_stems",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raStem",
+      "variable-root": "rastem",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21768,7 +21768,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raVgt",
+      "variable-root": "ravgt",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21820,7 +21820,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raGrass",
+      "variable-root": "ragrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21846,7 +21846,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raShrub",
+      "variable-root": "rashrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -21872,7 +21872,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "raTree",
+      "variable-root": "ratree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22375,7 +22375,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "residualFrac",
+      "variable-root": "residualfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22401,7 +22401,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_litter",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhLitter",
+      "variable-root": "rhlitter",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22428,7 +22428,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhLut",
+      "variable-root": "rhlut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22454,7 +22454,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhSoil",
+      "variable-root": "rhsoil",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22481,7 +22481,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhVgt",
+      "variable-root": "rhvgt",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22533,7 +22533,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhGrass",
+      "variable-root": "rhgrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22559,7 +22559,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhShrub",
+      "variable-root": "rhshrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22585,7 +22585,7 @@
       "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "rhTree",
+      "variable-root": "rhtree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -22875,7 +22875,7 @@
       "standard-name": "surface_downwelling_longwave_flux_in_air",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "rldsIs",
+      "variable-root": "rldsis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -23267,7 +23267,7 @@
       "standard-name": "surface_upwelling_longwave_flux_in_air",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "rlusIs",
+      "variable-root": "rlusis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -24101,7 +24101,7 @@
       "standard-name": "surface_downwelling_shortwave_flux_in_air",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "rsdsIs",
+      "variable-root": "rsdsis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -24726,7 +24726,7 @@
       "standard-name": "surface_upwelling_shortwave_flux_in_air",
       "temporal-label": "tavg",
       "units": "W m-2",
-      "variable-root": "rsusIs",
+      "variable-root": "rsusis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -25477,7 +25477,7 @@
       "standard-name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "sblIs",
+      "variable-root": "sblis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -25815,7 +25815,7 @@
       "standard-name": "wind_speed",
       "temporal-label": "tavg",
       "units": "m s-1",
-      "variable-root": "sfcWind",
+      "variable-root": "sfcwind",
       "vertical-label": "h10m",
       "type": [
         "wcrp:variable",
@@ -25842,7 +25842,7 @@
       "standard-name": "wind_speed",
       "temporal-label": "tmax",
       "units": "m s-1",
-      "variable-root": "sfcWindmax",
+      "variable-root": "sfcwindmax",
       "vertical-label": "h10m",
       "type": [
         "wcrp:variable",
@@ -25868,7 +25868,7 @@
       "standard-name": "wind_speed",
       "temporal-label": "tpt",
       "units": "m s-1",
-      "variable-root": "sfcWind",
+      "variable-root": "sfcwind",
       "vertical-label": "h10m",
       "type": [
         "wcrp:variable",
@@ -26416,7 +26416,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "shrubFrac",
+      "variable-root": "shrubfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -28754,7 +28754,7 @@
       "standard-name": "surface_snow_area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "sncIs",
+      "variable-root": "sncis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -28910,7 +28910,7 @@
       "standard-name": "surface_snow_melt_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "snmIs",
+      "variable-root": "snmis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -29014,7 +29014,7 @@
       "standard-name": "surface_snow_and_ice_refreezing_flux",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "snicefreezIs",
+      "variable-root": "snicefreezis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -29509,7 +29509,7 @@
       "standard-name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "sw17O",
+      "variable-root": "sw17o",
       "vertical-label": "ol",
       "type": [
         "wcrp:variable",
@@ -29536,7 +29536,7 @@
       "standard-name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "sw18O",
+      "variable-root": "sw18o",
       "vertical-label": "ol",
       "type": [
         "wcrp:variable",
@@ -29563,7 +29563,7 @@
       "standard-name": "isotope_ratio_of_2H_to_1H_in_sea_water_excluding_solutes_and_solids",
       "temporal-label": "tavg",
       "units": "1",
-      "variable-root": "sw2H",
+      "variable-root": "sw2h",
       "vertical-label": "ol",
       "type": [
         "wcrp:variable",
@@ -29616,7 +29616,7 @@
       "standard-name": "lwe_thickness_of_surface_snow_amount",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "sweLut",
+      "variable-root": "swelut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -30013,7 +30013,7 @@
       "standard-name": "air_temperature",
       "temporal-label": "tpt",
       "units": "K",
-      "variable-root": "taUTLS",
+      "variable-root": "tautls",
       "vertical-label": "p5u",
       "type": [
         "wcrp:variable",
@@ -30122,7 +30122,7 @@
       "standard-name": "air_temperature",
       "temporal-label": "tavg",
       "units": "K",
-      "variable-root": "tasLut",
+      "variable-root": "taslut",
       "vertical-label": "h2m",
       "type": [
         "wcrp:variable",
@@ -30200,7 +30200,7 @@
       "standard-name": "air_temperature",
       "temporal-label": "tavg",
       "units": "K",
-      "variable-root": "tasIs",
+      "variable-root": "tasis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -30253,7 +30253,7 @@
       "standard-name": "air_temperature",
       "temporal-label": "tmax",
       "units": "K",
-      "variable-root": "tasmaxCrop",
+      "variable-root": "tasmaxcrop",
       "vertical-label": "h2m",
       "type": [
         "wcrp:variable",
@@ -30307,7 +30307,7 @@
       "standard-name": "air_temperature",
       "temporal-label": "tmin",
       "units": "K",
-      "variable-root": "tasminCrop",
+      "variable-root": "tasmincrop",
       "vertical-label": "h2m",
       "type": [
         "wcrp:variable",
@@ -32985,7 +32985,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "treeFracBdlDcd",
+      "variable-root": "treefracbdldcd",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33012,7 +33012,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "treeFracBdlEvg",
+      "variable-root": "treefracbdlevg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33039,7 +33039,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "treeFracNdlDcd",
+      "variable-root": "treefracndldcd",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33066,7 +33066,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "treeFracNdlEvg",
+      "variable-root": "treefracndlevg",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33093,7 +33093,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "treeFrac",
+      "variable-root": "treefrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33254,7 +33254,7 @@
       "standard-name": "surface_temperature",
       "temporal-label": "tavg",
       "units": "K",
-      "variable-root": "tslsiLut",
+      "variable-root": "tslsilut",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33280,7 +33280,7 @@
       "standard-name": "surface_temperature",
       "temporal-label": "tavg",
       "units": "K",
-      "variable-root": "tsIs",
+      "variable-root": "tsis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33488,7 +33488,7 @@
       "standard-name": "temperature_in_surface_snow",
       "temporal-label": "tavg",
       "units": "K",
-      "variable-root": "tsnIs",
+      "variable-root": "tsnis",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -33835,7 +33835,7 @@
       "standard-name": "eastward_wind",
       "temporal-label": "tpt",
       "units": "m s-1",
-      "variable-root": "uaUTLS",
+      "variable-root": "uautls",
       "vertical-label": "p5u",
       "type": [
         "wcrp:variable",
@@ -34631,7 +34631,7 @@
       "standard-name": "northward_wind",
       "temporal-label": "tpt",
       "units": "m s-1",
-      "variable-root": "vaUTLS",
+      "variable-root": "vautls",
       "vertical-label": "p5u",
       "type": [
         "wcrp:variable",
@@ -34792,7 +34792,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "vegFrac",
+      "variable-root": "vegfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -34818,7 +34818,7 @@
       "standard-name": "canopy_height",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "vegHeightGrass",
+      "variable-root": "vegheightgrass",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -34844,7 +34844,7 @@
       "standard-name": "canopy_height",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "vegHeightShrub",
+      "variable-root": "vegheightshrub",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -34870,7 +34870,7 @@
       "standard-name": "canopy_height",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "vegHeightTree",
+      "variable-root": "vegheighttree",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -34896,7 +34896,7 @@
       "standard-name": "canopy_height",
       "temporal-label": "tavg",
       "units": "m",
-      "variable-root": "vegHeight",
+      "variable-root": "vegheight",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -35740,7 +35740,7 @@
       "standard-name": "surface_net_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_processes",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "wetlandCH4",
+      "variable-root": "wetlandch4",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -35766,7 +35766,7 @@
       "standard-name": "surface_downward_mass_flux_of_methane_due_to_wetland_biological_consumption",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "wetlandCH4cons",
+      "variable-root": "wetlandch4cons",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -35792,7 +35792,7 @@
       "standard-name": "surface_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_production",
       "temporal-label": "tavg",
       "units": "kg m-2 s-1",
-      "variable-root": "wetlandCH4prod",
+      "variable-root": "wetlandch4prod",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
@@ -35819,7 +35819,7 @@
       "standard-name": "area_fraction",
       "temporal-label": "tavg",
       "units": "%",
-      "variable-root": "wetlandFrac",
+      "variable-root": "wetlandfrac",
       "vertical-label": "u",
       "type": [
         "wcrp:variable",
