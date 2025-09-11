@@ -2,7 +2,7 @@
     "id": "siextent_tavg-u-hm-u",
     "validation-key": "siextent_tavg-u-hm-u",
     "ui-label": "Sea-Ice Extent South",
-    "description": "Total integrated area of all Southern Hemisphere grid cells that are covered by at least 15% areal fraction of sea ice (siconc >= 0.15). Does not include grid cells partially covered by land.",
+    "description": "Total integrated area of all grid cells that are covered by at least 15% sea ice (siconc >= 15). Does not include grid cells partially covered by land.",
     "area-label": "u",
     "cell-measures": null,
     "cell-methods": "area: time: mean",
