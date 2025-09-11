@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T11:56:52.789101",
+        "file_creation_date": "2025-09-11T12:01:51.906189",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: b91dab42f6103e25211952d379de4991",
+        "checksum": "md5: 914efb6c3c866b45d7eab1f49e25099a",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "0c87bb559238c5fee169135fbc440bbba1e1559a",
+        "last_commit": "af0e0df8733bddc5556980820f0de993dc3127be",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -7970,48 +7970,6 @@
             "units": "kg m-2 s-1",
             "validation-key": "fg13co2_tavg-u-hxy-sea",
             "variable-root": "fg13co2",
-            "vertical-label": "u"
-        },
-        "fg14co2_tavg-u-hxy-sea": {
-            "area-label": "sea",
-            "cell-measures": "area: areacello",
-            "cell-methods": "vr:cell-method/ mean where sea time: mean",
-            "description": "Gas exchange flux of carbon-14 as CO2 (positive into ocean)",
-            "dimensions": [
-                "longitude",
-                "latitude",
-                "time"
-            ],
-            "horizontal-label": "hxy",
-            "model-realm": "universal:realm/ocnBgchem",
-            "physical-parameter-name": "fg14co2",
-            "standard-name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
-            "temporal-label": "tavg",
-            "ui-label": "Surface Downward Mass Flux of Carbon-14 as 14CO2 [kgC m-2 s-1]",
-            "units": "kg m-2 s-1",
-            "validation-key": "fg14co2_tavg-u-hxy-sea",
-            "variable-root": "fg14co2",
-            "vertical-label": "u"
-        },
-        "fg14co2abio_tavg-u-hxy-sea": {
-            "area-label": "sea",
-            "cell-measures": "area: areacello",
-            "cell-methods": "vr:cell-method/ mean where sea time: mean",
-            "description": "Gas exchange flux of abiotic 14CO2 (positive into ocean)",
-            "dimensions": [
-                "longitude",
-                "latitude",
-                "time"
-            ],
-            "horizontal-label": "hxy",
-            "model-realm": "universal:realm/ocnBgchem",
-            "physical-parameter-name": "fg14co2abio",
-            "standard-name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
-            "temporal-label": "tavg",
-            "ui-label": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
-            "units": "kg m-2 s-1",
-            "validation-key": "fg14co2abio_tavg-u-hxy-sea",
-            "variable-root": "fg14co2abio",
             "vertical-label": "u"
         },
         "fgco2_tavg-u-hxy-sea": {
@@ -22848,7 +22806,7 @@
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/seaIce",
             "physical-parameter-name": "sitemptop",
-            "standard-name": "surfaace_temperature",
+            "standard-name": "sea_ice_surface_temperature",
             "temporal-label": "tavg",
             "ui-label": "Surface Temperature of Sea Ice",
             "units": "K",
