@@ -5,6 +5,7 @@ Extract v1.2.2 of the data request
 from __future__ import annotations
 
 import json
+from collections import defaultdict
 from pathlib import Path
 
 
@@ -27,7 +28,8 @@ def main():
 
     dr_table = dr_release["Data Request v1.2.2"]
     records = dr_table["Variables"]["records"]
-    records_l = []
+    out_info_already_recorded = {}
+    dr_internal_consistency_issues = defaultdict(dict)
     for pid, record in records.items():
         dimensions = tuple(v.strip() for v in record["Dimensions"].split(","))
 
@@ -96,7 +98,7 @@ def main():
             horizontal_label = "u"
             area_label = "u"
 
-        record = {
+        out_info = {
             "id": branded_variable,
             "validation-key": branded_variable,
             "ui-label": description,
@@ -132,13 +134,55 @@ def main():
             "type": ["wcrp:variable", "variable-registry"],
         }
 
-        # records_l.append(record)
+        if branded_variable in out_info_already_recorded:
+            for k in out_info:
+                if out_info[k] != out_info_already_recorded[branded_variable][k]:
+                    rcn = record["CMIP6 Compound Name"]
+                    ecn = out_info_already_recorded[branded_variable][
+                        "CMIP6 Compound Name"
+                    ]
+                    msg = (
+                        f"For {branded_variable=}, "
+                        f"{rcn} and {ecn} disagree. "
+                        f"According to {rcn}, {k} is {out_info[k]}. "
+                        f"According to {ecn}, {k} is {out_info_already_recorded[branded_variable][k]}. "
+                    )
+                    print(msg)
+
+                    if k not in dr_internal_consistency_issues[branded_variable]:
+                        dr_internal_consistency_issues[branded_variable][k] = {}
+
+                    dr_internal_consistency_issues[branded_variable][k][rcn] = out_info[
+                        k
+                    ]
+                    dr_internal_consistency_issues[branded_variable][k][ecn] = (
+                        out_info_already_recorded[branded_variable][k]
+                    )
+
         with open(
             REPO_ROOT / "src-data" / "variable" / f"{branded_variable}.json", "w"
         ) as fh:
-            json.dump(record, fh, indent=4)
+            json.dump(out_info, fh, indent=4)
 
-        # break
+        out_info_already_recorded[branded_variable] = {
+            **out_info,
+            "CMIP6 Compound Name": record["CMIP6 Compound Name"],
+        }
+
+    with open(REPO_ROOT / "DR-1-2-2-internal-consistency-issues.md", "w") as fh:
+        for bv, issues in dr_internal_consistency_issues.items():
+            fh.write(f"**{bv}**\n\n")
+
+            for key in issues:
+                fh.write(f"- {key}\n")
+                for source, value in issues[key].items():
+                    fh.write(f"    - {source}: {value!r}\n")
+
+                fh.write("\n")
+
+            fh.write("\n")
+
+    print(f"{len(dr_internal_consistency_issues)=}")
 
 
 if __name__ == "__main__":
