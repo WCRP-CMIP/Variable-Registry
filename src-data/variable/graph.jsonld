@@ -8023,10 +8023,10 @@
       "id": "esn_tavg-u-hxy-sn",
       "validation-key": "esn_tavg-u-hxy-sn",
       "ui-label": "Snow Evaporation",
-      "description": "Evapotranspiration flux due to conversion of liquid or solid water into vapor at the surface where there is snow on land",
+      "description": "liquid\\_water\\_evaporation\\_flux\\_from\\_surface\\_snow",
       "area-label": "sn",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: mean where snow (on land only) time: mean",
+      "cell-methods": "area: mean where land time: mean",
       "dimensions": [
         "longitude",
         "latitude",
@@ -18424,12 +18424,12 @@
       "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
       "area-label": "u",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean (monthly mean fixed annual cycle)",
+      "cell-methods": "area: mean time: mean within years time: mean over years",
       "dimensions": [
         "longitude",
         "latitude",
         "alevel",
-        "timefxc"
+        "time2"
       ],
       "horizontal-label": "hxy",
       "model-realm": "atmosChem",
