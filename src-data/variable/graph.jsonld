@@ -9922,6 +9922,58 @@
       ]
     },
     {
+      "id": "fg14co2_tavg-u-hxy-sea",
+      "validation-key": "fg14co2_tavg-u-hxy-sea",
+      "ui-label": "Surface Downward Mass Flux of Carbon-14 as 14CO2 [kgC m-2 s-1]",
+      "description": "Gas exchange flux of carbon-14 as CO2 (positive into ocean)",
+      "area-label": "sea",
+      "cell-measures": "area: areacello",
+      "cell-methods": "area: mean where sea time: mean",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "horizontal-label": "hxy",
+      "model-realm": "ocnBgchem",
+      "physical-parameter-name": "fg14co2",
+      "standard-name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+      "temporal-label": "tavg",
+      "units": "kg m-2 s-1",
+      "variable-root": "fg14co2",
+      "vertical-label": "u",
+      "type": [
+        "wcrp:variable",
+        "variable-registry"
+      ]
+    },
+    {
+      "id": "fg14co2abio_tavg-u-hxy-sea",
+      "validation-key": "fg14co2abio_tavg-u-hxy-sea",
+      "ui-label": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
+      "description": "Gas exchange flux of abiotic 14CO2 (positive into ocean)",
+      "area-label": "sea",
+      "cell-measures": "area: areacello",
+      "cell-methods": "area: mean where sea time: mean",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "horizontal-label": "hxy",
+      "model-realm": "ocnBgchem",
+      "physical-parameter-name": "fg14co2abio",
+      "standard-name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+      "temporal-label": "tavg",
+      "units": "kg m-2 s-1",
+      "variable-root": "fg14co2abio",
+      "vertical-label": "u",
+      "type": [
+        "wcrp:variable",
+        "variable-registry"
+      ]
+    },
+    {
       "id": "fgco2_tavg-u-hxy-sea",
       "validation-key": "fgco2_tavg-u-hxy-sea",
       "ui-label": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
@@ -33242,7 +33294,7 @@
       "description": "Snow Surface Temperature",
       "area-label": "sn",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: mean where land time: mean (weighted by snow area)",
+      "cell-methods": "area: time: mean where snow (on land)",
       "dimensions": [
         "longitude",
         "latitude",
