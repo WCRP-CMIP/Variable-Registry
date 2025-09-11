@@ -5,7 +5,7 @@
     "description": "Canopy covered fraction",
     "area-label": "u",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: mean where land time: mean",
+    "cell-methods": "area: time: mean",
     "dimensions": [
         "longitude",
         "latitude",
