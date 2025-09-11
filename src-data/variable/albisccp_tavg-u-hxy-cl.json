@@ -2,10 +2,10 @@
     "id": "albisccp_tavg-u-hxy-cl",
     "validation-key": "albisccp_tavg-u-hxy-cl",
     "ui-label": "ISCCP Mean Cloud Albedo",
-    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+    "description": "Time-means are weighted by the ISCCP Total Cloud Fraction - see cfmip.org/tools-and-data/cosp. Values will be missing where there are no clouds or no sunlight.",
     "area-label": "cl",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: time: mean where cloud",
+    "cell-methods": "area: time: mean where cloud (weighted by the ISCCP total cloud area)",
     "dimensions": [
         "longitude",
         "latitude",
