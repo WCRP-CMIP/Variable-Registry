@@ -2,7 +2,7 @@
     "id": "sci_tavg-u-hxy-u",
     "validation-key": "sci_tavg-u-hxy-u",
     "ui-label": "Fraction of Time Shallow Convection Occurs",
-    "description": "Fraction of time that shallow convection occurs in the grid cell.",
+    "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "area: time: mean",
