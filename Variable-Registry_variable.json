@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T10:32:37.205556",
+        "file_creation_date": "2025-09-11T11:17:50.186411",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: a20512280fbc940189e85132ec9e0b31",
+        "checksum": "md5: bd27807106014737dbf4696fa61c57a9",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "c313be6a84834e3e63b9ba6c6122af50ae98c5cb",
+        "last_commit": "4c90408efc0b9f42205e8a002ad7ac24075ca262",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -271,6 +271,90 @@
             "validation-key": "airmass_tavg-al-hxy-u",
             "variable-root": "airmass",
             "vertical-label": "al"
+        },
+        "albc_tavg-u-hxy-veg": {
+            "area-label": "veg",
+            "cell-measures": "area: areacella",
+            "cell-methods": "vr:cell-method/ mean where land time: mean",
+            "description": "Canopy Albedo",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "horizontal-label": "hxy",
+            "model-realm": "universal:realm/land",
+            "physical-parameter-name": "albc",
+            "standard-name": "canopy_albedo",
+            "temporal-label": "tavg",
+            "ui-label": "Canopy Albedo",
+            "units": "1",
+            "validation-key": "albc_tavg-u-hxy-veg",
+            "variable-root": "albc",
+            "vertical-label": "u"
+        },
+        "albisccp_tavg-u-hxy-cl": {
+            "area-label": "cl",
+            "cell-measures": "area: areacella",
+            "cell-methods": "vr:cell-method/ time: mean where cloud",
+            "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "horizontal-label": "hxy",
+            "model-realm": "universal:realm/atmos",
+            "physical-parameter-name": "albisccp",
+            "standard-name": "cloud_albedo",
+            "temporal-label": "tavg",
+            "ui-label": "ISCCP Mean Cloud Albedo",
+            "units": "1",
+            "validation-key": "albisccp_tavg-u-hxy-cl",
+            "variable-root": "albisccp",
+            "vertical-label": "u"
+        },
+        "albsrfc_tavg-u-hxy-sn": {
+            "area-label": "sn",
+            "cell-measures": "area: areacella area: areacello",
+            "cell-methods": "vr:cell-method/ time: mean where snow (mask=snc)",
+            "description": "This is similar to Eday.albsn, but providing monthly averages",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "horizontal-label": "hxy",
+            "model-realm": "universal:realm/land",
+            "physical-parameter-name": "albsn",
+            "standard-name": "surface_albedo",
+            "temporal-label": "tavg",
+            "ui-label": "Snow Albedo",
+            "units": "1",
+            "validation-key": "albsrfc_tavg-u-hxy-sn",
+            "variable-root": "albsn",
+            "vertical-label": "u"
+        },
+        "albsrfc_tavg-u-hxy-u": {
+            "area-label": "u",
+            "cell-measures": "area: areacella area: areacello",
+            "cell-methods": "vr:cell-method/ time: mean",
+            "description": "surface albedo at grid cell level (i.e. the albedo averaged over all potential subgrid-scale structures) over all wave-bands; this shall apply to all realms (land, ocean, sea ice, land ice)",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "horizontal-label": "hxy",
+            "model-realm": "universal:realm/atmos",
+            "physical-parameter-name": "albsrfc",
+            "standard-name": "surface_albedo",
+            "temporal-label": "tavg",
+            "ui-label": "Monthly Albedo of the Surface",
+            "units": "1",
+            "validation-key": "albsrfc_tavg-u-hxy-u",
+            "variable-root": "albsrfc",
+            "vertical-label": "u"
         },
         "aoanh_tavg-al-hxy-u": {
             "area-label": "u",
@@ -3139,7 +3223,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP _clisccp _variable.",
+            "description": "MODIS Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3153,7 +3237,7 @@
             "standard-name": "modis_cloud_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "MODIS Cloud Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "clmodis_tavg-p7c-hxy-air",
             "variable-root": "clmodis",
             "vertical-label": "p7c"
@@ -3162,7 +3246,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Percentage ice-cloud cover as seen by the MODIS instrument simulator. Dimensions of cloud IWP (cloud ice water path) and r\\_eff (effective droplet size). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
+            "description": "MODIS Ice Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3176,7 +3260,7 @@
             "standard-name": "modis_ice_topped_cloud_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "MODIS Ice Topped Cloud Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "clmodisiceReff_tavg-u-hxy-u",
             "variable-root": "clmodisiceReff",
             "vertical-label": "u"
@@ -3185,7 +3269,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage ice-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same as used by clisccp output from the ISCCP satellite simulator.",
+            "description": "MODIS Ice Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3199,7 +3283,7 @@
             "standard-name": "modis_ice_topped_cloud_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "MODIS Ice Topped Cloud Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "clmodisice_tavg-p7c-hxy-air",
             "variable-root": "clmodisice",
             "vertical-label": "p7c"
@@ -3208,7 +3292,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Percentage liquid-cloud cover as seen by the MODIS instrument simulator. Dimensions of LWP (cloud liquid water path) and r\\_eff (droplet effective radius). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
+            "description": "MODIS Liquid Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3222,7 +3306,7 @@
             "standard-name": "modis_liquid_topped_cloud_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "clmodisliquidReff_tavg-u-hxy-u",
             "variable-root": "clmodisliquidReff",
             "vertical-label": "u"
@@ -3231,7 +3315,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage liquid-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by clisccp (ISCCP simulator).",
+            "description": "MODIS Liquid Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3245,7 +3329,7 @@
             "standard-name": "modis_liquid_topped_cloud_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "clmodisliquid_tavg-p7c-hxy-air",
             "variable-root": "clmodisliquid",
             "vertical-label": "p7c"
@@ -21313,7 +21397,7 @@
             "area-label": "u",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Areal fraction of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
+            "description": "Percentage of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -21325,7 +21409,7 @@
             "standard-name": "sea_ice_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "Sea-Ice Area Fraction (Ocean Grid)",
-            "units": "1",
+            "units": "%",
             "validation-key": "siconc_tavg-u-hxy-u",
             "variable-root": "siconc",
             "vertical-label": "u"
@@ -21690,7 +21774,7 @@
         "siextent_tavg-u-hm-u": {
             "area-label": "u",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Total integrated area of all Southern Hemisphere grid cells that are covered by at least 15% areal fraction of sea ice (siconc >= 0.15). Does not include grid cells partially covered by land.",
+            "description": "Total integrated area of all grid cells that are covered by at least 15% sea ice (siconc >= 15). Does not include grid cells partially covered by land.",
             "dimensions": "time",
             "horizontal-label": "hm",
             "model-realm": "universal:realm/seaIce",
@@ -22085,7 +22169,7 @@
             "area-label": "u",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siconc)",
-            "description": "Area fraction of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+            "description": "Percentage of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -22098,7 +22182,7 @@
             "standard-name": "sea_ice_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "Sea-Ice Area Fractions in Ice Thickness Categories",
-            "units": "1",
+            "units": "%",
             "validation-key": "siitdconc_tavg-u-hxy-u",
             "variable-root": "siitdconc",
             "vertical-label": "u"
@@ -22107,7 +22191,7 @@
             "area-label": "si",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siitdconc)",
-            "description": "Area fraction of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+            "description": "Percentage of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -22120,7 +22204,7 @@
             "standard-name": "surface_snow_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "Snow Area Fractions in Ice Thickness Categories",
-            "units": "1",
+            "units": "%",
             "validation-key": "siitdsnconc_tavg-u-hxy-si",
             "variable-root": "siitdsnconc",
             "vertical-label": "u"
@@ -23042,7 +23126,7 @@
             "area-label": "si",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siconc)",
-            "description": "Area fraction of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve an areal fraction of snow, this variable will always be either 0 or 1.",
+            "description": "Percentage of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve a percentage of snow, this variable will always be either 0 or 100.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -23054,7 +23138,7 @@
             "standard-name": "surface_snow_area_fraction",
             "temporal-label": "tavg",
             "ui-label": "Snow Area Fraction",
-            "units": "1",
+            "units": "%",
             "validation-key": "snc_tavg-u-hxy-si",
             "variable-root": "sisnconc",
             "vertical-label": "u"
