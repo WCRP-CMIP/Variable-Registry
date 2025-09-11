@@ -4045,7 +4045,7 @@
       "physical-parameter-name": "clmodis",
       "standard-name": "modis_cloud_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "clmodis",
       "vertical-label": "p7c",
       "type": [
@@ -4057,7 +4057,7 @@
       "id": "clmodisiceReff_tavg-u-hxy-u",
       "validation-key": "clmodisiceReff_tavg-u-hxy-u",
       "ui-label": "MODIS Ice Topped Cloud Area Fraction",
-      "description": "MODIS Ice Topped Cloud Area Percentage",
+      "description": "Percentage ice-cloud cover as seen by the MODIS instrument simulator. Dimensions of cloud IWP (cloud ice water path) and r\\_eff (effective droplet size). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
       "area-label": "u",
       "cell-measures": "area: areacella",
       "cell-methods": "area: time: mean",
@@ -4073,7 +4073,7 @@
       "physical-parameter-name": "clmodisiceReff",
       "standard-name": "modis_ice_topped_cloud_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "clmodisiceReff",
       "vertical-label": "u",
       "type": [
@@ -4101,7 +4101,7 @@
       "physical-parameter-name": "clmodisice",
       "standard-name": "modis_ice_topped_cloud_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "clmodisice",
       "vertical-label": "p7c",
       "type": [
@@ -4113,7 +4113,7 @@
       "id": "clmodisliquidReff_tavg-u-hxy-u",
       "validation-key": "clmodisliquidReff_tavg-u-hxy-u",
       "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
-      "description": "MODIS Liquid Topped Cloud Area Percentage",
+      "description": "Percentage liquid-cloud cover as seen by the MODIS instrument simulator. Dimensions of LWP (cloud liquid water path) and r\\_eff (droplet effective radius). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
       "area-label": "u",
       "cell-measures": "area: areacella",
       "cell-methods": "area: time: mean",
@@ -4129,7 +4129,7 @@
       "physical-parameter-name": "clmodisliquidReff",
       "standard-name": "modis_liquid_topped_cloud_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "clmodisliquidReff",
       "vertical-label": "u",
       "type": [
@@ -4157,7 +4157,7 @@
       "physical-parameter-name": "clmodisliquid",
       "standard-name": "modis_liquid_topped_cloud_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "clmodisliquid",
       "vertical-label": "p7c",
       "type": [
@@ -21938,7 +21938,7 @@
       "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
       "area-label": "ccl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where convective_cloud",
+      "cell-methods": "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -21964,7 +21964,7 @@
       "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
       "area-label": "ccl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where convective_cloud",
+      "cell-methods": "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -22310,7 +22310,7 @@
       "description": "Droplets are liquid only.  This is the effective radius \"as seen from space\" over liquid cloudy portion of grid cell. This is the value from uppermost model layer with liquid cloud or, if available, or for some models it is the sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere.TOA) each time sample when computing monthly mean. Reported values are weighted by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.",
       "area-label": "u",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean",
+      "cell-methods": "area: time: mean where liquid_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -22336,7 +22336,7 @@
       "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
       "area-label": "scl",
       "cell-measures": "area: areacella",
-      "cell-methods": "area: time: mean where stratiform_cloud",
+      "cell-methods": "area: time: mean where stratiform_cloud (weighted by area of upper-most cloud layer)",
       "dimensions": [
         "longitude",
         "latitude",
@@ -26647,7 +26647,7 @@
       "physical-parameter-name": "siconc",
       "standard-name": "sea_ice_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "siconc",
       "vertical-label": "u",
       "type": [
@@ -27608,7 +27608,7 @@
       "physical-parameter-name": "siitdconc",
       "standard-name": "sea_ice_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "siitdconc",
       "vertical-label": "u",
       "type": [
@@ -27635,7 +27635,7 @@
       "physical-parameter-name": "siitdsnconc",
       "standard-name": "surface_snow_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "siitdsnconc",
       "vertical-label": "u",
       "type": [
@@ -28805,7 +28805,7 @@
       "physical-parameter-name": "sisnconc",
       "standard-name": "surface_snow_area_fraction",
       "temporal-label": "tavg",
-      "units": "%",
+      "units": "1",
       "variable-root": "sisnconc",
       "vertical-label": "u",
       "type": [
