@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T12:32:48.900565",
+        "file_creation_date": "2025-09-11T12:36:53.934112",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 3e19f87f83ab8b7a8ea601e7f62f87ee",
+        "checksum": "md5: 2f3c422fc9bd5cde07df3ad5cf839081",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "3a411749b3ff18c0568f27533ee18b1840a5e056",
+        "last_commit": "bda681e587becc882aae644dc808bcf91bddd996",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -14791,7 +14791,7 @@
         "o3ref_tclm-al-hxy-u": {
             "area-label": "u",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean time: mean within years time: mean over years",
+            "cell-methods": "vr:cell-method/ time: mean (monthly mean fixed annual cycle)",
             "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
             "dimensions": [
                 "longitude",
@@ -20561,7 +20561,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that shallow convection occurs in the grid cell.",
+            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20581,7 +20581,7 @@
         "sci_tavg-u-hxys-u": {
             "area-label": "u",
             "cell-methods": "vr:cell-method/ point time: point",
-            "description": "Fraction of time that shallow convection occurs in the grid cell.",
+            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
             "dimensions": [
                 "site",
                 "time1"
