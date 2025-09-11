@@ -5,7 +5,7 @@
     "description": "Snow Surface Temperature",
     "area-label": "sn",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: mean where land time: mean (weighted by snow area)",
+    "cell-methods": "area: time: mean where snow (on land)",
     "dimensions": [
         "longitude",
         "latitude",

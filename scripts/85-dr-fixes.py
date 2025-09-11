@@ -16,8 +16,7 @@ def main():
 
     for branded_variable, new_cell_methods in (
         (
-            # There is no tsns variable, what are we meant to do here?
-            "?",
+            "ts_tavg-u-hxy-sn",
             "area: time: mean where snow (on land)",
         ),
     ):
