@@ -2,10 +2,10 @@
     "id": "esn_tavg-u-hxy-sn",
     "validation-key": "esn_tavg-u-hxy-sn",
     "ui-label": "Snow Evaporation",
-    "description": "liquid\\_water\\_evaporation\\_flux\\_from\\_surface\\_snow",
+    "description": "Evapotranspiration flux due to conversion of liquid or solid water into vapor at the surface where there is snow on land",
     "area-label": "sn",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: mean where land time: mean",
+    "cell-methods": "area: mean where snow (on land only) time: mean",
     "dimensions": [
         "longitude",
         "latitude",
