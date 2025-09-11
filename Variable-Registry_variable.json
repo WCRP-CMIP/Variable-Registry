@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T11:37:43.289075",
+        "file_creation_date": "2025-09-11T11:48:43.016005",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: dccc616b022c26a159a081f46a9f89f3",
+        "checksum": "md5: e061c2ba3d9f6a56e60f3ff020effb49",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "b206258e108f2494b23f3632391ca0c0c60693f7",
+        "last_commit": "0a135ee87820e7651c6a3145c73fe55c7f62b649",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -1590,27 +1590,6 @@
             "units": "kg m-2",
             "validation-key": "cVeg_tavg-u-hxy-tree",
             "variable-root": "cVegTree",
-            "vertical-label": "u"
-        },
-        "cWood_tavg-u-hxy-lnd": {
-            "area-label": "lnd",
-            "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean where land time: mean",
-            "description": "Carbon Mass in Wood",
-            "dimensions": [
-                "longitude",
-                "latitude",
-                "time"
-            ],
-            "horizontal-label": "hxy",
-            "model-realm": "universal:realm/land",
-            "physical-parameter-name": "cWood",
-            "standard-name": "stem_mass_content_of_carbon",
-            "temporal-label": "tavg",
-            "ui-label": "Carbon Mass in Wood",
-            "units": "kg m-2",
-            "validation-key": "cWood_tavg-u-hxy-lnd",
-            "variable-root": "cWood",
             "vertical-label": "u"
         },
         "calc_tavg-d0m-hxy-sea": {
@@ -17630,7 +17609,7 @@
         "reffcclwtop_tavg-u-hxy-ccl": {
             "area-label": "ccl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
+            "cell-methods": "vr:cell-method/ time: mean where convective_cloud",
             "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
             "dimensions": [
                 "longitude",
@@ -17651,7 +17630,7 @@
         "reffccwctop_tavg-u-hxy-ccl": {
             "area-label": "ccl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
+            "cell-methods": "vr:cell-method/ time: mean where convective_cloud",
             "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
             "dimensions": [
                 "longitude",
@@ -17928,7 +17907,7 @@
         "reffclwtop_tavg-u-hxy-u": {
             "area-label": "u",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where liquid_cloud (weighted by area of upper-most cloud layer)",
+            "cell-methods": "vr:cell-method/ time: mean",
             "description": "Droplets are liquid only.  This is the effective radius \"as seen from space\" over liquid cloudy portion of grid cell. This is the value from uppermost model layer with liquid cloud or, if available, or for some models it is the sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere.TOA) each time sample when computing monthly mean. Reported values are weighted by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.",
             "dimensions": [
                 "longitude",
@@ -17949,7 +17928,7 @@
         "reffsclwtop_tavg-u-hxy-scl": {
             "area-label": "scl",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean where stratiform_cloud (weighted by area of upper-most cloud layer)",
+            "cell-methods": "vr:cell-method/ time: mean where stratiform_cloud",
             "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
             "dimensions": [
                 "longitude",
