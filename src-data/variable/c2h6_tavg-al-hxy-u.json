@@ -1,0 +1,28 @@
+{
+    "id": "c2h6_tavg-al-hxy-u",
+    "validation-key": "c2h6_tavg-al-hxy-u",
+    "ui-label": "C2H6 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "c2h6",
+    "standard-name": "mole_fraction_of_ethane_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "c2h6",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

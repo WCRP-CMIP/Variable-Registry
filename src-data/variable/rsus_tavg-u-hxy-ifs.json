@@ -1,0 +1,27 @@
+{
+    "id": "rsus_tavg-u-hxy-ifs",
+    "validation-key": "rsus_tavg-u-hxy-ifs",
+    "ui-label": "Surface Upwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
+    "description": "Surface Upwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
+    "area-label": "ifs",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: time: mean where ice_free_sea over sea",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "rsusoni",
+    "standard-name": "surface_upwelling_shortwave_flux_in_air",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "rsusoni",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

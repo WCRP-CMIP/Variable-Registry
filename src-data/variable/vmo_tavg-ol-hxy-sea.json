@@ -1,0 +1,28 @@
+{
+    "id": "vmo_tavg-ol-hxy-sea",
+    "validation-key": "vmo_tavg-ol-hxy-sea",
+    "ui-label": "Ocean Mass Y Transport",
+    "description": "Y-ward mass transport from residual mean (resolved plus parameterized) advective transport.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "vmo",
+    "standard-name": "ocean_mass_y_transport",
+    "temporal-label": "tavg",
+    "units": "kg s-1",
+    "variable-root": "vmo",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

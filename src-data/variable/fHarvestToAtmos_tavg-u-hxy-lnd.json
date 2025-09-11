@@ -1,0 +1,27 @@
+{
+    "id": "fHarvestToAtmos_tavg-u-hxy-lnd",
+    "validation-key": "fHarvestToAtmos_tavg-u-hxy-lnd",
+    "ui-label": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fHarvestToAtmos",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "fharvesttoatmos",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

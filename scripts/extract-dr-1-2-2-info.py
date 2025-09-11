@@ -128,7 +128,7 @@ def main():
             # # Drop ?
             # "temporal-shape"
             "units": units,
-            "variable-root": variable_root,
+            "variable-root": variable_root.lower(),
             "vertical-label": vertical_label,
             "@context": "_context_",
             "type": ["wcrp:variable", "variable-registry"],

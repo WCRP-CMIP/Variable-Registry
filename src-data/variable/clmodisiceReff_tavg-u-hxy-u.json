@@ -1,0 +1,29 @@
+{
+    "id": "clmodisiceReff_tavg-u-hxy-u",
+    "validation-key": "clmodisiceReff_tavg-u-hxy-u",
+    "ui-label": "MODIS Ice Topped Cloud Area Fraction",
+    "description": "Percentage ice-cloud cover as seen by the MODIS instrument simulator. Dimensions of cloud IWP (cloud ice water path) and r\\_eff (effective droplet size). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "effectRadIc",
+        "tau",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "clmodisiceReff",
+    "standard-name": "modis_ice_topped_cloud_area_fraction",
+    "temporal-label": "tavg",
+    "units": "1",
+    "variable-root": "clmodisicereff",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

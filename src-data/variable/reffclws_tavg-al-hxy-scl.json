@@ -1,0 +1,28 @@
+{
+    "id": "reffclws_tavg-al-hxy-scl",
+    "validation-key": "reffclws_tavg-al-hxy-scl",
+    "ui-label": "Stratiform Cloud Liquid Droplet Effective Radius",
+    "description": "Droplets are liquid.  The effective radius is defined as the ratio of the third moment over the second moment of the particle size distribution and the time-mean should be calculated, weighting the individual samples by the cloudy fraction of the grid cell.",
+    "area-label": "scl",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean where stratiform_cloud",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "reffclws",
+    "standard-name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
+    "temporal-label": "tavg",
+    "units": "m",
+    "variable-root": "reffclws",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

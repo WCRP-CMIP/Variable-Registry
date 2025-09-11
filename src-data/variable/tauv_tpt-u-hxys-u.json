@@ -1,0 +1,26 @@
+{
+    "id": "tauv_tpt-u-hxys-u",
+    "validation-key": "tauv_tpt-u-hxys-u",
+    "ui-label": "Surface Downward Northward Wind Stress",
+    "description": "Downward northward wind stress at the surface",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tauv",
+    "standard-name": "surface_downward_northward_stress",
+    "temporal-label": "tpt",
+    "units": "Pa",
+    "variable-root": "tauv",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -96,7 +96,7 @@
     - ImonGre.rlus: 'rlus'
 
 - variable-root
-    - LImon.rlusIs: 'rlusIs'
+    - LImon.rlusIs: 'rlusis'
     - ImonGre.rlus: 'rlus'
 
 
@@ -143,7 +143,7 @@
     - ImonGre.rsds: 'rsds'
 
 - variable-root
-    - LImon.rsdsIs: 'rsdsIs'
+    - LImon.rsdsIs: 'rsdsis'
     - ImonGre.rsds: 'rsds'
 
 
@@ -220,7 +220,7 @@
     - ImonGre.rsus: 'rsus'
 
 - variable-root
-    - LImon.rsusIs: 'rsusIs'
+    - LImon.rsusIs: 'rsusis'
     - ImonGre.rsus: 'rsus'
 
 
@@ -304,7 +304,7 @@
     - ImonGre.sbl: 'sbl'
 
 - variable-root
-    - LImon.sblIs: 'sblIs'
+    - LImon.sblIs: 'sblis'
     - ImonGre.sbl: 'sbl'
 
 
@@ -454,7 +454,7 @@
 
 - variable-root
     - ImonAnt.hfss: 'hfss'
-    - LImon.hfssIs: 'hfssIs'
+    - LImon.hfssIs: 'hfssis'
 
 
 **hfls_tavg-u-hxy-u**
@@ -500,7 +500,7 @@
     - ImonAnt.hfls: 'hfls'
 
 - variable-root
-    - LImon.hflsIs: 'hflsIs'
+    - LImon.hflsIs: 'hflsis'
     - ImonAnt.hfls: 'hfls'
 
 
@@ -558,7 +558,7 @@
     - ImonAnt.icem: 'icem'
 
 - variable-root
-    - LImon.icemIs: 'icemIs'
+    - LImon.icemIs: 'icemis'
     - ImonAnt.icem: 'icem'
 
 
@@ -692,7 +692,7 @@
     - ImonAnt.litemptop: 'litemptop'
 
 - variable-root
-    - LImon.litemptopIs: 'litemptopIs'
+    - LImon.litemptopIs: 'litemptopis'
     - IyrGre.litemptop: 'litemptop'
     - ImonAnt.litemptop: 'litemptop'
 
@@ -870,7 +870,7 @@
     - IyrGre.orog: 'orog'
 
 - variable-root
-    - LImon.orogIs: 'orogIs'
+    - LImon.orogIs: 'orogis'
     - IyrGre.orog: 'orog'
 
 
@@ -1012,7 +1012,7 @@
     - ImonGre.prra: 'prra'
 
 - variable-root
-    - LImon.prraIs: 'prraIs'
+    - LImon.prraIs: 'prrais'
     - ImonGre.prra: 'prra'
 
 
@@ -1073,7 +1073,7 @@
 
 - variable-root
     - ImonAnt.prsn: 'prsn'
-    - LImon.prsnIs: 'prsnIs'
+    - LImon.prsnIs: 'prsnis'
 
 
 **ps_tpt-u-hxy-u**
@@ -1169,7 +1169,7 @@
     - ImonGre.rlds: 'rlds'
 
 - variable-root
-    - LImon.rldsIs: 'rldsIs'
+    - LImon.rldsIs: 'rldsis'
     - ImonGre.rlds: 'rlds'
 
 
@@ -1249,7 +1249,7 @@
     - IyrGre.acabf: 'acabf'
 
 - variable-root
-    - LImon.acabfIs: 'acabfIs'
+    - LImon.acabfIs: 'acabfis'
     - IyrAnt.acabf: 'acabf'
     - IyrGre.acabf: 'acabf'
 
@@ -1690,7 +1690,7 @@
     - IyrAnt.snc: 'snc'
 
 - variable-root
-    - LImon.sncIs: 'sncIs'
+    - LImon.sncIs: 'sncis'
     - IyrAnt.snc: 'snc'
 
 
@@ -1750,7 +1750,7 @@
     - ImonGre.snm: 'snm'
 
 - variable-root
-    - LImon.snmIs: 'snmIs'
+    - LImon.snmIs: 'snmis'
     - ImonGre.snm: 'snm'
 
 
@@ -1785,7 +1785,7 @@
     - ImonGre.snicefreez: 'snicefreez'
 
 - variable-root
-    - LImon.snicefreezIs: 'snicefreezIs'
+    - LImon.snicefreezIs: 'snicefreezis'
     - ImonGre.snicefreez: 'snicefreez'
 
 
@@ -1814,7 +1814,7 @@
 
 - variable-root
     - ImonAnt.snicem: 'snicem'
-    - LImon.snicemIs: 'snicemIs'
+    - LImon.snicemIs: 'snicemis'
 
 
 **so_tavg-ol-hxy-sea**
@@ -2080,7 +2080,7 @@
     - ImonAnt.ts: 'ts'
 
 - variable-root
-    - LImon.tsIs: 'tsIs'
+    - LImon.tsIs: 'tsis'
     - ImonAnt.ts: 'ts'
 
 
@@ -2119,7 +2119,7 @@
     - ImonGre.tsn: 'tsn'
 
 - variable-root
-    - LImon.tsnIs: 'tsnIs'
+    - LImon.tsnIs: 'tsnis'
     - ImonGre.tsn: 'tsn'
 
 

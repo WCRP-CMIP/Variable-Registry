@@ -1,0 +1,27 @@
+{
+    "id": "wetnh4_tavg-u-hxy-u",
+    "validation-key": "wetnh4_tavg-u-hxy-u",
+    "ui-label": "Wet Deposition Rate of NH4",
+    "description": "Surface deposition rate of ammonium (NH4) due to wet processes",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "wetnh4",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_wet_deposition",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "wetnh4",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

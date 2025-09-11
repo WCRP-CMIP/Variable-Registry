@@ -1,0 +1,28 @@
+{
+    "id": "treeFrac_tavg-u-hxy-u",
+    "validation-key": "treeFrac_tavg-u-hxy-u",
+    "ui-label": "Tree Cover Percentage",
+    "description": "fraction of entire grid cell  that is covered by trees.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typetree"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "treeFrac",
+    "standard-name": "area_fraction",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "treefrac",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

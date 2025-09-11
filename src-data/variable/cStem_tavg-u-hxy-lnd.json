@@ -1,0 +1,27 @@
+{
+    "id": "cStem_tavg-u-hxy-lnd",
+    "validation-key": "cStem_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Stem",
+    "description": "including sapwood and hardwood.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "cStem",
+    "standard-name": "stem_mass_content_of_carbon",
+    "temporal-label": "tavg",
+    "units": "kg m-2",
+    "variable-root": "cstem",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

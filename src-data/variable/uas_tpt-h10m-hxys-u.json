@@ -1,0 +1,27 @@
+{
+    "id": "uas_tpt-h10m-hxys-u",
+    "validation-key": "uas_tpt-h10m-hxys-u",
+    "ui-label": "Eastward Near-Surface Wind",
+    "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "site",
+        "time1",
+        "height10m"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "uas",
+    "standard-name": "eastward_wind",
+    "temporal-label": "tpt",
+    "units": "m s-1",
+    "variable-root": "uas",
+    "vertical-label": "h10m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

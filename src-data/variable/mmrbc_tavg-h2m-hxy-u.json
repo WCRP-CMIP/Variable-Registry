@@ -1,0 +1,28 @@
+{
+    "id": "mmrbc_tavg-h2m-hxy-u",
+    "validation-key": "mmrbc_tavg-h2m-hxy-u",
+    "ui-label": "Daily mean surface BC ",
+    "description": "Daily mean elemental carbon mass mixing ratio in lowest model layer",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowerModelLayer"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "mmrbc",
+    "standard-name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "units": "kg kg-1",
+    "variable-root": "mmrbc",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

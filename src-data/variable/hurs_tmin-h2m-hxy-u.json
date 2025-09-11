@@ -1,0 +1,28 @@
+{
+    "id": "hurs_tmin-h2m-hxy-u",
+    "validation-key": "hurs_tmin-h2m-hxy-u",
+    "ui-label": "Daily Minimum Near-Surface Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean time: minimum",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "hursmin",
+    "standard-name": "relative_humidity",
+    "temporal-label": "tmin",
+    "units": "%",
+    "variable-root": "hursmin",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

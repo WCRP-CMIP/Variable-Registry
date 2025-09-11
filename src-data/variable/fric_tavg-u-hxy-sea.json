@@ -1,0 +1,27 @@
+{
+    "id": "fric_tavg-u-hxy-sea",
+    "validation-key": "fric_tavg-u-hxy-sea",
+    "ui-label": "Downward Inorganic Carbon Flux at Ocean Bottom",
+    "description": "Inorganic Carbon loss to sediments",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "physical-parameter-name": "fric",
+    "standard-name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
+    "temporal-label": "tavg",
+    "units": "mol m-2 s-1",
+    "variable-root": "fric",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

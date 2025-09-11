@@ -1,0 +1,28 @@
+{
+    "id": "tntrs_tavg-al-hxy-u",
+    "validation-key": "tntrs_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+    "description": "shortwave heating rates",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tntrs",
+    "standard-name": "tendency_of_air_temperature_due_to_shortwave_heating",
+    "temporal-label": "tavg",
+    "units": "K s-1",
+    "variable-root": "tntrs",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

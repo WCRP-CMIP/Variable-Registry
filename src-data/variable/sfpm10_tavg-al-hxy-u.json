@@ -1,0 +1,28 @@
+{
+    "id": "sfpm10_tavg-al-hxy-u",
+    "validation-key": "sfpm10_tavg-al-hxy-u",
+    "ui-label": "PM10 Mass Mixing Ratio",
+    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 10 micrometers",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "mmrpm10",
+    "standard-name": "mass_fraction_of_pm10_ambient_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "units": "kg kg-1",
+    "variable-root": "mmrpm10",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

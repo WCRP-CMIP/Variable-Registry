@@ -1,0 +1,27 @@
+{
+    "id": "n2o_tavg-p39-hy-air",
+    "validation-key": "n2o_tavg-p39-hy-air",
+    "ui-label": "Mole Fraction of N2O",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.   The chemical formula of  nitrous oxide is N2O.",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "n2o",
+    "standard-name": "mole_fraction_of_nitrous_oxide_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "n2o",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

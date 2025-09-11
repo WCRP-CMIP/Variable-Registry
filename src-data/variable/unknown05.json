@@ -1,0 +1,27 @@
+{
+    "id": "unknown05",
+    "validation-key": "unknown05",
+    "ui-label": "Total Wave Peak Period",
+    "description": "Wave period associated with the most energetic waves in total wave spectrum, incorporating both wind-sea and swell waves.\u00a0In spectral wind wave models,\u00a0this represents the spectral peak\u00a0across the entire two-dimensional wave spectrum, incorporating both wind-sea and swell waves.",
+    "area-label": "u",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "horizontal-label": "u",
+    "model-realm": "ocean",
+    "physical-parameter-name": "wpp",
+    "standard-name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+    "temporal-label": "u",
+    "units": "s",
+    "variable-root": "wpp",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

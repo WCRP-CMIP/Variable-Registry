@@ -1,0 +1,27 @@
+{
+    "id": "emic3h6_tavg-u-hxy-u",
+    "validation-key": "emic3h6_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C3H6",
+    "description": "This is the total emission rate of propene (C3H6) into the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "emic3h6",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_propene_due_to_emission",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "emic3h6",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

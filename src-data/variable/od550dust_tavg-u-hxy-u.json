@@ -1,0 +1,28 @@
+{
+    "id": "od550dust_tavg-u-hxy-u",
+    "validation-key": "od550dust_tavg-u-hxy-u",
+    "ui-label": "Dust Optical Thickness at 550nm",
+    "description": "Total aerosol AOD due to dust aerosol at a wavelength of 550 nanometres.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "od550dust",
+    "standard-name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
+    "temporal-label": "tavg",
+    "units": "1",
+    "variable-root": "od550dust",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

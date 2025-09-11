@@ -1,0 +1,27 @@
+{
+    "id": "tntrl_tpt-al-hxys-u",
+    "validation-key": "tntrl_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Longwave Radiative Heating",
+    "description": "alevel site time1",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tntrl",
+    "standard-name": "tendency_of_air_temperature_due_to_longwave_heating",
+    "temporal-label": "tpt",
+    "units": "K s-1",
+    "variable-root": "tntrl",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

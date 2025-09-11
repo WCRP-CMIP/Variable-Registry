@@ -1,0 +1,26 @@
+{
+    "id": "rsdscs_tpt-u-hxys-u",
+    "validation-key": "rsdscs_tpt-u-hxys-u",
+    "ui-label": "Surface Downwelling Clear-Sky Shortwave Radiation",
+    "description": "Surface solar irradiance clear sky for UV calculations",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "rsdscs",
+    "standard-name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "temporal-label": "tpt",
+    "units": "W m-2",
+    "variable-root": "rsdscs",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

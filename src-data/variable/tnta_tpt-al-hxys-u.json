@@ -1,0 +1,27 @@
+{
+    "id": "tnta_tpt-al-hxys-u",
+    "validation-key": "tnta_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Advection",
+    "description": "Tendency of Air Temperature due to Advection",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tnta",
+    "standard-name": "tendency_of_air_temperature_due_to_advection",
+    "temporal-label": "tpt",
+    "units": "K s-1",
+    "variable-root": "tnta",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

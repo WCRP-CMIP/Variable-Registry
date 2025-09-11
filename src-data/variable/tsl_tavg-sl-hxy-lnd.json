@@ -1,0 +1,28 @@
+{
+    "id": "tsl_tavg-sl-hxy-lnd",
+    "validation-key": "tsl_tavg-sl-hxy-lnd",
+    "ui-label": "Temperature of Soil",
+    "description": "Temperature of each soil layer.  Reported as \"missing\" for grid cells occupied entirely by \"sea\".",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "tsl",
+    "standard-name": "soil_temperature",
+    "temporal-label": "tavg",
+    "units": "K",
+    "variable-root": "tsl",
+    "vertical-label": "sl",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

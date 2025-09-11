@@ -1,0 +1,27 @@
+{
+    "id": "emiach4_tavg-u-hxy-u",
+    "validation-key": "emiach4_tavg-u-hxy-u",
+    "ui-label": "anthropogenic emission rate of CH4",
+    "description": "Anthropogenic emission rate of methane (CH4) into the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "emiach4",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_methane_due_to_emission",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "emiach4",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

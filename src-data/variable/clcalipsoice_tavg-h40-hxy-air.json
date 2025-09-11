@@ -1,0 +1,28 @@
+{
+    "id": "clcalipsoice_tavg-h40-hxy-air",
+    "validation-key": "clcalipsoice_tavg-h40-hxy-air",
+    "ui-label": "CALIPSO Ice Cloud Percentage",
+    "description": "CALIPSO Ice Cloud Fraction",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean where air",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "clcalipsoice",
+    "standard-name": "ice_cloud_area_fraction_in_atmosphere_layer",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "clcalipsoice",
+    "vertical-label": "h40",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

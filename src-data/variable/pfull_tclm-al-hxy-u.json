@@ -1,0 +1,28 @@
+{
+    "id": "pfull_tclm-al-hxy-u",
+    "validation-key": "pfull_tclm-al-hxy-u",
+    "ui-label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean time: mean within years time: mean over years",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time2"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "pfull",
+    "standard-name": "air_pressure",
+    "temporal-label": "tclm",
+    "units": "Pa",
+    "variable-root": "pfull",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

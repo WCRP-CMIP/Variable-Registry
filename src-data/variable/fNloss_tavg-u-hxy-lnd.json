@@ -1,0 +1,27 @@
+{
+    "id": "fNloss_tavg-u-hxy-lnd",
+    "validation-key": "fNloss_tavg-u-hxy-lnd",
+    "ui-label": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
+    "description": "Not all models split losses into gaseous and leaching",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fNloss",
+    "standard-name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "fnloss",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

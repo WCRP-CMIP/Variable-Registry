@@ -1,0 +1,28 @@
+{
+    "id": "co2_tavg-h2m-hxy-u",
+    "validation-key": "co2_tavg-h2m-hxy-u",
+    "ui-label": "Atmosphere CO2",
+    "description": "As co2, but only at the surface",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowerModelLayer"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "co2s",
+    "standard-name": "mole_fraction_of_carbon_dioxide_in_air",
+    "temporal-label": "tavg",
+    "units": "1E-06",
+    "variable-root": "co2s",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

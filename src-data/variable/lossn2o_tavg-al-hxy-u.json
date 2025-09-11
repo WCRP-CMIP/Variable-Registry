@@ -1,0 +1,28 @@
+{
+    "id": "lossn2o_tavg-al-hxy-u",
+    "validation-key": "lossn2o_tavg-al-hxy-u",
+    "ui-label": "Monthly Loss of Atmospheric Nitrous Oxide",
+    "description": "monthly averaged atmospheric loss",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "lossn2o",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_nitrous_oxide_due_to_chemical_destruction",
+    "temporal-label": "tavg",
+    "units": "mol m-3 s-1",
+    "variable-root": "lossn2o",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

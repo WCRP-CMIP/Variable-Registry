@@ -1,0 +1,27 @@
+{
+    "id": "rsds_tavg-u-hxy-sn",
+    "validation-key": "rsds_tavg-u-hxy-sn",
+    "ui-label": "Surface Downwelling Shortwave Radiation over Snow",
+    "description": "Surface Downwelling Shortwave Radiation over the portion of a land grid cell covered by snow but not by ice. Can be used for computation of surface albedo.",
+    "area-label": "sn",
+    "cell-measures": "area: areacella area: areacello",
+    "cell-methods": "area: time: mean where snow (mask=snc)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "rsdss",
+    "standard-name": "surface_downwelling_shortwave_flux_in_air",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "rsdss",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

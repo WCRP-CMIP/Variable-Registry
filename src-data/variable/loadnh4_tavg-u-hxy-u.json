@@ -1,0 +1,27 @@
+{
+    "id": "loadnh4_tavg-u-hxy-u",
+    "validation-key": "loadnh4_tavg-u-hxy-u",
+    "ui-label": "Load of NH4",
+    "description": "The total dry mass of ammonium aerosol particles per unit area.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "loadnh4",
+    "standard-name": "atmosphere_mass_content_of_ammonium_dry_aerosol_particles",
+    "temporal-label": "tavg",
+    "units": "kg m-2",
+    "variable-root": "loadnh4",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

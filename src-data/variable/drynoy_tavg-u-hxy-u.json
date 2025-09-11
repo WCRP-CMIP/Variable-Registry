@@ -1,0 +1,27 @@
+{
+    "id": "drynoy_tavg-u-hxy-u",
+    "validation-key": "drynoy_tavg-u-hxy-u",
+    "ui-label": "Daily Dry Deposition Rate of NOy",
+    "description": "Daily Dry Deposition Rate of NOy at surface. Vertically integrated throughout the column to the surface.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "drynoy",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_noy_expressed_as_nitrogen_due_to_dry_deposition",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "drynoy",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

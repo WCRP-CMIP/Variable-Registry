@@ -1,0 +1,27 @@
+{
+    "id": "o3_tavg-p39-hy-air",
+    "validation-key": "o3_tavg-p39-hy-air",
+    "ui-label": "Mole Fraction of O3",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "o3",
+    "standard-name": "mole_fraction_of_ozone_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "o3",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

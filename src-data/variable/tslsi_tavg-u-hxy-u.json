@@ -1,0 +1,27 @@
+{
+    "id": "tslsi_tavg-u-hxy-u",
+    "validation-key": "tslsi_tavg-u-hxy-u",
+    "ui-label": "Surface Temperature Where Land or Sea Ice",
+    "description": "Surface temperature of all surfaces except open ocean.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean (over land and sea ice)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "tslsi",
+    "standard-name": "surface_temperature",
+    "temporal-label": "tavg",
+    "units": "K",
+    "variable-root": "tslsi",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sihc_tavg-u-hxy-sea",
+    "validation-key": "sihc_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Heat Content",
+    "description": "Heat content of all ice in grid cell divided by grid-cell area. This includes both the latent and sensible heat content contributions. Water at 0C is assumed to have a heat content of 0 J. This variable does not include heat content of snow, but does include heat content of brine in the sea ice. Heat content is always negative since both the sensible and the latent heat content of ice are less than that of water.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sihc",
+    "standard-name": "sea_ice_enthalpy_content",
+    "temporal-label": "tavg",
+    "units": "J m-2",
+    "variable-root": "sihc",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

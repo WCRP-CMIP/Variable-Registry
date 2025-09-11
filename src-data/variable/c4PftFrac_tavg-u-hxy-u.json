@@ -1,0 +1,28 @@
+{
+    "id": "c4PftFrac_tavg-u-hxy-u",
+    "validation-key": "c4PftFrac_tavg-u-hxy-u",
+    "ui-label": "Percentage Cover by C4 Plant Functional Type",
+    "description": "Percentage of entire grid cell  that is covered by C4 PFTs (including grass and crops).",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typec4pft"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "c4PftFrac",
+    "standard-name": "area_fraction",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "c4pftfrac",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "rluscs_tavg-u-hxy-u",
+    "validation-key": "rluscs_tavg-u-hxy-u",
+    "ui-label": "Surface Upwelling Clear-Sky Longwave Radiation",
+    "description": "Surface Upwelling Clear-sky Longwave Radiation",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "rluscs",
+    "standard-name": "surface_upwelling_longwave_flux_assuming_clear_sky",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "rluscs",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

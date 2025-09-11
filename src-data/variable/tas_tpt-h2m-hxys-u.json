@@ -1,0 +1,27 @@
+{
+    "id": "tas_tpt-h2m-hxys-u",
+    "validation-key": "tas_tpt-h2m-hxys-u",
+    "ui-label": "Near-Surface Air Temperature",
+    "description": "near-surface (usually, 2 meter) air temperature",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "site",
+        "time1",
+        "height2m"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tas",
+    "standard-name": "air_temperature",
+    "temporal-label": "tpt",
+    "units": "K",
+    "variable-root": "tas",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

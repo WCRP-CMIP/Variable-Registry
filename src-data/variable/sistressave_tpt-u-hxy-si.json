@@ -1,0 +1,27 @@
+{
+    "id": "sistressave_tpt-u-hxy-si",
+    "validation-key": "sistressave_tpt-u-hxy-si",
+    "ui-label": "Average Normal Stress in Sea Ice",
+    "description": "Average normal stress in sea ice (first stress invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "area-label": "si",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea_ice (mask=siconc) time: point",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sistressave",
+    "standard-name": "sea_ice_average_normal_horizontal_stress",
+    "temporal-label": "tpt",
+    "units": "N m-1",
+    "variable-root": "sistressave",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

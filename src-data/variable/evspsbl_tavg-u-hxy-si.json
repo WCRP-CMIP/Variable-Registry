@@ -1,0 +1,27 @@
+{
+    "id": "evspsbl_tavg-u-hxy-si",
+    "validation-key": "evspsbl_tavg-u-hxy-si",
+    "ui-label": "Sea-Ice Mass Change Through Evaporation and Sublimation",
+    "description": "Rate of change of sea-ice mass change through evaporation and sublimation divided by grid-cell area. If a model does not differentiate between the sublimation of snow and sea ice, we recommend to report sidmassevapsubl as zero as long as the ice is snow covered, and to report any sublimation within the variable sisndmasssubl.",
+    "area-label": "si",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sidmassevapsubl",
+    "standard-name": "water_evapotranspiration_flux",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "sidmassevapsubl",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

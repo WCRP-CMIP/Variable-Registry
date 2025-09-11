@@ -1,0 +1,27 @@
+{
+    "id": "emibbnh3_tavg-u-hxy-u",
+    "validation-key": "emibbnh3_tavg-u-hxy-u",
+    "ui-label": "total emission rate of NH3 from all biomass burning",
+    "description": "Total emission rate of ammonia (NH3) into the atmosphere from all biomass burning (natural and anthropogenic)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "emibbnh3",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission_from_fires",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "emibbnh3",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

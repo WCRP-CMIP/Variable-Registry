@@ -1,0 +1,27 @@
+{
+    "id": "sidmasstranx_tavg-u-hxy-u",
+    "validation-key": "sidmasstranx_tavg-u-hxy-u",
+    "ui-label": "X-Component of Sea-Ice Mass Transport",
+    "description": "X-component of the sea-ice drift-induced transport of snow and sea ice mass.",
+    "area-label": "u",
+    "cell-measures": "::MODEL",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sidmasstranx",
+    "standard-name": "sea_ice_x_transport",
+    "temporal-label": "tavg",
+    "units": "kg s-1",
+    "variable-root": "sidmasstranx",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

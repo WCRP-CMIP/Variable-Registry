@@ -1,0 +1,27 @@
+{
+    "id": "noy_tavg-p39-hy-air",
+    "validation-key": "noy_tavg-p39-hy-air",
+    "ui-label": "Total Reactive Nitrogen Volume Mixing Ratio",
+    "description": "Total family (the sum of all appropriate species in the model); list the species in the netCDF header, e.g. NOy = N + NO + NO2 + NO3 + HNO3 + 2N2O5 + HNO4 + ClONO2 + BrONO2 Definition: Total reactive nitrogen; usually includes atomic nitrogen (N), nitric oxide (NO), NO2, nitrogen trioxide (NO3), dinitrogen radical (N2O5), nitric acid (HNO3), peroxynitric acid (HNO4), BrONO2, ClONO2 add comment attribute with detailed description about how the model calculates these fields",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "noy",
+    "standard-name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "noy",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

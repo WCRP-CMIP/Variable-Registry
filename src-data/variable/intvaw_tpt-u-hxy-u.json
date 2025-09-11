@@ -1,0 +1,27 @@
+{
+    "id": "intvaw_tpt-u-hxy-u",
+    "validation-key": "intvaw_tpt-u-hxy-u",
+    "ui-label": "6 hourly instantaneous integral of meridional moisture flux",
+    "description": "Vertically integrated northward moisture transport (Mass\\_weighted\\_vertical integral of the product of northward wind by total water mass per unit mass)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "intvaw",
+    "standard-name": "northward_atmosphere_water_transport_across_unit_distance",
+    "temporal-label": "tpt",
+    "units": "kg m-1 s-1",
+    "variable-root": "intvaw",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

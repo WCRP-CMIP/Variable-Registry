@@ -1,0 +1,28 @@
+{
+    "id": "thetao_tavg-ol-hxy-sea",
+    "validation-key": "thetao_tavg-ol-hxy-sea",
+    "ui-label": "Sea Water Potential Temperature",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "thetao",
+    "standard-name": "sea_water_potential_temperature",
+    "temporal-label": "tavg",
+    "units": "degC",
+    "variable-root": "thetao",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

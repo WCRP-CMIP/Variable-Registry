@@ -1,0 +1,27 @@
+{
+    "id": "sftlaf_ti-u-hxy-u",
+    "validation-key": "sftlaf_ti-u-hxy-u",
+    "ui-label": "Fraction of the Grid Cell Occupied by Lake",
+    "description": "Fraction of horizontal land grid cell area occupied by lake.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "typelkins"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "sftlaf",
+    "standard-name": "area_fraction",
+    "temporal-label": "ti",
+    "units": "%",
+    "variable-root": "sftlaf",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

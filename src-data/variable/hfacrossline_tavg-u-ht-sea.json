@@ -1,0 +1,26 @@
+{
+    "id": "hfacrossline_tavg-u-ht-sea",
+    "validation-key": "hfacrossline_tavg-u-ht-sea",
+    "ui-label": "Ocean Heat Transport across Lines",
+    "description": "Depth-integrated total heat transport from resolved and parameterized processes across different lines on the Earth's surface (based on appendix J and table J1 of Griffies\u00a0et al., 2016). Formally, this means the integral along the line of the normal component of the heat transport. Positive and negative numbers refer to total northward/eastward and southward/westward transports, respectively. The transport should be evaluated for the full depth of the ocean, except for the Pacific Equatorial Undercurrent, which is averaged from the surface to 350m. Use Celsius for temperature scale.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea depth: sum where sea time: mean",
+    "dimensions": [
+        "oline",
+        "time"
+    ],
+    "horizontal-label": "ht",
+    "model-realm": "ocean",
+    "physical-parameter-name": "hfacrossline",
+    "standard-name": "ocean_heat_transport_across_line",
+    "temporal-label": "tavg",
+    "units": "W",
+    "variable-root": "hfacrossline",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

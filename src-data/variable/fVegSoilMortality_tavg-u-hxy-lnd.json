@@ -1,0 +1,27 @@
+{
+    "id": "fVegSoilMortality_tavg-u-hxy-lnd",
+    "validation-key": "fVegSoilMortality_tavg-u-hxy-lnd",
+    "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Mortality",
+    "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fVegSoilMortality",
+    "standard-name": "mass_flux_of_carbon_into_soil_from_vegetation_due_to_mortality",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "fvegsoilmortality",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

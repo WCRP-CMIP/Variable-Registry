@@ -1,0 +1,27 @@
+{
+    "id": "fFireAll_tavg-u-hxy-lnd",
+    "validation-key": "fFireAll_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1]",
+    "description": "From all sources,  Including natural, anthropogenic and Land-use change. Only total fire emissions can be compared to observations.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fFireAll",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "ffireall",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

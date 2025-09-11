@@ -1,0 +1,27 @@
+{
+    "id": "dslw_tavg-u-hxy-lnd",
+    "validation-key": "dslw_tavg-u-hxy-lnd",
+    "ui-label": "Change in Soil Moisture",
+    "description": "Change in Soil Moisture",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "dslw",
+    "standard-name": "change_over_time_in_mass_content_of_water_in_soil",
+    "temporal-label": "tavg",
+    "units": "kg m-2",
+    "variable-root": "dslw",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

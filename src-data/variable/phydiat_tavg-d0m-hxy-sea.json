@@ -1,0 +1,27 @@
+{
+    "id": "phydiat_tavg-d0m-hxy-sea",
+    "validation-key": "phydiat_tavg-d0m-hxy-sea",
+    "ui-label": "Surface concentration of diatoms",
+    "description": "Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "physical-parameter-name": "phydiatos",
+    "standard-name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
+    "temporal-label": "tavg",
+    "units": "mol m-3",
+    "variable-root": "phydiatos",
+    "vertical-label": "d0m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "raOther_tavg-u-hxy-lnd",
+    "validation-key": "raOther_tavg-u-hxy-lnd",
+    "ui-label": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "added for completeness with Ra\\_root",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "raOther",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_miscellaneous_living_matter",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "raother",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

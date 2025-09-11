@@ -1,0 +1,28 @@
+{
+    "id": "c3h8_tavg-al-hxy-u",
+    "validation-key": "c3h8_tavg-al-hxy-u",
+    "ui-label": "C3H8 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "c3h8",
+    "standard-name": "mole_fraction_of_propane_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "c3h8",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

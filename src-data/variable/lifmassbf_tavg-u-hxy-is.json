@@ -1,0 +1,27 @@
+{
+    "id": "lifmassbf_tavg-u-hxy-is",
+    "validation-key": "lifmassbf_tavg-u-hxy-is",
+    "ui-label": "Land Ice Vertical Front Mass Balance Flux",
+    "description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
+    "area-label": "is",
+    "cell-measures": "area: areacellg",
+    "cell-methods": "area: time: mean where ice_sheet",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "landIce",
+    "physical-parameter-name": "lifmassbf",
+    "standard-name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "lifmassbf",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

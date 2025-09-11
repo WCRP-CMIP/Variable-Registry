@@ -1,0 +1,27 @@
+{
+    "id": "ps_tavg-u-hxy-u",
+    "validation-key": "ps_tavg-u-hxy-u",
+    "ui-label": "Surface Air Pressure",
+    "description": "not, in general, the same as mean sea-level pressure",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "ps",
+    "standard-name": "surface_air_pressure",
+    "temporal-label": "tavg",
+    "units": "Pa",
+    "variable-root": "ps",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

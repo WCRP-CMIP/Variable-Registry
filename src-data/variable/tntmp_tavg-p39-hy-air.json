@@ -1,0 +1,27 @@
+{
+    "id": "tntmp_tavg-p39-hy-air",
+    "validation-key": "tntmp_tavg-p39-hy-air",
+    "ui-label": "Zonal mean tendency of air temperature due to model physics",
+    "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tntmp",
+    "standard-name": "tendency_of_air_temperature_due_to_model_physics",
+    "temporal-label": "tavg",
+    "units": "K s-1",
+    "variable-root": "tntmp",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

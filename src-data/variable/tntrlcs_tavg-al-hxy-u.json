@@ -1,0 +1,28 @@
+{
+    "id": "tntrlcs_tavg-al-hxy-u",
+    "validation-key": "tntrlcs_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "description": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tntrlcs",
+    "standard-name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
+    "temporal-label": "tavg",
+    "units": "K s-1",
+    "variable-root": "tntrlcs",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

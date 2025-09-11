@@ -1,0 +1,28 @@
+{
+    "id": "mmrno3_tavg-al-hxy-u",
+    "validation-key": "mmrno3_tavg-al-hxy-u",
+    "ui-label": "NO3 Aerosol Mass Mixing Ratio",
+    "description": "Dry mass fraction of nitrate aerosol particles in air.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "mmrno3",
+    "standard-name": "mass_fraction_of_nitrate_dry_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "units": "kg kg-1",
+    "variable-root": "mmrno3",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

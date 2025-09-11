@@ -1,0 +1,28 @@
+{
+    "id": "mmroa_tavg-al-hxy-u",
+    "validation-key": "mmroa_tavg-al-hxy-u",
+    "ui-label": "Total Organic Aerosol Mass Mixing Ratio",
+    "description": "We recommend a scale factor of POM=1.4\\*OC, unless your model has more detailed info available.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "mmroa",
+    "standard-name": "mass_fraction_of_particulate_organic_matter_dry_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "units": "kg kg-1",
+    "variable-root": "mmroa",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

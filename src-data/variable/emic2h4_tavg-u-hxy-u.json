@@ -1,0 +1,27 @@
+{
+    "id": "emic2h4_tavg-u-hxy-u",
+    "validation-key": "emic2h4_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C2H4",
+    "description": "Total emission rate of ethene (C2H4) into the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "emic2h4",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_ethene_due_to_emission",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "emic2h4",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

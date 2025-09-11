@@ -1,0 +1,27 @@
+{
+    "id": "snwc_tavg-u-hxy-lnd",
+    "validation-key": "snwc_tavg-u-hxy-lnd",
+    "ui-label": "Snow Water Equivalent Intercepted by the Vegetation",
+    "description": "canopy\\_snow\\_amount",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "snwc",
+    "standard-name": "canopy_snow_amount",
+    "temporal-label": "tavg",
+    "units": "kg m-2",
+    "variable-root": "snwc",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

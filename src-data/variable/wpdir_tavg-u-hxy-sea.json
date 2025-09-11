@@ -1,0 +1,27 @@
+{
+    "id": "wpdir_tavg-u-hxy-sea",
+    "validation-key": "wpdir_tavg-u-hxy-sea",
+    "ui-label": "Total Peak Wave Direction",
+    "description": "Direction of wave propagation (direction from which the wave is coming)\u00a0derived from the total wave energy spectrum, incorporating both wind-sea and swell waves, by identifying the direction associated with the peak (maximum) energy density. This variable is usually expressed in degrees relative to true north.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "wpdir",
+    "standard-name": "sea_surface_wave_from_direction_at_variance_spectral_density_maximum",
+    "temporal-label": "tavg",
+    "units": "degree",
+    "variable-root": "wpdir",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sisndmasswind_tavg-u-hxy-si",
+    "validation-key": "sisndmasswind_tavg-u-hxy-si",
+    "ui-label": "Snow Mass Rate of Change Through Wind Drift of Snow",
+    "description": "Rate of change of snow mass due to wind-driven transport into the ocean divided by grid-cell area.",
+    "area-label": "si",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: time: mean where sea_ice (mask=siconc)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sisndmasswind",
+    "standard-name": "tendency_of_surface_snow_amount_due_to_drifting_into_sea",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "sisndmasswind",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

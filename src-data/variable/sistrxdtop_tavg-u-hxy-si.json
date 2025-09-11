@@ -1,0 +1,27 @@
+{
+    "id": "sistrxdtop_tavg-u-hxy-si",
+    "validation-key": "sistrxdtop_tavg-u-hxy-si",
+    "ui-label": "X-Component of Atmospheric Stress on Sea Ice",
+    "description": "X-component of the atmospheric stress on the surface of sea ice divided by grid-cell area.",
+    "area-label": "si",
+    "cell-measures": "::MODEL",
+    "cell-methods": "area: time: mean where sea_ice (mask=siconc)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "seaIce",
+    "physical-parameter-name": "sistrxdtop",
+    "standard-name": "surface_downward_x_stress",
+    "temporal-label": "tavg",
+    "units": "N m-2",
+    "variable-root": "sistrxdtop",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

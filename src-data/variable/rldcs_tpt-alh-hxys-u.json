@@ -1,0 +1,27 @@
+{
+    "id": "rldcs_tpt-alh-hxys-u",
+    "validation-key": "rldcs_tpt-alh-hxys-u",
+    "ui-label": "Downwelling Clear-Sky Longwave Radiation",
+    "description": "Downwelling clear-sky longwave radiation (includes the fluxes at the surface and TOA)",
+    "area-label": "u",
+    "cell-measures": null,
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "physical-parameter-name": "rldcs",
+    "standard-name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
+    "temporal-label": "tpt",
+    "units": "W m-2",
+    "variable-root": "rldcs",
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

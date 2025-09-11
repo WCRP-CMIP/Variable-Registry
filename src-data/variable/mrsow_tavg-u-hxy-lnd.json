@@ -1,0 +1,27 @@
+{
+    "id": "mrsow_tavg-u-hxy-lnd",
+    "validation-key": "mrsow_tavg-u-hxy-lnd",
+    "ui-label": "Total Soil Wetness",
+    "description": "relative\\_soil\\_moisture\\_content\\_above\\_field\\_capacity",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "mrsow",
+    "standard-name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "temporal-label": "tavg",
+    "units": "1",
+    "variable-root": "mrsow",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

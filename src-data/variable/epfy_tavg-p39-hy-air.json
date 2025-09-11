@@ -1,0 +1,27 @@
+{
+    "id": "epfy_tavg-p39-hy-air",
+    "validation-key": "epfy_tavg-p39-hy-air",
+    "ui-label": "Northward Component of the Eliassen-Palm Flux",
+    "description": "zonal mean; hence YZT",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "epfy",
+    "standard-name": "northward_eliassen_palm_flux_in_air",
+    "temporal-label": "tavg",
+    "units": "m3 s-2",
+    "variable-root": "epfy",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

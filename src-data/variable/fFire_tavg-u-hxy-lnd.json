@@ -1,0 +1,27 @@
+{
+    "id": "fFire_tavg-u-hxy-lnd",
+    "validation-key": "fFire_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1]",
+    "description": "CO2 emissions (expressed as a carbon mass flux) from natural fires + human ignition fires as calculated by the fire module of the DGVM, but excluding any CO2 flux from fire included in fLuc, defined below (CO2 Flux to Atmosphere from Land Use Change).",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fFire",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires_excluding_anthropogenic_land_use_change",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "ffire",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

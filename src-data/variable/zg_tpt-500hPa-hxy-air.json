@@ -1,0 +1,28 @@
+{
+    "id": "zg_tpt-500hPa-hxy-air",
+    "validation-key": "zg_tpt-500hPa-hxy-air",
+    "ui-label": "Geopotential Height at 500hPa",
+    "description": "geopotential height on the 500 hPa surface",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where air time: point",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p500"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "zg500",
+    "standard-name": "geopotential_height",
+    "temporal-label": "tpt",
+    "units": "m",
+    "variable-root": "zg500",
+    "vertical-label": "500hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

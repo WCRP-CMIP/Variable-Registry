@@ -1,0 +1,27 @@
+{
+    "id": "ta_tavg-p39-hy-air",
+    "validation-key": "ta_tavg-p39-hy-air",
+    "ui-label": "Zonal mean air temperature",
+    "description": "Zonal mean temperature of air with the extended number of vertical levels.",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "ta",
+    "standard-name": "air_temperature",
+    "temporal-label": "tavg",
+    "units": "K",
+    "variable-root": "ta",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

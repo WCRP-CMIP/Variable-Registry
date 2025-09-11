@@ -1,0 +1,28 @@
+{
+    "id": "photo1d_tavg-al-hxy-u",
+    "validation-key": "photo1d_tavg-al-hxy-u",
+    "ui-label": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
+    "description": "proposed name: photolysis\\_rate\\_of\\_ozone\\_to\\_O1D",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "photo1d",
+    "standard-name": "photolysis_rate_of_ozone_to_1D_oxygen_atom",
+    "temporal-label": "tavg",
+    "units": "s-1",
+    "variable-root": "photo1d",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

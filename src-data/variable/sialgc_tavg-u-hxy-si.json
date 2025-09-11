@@ -1,0 +1,27 @@
+{
+    "id": "sialgc_tavg-u-hxy-si",
+    "validation-key": "sialgc_tavg-u-hxy-si",
+    "ui-label": "Total Ice Algal Carbon Amount in Sea Ice",
+    "description": "Vertically-integrated content of carbon in ice algae, expressed as moles of carbon per square meter of sea ice.",
+    "area-label": "si",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea_ice (mask=siconc) depth: sum where sea_ice time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "physical-parameter-name": "sialgc",
+    "standard-name": "sea_ice_mole_content_of_ice_algae_expressed_as_carbon",
+    "temporal-label": "tavg",
+    "units": "mol m-2",
+    "variable-root": "sialgc",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

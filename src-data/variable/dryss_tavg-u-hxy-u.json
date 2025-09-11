@@ -1,0 +1,27 @@
+{
+    "id": "dryss_tavg-u-hxy-u",
+    "validation-key": "dryss_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of Sea-Salt Aerosol",
+    "description": "Dry Deposition Rate of Sea-Salt Aerosol",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "dryss",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_dry_deposition",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "dryss",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

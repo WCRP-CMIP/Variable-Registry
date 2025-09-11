@@ -1,0 +1,26 @@
+{
+    "id": "sftof_ti-u-hxy-u",
+    "validation-key": "sftof_ti-u-hxy-u",
+    "ui-label": "Sea Area Percentage",
+    "description": "This is the area fraction at the ocean surface.",
+    "area-label": "u",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "sftof",
+    "standard-name": "sea_area_fraction",
+    "temporal-label": "ti",
+    "units": "%",
+    "variable-root": "sftof",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "ph_tavg-ol-hxy-sea",
+    "validation-key": "ph_tavg-ol-hxy-sea",
+    "ui-label": "pH",
+    "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "physical-parameter-name": "ph",
+    "standard-name": "sea_water_ph_reported_on_total_scale",
+    "temporal-label": "tavg",
+    "units": "1",
+    "variable-root": "ph",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

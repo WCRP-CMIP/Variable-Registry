@@ -1,0 +1,27 @@
+{
+    "id": "cLitterCwd_tavg-u-hxy-lnd",
+    "validation-key": "cLitterCwd_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Coarse Woody Debris",
+    "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "cLitterCwd",
+    "standard-name": "wood_debris_mass_content_of_carbon",
+    "temporal-label": "tavg",
+    "units": "kg m-2",
+    "variable-root": "clittercwd",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

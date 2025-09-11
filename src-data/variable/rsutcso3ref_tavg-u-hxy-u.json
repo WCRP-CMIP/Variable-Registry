@@ -1,0 +1,27 @@
+{
+    "id": "rsutcso3ref_tavg-u-hxy-u",
+    "validation-key": "rsutcso3ref_tavg-u-hxy-u",
+    "ui-label": "TOA shortwave flux assuming clear sky and reference ozone ",
+    "description": "This represents the top-of-atmosphere outgoing shortwave radiative flux assuming clear-sky conditions when a reference ozone field is used in a diagnostic call to the radiation scheme",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "rsutcso3ref",
+    "standard-name": "toa_outgoing_shortwave_flux_assuming_clear_sky_and_reference_mole_fraction_of_ozone_in_air",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "rsutcso3ref",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

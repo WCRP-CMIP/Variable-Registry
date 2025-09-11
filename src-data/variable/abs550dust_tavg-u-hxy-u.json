@@ -1,0 +1,28 @@
+{
+    "id": "abs550dust_tavg-u-hxy-u",
+    "validation-key": "abs550dust_tavg-u-hxy-u",
+    "ui-label": "dust absorption aerosol optical depth @550nm",
+    "description": "This is the dust aerosol optical depth at 550nm due to absorption",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "abs550dust",
+    "standard-name": "atmosphere_absorption_optical_thickness_due_to_dust_ambient_aerosol_particles",
+    "temporal-label": "tavg",
+    "units": "1",
+    "variable-root": "abs550dust",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

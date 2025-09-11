@@ -1,0 +1,27 @@
+{
+    "id": "rhc13_tavg-u-hxy-lnd",
+    "validation-key": "rhc13_tavg-u-hxy-lnd",
+    "ui-label": "Carbon-13 Mass Flux into Atmosphere Due to Heterotrophic Respiration on Land [kgC m-2 s-1]",
+    "description": "Heterotrophic respiration is respiration by heterotrophs (\"consumers\"), which are organisms (including animals and decomposers) that consume other organisms or dead organic material, rather than synthesising organic material from inorganic precursors using energy from the environment (especially sunlight) as autotrophs (\"producers\") do. Heterotrophic respiration goes on within both the soil and litter pools.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "rhc13",
+    "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_heterotrophic_respiration",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "rhc13",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

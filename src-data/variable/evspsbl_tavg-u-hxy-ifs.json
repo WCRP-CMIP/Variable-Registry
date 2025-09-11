@@ -1,0 +1,27 @@
+{
+    "id": "evspsbl_tavg-u-hxy-ifs",
+    "validation-key": "evspsbl_tavg-u-hxy-ifs",
+    "ui-label": "Water Evaporation Flux Where Ice Free Ocean over Sea",
+    "description": "computed as the total mass of water vapor evaporating from the ice-free portion of the ocean  divided by the area of the ocean portion of the grid cell.",
+    "area-label": "ifs",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where ice_free_sea over sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "evs",
+    "standard-name": "water_evapotranspiration_flux",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "evs",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "rlutch4ref_tavg-u-hxy-u",
+    "validation-key": "rlutch4ref_tavg-u-hxy-u",
+    "ui-label": "TOA outgoing longwave flux assuming reference methane field",
+    "description": "This is the outgoing longwave flux at the top-of-atmosphere for all-sky conditions from a diagnostic call to the radiation scheme using a reference methane field",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "rlutch4ref",
+    "standard-name": "toa_outgoing_longwave_flux_assuming_reference_mole_fraction_of_methane_in_air",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "rlutch4ref",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

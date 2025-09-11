@@ -1,0 +1,27 @@
+{
+    "id": "cldncl_tavg-u-hxy-cl",
+    "validation-key": "cldncl_tavg-u-hxy-cl",
+    "ui-label": "Cloud Droplet Number Concentration of Cloud Tops",
+    "description": "Droplets are liquid only.  Report concentration 'as seen from space' over liquid cloudy portion of grid cell.  This is the value from uppermost model layer with liquid cloud or, if available, it is better to sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Weight by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.",
+    "area-label": "cl",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean where cloud (mean over the portion of the cell containing liquid topped cloud, as seen from top of atmosphere)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "cldncl",
+    "standard-name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
+    "temporal-label": "tavg",
+    "units": "m-3",
+    "variable-root": "cldncl",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

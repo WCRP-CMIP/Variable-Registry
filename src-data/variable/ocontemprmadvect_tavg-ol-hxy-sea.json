@@ -1,0 +1,28 @@
+{
+    "id": "ocontemprmadvect_tavg-ol-hxy-sea",
+    "validation-key": "ocontemprmadvect_tavg-ol-hxy-sea",
+    "ui-label": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Residual Mean Advection",
+    "description": "Tendency of heat content for a grid cell from residual mean  (sum of Eulerian mean + parameterized eddy-induced) advection. Reported only for models that use conservative temperature as prognostic field.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "ocontemprmadvect",
+    "standard-name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_residual_mean_advection",
+    "temporal-label": "tavg",
+    "units": "W m-2",
+    "variable-root": "ocontemprmadvect",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "utendwtem_tavg-p39-hy-air",
+    "validation-key": "utendwtem_tavg-p39-hy-air",
+    "ui-label": "Tendency of Eastward Wind Due to TEM Upward Advection",
+    "description": "Zonal mean tendency of eastward wind due to TEM upward advection",
+    "area-label": "air",
+    "cell-measures": null,
+    "cell-methods": "longitude: time: mean where air",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "horizontal-label": "hy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "utendwtem",
+    "standard-name": "tendency_of_eastward_wind_due_to_advection_by_upward_transformed_eulerian_mean_air_velocity",
+    "temporal-label": "tavg",
+    "units": "m s-2",
+    "variable-root": "utendwtem",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

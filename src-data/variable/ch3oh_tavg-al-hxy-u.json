@@ -1,0 +1,28 @@
+{
+    "id": "ch3oh_tavg-al-hxy-u",
+    "validation-key": "ch3oh_tavg-al-hxy-u",
+    "ui-label": "CH3OH  volume mixing ratio",
+    "description": "Mole fraction of methanol (CH3OH) in air",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "ch3oh",
+    "standard-name": "mole_fraction_of_methanol_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "ch3oh",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

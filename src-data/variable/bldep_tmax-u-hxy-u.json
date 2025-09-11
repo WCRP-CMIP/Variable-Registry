@@ -1,0 +1,27 @@
+{
+    "id": "bldep_tmax-u-hxy-u",
+    "validation-key": "bldep_tmax-u-hxy-u",
+    "ui-label": "Maximum PBL Height",
+    "description": "maximum boundary layer height during the day (add cell\\_methods attribute: \"time: maximum\")",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean time: maximum",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "maxpblz",
+    "standard-name": "atmosphere_boundary_layer_thickness",
+    "temporal-label": "tmax",
+    "units": "m",
+    "variable-root": "maxpblz",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

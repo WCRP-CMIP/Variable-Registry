@@ -1,0 +1,27 @@
+{
+    "id": "fBNF_tavg-u-hxy-lnd",
+    "validation-key": "fBNF_tavg-u-hxy-lnd",
+    "ui-label": "Biological Nitrogen Fixation",
+    "description": "The fixation (uptake of nitrogen gas directly from the atmosphere) of nitrogen due to biological processes.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fBNF",
+    "standard-name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "fbnf",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

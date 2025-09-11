@@ -1,0 +1,28 @@
+{
+    "id": "hfc125_tavg-al-hxy-u",
+    "validation-key": "hfc125_tavg-al-hxy-u",
+    "ui-label": "Mole Fraction of HFC125",
+    "description": "This is the mole fraction of HFC125 in air",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "hfc125",
+    "standard-name": "mole_fraction_of_hfc125_in_air",
+    "temporal-label": "tavg",
+    "units": "mol mol-1",
+    "variable-root": "hfc125",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

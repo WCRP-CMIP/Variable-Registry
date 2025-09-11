@@ -1,0 +1,27 @@
+{
+    "id": "cnc_tavg-u-hxy-u",
+    "validation-key": "cnc_tavg-u-hxy-u",
+    "ui-label": "Canopy Covered Area Percentage",
+    "description": "Canopy covered fraction",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "cnc",
+    "standard-name": "vegetation_area_fraction",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "cnc",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

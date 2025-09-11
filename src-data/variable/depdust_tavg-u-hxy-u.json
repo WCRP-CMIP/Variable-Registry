@@ -1,0 +1,27 @@
+{
+    "id": "depdust_tavg-u-hxy-u",
+    "validation-key": "depdust_tavg-u-hxy-u",
+    "ui-label": "Total Deposition Rate of Dust",
+    "description": "Fdry mass deposition rate of dust",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "depdust",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "depdust",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

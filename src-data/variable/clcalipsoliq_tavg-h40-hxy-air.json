@@ -1,0 +1,28 @@
+{
+    "id": "clcalipsoliq_tavg-h40-hxy-air",
+    "validation-key": "clcalipsoliq_tavg-h40-hxy-air",
+    "ui-label": "CALIPSO Liquid Cloud Percentage",
+    "description": "CALIPSO Liquid Cloud Fraction",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean where air",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "clcalipsoliq",
+    "standard-name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "clcalipsoliq",
+    "vertical-label": "h40",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sftgif_tavg-u-hxy-u",
+    "validation-key": "sftgif_tavg-u-hxy-u",
+    "ui-label": "Land Ice Area Percentage",
+    "description": "This is needed in case the ice sheet area changes in time",
+    "area-label": "u",
+    "cell-measures": "area: areacellg",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "xant",
+        "yant",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "sftgif",
+    "standard-name": "land_ice_area_fraction",
+    "temporal-label": "tavg",
+    "units": "%",
+    "variable-root": "sftgif",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

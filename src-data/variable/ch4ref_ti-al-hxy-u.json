@@ -1,0 +1,27 @@
+{
+    "id": "ch4ref_ti-al-hxy-u",
+    "validation-key": "ch4ref_ti-al-hxy-u",
+    "ui-label": "Reference mole fraction of methane in air",
+    "description": "This is the methane mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when a methane double call is active in the model.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmosChem",
+    "physical-parameter-name": "ch4ref",
+    "standard-name": "reference_mole_fraction_of_methane_in_air",
+    "temporal-label": "ti",
+    "units": "mol mol-1",
+    "variable-root": "ch4ref",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "mmrbc_tpt-h2m-hxys-u",
+    "validation-key": "mmrbc_tpt-h2m-hxys-u",
+    "ui-label": "Elemental carbon mass mixing ratio",
+    "description": "This variable represents the instantaneous surface elemental carbon Aerosol Mass Mixing Ratio at CF sites, sampled every 3 hours",
+    "area-label": "u",
+    "cell-measures": "::MODEL",
+    "cell-methods": "area: point time: point",
+    "dimensions": [
+        "site",
+        "time1",
+        "lowerModelLayer"
+    ],
+    "horizontal-label": "hxys",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "mmrbc",
+    "standard-name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air",
+    "temporal-label": "tpt",
+    "units": "kg kg-1",
+    "variable-root": "mmrbc",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

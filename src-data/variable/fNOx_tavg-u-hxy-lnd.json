@@ -1,0 +1,27 @@
+{
+    "id": "fNOx_tavg-u-hxy-lnd",
+    "validation-key": "fNOx_tavg-u-hxy-lnd",
+    "ui-label": "Total Land NOx Flux",
+    "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The phrase \"expressed\\_as\" is used in the construction A\\_expressed\\_as\\_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. \"Nox\" means a combination of two radical species containing nitrogen and oxygen NO+NO2. \"Vegetation\" means any living plants e.g. trees, shrubs, grass. \"Litter\" is dead plant material in or above the soil.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: mean where land time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "physical-parameter-name": "fNOx",
+    "standard-name": "surface_upward_mass_flux_of_nox_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "fnox",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

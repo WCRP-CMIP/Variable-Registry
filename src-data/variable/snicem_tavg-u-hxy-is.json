@@ -1,0 +1,27 @@
+{
+    "id": "snicem_tavg-u-hxy-is",
+    "validation-key": "snicem_tavg-u-hxy-is",
+    "ui-label": "Surface Snow and Ice Melt Flux",
+    "description": "Loss of snow and ice mass resulting from surface melting. Computed as the total surface melt on the land ice portion of the grid cell divided by land ice area in the grid cell.",
+    "area-label": "is",
+    "cell-measures": "area: areacellg",
+    "cell-methods": "area: time: mean where ice_sheet",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "landIce",
+    "physical-parameter-name": "snicem",
+    "standard-name": "surface_snow_and_ice_melt_flux",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "snicem",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

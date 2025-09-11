@@ -1,0 +1,28 @@
+{
+    "id": "tnhusscp_tavg-al-hxy-u",
+    "validation-key": "tnhusscp_tavg-al-hxy-u",
+    "ui-label": "Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation",
+    "description": "The phrase \"tendency\\_of\\_X\" means derivative of X with respect to time. \"Specific\" means per unit mass. Specific humidity is the mass fraction of water vapor in (moist) air. The specification of a physical process by the phrase \"due\\_to\\_\" process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name of tendency\\_of\\_specific\\_humidity\\_due\\_to\\_stratiform\\_cloud\\_and\\_precipitation should contain the effects of all processes which convert stratiform clouds and precipitation to or from water vapor. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes).",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "physical-parameter-name": "tnhusscp",
+    "standard-name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
+    "temporal-label": "tavg",
+    "units": "s-1",
+    "variable-root": "tnhusscp",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

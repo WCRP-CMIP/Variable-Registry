@@ -1,0 +1,27 @@
+{
+    "id": "intparag_tavg-u-hxy-sea",
+    "validation-key": "intparag_tavg-u-hxy-sea",
+    "ui-label": "Aragonite Production",
+    "description": "Vertically integrated aragonite production",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea depth: sum where sea (over entire ocean column) time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "physical-parameter-name": "intparag",
+    "standard-name": "tendency_of_ocean_mole_content_of_aragonite_expressed_as_carbon_due_to_biological_production",
+    "temporal-label": "tavg",
+    "units": "mol m-2 s-1",
+    "variable-root": "intparag",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

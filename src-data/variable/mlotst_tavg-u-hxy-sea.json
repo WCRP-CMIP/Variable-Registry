@@ -1,0 +1,28 @@
+{
+    "id": "mlotst_tavg-u-hxy-sea",
+    "validation-key": "mlotst_tavg-u-hxy-sea",
+    "ui-label": "Ocean Mixed Layer Thickness Defined by Sigma T",
+    "description": "Sigma T is potential density referenced to ocean surface. Defined by Sigma T of 0.03 kg m-3 wrt to model level closest to 10 m depth.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "deltasigt"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "mlotst",
+    "standard-name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "temporal-label": "tavg",
+    "units": "m",
+    "variable-root": "mlotst",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "emiso4_tavg-u-hxy-u",
+    "validation-key": "emiso4_tavg-u-hxy-u",
+    "ui-label": "Total Direct Emission Rate of SO4",
+    "description": "Direct primary emission does not include secondary sulfate production. Integrate 3D emission field vertically to 2d field.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "emiso4",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_emission",
+    "temporal-label": "tavg",
+    "units": "kg m-2 s-1",
+    "variable-root": "emiso4",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

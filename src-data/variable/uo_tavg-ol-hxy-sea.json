@@ -1,0 +1,28 @@
+{
+    "id": "uo_tavg-ol-hxy-sea",
+    "validation-key": "uo_tavg-ol-hxy-sea",
+    "ui-label": "Sea Water X Velocity",
+    "description": "Prognostic x-ward velocity component resolved by the model.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "uo",
+    "standard-name": "sea_water_x_velocity",
+    "temporal-label": "tavg",
+    "units": "m s-1",
+    "variable-root": "uo",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

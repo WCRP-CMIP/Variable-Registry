@@ -1,0 +1,28 @@
+{
+    "id": "jno2_tavg-al-hxy-u",
+    "validation-key": "jno2_tavg-al-hxy-u",
+    "ui-label": "Photolysis Rate of NO2",
+    "description": "Photolysis rate of nitrogen dioxide (NO2)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "area: time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "physical-parameter-name": "jno2",
+    "standard-name": "photolysis_rate_of_nitrogen_dioxide",
+    "temporal-label": "tavg",
+    "units": "s-1",
+    "variable-root": "jno2",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

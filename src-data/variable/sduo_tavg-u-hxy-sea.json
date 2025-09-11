@@ -1,0 +1,27 @@
+{
+    "id": "sduo_tavg-u-hxy-sea",
+    "validation-key": "sduo_tavg-u-hxy-sea",
+    "ui-label": "Eastward Surface Stokes Drift",
+    "description": "The eastward component of the net drift velocity of ocean water caused by surface wind-sea waves. The Stokes drift velocity could be defined as the difference between the\u00a0average\u00a0Lagrangian\u00a0flow velocity\u00a0of a fluid parcel, and the average Eulerian flow velocity\u00a0of the\u00a0fluid\u00a0at a fixed position.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "area: mean where sea time: mean",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "physical-parameter-name": "sduo",
+    "standard-name": "sea_surface_wave_stokes_drift_eastward_velocity",
+    "temporal-label": "tavg",
+    "units": "m s-1",
+    "variable-root": "sduo",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}
