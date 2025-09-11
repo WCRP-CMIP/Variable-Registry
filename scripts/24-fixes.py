@@ -15,10 +15,10 @@ def main():
     REPO_ROOT = Path(__file__).parents[1]
 
     for branded_variable, new_cell_methods in (
-        # (
-        #     "reffclwtop_tavg-u-hxy-cl",
-        #     "TBD",
-        # ),
+        (
+            "reffclwtop_tavg-u-hxy-u",
+            "area: time: mean where liquid_cloud (weighted by area of upper-most cloud layer)",
+        ),
         (
             "reffcclwtop_tavg-u-hxy-ccl",
             "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
