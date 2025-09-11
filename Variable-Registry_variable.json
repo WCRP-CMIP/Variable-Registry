@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-11T12:28:15.878893",
+        "file_creation_date": "2025-09-11T12:32:48.900565",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 56123a01d426359e111a3003c2569fec",
+        "checksum": "md5: 3e19f87f83ab8b7a8ea601e7f62f87ee",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "a27f94dc627ce12de7bbc382a6e95a38a7e00474",
+        "last_commit": "3a411749b3ff18c0568f27533ee18b1840a5e056",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -6443,8 +6443,8 @@
         "esn_tavg-u-hxy-sn": {
             "area-label": "sn",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ mean where snow (on land only) time: mean",
-            "description": "Evapotranspiration flux due to conversion of liquid or solid water into vapor at the surface where there is snow on land",
+            "cell-methods": "vr:cell-method/ mean where land time: mean",
+            "description": "liquid\\_water\\_evaporation\\_flux\\_from\\_surface\\_snow",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -14791,13 +14791,13 @@
         "o3ref_tclm-al-hxy-u": {
             "area-label": "u",
             "cell-measures": "area: areacella",
-            "cell-methods": "vr:cell-method/ time: mean (monthly mean fixed annual cycle)",
+            "cell-methods": "vr:cell-method/ mean time: mean within years time: mean over years",
             "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
             "dimensions": [
                 "longitude",
                 "latitude",
                 "alevel",
-                "timefxc"
+                "time2"
             ],
             "horizontal-label": "hxy",
             "model-realm": "universal:realm/atmosChem",
