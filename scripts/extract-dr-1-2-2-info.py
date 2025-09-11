@@ -128,6 +128,10 @@ def main():
         # TODO: check against horizontal label
         # TODO: check against temporal label
         # TODO: check against vertical label
+        # Note: checking like this is silly, it's reinventing SQL.
+        # Do this instead by trying to populate a table using pydantic/sqlmodel.
+        # That will raise if we try to have duplicate IDs, missing cross-links or similar
+        # and it brings the side benefit of defining pydantic models for all our data.
 
         out_info = {
             "id": branded_variable,
