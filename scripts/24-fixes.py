@@ -1,5 +1,5 @@
 """
-Fixes from #24 from the DR repo
+Fixes from #24
 """
 
 from __future__ import annotations
