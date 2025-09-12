@@ -5,7 +5,7 @@
     "description": "Cloud-Top Effective Droplet Radius in Convective Cloud",
     "area-label": "ccl",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: time: mean where convective_cloud",
+    "cell-methods": "area: time: mean where convective_cloud (weighted by area of upper-most cloud layer)",
     "dimensions": [
         "longitude",
         "latitude",

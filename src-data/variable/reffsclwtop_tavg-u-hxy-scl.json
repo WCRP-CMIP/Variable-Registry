@@ -5,7 +5,7 @@
     "description": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
     "area-label": "scl",
     "cell-measures": "area: areacella",
-    "cell-methods": "area: time: mean where stratiform_cloud",
+    "cell-methods": "area: time: mean where stratiform_cloud (weighted by area of upper-most cloud layer)",
     "dimensions": [
         "longitude",
         "latitude",
