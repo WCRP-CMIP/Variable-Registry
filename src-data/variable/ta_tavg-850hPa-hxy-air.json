@@ -1,5 +1,5 @@
 {
-    "id": "ta_tavg-850hPa-hxy-air",
+    "id": "ta_tavg-850hpa-hxy-air",
     "validation-key": "ta_tavg-850hPa-hxy-air",
     "ui-label": "Air Temperature",
     "description": "Air temperature at 850hPa",

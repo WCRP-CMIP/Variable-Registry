@@ -1,5 +1,5 @@
 {
-    "id": "cropFracC3_tavg-u-hxy-u",
+    "id": "cropfracc3_tavg-u-hxy-u",
     "validation-key": "cropFracC3_tavg-u-hxy-u",
     "ui-label": "Percentage Cover by C3 Crops",
     "description": "Percentage of entire grid cell covered by C3 crops",

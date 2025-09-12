@@ -1,5 +1,5 @@
 {
-    "id": "cLand_tavg-u-hxy-lnd",
+    "id": "cland_tavg-u-hxy-lnd",
     "validation-key": "cLand_tavg-u-hxy-lnd",
     "ui-label": "Total Carbon in All Terrestrial Carbon Pools",
     "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",

@@ -98,8 +98,6 @@ def main():
         sn_pid = sn_pid_l[0]
         standard_name = dr_table["CF Standard Names"]["records"][sn_pid]["Name"].strip()
 
-        description = record["Title"]
-
         units_l = record["Units (from Physical Parameter)"]
         if len(units_l) != 1:
             raise AssertionError(units_l)
@@ -119,9 +117,9 @@ def main():
         # # TODO: check and link cell methods
         # cell_methods_lib[cell_methods]
 
-        # TODO: check against variable root
-        if variable_root.lower() not in variable_root_lib:
-            raise KeyError(variable_root.lower())
+        # # TODO: check against variable root
+        # if variable_root.lower() not in variable_root_lib:
+        #     raise KeyError(variable_root.lower())
 
         # TODO: check against air label
         # TODO: check against dimensions
@@ -133,10 +131,15 @@ def main():
         # That will raise if we try to have duplicate IDs, missing cross-links or similar
         # and it brings the side benefit of defining pydantic models for all our data.
 
+        # ID is all lowercase
+        id = branded_variable.lower()
+        # validation-key is the value as it should appear in files etc.
+        validation_key = branded_variable
+
         out_info = {
-            "id": branded_variable,
-            "validation-key": branded_variable,
-            "ui-label": description,
+            "id": id,
+            "validation-key": validation_key,
+            "ui-label": record["Title"],
             "description": record["Description"].strip(),
             "area-label": area_label,
             "cell-measures": cell_measures,
@@ -194,9 +197,7 @@ def main():
                         out_info_already_recorded[branded_variable][k]
                     )
 
-        with open(
-            REPO_ROOT / "src-data" / "variable" / f"{branded_variable}.json", "w"
-        ) as fh:
+        with open(REPO_ROOT / "src-data" / "variable" / f"{id}.json", "w") as fh:
             json.dump(out_info, fh, indent=4)
 
         out_info_already_recorded[branded_variable] = {

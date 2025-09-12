@@ -1,5 +1,5 @@
 {
-    "id": "ua_tpt-200hPa-hxy-u",
+    "id": "ua_tpt-200hpa-hxy-u",
     "validation-key": "ua_tpt-200hPa-hxy-u",
     "ui-label": "ua200",
     "description": "Zonal wind (positive in a eastward direction) at 200 hPa, 6hourly instantaneous",

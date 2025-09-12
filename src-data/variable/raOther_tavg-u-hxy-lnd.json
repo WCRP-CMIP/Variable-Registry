@@ -1,5 +1,5 @@
 {
-    "id": "raOther_tavg-u-hxy-lnd",
+    "id": "raother_tavg-u-hxy-lnd",
     "validation-key": "raOther_tavg-u-hxy-lnd",
     "ui-label": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "added for completeness with Ra\\_root",

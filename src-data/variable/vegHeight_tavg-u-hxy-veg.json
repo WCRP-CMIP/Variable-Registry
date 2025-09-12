@@ -1,5 +1,5 @@
 {
-    "id": "vegHeight_tavg-u-hxy-veg",
+    "id": "vegheight_tavg-u-hxy-veg",
     "validation-key": "vegHeight_tavg-u-hxy-veg",
     "ui-label": "Height of the Vegetation Canopy",
     "description": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",

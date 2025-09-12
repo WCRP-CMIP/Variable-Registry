@@ -1,5 +1,5 @@
 {
-    "id": "treeFrac_tavg-u-hxy-u",
+    "id": "treefrac_tavg-u-hxy-u",
     "validation-key": "treeFrac_tavg-u-hxy-u",
     "ui-label": "Tree Cover Percentage",
     "description": "fraction of entire grid cell  that is covered by trees.",

@@ -1,5 +1,5 @@
 {
-    "id": "fVegSoilMortality_tavg-u-hxy-lnd",
+    "id": "fvegsoilmortality_tavg-u-hxy-lnd",
     "validation-key": "fVegSoilMortality_tavg-u-hxy-lnd",
     "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Mortality",
     "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",

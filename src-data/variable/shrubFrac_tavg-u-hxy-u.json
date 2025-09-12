@@ -1,5 +1,5 @@
 {
-    "id": "shrubFrac_tavg-u-hxy-u",
+    "id": "shrubfrac_tavg-u-hxy-u",
     "validation-key": "shrubFrac_tavg-u-hxy-u",
     "ui-label": "Percentage Cover by Shrub",
     "description": "Percentage of entire grid cell  that is covered by shrub.",

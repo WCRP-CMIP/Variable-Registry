@@ -1,5 +1,5 @@
 {
-    "id": "fNloss_tavg-u-hxy-lnd",
+    "id": "fnloss_tavg-u-hxy-lnd",
     "validation-key": "fNloss_tavg-u-hxy-lnd",
     "ui-label": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
     "description": "Not all models split losses into gaseous and leaching",

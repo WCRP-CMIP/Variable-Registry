@@ -1,5 +1,5 @@
 {
-    "id": "clcalipso_tavg-560hPa-hxy-air",
+    "id": "clcalipso_tavg-560hpa-hxy-air",
     "validation-key": "clcalipso_tavg-560hPa-hxy-air",
     "ui-label": "CALIPSO Mid Level Cloud Cover Percentage",
     "description": "Percentage cloud cover in layer centred on 560hPa",

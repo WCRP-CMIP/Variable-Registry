@@ -1,5 +1,5 @@
 {
-    "id": "tsLut_tavg-u-hxy-multi",
+    "id": "tslut_tavg-u-hxy-multi",
     "validation-key": "tsLut_tavg-u-hxy-multi",
     "ui-label": "Surface Temperature on Landuse Tile",
     "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",

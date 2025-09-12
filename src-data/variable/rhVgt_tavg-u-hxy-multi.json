@@ -1,5 +1,5 @@
 {
-    "id": "rhVgt_tavg-u-hxy-multi",
+    "id": "rhvgt_tavg-u-hxy-multi",
     "validation-key": "rhVgt_tavg-u-hxy-multi",
     "ui-label": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on vegetation type.",

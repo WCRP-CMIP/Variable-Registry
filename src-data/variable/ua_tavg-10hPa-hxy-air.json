@@ -1,5 +1,5 @@
 {
-    "id": "ua_tavg-10hPa-hxy-air",
+    "id": "ua_tavg-10hpa-hxy-air",
     "validation-key": "ua_tavg-10hPa-hxy-air",
     "ui-label": "Eastward Wind at 10hPa",
     "description": "Zonal wind on the 10 hPa surface",

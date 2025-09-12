@@ -1,5 +1,5 @@
 {
-    "id": "hur_tpt-500hPa-hxy-air",
+    "id": "hur_tpt-500hpa-hxy-air",
     "validation-key": "hur_tpt-500hPa-hxy-air",
     "ui-label": "hu500",
     "description": "Relative humidity at 500 hPa, 6 hourly instantaneous",

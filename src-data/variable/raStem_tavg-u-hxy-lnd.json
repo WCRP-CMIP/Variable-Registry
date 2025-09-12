@@ -1,5 +1,5 @@
 {
-    "id": "raStem_tavg-u-hxy-lnd",
+    "id": "rastem_tavg-u-hxy-lnd",
     "validation-key": "raStem_tavg-u-hxy-lnd",
     "ui-label": "Total Respiration from Stem as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "added for completeness with Ra\\_root",

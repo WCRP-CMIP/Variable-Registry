@@ -1,5 +1,5 @@
 {
-    "id": "nVeg_tavg-u-hxy-lnd",
+    "id": "nveg_tavg-u-hxy-lnd",
     "validation-key": "nVeg_tavg-u-hxy-lnd",
     "ui-label": "Nitrogen Mass in Vegetation",
     "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",

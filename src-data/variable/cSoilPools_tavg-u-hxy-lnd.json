@@ -1,5 +1,5 @@
 {
-    "id": "cSoilPools_tavg-u-hxy-lnd",
+    "id": "csoilpools_tavg-u-hxy-lnd",
     "validation-key": "cSoilPools_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
     "description": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",

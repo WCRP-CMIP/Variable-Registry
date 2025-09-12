@@ -1,5 +1,5 @@
 {
-    "id": "cGeologicStorage_tavg-u-hxy-u",
+    "id": "cgeologicstorage_tavg-u-hxy-u",
     "validation-key": "cGeologicStorage_tavg-u-hxy-u",
     "ui-label": "Carbon Mass in Geologic Storage",
     "description": "Mass of carbon that has been intentionally sequestered in geologic storage. The definition of geologic storage here is that it be stored for periods of time that are long as compared to the simulation.",

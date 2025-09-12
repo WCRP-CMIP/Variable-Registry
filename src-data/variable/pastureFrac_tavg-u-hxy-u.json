@@ -1,5 +1,5 @@
 {
-    "id": "pastureFrac_tavg-u-hxy-u",
+    "id": "pasturefrac_tavg-u-hxy-u",
     "validation-key": "pastureFrac_tavg-u-hxy-u",
     "ui-label": "Percentage of Land Which Is Anthropogenic Pasture",
     "description": "fraction of entire grid cell  that is covered by anthropogenic pasture.",
