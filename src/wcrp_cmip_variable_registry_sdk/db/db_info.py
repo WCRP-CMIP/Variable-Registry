@@ -144,7 +144,6 @@ class DBInfo(BaseModel):
         horizontal_labels_by_id = get_instances_by_id(
             gdf("horizontal-label"), HorizontalLabel
         )
-        # Up to here
         variable_roots_by_id = get_instances_by_id(gdf("variable-root"), VariableRoot)
         variables_by_id = get_instances_by_id(
             gdf("variable"),
@@ -152,6 +151,11 @@ class DBInfo(BaseModel):
             # horizontal_labels_by_id=horizontal_labels_by_id,
             # variable_roots_by_id=variable_roots_by_id,
         )
+        # TODO: remove
+        variables_by_id_keys = tuple(variables_by_id.keys())
+        for k in variables_by_id_keys:
+            if variables_by_id[k].cell_measures is None:
+                variables_by_id.pop(k)
 
         return cls(
             horizontal_labels_by_id=horizontal_labels_by_id,

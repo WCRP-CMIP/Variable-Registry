@@ -6,6 +6,7 @@ Variable
 # Do not use this, it breaks sqlmodel
 # from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -121,3 +122,46 @@ class Variable(SQLModel, table=True):
     """
 
     # auto-inject context and type on serialisation
+
+    @classmethod
+    def from_source_json(cls, df: Path) -> "Variable":
+        """
+        Initialise from a source `.json` file
+
+        Parameters
+        ----------
+        df
+            Definition file from which to initialise
+
+        Returns
+        -------
+        :
+            Initialised instance
+        """
+        with open(df) as fh:
+            raw = json.load(fh)
+
+        res = cls(
+            id=raw["id"],
+            validation_key=raw["validation-key"],
+            ui_label=raw["ui-label"],
+            description=raw["description"],
+            area_label=raw["area-label"],
+            # TODO: switch to cell_measures_id
+            cell_measures=raw["cell-measures"],
+            cell_methods=raw["cell-methods"],
+            # TODO: fix so we can pass a tuple
+            dimensions=" ".join(raw["dimensions"]),
+            # Not we get the ID from the JSON, not the value
+            horizontal_label_id=raw["horizontal-label"],
+            model_realm=raw["model-realm"],
+            physical_parameter_name=raw["physical-parameter-name"],
+            standard_name=raw["standard-name"],
+            temporal_label=raw["temporal-label"],
+            units=raw["units"],
+            # Not we get the ID from the JSON, not the value
+            variable_root_id=raw["variable-root"],
+            vertical_label=raw["vertical-label"],
+        )
+
+        return res

@@ -6,6 +6,7 @@ Variable root
 # Do not use this, it breaks sqlmodel
 # from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -60,3 +61,32 @@ class VariableRoot(SQLModel, table=True):
     """
 
     # auto-inject context and type on serialisation
+
+    @classmethod
+    def from_source_json(cls, df: Path) -> "VariableRoot":
+        """
+        Initialise from a source `.json` file
+
+        Parameters
+        ----------
+        df
+            Definition file from which to initialise
+
+        Returns
+        -------
+        :
+            Initialised instance
+        """
+        with open(df) as fh:
+            raw = json.load(fh)
+
+        res = cls(
+            id=raw["id"],
+            validation_key=raw["validation-key"],
+            ui_label=raw["ui-label"],
+            data_type=raw["data-type"],
+            # TODO: update if we start using more cross-links
+            standard_name=raw["standard-name"],
+        )
+
+        return res

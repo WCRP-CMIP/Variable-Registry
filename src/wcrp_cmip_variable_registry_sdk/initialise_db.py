@@ -55,8 +55,8 @@ def initialise_sqlite_database_from_source_root(
         session.add_all(
             (
                 *db_info.horizontal_labels_by_id.values(),
-                *db_info.variables.values(),
-                *db_info.variable_roots.values(),
+                *db_info.variables_by_id.values(),
+                *db_info.variable_roots_by_id.values(),
             )
         )
 
