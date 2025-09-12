@@ -35,7 +35,7 @@
     {
       "id": "ht",
       "validation-key": "ht",
-      "ui-label": "Mean or sum along a line",
+      "ui-label": "Mean or sum along a transect (i.e. line)",
       "description": "Variables calculated as means or sums across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
       "type": [
         "wcrp:horizontal-label",
