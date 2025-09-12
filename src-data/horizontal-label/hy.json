@@ -1,8 +1,8 @@
 {
     "id": "hy",
     "validation-key": "hy",
-    "ui-label": "Zonal Mean",
-    "description": "Variables calculated as zonal means, averaged along lines of constant latitude (east-west direction). Removes longitudinal variability to show meridional (north-south) patterns and large-scale circulation features.",
+    "ui-label": "Zonal mean",
+    "description": "Variables calculated as zonal means, i.e. averaged along lines of constant latitude (east-west direction, therefore the variable has no longitude dimension, for example). Removes longitudinal variability to show meridional (north-south) patterns, often with a focus on large-scale circulation features. See also hybs.",
     "@context": "_context_",
     "type": [
         "wcrp:horizontal-label",

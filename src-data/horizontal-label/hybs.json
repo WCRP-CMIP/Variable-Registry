@@ -1,8 +1,8 @@
 {
     "id": "hybs",
     "validation-key": "hybs",
-    "ui-label": "Zonal Mean Within Basin",
-    "description": "Variables calculated as zonal means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging while preserving regional characteristics and circulation patterns within each basin.",
+    "ui-label": "Zonal mean within basin",
+    "description": "Variables calculated as zonal sums or means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging (therefore the variable has no longitude dimension) while preserving regional characteristics and circulation patterns within each basin. See also hy.",
     "@context": "_context_",
     "type": [
         "wcrp:horizontal-label",

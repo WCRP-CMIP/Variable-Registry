@@ -1,0 +1,11 @@
+{
+    "id": "hs",
+    "validation-key": "hs",
+    "ui-label": "Site values",
+    "description": "Variables represented as point measurements at specific geographic sites or stations. For example, used for observational data, tower measurements, or model output extracted at particular locations rather than gridded data.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:horizontal-label",
+        "variable"
+    ]
+}
