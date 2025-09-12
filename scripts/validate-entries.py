@@ -24,7 +24,7 @@ import json
 from pathlib import Path
 from typing import Iterable
 
-from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
+from sqlmodel import Field, Relationship, Session, SQLModel, create_engine, select
 
 REPO_ROOT = Path(__file__).parents[1]
 
@@ -93,6 +93,8 @@ class VariableRoot(SQLModel, table=True):
     """
     Text to use for this label in user interfaces
     """
+
+    # Surely we should have a description key here
 
     data_type: str
     """
@@ -297,6 +299,86 @@ def get_variable_roots_by_id(
     return res
 
 
+def get_variables_by_id(
+    definition_files: Iterable[Path],
+    horizontal_labels_by_id: dict[str, HorizontalLabel],
+    variable_roots_by_id: dict[str, VariableRoot],
+) -> dict[str, Variable]:
+    """
+    Get variables
+
+    Parameters
+    ----------
+    definition_files
+        Files from which to load definitions
+
+    horizontal_labels_by_id
+        Horizontal labels, keyed by ID
+
+    variable_roots_by_id
+        Variable roots, keyed by ID
+
+    Returns
+    -------
+    :
+        Initialised [Variable][]'s, each key is an ID
+    """
+    res = {}
+    id_sources = {}
+    for df in definition_files:
+        with open(df) as fh:
+            raw = json.load(fh)
+
+        if raw["id"] in res:
+            msg = f"{raw['id']} appears in both {id_sources[raw['id']]} and {df}"
+            raise AssertionError(msg)
+        else:
+            id_sources[raw["id"]] = df
+
+        horizontal_label = horizontal_labels_by_id[raw["horizontal-label"]]
+        # try:
+        #     horizontal_label = horizontal_labels_by_id[raw["horizontal-label"]]
+        # except KeyError:
+        #     print(f"Missing {raw['horizontal-label']} used by {raw['id']}")
+        #     continue
+
+        variable_root = variable_roots_by_id[raw["variable-root"]]
+        # try:
+        #     variable_root = variable_roots_by_id[raw["variable-root"]]
+        # except KeyError:
+        #     print(f"Missing {raw['variable-root']} used by {raw['id']}")
+        #     continue
+
+        cell_measures = raw["cell-measures"]
+        # if cell_measures is None:
+        #     print(f"cell_measures are None for {raw['id']}")
+        #     continue
+
+        variable_inst = Variable(
+            id=raw["id"],
+            validation_key=raw["validation-key"],
+            ui_label=raw["ui-label"],
+            description=raw["description"],
+            area_label=raw["area-label"],
+            cell_measures=cell_measures,
+            cell_methods=raw["cell-methods"],
+            # TODO: fix
+            dimensions=" ".join(raw["dimensions"]),
+            horizontal_label=horizontal_label,
+            model_realm=raw["model-realm"],
+            physical_parameter_name=raw["physical-parameter-name"],
+            standard_name=raw["standard-name"],
+            temporal_label=raw["temporal-label"],
+            units=raw["units"],
+            variable_root=variable_root,
+            vertical_label=raw["vertical-label"],
+        )
+
+        res[raw["id"]] = variable_inst
+
+    return res
+
+
 def get_definition_files(dir: str) -> tuple[Path, ...]:
     """
     Get files which define values for a given 'facet'
@@ -345,8 +427,42 @@ def main() -> None:
         variable_roots = get_variable_roots_by_id(get_definition_files("variable-root"))
         session.add_all(variable_roots.values())
         # breakpoint()
+        variables = get_variables_by_id(
+            get_definition_files("variable"),
+            horizontal_labels_by_id=horizontal_labels,
+            variable_roots_by_id=variable_roots,
+        )
+        session.add_all(variables.values())
 
         session.commit()
+
+    # Once it's in a database, obviously way easier to read out too
+    with Session(engine) as session:
+        statement = select(Variable).where(
+            # Hmmm, some special syntax needed probably
+            Variable.variable_root_id == "tas",
+        )
+
+        result_exec = session.exec(statement)
+
+        results = list(result_exec.all())
+        print("Loaded results")
+        print()
+        for r in results:
+            print(f"{r.model_dump()=}")
+            print(f"{r.horizontal_label=}")
+            print(f"{r.horizontal_label.description=}")
+            print(f"{r.horizontal_label.validation_key=}")
+            print(f"{r.variable_root=}")
+            print(f"{r.variable_root.validation_key=}")
+            print()
+
+        statement = select(Variable)
+
+        result_exec = session.exec(statement)
+
+        results = list(result_exec.all())
+        print(f"{set(v.variable_root.data_type for v in results)}")
 
 
 if __name__ == "__main__":
