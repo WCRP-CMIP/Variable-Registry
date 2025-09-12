@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_horizontal-label.json",
-        "file_creation_date": "2025-09-12T05:54:42.619110",
+        "file_creation_date": "2025-09-12T05:56:34.388104",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: cc6ec99027493d1c6229d9c312b93d30",
+        "checksum": "md5: 3c2addad2282ca103b9b1c99849369b3",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "9ff041072cd87bdcd05bbf79c09f4bb2a4b785d7",
+        "last_commit": "510f65130e40c98cf7799ead0b35d675e932dbe8",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "horizontal-label": {
@@ -22,7 +22,7 @@
         },
         "ht": {
             "description": "Variables calculated as means or sums across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
-            "ui-label": "Mean or sum along a line",
+            "ui-label": "Mean or sum along a transect (i.e. line)",
             "validation-key": "ht"
         },
         "hxy": {
