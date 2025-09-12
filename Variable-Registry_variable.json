@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-12T14:36:06.417572",
+        "file_creation_date": "2025-09-12T15:03:49.913193",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: e0865d901fdd97ec540e93ea41e5e793",
+        "checksum": "md5: 5940dad2d5f2611ef3d23c6fe5570bd4",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "1f0d2f8f47eef141f1b2c9ab808a24d956744b5d",
+        "last_commit": "dcb0257363889597bdf9df9805316b5464f7e7f7",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
@@ -2624,7 +2624,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that convection occurs in the grid cell .",
+            "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3223,7 +3223,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP _clisccp _variable.",
+            "description": "MODIS Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3269,7 +3269,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage ice-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same as used by clisccp output from the ISCCP satellite simulator.",
+            "description": "MODIS Ice Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -3315,7 +3315,7 @@
             "area-label": "air",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean where air",
-            "description": "Percentage liquid-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by clisccp (ISCCP simulator).",
+            "description": "MODIS Liquid Topped Cloud Area Percentage",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20561,7 +20561,7 @@
             "area-label": "u",
             "cell-measures": "area: areacella",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Fraction of time that shallow convection occurs in the grid cell.",
+            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -20581,7 +20581,7 @@
         "sci_tavg-u-hxys-u": {
             "area-label": "u",
             "cell-methods": "vr:cell-method/ point time: point",
-            "description": "Fraction of time that shallow convection occurs in the grid cell.",
+            "description": "Fraction of time that shallow convection occurs in the grid cell. This variable is binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
             "dimensions": [
                 "site",
                 "time1"
@@ -21397,7 +21397,7 @@
             "area-label": "u",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Areal fraction of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
+            "description": "Percentage of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -21774,7 +21774,7 @@
         "siextent_tavg-u-hm-u": {
             "area-label": "u",
             "cell-methods": "vr:cell-method/ time: mean",
-            "description": "Total integrated area of all Southern Hemisphere grid cells that are covered by at least 15% areal fraction of sea ice (siconc >= 0.15). Does not include grid cells partially covered by land.",
+            "description": "Total integrated area of all grid cells that are covered by at least 15% sea ice (siconc >= 15). Does not include grid cells partially covered by land.",
             "dimensions": "time",
             "horizontal-label": "hm",
             "model-realm": "universal:realm/seaIce",
@@ -22169,7 +22169,7 @@
             "area-label": "u",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siconc)",
-            "description": "Area fraction of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+            "description": "Percentage of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -22191,7 +22191,7 @@
             "area-label": "si",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siitdconc)",
-            "description": "Area fraction of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+            "description": "Percentage of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
             "dimensions": [
                 "longitude",
                 "latitude",
@@ -23126,7 +23126,7 @@
             "area-label": "si",
             "cell-measures": "area: areacello",
             "cell-methods": "vr:cell-method/ time: mean where sea_ice (mask=siconc)",
-            "description": "Area fraction of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve an areal fraction of snow, this variable will always be either 0 or 1.",
+            "description": "Percentage of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve a percentage of snow, this variable will always be either 0 or 100.",
             "dimensions": [
                 "longitude",
                 "latitude",
