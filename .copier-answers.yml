@@ -1,17 +1,18 @@
-_src_path: /Users/daniel.ellis/WIPwork/CMIP-LD/copier/mkdocs
-_commit: HEAD
-_timestamp: '2025-08-27T15:06:15.396628'
-_auto_generated: true
-_script_version: '2.1'
-project_name: Variable Registry Documentation
-repo_name: Variable-Registry
-author_name: Daniel Ellis
-author_email: daniel.ellis@ext.esa.int
-github_username: WCRP-CMIP
-site_url: https://WCRP-CMIP.github.io/Variable-Registry/
-repo_url: https://github.com/WCRP-CMIP/Variable-Registry
-json_data_folder: json_data
-description: Documentation for Variable Registry
-header_color: red
-generate_static_files: true
-static_files_folder: static_output
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.14.4
+_src_path: gl:openscm/copier-core-python-repository
+conda_release: false
+email: zebedee.nicholls@climate-resource.com
+include_cli: false
+name: Zebedee Nicholls
+notebook_based_docs: true
+package_manager: uv
+pandas_doctests: false
+plot_dependencies: false
+project_description_short: Software developer kit for interacting with the WCRP-CMIP
+    variable registry
+project_name_human: WCRP-CMIP Variable Registry SDK
+project_name_pip: wcrp-cmip-variable-registry-sdk
+project_name_python: wcrp_cmip_variable_registry_sdk
+project_url: https://github.com/WCRP-CMIP/Variable-Registry
+track_lock_file: true

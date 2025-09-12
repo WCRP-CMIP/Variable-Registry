@@ -73,6 +73,103 @@ Try with examples:
 - **[GitHub Repository](https://github.com/WCRP-CMIP/Variable-Registry)**
 - **[CMIP Website](https://www.wcrp-cmip.org)**
 
+## Software developer kit (SDK)
+
+This repository also includes an SDK.
+It is found in `src`.
+
+**Key info :**
+[![Main branch: supported Python versions](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FWCRP-CMIP%2FVariable-Registry%2Fmain%2Fpyproject.toml)](https://github.com/WCRP-CMIP/Variable-Registry/blob/main/pyproject.toml)
+[![Licence](https://img.shields.io/pypi/l/wcrp-cmip-variable-registry-sdk?label=licence)](https://github.com/WCRP-CMIP/Variable-Registry/blob/main/LICENCE)
+
+**PyPI :**
+[![PyPI](https://img.shields.io/pypi/v/wcrp-cmip-variable-registry-sdk.svg)](https://pypi.org/project/wcrp-cmip-variable-registry-sdk/)
+[![PyPI install](https://github.com/WCRP-CMIP/Variable-Registry/actions/workflows/install-pypi.yaml/badge.svg?branch=main)](https://github.com/WCRP-CMIP/Variable-Registry/actions/workflows/install-pypi.yaml)
+
+**Tests :**
+[![CI](https://github.com/WCRP-CMIP/Variable-Registry/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/WCRP-CMIP/Variable-Registry/actions/workflows/ci.yaml)
+[![Coverage](https://codecov.io/gh/WCRP-CMIP/Variable-Registry/branch/main/graph/badge.svg)](https://codecov.io/gh/WCRP-CMIP/Variable-Registry)
+
+**Other info :**
+[![Last Commit](https://img.shields.io/github/last-commit/WCRP-CMIP/Variable-Registry.svg)](https://github.com/WCRP-CMIP/Variable-Registry/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/WCRP-CMIP/Variable-Registry.svg)](https://github.com/WCRP-CMIP/Variable-Registry/graphs/contributors)
+
+### Status
+
+<!---
+
+We recommend having a status line in your repo
+to tell anyone who stumbles on your repository where you're up to.
+Some suggested options:
+
+- prototype: the project is just starting up and the code is all prototype
+- development: the project is actively being worked on
+- finished: the project has achieved what it wanted
+  and is no longer being worked on, we won't reply to any issues
+- dormant: the project is no longer worked on
+  but we might come back to it,
+  if you have questions, feel free to raise an issue
+- abandoned: this project is no longer worked on
+  and we won't reply to any issues
+-->
+
+- development: the project is actively being worked on
+
+<!--- --8<-- [end:description] -->
+
+### Installation
+
+<!--- --8<-- [start:installation] -->
+#### As an application
+
+If you want to use WCRP-CMIP Variable Registry SDK as an application,
+then we recommend using the 'locked' version of the package.
+This version pins the version of all dependencies too,
+which reduces the chance of installation issues
+because of breaking updates to dependencies.
+
+The locked version of WCRP-CMIP Variable Registry SDK can be installed with
+
+=== "pip"
+    ```sh
+    pip install 'wcrp-cmip-variable-registry-sdk[locked]'
+    ```
+
+#### As a library
+
+If you want to use WCRP-CMIP Variable Registry SDK as a library,
+for example you want to use it
+as a dependency in another package/application that you're building,
+then we recommend installing the package with the commands below.
+This method provides the loosest pins possible of all dependencies.
+This gives you, the package/application developer,
+as much freedom as possible to set the versions of different packages.
+However, the tradeoff with this freedom is that you may install
+incompatible versions of WCRP-CMIP Variable Registry SDK's dependencies
+(we cannot test all combinations of dependencies,
+particularly ones which haven't been released yet!).
+Hence, you may run into installation issues.
+If you believe these are because of a problem in WCRP-CMIP Variable Registry SDK,
+please [raise an issue](https://github.com/WCRP-CMIP/Variable-Registry/issues).
+
+The (non-locked) version of WCRP-CMIP Variable Registry SDK can be installed with
+
+=== "pip"
+    ```sh
+    pip install wcrp-cmip-variable-registry-sdk
+    ```
+
+#### For developers
+
+For development, we rely on [uv](https://docs.astral.sh/uv/)
+for all our dependency management.
+To get started, you will need to make sure that uv is installed
+([instructions here](https://docs.astral.sh/uv/getting-started/installation/)
+(we found that the self-managed install was best,
+particularly for upgrading uv later).
+
+<!--- --8<-- [end:installation] -->
+
 ---
 
 *Pattern: root_temporal-vertical-horizontal-area*
