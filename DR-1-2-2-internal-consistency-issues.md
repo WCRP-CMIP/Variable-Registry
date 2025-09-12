@@ -2467,5 +2467,3 @@
 - description
     - 3hr.hfds: "Net flux of heat entering the liquid water column through its upper surface (excluding any 'flux adjustment')."
     - Omon.hfdsSouth30: 'This is the net flux of heat entering the liquid water column through its upper surface (excluding any "flux adjustment") .'
-
-
