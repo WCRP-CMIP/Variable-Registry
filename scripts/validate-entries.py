@@ -1,7 +1,8 @@
 """
 Validate entries
 
-Currently, only validates horizontal labels,
+Currently, only validates horizontal labels
+and links between variables and variable roots,
 but the idea is that we eventually build this out
 to validate everything.
 
