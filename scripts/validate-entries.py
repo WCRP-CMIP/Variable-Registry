@@ -24,7 +24,7 @@ import json
 from pathlib import Path
 from typing import Iterable
 
-from sqlmodel import Field, Session, SQLModel, create_engine
+from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
 
 REPO_ROOT = Path(__file__).parents[1]
 
@@ -47,7 +47,9 @@ class HorizontalLabel(SQLModel, table=True):
     # TODO: switch _ to - when serialising and deserialising
     validation_key: str
     """
-    [TODO]
+    Value as used throughout CMIP
+
+    Unlike `id`, this can contain uppercase characters
     """
 
     ui_label: str
@@ -60,14 +62,165 @@ class HorizontalLabel(SQLModel, table=True):
     Description of the meaning of this horizontal label
     """
 
+    variables: list["Variable"] = Relationship(back_populates="horizontal_label")
+    """
+    Variables that use this horizontal label
+    """
+
     # auto-inject context and type on serialisation
 
 
-def get_horizontal_labels(
-    definition_files: Iterable[Path],
-) -> tuple[HorizontalLabel, ...]:
+class VariableRoot(SQLModel, table=True):
     """
-    Get horizontal labels
+    Variable root
+    """
+
+    # TODO: add validation that this must be lowercase
+    id: str = Field(primary_key=True)
+    """
+    Unique ID for this variable root
+    """
+
+    # TODO: switch _ to - when serialising and deserialising
+    validation_key: str
+    """
+    Value as used throughout CMIP
+
+    Unlike `id`, this can contain uppercase characters
+    """
+
+    ui_label: str
+    """
+    Text to use for this label in user interfaces
+    """
+
+    data_type: str
+    """
+    [TODO]
+    """
+
+    standard_name: str
+    """
+    CF [TODO check] standard name for this variable root
+    """
+    # TODO: consider whether to validate the link with the CF standard name list
+
+    variables: list["Variable"] = Relationship(back_populates="variable_root")
+    """
+    Variables that use this variable root
+    """
+
+    # auto-inject context and type on serialisation
+
+
+class Variable(SQLModel, table=True):
+    """
+    Variable (technically, branded variable)
+    """
+
+    # TODO: add validation that this must be lowercase
+    id: str = Field(primary_key=True)
+    """
+    Unique ID for this variable
+    """
+
+    # TODO: switch _ to - when serialising and deserialising
+    validation_key: str
+    """
+    Value as used throughout CMIP
+
+    Unlike `id`, this can contain uppercase characters
+    """
+
+    ui_label: str
+    """
+    Text to use for this label in user interfaces
+    """
+
+    description: str
+    """
+    Description of the variable
+    """
+
+    area_label: str  # TODO: make link
+    """
+    Area label associated with this variable
+    """
+
+    cell_measures: str  # TODO: make link
+    """
+    Cell measures associated with this variable
+    """
+
+    cell_methods: str  # TODO: make link
+    """
+    Cell methods associated with this variable
+    """
+
+    dimensions: str  # TODO: fix type and make link
+    """
+    Dimensions associated with this variable
+    """
+
+    horizontal_label_id: str = Field(foreign_key="horizontallabel.id")
+    """
+    ID of the horizontal label associated with this variable
+    """
+
+    horizontal_label: HorizontalLabel = Relationship(back_populates="variables")
+    """
+    Horizontal label associated with this variable
+    """
+
+    model_realm: str  # TODO: make link
+    """
+    Model realm to which this variable applies
+    """
+
+    physical_parameter_name: str
+    """
+    Name of the physical parameter represented by this variable
+    """
+
+    standard_name: str
+    """
+    CF [TODO check] standard name for this variable root
+    """
+    # TODO: consider whether to validate the link with the CF standard name list
+
+    temporal_label: str  # TODO: make link
+    """
+    Temporal label associated with this variable
+    """
+
+    units: str  # TODO: consider validation
+    """
+    Units to be used with this variable
+    """
+
+    variable_root_id: str = Field(foreign_key="variableroot.id")
+    """
+    ID of the variable root associated with this variable
+    """
+
+    variable_root: VariableRoot = Relationship(back_populates="variables")
+    """
+    Variable root associated with this variable
+    """
+
+    vertical_label: str  # TODO: make link
+    """
+    Vertical label associated with this variable
+    """
+
+    # auto-inject context and type on serialisation
+
+
+def get_horizontal_labels_by_id(
+    definition_files: Iterable[Path],
+) -> dict[str, HorizontalLabel]:
+    """
+    Get horizontal labels by ID
 
     Parameters
     ----------
@@ -77,12 +230,19 @@ def get_horizontal_labels(
     Returns
     -------
     :
-        Initialised [HorizontalLabel][]'s
+        Initialised [HorizontalLabel][]'s, each key is its ID
     """
-    res_l = []
+    res = {}
+    id_sources = {}
     for df in definition_files:
         with open(df) as fh:
             raw = json.load(fh)
+
+        if raw["id"] in res:
+            msg = f"{raw['id']} appears in both {id_sources[raw['id']]} and {df}"
+            raise AssertionError(msg)
+        else:
+            id_sources[raw["id"]] = df
 
         hl = HorizontalLabel(
             id=raw["id"],
@@ -91,9 +251,48 @@ def get_horizontal_labels(
             description=raw["description"],
         )
 
-        res_l.append(hl)
+        res[raw["id"]] = hl
 
-    res = tuple(res_l)
+    return res
+
+
+def get_variable_roots_by_id(
+    definition_files: Iterable[Path],
+) -> dict[str, VariableRoot]:
+    """
+    Get variable roots
+
+    Parameters
+    ----------
+    definition_files
+        Files from which to load definitions
+
+    Returns
+    -------
+    :
+        Initialised [VariableRoot][]'s, each key is an ID
+    """
+    res = {}
+    id_sources = {}
+    for df in definition_files:
+        with open(df) as fh:
+            raw = json.load(fh)
+
+        if raw["id"] in res:
+            msg = f"{raw['id']} appears in both {id_sources[raw['id']]} and {df}"
+            raise AssertionError(msg)
+        else:
+            id_sources[raw["id"]] = df
+
+        vr = VariableRoot(
+            id=raw["id"],
+            validation_key=raw["validation-key"],
+            ui_label=raw["ui-label"],
+            data_type=raw["data-type"],
+            standard_name=raw["standard-name"],
+        )
+
+        res[raw["id"]] = vr
 
     return res
 
@@ -138,10 +337,14 @@ def main() -> None:
     SQLModel.metadata.create_all(engine)
 
     with Session(engine) as session:
-        horizontal_labels = get_horizontal_labels(
+        horizontal_labels = get_horizontal_labels_by_id(
             get_definition_files("horizontal-label")
         )
-        session.add_all(horizontal_labels)
+        session.add_all(horizontal_labels.values())
+
+        variable_roots = get_variable_roots_by_id(get_definition_files("variable-root"))
+        session.add_all(variable_roots.values())
+        # breakpoint()
 
         session.commit()
 
