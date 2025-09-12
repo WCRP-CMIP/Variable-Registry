@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_horizontal-label.json",
-        "file_creation_date": "2025-09-12T05:56:34.388104",
+        "file_creation_date": "2025-09-12T05:59:38.719265",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 3c2addad2282ca103b9b1c99849369b3",
+        "checksum": "md5: ad3a58529373a65e68ee366428c30fee",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "510f65130e40c98cf7799ead0b35d675e932dbe8",
+        "last_commit": "e24f2c715e5a173869302b3587b65b62c67410df",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "horizontal-label": {
@@ -35,10 +35,10 @@
             "ui-label": "Zonal mean",
             "validation-key": "hy"
         },
-        "hybs": {
+        "hyb": {
             "description": "Variables calculated as zonal sums or means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging (therefore the variable has no longitude dimension) while preserving regional characteristics and circulation patterns within each basin. See also hy.",
             "ui-label": "Zonal mean within basin",
-            "validation-key": "hybs"
+            "validation-key": "hyb"
         }
     }
 }
