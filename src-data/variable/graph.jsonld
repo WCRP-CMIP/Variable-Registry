@@ -647,7 +647,7 @@
       ]
     },
     {
-      "id": "baresoilFrac_tavg-u-hxy-u",
+      "id": "baresoilfrac_tavg-u-hxy-u",
       "validation-key": "baresoilFrac_tavg-u-hxy-u",
       "ui-label": "Bare Soil Percentage Area Coverage",
       "description": "Percentage of entire grid cell  that is covered by bare soil.",
@@ -936,7 +936,7 @@
       ]
     },
     {
-      "id": "burntFractionAll_tavg-u-hxy-u",
+      "id": "burntfractionall_tavg-u-hxy-u",
       "validation-key": "burntFractionAll_tavg-u-hxy-u",
       "ui-label": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
       "description": "Percentage of grid cell burned due to all fires including natural and anthropogenic fires and those associated with anthropogenic land use change",
@@ -963,7 +963,7 @@
       ]
     },
     {
-      "id": "c13Land_tavg-u-hxy-lnd",
+      "id": "c13land_tavg-u-hxy-lnd",
       "validation-key": "c13Land_tavg-u-hxy-lnd",
       "ui-label": "Mass of 13C in All Terrestrial Carbon Pools",
       "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil, and forestry and agricultural products (e.g. paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock).",
@@ -989,7 +989,7 @@
       ]
     },
     {
-      "id": "c13Litter_tavg-u-hxy-lnd",
+      "id": "c13litter_tavg-u-hxy-lnd",
       "validation-key": "c13Litter_tavg-u-hxy-lnd",
       "ui-label": "Mass of 13C in Litter Pool",
       "description": "Carbon-13 mass content per unit area litter (dead plant material in or above the soil).",
@@ -1015,7 +1015,7 @@
       ]
     },
     {
-      "id": "c13Soil_tavg-u-hxy-lnd",
+      "id": "c13soil_tavg-u-hxy-lnd",
       "validation-key": "c13Soil_tavg-u-hxy-lnd",
       "ui-label": "Mass of 13C in Soil Pool",
       "description": "Carbon-13 mass content per unit area in soil.",
@@ -1041,7 +1041,7 @@
       ]
     },
     {
-      "id": "c13Veg_tavg-u-hxy-lnd",
+      "id": "c13veg_tavg-u-hxy-lnd",
       "validation-key": "c13Veg_tavg-u-hxy-lnd",
       "ui-label": "Mass of 13C in Vegetation",
       "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass).",
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "id": "c14Land_tavg-u-hxy-lnd",
+      "id": "c14land_tavg-u-hxy-lnd",
       "validation-key": "c14Land_tavg-u-hxy-lnd",
       "ui-label": "Mass of 14C in All Terrestrial Carbon Pools",
       "description": "Carbon-14 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil, and forestry and agricultural products (e.g. paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock).",
@@ -1093,7 +1093,7 @@
       ]
     },
     {
-      "id": "c14Litter_tavg-u-hxy-lnd",
+      "id": "c14litter_tavg-u-hxy-lnd",
       "validation-key": "c14Litter_tavg-u-hxy-lnd",
       "ui-label": "Mass of 14C in Litter Pool",
       "description": "Carbon-14 mass content per unit area litter (dead plant material in or above the soil).",
@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "id": "c14Soil_tavg-u-hxy-lnd",
+      "id": "c14soil_tavg-u-hxy-lnd",
       "validation-key": "c14Soil_tavg-u-hxy-lnd",
       "ui-label": "Mass of 14C in Soil Pool",
       "description": "Carbon-14 mass content per unit area in soil.",
@@ -1145,7 +1145,7 @@
       ]
     },
     {
-      "id": "c14Veg_tavg-u-hxy-lnd",
+      "id": "c14veg_tavg-u-hxy-lnd",
       "validation-key": "c14Veg_tavg-u-hxy-lnd",
       "ui-label": "Mass of 14C in Vegetation",
       "description": "only requested for DECK HIST",
@@ -1252,7 +1252,7 @@
       ]
     },
     {
-      "id": "c3PftFrac_tavg-u-hxy-u",
+      "id": "c3pftfrac_tavg-u-hxy-u",
       "validation-key": "c3PftFrac_tavg-u-hxy-u",
       "ui-label": "Percentage Cover by C3 Plant Functional Type",
       "description": "Percentage of entire grid cell  that is covered by C3 PFTs (including grass, crops, and trees).",
@@ -1333,7 +1333,7 @@
       ]
     },
     {
-      "id": "c4PftFrac_tavg-u-hxy-u",
+      "id": "c4pftfrac_tavg-u-hxy-u",
       "validation-key": "c4PftFrac_tavg-u-hxy-u",
       "ui-label": "Percentage Cover by C4 Plant Functional Type",
       "description": "Percentage of entire grid cell  that is covered by C4 PFTs (including grass and crops).",
@@ -1387,7 +1387,7 @@
       ]
     },
     {
-      "id": "cGeologicStorage_tavg-u-hxy-u",
+      "id": "cgeologicstorage_tavg-u-hxy-u",
       "validation-key": "cGeologicStorage_tavg-u-hxy-u",
       "ui-label": "Carbon Mass in Geologic Storage",
       "description": "Mass of carbon that has been intentionally sequestered in geologic storage. The definition of geologic storage here is that it be stored for periods of time that are long as compared to the simulation.",
@@ -1413,7 +1413,7 @@
       ]
     },
     {
-      "id": "cLand_tavg-u-hxy-lnd",
+      "id": "cland_tavg-u-hxy-lnd",
       "validation-key": "cLand_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon in All Terrestrial Carbon Pools",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -1439,7 +1439,7 @@
       ]
     },
     {
-      "id": "cLeaf_tavg-u-hxy-lnd",
+      "id": "cleaf_tavg-u-hxy-lnd",
       "validation-key": "cLeaf_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Leaves",
       "description": "Carbon mass per unit area in leaves.",
@@ -1465,7 +1465,7 @@
       ]
     },
     {
-      "id": "cLitterCwd_tavg-u-hxy-lnd",
+      "id": "clittercwd_tavg-u-hxy-lnd",
       "validation-key": "cLitterCwd_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Coarse Woody Debris",
       "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent.",
@@ -1491,7 +1491,7 @@
       ]
     },
     {
-      "id": "cLitterLut_tpt-u-hxy-multi",
+      "id": "clitterlut_tpt-u-hxy-multi",
       "validation-key": "cLitterLut_tpt-u-hxy-multi",
       "ui-label": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
       "description": "end of year values (not annual mean)",
@@ -1518,7 +1518,7 @@
       ]
     },
     {
-      "id": "cLitterSubSurf_tavg-u-hxy-lnd",
+      "id": "clittersubsurf_tavg-u-hxy-lnd",
       "validation-key": "cLitterSubSurf_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Below-Ground Litter",
       "description": "subsurface litter pool fed by root inputs.",
@@ -1544,7 +1544,7 @@
       ]
     },
     {
-      "id": "cLitterSurf_tavg-u-hxy-lnd",
+      "id": "clittersurf_tavg-u-hxy-lnd",
       "validation-key": "cLitterSurf_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Above-Ground Litter",
       "description": "Surface or near-surface litter pool fed by leaf and above-ground litterfall",
@@ -1570,7 +1570,7 @@
       ]
     },
     {
-      "id": "cLitter_tavg-u-hxy-lnd",
+      "id": "clitter_tavg-u-hxy-lnd",
       "validation-key": "cLitter_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Litter Pool",
       "description": "\"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Content\" indicates a quantity per unit area. The sum of the quantities with standard names surface\\_litter\\_mass\\_content\\_of\\_carbon and subsurface\\_litter\\_mass\\_content\\_of\\_carbon has the standard name litter\\_mass\\_content\\_of\\_carbon.",
@@ -1596,7 +1596,7 @@
       ]
     },
     {
-      "id": "cOther_tavg-u-hxy-lnd",
+      "id": "cother_tavg-u-hxy-lnd",
       "validation-key": "cOther_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",
       "description": "E.g. fruits, seeds, etc.",
@@ -1622,7 +1622,7 @@
       ]
     },
     {
-      "id": "cProductLut_tpt-u-hxy-multi",
+      "id": "cproductlut_tpt-u-hxy-multi",
       "validation-key": "cProductLut_tpt-u-hxy-multi",
       "ui-label": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
       "description": "Anthropogenic pools associated with land use tiles into which harvests and cleared carbon are deposited before release into atmosphere PLUS any remaining anthropogenic pools that may be associated with lands which were converted into land use tiles during reported period. Examples of products include paper, cardboard, timber for construction, and crop harvest for food or fuel. Does NOT include residue which is deposited into soil or litter; end of year values (not annual mean).",
@@ -1649,7 +1649,7 @@
       ]
     },
     {
-      "id": "cProduct_tavg-u-hxy-lnd",
+      "id": "cproduct_tavg-u-hxy-lnd",
       "validation-key": "cProduct_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Products of Land-Use Change",
       "description": "Carbon mass per unit area in that has been removed from the environment through  land use change.",
@@ -1675,7 +1675,7 @@
       ]
     },
     {
-      "id": "cRoot_tavg-u-hxy-lnd",
+      "id": "croot_tavg-u-hxy-lnd",
       "validation-key": "cRoot_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Roots",
       "description": "including fine and coarse roots.",
@@ -1701,7 +1701,7 @@
       ]
     },
     {
-      "id": "cSoilLut_tpt-u-hxy-multi",
+      "id": "csoillut_tpt-u-hxy-multi",
       "validation-key": "cSoilLut_tpt-u-hxy-multi",
       "ui-label": "Carbon in Soil Pool on Land-Use Tiles",
       "description": "end of year values (not annual mean)",
@@ -1728,7 +1728,7 @@
       ]
     },
     {
-      "id": "cSoilPools_tavg-u-hxy-lnd",
+      "id": "csoilpools_tavg-u-hxy-lnd",
       "validation-key": "cSoilPools_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
       "description": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",
@@ -1755,7 +1755,7 @@
       ]
     },
     {
-      "id": "cSoil_tavg-d100cm-hxy-lnd",
+      "id": "csoil_tavg-d100cm-hxy-lnd",
       "validation-key": "cSoil_tavg-d100cm-hxy-lnd",
       "ui-label": "Carbon Mass in Soil Pool Above 1m Depth",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -1782,7 +1782,7 @@
       ]
     },
     {
-      "id": "cSoil_tavg-sl-hxy-lnd",
+      "id": "csoil_tavg-sl-hxy-lnd",
       "validation-key": "cSoil_tavg-sl-hxy-lnd",
       "ui-label": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
       "description": "for models with vertically discretised soil carbon, report total soil carbon for each level",
@@ -1809,7 +1809,7 @@
       ]
     },
     {
-      "id": "cSoil_tavg-u-hxy-lnd",
+      "id": "csoil_tavg-u-hxy-lnd",
       "validation-key": "cSoil_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Model Soil Pool",
       "description": "Carbon mass in the full depth of the soil model.",
@@ -1835,7 +1835,7 @@
       ]
     },
     {
-      "id": "cStem_tavg-u-hxy-lnd",
+      "id": "cstem_tavg-u-hxy-lnd",
       "validation-key": "cStem_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Stem",
       "description": "including sapwood and hardwood.",
@@ -1861,7 +1861,7 @@
       ]
     },
     {
-      "id": "cVegLut_tpt-u-hxy-multi",
+      "id": "cveglut_tpt-u-hxy-multi",
       "validation-key": "cVegLut_tpt-u-hxy-multi",
       "ui-label": "Carbon in Vegetation on Land-Use Tiles",
       "description": "end of year values (not annual mean)",
@@ -1888,7 +1888,7 @@
       ]
     },
     {
-      "id": "cVeg_tavg-u-hxy-lnd",
+      "id": "cveg_tavg-u-hxy-lnd",
       "validation-key": "cVeg_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Vegetation",
       "description": "Carbon mass per unit area in vegetation.",
@@ -1914,7 +1914,7 @@
       ]
     },
     {
-      "id": "cVeg_tavg-u-hxy-ng",
+      "id": "cveg_tavg-u-hxy-ng",
       "validation-key": "cVeg_tavg-u-hxy-ng",
       "ui-label": "Carbon Mass in Vegetation on Grass Tiles",
       "description": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide.",
@@ -1940,7 +1940,7 @@
       ]
     },
     {
-      "id": "cVeg_tavg-u-hxy-shb",
+      "id": "cveg_tavg-u-hxy-shb",
       "validation-key": "cVeg_tavg-u-hxy-shb",
       "ui-label": "Carbon Mass in Vegetation on Shrub Tiles",
       "description": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide.",
@@ -1966,7 +1966,7 @@
       ]
     },
     {
-      "id": "cVeg_tavg-u-hxy-tree",
+      "id": "cveg_tavg-u-hxy-tree",
       "validation-key": "cVeg_tavg-u-hxy-tree",
       "ui-label": "Carbon Mass in Vegetation on Tree Tiles",
       "description": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide.",
@@ -1992,7 +1992,7 @@
       ]
     },
     {
-      "id": "cWood_tavg-u-hxy-lnd",
+      "id": "cwood_tavg-u-hxy-lnd",
       "validation-key": "cWood_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass in Wood",
       "description": "Carbon Mass in Wood",
@@ -2308,7 +2308,7 @@
       ]
     },
     {
-      "id": "cfadDbze94_tavg-h40-hxy-air",
+      "id": "cfaddbze94_tavg-h40-hxy-air",
       "validation-key": "cfadDbze94_tavg-h40-hxy-air",
       "ui-label": "CloudSat Radar Reflectivity CFAD",
       "description": "CloudSat Radar Reflectivity",
@@ -2336,7 +2336,7 @@
       ]
     },
     {
-      "id": "cfadLidarsr532_tavg-h40-hxy-air",
+      "id": "cfadlidarsr532_tavg-h40-hxy-air",
       "validation-key": "cfadLidarsr532_tavg-h40-hxy-air",
       "ui-label": "CALIPSO Scattering Ratio CFAD",
       "description": "CALIPSO Scattering Ratio",
@@ -3414,7 +3414,7 @@
       ]
     },
     {
-      "id": "clcalipso_tavg-220hPa-hxy-air",
+      "id": "clcalipso_tavg-220hpa-hxy-air",
       "validation-key": "clcalipso_tavg-220hPa-hxy-air",
       "ui-label": "CALIPSO High Level Cloud Area Percentage",
       "description": "Percentage cloud cover in layer centred on 220hPa",
@@ -3441,7 +3441,7 @@
       ]
     },
     {
-      "id": "clcalipso_tavg-560hPa-hxy-air",
+      "id": "clcalipso_tavg-560hpa-hxy-air",
       "validation-key": "clcalipso_tavg-560hPa-hxy-air",
       "ui-label": "CALIPSO Mid Level Cloud Cover Percentage",
       "description": "Percentage cloud cover in layer centred on 560hPa",
@@ -3468,7 +3468,7 @@
       ]
     },
     {
-      "id": "clcalipso_tavg-840hPa-hxy-air",
+      "id": "clcalipso_tavg-840hpa-hxy-air",
       "validation-key": "clcalipso_tavg-840hPa-hxy-air",
       "ui-label": "CALIPSO Low Level Cloud Cover Percentage",
       "description": "Percentage cloud cover in layer centred on 840hPa",
@@ -4054,7 +4054,7 @@
       ]
     },
     {
-      "id": "clmodisiceReff_tavg-u-hxy-u",
+      "id": "clmodisicereff_tavg-u-hxy-u",
       "validation-key": "clmodisiceReff_tavg-u-hxy-u",
       "ui-label": "MODIS Ice Topped Cloud Area Fraction",
       "description": "Percentage ice-cloud cover as seen by the MODIS instrument simulator. Dimensions of cloud IWP (cloud ice water path) and r\\_eff (effective droplet size). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
@@ -4110,7 +4110,7 @@
       ]
     },
     {
-      "id": "clmodisliquidReff_tavg-u-hxy-u",
+      "id": "clmodisliquidreff_tavg-u-hxy-u",
       "validation-key": "clmodisliquidReff_tavg-u-hxy-u",
       "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
       "description": "Percentage liquid-cloud cover as seen by the MODIS instrument simulator. Dimensions of LWP (cloud liquid water path) and r\\_eff (droplet effective radius). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
@@ -4794,7 +4794,7 @@
       ]
     },
     {
-      "id": "co23D_tavg-al-hxy-u",
+      "id": "co23d_tavg-al-hxy-u",
       "validation-key": "co23D_tavg-al-hxy-u",
       "ui-label": "3D-Field of Transported CO2",
       "description": "requested for all Emissions-driven runs",
@@ -5215,7 +5215,7 @@
       ]
     },
     {
-      "id": "cropFracC3_tavg-u-hxy-u",
+      "id": "cropfracc3_tavg-u-hxy-u",
       "validation-key": "cropFracC3_tavg-u-hxy-u",
       "ui-label": "Percentage Cover by C3 Crops",
       "description": "Percentage of entire grid cell covered by C3 crops",
@@ -5242,7 +5242,7 @@
       ]
     },
     {
-      "id": "cropFracC4_tavg-u-hxy-u",
+      "id": "cropfracc4_tavg-u-hxy-u",
       "validation-key": "cropFracC4_tavg-u-hxy-u",
       "ui-label": "Percentage Cover by C4 Crops",
       "description": "Percentage of entire grid cell covered by C4 crops",
@@ -5269,7 +5269,7 @@
       ]
     },
     {
-      "id": "cropFrac_tavg-u-hxy-u",
+      "id": "cropfrac_tavg-u-hxy-u",
       "validation-key": "cropFrac_tavg-u-hxy-u",
       "ui-label": "Percentage Crop Cover",
       "description": "Percentage of entire grid cell  that is covered by crop.",
@@ -8702,7 +8702,7 @@
       ]
     },
     {
-      "id": "fAnthDisturb_tavg-u-hxy-lnd",
+      "id": "fanthdisturb_tavg-u-hxy-lnd",
       "validation-key": "fAnthDisturb_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",
       "description": "Anthropogenic flux of carbon as carbon dioxide into the atmosphere. That is, emissions influenced, caused, or created by human activity. Anthropogenic emission of carbon dioxide includes fossil fuel use, cement production, agricultural burning and sources associated with anthropogenic land use change, except forest regrowth.",
@@ -8728,7 +8728,7 @@
       ]
     },
     {
-      "id": "fBNF_tavg-u-hxy-lnd",
+      "id": "fbnf_tavg-u-hxy-lnd",
       "validation-key": "fBNF_tavg-u-hxy-lnd",
       "ui-label": "Biological Nitrogen Fixation",
       "description": "The fixation (uptake of nitrogen gas directly from the atmosphere) of nitrogen due to biological processes.",
@@ -8754,7 +8754,7 @@
       ]
     },
     {
-      "id": "fCLandToOcean_tavg-u-hxy-lnd",
+      "id": "fclandtoocean_tavg-u-hxy-lnd",
       "validation-key": "fCLandToOcean_tavg-u-hxy-lnd",
       "ui-label": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
       "description": "leached carbon etc that goes into run off or river routing and finds its way into ocean should be reported here.",
@@ -8780,7 +8780,7 @@
       ]
     },
     {
-      "id": "fDeforestToAtmos_tavg-u-hxy-lnd",
+      "id": "fdeforesttoatmos_tavg-u-hxy-lnd",
       "validation-key": "fDeforestToAtmos_tavg-u-hxy-lnd",
       "ui-label": "Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1]",
       "description": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
@@ -8806,7 +8806,7 @@
       ]
     },
     {
-      "id": "fDeforestToProduct_tavg-u-hxy-lnd",
+      "id": "fdeforesttoproduct_tavg-u-hxy-lnd",
       "validation-key": "fDeforestToProduct_tavg-u-hxy-lnd",
       "ui-label": "Deforested Biomass That Goes into Product Pool as a Result of Anthropogenic Land-Use Change",
       "description": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
@@ -8832,7 +8832,7 @@
       ]
     },
     {
-      "id": "fFireAll_tavg-u-hxy-lnd",
+      "id": "ffireall_tavg-u-hxy-lnd",
       "validation-key": "fFireAll_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1]",
       "description": "From all sources,  Including natural, anthropogenic and Land-use change. Only total fire emissions can be compared to observations.",
@@ -8858,7 +8858,7 @@
       ]
     },
     {
-      "id": "fFireNat_tavg-u-hxy-lnd",
+      "id": "ffirenat_tavg-u-hxy-lnd",
       "validation-key": "fFireNat_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1]",
       "description": "CO2 emissions from natural fires",
@@ -8884,7 +8884,7 @@
       ]
     },
     {
-      "id": "fFire_tavg-u-hxy-lnd",
+      "id": "ffire_tavg-u-hxy-lnd",
       "validation-key": "fFire_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1]",
       "description": "CO2 emissions (expressed as a carbon mass flux) from natural fires + human ignition fires as calculated by the fire module of the DGVM, but excluding any CO2 flux from fire included in fLuc, defined below (CO2 Flux to Atmosphere from Land Use Change).",
@@ -8910,7 +8910,7 @@
       ]
     },
     {
-      "id": "fHarvestToAtmos_tavg-u-hxy-lnd",
+      "id": "fharvesttoatmos_tavg-u-hxy-lnd",
       "validation-key": "fHarvestToAtmos_tavg-u-hxy-lnd",
       "ui-label": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here",
@@ -8936,7 +8936,7 @@
       ]
     },
     {
-      "id": "fHarvestToGeologicStorage_tavg-u-hxy-lnd",
+      "id": "fharvesttogeologicstorage_tavg-u-hxy-lnd",
       "validation-key": "fHarvestToGeologicStorage_tavg-u-hxy-lnd",
       "ui-label": "Harvested Biomass That Goes into Geological Storage",
       "description": "Flux of carbon harvested from biomass that goes into geologic storage for the purposes of intentional carbon dioxide removal, via efforts such as bioenergy with carbon capture and storage (BECCS) or biomass removal and storage (BiCRS). The definition of geologic storage here is that the resulting carbon be  stored for a period of time that is long relative to that of the simulation.",
@@ -8962,7 +8962,7 @@
       ]
     },
     {
-      "id": "fHarvestToProduct_tavg-u-hxy-lnd",
+      "id": "fharvesttoproduct_tavg-u-hxy-lnd",
       "validation-key": "fHarvestToProduct_tavg-u-hxy-lnd",
       "ui-label": "Harvested Biomass That Goes into Product Pool",
       "description": "be it food or wood harvest, any carbon that is subsequently stored is reported here",
@@ -8988,7 +8988,7 @@
       ]
     },
     {
-      "id": "fLitterFire_tavg-u-hxy-lnd",
+      "id": "flitterfire_tavg-u-hxy-lnd",
       "validation-key": "fLitterFire_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux from Litter, CWD or any non-Living Pool into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
       "description": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources",
@@ -9014,7 +9014,7 @@
       ]
     },
     {
-      "id": "fLitterSoil_tavg-u-hxy-lnd",
+      "id": "flittersoil_tavg-u-hxy-lnd",
       "validation-key": "fLitterSoil_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Litter to Soil",
       "description": "Carbon mass flux per unit area into soil from litter (dead plant material in or above the soil).",
@@ -9040,7 +9040,7 @@
       ]
     },
     {
-      "id": "fLuc_tavg-u-hxy-lnd",
+      "id": "fluc_tavg-u-hxy-lnd",
       "validation-key": "fLuc_tavg-u-hxy-lnd",
       "ui-label": "Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1]",
       "description": "Net Carbon Mass Flux into Atmosphere due to Land Use Change",
@@ -9066,7 +9066,7 @@
       ]
     },
     {
-      "id": "fLulccAtmLut_tavg-u-hxy-multi",
+      "id": "flulccatmlut_tavg-u-hxy-multi",
       "validation-key": "fLulccAtmLut_tavg-u-hxy-multi",
       "ui-label": "Carbon Transferred Directly to Atmosphere Due to any Land-Use or Land-Cover Change Activities [kgC m-2 s-1]",
       "description": "This annual mean flux refers to the transfer of carbon directly to the atmosphere due to any land-use or land-cover change activities.  Include carbon transferred due to deforestation or agricultural directly into atmosphere, and  emissions form anthropogenic pools into atmosphere",
@@ -9093,7 +9093,7 @@
       ]
     },
     {
-      "id": "fN2O_tavg-u-hxy-lnd",
+      "id": "fn2o_tavg-u-hxy-lnd",
       "validation-key": "fN2O_tavg-u-hxy-lnd",
       "ui-label": "Total Land N2O Flux",
       "description": "Surface upward flux of nitrous oxide (N2O) from vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil.",
@@ -9119,7 +9119,7 @@
       ]
     },
     {
-      "id": "fNAnthDisturb_tavg-u-hxy-lnd",
+      "id": "fnanthdisturb_tavg-u-hxy-lnd",
       "validation-key": "fNAnthDisturb_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass Flux out of Land Due to any Human Activity",
       "description": "will require some careful definition to make sure we capture everything - any human activity that releases nitrogen from land  instead of into product pool goes here. E.g. Deforestation fire, harvest assumed to decompose straight away, grazing...",
@@ -9145,7 +9145,7 @@
       ]
     },
     {
-      "id": "fNLandToOcean_tavg-u-hxy-lnd",
+      "id": "fnlandtoocean_tavg-u-hxy-lnd",
       "validation-key": "fNLandToOcean_tavg-u-hxy-lnd",
       "ui-label": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
       "description": "leached nitrogen etc that goes into run off or river routing and finds its way into ocean should be reported here.",
@@ -9171,7 +9171,7 @@
       ]
     },
     {
-      "id": "fNLitterSoil_tavg-u-hxy-lnd",
+      "id": "fnlittersoil_tavg-u-hxy-lnd",
       "validation-key": "fNLitterSoil_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Mass Flux from Litter to Soil",
       "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Litter\" is dead plant material in or above the soil.",
@@ -9197,7 +9197,7 @@
       ]
     },
     {
-      "id": "fNOx_tavg-u-hxy-lnd",
+      "id": "fnox_tavg-u-hxy-lnd",
       "validation-key": "fNOx_tavg-u-hxy-lnd",
       "ui-label": "Total Land NOx Flux",
       "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The phrase \"expressed\\_as\" is used in the construction A\\_expressed\\_as\\_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. \"Nox\" means a combination of two radical species containing nitrogen and oxygen NO+NO2. \"Vegetation\" means any living plants e.g. trees, shrubs, grass. \"Litter\" is dead plant material in or above the soil.",
@@ -9223,7 +9223,7 @@
       ]
     },
     {
-      "id": "fNProduct_tavg-u-hxy-lnd",
+      "id": "fnproduct_tavg-u-hxy-lnd",
       "validation-key": "fNProduct_tavg-u-hxy-lnd",
       "ui-label": "Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change",
       "description": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
@@ -9249,7 +9249,7 @@
       ]
     },
     {
-      "id": "fNVegLitter_tavg-u-hxy-lnd",
+      "id": "fnveglitter_tavg-u-hxy-lnd",
       "validation-key": "fNVegLitter_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Mass Flux from Vegetation to Litter",
       "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Litter\" is dead plant material in or above the soil. \"Vegetation\" means any living plants e.g. trees, shrubs, grass.",
@@ -9275,7 +9275,7 @@
       ]
     },
     {
-      "id": "fNVegSoil_tavg-u-hxy-lnd",
+      "id": "fnvegsoil_tavg-u-hxy-lnd",
       "validation-key": "fNVegSoil_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
       "description": "In some models part of nitrogen (e.g., root exudate) can go directly into the soil pool without entering litter.",
@@ -9301,7 +9301,7 @@
       ]
     },
     {
-      "id": "fNdep_tavg-u-hxy-lnd",
+      "id": "fndep_tavg-u-hxy-lnd",
       "validation-key": "fNdep_tavg-u-hxy-lnd",
       "ui-label": "Dry and Wet Deposition of Reactive Nitrogen onto Land",
       "description": "Surface deposition rate of nitrogen.",
@@ -9327,7 +9327,7 @@
       ]
     },
     {
-      "id": "fNfert_tavg-u-hxy-lnd",
+      "id": "fnfert_tavg-u-hxy-lnd",
       "validation-key": "fNfert_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure)",
       "description": "Total Nitrogen added for cropland fertilisation (artificial and manure). Relative to total land area of a grid cell, not relative to agricultural area",
@@ -9353,7 +9353,7 @@
       ]
     },
     {
-      "id": "fNgasFire_tavg-u-hxy-lnd",
+      "id": "fngasfire_tavg-u-hxy-lnd",
       "validation-key": "fNgasFire_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from Fire",
       "description": "Flux of Nitrogen from the land into the atmosphere due to fire",
@@ -9379,7 +9379,7 @@
       ]
     },
     {
-      "id": "fNgasNonFire_tavg-u-hxy-lnd",
+      "id": "fngasnonfire_tavg-u-hxy-lnd",
       "validation-key": "fNgasNonFire_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from All Processes Except Fire",
       "description": "Flux of Nitrogen from the land into the atmosphere due to all processes other than fire",
@@ -9405,7 +9405,7 @@
       ]
     },
     {
-      "id": "fNgas_tavg-u-hxy-lnd",
+      "id": "fngas_tavg-u-hxy-lnd",
       "validation-key": "fNgas_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
       "description": "Total flux of Nitrogen from the land into the atmosphere.",
@@ -9431,7 +9431,7 @@
       ]
     },
     {
-      "id": "fNleach_tavg-u-hxy-lnd",
+      "id": "fnleach_tavg-u-hxy-lnd",
       "validation-key": "fNleach_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)",
       "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The specification of a physical process by the phrase \"due\\_to\\_\" process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. \"Leaching\" means the loss of water soluble chemical species from soil. Runoff is the liquid water which drains from land. If not specified, \"runoff\" refers to the sum of surface runoff and subsurface drainage.",
@@ -9457,7 +9457,7 @@
       ]
     },
     {
-      "id": "fNloss_tavg-u-hxy-lnd",
+      "id": "fnloss_tavg-u-hxy-lnd",
       "validation-key": "fNloss_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
       "description": "Not all models split losses into gaseous and leaching",
@@ -9483,7 +9483,7 @@
       ]
     },
     {
-      "id": "fNnetmin_tavg-u-hxy-lnd",
+      "id": "fnnetmin_tavg-u-hxy-lnd",
       "validation-key": "fNnetmin_tavg-u-hxy-lnd",
       "ui-label": "Net Nitrogen Release from Soil and Litter as the Outcome of Nitrogen Immobilisation and Gross Mineralisation",
       "description": "Loss of soil nitrogen through remineralization and immobilisation. Remineralization is the degradation of organic matter into inorganic forms of carbon, nitrogen, phosphorus and other micronutrients, which consumes oxygen and releases energy. Immobilisation of nitrogen refers to retention of nitrogen by micro-organisms under certain conditions, making it unavailable for plants.",
@@ -9509,7 +9509,7 @@
       ]
     },
     {
-      "id": "fNup_tavg-u-hxy-lnd",
+      "id": "fnup_tavg-u-hxy-lnd",
       "validation-key": "fNup_tavg-u-hxy-lnd",
       "ui-label": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen",
       "description": "The uptake of nitrogen by fixation: nitrogen fixation means the uptake of nitrogen gas directly from the atmosphere.",
@@ -9535,7 +9535,7 @@
       ]
     },
     {
-      "id": "fProductDecomp_tavg-u-hxy-lnd",
+      "id": "fproductdecomp_tavg-u-hxy-lnd",
       "validation-key": "fProductDecomp_tavg-u-hxy-lnd",
       "ui-label": "Decomposition out of Product Pools to CO2 in Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Flux of CO2 from product pools into the atmosphere. Examples of \"forestry and agricultural products\" are paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock. Models that simulate land use changes have one or more pools of carbon that represent these products in order to conserve carbon and allow its eventual release into the atmosphere, for example, when the products decompose in landfill sites.",
@@ -9561,7 +9561,7 @@
       ]
     },
     {
-      "id": "fVegFire_tavg-u-hxy-lnd",
+      "id": "fvegfire_tavg-u-hxy-lnd",
       "validation-key": "fVegFire_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
       "description": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources",
@@ -9587,7 +9587,7 @@
       ]
     },
     {
-      "id": "fVegLitterMortality_tavg-u-hxy-lnd",
+      "id": "fveglittermortality_tavg-u-hxy-lnd",
       "validation-key": "fVegLitterMortality_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality",
       "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
@@ -9613,7 +9613,7 @@
       ]
     },
     {
-      "id": "fVegLitterSenescence_tavg-u-hxy-lnd",
+      "id": "fveglittersenescence_tavg-u-hxy-lnd",
       "validation-key": "fVegLitterSenescence_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",
       "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
@@ -9639,7 +9639,7 @@
       ]
     },
     {
-      "id": "fVegLitter_tavg-u-hxy-lnd",
+      "id": "fveglitter_tavg-u-hxy-lnd",
       "validation-key": "fVegLitter_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation to Litter",
       "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Vegetation\" means any living plants e.g. trees, shrubs, grass. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. The sum of the quantities with standard names mass\\_flux\\_of\\_carbon\\_into\\_litter\\_from\\_vegetation\\_due\\_to\\_mortality and mass\\_flux\\_of\\_carbon\\_into\\_litter\\_from\\_vegetation\\_due\\_to\\_senescence is mass\\_flux\\_of\\_carbon\\_into\\_litter\\_from\\_vegetation.",
@@ -9665,7 +9665,7 @@
       ]
     },
     {
-      "id": "fVegSoilMortality_tavg-u-hxy-lnd",
+      "id": "fvegsoilmortality_tavg-u-hxy-lnd",
       "validation-key": "fVegSoilMortality_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Mortality",
       "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
@@ -9691,7 +9691,7 @@
       ]
     },
     {
-      "id": "fVegSoilSenescence_tavg-u-hxy-lnd",
+      "id": "fvegsoilsenescence_tavg-u-hxy-lnd",
       "validation-key": "fVegSoilSenescence_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Leaf, Branch, and Root Senescence",
       "description": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality",
@@ -9717,7 +9717,7 @@
       ]
     },
     {
-      "id": "fVegSoil_tavg-u-hxy-lnd",
+      "id": "fvegsoil_tavg-u-hxy-lnd",
       "validation-key": "fVegSoil_tavg-u-hxy-lnd",
       "ui-label": "Total Carbon Mass Flux from Vegetation Directly to Soil",
       "description": "In some models part of carbon (e.g., root exudate) can go directly into the soil pool without entering litter.",
@@ -10131,7 +10131,7 @@
       ]
     },
     {
-      "id": "fracInLut_tsum-u-hxy-lnd",
+      "id": "fracinlut_tsum-u-hxy-lnd",
       "validation-key": "fracInLut_tsum-u-hxy-lnd",
       "ui-label": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
       "description": "Cumulative percentage transitions over the year; note that percentage should be reported as a percentage of atmospheric grid cell",
@@ -10158,7 +10158,7 @@
       ]
     },
     {
-      "id": "fracLut_tpt-u-hxy-u",
+      "id": "fraclut_tpt-u-hxy-u",
       "validation-key": "fracLut_tpt-u-hxy-u",
       "ui-label": "Percentage of Grid Cell for Each Land-Use Tile",
       "description": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac\\_lnd = 0.5, frac\\_ocn = 0.5, frac\\_crop\\_lnd = 0.2 (of land portion of grid cell), then frac\\_lut(crop) = 0.5\\*0.2 = 0.1)",
@@ -10185,7 +10185,7 @@
       ]
     },
     {
-      "id": "fracOutLut_tsum-u-hxy-lnd",
+      "id": "fracoutlut_tsum-u-hxy-lnd",
       "validation-key": "fracOutLut_tsum-u-hxy-lnd",
       "ui-label": "Annual Gross Percentage of Land-Use Tile That Was Transferred into Other Land-Use Tiles",
       "description": "Cumulative percentage transitions over the year; note that percentage should be reported as percentage of atmospheric grid cell",
@@ -10394,7 +10394,7 @@
       ]
     },
     {
-      "id": "gppLut_tavg-u-hxy-multi",
+      "id": "gpplut_tavg-u-hxy-multi",
       "validation-key": "gppLut_tavg-u-hxy-multi",
       "ui-label": "Gross Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "The rate of synthesis of biomass from inorganic precursors by autotrophs (\"producers\") expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. Reported on land-use tiles.",
@@ -10421,7 +10421,7 @@
       ]
     },
     {
-      "id": "gppVgt_tavg-u-hxy-multi",
+      "id": "gppvgt_tavg-u-hxy-multi",
       "validation-key": "gppVgt_tavg-u-hxy-multi",
       "ui-label": "Gross Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "The rate of synthesis of biomass from inorganic precursors by autotrophs (\"producers\") expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. Reported on land-use tiles.",
@@ -10604,7 +10604,7 @@
       ]
     },
     {
-      "id": "grassFracC3_tavg-u-hxy-u",
+      "id": "grassfracc3_tavg-u-hxy-u",
       "validation-key": "grassFracC3_tavg-u-hxy-u",
       "ui-label": "C3 Natural Grass Area Percentage",
       "description": "Percentage of entire grid cell covered by C3 natural grass.",
@@ -10631,7 +10631,7 @@
       ]
     },
     {
-      "id": "grassFracC4_tavg-u-hxy-u",
+      "id": "grassfracc4_tavg-u-hxy-u",
       "validation-key": "grassFracC4_tavg-u-hxy-u",
       "ui-label": "C4 Natural Grass Area Percentage",
       "description": "Percentage of entire grid cell covered by C4 natural grass.",
@@ -10658,7 +10658,7 @@
       ]
     },
     {
-      "id": "grassFrac_tavg-u-hxy-u",
+      "id": "grassfrac_tavg-u-hxy-u",
       "validation-key": "grassFrac_tavg-u-hxy-u",
       "ui-label": "Natural Grass Area Percentage",
       "description": "Percentage of entire grid cell that is covered by natural grass.",
@@ -11472,7 +11472,7 @@
       ]
     },
     {
-      "id": "hflsLut_tavg-u-hxy-multi",
+      "id": "hflslut_tavg-u-hxy-multi",
       "validation-key": "hflsLut_tavg-u-hxy-multi",
       "ui-label": "Latent Heat Flux on Land-Use Tile",
       "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
@@ -11708,7 +11708,7 @@
       ]
     },
     {
-      "id": "hfssLut_tavg-u-hxy-multi",
+      "id": "hfsslut_tavg-u-hxy-multi",
       "validation-key": "hfssLut_tavg-u-hxy-multi",
       "ui-label": "Sensible Heat Flux on Land-Use Tile",
       "description": "Upward sensible heat flux on land use tiles. The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
@@ -12049,7 +12049,7 @@
       ]
     },
     {
-      "id": "hur_tavg-700hPa-hxy-air",
+      "id": "hur_tavg-700hpa-hxy-air",
       "validation-key": "hur_tavg-700hPa-hxy-air",
       "ui-label": "Relative humidity at 700 hPa",
       "description": "Relative humidity at 700 hPa",
@@ -12157,7 +12157,7 @@
       ]
     },
     {
-      "id": "hur_tpt-100hPa-hxy-u",
+      "id": "hur_tpt-100hpa-hxy-u",
       "validation-key": "hur_tpt-100hPa-hxy-u",
       "ui-label": "hur100",
       "description": "Relative humidity at 100 hPa",
@@ -12184,7 +12184,7 @@
       ]
     },
     {
-      "id": "hur_tpt-500hPa-hxy-air",
+      "id": "hur_tpt-500hpa-hxy-air",
       "validation-key": "hur_tpt-500hPa-hxy-air",
       "ui-label": "hu500",
       "description": "Relative humidity at 500 hPa, 6 hourly instantaneous",
@@ -12211,7 +12211,7 @@
       ]
     },
     {
-      "id": "hur_tpt-850hPa-hxy-air",
+      "id": "hur_tpt-850hpa-hxy-air",
       "validation-key": "hur_tpt-850hPa-hxy-air",
       "ui-label": "hur850",
       "description": "Relative humidity at 850 hPa",
@@ -13390,7 +13390,7 @@
       ]
     },
     {
-      "id": "irrDem_tavg-u-hxy-u",
+      "id": "irrdem_tavg-u-hxy-u",
       "validation-key": "irrDem_tavg-u-hxy-u",
       "ui-label": "irrigation water demand",
       "description": "the total amount of irrigation water demand",
@@ -13416,7 +13416,7 @@
       ]
     },
     {
-      "id": "irrGw_tavg-u-hxy-u",
+      "id": "irrgw_tavg-u-hxy-u",
       "validation-key": "irrGw_tavg-u-hxy-u",
       "ui-label": "irrigation water withdrawal from groundwater",
       "description": "the amount of water withdrawal for irrigation from ground water, including deep soil water, confined and unconfined aquifer, etc",
@@ -13442,7 +13442,7 @@
       ]
     },
     {
-      "id": "irrLut_tavg-u-hxy-multi",
+      "id": "irrlut_tavg-u-hxy-multi",
       "validation-key": "irrLut_tavg-u-hxy-multi",
       "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
       "description": "Mass flux of water due to irrigation.",
@@ -13469,7 +13469,7 @@
       ]
     },
     {
-      "id": "irrLut_tavg-u-hxy-u",
+      "id": "irrlut_tavg-u-hxy-u",
       "validation-key": "irrLut_tavg-u-hxy-u",
       "ui-label": "irrigation water withdrawal",
       "description": "the total amount of water withdrawal from multiple sources",
@@ -13495,7 +13495,7 @@
       ]
     },
     {
-      "id": "irrSurf_tavg-u-hxy-u",
+      "id": "irrsurf_tavg-u-hxy-u",
       "validation-key": "irrSurf_tavg-u-hxy-u",
       "ui-label": "irrigation water withdrawal from surface water",
       "description": "the amount of water withdrawal for irrigation from surface water, including rivers, lakes, reservoirs, etc.)",
@@ -13631,7 +13631,7 @@
       ]
     },
     {
-      "id": "laiLut_tavg-u-hxy-multi",
+      "id": "lailut_tavg-u-hxy-multi",
       "validation-key": "laiLut_tavg-u-hxy-multi",
       "ui-label": "Leaf Area Index on Land-Use Tile",
       "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",
@@ -13658,7 +13658,7 @@
       ]
     },
     {
-      "id": "laiVgt_tavg-u-hxy-multi",
+      "id": "laivgt_tavg-u-hxy-multi",
       "validation-key": "laiVgt_tavg-u-hxy-multi",
       "ui-label": "Leaf Area Index on Vegetation type",
       "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",
@@ -13711,7 +13711,7 @@
       ]
     },
     {
-      "id": "landCoverFrac_tavg-u-hxy-u",
+      "id": "landcoverfrac_tavg-u-hxy-u",
       "validation-key": "landCoverFrac_tavg-u-hxy-u",
       "ui-label": "Percentage of Area by Vegetation or Land-Cover Category",
       "description": "The categories may differ from model to model, depending on their  PFT definitions.   This may include natural PFTs, anthropogenic PFTs, bare soil, lakes, urban areas, etc.   Sum of all should equal the fraction of the grid-cell that is land.",
@@ -16071,7 +16071,7 @@
       ]
     },
     {
-      "id": "mrroLi_tavg-u-hxy-is",
+      "id": "mrroli_tavg-u-hxy-is",
       "validation-key": "mrroLi_tavg-u-hxy-is",
       "ui-label": "Land Ice Runoff Flux",
       "description": "Runoff flux over land ice is the difference between any available liquid water in the snowpack less any refreezing. Computed as the sum of rainfall and melt of snow or ice less any refreezing or water retained in the snowpack",
@@ -16306,7 +16306,7 @@
       ]
     },
     {
-      "id": "mrsolLut_tavg-d10cm-hxy-multi",
+      "id": "mrsollut_tavg-d10cm-hxy-multi",
       "validation-key": "mrsolLut_tavg-d10cm-hxy-multi",
       "ui-label": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
       "description": "the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm",
@@ -16916,7 +16916,7 @@
       ]
     },
     {
-      "id": "nLand_tavg-u-hxy-lnd",
+      "id": "nland_tavg-u-hxy-lnd",
       "validation-key": "nLand_tavg-u-hxy-lnd",
       "ui-label": "Total Nitrogen in All Terrestrial Nitrogen Pools",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -16942,7 +16942,7 @@
       ]
     },
     {
-      "id": "nLeaf_tavg-u-hxy-lnd",
+      "id": "nleaf_tavg-u-hxy-lnd",
       "validation-key": "nLeaf_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Leaves",
       "description": "\"Content\" indicates a quantity per unit area.",
@@ -16968,7 +16968,7 @@
       ]
     },
     {
-      "id": "nLitterCwd_tavg-u-hxy-lnd",
+      "id": "nlittercwd_tavg-u-hxy-lnd",
       "validation-key": "nLitterCwd_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Coarse Woody Debris",
       "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent. The sum of the quantities with standard names wood\\_debris\\_mass\\_content\\_of\\_nitrogen, surface\\_litter\\_mass\\_content\\_of\\_nitrogen and subsurface\\_litter\\_mass\\_content\\_of\\_nitrogen is the total nitrogen mass content of dead plant material.",
@@ -16994,7 +16994,7 @@
       ]
     },
     {
-      "id": "nLitterSubSurf_tavg-u-hxy-lnd",
+      "id": "nlittersubsurf_tavg-u-hxy-lnd",
       "validation-key": "nLitterSubSurf_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Below-Ground Litter (non CWD)",
       "description": "\"Content\" indicates a quantity per unit area. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Subsurface litter\" means the part of the litter mixed within the soil below the surface. The sum of the quantities with standard names wood\\_debris\\_mass\\_content\\_of\\_nitrogen, surface\\_litter\\_mass\\_content\\_of\\_nitrogen and subsurface\\_litter\\_mass\\_content\\_of\\_nitrogen is the total nitrogen mass content of dead plant material.",
@@ -17020,7 +17020,7 @@
       ]
     },
     {
-      "id": "nLitterSurf_tavg-u-hxy-lnd",
+      "id": "nlittersurf_tavg-u-hxy-lnd",
       "validation-key": "nLitterSurf_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Above-Ground Litter (non CWD)",
       "description": "\"Content\" indicates a quantity per unit area. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Surface litter\" means the part of the litter resting above the soil surface. The sum of the quantities with standard names wood\\_debris\\_mass\\_content\\_of\\_nitrogen, surface\\_litter\\_mass\\_content\\_of\\_nitrogen and subsurface\\_litter\\_mass\\_content\\_of\\_nitrogen is the total nitrogen mass content of dead plant material.",
@@ -17046,7 +17046,7 @@
       ]
     },
     {
-      "id": "nLitter_tavg-u-hxy-lnd",
+      "id": "nlitter_tavg-u-hxy-lnd",
       "validation-key": "nLitter_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Litter Pool",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -17072,7 +17072,7 @@
       ]
     },
     {
-      "id": "nMineralNH4_tavg-u-hxy-lnd",
+      "id": "nmineralnh4_tavg-u-hxy-lnd",
       "validation-key": "nMineralNH4_tavg-u-hxy-lnd",
       "ui-label": "Mineral Ammonium in the Soil",
       "description": "SUM of ammonium over all soil layers",
@@ -17098,7 +17098,7 @@
       ]
     },
     {
-      "id": "nMineralNO3_tavg-u-hxy-lnd",
+      "id": "nmineralno3_tavg-u-hxy-lnd",
       "validation-key": "nMineralNO3_tavg-u-hxy-lnd",
       "ui-label": "Mineral Nitrate in the Soil",
       "description": "SUM of nitrate over all soil layers",
@@ -17124,7 +17124,7 @@
       ]
     },
     {
-      "id": "nMineral_tavg-u-hxy-lnd",
+      "id": "nmineral_tavg-u-hxy-lnd",
       "validation-key": "nMineral_tavg-u-hxy-lnd",
       "ui-label": "Mineral Nitrogen in the Soil",
       "description": "SUM of ammonium, nitrite, nitrate, etc over all soil layers",
@@ -17150,7 +17150,7 @@
       ]
     },
     {
-      "id": "nOther_tavg-u-hxy-lnd",
+      "id": "nother_tavg-u-hxy-lnd",
       "validation-key": "nOther_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Vegetation Components Other than Leaves, Stem and Root",
       "description": "E.g. fruits, seeds, etc.",
@@ -17176,7 +17176,7 @@
       ]
     },
     {
-      "id": "nProduct_tavg-u-hxy-lnd",
+      "id": "nproduct_tavg-u-hxy-lnd",
       "validation-key": "nProduct_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Products of Land-Use Change",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -17202,7 +17202,7 @@
       ]
     },
     {
-      "id": "nRoot_tavg-u-hxy-lnd",
+      "id": "nroot_tavg-u-hxy-lnd",
       "validation-key": "nRoot_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Roots",
       "description": "including fine and coarse roots.",
@@ -17228,7 +17228,7 @@
       ]
     },
     {
-      "id": "nSoil_tavg-u-hxy-lnd",
+      "id": "nsoil_tavg-u-hxy-lnd",
       "validation-key": "nSoil_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Soil Pool",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -17254,7 +17254,7 @@
       ]
     },
     {
-      "id": "nStem_tavg-u-hxy-lnd",
+      "id": "nstem_tavg-u-hxy-lnd",
       "validation-key": "nStem_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Stem",
       "description": "including sapwood and hardwood.",
@@ -17280,7 +17280,7 @@
       ]
     },
     {
-      "id": "nVeg_tavg-u-hxy-lnd",
+      "id": "nveg_tavg-u-hxy-lnd",
       "validation-key": "nVeg_tavg-u-hxy-lnd",
       "ui-label": "Nitrogen Mass in Vegetation",
       "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
@@ -17356,7 +17356,7 @@
       ]
     },
     {
-      "id": "necbLut_tavg-u-hxy-multi",
+      "id": "necblut_tavg-u-hxy-multi",
       "validation-key": "necbLut_tavg-u-hxy-multi",
       "ui-label": "Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1]",
       "description": "Computed as npp minus heterotrophic respiration minus fire minus C leaching minus harvesting/clearing. Positive rate is into the land, negative rate is from the land.  Do not include fluxes from anthropogenic product pools to atmosphere",
@@ -17409,7 +17409,7 @@
       ]
     },
     {
-      "id": "netAtmosLandC13Flux_tavg-u-hxy-lnd",
+      "id": "netatmoslandc13flux_tavg-u-hxy-lnd",
       "validation-key": "netAtmosLandC13Flux_tavg-u-hxy-lnd",
       "ui-label": "Net Mass Flux of 13C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
       "description": "Flux of carbon 31as carbon dioxide into the land. This flux should be reproducible by differencing the sum of all carbon pools (cVeg, cLitter, cSoil, and cProducts or equivalently cLand) from one time step to the next, except in the case of lateral transfer of carbon due to harvest, riverine transport of dissolved organic and/or inorganic carbon, or any other process (in which case the lateral\\_carbon\\_transfer\\_over\\_land term, see below, will be zero data).-",
@@ -17435,7 +17435,7 @@
       ]
     },
     {
-      "id": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
+      "id": "netatmoslandc14flux_tavg-u-hxy-lnd",
       "validation-key": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
       "ui-label": "Net Mass Flux of 14C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
       "description": "Flux of carbon-14 as carbon dioxide into the land. This flux should be reproducible by differencing the sum of all carbon pools (cVeg, cLitter, cSoil, and cProducts or equivalently cLand) from one time step to the next, except in the case of lateral transfer of carbon due to harvest, riverine transport of dissolved organic and/or inorganic carbon, or any other process (in which case the lateral\\_carbon\\_transfer\\_over\\_land term, see below, will be zero data).",
@@ -17461,7 +17461,7 @@
       ]
     },
     {
-      "id": "netAtmosLandCO2Flux_tavg-u-hxy-lnd",
+      "id": "netatmoslandco2flux_tavg-u-hxy-lnd",
       "validation-key": "netAtmosLandCO2Flux_tavg-u-hxy-lnd",
       "ui-label": "Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
       "description": "Flux of carbon as carbon dioxide into the land. This flux should be reproducible by differencing the sum of all carbon pools (cVeg, cLitter, cSoil, and cProducts or equivalently cLand) from one time step to the next, except in the case of lateral transfer of carbon due to harvest, riverine transport of dissolved organic and/or inorganic carbon, or any other process (in which case the lateral\\_carbon\\_transfer\\_over\\_land term, see below, will be zero data).",
@@ -17781,7 +17781,7 @@
       ]
     },
     {
-      "id": "nppLeaf_tavg-u-hxy-lnd",
+      "id": "nppleaf_tavg-u-hxy-lnd",
       "validation-key": "nppLeaf_tavg-u-hxy-lnd",
       "ui-label": "Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "This is the rate of carbon uptake by leaves due to NPP",
@@ -17807,7 +17807,7 @@
       ]
     },
     {
-      "id": "nppLut_tavg-u-hxy-multi",
+      "id": "npplut_tavg-u-hxy-multi",
       "validation-key": "nppLut_tavg-u-hxy-multi",
       "ui-label": "Net Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "\"Production of carbon\" means the production of biomass expressed as the mass of carbon which it contains. Net primary production is the excess of gross primary production (rate of synthesis of biomass from inorganic precursors) by autotrophs (\"producers\"), for example, photosynthesis in plants or phytoplankton, over the rate at which the autotrophs themselves respire some of this biomass. \"Productivity\" means production per unit area. The phrase \"expressed\\_as\" is used in the construction A\\_expressed\\_as\\_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A.",
@@ -17834,7 +17834,7 @@
       ]
     },
     {
-      "id": "nppOther_tavg-u-hxy-lnd",
+      "id": "nppother_tavg-u-hxy-lnd",
       "validation-key": "nppOther_tavg-u-hxy-lnd",
       "ui-label": "Net Primary Production Allocated to Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "added for completeness with npp\\_root",
@@ -17860,7 +17860,7 @@
       ]
     },
     {
-      "id": "nppRoot_tavg-u-hxy-lnd",
+      "id": "npproot_tavg-u-hxy-lnd",
       "validation-key": "nppRoot_tavg-u-hxy-lnd",
       "ui-label": "Net Primary Production Allocated to Roots as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "This is the rate of carbon uptake by roots due to NPP",
@@ -17886,7 +17886,7 @@
       ]
     },
     {
-      "id": "nppStem_tavg-u-hxy-lnd",
+      "id": "nppstem_tavg-u-hxy-lnd",
       "validation-key": "nppStem_tavg-u-hxy-lnd",
       "ui-label": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "added for completeness with npp\\_root",
@@ -17912,7 +17912,7 @@
       ]
     },
     {
-      "id": "nppVgt_tavg-u-hxy-multi",
+      "id": "nppvgt_tavg-u-hxy-multi",
       "validation-key": "nppVgt_tavg-u-hxy-multi",
       "ui-label": "Net Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "\"Production of carbon\" means the production of biomass expressed as the mass of carbon which it contains. Net primary production is the excess of gross primary production (rate of synthesis of biomass from inorganic precursors) by autotrophs (\"producers\"), for example, photosynthesis in plants or phytoplankton, over the rate at which the autotrophs themselves respire some of this biomass. \"Productivity\" means production per unit area. The phrase \"expressed\\_as\" is used in the construction A\\_expressed\\_as\\_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A.",
@@ -19598,7 +19598,7 @@
       ]
     },
     {
-      "id": "parasolRefl_tavg-u-hxy-sea",
+      "id": "parasolrefl_tavg-u-hxy-sea",
       "validation-key": "parasolRefl_tavg-u-hxy-sea",
       "ui-label": "PARASOL Reflectance",
       "description": "PARASOL Reflectance",
@@ -19625,7 +19625,7 @@
       ]
     },
     {
-      "id": "pastureFracC3_tavg-u-hxy-u",
+      "id": "pasturefracc3_tavg-u-hxy-u",
       "validation-key": "pastureFracC3_tavg-u-hxy-u",
       "ui-label": "C3 Pasture Area Percentage",
       "description": "Percentage of entire grid cell covered by C3 pasture",
@@ -19652,7 +19652,7 @@
       ]
     },
     {
-      "id": "pastureFracC4_tavg-u-hxy-u",
+      "id": "pasturefracc4_tavg-u-hxy-u",
       "validation-key": "pastureFracC4_tavg-u-hxy-u",
       "ui-label": "C4 Pasture Area Percentage",
       "description": "Percentage of entire grid cell covered by C4 pasture",
@@ -19679,7 +19679,7 @@
       ]
     },
     {
-      "id": "pastureFrac_tavg-u-hxy-u",
+      "id": "pasturefrac_tavg-u-hxy-u",
       "validation-key": "pastureFrac_tavg-u-hxy-u",
       "ui-label": "Percentage of Land Which Is Anthropogenic Pasture",
       "description": "fraction of entire grid cell  that is covered by anthropogenic pasture.",
@@ -20662,7 +20662,7 @@
       ]
     },
     {
-      "id": "pr17O_tavg-u-hxy-u",
+      "id": "pr17o_tavg-u-hxy-u",
       "validation-key": "pr17O_tavg-u-hxy-u",
       "ui-label": "Precipitation Flux of Water Containing Oxygen-17 (H2 17O)",
       "description": "Precipitation mass flux of water molecules that contain the oxygen-17 isotope (H2 17O), including solid and liquid phases.",
@@ -20688,7 +20688,7 @@
       ]
     },
     {
-      "id": "pr18O_tavg-u-hxy-u",
+      "id": "pr18o_tavg-u-hxy-u",
       "validation-key": "pr18O_tavg-u-hxy-u",
       "ui-label": "Precipitation Flux of Water Containing Oxygen-18 (H2 18O)",
       "description": "Precipitation mass flux of water molecules that contain the oxygen-18 isotope (H2 18O), including solid and liquid phases.",
@@ -21050,7 +21050,7 @@
       ]
     },
     {
-      "id": "prsn18O_tavg-u-hxy-u",
+      "id": "prsn18o_tavg-u-hxy-u",
       "validation-key": "prsn18O_tavg-u-hxy-u",
       "ui-label": "Precipitation Flux of Snow and Ice Containing Oxygen-18 (H2 18O)",
       "description": "Precipitation mass flux of water molecules that contain the oxygen-18 isotope (H2 18O), including solid phase only.",
@@ -21618,7 +21618,7 @@
       ]
     },
     {
-      "id": "raLeaf_tavg-u-hxy-lnd",
+      "id": "raleaf_tavg-u-hxy-lnd",
       "validation-key": "raLeaf_tavg-u-hxy-lnd",
       "ui-label": "Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "added for completeness with Ra\\_root",
@@ -21644,7 +21644,7 @@
       ]
     },
     {
-      "id": "raLut_tavg-u-hxy-multi",
+      "id": "ralut_tavg-u-hxy-multi",
       "validation-key": "raLut_tavg-u-hxy-multi",
       "ui-label": "Autotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on land-use tiles.",
@@ -21671,7 +21671,7 @@
       ]
     },
     {
-      "id": "raOther_tavg-u-hxy-lnd",
+      "id": "raother_tavg-u-hxy-lnd",
       "validation-key": "raOther_tavg-u-hxy-lnd",
       "ui-label": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "added for completeness with Ra\\_root",
@@ -21697,7 +21697,7 @@
       ]
     },
     {
-      "id": "raRoot_tavg-u-hxy-lnd",
+      "id": "raroot_tavg-u-hxy-lnd",
       "validation-key": "raRoot_tavg-u-hxy-lnd",
       "ui-label": "Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Total autotrophic respiration from all belowground plant parts.  This has benchmarking value because the sum of Rh and root respiration can be compared to observations of total soil respiration.",
@@ -21723,7 +21723,7 @@
       ]
     },
     {
-      "id": "raStem_tavg-u-hxy-lnd",
+      "id": "rastem_tavg-u-hxy-lnd",
       "validation-key": "raStem_tavg-u-hxy-lnd",
       "ui-label": "Total Respiration from Stem as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "added for completeness with Ra\\_root",
@@ -21749,7 +21749,7 @@
       ]
     },
     {
-      "id": "raVgt_tavg-u-hxy-multi",
+      "id": "ravgt_tavg-u-hxy-multi",
       "validation-key": "raVgt_tavg-u-hxy-multi",
       "ui-label": "Autotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on vegetation type.",
@@ -22356,7 +22356,7 @@
       ]
     },
     {
-      "id": "residualFrac_tavg-u-hxy-u",
+      "id": "residualfrac_tavg-u-hxy-u",
       "validation-key": "residualFrac_tavg-u-hxy-u",
       "ui-label": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
       "description": "fraction of entire grid cell  that is land and is covered by \"non-vegetation\" and \"non-bare-soil\" (e.g., urban, ice, lakes, etc.)",
@@ -22383,7 +22383,7 @@
       ]
     },
     {
-      "id": "rhLitter_tavg-u-hxy-lnd",
+      "id": "rhlitter_tavg-u-hxy-lnd",
       "validation-key": "rhLitter_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Litter on Land",
       "description": "Needed to calculate litter bulk turnover time. Includes respiration from CWD as well.",
@@ -22409,7 +22409,7 @@
       ]
     },
     {
-      "id": "rhLut_tavg-u-hxy-multi",
+      "id": "rhlut_tavg-u-hxy-multi",
       "validation-key": "rhLut_tavg-u-hxy-multi",
       "ui-label": "Heterotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on land-use tiles.",
@@ -22436,7 +22436,7 @@
       ]
     },
     {
-      "id": "rhSoil_tavg-u-hxy-lnd",
+      "id": "rhsoil_tavg-u-hxy-lnd",
       "validation-key": "rhSoil_tavg-u-hxy-lnd",
       "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
       "description": "Needed to calculate soil bulk turnover time",
@@ -22462,7 +22462,7 @@
       ]
     },
     {
-      "id": "rhVgt_tavg-u-hxy-multi",
+      "id": "rhvgt_tavg-u-hxy-multi",
       "validation-key": "rhVgt_tavg-u-hxy-multi",
       "ui-label": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
       "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on vegetation type.",
@@ -25379,7 +25379,7 @@
       ]
     },
     {
-      "id": "rv850_tavg-850hPa-hxy-air",
+      "id": "rv850_tavg-850hpa-hxy-air",
       "validation-key": "rv850_tavg-850hPa-hxy-air",
       "ui-label": "Relative Vorticity at 850hPa",
       "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
@@ -25406,7 +25406,7 @@
       ]
     },
     {
-      "id": "rv850_tpt-850hPa-hxy-air",
+      "id": "rv850_tpt-850hpa-hxy-air",
       "validation-key": "rv850_tpt-850hPa-hxy-air",
       "ui-label": "Relative Vorticity at 850hPa",
       "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
@@ -25796,7 +25796,7 @@
       ]
     },
     {
-      "id": "sfcWind_tavg-h10m-hxy-u",
+      "id": "sfcwind_tavg-h10m-hxy-u",
       "validation-key": "sfcWind_tavg-h10m-hxy-u",
       "ui-label": "Near-Surface Wind Speed",
       "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
@@ -25823,7 +25823,7 @@
       ]
     },
     {
-      "id": "sfcWind_tmax-h10m-hxy-u",
+      "id": "sfcwind_tmax-h10m-hxy-u",
       "validation-key": "sfcWind_tmax-h10m-hxy-u",
       "ui-label": "Daily Maximum Near-Surface Wind Speed",
       "description": "Daily maximum near-surface (usually, 10 meters) wind speed.",
@@ -25850,7 +25850,7 @@
       ]
     },
     {
-      "id": "sfcWind_tpt-h10m-hxys-u",
+      "id": "sfcwind_tpt-h10m-hxys-u",
       "validation-key": "sfcWind_tpt-h10m-hxys-u",
       "ui-label": "Near-Surface Wind Speed",
       "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
@@ -26397,7 +26397,7 @@
       ]
     },
     {
-      "id": "shrubFrac_tavg-u-hxy-u",
+      "id": "shrubfrac_tavg-u-hxy-u",
       "validation-key": "shrubFrac_tavg-u-hxy-u",
       "ui-label": "Percentage Cover by Shrub",
       "description": "Percentage of entire grid cell  that is covered by shrub.",
@@ -29490,7 +29490,7 @@
       ]
     },
     {
-      "id": "sw17O_tavg-ol-hxy-sea",
+      "id": "sw17o_tavg-ol-hxy-sea",
       "validation-key": "sw17O_tavg-ol-hxy-sea",
       "ui-label": "Isotopic Ratio of Oxygen-17 in Sea Water",
       "description": "Ratio of abundance of oxygen-17 (17O) atoms to oxygen-16 (16O) atoms in sea water",
@@ -29517,7 +29517,7 @@
       ]
     },
     {
-      "id": "sw18O_tavg-ol-hxy-sea",
+      "id": "sw18o_tavg-ol-hxy-sea",
       "validation-key": "sw18O_tavg-ol-hxy-sea",
       "ui-label": "Isotopic Ratio of Oxygen-18 in Sea Water",
       "description": "Ratio of abundance of oxygen-18 (18O) atoms to oxygen-16 (16O) atoms in sea water",
@@ -29544,7 +29544,7 @@
       ]
     },
     {
-      "id": "sw2H_tavg-ol-hxy-sea",
+      "id": "sw2h_tavg-ol-hxy-sea",
       "validation-key": "sw2H_tavg-ol-hxy-sea",
       "ui-label": "Isotopic Ratio of Deuterium in Sea Water",
       "description": "Ratio of abundance of hydrogen-2 (2H) atoms to hydrogen-1 (1H) atoms in sea water",
@@ -29597,7 +29597,7 @@
       ]
     },
     {
-      "id": "sweLut_tavg-u-hxy-multi",
+      "id": "swelut_tavg-u-hxy-multi",
       "validation-key": "sweLut_tavg-u-hxy-multi",
       "ui-label": "Snow Water Equivalent on Land-Use Tile",
       "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"lwe\" means liquid water equivalent. \"Amount\" means mass per unit area. The construction lwe\\_thickness\\_of\\_X\\_amount or \\_content means the vertical extent of a layer of liquid water having the same mass per unit area. Surface amount refers to the amount on the ground, excluding that on the plant or vegetation canopy.",
@@ -29780,7 +29780,7 @@
       ]
     },
     {
-      "id": "ta_tavg-700hPa-hxy-air",
+      "id": "ta_tavg-700hpa-hxy-air",
       "validation-key": "ta_tavg-700hPa-hxy-air",
       "ui-label": "Air Temperature",
       "description": "Air temperature at 700hPa",
@@ -29807,7 +29807,7 @@
       ]
     },
     {
-      "id": "ta_tavg-850hPa-hxy-air",
+      "id": "ta_tavg-850hpa-hxy-air",
       "validation-key": "ta_tavg-850hPa-hxy-air",
       "ui-label": "Air Temperature",
       "description": "Air temperature at 850hPa",
@@ -30102,7 +30102,7 @@
       ]
     },
     {
-      "id": "tasLut_tavg-h2m-hxy-multi",
+      "id": "taslut_tavg-h2m-hxy-multi",
       "validation-key": "tasLut_tavg-h2m-hxy-multi",
       "ui-label": "Near-Surface Air Temperature on Land Use Tile",
       "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
@@ -32966,7 +32966,7 @@
       ]
     },
     {
-      "id": "treeFracBdlDcd_tavg-u-hxy-u",
+      "id": "treefracbdldcd_tavg-u-hxy-u",
       "validation-key": "treeFracBdlDcd_tavg-u-hxy-u",
       "ui-label": "Broadleaf Deciduous Tree Area Percentage",
       "description": "This is the percentage of the entire grid cell that is covered by broadleaf deciduous trees.",
@@ -32993,7 +32993,7 @@
       ]
     },
     {
-      "id": "treeFracBdlEvg_tavg-u-hxy-u",
+      "id": "treefracbdlevg_tavg-u-hxy-u",
       "validation-key": "treeFracBdlEvg_tavg-u-hxy-u",
       "ui-label": "Broadleaf Evergreen Tree Area Percentage",
       "description": "This is the percentage of the entire grid cell that is covered by broadleaf evergreen trees.",
@@ -33020,7 +33020,7 @@
       ]
     },
     {
-      "id": "treeFracNdlDcd_tavg-u-hxy-u",
+      "id": "treefracndldcd_tavg-u-hxy-u",
       "validation-key": "treeFracNdlDcd_tavg-u-hxy-u",
       "ui-label": "Needleleaf Deciduous Tree Area Percentage",
       "description": "This is the percentage of the entire grid cell that is covered by needleleaf deciduous trees.",
@@ -33047,7 +33047,7 @@
       ]
     },
     {
-      "id": "treeFracNdlEvg_tavg-u-hxy-u",
+      "id": "treefracndlevg_tavg-u-hxy-u",
       "validation-key": "treeFracNdlEvg_tavg-u-hxy-u",
       "ui-label": "Needleleaf Evergreen Tree Area Percentage",
       "description": "This is the percentage of the entire grid cell that is covered by needleleaf evergreen trees.",
@@ -33074,7 +33074,7 @@
       ]
     },
     {
-      "id": "treeFrac_tavg-u-hxy-u",
+      "id": "treefrac_tavg-u-hxy-u",
       "validation-key": "treeFrac_tavg-u-hxy-u",
       "ui-label": "Tree Cover Percentage",
       "description": "fraction of entire grid cell  that is covered by trees.",
@@ -33235,7 +33235,7 @@
       ]
     },
     {
-      "id": "tsLut_tavg-u-hxy-multi",
+      "id": "tslut_tavg-u-hxy-multi",
       "validation-key": "tsLut_tavg-u-hxy-multi",
       "ui-label": "Surface Temperature on Landuse Tile",
       "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",
@@ -33548,7 +33548,7 @@
       ]
     },
     {
-      "id": "ua_tavg-10hPa-hxy-air",
+      "id": "ua_tavg-10hpa-hxy-air",
       "validation-key": "ua_tavg-10hPa-hxy-air",
       "ui-label": "Eastward Wind at 10hPa",
       "description": "Zonal wind on the 10 hPa surface",
@@ -33682,7 +33682,7 @@
       ]
     },
     {
-      "id": "ua_tpt-200hPa-hxy-u",
+      "id": "ua_tpt-200hpa-hxy-u",
       "validation-key": "ua_tpt-200hPa-hxy-u",
       "ui-label": "ua200",
       "description": "Zonal wind (positive in a eastward direction) at 200 hPa, 6hourly instantaneous",
@@ -34478,7 +34478,7 @@
       ]
     },
     {
-      "id": "va_tpt-200hPa-hxy-u",
+      "id": "va_tpt-200hpa-hxy-u",
       "validation-key": "va_tpt-200hPa-hxy-u",
       "ui-label": "va200",
       "description": "Meridional wind (positive in a northward direction) at 200 hPa, 6 hourly instantaneous",
@@ -34773,7 +34773,7 @@
       ]
     },
     {
-      "id": "vegFrac_tavg-u-hxy-u",
+      "id": "vegfrac_tavg-u-hxy-u",
       "validation-key": "vegFrac_tavg-u-hxy-u",
       "ui-label": "Total Vegetated Percentage Cover",
       "description": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions.",
@@ -34800,7 +34800,7 @@
       ]
     },
     {
-      "id": "vegHeight_tavg-u-hxy-ng",
+      "id": "vegheight_tavg-u-hxy-ng",
       "validation-key": "vegHeight_tavg-u-hxy-ng",
       "ui-label": "Height of Grass",
       "description": "Vegetation height averaged over the grass fraction of a grid cell.",
@@ -34826,7 +34826,7 @@
       ]
     },
     {
-      "id": "vegHeight_tavg-u-hxy-shb",
+      "id": "vegheight_tavg-u-hxy-shb",
       "validation-key": "vegHeight_tavg-u-hxy-shb",
       "ui-label": "Height of Shrubs",
       "description": "Vegetation height averaged over the shrub fraction of a grid cell.",
@@ -34852,7 +34852,7 @@
       ]
     },
     {
-      "id": "vegHeight_tavg-u-hxy-tree",
+      "id": "vegheight_tavg-u-hxy-tree",
       "validation-key": "vegHeight_tavg-u-hxy-tree",
       "ui-label": "Height of Trees",
       "description": "Vegetation height averaged over the tree fraction of a grid cell.",
@@ -34878,7 +34878,7 @@
       ]
     },
     {
-      "id": "vegHeight_tavg-u-hxy-veg",
+      "id": "vegheight_tavg-u-hxy-veg",
       "validation-key": "vegHeight_tavg-u-hxy-veg",
       "ui-label": "Height of the Vegetation Canopy",
       "description": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
@@ -35217,7 +35217,7 @@
       ]
     },
     {
-      "id": "vt100_tavg-100hPa-hy-air",
+      "id": "vt100_tavg-100hpa-hy-air",
       "validation-key": "vt100_tavg-100hPa-hy-air",
       "ui-label": "Northward Eddy Temperature Flux",
       "description": "Zonally averaged eddy temperature flux at 100hPa as monthly means derived from daily (or higher frequency) fields.",
@@ -35350,7 +35350,7 @@
       ]
     },
     {
-      "id": "wap_tavg-500hPa-hxy-air",
+      "id": "wap_tavg-500hpa-hxy-air",
       "validation-key": "wap_tavg-500hPa-hxy-air",
       "ui-label": "Pressure Tendency",
       "description": "at 500 hPa level; commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
@@ -35722,7 +35722,7 @@
       ]
     },
     {
-      "id": "wetlandCH4_tavg-u-hxy-lnd",
+      "id": "wetlandch4_tavg-u-hxy-lnd",
       "validation-key": "wetlandCH4_tavg-u-hxy-lnd",
       "ui-label": "Grid Averaged Methane Emissions from Wetlands",
       "description": "Net upward flux of methane (NH4) from wetlands (areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season).",
@@ -35748,7 +35748,7 @@
       ]
     },
     {
-      "id": "wetlandCH4cons_tavg-u-hxy-lnd",
+      "id": "wetlandch4cons_tavg-u-hxy-lnd",
       "validation-key": "wetlandCH4cons_tavg-u-hxy-lnd",
       "ui-label": "Grid Averaged Methane Consumption (Methanotrophy) from Wetlands",
       "description": "Biological consumption (methanotrophy) of methane (NH4) by wetlands (areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season).",
@@ -35774,7 +35774,7 @@
       ]
     },
     {
-      "id": "wetlandCH4prod_tavg-u-hxy-lnd",
+      "id": "wetlandch4prod_tavg-u-hxy-lnd",
       "validation-key": "wetlandCH4prod_tavg-u-hxy-lnd",
       "ui-label": "Grid Averaged Methane Production (Methanogenesis) from Wetlands",
       "description": "Biological emissions (methanogenesis) of methane (NH4) from wetlands (areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season).",
@@ -35800,7 +35800,7 @@
       ]
     },
     {
-      "id": "wetlandFrac_tavg-u-hxy-u",
+      "id": "wetlandfrac_tavg-u-hxy-u",
       "validation-key": "wetlandFrac_tavg-u-hxy-u",
       "ui-label": "Wetland Percentage Cover",
       "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",
@@ -36613,7 +36613,7 @@
       ]
     },
     {
-      "id": "zg_tavg-1000hPa-hxy-air",
+      "id": "zg_tavg-1000hpa-hxy-air",
       "validation-key": "zg_tavg-1000hPa-hxy-air",
       "ui-label": "Geopotential Height at 1000hPa",
       "description": "Geopotential height on the 1000 hPa surface",
@@ -36640,7 +36640,7 @@
       ]
     },
     {
-      "id": "zg_tavg-10hPa-hxy-air",
+      "id": "zg_tavg-10hpa-hxy-air",
       "validation-key": "zg_tavg-10hPa-hxy-air",
       "ui-label": "Geopotential Height at 10hPa",
       "description": "Geopotential height on the 10 hPa surface",
@@ -36667,7 +36667,7 @@
       ]
     },
     {
-      "id": "zg_tavg-500hPa-hxy-air",
+      "id": "zg_tavg-500hpa-hxy-air",
       "validation-key": "zg_tavg-500hPa-hxy-air",
       "ui-label": "Geopotential Height at 500hPa",
       "description": "geopotential height on the 500 hPa surface",
@@ -36774,7 +36774,7 @@
       ]
     },
     {
-      "id": "zg_tpt-500hPa-hxy-air",
+      "id": "zg_tpt-500hpa-hxy-air",
       "validation-key": "zg_tpt-500hPa-hxy-air",
       "ui-label": "Geopotential Height at 500hPa",
       "description": "geopotential height on the 500 hPa surface",
@@ -36801,7 +36801,7 @@
       ]
     },
     {
-      "id": "zg_tpt-700hPa-hxy-u",
+      "id": "zg_tpt-700hpa-hxy-u",
       "validation-key": "zg_tpt-700hPa-hxy-u",
       "ui-label": "zg700",
       "description": "700 hPa geopotential height at 6 hourly instantaneous frequency",
@@ -36828,7 +36828,7 @@
       ]
     },
     {
-      "id": "zg_tpt-925hPa-hxy-u",
+      "id": "zg_tpt-925hpa-hxy-u",
       "validation-key": "zg_tpt-925hPa-hxy-u",
       "ui-label": "zg925",
       "description": "Geopotential Height at 925 hPa, 6 hourly instantaneous",
