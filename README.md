@@ -168,6 +168,24 @@ To get started, you will need to make sure that uv is installed
 (we found that the self-managed install was best,
 particularly for upgrading uv later).
 
+To install a development environment
+
+```
+uv sync --all-extras --group all-dev
+```
+
+To run anything, prefix with `uv run` e.g.
+
+```
+uv run python scripts/validate-entries.py
+```
+
+To create an entity relationship diagram for the data in this repository
+
+```
+uv run python scripts/create-entity-relationship-diagram.py
+```
+
 <!--- --8<-- [end:installation] -->
 
 ---
