@@ -56,6 +56,8 @@ def initialise_sqlite_database_from_source_root(
     with Session(engine) as session:
         db_info = DBInfo.from_source_root(source_root)
 
+        # TODO: switch this to creating a nice collection of issues
+        # then pring this out as markdown, for example
         tmp = list(db_info.variables_by_id.values())
         tmp_safe = []
         for v in tmp:
