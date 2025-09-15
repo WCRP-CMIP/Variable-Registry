@@ -1,15 +1,42 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-15T12:19:33.346262",
+        "file_creation_date": "2025-09-15T12:22:57.126321",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: a8ba984844cfbdd9e201dceef0673292",
+        "checksum": "md5: 034818aab47854956c4f07d6195626b9",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "c831573cc7768bc8ae8980b27d55e6801d10ea38",
+        "last_commit": "255c7536ecfa68df688d0e68f2d17f946b1d309f",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
+        "": {
+            "area-label": "vr:area-label/u",
+            "cell-measures": "area: areacella",
+            "vr:variable/cell-methods": "amn-twm",
+            "description": "Hourly Temperature at 2m above the surface",
+            "vr:variable/dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "frequency": "1hr",
+            "vr:variable/horizontal-label": "hxy",
+            "model-realm": "universal:realm/land",
+            "out-name": "tas",
+            "physical-parameter-name": "tas",
+            "positive": "",
+            "remove-cmip6-table": "E1hr",
+            "spatial-shape": "XY-na",
+            "standard-name": "air_temperature",
+            "vr:variable/temporal-label": "tavg",
+            "temporal-shape": "time-intv",
+            "ui-label": "Hourly Temperature at Surface",
+            "units": "K",
+            "validation-key": "",
+            "vr:variable/variable-root": "tas",
+            "vr:variable/vertical-label": "u"
+        },
         "abs550aer_tavg-u-hxy-u": {
             "area-label": "vr:area-label/u",
             "cell-measures": "area: areacella",

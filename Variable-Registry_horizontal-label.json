@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_horizontal-label.json",
-        "file_creation_date": "2025-09-15T12:19:33.742986",
+        "file_creation_date": "2025-09-15T12:22:57.561148",
         "version": "fatal: No names found, cannot describe anything.",
         "checksum": "md5: 46189236073a3bad7497fa43617da154",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "c831573cc7768bc8ae8980b27d55e6801d10ea38",
+        "last_commit": "255c7536ecfa68df688d0e68f2d17f946b1d309f",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "horizontal-label": {
