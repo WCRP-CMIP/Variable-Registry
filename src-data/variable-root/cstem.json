@@ -1,0 +1,13 @@
+{
+    "id": "cstem",
+    "validation-key": "cstem",
+    "ui-label": "cStem",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "stem-mass-content-of-carbon",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

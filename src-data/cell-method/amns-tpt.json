@@ -1,0 +1,12 @@
+{
+    "id": "amns-tpt",
+    "validation-key": "amns-tpt",
+    "ui-label": "Instantaneous over Sea",
+    "description": "area: mean where sea time: point",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

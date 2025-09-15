@@ -1,0 +1,13 @@
+{
+    "id": "sfpm25",
+    "validation-key": "sfpm25",
+    "ui-label": "sfpm25",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass-fraction-of-pm2p5-ambient-aerosol-particles-in-air",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

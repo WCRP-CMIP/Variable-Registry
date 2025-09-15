@@ -1,0 +1,34 @@
+{
+    "id": "co2-tavg-p19-hxy-air",
+    "validation-key": "co2_tavg-p19-hxy-air",
+    "ui-label": "Mole Fraction of CO2",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "co2",
+    "physical-parameter-name": "co2",
+    "positive": "",
+    "remove-cmip6-table": "Amon",
+    "spatial-shape": "XY-P19",
+    "standard-name": "mole_fraction_of_carbon_dioxide_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol mol-1",
+    "variable-root": "co2",
+    "vertical-label": "p19",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

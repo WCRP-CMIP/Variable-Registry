@@ -1,0 +1,11 @@
+{
+    "id": "850hPa",
+    "validation-key": "850hPa",
+    "ui-label": "850 hPa Pressure Level",
+    "description": "850 hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

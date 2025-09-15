@@ -1,0 +1,35 @@
+{
+    "id": "bs550aer-tpt-al-hxy-u",
+    "validation-key": "bs550aer_tpt-al-hxy-u",
+    "ui-label": "Aerosol Backscatter Coefficient",
+    "description": "Aerosol  Backscatter at wavelength 550nm and scattering angle 180 degrees, computed from extinction and lidar ratio",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1",
+        "lambda550nm"
+    ],
+    "frequency": "6hr",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "bs550aer",
+    "physical-parameter-name": "bs550aer",
+    "positive": "",
+    "remove-cmip6-table": "6hrLev",
+    "spatial-shape": "XY-A",
+    "standard-name": "volume_scattering_function_of_radiative_flux_in_air_due_to_ambient_aerosol_particles",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "m-1 sr-1",
+    "variable-root": "bs550aer",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

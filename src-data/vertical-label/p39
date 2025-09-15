@@ -1,0 +1,11 @@
+{
+    "id": "p39",
+    "validation-key": "p39",
+    "ui-label": "39 Pressure Levels",
+    "description": "Variables interpolated to a standard set of 39 pressure levels providing very high vertical resolution through the atmosphere. Used for comprehensive atmospheric profiling and detailed vertical structure analysis.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

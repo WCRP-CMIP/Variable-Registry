@@ -1,0 +1,13 @@
+{
+    "id": "rsdoabsorb",
+    "validation-key": "rsdoabsorb",
+    "ui-label": "rsdoabsorb",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "net-rate-of-absorption-of-shortwave-energy-in-ocean-layer",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

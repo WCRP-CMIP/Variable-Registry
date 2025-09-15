@@ -1,0 +1,13 @@
+{
+    "id": "tnt",
+    "validation-key": "tnt",
+    "ui-label": "tnt",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-air-temperature",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cfc12-tavg-u-hm-u",
+    "validation-key": "cfc12_tavg-u-hm-u",
+    "ui-label": "Global Mean Mole Fraction of CFC12",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC12 is CF2Cl2.  The IUPAC name for CFC12 is dichloro-difluoro-methane.",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "Error: height: area: time: mean (with all samples weighted by the number of moles of air in the sample) not found in cell methods, please register",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hm",
+    "model-realm": "atmoschem",
+    "out-name": "cfc12global",
+    "physical-parameter-name": "cfc12global",
+    "positive": "",
+    "remove-cmip6-table": "Amon",
+    "spatial-shape": "na-na",
+    "standard-name": "mole_fraction_of_cfc12_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1E-12",
+    "variable-root": "cfc12",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

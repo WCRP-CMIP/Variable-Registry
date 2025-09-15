@@ -1,0 +1,33 @@
+{
+    "id": "depdust-tavg-u-hxy-u",
+    "validation-key": "depdust_tavg-u-hxy-u",
+    "ui-label": "Total Deposition Rate of Dust",
+    "description": "Fdry mass deposition rate of dust",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "depdust",
+    "physical-parameter-name": "depdust",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-na",
+    "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "depdust",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

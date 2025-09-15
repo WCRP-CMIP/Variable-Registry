@@ -1,0 +1,34 @@
+{
+    "id": "ch4-tavg-al-hxy-u",
+    "validation-key": "ch4_tavg-al-hxy-u",
+    "ui-label": "Mole Fraction of CH4",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "ch4",
+    "physical-parameter-name": "ch4",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mole_fraction_of_methane_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol mol-1",
+    "variable-root": "ch4",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

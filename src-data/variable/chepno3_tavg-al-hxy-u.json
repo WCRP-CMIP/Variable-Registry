@@ -1,0 +1,34 @@
+{
+    "id": "chepno3-tavg-al-hxy-u",
+    "validation-key": "chepno3_tavg-al-hxy-u",
+    "ui-label": "Net chemical production of nitrate aerosol",
+    "description": "Net chemical production rate of nitrate aerosol in the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "chepno3",
+    "physical-parameter-name": "chepno3",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_particles_due_to_net_chemical_production",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "chepno3",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

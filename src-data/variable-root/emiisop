@@ -1,0 +1,13 @@
+{
+    "id": "emiisop",
+    "validation-key": "emiisop",
+    "ui-label": "emiisop",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-isoprene-due-to-emission",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

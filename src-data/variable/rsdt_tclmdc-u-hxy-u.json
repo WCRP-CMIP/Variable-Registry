@@ -1,0 +1,33 @@
+{
+    "id": "rsdt-tclmdc-u-hxy-u",
+    "validation-key": "rsdt_tclmdc-u-hxy-u",
+    "ui-label": "TOA Incident Shortwave Radiation",
+    "description": "Shortwave radiation incident at the top of the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tdnl",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "frequency": "1hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "rsdt",
+    "physical-parameter-name": "rsdt",
+    "positive": "down",
+    "remove-cmip6-table": "E1hrClimMon",
+    "spatial-shape": "XY-na",
+    "standard-name": "toa_incoming_shortwave_flux",
+    "temporal-label": "tclmdc",
+    "temporal-shape": "diurnal-cycle",
+    "units": "W m-2",
+    "variable-root": "rsdt",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

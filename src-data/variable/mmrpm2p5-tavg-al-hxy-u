@@ -1,0 +1,34 @@
+{
+    "id": "mmrpm2p5-tavg-al-hxy-u",
+    "validation-key": "mmrpm2p5_tavg-al-hxy-u",
+    "ui-label": "PM2.5 Mass Mixing Ratio",
+    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "mmrpm2p5",
+    "physical-parameter-name": "mmrpm2p5",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mass_fraction_of_pm2p5_dry_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg kg-1",
+    "variable-root": "mmrpm2p5",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

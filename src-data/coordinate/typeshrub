@@ -1,0 +1,13 @@
+{
+    "id": "typeshrub",
+    "validation-key": "typeshrub",
+    "ui-label": "Shrub area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
+    "type": [
+        "wcrp:coordinate",
+        "variable"
+    ]
+}

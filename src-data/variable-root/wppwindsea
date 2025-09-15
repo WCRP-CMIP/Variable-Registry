@@ -1,0 +1,13 @@
+{
+    "id": "wppwindsea",
+    "validation-key": "wppwindsea",
+    "ui-label": "wppwindsea",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-surface-wind-wave-period-at-variance-spectral-density-maximum",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

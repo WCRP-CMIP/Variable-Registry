@@ -1,0 +1,34 @@
+{
+    "id": "expc-tavg-d1000m-hxy-sea",
+    "validation-key": "expc_tavg-d1000m-hxy-sea",
+    "ui-label": "Downward Flux of Particulate Organic Carbon at 1000m",
+    "description": "The phrase 'expressed_as' is used in the construction A_expressed_as_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth1000m"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "epc1000",
+    "physical-parameter-name": "epc1000",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "sinking_mole_flux_of_particulate_organic_matter_expressed_as_carbon_in_sea_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "expc",
+    "vertical-label": "d1000m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

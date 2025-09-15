@@ -1,0 +1,34 @@
+{
+    "id": "tnhusmp-tavg-al-hxy-u",
+    "validation-key": "tnhusmp_tavg-al-hxy-u",
+    "ui-label": "Tendency of Specific Humidity Due to Model Physics",
+    "description": "This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physicsl.  For example any diffusive mixing by the boundary layer scheme would be included.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "tnhusmp",
+    "physical-parameter-name": "tnhusmp",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_specific_humidity_due_to_model_physics",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "s-1",
+    "variable-root": "tnhusmp",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

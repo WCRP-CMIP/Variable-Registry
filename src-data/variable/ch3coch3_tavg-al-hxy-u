@@ -1,0 +1,34 @@
+{
+    "id": "ch3coch3-tavg-al-hxy-u",
+    "validation-key": "ch3coch3_tavg-al-hxy-u",
+    "ui-label": "CH3COCH3 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction \"mole_fraction_of_X_in_Y\", where X is a material constituent of Y. A chemical species denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". Acetone is an organic molecule with the chemical formula CH3CH3CO. The IUPAC name for acetone is propan-2-one. Acetone is a member of the group of organic compounds known as ketones. There are standard names for the ketone group as well as for some of the individual species.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "ch3coch3",
+    "physical-parameter-name": "ch3coch3",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mole_fraction_of_acetone_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol mol-1",
+    "variable-root": "ch3coch3",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "frn",
+    "validation-key": "frn",
+    "ui-label": "frn",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-ocean-mole-content-of-elemental-nitrogen-due-to-denitrification-and-sedimentation",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

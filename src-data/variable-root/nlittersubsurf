@@ -1,0 +1,13 @@
+{
+    "id": "nlittersubsurf",
+    "validation-key": "nlittersubsurf",
+    "ui-label": "nLitterSubSurf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "subsurface-litter-mass-content-of-nitrogen",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "d100m",
+    "validation-key": "d100m",
+    "ui-label": "100 Meter Depth",
+    "description": "Variables at 100 meter depth below the surface, used for subsurface ocean conditions, deep soil properties, or underground environmental conditions at intermediate depths.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

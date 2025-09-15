@@ -1,0 +1,35 @@
+{
+    "id": "clmodisice-tavg-p7c-hxy-air",
+    "validation-key": "clmodisice_tavg-p7c-hxy-air",
+    "ui-label": "MODIS Ice Topped Cloud Area Fraction",
+    "description": "Percentage ice-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same as used by clisccp output from the ISCCP satellite simulator.",
+    "area-label": "air",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7c",
+        "tau",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "clmodisice",
+    "physical-parameter-name": "clmodisice",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-P7",
+    "standard-name": "modis_ice_topped_cloud_area_fraction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1",
+    "variable-root": "clmodisice",
+    "vertical-label": "p7c",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

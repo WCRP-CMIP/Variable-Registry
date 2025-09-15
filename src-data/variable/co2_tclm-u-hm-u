@@ -1,0 +1,31 @@
+{
+    "id": "co2-tclm-u-hm-u",
+    "validation-key": "co2_tclm-u-hm-u",
+    "ui-label": "Total Atmospheric Mass of CO2",
+    "description": "Total atmospheric mass of Carbon Dioxide",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "vsm-clim",
+    "dimensions": [
+        "time2"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hm",
+    "model-realm": "atmos",
+    "out-name": "co2",
+    "physical-parameter-name": "co2",
+    "positive": "",
+    "remove-cmip6-table": "Amon",
+    "spatial-shape": "na-na",
+    "standard-name": "mole_fraction_of_carbon_dioxide_in_air",
+    "temporal-label": "tclm",
+    "temporal-shape": "climatology",
+    "units": "mol mol-1",
+    "variable-root": "co2",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

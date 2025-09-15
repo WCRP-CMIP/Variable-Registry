@@ -1,0 +1,34 @@
+{
+    "id": "tntpbl-tavg-al-hxy-u",
+    "validation-key": "tntpbl_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Boundary Layer Mixing",
+    "description": "Includes all boundary layer terms including diffusive terms.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "tntpbl",
+    "physical-parameter-name": "tntpbl",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_air_temperature_due_to_boundary_layer_mixing",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "K s-1",
+    "variable-root": "tntpbl",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "efx",
+    "validation-key": "efx",
+    "ui-label": "Efx",
+    "description": "CMIP6 CMOR table Efx containing variables",
+    "variables": [
+        "sftflf_ti-u-hxy-u",
+        "sftgrf_ti-u-hxy-u",
+        "slthick_ti-sl-hxy-lnd"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ]
+}

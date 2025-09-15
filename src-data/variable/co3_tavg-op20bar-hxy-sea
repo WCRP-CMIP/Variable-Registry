@@ -1,0 +1,34 @@
+{
+    "id": "co3-tavg-op20bar-hxy-sea",
+    "validation-key": "co3_tavg-op20bar-hxy-sea",
+    "ui-label": "Carbonate Ion Concentration",
+    "description": "Mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3).",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "op20bar"
+    ],
+    "frequency": "day",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "co3",
+    "physical-parameter-name": "co3",
+    "positive": "",
+    "remove-cmip6-table": "Oday",
+    "spatial-shape": "XY-na",
+    "standard-name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3",
+    "variable-root": "co3",
+    "vertical-label": "op20bar",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

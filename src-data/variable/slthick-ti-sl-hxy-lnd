@@ -1,0 +1,33 @@
+{
+    "id": "slthick-ti-sl-hxy-lnd",
+    "validation-key": "slthick_ti-sl-hxy-lnd",
+    "ui-label": "Thickness of Soil Layers",
+    "description": "Thickness of Soil Layers",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amnla-fx",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+    ],
+    "frequency": "fx",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "slthick",
+    "physical-parameter-name": "slthick",
+    "positive": "",
+    "remove-cmip6-table": "Efx",
+    "spatial-shape": "XY-S",
+    "standard-name": "cell_thickness",
+    "temporal-label": "ti",
+    "temporal-shape": "None",
+    "units": "m",
+    "variable-root": "slthick",
+    "vertical-label": "sl",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

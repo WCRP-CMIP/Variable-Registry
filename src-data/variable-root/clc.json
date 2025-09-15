@@ -1,0 +1,13 @@
+{
+    "id": "clc",
+    "validation-key": "clc",
+    "ui-label": "clc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "convective-cloud-area-fraction-in-atmosphere-layer",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

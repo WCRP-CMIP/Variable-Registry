@@ -1,0 +1,33 @@
+{
+    "id": "sfcwind-tpt-h10m-hxys-u",
+    "validation-key": "sfcWind_tpt-h10m-hxys-u",
+    "ui-label": "Near-Surface Wind Speed",
+    "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1",
+        "height10m"
+    ],
+    "frequency": "subhr",
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "out-name": "sfcWind",
+    "physical-parameter-name": "sfcWind",
+    "positive": "",
+    "remove-cmip6-table": "CFsubhr",
+    "spatial-shape": "S-na",
+    "standard-name": "wind_speed",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "m s-1",
+    "variable-root": "sfcWind",
+    "vertical-label": "h10m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "fx",
+    "validation-key": "fx",
+    "ui-label": "fx",
+    "description": "CMIP6 CMOR table fx containing variables",
+    "variables": [
+        "areacell_ti-u-hxy-u",
+        "areacell_ti-u-hxy-u",
+        "depthl_ti-u-hxy-u",
+        "depthsl_ti-u-hxy-u",
+        "lat_ti-u-hxys-u",
+        "lithk_ti-u-hxy-u",
+        "lon_ti-u-hxys-u",
+        "mrsofc_ti-u-hxy-lnd",
+        "orog_ti-u-hxy-u",
+        "orog_ti-u-hxy-u",
+        "rootd_ti-u-hxy-lnd",
+        "sftgif_ti-u-hxy-u",
+        "sftlaf_ti-u-hxy-u",
+        "sftlf_ti-u-hxy-u",
+        "zfull_ti-al-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "pfscint-tavg-op4-hxy-sea",
+    "validation-key": "pfscint_tavg-op4-hxy-sea",
+    "ui-label": "Integral wrt depth of seawater preformed salinity expressed as salt mass content",
+    "description": "This is a fundamental aspect of the changes in the hydrological cycle and their impact on the oceans, and due to new numerical schemes and vertical discretizations, it is important to calculate it consistently with the model formulation.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "Error: area: time: mean where sea not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "oplayer4",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "pfscint",
+    "physical-parameter-name": "pfscint",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-B",
+    "standard-name": "integral_wrt_depth_of_sea_water_preformed_salinity_expressed_as_salt_mass_content",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2",
+    "variable-root": "pfscint",
+    "vertical-label": "op4",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

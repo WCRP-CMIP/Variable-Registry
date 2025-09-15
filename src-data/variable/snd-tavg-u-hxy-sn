@@ -1,0 +1,33 @@
+{
+    "id": "snd-tavg-u-hxy-sn",
+    "validation-key": "snd_tavg-u-hxy-sn",
+    "ui-label": "Snow Thickness",
+    "description": "Actual thickness of snow averaged over the snow-covered part of the sea ice. This thickness is usually directly available within the model formulation. It can also be derived by dividing the total volume of snow by the area of the snow.",
+    "area-label": "sn",
+    "cell-measures": "area: areacello",
+    "cell-methods": "Error: area: time: mean where snow (for snow on sea ice only) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "seaice",
+    "out-name": "sisnthick",
+    "physical-parameter-name": "sisnthick",
+    "positive": "",
+    "remove-cmip6-table": "SImon",
+    "spatial-shape": "XY-na",
+    "standard-name": "surface_snow_thickness",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m",
+    "variable-root": "snd",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "zvelsurf-tavg-u-hxy-is",
+    "validation-key": "zvelsurf_tavg-u-hxy-is",
+    "ui-label": "Upward Component of Land-Ice Surface Velocity",
+    "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface called \"surface\" means the lower boundary of the atmosphere",
+    "area-label": "is",
+    "cell-measures": "area: areacellg",
+    "cell-methods": "amni-twm",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hxy",
+    "model-realm": "landice",
+    "out-name": "zvelsurf",
+    "physical-parameter-name": "zvelsurf",
+    "positive": "",
+    "remove-cmip6-table": "IyrGre",
+    "spatial-shape": "XYG-na",
+    "standard-name": "land_ice_surface_upward_velocity",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m s-1",
+    "variable-root": "zvelsurf",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "alh",
+    "validation-key": "alh",
+    "ui-label": "Atmospheric Model Half-Levels",
+    "description": "Variables on atmospheric model half-levels, which are intermediate vertical positions between full model levels. Often used for flux calculations and variables defined at layer interfaces in the atmospheric model.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:vertical-label",
+        "variable"
+    ]
+}

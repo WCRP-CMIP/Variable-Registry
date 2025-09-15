@@ -1,0 +1,33 @@
+{
+    "id": "swhswell-tavg-u-hxy-sea",
+    "validation-key": "swhswell_tavg-u-hxy-sea",
+    "ui-label": "Swell Significant Wave Height",
+    "description": "Average height of the highest one-third of waves present in the sea state, incorporating just swell waves (i.e., waves that have propagated away from their generation area). This parameter is derived from all swell partitions of the wave spectrum using spectral moments. Specifically, this parameter is four times the square root of the integral over all directions and all frequencies of the components of the two-dimensional wave spectrum that are not under the influence of local wind.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "swhswell",
+    "physical-parameter-name": "swhswell",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "sea_surface_swell_wave_significant_height",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m",
+    "variable-root": "swhswell",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

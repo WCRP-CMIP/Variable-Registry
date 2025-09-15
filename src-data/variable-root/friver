@@ -1,0 +1,13 @@
+{
+    "id": "friver",
+    "validation-key": "friver",
+    "ui-label": "friver",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "water-flux-into-sea-water-from-rivers",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

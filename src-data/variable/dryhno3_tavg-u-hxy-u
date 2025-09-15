@@ -1,0 +1,33 @@
+{
+    "id": "dryhno3-tavg-u-hxy-u",
+    "validation-key": "dryhno3_tavg-u-hxy-u",
+    "ui-label": "Dry deposition of HNO3",
+    "description": "This is the loss of nitric acid (HNO3) from the atmosphere due to dry deposition",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "dryhno3",
+    "physical-parameter-name": "dryhno3",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_nitric_acid_due_to_dry_deposition",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "dryhno3",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

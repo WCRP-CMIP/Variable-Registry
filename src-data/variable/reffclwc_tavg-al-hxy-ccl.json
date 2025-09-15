@@ -1,0 +1,34 @@
+{
+    "id": "reffclwc-tavg-al-hxy-ccl",
+    "validation-key": "reffclwc_tavg-al-hxy-ccl",
+    "ui-label": "Convective Cloud Liquid Droplet Effective Radius",
+    "description": "Droplets are liquid.  The effective radius is defined as the ratio of the third moment over the second moment of the particle size distribution and the time-mean should be calculated, weighting the individual samples by the cloudy fraction of the grid cell.",
+    "area-label": "ccl",
+    "cell-measures": "area: areacella",
+    "cell-methods": "Error: area: time: mean where convective_cloud not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "reffclwc",
+    "physical-parameter-name": "reffclwc",
+    "positive": "",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-A",
+    "standard-name": "effective_radius_of_convective_cloud_liquid_water_particles",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m",
+    "variable-root": "reffclwc",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

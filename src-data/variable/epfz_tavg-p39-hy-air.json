@@ -1,0 +1,33 @@
+{
+    "id": "epfz-tavg-p39-hy-air",
+    "validation-key": "epfz_tavg-p39-hy-air",
+    "ui-label": "Upward Component of the Eliassen-Palm Flux",
+    "description": "zonal mean; hence YZT",
+    "area-label": "air",
+    "cell-measures": "",
+    "cell-methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hy",
+    "model-realm": "atmos",
+    "out-name": "epfz",
+    "physical-parameter-name": "epfz",
+    "positive": "up",
+    "remove-cmip6-table": "EmonZ",
+    "spatial-shape": "Y-P39",
+    "standard-name": "upward_eliassen_palm_flux_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m3 s-2",
+    "variable-root": "epfz",
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

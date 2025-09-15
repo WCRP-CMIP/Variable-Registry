@@ -1,0 +1,34 @@
+{
+    "id": "epp-tavg-d100m-hxy-sea",
+    "validation-key": "epp_tavg-d100m-hxy-sea",
+    "ui-label": "Downward Flux of Particulate Phosphorus",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "epp100",
+    "physical-parameter-name": "epp100",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "epp",
+    "vertical-label": "d100m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "zg-tpt-al-hxys-u",
+    "validation-key": "zg_tpt-al-hxys-u",
+    "ui-label": "Geopotential Height",
+    "description": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "apt-tpt",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "out-name": "zg",
+    "physical-parameter-name": "zg",
+    "positive": "",
+    "remove-cmip6-table": "CFsubhr",
+    "spatial-shape": "S-A",
+    "standard-name": "geopotential_height",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "m",
+    "variable-root": "zg",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

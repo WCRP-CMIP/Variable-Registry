@@ -1,0 +1,13 @@
+{
+    "id": "emibboa",
+    "validation-key": "emibboa",
+    "ui-label": "emibboa",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles-due-to-emission-from-fires",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

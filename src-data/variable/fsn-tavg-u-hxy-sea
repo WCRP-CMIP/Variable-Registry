@@ -1,0 +1,33 @@
+{
+    "id": "fsn-tavg-u-hxy-sea",
+    "validation-key": "fsn_tavg-u-hxy-sea",
+    "ui-label": "Surface Downward Net Flux of Nitrogen",
+    "description": "Flux of nitrogen into the ocean due to deposition (sum of dry and wet deposition), fixation (the production of ammonia from nitrogen gas by diazotrophs) and runoff (liquid water which drains from land).",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "fsn",
+    "physical-parameter-name": "fsn",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_deposition_and_fixation_and_runoff",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "fsn",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

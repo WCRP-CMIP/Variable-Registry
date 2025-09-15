@@ -1,0 +1,34 @@
+{
+    "id": "ta-tpt-p5u-hxy-u",
+    "validation-key": "ta_tpt-p5u-hxy-u",
+    "ui-label": "6 hourly instantaneous temperature in the UTLS region",
+    "description": "6 hourly instantaneous temperature at 5 pressure levels in the UTLS region (150, 175, 200, 225, and 250 hPa)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev5u",
+        "time1"
+    ],
+    "frequency": "6hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "taUTLS",
+    "physical-parameter-name": "taUTLS",
+    "positive": "",
+    "remove-cmip6-table": "6hrPlevPt",
+    "spatial-shape": "XY-P5u",
+    "standard-name": "air_temperature",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "K",
+    "variable-root": "ta",
+    "vertical-label": "p5u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

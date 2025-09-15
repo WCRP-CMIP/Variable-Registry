@@ -1,0 +1,33 @@
+{
+    "id": "clwvi-tavg-u-hxy-u",
+    "validation-key": "clwvi_tavg-u-hxy-u",
+    "ui-label": "Condensed Water Path",
+    "description": "Liquid water path",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "3hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "clwvi",
+    "physical-parameter-name": "clwvi",
+    "positive": "",
+    "remove-cmip6-table": "E3hr",
+    "spatial-shape": "XY-na",
+    "standard-name": "atmosphere_mass_content_of_cloud_condensed_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2",
+    "variable-root": "clwvi",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

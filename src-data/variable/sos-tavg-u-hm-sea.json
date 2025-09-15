@@ -1,0 +1,31 @@
+{
+    "id": "sos-tavg-u-hm-sea",
+    "validation-key": "sos_tavg-u-hm-sea",
+    "ui-label": "Global Average Sea Surface Salinity",
+    "description": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand.",
+    "area-label": "sea",
+    "cell-measures": "",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hm",
+    "model-realm": "ocean",
+    "out-name": "sosga",
+    "physical-parameter-name": "sosga",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "na-na",
+    "standard-name": "sea_surface_salinity",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1E-03",
+    "variable-root": "sos",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

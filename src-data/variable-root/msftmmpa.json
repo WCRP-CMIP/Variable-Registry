@@ -1,0 +1,13 @@
+{
+    "id": "msftmmpa",
+    "validation-key": "msftmmpa",
+    "ui-label": "msftmmpa",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-meridional-overturning-mass-streamfunction-due-to-parameterized-mesoscale-eddy-advection",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

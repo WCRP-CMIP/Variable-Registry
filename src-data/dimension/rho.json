@@ -1,0 +1,14 @@
+{
+    "id": "rho",
+    "validation-key": "rho",
+    "ui-label": "potential density referenced to 2000 dbar",
+    "description": "potential density referenced to 2000 dbar",
+    "axis-flag": "Z",
+    "cf-standard-name": "sea_water_potential_density",
+    "spatial-shape": "Ocean basin meridional section (on density surfaces),Ocean basin meridional section (on model grid and density surfaces)",
+    "@context": "_context_",
+    "type": [
+        "wcrp:dimension",
+        "variable"
+    ]
+}

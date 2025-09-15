@@ -1,0 +1,34 @@
+{
+    "id": "hcho-tavg-al-hxy-u",
+    "validation-key": "hcho_tavg-al-hxy-u",
+    "ui-label": "Formaldehyde Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "hcho",
+    "physical-parameter-name": "hcho",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mole_fraction_of_formaldehyde_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol mol-1",
+    "variable-root": "hcho",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

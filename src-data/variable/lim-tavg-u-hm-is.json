@@ -1,0 +1,31 @@
+{
+    "id": "lim-tavg-u-hm-is",
+    "validation-key": "lim_tavg-u-hm-is",
+    "ui-label": "Ice Sheet Mass",
+    "description": "Greenland",
+    "area-label": "is",
+    "cell-measures": "",
+    "cell-methods": "asmi-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hm",
+    "model-realm": "landice",
+    "out-name": "lim",
+    "physical-parameter-name": "lim",
+    "positive": "",
+    "remove-cmip6-table": "IyrGre",
+    "spatial-shape": "na-na",
+    "standard-name": "land_ice_mass",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg",
+    "variable-root": "lim",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

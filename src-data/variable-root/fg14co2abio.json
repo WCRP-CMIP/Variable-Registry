@@ -1,0 +1,13 @@
+{
+    "id": "fg14co2abio",
+    "validation-key": "fg14co2abio",
+    "ui-label": "fg14co2abio",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-downward-mass-flux-of-14c-dioxide-abiotic-analogue-expressed-as-carbon",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

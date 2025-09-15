@@ -1,0 +1,13 @@
+{
+    "id": "tnkebto",
+    "validation-key": "tnkebto",
+    "ui-label": "tnkebto",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-eddy-kinetic-energy-content-due-to-parameterized-eddy-advection",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

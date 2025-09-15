@@ -1,0 +1,34 @@
+{
+    "id": "cls-tavg-al-hxy-u",
+    "validation-key": "cls_tavg-al-hxy-u",
+    "ui-label": "Percentage Cover of Stratiform Cloud",
+    "description": "Cloud area fraction (reported as a percentage) for the whole atmospheric column due to stratiform clouds, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "cls",
+    "physical-parameter-name": "cls",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "stratiform_cloud_area_fraction_in_atmosphere_layer",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "%",
+    "variable-root": "cls",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "yvelmean",
+    "validation-key": "yvelmean",
+    "ui-label": "yvelmean",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "land-ice-vertical-mean-y-velocity",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

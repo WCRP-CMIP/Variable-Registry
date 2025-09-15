@@ -1,0 +1,33 @@
+{
+    "id": "ztp-tavg-u-hxy-u",
+    "validation-key": "ztp_tavg-u-hxy-u",
+    "ui-label": "Tropopause Altitude Above Geoid",
+    "description": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "ztp",
+    "physical-parameter-name": "ztp",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "tropopause_altitude",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m",
+    "variable-root": "ztp",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

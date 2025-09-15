@@ -1,0 +1,31 @@
+{
+    "id": "siarea-tavg-u-hm-u",
+    "validation-key": "siarea_tavg-u-hm-u",
+    "ui-label": "Sea-Ice Area South",
+    "description": "Total integrated area of sea ice in the Southern Hemisphere (where siconc > 0). Does not include grid cells partially covered by land.",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "asm-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hm",
+    "model-realm": "seaice",
+    "out-name": "siareas",
+    "physical-parameter-name": "siareas",
+    "positive": "",
+    "remove-cmip6-table": "SImon",
+    "spatial-shape": "na-na",
+    "standard-name": "sea_ice_area",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "1e6 km2",
+    "variable-root": "siarea",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

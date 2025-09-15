@@ -1,0 +1,12 @@
+{
+    "id": "amns-fx",
+    "validation-key": "amns-fx",
+    "ui-label": "Fixed Area Mean over Sea",
+    "description": "area: mean where sea",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

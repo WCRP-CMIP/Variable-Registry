@@ -1,0 +1,13 @@
+{
+    "id": "sidragbot",
+    "validation-key": "sidragbot",
+    "ui-label": "sidragbot",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-ice-basal-drag-coefficient-for-momentum-in-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "intppdiaz",
+    "validation-key": "intppdiaz",
+    "ui-label": "intppdiaz",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-diazotrophic-phytoplankton",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

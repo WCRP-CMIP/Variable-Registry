@@ -1,0 +1,34 @@
+{
+    "id": "c4h10-tavg-al-hxy-u",
+    "validation-key": "c4h10_tavg-al-hxy-u",
+    "ui-label": "C4H10  volume mixing ratio",
+    "description": "Mole fraction of butane (C4H10) in air",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "c4h10",
+    "physical-parameter-name": "c4h10",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mole_fraction_of_butane_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol mol-1",
+    "variable-root": "c4h10",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "si",
+    "validation-key": "si",
+    "ui-label": "Sea Ice",
+    "description": "Variables calculated over sea ice areas, including floating ice on oceans and seas. Covers sea ice concentration, thickness, motion, thermodynamics, and ice-ocean-atmosphere interactions.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

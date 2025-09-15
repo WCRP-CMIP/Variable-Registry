@@ -1,0 +1,34 @@
+{
+    "id": "mmrso4-tavg-al-hxy-u",
+    "validation-key": "mmrso4_tavg-al-hxy-u",
+    "ui-label": "Aerosol Sulfate Mass Mixing Ratio",
+    "description": "Dry mass of sulfate (SO4) in aerosol particles as a fraction of air mass.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "mmrso4",
+    "physical-parameter-name": "mmrso4",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg kg-1",
+    "variable-root": "mmrso4",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

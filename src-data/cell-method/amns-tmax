@@ -1,0 +1,12 @@
+{
+    "id": "amns-tmax",
+    "validation-key": "amns-tmax",
+    "ui-label": "Time Maximum over Sea",
+    "description": "area: mean where sea time: maximum",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

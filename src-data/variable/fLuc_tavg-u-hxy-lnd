@@ -1,0 +1,33 @@
+{
+    "id": "fluc-tavg-u-hxy-lnd",
+    "validation-key": "fLuc_tavg-u-hxy-lnd",
+    "ui-label": "Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1]",
+    "description": "Net Carbon Mass Flux into Atmosphere due to Land Use Change",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "fLuc",
+    "physical-parameter-name": "fLuc",
+    "positive": "up",
+    "remove-cmip6-table": "Emon",
+    "spatial-shape": "XY-na",
+    "standard-name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "fLuc",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

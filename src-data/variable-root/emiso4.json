@@ -1,0 +1,13 @@
+{
+    "id": "emiso4",
+    "validation-key": "emiso4",
+    "ui-label": "emiso4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-emission",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

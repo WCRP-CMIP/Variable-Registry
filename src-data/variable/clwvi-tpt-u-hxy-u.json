@@ -1,0 +1,33 @@
+{
+    "id": "clwvi-tpt-u-hxy-u",
+    "validation-key": "clwvi_tpt-u-hxy-u",
+    "ui-label": "Condensed Water Path",
+    "description": "mass of condensed (liquid + ice) water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "clwvi",
+    "physical-parameter-name": "clwvi",
+    "positive": "",
+    "remove-cmip6-table": "CF3hr",
+    "spatial-shape": "XY-na",
+    "standard-name": "atmosphere_mass_content_of_cloud_condensed_water",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "kg m-2",
+    "variable-root": "clwvi",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

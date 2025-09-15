@@ -1,0 +1,13 @@
+{
+    "id": "tntr",
+    "validation-key": "tntr",
+    "ui-label": "tntr",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-air-temperature-due-to-radiative-heating",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

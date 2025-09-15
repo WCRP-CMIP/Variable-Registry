@@ -1,0 +1,13 @@
+{
+    "id": "emibbco",
+    "validation-key": "emibbco",
+    "ui-label": "emibbco",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-carbon-monoxide-due-to-emission-from-fires",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

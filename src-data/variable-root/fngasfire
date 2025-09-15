@@ -1,0 +1,13 @@
+{
+    "id": "fngasfire",
+    "validation-key": "fngasfire",
+    "ui-label": "fNgasFire",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-due-to-emission-from-fires",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "hurs-tmax-h2m-hxy-u",
+    "validation-key": "hurs_tmax-h2m-hxy-u",
+    "ui-label": "Daily Maximum Near-Surface Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tmax",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "frequency": "day",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "hursmax",
+    "physical-parameter-name": "hursmax",
+    "positive": "",
+    "remove-cmip6-table": "day",
+    "spatial-shape": "XY-na",
+    "standard-name": "relative_humidity",
+    "temporal-label": "tmax",
+    "temporal-shape": "time-intv",
+    "units": "%",
+    "variable-root": "hurs",
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

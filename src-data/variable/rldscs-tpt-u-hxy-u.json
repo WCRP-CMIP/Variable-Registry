@@ -1,0 +1,33 @@
+{
+    "id": "rldscs-tpt-u-hxy-u",
+    "validation-key": "rldscs_tpt-u-hxy-u",
+    "ui-label": "Surface Downwelling Clear-Sky Longwave Radiation",
+    "description": "Surface downwelling clear-sky longwave radiation",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "rldscs",
+    "physical-parameter-name": "rldscs",
+    "positive": "down",
+    "remove-cmip6-table": "CF3hr",
+    "spatial-shape": "XY-na",
+    "standard-name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "W m-2",
+    "variable-root": "rldscs",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

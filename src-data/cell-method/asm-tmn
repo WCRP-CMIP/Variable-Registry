@@ -1,0 +1,12 @@
+{
+    "id": "asm-tmn",
+    "validation-key": "asm-tmn",
+    "ui-label": "Time Mean of Area Sum",
+    "description": "Cell method representing temporal mean of spatially summed values. Variables are first summed over areas or regions, then averaged over time periods to give time-mean totals.",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

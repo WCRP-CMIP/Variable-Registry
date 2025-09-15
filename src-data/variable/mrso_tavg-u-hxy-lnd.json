@@ -1,0 +1,33 @@
+{
+    "id": "mrso-tavg-u-hxy-lnd",
+    "validation-key": "mrso_tavg-u-hxy-lnd",
+    "ui-label": "Total Soil Moisture Content",
+    "description": "the mass per unit area  (summed over all soil layers) of water in all phases.",
+    "area-label": "lnd",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "land",
+    "out-name": "mrso",
+    "physical-parameter-name": "mrso",
+    "positive": "",
+    "remove-cmip6-table": "Lmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "mass_content_of_water_in_soil",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2",
+    "variable-root": "mrso",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "loadnh4",
+    "validation-key": "loadnh4",
+    "ui-label": "loadnh4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-mass-content-of-ammonium-dry-aerosol-particles",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

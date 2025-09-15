@@ -1,0 +1,13 @@
+{
+    "id": "ocontemptend",
+    "validation-key": "ocontemptend",
+    "ui-label": "ocontemptend",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-conservative-temperature-expressed-as-heat-content",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

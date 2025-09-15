@@ -1,0 +1,11 @@
+{
+    "id": "veg",
+    "validation-key": "veg",
+    "ui-label": "Vegetation",
+    "description": "Variables calculated over vegetated areas, including forests, grasslands, and other plant-covered regions. Covers vegetation dynamics, photosynthesis, leaf area index, and ecosystem productivity.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

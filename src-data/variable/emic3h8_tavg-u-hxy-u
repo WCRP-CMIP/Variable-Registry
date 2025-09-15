@@ -1,0 +1,33 @@
+{
+    "id": "emic3h8-tavg-u-hxy-u",
+    "validation-key": "emic3h8_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C3H8",
+    "description": "This is the total emission rate of propane (C3H8) into the atmosphere",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "emic3h8",
+    "physical-parameter-name": "emic3h8",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_propane_due_to_emission",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "emic3h8",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

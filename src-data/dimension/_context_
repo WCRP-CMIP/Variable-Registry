@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
+            "entries": "@none"
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "opottemptend-tavg-ol-hxy-sea",
+    "validation-key": "opottemptend_tavg-ol-hxy-sea",
+    "ui-label": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
+    "description": "Tendency of heat content for a grid cell from all processes. Reported only for models that use potential temperature as prognostic field.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "opottemptend",
+    "physical-parameter-name": "opottemptend",
+    "positive": "",
+    "remove-cmip6-table": "Oyr",
+    "spatial-shape": "XY-O",
+    "standard-name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W m-2",
+    "variable-root": "opottemptend",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

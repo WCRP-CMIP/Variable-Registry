@@ -1,0 +1,11 @@
+{
+    "id": "lnd",
+    "validation-key": "lnd",
+    "ui-label": "Land",
+    "description": "Variables calculated over land surface areas, including soil, vegetation, and terrestrial ecosystems. Used for land surface temperature, soil moisture, vegetation indices, and other terrestrial variables.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:area-label",
+        "variable"
+    ]
+}

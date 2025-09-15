@@ -1,0 +1,33 @@
+{
+    "id": "rlut-tclmdc-u-hxy-u",
+    "validation-key": "rlut_tclmdc-u-hxy-u",
+    "ui-label": "TOA Outgoing Longwave Radiation",
+    "description": "at the top of the atmosphere (to be compared with satellite measurements)",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-tdnl",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "frequency": "1hr",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "rlut",
+    "physical-parameter-name": "rlut",
+    "positive": "up",
+    "remove-cmip6-table": "E1hrClimMon",
+    "spatial-shape": "XY-na",
+    "standard-name": "toa_outgoing_longwave_flux",
+    "temporal-label": "tclmdc",
+    "temporal-shape": "diurnal-cycle",
+    "units": "W m-2",
+    "variable-root": "rlut",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

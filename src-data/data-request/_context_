@@ -1,0 +1,17 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/data-request/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/data-request/",
+            "variables": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/variable/_context_"
+            }
+        }
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "limndiaz",
+    "validation-key": "limndiaz",
+    "ui-label": "limndiaz",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "nitrogen-growth-limitation-of-diazotrophic-phytoplankton",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

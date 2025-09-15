@@ -1,0 +1,34 @@
+{
+    "id": "wmo-tavg-ol-hxy-sea",
+    "validation-key": "wmo_tavg-ol-hxy-sea",
+    "ui-label": "Upward Ocean Mass Transport",
+    "description": "Upward mass transport from residual mean (resolved plus parameterized) advective transport.",
+    "area-label": "sea",
+    "cell-measures": "area: areacello volume: volcello",
+    "cell-methods": "asms-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocean",
+    "out-name": "wmo",
+    "physical-parameter-name": "wmo",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-O",
+    "standard-name": "upward_ocean_mass_transport",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg s-1",
+    "variable-root": "wmo",
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

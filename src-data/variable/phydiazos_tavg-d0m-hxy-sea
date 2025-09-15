@@ -1,0 +1,33 @@
+{
+    "id": "phydiazos-tavg-d0m-hxy-sea",
+    "validation-key": "phydiazos_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water",
+    "description": "carbon concentration from the diazotrophic phytoplankton component alone",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnbgchem",
+    "out-name": "phydiazos",
+    "physical-parameter-name": "phydiazos",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-na",
+    "standard-name": "mole_concentration_of_diazotrophic_phytoplankton_expressed_as_carbon_in_sea_water",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3",
+    "variable-root": "phydiazos",
+    "vertical-label": "d0m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

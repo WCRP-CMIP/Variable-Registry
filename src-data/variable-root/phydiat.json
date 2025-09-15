@@ -1,0 +1,13 @@
+{
+    "id": "phydiat",
+    "validation-key": "phydiat",
+    "ui-label": "phydiat",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-diatoms-expressed-as-carbon-in-sea-water",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

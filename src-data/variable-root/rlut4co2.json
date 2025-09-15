@@ -1,0 +1,13 @@
+{
+    "id": "rlut4co2",
+    "validation-key": "rlut4co2",
+    "ui-label": "rlut4co2",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "toa-outgoing-longwave-flux",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable-root",
+        "variable-registry"
+    ]
+}

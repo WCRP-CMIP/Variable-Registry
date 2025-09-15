@@ -1,0 +1,34 @@
+{
+    "id": "lossco-tavg-al-hxy-u",
+    "validation-key": "lossco_tavg-al-hxy-u",
+    "ui-label": "Monthly Loss of Atmospheric Carbon Monoxide",
+    "description": "monthly averaged atmospheric loss",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "lossco",
+    "physical-parameter-name": "lossco",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_atmosphere_mole_concentration_of_carbon_monoxide_due_to_chemical_destruction",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-3 s-1",
+    "variable-root": "lossco",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}
