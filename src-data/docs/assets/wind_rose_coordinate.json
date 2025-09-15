@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "type": "barpolar",
+      "r": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "name": "coordinate",
+      "text": [
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate",
+        "coordinate"
+      ],
+      "hoverinfo": "text+r",
+      "hovertemplate": "<b>coordinate</b><br>Files: 70<extra></extra>",
+      "marker": {
+        "color": [
+          "rgba(70,  102,  178, 0.2)",
+          "rgba(70,  102,  178, 0.26153846153846155)",
+          "rgba(70,  102,  178, 0.3230769230769231)",
+          "rgba(70,  102,  178, 0.3846153846153847)",
+          "rgba(70,  102,  178, 0.4461538461538462)",
+          "rgba(70,  102,  178, 0.5076923076923077)",
+          "rgba(70,  102,  178, 0.5692307692307693)",
+          "rgba(70,  102,  178, 0.6307692307692307)",
+          "rgba(70,  102,  178, 0.6923076923076923)",
+          "rgba(70,  102,  178, 0.7538461538461538)",
+          "rgba(70,  102,  178, 0.8153846153846154)",
+          "rgba(70,  102,  178, 0.8769230769230769)",
+          "rgba(70,  102,  178, 0.9384615384615387)",
+          "rgba(70,  102,  178, 1.0)"
+        ],
+        "line": {
+          "width": 0.5,
+          "color": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "showlegend": false
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Data Content Directory Structure",
+      "font": {
+        "size": 20,
+        "color": "#333333"
+      }
+    },
+    "polar": {
+      "radialaxis": {
+        "visible": true,
+        "range": [
+          0,
+          73.5
+        ],
+        "showticklabels": true,
+        "ticksuffix": " files",
+        "tickangle": 45,
+        "showline": true,
+        "linecolor": "rgba(0,0,0,0.2)"
+      },
+      "angularaxis": {
+        "direction": "clockwise",
+        "showticklabels": true,
+        "tickvals": [
+          0.0
+        ],
+        "ticktext": [
+          "coordinate"
+        ],
+        "tickfont": {
+          "size": 12,
+          "weight": "bold"
+        }
+      },
+      "bargap": 0.03
+    },
+    "showlegend": false,
+    "margin": {
+      "l": 60,
+      "r": 60,
+      "t": 80,
+      "b": 60
+    },
+    "paper_bgcolor": "rgba(0,0,0,0)",
+    "plot_bgcolor": "rgba(0,0,0,0)",
+    "autosize": true,
+    "height": 500,
+    "width": 700
+  }
+}
