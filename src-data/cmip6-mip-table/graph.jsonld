@@ -18,15 +18,9 @@
   "@graph": [
     {
       "id": "3hr",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 3hr containing variables",
-      "ui-label": "3hr",
       "validation-key": "3hr",
+      "ui-label": "3hr",
+      "description": "CMIP6 CMOR table 3hr containing variables",
       "variables": [
         "clt_tavg-u-hxy-u",
         "evspsblsoi_tavg-u-hxy-u",
@@ -68,19 +62,19 @@
         "wfo_tavg-u-hxy-sea",
         "wpdir_tavg-u-hxy-sea",
         "wpp_tavg-u-hxy-sea"
-      ]
-    },
-    {
-      "id": "3hrpt",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 3hrPt containing variables",
-      "ui-label": "3hrPt",
+      ]
+    },
+    {
+      "id": "3hrpt",
       "validation-key": "3hrpt",
+      "ui-label": "3hrPt",
+      "description": "CMIP6 CMOR table 3hrPt containing variables",
       "variables": [
         "bldep_tpt-u-hxy-u",
         "unknown01",
@@ -90,19 +84,19 @@
         "unknown03",
         "unknown04",
         "unknown05"
-      ]
-    },
-    {
-      "id": "6hr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 6hr containing variables",
-      "ui-label": "6hr",
+      ]
+    },
+    {
+      "id": "6hr",
       "validation-key": "6hr",
+      "ui-label": "6hr",
+      "description": "CMIP6 CMOR table 6hr containing variables",
       "variables": [
         "mpw_tavg-u-hxy-sea",
         "mpwswell_tavg-u-hxy-sea",
@@ -122,19 +116,19 @@
         "wpp_tavg-u-hxy-sea",
         "wppswell_tavg-u-hxy-sea",
         "wppwindsea_tavg-u-hxy-sea"
-      ]
-    },
-    {
-      "id": "6hrlev",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 6hrLev containing variables",
-      "ui-label": "6hrLev",
+      ]
+    },
+    {
+      "id": "6hrlev",
       "validation-key": "6hrlev",
+      "ui-label": "6hrLev",
+      "description": "CMIP6 CMOR table 6hrLev containing variables",
       "variables": [
         "bs550aer_tpt-al-hxy-u",
         "ec550aer_tpt-u-hxy-u",
@@ -144,19 +138,19 @@
         "ua_tpt-al-hxy-u",
         "va_tpt-al-hxy-u",
         "zg_tpt-al-hxy-u"
-      ]
-    },
-    {
-      "id": "6hrplev",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 6hrPlev containing variables",
-      "ui-label": "6hrPlev",
+      ]
+    },
+    {
+      "id": "6hrplev",
       "validation-key": "6hrplev",
+      "ui-label": "6hrPlev",
+      "description": "CMIP6 CMOR table 6hrPlev containing variables",
       "variables": [
         "hurs_tavg-h2m-hxy-u",
         "huss_tavg-h2m-hxy-u",
@@ -175,19 +169,19 @@
         "uas_tavg-h10m-hxy-u",
         "vas_tavg-h10m-hxy-u",
         "zg_tavg-1000hPa-hxy-air"
-      ]
-    },
-    {
-      "id": "6hrplevpt",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table 6hrPlevPt containing variables",
-      "ui-label": "6hrPlevPt",
+      ]
+    },
+    {
+      "id": "6hrplevpt",
       "validation-key": "6hrplevpt",
+      "ui-label": "6hrPlevPt",
+      "description": "CMIP6 CMOR table 6hrPlevPt containing variables",
       "variables": [
         "hur_tpt-100hPa-hxy-u",
         "hur_tpt-500hPa-hxy-air",
@@ -218,19 +212,19 @@
         "zg_tpt-700hPa-hxy-u",
         "zg_tpt-p7h-hxy-air",
         "zg_tpt-925hPa-hxy-u"
-      ]
-    },
-    {
-      "id": "aerday",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table AERday containing variables",
-      "ui-label": "AERday",
+      ]
+    },
+    {
+      "id": "aerday",
       "validation-key": "aerday",
+      "ui-label": "AERday",
+      "description": "CMIP6 CMOR table AERday containing variables",
       "variables": [
         "co_tavg-h2m-hxy-u",
         "cod_tavg-u-hxy-u",
@@ -262,36 +256,36 @@
         "zg_tavg-10hPa-hxy-air",
         "zg_tavg-1000hPa-hxy-air",
         "zg_tavg-500hPa-hxy-air"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "aerfx",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table AERfx containing variables",
-      "ui-label": "AERfx",
       "validation-key": "aerfx",
+      "ui-label": "AERfx",
+      "description": "CMIP6 CMOR table AERfx containing variables",
       "variables": [
         "ch4ref_ti-al-hxy-u",
         "o3ref_ti-al-hxy-u",
         "o3ref_tclm-al-hxy-u"
-      ]
-    },
-    {
-      "id": "aerhr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table AERhr containing variables",
-      "ui-label": "AERhr",
+      ]
+    },
+    {
+      "id": "aerhr",
       "validation-key": "aerhr",
+      "ui-label": "AERhr",
+      "description": "CMIP6 CMOR table AERhr containing variables",
       "variables": [
         "ps_tavg-u-hxy-u",
         "no2_tavg-h2m-hxy-u",
@@ -300,19 +294,19 @@
         "sfpm10_tavg-h2m-hxy-u",
         "sfpm25_tavg-h2m-hxy-u",
         "tas_tavg-h2m-hxy-u"
-      ]
-    },
-    {
-      "id": "aermon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table AERmon containing variables",
-      "ui-label": "AERmon",
+      ]
+    },
+    {
+      "id": "aermon",
       "validation-key": "aermon",
+      "ui-label": "AERmon",
+      "description": "CMIP6 CMOR table AERmon containing variables",
       "variables": [
         "abs550aer_tavg-u-hxy-u",
         "abs550bc_tavg-u-hxy-u",
@@ -528,19 +522,19 @@
         "wetss_tavg-u-hxy-u",
         "zg_tavg-al-hxy-u",
         "ztp_tavg-u-hxy-u"
-      ]
-    },
-    {
-      "id": "aermonz",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table AERmonZ containing variables",
-      "ui-label": "AERmonZ",
+      ]
+    },
+    {
+      "id": "aermonz",
       "validation-key": "aermonz",
+      "ui-label": "AERmonZ",
+      "description": "CMIP6 CMOR table AERmonZ containing variables",
       "variables": [
         "bry_tavg-p39-hy-air",
         "ch4_tavg-p39-hy-air",
@@ -559,19 +553,19 @@
         "va_tavg-p39-hy-air",
         "vt100_tavg-100hPa-hy-air",
         "zg_tavg-p39-hy-air"
-      ]
-    },
-    {
-      "id": "amon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Amon containing variables",
-      "ui-label": "Amon",
+      ]
+    },
+    {
+      "id": "amon",
       "validation-key": "amon",
+      "ui-label": "Amon",
+      "description": "CMIP6 CMOR table Amon containing variables",
       "variables": [
         "aod550volso4_tavg-u-hxy-u",
         "ccb_tavg-u-hxy-ccl",
@@ -695,19 +689,19 @@
         "wap_tavg-p19-hxy-air",
         "zg_tavg-p19-hxy-air",
         "zg_tavg-p19-hxy-air"
-      ]
-    },
-    {
-      "id": "cf3hr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table CF3hr containing variables",
-      "ui-label": "CF3hr",
+      ]
+    },
+    {
+      "id": "cf3hr",
       "validation-key": "cf3hr",
+      "ui-label": "CF3hr",
+      "description": "CMIP6 CMOR table CF3hr containing variables",
       "variables": [
         "clic_tpt-al-hxy-u",
         "clis_tpt-al-hxy-u",
@@ -736,19 +730,19 @@
         "rsutcs_tpt-u-hxy-u",
         "ta_tpt-al-hxy-u",
         "ts_tpt-u-hxy-u"
-      ]
-    },
-    {
-      "id": "cfday",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table CFday containing variables",
-      "ui-label": "CFday",
+      ]
+    },
+    {
+      "id": "cfday",
       "validation-key": "cfday",
+      "ui-label": "CFday",
+      "description": "CMIP6 CMOR table CFday containing variables",
       "variables": [
         "albisccp_tavg-u-hxy-cl",
         "ccb_tavg-u-hxy-ccl",
@@ -787,19 +781,19 @@
         "wap_tavg-al-hxy-u",
         "wap_tavg-500hPa-hxy-air",
         "zg_tavg-al-hxy-u"
-      ]
-    },
-    {
-      "id": "cfmon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table CFmon containing variables",
-      "ui-label": "CFmon",
+      ]
+    },
+    {
+      "id": "cfmon",
       "validation-key": "cfmon",
+      "ui-label": "CFmon",
+      "description": "CMIP6 CMOR table CFmon containing variables",
       "variables": [
         "albisccp_tavg-u-hxy-cl",
         "albisccp_tavg-u-hxy-cl",
@@ -893,19 +887,19 @@
         "tntmp_tavg-al-hxy-u",
         "tntr_tavg-al-hxy-u",
         "tntscpbl_tavg-al-hxy-u"
-      ]
-    },
-    {
-      "id": "cfsubhr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table CFsubhr containing variables",
-      "ui-label": "CFsubhr",
+      ]
+    },
+    {
+      "id": "cfsubhr",
       "validation-key": "cfsubhr",
+      "ui-label": "CFsubhr",
+      "description": "CMIP6 CMOR table CFsubhr containing variables",
       "variables": [
         "ccb_tpt-u-hxys-u",
         "cct_tpt-u-hxys-u",
@@ -984,19 +978,19 @@
         "vas_tpt-h10m-hxys-u",
         "wap_tpt-al-hxys-u",
         "zg_tpt-al-hxys-u"
-      ]
-    },
-    {
-      "id": "day",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table day containing variables",
-      "ui-label": "day",
+      ]
+    },
+    {
+      "id": "day",
       "validation-key": "day",
+      "ui-label": "day",
+      "description": "CMIP6 CMOR table day containing variables",
       "variables": [
         "clt_tavg-u-hxy-u",
         "hfls_tavg-u-hxy-u",
@@ -1045,19 +1039,19 @@
         "wbgt_tavg-h2m-hxy-u",
         "wbgt_tmax-h2m-hxy-u",
         "zg_tavg-p19-hxy-air"
-      ]
-    },
-    {
-      "id": "e1hr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table E1hr containing variables",
-      "ui-label": "E1hr",
+      ]
+    },
+    {
+      "id": "e1hr",
       "validation-key": "e1hr",
+      "ui-label": "E1hr",
+      "description": "CMIP6 CMOR table E1hr containing variables",
       "variables": [
         "bldep_tavg-u-hxy-u",
         "clt_tavg-u-hxy-u",
@@ -1089,38 +1083,38 @@
         "vas_tpt-h10m-hxy-u",
         "wsg_tmax-h100m-hxy-u",
         "wsg_tmax-h10m-hxy-u"
-      ]
-    },
-    {
-      "id": "e1hrclimmon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table E1hrClimMon containing variables",
-      "ui-label": "E1hrClimMon",
+      ]
+    },
+    {
+      "id": "e1hrclimmon",
       "validation-key": "e1hrclimmon",
+      "ui-label": "E1hrClimMon",
+      "description": "CMIP6 CMOR table E1hrClimMon containing variables",
       "variables": [
         "rlut_tclmdc-u-hxy-u",
         "rlutcs_tclmdc-u-hxy-u",
         "rsdt_tclmdc-u-hxy-u",
         "rsut_tclmdc-u-hxy-u",
         "rsutcs_tclmdc-u-hxy-u"
-      ]
-    },
-    {
-      "id": "e3hr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table E3hr containing variables",
-      "ui-label": "E3hr",
+      ]
+    },
+    {
+      "id": "e3hr",
       "validation-key": "e3hr",
+      "ui-label": "E3hr",
+      "description": "CMIP6 CMOR table E3hr containing variables",
       "variables": [
         "clivi_tavg-u-hxy-u",
         "clwvi_tavg-u-hxy-u",
@@ -1130,19 +1124,19 @@
         "rsut_tavg-u-hxy-u",
         "rsutcs_tavg-u-hxy-u",
         "sfcWind_tavg-h10m-hxy-u"
-      ]
-    },
-    {
-      "id": "e3hrpt",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table E3hrPt containing variables",
-      "ui-label": "E3hrPt",
+      ]
+    },
+    {
+      "id": "e3hrpt",
       "validation-key": "e3hrpt",
+      "ui-label": "E3hrPt",
+      "description": "CMIP6 CMOR table E3hrPt containing variables",
       "variables": [
         "cltcalipso_tpt-u-hxy-u",
         "conccn_tpt-u-hxys-u",
@@ -1161,19 +1155,19 @@
         "ua_tpt-p6-hxy-air",
         "va_tpt-p6-hxy-air",
         "wap_tpt-p6-hxy-air"
-      ]
-    },
-    {
-      "id": "eday",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Eday containing variables",
-      "ui-label": "Eday",
+      ]
+    },
+    {
+      "id": "eday",
       "validation-key": "eday",
+      "ui-label": "Eday",
+      "description": "CMIP6 CMOR table Eday containing variables",
       "variables": [
         "ccldncl_tavg-u-hxy-ccl",
         "cldnci_tavg-u-hxy-cl",
@@ -1270,19 +1264,19 @@
         "vtendnogw_tavg-p19-hxy-air",
         "vtendogw_tavg-p19-hxy-air",
         "wtd_tavg-u-hxy-lnd"
-      ]
-    },
-    {
-      "id": "edayz",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table EdayZ containing variables",
-      "ui-label": "EdayZ",
+      ]
+    },
+    {
+      "id": "edayz",
       "validation-key": "edayz",
+      "ui-label": "EdayZ",
+      "description": "CMIP6 CMOR table EdayZ containing variables",
       "variables": [
         "epfy_tavg-p39-hy-air",
         "epfz_tavg-p39-hy-air",
@@ -1305,36 +1299,36 @@
         "vtem_tavg-p39-hy-air",
         "wtem_tavg-p39-hy-air",
         "zg_tavg-p39-hy-air"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "efx",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Efx containing variables",
-      "ui-label": "Efx",
       "validation-key": "efx",
+      "ui-label": "Efx",
+      "description": "CMIP6 CMOR table Efx containing variables",
       "variables": [
         "sftflf_ti-u-hxy-u",
         "sftgrf_ti-u-hxy-u",
         "slthick_ti-sl-hxy-lnd"
-      ]
-    },
-    {
-      "id": "emon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Emon containing variables",
-      "ui-label": "Emon",
+      ]
+    },
+    {
+      "id": "emon",
       "validation-key": "emon",
+      "ui-label": "Emon",
+      "description": "CMIP6 CMOR table Emon containing variables",
       "variables": [
         "albc_tavg-u-hxy-veg",
         "albsrfc_tavg-u-hxy-sn",
@@ -1567,19 +1561,19 @@
         "wetlandFrac_tavg-u-hxy-u",
         "wsg_tmax-h100m-hxy-u",
         "wsg_tmax-h10m-hxy-u"
-      ]
-    },
-    {
-      "id": "emonz",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table EmonZ containing variables",
-      "ui-label": "EmonZ",
+      ]
+    },
+    {
+      "id": "emonz",
       "validation-key": "emonz",
+      "ui-label": "EmonZ",
+      "description": "CMIP6 CMOR table EmonZ containing variables",
       "variables": [
         "epfy_tavg-p39-hy-air",
         "epfz_tavg-p39-hy-air",
@@ -1597,19 +1591,19 @@
         "utendogw_tavg-p39-hy-air",
         "vtem_tavg-p39-hy-air",
         "wtem_tavg-p39-hy-air"
-      ]
-    },
-    {
-      "id": "esubhr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Esubhr containing variables",
-      "ui-label": "Esubhr",
+      ]
+    },
+    {
+      "id": "esubhr",
       "validation-key": "esubhr",
+      "ui-label": "Esubhr",
+      "description": "CMIP6 CMOR table Esubhr containing variables",
       "variables": [
         "reffclic_tpt-al-hxys-ccl",
         "reffclis_tpt-al-hxys-scl",
@@ -1624,19 +1618,19 @@
         "tntrs_tpt-al-hxys-u",
         "tntrscs_tpt-al-hxys-u",
         "tntscp_tpt-al-hxys-u"
-      ]
-    },
-    {
-      "id": "eyr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Eyr containing variables",
-      "ui-label": "Eyr",
+      ]
+    },
+    {
+      "id": "eyr",
       "validation-key": "eyr",
+      "ui-label": "Eyr",
+      "description": "CMIP6 CMOR table Eyr containing variables",
       "variables": [
         "baresoilFrac_tavg-u-hxy-u",
         "cLitterLut_tpt-u-hxy-multi",
@@ -1653,19 +1647,19 @@
         "treeFrac_tavg-u-hxy-u",
         "vegFrac_tavg-u-hxy-u",
         "zfullo_tavg-ol-hxy-sea"
-      ]
-    },
-    {
-      "id": "fx",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table fx containing variables",
-      "ui-label": "fx",
+      ]
+    },
+    {
+      "id": "fx",
       "validation-key": "fx",
+      "ui-label": "fx",
+      "description": "CMIP6 CMOR table fx containing variables",
       "variables": [
         "areacell_ti-u-hxy-u",
         "areacell_ti-u-hxy-u",
@@ -1682,55 +1676,55 @@
         "sftlaf_ti-u-hxy-u",
         "sftlf_ti-u-hxy-u",
         "zfull_ti-al-hxy-u"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "ifxant",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table IfxAnt containing variables",
-      "ui-label": "IfxAnt",
       "validation-key": "ifxant",
+      "ui-label": "IfxAnt",
+      "description": "CMIP6 CMOR table IfxAnt containing variables",
       "variables": [
         "areacell_ti-u-hxy-u",
         "hfgeoubed_ti-u-hxy-gis",
         "lithk_ti-u-hxy-is",
         "topg_ti-u-hxy-gis"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "ifxgre",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table IfxGre containing variables",
-      "ui-label": "IfxGre",
       "validation-key": "ifxgre",
+      "ui-label": "IfxGre",
+      "description": "CMIP6 CMOR table IfxGre containing variables",
       "variables": [
         "areacell_ti-u-hxy-u",
         "hfgeoubed_ti-u-hxy-gis",
         "lithk_ti-u-hxy-is",
         "topg_ti-u-hxy-gis"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "imonant",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table ImonAnt containing variables",
-      "ui-label": "ImonAnt",
       "validation-key": "imonant",
+      "ui-label": "ImonAnt",
+      "description": "CMIP6 CMOR table ImonAnt containing variables",
       "variables": [
         "acabf_tavg-u-hxy-is",
         "hfls_tavg-u-hxy-is",
@@ -1759,19 +1753,19 @@
         "tas_tavg-h2m-hm-is",
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-is"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "imongre",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table ImonGre containing variables",
-      "ui-label": "ImonGre",
       "validation-key": "imongre",
+      "ui-label": "ImonGre",
+      "description": "CMIP6 CMOR table ImonGre containing variables",
       "variables": [
         "acabf_tavg-u-hxy-is",
         "hfls_tavg-u-hxy-is",
@@ -1800,19 +1794,19 @@
         "tas_tavg-h2m-hm-is",
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-is"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "iyrant",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table IyrAnt containing variables",
-      "ui-label": "IyrAnt",
       "validation-key": "iyrant",
+      "ui-label": "IyrAnt",
+      "description": "CMIP6 CMOR table IyrAnt containing variables",
       "variables": [
         "acabf_tavg-u-hxy-is",
         "hfgeoubed_tavg-u-hxy-gis",
@@ -1847,19 +1841,19 @@
         "yvelsurf_tavg-u-hxy-is",
         "zvelbase_tavg-u-hxy-is",
         "zvelsurf_tavg-u-hxy-is"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     },
     {
       "id": "iyrgre",
-      "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table IyrGre containing variables",
-      "ui-label": "IyrGre",
       "validation-key": "iyrgre",
+      "ui-label": "IyrGre",
+      "description": "CMIP6 CMOR table IyrGre containing variables",
       "variables": [
         "acabf_tavg-u-hxy-is",
         "hfgeoubed_tavg-u-hxy-gis",
@@ -1894,19 +1888,19 @@
         "yvelsurf_tavg-u-hxy-is",
         "zvelbase_tavg-u-hxy-is",
         "zvelsurf_tavg-u-hxy-is"
-      ]
-    },
-    {
-      "id": "limon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table LImon containing variables",
-      "ui-label": "LImon",
+      ]
+    },
+    {
+      "id": "limon",
       "validation-key": "limon",
+      "ui-label": "LImon",
+      "description": "CMIP6 CMOR table LImon containing variables",
       "variables": [
         "acabf_tavg-u-hxy-is",
         "agesno_tavg-u-hxy-lnd",
@@ -1944,19 +1938,19 @@
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-lnd",
         "tsn_tavg-u-hxy-is"
-      ]
-    },
-    {
-      "id": "lmon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Lmon containing variables",
-      "ui-label": "Lmon",
+      ]
+    },
+    {
+      "id": "lmon",
       "validation-key": "lmon",
+      "ui-label": "Lmon",
+      "description": "CMIP6 CMOR table Lmon containing variables",
       "variables": [
         "baresoilFrac_tavg-u-hxy-u",
         "burntFractionAll_tavg-u-hxy-u",
@@ -1998,19 +1992,19 @@
         "tran_tavg-u-hxy-lnd",
         "treeFrac_tavg-u-hxy-u",
         "tsl_tavg-sl-hxy-lnd"
-      ]
-    },
-    {
-      "id": "oday",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Oday containing variables",
-      "ui-label": "Oday",
+      ]
+    },
+    {
+      "id": "oday",
       "validation-key": "oday",
+      "ui-label": "Oday",
+      "description": "CMIP6 CMOR table Oday containing variables",
       "variables": [
         "bigthetao_tavg-op20bar-hxy-sea",
         "chl_tavg-op20bar-hxy-sea",
@@ -2053,19 +2047,19 @@
         "zooc_tavg-ol-hxy-sea",
         "zos_tavg-u-hxy-sea",
         "zostoga_tavg-u-hm-sea"
-      ]
-    },
-    {
-      "id": "odec",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Odec containing variables",
-      "ui-label": "Odec",
+      ]
+    },
+    {
+      "id": "odec",
       "validation-key": "odec",
+      "ui-label": "Odec",
+      "description": "CMIP6 CMOR table Odec containing variables",
       "variables": [
         "bigthetao_tavg-ol-hxy-sea",
         "masscello_tavg-ol-hxy-sea",
@@ -2078,19 +2072,19 @@
         "thkcello_tavg-ol-hxy-sea",
         "volcello_tavg-ol-hxy-sea",
         "volo_tavg-u-hm-sea"
-      ]
-    },
-    {
-      "id": "ofx",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Ofx containing variables",
-      "ui-label": "Ofx",
+      ]
+    },
+    {
+      "id": "ofx",
       "validation-key": "ofx",
+      "ui-label": "Ofx",
+      "description": "CMIP6 CMOR table Ofx containing variables",
       "variables": [
         "areacell_ti-u-hxy-u",
         "basin_ti-u-hxy-u",
@@ -2106,19 +2100,19 @@
         "sftof_ti-u-hxy-u",
         "thkcello_ti-ol-hxy-sea",
         "volcello_ti-ol-hxy-sea"
-      ]
-    },
-    {
-      "id": "omon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Omon containing variables",
-      "ui-label": "Omon",
+      ]
+    },
+    {
+      "id": "omon",
       "validation-key": "omon",
+      "ui-label": "Omon",
+      "description": "CMIP6 CMOR table Omon containing variables",
       "variables": [
         "absscint_tavg-op4-hxy-sea",
         "agessc_tavg-ol-hxy-sea",
@@ -2397,19 +2391,19 @@
         "zos_tavg-u-hxy-sea",
         "zossq_tavg-u-hxy-sea",
         "zostoga_tavg-u-hm-sea"
-      ]
-    },
-    {
-      "id": "oyr",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table Oyr containing variables",
-      "ui-label": "Oyr",
+      ]
+    },
+    {
+      "id": "oyr",
       "validation-key": "oyr",
+      "ui-label": "Oyr",
+      "description": "CMIP6 CMOR table Oyr containing variables",
       "variables": [
         "difmxybo_tavg-ol-hxy-sea",
         "difmxylo_tavg-ol-hxy-sea",
@@ -2443,19 +2437,19 @@
         "tnkebto_tavg-u-hxy-sea",
         "tnpeo_tavg-u-hxy-sea",
         "volcello_tavg-ol-hxy-sea"
-      ]
-    },
-    {
-      "id": "siday",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table SIday containing variables",
-      "ui-label": "SIday",
+      ]
+    },
+    {
+      "id": "siday",
       "validation-key": "siday",
+      "ui-label": "SIday",
+      "description": "CMIP6 CMOR table SIday containing variables",
       "variables": [
         "siage_tavg-u-hxy-si",
         "siarea_tavg-u-hm-u",
@@ -2502,19 +2496,19 @@
         "siv_tavg-u-hxy-si",
         "sivol_tavg-u-hm-u",
         "sivol_tavg-u-hm-u"
-      ]
-    },
-    {
-      "id": "simon",
+      ],
       "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-      ],
-      "description": "CMIP6 CMOR table SImon containing variables",
-      "ui-label": "SImon",
+      ]
+    },
+    {
+      "id": "simon",
       "validation-key": "simon",
+      "ui-label": "SImon",
+      "description": "CMIP6 CMOR table SImon containing variables",
       "variables": [
         "siage_tavg-u-hxy-si",
         "siage_tavg-u-hxy-si",
@@ -2621,6 +2615,12 @@
         "sivol_tavg-u-hm-u",
         "sivol_tavg-u-hm-u",
         "siv_tavg-u-hxy-si"
+      ],
+      "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
       ]
     }
   ]
