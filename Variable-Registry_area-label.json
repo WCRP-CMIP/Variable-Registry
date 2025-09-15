@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_area-label.json",
-        "file_creation_date": "2025-09-15T12:03:41.287191",
+        "file_creation_date": "2025-09-15T12:07:47.630491",
         "version": "fatal: No names found, cannot describe anything.",
         "checksum": "md5: a0bb471050768adf85b594745d6884ee",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "7e4e2b0c1e1f221cb50b656c9e0fe98224157eda",
+        "last_commit": "9c6134d4da628dcb6aa6c69d8c7504594e28133a",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "area-label": {
