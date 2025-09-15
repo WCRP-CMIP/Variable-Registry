@@ -13,7 +13,7 @@
     ],
     "frequency": "day",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "co3os",
     "physical-parameter-name": "co3os",
     "positive": "",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "mol m-3",
-    "variable-root": "co3",
+    "variable-root": "co3os",
     "vertical-label": "d0m",
     "@context": "_context_",
     "type": [

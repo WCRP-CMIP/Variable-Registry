@@ -1,5 +1,5 @@
 {
-    "id": "cropFracC3_tavg-u-hxy-u",
+    "id": "cropfracc3_tavg-u-hxy-u",
     "validation-key": "cropFracC3_tavg-u-hxy-u",
     "ui-label": "Percentage Cover by C3 Crops",
     "description": "Percentage of entire grid cell covered by C3 crops",
@@ -24,7 +24,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "%",
-    "variable-root": "cropFracC3",
+    "variable-root": "cropfracc3",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

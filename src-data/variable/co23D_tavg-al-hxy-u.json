@@ -1,5 +1,5 @@
 {
-    "id": "co23D_tavg-al-hxy-u",
+    "id": "co23d_tavg-al-hxy-u",
     "validation-key": "co23D_tavg-al-hxy-u",
     "ui-label": "3D-Field of Transported CO2",
     "description": "requested for all Emissions-driven runs",
@@ -24,7 +24,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "kg kg-1",
-    "variable-root": "co23D",
+    "variable-root": "co23d",
     "vertical-label": "al",
     "@context": "_context_",
     "type": [

@@ -1,5 +1,5 @@
 {
-    "id": "cRoot_tavg-u-hxy-lnd",
+    "id": "croot_tavg-u-hxy-lnd",
     "validation-key": "cRoot_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass in Roots",
     "description": "including fine and coarse roots.",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "kg m-2",
-    "variable-root": "cRoot",
+    "variable-root": "croot",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

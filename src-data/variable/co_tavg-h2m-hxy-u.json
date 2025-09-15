@@ -10,7 +10,7 @@
         "longitude",
         "latitude",
         "time",
-        "lowermodellayer"
+        "lowerModelLayer"
     ],
     "frequency": "day",
     "horizontal-label": "hxy",

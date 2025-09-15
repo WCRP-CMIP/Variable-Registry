@@ -1,5 +1,5 @@
 {
-    "id": "cSoil_tavg-u-hxy-lnd",
+    "id": "csoil_tavg-u-hxy-lnd",
     "validation-key": "cSoil_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass in Model Soil Pool",
     "description": "Carbon mass in the full depth of the soil model.",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "kg m-2",
-    "variable-root": "cSoil",
+    "variable-root": "csoil",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

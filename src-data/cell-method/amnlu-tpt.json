@@ -1,9 +1,8 @@
 {
     "id": "amnlu-tpt",
-    "validation-key": "amnlu-tpt",
-    "ui-label": "Instantaneous Mean on Landuse Tiles",
-    "description": "area: mean where sector time: point",
-    "mask": "",
+    "validation-key": "area: mean where sector time: point",
+    "ui-label": "Spatial mean over areas where vegetation/land-use types are considered, instantaneous time values",
+    "description": "Average (mean) over the area where there is vegetation/land-use information (`sector` is an auxilliary co-ordinate used for land-use and vegetation types). Time values represent the value at the exact point in time specified (other values from within the temporal cell are not considered).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

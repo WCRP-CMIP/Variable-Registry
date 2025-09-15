@@ -1,9 +1,8 @@
 {
     "id": "amnla-tmn",
-    "validation-key": "amnla-tmn",
-    "ui-label": "Time Mean over Land",
-    "description": "area: mean where land time: mean",
-    "mask": "",
+    "validation-key": "area: mean where land time: mean",
+    "ui-label": "Area and time mean on land",
+    "description": "Average (mean) over space and time, only considering areas and times where the surface is land",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

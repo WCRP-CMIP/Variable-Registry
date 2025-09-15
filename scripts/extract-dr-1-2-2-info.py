@@ -23,15 +23,64 @@ def main():
         variable_root_lib[raw["id"]] = raw
 
     cell_methods_lib = {}
+    cell_methods_clashes = defaultdict(list)
     for f in (REPO_ROOT / "src-data" / "cell-method").glob("*.json"):
         with open(f) as fh:
             raw = json.load(fh)
 
-        # if raw["description"] in cell_methods:
-        #     msg = f"{raw=}\n" f"{cell_methods[raw['description']]}"
-        #     raise AssertionError(msg)
+        try:
+            cell_methods_lib[raw["validation-key"]] = raw
+        except KeyError:
+            print(f)
+            raise
 
-        cell_methods_lib[raw["description"]] = raw
+        cell_methods_clashes[raw["validation-key"]].append((f, raw))
+
+    for cell_methods_string, supplied_by in cell_methods_clashes.items():
+        if len(supplied_by) == 1:
+            continue
+
+        all_keys = set(k for v in [sb[1] for sb in supplied_by] for k in v)
+        differing_vals = defaultdict(dict)
+        for k in all_keys:
+            first_val = supplied_by[0][1][k]
+            if all(sb[1][k] == first_val for sb in supplied_by):
+                continue
+
+            for sb in supplied_by:
+                differing_vals[sb[0]][k] = sb[1][k]
+
+        supplier_info_l = []
+        for sb in supplied_by:
+            diff_s = [f"{k}: {v}" for k, v in differing_vals[sb[0]].items()]
+            diff_s_rendered = "  - " + "\n  - ".join(diff_s)
+            sm = f"{sb[0].relative_to(REPO_ROOT)}\n{diff_s_rendered}"
+            supplier_info_l.append(sm)
+
+        supplier_info = "- " + "\n- ".join(supplier_info_l)
+        msg = f"{cell_methods_string} is supplied by:\n{supplier_info}"
+        print(msg)
+        print()
+
+    # Only one clash: the amnsi*-twm files
+    # Questions to put in an issue:
+    # - they all say weighted time mean, but the cell methods don't indicate any weighting
+    #   (except where sea ice which is a masking, not a weighting)
+    # - assuming we can just get rid of amnsia-twm (atmos grid)
+    #   and amnsib-twm (weighting in bands)
+    #   as this information is provided by grid and dimensions
+    #   so isn't needed in cell methods
+    # - mask isn't a thing for cell methods
+    #   (or, if it is, it needs to be shown elsewhere i.e. in the methods themselves?)
+    #   Put another way, can we drop the `mask` key from all cell methods entries?
+    # Notes:
+    # - helpful link for understanding 'where' in cell methods:
+    #   https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html
+    # TODO: check hard-coding
+    cell_methods_replacements = {
+        "amnsia-twm": "amnsi-twm",
+        "amnsib-twm": "amnsi-twm",
+    }
 
     DR_RELEASE_EXPORT = (
         REPO_ROOT
@@ -55,8 +104,9 @@ def main():
         cm_pid_l = record[key]
         if len(cm_pid_l) > 1:
             raise AssertionError
-        cm_pid = cm_pid_l[0]
-        cell_methods = dr_table[key]["records"][cm_pid][key].strip()
+        cell_methods_pid = cm_pid_l[0]
+        cell_methods = dr_table[key]["records"][cell_methods_pid][key].strip()
+        cell_methods_id = dr_table["Cell Methods"]["records"][cell_methods_pid]["label"]
 
         key = "Cell Measures"
         try:
@@ -68,7 +118,9 @@ def main():
 
             cell_measures = " ".join(cell_measures_l)
         except KeyError:
-            cell_measures = None
+            cell_measures = ""
+            # # TODO: update to saner convention
+            # cell_measures = None
 
         key = "Physical Parameter"
         pp_pid_l = record[key]
@@ -103,7 +155,42 @@ def main():
             raise AssertionError(units_l)
         units = units_l[0]
 
+        spatial_shape_pid_l = record["Spatial Shape"]
+        if len(spatial_shape_pid_l) != 1:
+            raise AssertionError(spatial_shape_pid_l)
+        spatial_shape_pid = spatial_shape_pid_l[0]
+        spatial_shape = dr_table["Spatial Shape"]["records"][spatial_shape_pid]["Name"]
+
+        temporal_shape_pid_l = record["Temporal Shape"]
+        if len(temporal_shape_pid_l) != 1:
+            raise AssertionError(temporal_shape_pid_l)
+        temporal_shape_pid = temporal_shape_pid_l[0]
+        temporal_shape = dr_table["Temporal Shape"]["records"][temporal_shape_pid][
+            "Name"
+        ]
+
+        cmip6_table_pid_l = record["CMIP6 Table (legacy)"]
+        if len(cmip6_table_pid_l) != 1:
+            raise AssertionError(cmip6_table_pid_l)
+        cmip6_table_pid = cmip6_table_pid_l[0]
+        cmip6_table = dr_table["CMIP6 Table Identifiers (legacy)"]["records"][
+            cmip6_table_pid
+        ]["Name"]
+
+        if "Positive Direction" in record:
+            positive = record["Positive Direction"]
+        else:
+            positive = ""
+            # # TODO: update to saner convention
+            # positive = None
+
         branded_variable = record["Branded Variable Name"]
+        try:
+            cell_methods_lib[cell_methods]
+        except KeyError:
+            print(branded_variable)
+            print(cell_methods_id)
+            raise
         try:
             temporal_label, vertical_label, horizontal_label, area_label = (
                 branded_variable.split("_")[1].split("-")
@@ -113,9 +200,6 @@ def main():
             vertical_label = "u"
             horizontal_label = "u"
             area_label = "u"
-
-        # # TODO: check and link cell methods
-        # cell_methods_lib[cell_methods]
 
         # # TODO: check against variable root
         # if variable_root.lower() not in variable_root_lib:
@@ -143,28 +227,28 @@ def main():
             "description": record["Description"].strip(),
             "area-label": area_label,
             "cell-measures": cell_measures,
-            "cell-methods": cell_methods,
+            "cell-methods": cell_methods_id,
             "dimensions": list(dimensions),
-            # # Drop - npt a variable registry thing
-            # # (DR thing, for example)
-            # "frequency": frequency,
+            # TODO: Drop - npt a variable registry thing
+            # (DR thing, for example)
+            "frequency": frequency,
             "horizontal-label": horizontal_label,
             "model-realm": model_realm,
-            # # Drop ?
-            # "out-name"
+            # TODO: Drop ?
+            "out-name": variable_root,
             "physical-parameter-name": variable_root,
-            # # Drop or get from cf somewhere ?
-            # "positive"
-            # # Drop ?
-            # "remove-cmip6-table"
-            # # Drop ?
-            # "spatial-shape"
+            # TODO: Drop ?
+            "positive": positive,
+            # TODO: Drop ?
+            "remove-cmip6-table": cmip6_table,
+            # TODO: Drop ?
+            "spatial-shape": spatial_shape,
             # TODO: update standard name somehow because values don't seem right
             # e.g. standard name for cropFracC3 is area_fraction
             "standard-name": standard_name,
             "temporal-label": temporal_label,
-            # # Drop ?
-            # "temporal-shape"
+            # TODO: Drop ?
+            "temporal-shape": temporal_shape,
             "units": units,
             "variable-root": variable_root.lower(),
             "vertical-label": vertical_label,
@@ -199,6 +283,7 @@ def main():
 
         with open(REPO_ROOT / "src-data" / "variable" / f"{id}.json", "w") as fh:
             json.dump(out_info, fh, indent=4)
+            fh.write("\n")
 
         out_info_already_recorded[branded_variable] = {
             **out_info,

@@ -1,9 +1,8 @@
 {
     "id": "apt-tpt",
-    "validation-key": "apt-tpt",
-    "ui-label": "Instantaneous Point Values",
-    "description": "area: point time: point",
-    "mask": "",
+    "validation-key": "area: point time: point",
+    "ui-label": "Exact, instantaneous point values",
+    "description": "Values are provided for the exact spatial and time point specified. Other values from within the cell (both in space and time) are not considered.",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

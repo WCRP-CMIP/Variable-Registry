@@ -1,9 +1,8 @@
 {
     "id": "zmeana-twm",
-    "validation-key": "zmeana-twm",
-    "ui-label": "Zonal Time Mean",
-    "description": "longitude: time: mean where air",
-    "mask": "",
+    "validation-key": "longitude: time: mean where air",
+    "ui-label": "Zonal and time mean in the atmosphere",
+    "description": "Average (mean) over longitudes (east-west) and time, only considering areas and times where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Values processed this way generally result in a zonal-mean (perhaps with other varying dimensions too).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

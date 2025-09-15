@@ -2,7 +2,7 @@
     "id": "co2_tavg-al-hxy-u",
     "validation-key": "co2_tavg-al-hxy-u",
     "ui-label": "Mole Fraction of CO2",
-    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",

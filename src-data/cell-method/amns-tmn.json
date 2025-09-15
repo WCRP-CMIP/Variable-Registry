@@ -1,8 +1,8 @@
 {
     "id": "amns-tmn",
-    "validation-key": "amns-tmn",
-    "ui-label": "Time Mean over Sea",
-    "description": "area: mean where sea time: mean",
+    "validation-key": "area: mean where sea time: mean",
+    "ui-label": "Area and time mean on sea",
+    "description": "Average (mean) over space and time, only considering areas and times where the surface is sea",
     "mask": "",
     "@context": "_context_",
     "type": [

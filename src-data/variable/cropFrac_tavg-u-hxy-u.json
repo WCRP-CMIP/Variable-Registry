@@ -1,5 +1,5 @@
 {
-    "id": "cropFrac_tavg-u-hxy-u",
+    "id": "cropfrac_tavg-u-hxy-u",
     "validation-key": "cropFrac_tavg-u-hxy-u",
     "ui-label": "Percentage Crop Cover",
     "description": "Percentage of entire grid cell  that is covered by crop.",
@@ -24,7 +24,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "%",
-    "variable-root": "cropFrac",
+    "variable-root": "cropfrac",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

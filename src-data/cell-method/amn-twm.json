@@ -1,8 +1,8 @@
 {
     "id": "amn-twm",
-    "ui-label": "Area and Time Mean",
-    "description": "Cell method representing spatial area mean followed by temporal mean. Variables are first averaged spatially over grid cells or regions, then averaged temporally over specified time periods.",
-    "mask": "",
+    "validation-key": "area: time: mean",
+    "ui-label": "Area and time mean",
+    "description": "Average (mean) over space and time",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

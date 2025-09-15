@@ -1,9 +1,8 @@
 {
     "id": "amna-twm",
-    "validation-key": "amna-twm",
-    "ui-label": "Weighted Time Mean in Air",
-    "description": "area: time: mean where air",
-    "mask": "",
+    "validation-key": "area: time: mean where air",
+    "ui-label": "Area and time mean in the atmosphere",
+    "description": "Average (mean) over area and time, only considering areas and times where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",
