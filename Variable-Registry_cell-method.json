@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_cell-method.json",
-        "file_creation_date": "2025-09-15T11:36:54.206126",
+        "file_creation_date": "2025-09-15T12:03:41.432910",
         "version": "fatal: No names found, cannot describe anything.",
         "checksum": "md5: 8878821125c8dd00bf2f578cafbba41a",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "de24c1fa3cd21445705205adbf5538abe8c612e7",
+        "last_commit": "7e4e2b0c1e1f221cb50b656c9e0fe98224157eda",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "cell-method": {
