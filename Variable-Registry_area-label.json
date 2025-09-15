@@ -1,62 +1,62 @@
 {
     "Header": {
         "file": "Variable-Registry_area-label.json",
-        "file_creation_date": "2025-08-18T16:38:51.672308",
+        "file_creation_date": "2025-09-15T12:19:33.756937",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 7896cafc4c361bcb9966e9ceb69c074f",
+        "checksum": "md5: 1e40697fd84094f4b672c245ab8f8b52",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "last_commit": "c831573cc7768bc8ae8980b27d55e6801d10ea38",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "area-label": {
         "air": {
-            "description": "air",
+            "description": "Variables calculated over atmospheric air regions, typically representing conditions in the atmosphere above the surface. Used for atmospheric composition, temperature, humidity, and other meteorological variables.",
             "ui-label": "Air",
             "validation-key": "air"
         },
         "ccl": {
-            "description": "convective_cloud",
+            "description": "Variables specific to convective clouds, which form through vertical air motion and convection. These clouds are typically associated with thunderstorms, cumulus formations, and localized precipitation events.",
             "ui-label": "Convective Cloud",
             "validation-key": "ccl"
         },
         "cl": {
-            "description": "cloud",
+            "description": "Variables specific to cloud regions, including cloud properties, microphysics, and radiative effects. Encompasses all cloud types and their interactions with radiation and precipitation processes.",
             "ui-label": "Cloud",
             "validation-key": "cl"
         },
         "crp": {
-            "description": "crops",
+            "description": "Variables calculated over agricultural crop areas. Includes crop yield, growth stages, irrigation effects, and agricultural land use patterns. Focuses on cultivated areas used for food and fiber production.",
             "ui-label": "Crops",
             "validation-key": "crp"
         },
         "fis": {
-            "description": "floating_ice_shelf",
+            "description": "Variables calculated over floating ice shelf areas, where glacial ice extends over ocean water while remaining connected to land-based ice. Includes ice shelf dynamics, basal melting, and ice-ocean interactions.",
             "ui-label": "Floating Ice Shelf",
             "validation-key": "fis"
         },
         "gis": {
-            "description": "grounded_ice_sheet",
+            "description": "Variables calculated over grounded ice sheet areas, where ice rests directly on bedrock or sediment. Includes ice sheet mass balance, surface conditions, and ice-bedrock interactions for major ice sheets.",
             "ui-label": "Grounded Ice Sheet",
             "validation-key": "gis"
         },
         "ifs": {
-            "description": "ice_free_sea",
+            "description": "Variables calculated over ocean areas that are free of sea ice. Represents open ocean conditions without ice cover, used for ocean-atmosphere exchange processes and marine ecosystem variables.",
             "ui-label": "Ice Free Sea",
             "validation-key": "ifs"
         },
         "is": {
-            "description": "ice_sheet",
+            "description": "Variables calculated over large ice sheet areas such as Greenland and Antarctica. Includes ice dynamics, ice thickness, surface mass balance, and glaciological processes on continental-scale ice masses.",
             "ui-label": "Ice Sheet",
             "validation-key": "is"
         },
         "li": {
-            "description": "land_ice",
+            "description": "Variables calculated over land ice areas, including glaciers, ice caps, and other terrestrial ice masses. Covers ice dynamics, surface energy balance, and interactions between ice and the atmosphere or underlying terrain.",
             "ui-label": "Land Ice",
             "validation-key": "li"
         },
         "lnd": {
-            "description": "land",
+            "description": "Variables calculated over land surface areas, including soil, vegetation, and terrestrial ecosystems. Used for land surface temperature, soil moisture, vegetation indices, and other terrestrial variables.",
             "ui-label": "Land",
             "validation-key": "lnd"
         },
@@ -66,72 +66,62 @@
             "validation-key": "multiuse"
         },
         "ng": {
-            "description": "natural_grasses",
+            "description": "Variables calculated over natural grassland areas, including prairies, steppes, and other non-cultivated grass-dominated ecosystems. Encompasses natural vegetation dynamics, carbon cycling, and ecosystem productivity in grassland environments.",
             "ui-label": "Natural Grasses",
             "validation-key": "ng"
         },
         "pst": {
-            "description": "pastures",
+            "description": "Variables calculated over pasture and grazing land areas used for livestock. Includes managed grasslands, forage production, livestock impacts on vegetation, and agricultural land management practices.",
             "ui-label": "Pastures",
             "validation-key": "pst"
         },
         "scl": {
-            "description": "stratiform_cloud",
+            "description": "Variables specific to stratiform clouds, which form in horizontal layers with relatively uniform structure. These clouds typically produce steady, widespread precipitation and have different radiative properties than convective clouds.",
             "ui-label": "Stratiform Cloud",
             "validation-key": "scl"
         },
-        "sea": {
-            "description": "sea",
-            "ui-label": "Sea",
-            "validation-key": "sea"
-        },
         "shb": {
-            "description": "shrubs",
+            "description": "Variables calculated over shrubland areas, including woody vegetation that is shorter than trees. Covers shrub ecosystems, desert shrublands, tundra shrubs, and their role in ecosystem dynamics and carbon cycling.",
             "ui-label": "Shrubs",
             "validation-key": "shb"
         },
         "si": {
-            "description": "sea_ice",
+            "description": "Variables calculated over sea ice areas, including floating ice on oceans and seas. Covers sea ice concentration, thickness, motion, thermodynamics, and ice-ocean-atmosphere interactions.",
             "ui-label": "Sea Ice",
             "validation-key": "si"
         },
         "simp": {
-            "description": "sea_ice_melt_pond",
+            "description": "Variables calculated over sea ice melt pond areas, which are pools of meltwater that form on sea ice surfaces during warmer periods. These features significantly affect ice albedo and heat absorption processes.",
             "ui-label": "Sea Ice Melt Pond",
             "validation-key": "simp"
         },
         "sir": {
-            "description": "sea_ice_ridges",
+            "description": "Variables calculated over sea ice ridge areas, which are linear features formed by ice deformation and pressure. These ridged areas have different thermal and mechanical properties compared to level sea ice.",
             "ui-label": "Sea Ice Ridges",
             "validation-key": "sir"
         },
         "sn": {
-            "description": "snow",
+            "description": "Variables calculated over snow-covered areas, including snowpack properties, snow depth, snow water equivalent, and snow-atmosphere interactions. Covers both seasonal and permanent snow cover.",
             "ui-label": "Snow",
             "validation-key": "sn"
         },
         "tree": {
-            "description": "trees",
+            "description": "Variables calculated over tree-covered areas, including forests, woodlands, and other tree-dominated ecosystems. Covers forest structure, canopy properties, tree growth, and forest carbon dynamics.",
             "ui-label": "Trees",
             "validation-key": "tree"
         },
-        "u": {
-            "description": "unmasked (no \"where\" directive included in the cell_methods)",
-            "ui-label": "Unmasked Area",
-            "validation-key": "u"
-        },
         "ufs": {
-            "description": "unfrozen_soil",
+            "description": "Variables calculated over unfrozen soil areas, where soil temperature remains above freezing. Includes soil thermal properties, water content, and biogeochemical processes in non-permafrost regions.",
             "ui-label": "Unfrozen Soil",
             "validation-key": "ufs"
         },
         "veg": {
-            "description": "vegetation",
+            "description": "Variables calculated over vegetated areas, including forests, grasslands, and other plant-covered regions. Covers vegetation dynamics, photosynthesis, leaf area index, and ecosystem productivity.",
             "ui-label": "Vegetation",
             "validation-key": "veg"
         },
         "wl": {
-            "description": "wetland",
+            "description": "Variables calculated over wetland areas, including marshes, swamps, bogs, and other water-saturated ecosystems. Covers wetland hydrology, methane emissions, biodiversity, and ecosystem services.",
             "ui-label": "Wetland",
             "validation-key": "wl"
         }

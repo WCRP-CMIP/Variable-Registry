@@ -1,52 +1,52 @@
 {
     "Header": {
         "file": "Variable-Registry_temporal-label.json",
-        "file_creation_date": "2025-08-18T16:38:48.981199",
+        "file_creation_date": "2025-09-15T12:19:33.933235",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 3a03445e831a029225846e0f5ebf3e70",
+        "checksum": "md5: 02c94f6b15f7cac9e95b1a7db9b9d61c",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "last_commit": "c831573cc7768bc8ae8980b27d55e6801d10ea38",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "temporal-label": {
         "tavg": {
-            "description": "mean",
+            "description": "Time-averaged values calculated as the arithmetic mean over a specified time period. Commonly used for monthly, seasonal, or annual averages to represent typical conditions.",
             "ui-label": "Mean Statistic",
             "validation-key": "tavg"
         },
         "tclm": {
-            "description": "annual cycle climatology",
+            "description": "Variables representing long-term annual cycle climatology, calculated as multi-year averages for each month or season. Shows typical seasonal patterns and annual variations in climate variables over extended time periods.",
             "ui-label": "Annual Climatology",
             "validation-key": "tclm"
         },
         "tclmdc": {
-            "description": "diurnal cycle climatology",
+            "description": "Variables representing long-term diurnal cycle climatology, calculated as multi-year averages for each hour or time of day. Shows typical daily patterns and diurnal variations in climate variables over extended time periods.",
             "ui-label": "Diurnal Climatology",
             "validation-key": "tclmdc"
         },
         "ti": {
-            "description": "time independent",
+            "description": "Time-independent values that do not vary with time, such as fixed geographic coordinates, topography, land-sea masks, or other static boundary conditions and model parameters.",
             "ui-label": "Time Independent",
             "validation-key": "ti"
         },
         "tmaxstat": {
-            "description": "maximum (or mean of daily maxima) statistic",
+            "description": "Variables representing maximum values or mean of daily maximum values over a time period. Used for extreme statistics, temperature maxima, or other variables where peak conditions are of interest.",
             "ui-label": "Maximum Statistic",
             "validation-key": "tmaxstat"
         },
         "tmin": {
-            "description": "minimum (or mean of daily minima)",
+            "description": "Variables representing minimum values or mean of daily minimum values over a time period. Used for extreme statistics, temperature minima, or other variables where lowest conditions are of interest.",
             "ui-label": "Minimum Statistic",
             "validation-key": "tmin"
         },
         "tpt": {
-            "description": "point",
+            "description": "Instantaneous values sampled at specific points in time, without temporal averaging. Represents snapshots of conditions at discrete time instances, often used for model output at specific time steps.",
             "ui-label": "Point in Time",
             "validation-key": "tpt"
         },
         "tsum": {
-            "description": "sum",
+            "description": "Time-summed values representing the accumulation or total amount over a specified time period. Commonly used for precipitation totals, energy fluxes, or other cumulative quantities.",
             "ui-label": "Sum Statistic",
             "validation-key": "tsum"
         }
