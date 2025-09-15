@@ -220,7 +220,7 @@
       "id": "p100",
       "validation-key": "p100",
       "ui-label": "pressure",
-      "description": "100 hPa",
+      "description": "Atmospheric pressure coordinate at 100 hPa level, located in the lower stratosphere at approximately 16 km altitude. Used for stratospheric analysis and upper-level atmospheric variables.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -232,7 +232,7 @@
       "id": "p1000",
       "validation-key": "p1000",
       "ui-label": "pressure",
-      "description": "1000 hPa",
+      "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -244,7 +244,7 @@
       "id": "p200",
       "validation-key": "p200",
       "ui-label": "pressure",
-      "description": "200 hPa",
+      "description": "Atmospheric pressure coordinate at 200 hPa level, located in the upper troposphere at approximately 12 km altitude. Important for jet stream analysis and upper-level weather patterns.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -268,7 +268,7 @@
       "id": "p500",
       "validation-key": "p500",
       "ui-label": "pressure",
-      "description": "500 hPa",
+      "description": "Atmospheric pressure coordinate at 500 hPa level, located in the middle troposphere at approximately 5.5 km altitude. Critical for weather analysis and mid-level atmospheric dynamics.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -292,7 +292,7 @@
       "id": "p700",
       "validation-key": "p700",
       "ui-label": "pressure",
-      "description": "700 hPa",
+      "description": "Atmospheric pressure coordinate at 700 hPa level, located in the lower-middle troposphere at approximately 3 km altitude. Used for analyzing lower-level weather systems and atmospheric moisture.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -316,7 +316,7 @@
       "id": "p850",
       "validation-key": "p850",
       "ui-label": "pressure",
-      "description": "850 hPa",
+      "description": "Atmospheric pressure coordinate at 850 hPa level, located in the lower troposphere at approximately 1.5 km altitude. Commonly used for boundary layer analysis and near-surface weather patterns.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -328,7 +328,7 @@
       "id": "p925",
       "validation-key": "p925",
       "ui-label": "pressure",
-      "description": "925 hPa",
+      "description": "Atmospheric pressure coordinate at 925 hPa level, located in the lower troposphere at approximately 0.8 km altitude. Used for boundary layer meteorology and near-surface atmospheric analysis.",
       "axis-flag": "Z",
       "cf-standard-name": "air_pressure",
       "type": [
@@ -424,7 +424,7 @@
       "id": "typebare",
       "validation-key": "typebare",
       "ui-label": "surface type",
-      "description": "",
+      "description": "Coordinate for bare soil or unvegetated surface area type, used to identify and analyze variables over regions with no vegetation cover.",
       "axis-flag": "",
       "cf-standard-name": "area_type",
       "type": [
@@ -544,7 +544,7 @@
       "id": "typecrop",
       "validation-key": "typecrop",
       "ui-label": "Crop area type",
-      "description": "",
+      "description": "Coordinate for agricultural crop area type, used to identify and analyze variables specific to cultivated agricultural lands and crop-covered regions.",
       "axis-flag": "",
       "cf-standard-name": "area_type",
       "type": [
@@ -592,7 +592,7 @@
       "id": "typenatgr",
       "validation-key": "typenatgr",
       "ui-label": "Natural grass area type",
-      "description": "",
+      "description": "Coordinate for natural grassland area type, used to identify and analyze variables specific to non-cultivated grass-dominated ecosystems and prairie regions.",
       "axis-flag": "",
       "cf-standard-name": "area_type",
       "type": [
@@ -724,7 +724,7 @@
       "id": "typetree",
       "validation-key": "typetree",
       "ui-label": "Tree area type",
-      "description": "",
+      "description": "Coordinate for tree-covered area type, used to identify and analyze variables specific to forested regions and tree-dominated ecosystems.",
       "axis-flag": "",
       "cf-standard-name": "area_type",
       "type": [

@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_coordinate.json",
-        "file_creation_date": "2025-08-18T16:38:50.074395",
+        "file_creation_date": "2025-09-15T11:28:54.092655",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: ecda1f35c8d0a5ffc97df89fb976ffd2",
+        "checksum": "md5: f6a3a1d26bf2253fced86cd11856d8d9",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "last_commit": "8a008234c051bbd13b356d148e3ca2d3059570f9",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "coordinate": {
@@ -132,21 +132,21 @@
         "p100": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "100 hPa",
+            "description": "Atmospheric pressure coordinate at 100 hPa level, located in the lower stratosphere at approximately 16 km altitude. Used for stratospheric analysis and upper-level atmospheric variables.",
             "ui-label": "pressure",
             "validation-key": "p100"
         },
         "p1000": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "1000 hPa",
+            "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
             "ui-label": "pressure",
             "validation-key": "p1000"
         },
         "p200": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "200 hPa",
+            "description": "Atmospheric pressure coordinate at 200 hPa level, located in the upper troposphere at approximately 12 km altitude. Important for jet stream analysis and upper-level weather patterns.",
             "ui-label": "pressure",
             "validation-key": "p200"
         },
@@ -160,7 +160,7 @@
         "p500": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "500 hPa",
+            "description": "Atmospheric pressure coordinate at 500 hPa level, located in the middle troposphere at approximately 5.5 km altitude. Critical for weather analysis and mid-level atmospheric dynamics.",
             "ui-label": "pressure",
             "validation-key": "p500"
         },
@@ -174,7 +174,7 @@
         "p700": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "700 hPa",
+            "description": "Atmospheric pressure coordinate at 700 hPa level, located in the lower-middle troposphere at approximately 3 km altitude. Used for analyzing lower-level weather systems and atmospheric moisture.",
             "ui-label": "pressure",
             "validation-key": "p700"
         },
@@ -188,14 +188,14 @@
         "p850": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "850 hPa",
+            "description": "Atmospheric pressure coordinate at 850 hPa level, located in the lower troposphere at approximately 1.5 km altitude. Commonly used for boundary layer analysis and near-surface weather patterns.",
             "ui-label": "pressure",
             "validation-key": "p850"
         },
         "p925": {
             "axis-flag": "Z",
             "cf-standard-name": "air_pressure",
-            "description": "925 hPa",
+            "description": "Atmospheric pressure coordinate at 925 hPa level, located in the lower troposphere at approximately 0.8 km altitude. Used for boundary layer meteorology and near-surface atmospheric analysis.",
             "ui-label": "pressure",
             "validation-key": "p925"
         },
@@ -251,7 +251,7 @@
         "typebare": {
             "axis-flag": "",
             "cf-standard-name": "area_type",
-            "description": "",
+            "description": "Coordinate for bare soil or unvegetated surface area type, used to identify and analyze variables over regions with no vegetation cover.",
             "ui-label": "surface type",
             "validation-key": "typebare"
         },
@@ -321,7 +321,7 @@
         "typecrop": {
             "axis-flag": "",
             "cf-standard-name": "area_type",
-            "description": "",
+            "description": "Coordinate for agricultural crop area type, used to identify and analyze variables specific to cultivated agricultural lands and crop-covered regions.",
             "ui-label": "Crop area type",
             "validation-key": "typecrop"
         },
@@ -349,7 +349,7 @@
         "typenatgr": {
             "axis-flag": "",
             "cf-standard-name": "area_type",
-            "description": "",
+            "description": "Coordinate for natural grassland area type, used to identify and analyze variables specific to non-cultivated grass-dominated ecosystems and prairie regions.",
             "ui-label": "Natural grass area type",
             "validation-key": "typenatgr"
         },
@@ -426,7 +426,7 @@
         "typetree": {
             "axis-flag": "",
             "cf-standard-name": "area_type",
-            "description": "",
+            "description": "Coordinate for tree-covered area type, used to identify and analyze variables specific to forested regions and tree-dominated ecosystems.",
             "ui-label": "Tree area type",
             "validation-key": "typetree"
         },

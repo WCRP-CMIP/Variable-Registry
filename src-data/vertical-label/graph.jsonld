@@ -16,7 +16,7 @@
       "id": "1000hPa",
       "validation-key": "1000hPa",
       "ui-label": "1000 hPa Pressure Level",
-      "description": "1000 hPa",
+      "description": "Variables at the 1000 hPa pressure level, approximately equivalent to sea level pressure. This level is commonly used for surface meteorological conditions and represents the lower boundary of the atmosphere.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -26,7 +26,7 @@
       "id": "100hPa",
       "validation-key": "100hPa",
       "ui-label": "100 hPa Pressure Level",
-      "description": "100 hPa",
+      "description": "Variables at the 100 hPa pressure level, located in the lower stratosphere at approximately 16 km altitude. This level is important for stratospheric dynamics, ozone studies, and upper-level atmospheric analysis.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -76,7 +76,7 @@
       "id": "500hPa",
       "validation-key": "500hPa",
       "ui-label": "500 hPa Pressure Level",
-      "description": "500 hPa",
+      "description": "Variables at the 500 hPa pressure level, located in the middle troposphere at approximately 5-6 km altitude. This level is crucial for weather analysis, representing mid-level atmospheric dynamics and circulation patterns.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -136,7 +136,7 @@
       "id": "al",
       "validation-key": "al",
       "ui-label": "Atmospheric Model Levels",
-      "description": "atmos. model levels",
+      "description": "Variables on native atmospheric model vertical levels, using the model's natural vertical coordinate system. Includes all atmospheric layers from surface to model top, typically hybrid sigma-pressure coordinates.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -146,7 +146,7 @@
       "id": "alh",
       "validation-key": "alh",
       "ui-label": "Atmospheric Model Half-Levels",
-      "description": "atmos. model half-levels",
+      "description": "Variables on atmospheric model half-levels, which are intermediate vertical positions between full model levels. Often used for flux calculations and variables defined at layer interfaces in the atmospheric model.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -156,7 +156,7 @@
       "id": "d0m",
       "validation-key": "d0m",
       "ui-label": "Surface Level",
-      "description": "surface",
+      "description": "Variables at the Earth's surface level (0 meters depth/height), including surface temperature, pressure, and exchange fluxes. Represents the interface between atmosphere, ocean, land, or ice.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -166,7 +166,7 @@
       "id": "d100cm",
       "validation-key": "d100cm",
       "ui-label": "10 Centimeter Depth",
-      "description": "10 cm depth",
+      "description": "Variables at 10 centimeter depth below the surface, typically used for shallow soil temperature, moisture content, and near-surface subsurface conditions in land models.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -176,7 +176,7 @@
       "id": "d100m",
       "validation-key": "d100m",
       "ui-label": "100 Meter Depth",
-      "description": "100 m depth",
+      "description": "Variables at 100 meter depth below the surface, used for subsurface ocean conditions, deep soil properties, or underground environmental conditions at intermediate depths.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -186,7 +186,7 @@
       "id": "d10cm",
       "validation-key": "d10cm",
       "ui-label": "0.1 Meter Depth",
-      "description": "0.1 cm depth",
+      "description": "10 cm depth",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -236,7 +236,7 @@
       "id": "h10m",
       "validation-key": "h10m",
       "ui-label": "10 Meter Height",
-      "description": "10 m height",
+      "description": "Variables at 10 meter height above the surface, the standard measurement height for wind speed and direction in meteorological observations and climate models.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -256,7 +256,7 @@
       "id": "h2m",
       "validation-key": "h2m",
       "ui-label": "2 Meter Height",
-      "description": "2 m height",
+      "description": "Variables at 2 meter height above the surface, the standard measurement height for near-surface air temperature and humidity in meteorological observations and climate models.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -276,7 +276,7 @@
       "id": "ol",
       "validation-key": "ol",
       "ui-label": "Ocean Model Levels",
-      "description": "ocean model levels",
+      "description": "Variables on native ocean model vertical levels, using the model's natural ocean vertical coordinate system. Includes all ocean depths from surface to bottom, typically using z-coordinates or terrain-following coordinates.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -306,7 +306,7 @@
       "id": "p19",
       "validation-key": "p19",
       "ui-label": "19 Pressure Levels",
-      "description": "19 pressure levels",
+      "description": "Variables interpolated to a standard set of 19 pressure levels spanning the atmosphere from surface to stratosphere. Commonly used for atmospheric analysis and comparison across different models.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -316,7 +316,7 @@
       "id": "p27",
       "validation-key": "p27",
       "ui-label": "27 Pressure Levels",
-      "description": "27 pressure levels",
+      "description": "Variables interpolated to a standard set of 27 pressure levels providing higher vertical resolution through the atmosphere. Used for detailed atmospheric profiling and high-resolution analysis of vertical structure.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -336,7 +336,7 @@
       "id": "p39",
       "validation-key": "p39",
       "ui-label": "39 Pressure Levels",
-      "description": "39 pressure levels",
+      "description": "Variables interpolated to a standard set of 39 pressure levels providing very high vertical resolution through the atmosphere. Used for comprehensive atmospheric profiling and detailed vertical structure analysis.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -406,7 +406,7 @@
       "id": "rho",
       "validation-key": "rho",
       "ui-label": "Density Surface",
-      "description": "density surface",
+      "description": "Variables on ocean density surfaces (isopycnal coordinates), where water parcels of equal density define the vertical coordinate. Used for ocean circulation analysis and water mass tracking.",
       "type": [
         "wcrp:vertical-label",
         "variable"
@@ -416,7 +416,7 @@
       "id": "sl",
       "validation-key": "sl",
       "ui-label": "Model Soil Levels",
-      "description": "model soil levels",
+      "description": "Variables on native soil model vertical levels, representing different depths within the soil column. Used for soil temperature, moisture, carbon content, and other subsurface properties at various soil layer depths.",
       "type": [
         "wcrp:vertical-label",
         "variable"
