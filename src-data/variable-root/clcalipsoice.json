@@ -2,11 +2,12 @@
     "id": "clcalipsoice",
     "validation-key": "clcalipsoice",
     "ui-label": "clcalipsoice",
+    "description": "",
     "data-type": "real",
     "standard-name": "ice-cloud-area-fraction-in-atmosphere-layer",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

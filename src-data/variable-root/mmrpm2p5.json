@@ -2,11 +2,12 @@
     "id": "mmrpm2p5",
     "validation-key": "mmrpm2p5",
     "ui-label": "mmrpm2p5",
+    "description": "",
     "data-type": "real",
     "standard-name": "mass-fraction-of-pm2p5-dry-aerosol-particles-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "iareagr",
     "validation-key": "iareagr",
     "ui-label": "iareagr",
+    "description": "",
     "data-type": "real",
     "standard-name": "grounded-ice-sheet-area",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

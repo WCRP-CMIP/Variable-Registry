@@ -2,11 +2,12 @@
     "id": "sftlf",
     "validation-key": "sftlf",
     "ui-label": "sftlf",
+    "description": "",
     "data-type": "real",
     "standard-name": "land-area-fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

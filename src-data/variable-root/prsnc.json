@@ -2,11 +2,12 @@
     "id": "prsnc",
     "validation-key": "prsnc",
     "ui-label": "prsnc",
+    "description": "",
     "data-type": "real",
     "standard-name": "convective-snowfall-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

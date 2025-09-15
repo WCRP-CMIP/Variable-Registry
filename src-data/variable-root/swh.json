@@ -2,11 +2,12 @@
     "id": "swh",
     "validation-key": "swh",
     "ui-label": "swh",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-wave-significant-height",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

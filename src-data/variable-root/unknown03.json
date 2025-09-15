@@ -2,11 +2,12 @@
     "id": "unknown03",
     "validation-key": "unknown03",
     "ui-label": "unknown03",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-wave-from-direction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

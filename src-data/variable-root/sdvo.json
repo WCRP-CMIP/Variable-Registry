@@ -2,11 +2,12 @@
     "id": "sdvo",
     "validation-key": "sdvo",
     "ui-label": "sdvo",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-wave-stokes-drift-northward-velocity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

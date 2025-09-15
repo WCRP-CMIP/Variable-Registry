@@ -2,11 +2,12 @@
     "id": "fnlandtoocean",
     "validation-key": "fnlandtoocean",
     "ui-label": "fNLandToOcean",
+    "description": "",
     "data-type": "real",
     "standard-name": "mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-into-sea-from-rivers",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

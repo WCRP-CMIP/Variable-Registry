@@ -2,11 +2,12 @@
     "id": "intppmisc",
     "validation-key": "intppmisc",
     "ui-label": "intppmisc",
+    "description": "",
     "data-type": "real",
     "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-miscellaneous-phytoplankton",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

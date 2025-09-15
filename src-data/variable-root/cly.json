@@ -2,11 +2,12 @@
     "id": "cly",
     "validation-key": "cly",
     "ui-label": "cly",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-inorganic-chlorine-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "icem",
     "validation-key": "icem",
     "ui-label": "icem",
+    "description": "",
     "data-type": "real",
     "standard-name": "land-ice-surface-melt-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

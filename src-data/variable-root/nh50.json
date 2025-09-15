@@ -2,11 +2,12 @@
     "id": "nh50",
     "validation-key": "nh50",
     "ui-label": "nh50",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-artificial-tracer-with-fixed-lifetime-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

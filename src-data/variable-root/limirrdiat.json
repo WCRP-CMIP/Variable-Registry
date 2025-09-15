@@ -2,11 +2,12 @@
     "id": "limirrdiat",
     "validation-key": "limirrdiat",
     "ui-label": "limirrdiat",
+    "description": "",
     "data-type": "real",
     "standard-name": "growth-limitation-of-diatoms-due-to-solar-irradiance",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

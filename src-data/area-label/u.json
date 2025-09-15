@@ -1,5 +1,6 @@
 {
     "id": "u",
+    "validation-key": "",
     "ui-label": "Unmasked Area",
     "description": "unmasked (no \"where\" directive included in the cell_methods)",
     "@context": "_context_",

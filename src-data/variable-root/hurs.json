@@ -2,11 +2,12 @@
     "id": "hurs",
     "validation-key": "hurs",
     "ui-label": "hurs",
+    "description": "",
     "data-type": "real",
     "standard-name": "relative-humidity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

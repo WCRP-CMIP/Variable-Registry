@@ -2,11 +2,12 @@
     "id": "sino3",
     "validation-key": "sino3",
     "ui-label": "sino3",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-ice-mole-content-of-nitrate",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

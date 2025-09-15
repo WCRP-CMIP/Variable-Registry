@@ -2,11 +2,12 @@
     "id": "c14land",
     "validation-key": "c14land",
     "ui-label": "c14Land",
+    "description": "",
     "data-type": "real",
     "standard-name": "mass-content-of-14c-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

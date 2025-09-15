@@ -2,11 +2,12 @@
     "id": "sivol",
     "validation-key": "sivol",
     "ui-label": "sivol",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-ice-volume",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

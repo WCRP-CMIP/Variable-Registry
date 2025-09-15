@@ -2,11 +2,12 @@
     "id": "tntrlcs",
     "validation-key": "tntrlcs",
     "ui-label": "tntrlcs",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-air-temperature-due-to-longwave-heating-assuming-clear-sky",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

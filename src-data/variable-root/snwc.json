@@ -2,11 +2,12 @@
     "id": "snwc",
     "validation-key": "snwc",
     "ui-label": "snwc",
+    "description": "",
     "data-type": "real",
     "standard-name": "canopy-snow-amount",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

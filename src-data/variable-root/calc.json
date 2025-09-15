@@ -2,11 +2,12 @@
     "id": "calc",
     "validation-key": "calc",
     "ui-label": "calc",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole-concentration-of-calcite-expressed-as-carbon-in-sea-water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

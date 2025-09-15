@@ -2,11 +2,12 @@
     "id": "emidms",
     "validation-key": "emidms",
     "ui-label": "emidms",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-dimethyl-sulfide-due-to-emission",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -2,11 +2,12 @@
     "id": "sisnmass",
     "validation-key": "sisnmass",
     "ui-label": "sisnmass",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-snow-mass",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

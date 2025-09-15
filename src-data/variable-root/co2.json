@@ -2,11 +2,12 @@
     "id": "co2",
     "validation-key": "co2",
     "ui-label": "co2",
+    "description": "",
     "data-type": "real",
     "standard-name": "mole-fraction-of-carbon-dioxide-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

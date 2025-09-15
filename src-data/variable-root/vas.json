@@ -2,11 +2,12 @@
     "id": "vas",
     "validation-key": "vas",
     "ui-label": "vas",
+    "description": "",
     "data-type": "real",
     "standard-name": "northward-wind",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

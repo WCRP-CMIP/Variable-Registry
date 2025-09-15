@@ -2,11 +2,12 @@
     "id": "yvelsurf",
     "validation-key": "yvelsurf",
     "ui-label": "yvelsurf",
+    "description": "",
     "data-type": "real",
     "standard-name": "land-ice-surface-y-velocity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

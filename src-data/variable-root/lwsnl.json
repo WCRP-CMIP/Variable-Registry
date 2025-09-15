@@ -2,11 +2,12 @@
     "id": "lwsnl",
     "validation-key": "lwsnl",
     "ui-label": "lwsnl",
+    "description": "",
     "data-type": "real",
     "standard-name": "liquid-water-content-of-surface-snow",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

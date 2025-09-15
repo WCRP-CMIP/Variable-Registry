@@ -2,11 +2,12 @@
     "id": "fharvesttoatmos",
     "validation-key": "fharvesttoatmos",
     "ui-label": "fHarvestToAtmos",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-crop-harvesting",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

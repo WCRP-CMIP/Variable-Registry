@@ -2,11 +2,12 @@
     "id": "abs550aer",
     "validation-key": "abs550aer",
     "ui-label": "abs550aer",
+    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere-absorption-optical-thickness-due-to-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

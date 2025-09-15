@@ -2,11 +2,12 @@
     "id": "fco2nat",
     "validation-key": "fco2nat",
     "ui-label": "fco2nat",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-natural-sources",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

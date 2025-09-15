@@ -2,11 +2,12 @@
     "id": "sfdsi",
     "validation-key": "sfdsi",
     "ui-label": "sfdsi",
+    "description": "",
     "data-type": "real",
     "standard-name": "downward-sea-ice-basal-salt-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

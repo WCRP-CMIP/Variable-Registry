@@ -2,11 +2,12 @@
     "id": "qgwr",
     "validation-key": "qgwr",
     "ui-label": "qgwr",
+    "description": "",
     "data-type": "real",
     "standard-name": "downward-liquid-water-mass-flux-into-groundwater",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

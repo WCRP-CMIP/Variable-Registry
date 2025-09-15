@@ -2,11 +2,12 @@
     "id": "mrroli",
     "validation-key": "mrroli",
     "ui-label": "mrroLi",
+    "description": "",
     "data-type": "real",
     "standard-name": "land-ice-runoff-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

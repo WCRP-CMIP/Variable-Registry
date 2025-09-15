@@ -2,11 +2,12 @@
     "id": "vt100",
     "validation-key": "vt100",
     "ui-label": "vt100",
+    "description": "",
     "data-type": "real",
     "standard-name": "covariance-over-longitude-of-northward-wind-and-air-temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

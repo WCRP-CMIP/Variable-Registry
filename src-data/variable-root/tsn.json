@@ -2,11 +2,12 @@
     "id": "tsn",
     "validation-key": "tsn",
     "ui-label": "tsn",
+    "description": "",
     "data-type": "real",
     "standard-name": "temperature-in-surface-snow",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }
