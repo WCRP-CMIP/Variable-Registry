@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tdps-tavg-h2m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tdps_tavg-h2m-hxy-u",
+    "ui-label": "2m Dewpoint Temperature",
+    "description": "Dew point temperature is the temperature at which a parcel of air reaches saturation upon being cooled at constant pressure and specific humidity.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Dew point temperature is the temperature at which a parcel of air reaches saturation upon being cooled at constant pressure and specific humidity.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "dew_point_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "2m Dewpoint Temperature",
     "units": "K",
-    "validation-key": "tdps_tavg-h2m-hxy-u",
     "variable-root": "tdps",
-    "vertical-label": "h2m"
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

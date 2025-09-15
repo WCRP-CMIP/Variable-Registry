@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ts-tavg-u-hxy-sn",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ts_tavg-u-hxy-sn",
+    "ui-label": "Snow Surface Temperature",
+    "description": "Snow Surface Temperature",
     "area-label": "sn",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: mean where land time: mean (weighted by snow area) not found in cell methods, please register",
-    "description": "Snow Surface Temperature",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Surface Temperature",
     "units": "K",
-    "validation-key": "ts_tavg-u-hxy-sn",
     "variable-root": "ts",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

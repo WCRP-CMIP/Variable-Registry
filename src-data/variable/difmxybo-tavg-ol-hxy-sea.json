@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "difmxybo-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "difmxybo_tavg-ol-hxy-sea",
+    "ui-label": "Ocean Momentum XY Biharmonic Diffusivity",
+    "description": "Lateral biharmonic viscosity applied to the momentum equations.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Lateral biharmonic viscosity applied to the momentum equations.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_momentum_xy_biharmonic_diffusivity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ocean Momentum XY Biharmonic Diffusivity",
     "units": "m4 s-1",
-    "validation-key": "difmxybo_tavg-ol-hxy-sea",
     "variable-root": "difmxybo",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

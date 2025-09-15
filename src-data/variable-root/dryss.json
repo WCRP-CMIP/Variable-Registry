@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "dryss",
+    "validation-key": "dryss",
+    "ui-label": "dryss",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-dry-deposition",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-dry-deposition",
-    "ui-label": "dryss",
-    "validation-key": "dryss"
+    ]
 }

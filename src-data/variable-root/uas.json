@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "uas",
+    "validation-key": "uas",
+    "ui-label": "uas",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "eastward-wind",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "eastward-wind",
-    "ui-label": "uas",
-    "validation-key": "uas"
+    ]
 }

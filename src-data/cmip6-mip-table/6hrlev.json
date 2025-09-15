@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "6hrlev",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table 6hrLev containing variables",
-    "ui-label": "6hrLev",
     "validation-key": "6hrlev",
+    "ui-label": "6hrLev",
+    "description": "CMIP6 CMOR table 6hrLev containing variables",
     "variables": [
         "bs550aer_tpt-al-hxy-u",
         "ec550aer_tpt-u-hxy-u",
@@ -19,5 +12,12 @@
         "ua_tpt-al-hxy-u",
         "va_tpt-al-hxy-u",
         "zg_tpt-al-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

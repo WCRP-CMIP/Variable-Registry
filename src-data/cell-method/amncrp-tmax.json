@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amncrp-tmax",
+    "validation-key": "amncrp-tmax",
+    "ui-label": "Time Maximum over Crops",
+    "description": "area: mean where crops time: maximum",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: mean where crops time: maximum",
-    "mask": "",
-    "ui-label": "Time Maximum over Crops",
-    "validation-key": "amncrp-tmax"
+    ]
 }

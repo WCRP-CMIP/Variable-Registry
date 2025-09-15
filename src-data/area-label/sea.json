@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sea",
+    "validation-key": "",
+    "ui-label": "Sea",
+    "description": "Variables calculated over ocean or sea water areas. Typically applies to sea surface temperature, ocean currents, salinity, and other marine variables. Excludes areas covered by sea ice.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over ocean or sea water areas. Typically applies to sea surface temperature, ocean currents, salinity, and other marine variables. Excludes areas covered by sea ice.",
-    "ui-label": "Sea",
-    "validation-key": ""
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "mcu-tavg-alh-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "mcu_tavg-alh-hxy-u",
+    "ui-label": "Convective Updraft Mass Flux",
+    "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "atmosphere_updraft_convective_mass_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Convective Updraft Mass Flux",
     "units": "kg m-2 s-1",
-    "validation-key": "mcu_tavg-alh-hxy-u",
     "variable-root": "mcu",
-    "vertical-label": "alh"
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

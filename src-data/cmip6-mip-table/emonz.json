@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "emonz",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table EmonZ containing variables",
-    "ui-label": "EmonZ",
     "validation-key": "emonz",
+    "ui-label": "EmonZ",
+    "description": "CMIP6 CMOR table EmonZ containing variables",
     "variables": [
         "epfy_tavg-p39-hy-air",
         "epfz_tavg-p39-hy-air",
@@ -27,5 +20,12 @@
         "utendogw_tavg-p39-hy-air",
         "vtem_tavg-p39-hy-air",
         "wtem_tavg-p39-hy-air"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

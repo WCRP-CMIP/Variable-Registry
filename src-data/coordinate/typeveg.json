@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typeveg",
+    "validation-key": "typeveg",
+    "ui-label": "Vegetation area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "Vegetation area type",
-    "validation-key": "typeveg"
+    ]
 }

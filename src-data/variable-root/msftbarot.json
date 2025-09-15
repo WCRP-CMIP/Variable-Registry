@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "msftbarot",
+    "validation-key": "msftbarot",
+    "ui-label": "msftbarot",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-barotropic-mass-streamfunction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "ocean-barotropic-mass-streamfunction",
-    "ui-label": "msftbarot",
-    "validation-key": "msftbarot"
+    ]
 }

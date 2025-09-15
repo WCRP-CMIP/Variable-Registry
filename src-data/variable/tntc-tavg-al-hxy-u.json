@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tntc-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tntc_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Convection",
+    "description": "Tendencies from cumulus convection scheme.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Tendencies from cumulus convection scheme.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "tendency_of_air_temperature_due_to_convection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Air Temperature Due to Convection",
     "units": "K s-1",
-    "validation-key": "tntc_tavg-al-hxy-u",
     "variable-root": "tntc",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "oyr",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table Oyr containing variables",
-    "ui-label": "Oyr",
     "validation-key": "oyr",
+    "ui-label": "Oyr",
+    "description": "CMIP6 CMOR table Oyr containing variables",
     "variables": [
         "difmxybo_tavg-ol-hxy-sea",
         "difmxylo_tavg-ol-hxy-sea",
@@ -43,5 +36,12 @@
         "tnkebto_tavg-u-hxy-sea",
         "tnpeo_tavg-u-hxy-sea",
         "volcello_tavg-ol-hxy-sea"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

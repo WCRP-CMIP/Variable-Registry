@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "dyto",
+    "validation-key": "dyto",
+    "ui-label": "dyto",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "cell-y-length",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "cell-y-length",
-    "ui-label": "dyto",
-    "validation-key": "dyto"
+    ]
 }

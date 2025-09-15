@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "albsrfc",
+    "validation-key": "albsrfc",
+    "ui-label": "albsrfc",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-albedo",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-albedo",
-    "ui-label": "albsrfc",
-    "validation-key": "albsrfc"
+    ]
 }

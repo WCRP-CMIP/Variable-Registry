@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "hfy",
+    "validation-key": "hfy",
+    "ui-label": "hfy",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-heat-y-transport",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "ocean-heat-y-transport",
-    "ui-label": "hfy",
-    "validation-key": "hfy"
+    ]
 }

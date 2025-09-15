@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "libmassbf",
+    "validation-key": "libmassbf",
+    "ui-label": "libmassbf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "land-ice-basal-specific-mass-balance-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "land-ice-basal-specific-mass-balance-flux",
-    "ui-label": "libmassbf",
-    "validation-key": "libmassbf"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "clisccp",
+    "validation-key": "clisccp",
+    "ui-label": "clisccp",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "isccp-cloud-area-fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "isccp-cloud-area-fraction",
-    "ui-label": "clisccp",
-    "validation-key": "clisccp"
+    ]
 }

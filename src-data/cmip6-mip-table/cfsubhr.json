@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "cfsubhr",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table CFsubhr containing variables",
-    "ui-label": "CFsubhr",
     "validation-key": "cfsubhr",
+    "ui-label": "CFsubhr",
+    "description": "CMIP6 CMOR table CFsubhr containing variables",
     "variables": [
         "ccb_tpt-u-hxys-u",
         "cct_tpt-u-hxys-u",
@@ -88,5 +81,12 @@
         "vas_tpt-h10m-hxys-u",
         "wap_tpt-al-hxys-u",
         "zg_tpt-al-hxys-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

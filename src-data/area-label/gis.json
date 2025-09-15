@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "gis",
+    "validation-key": "gis",
+    "ui-label": "Grounded Ice Sheet",
+    "description": "Variables calculated over grounded ice sheet areas, where ice rests directly on bedrock or sediment. Includes ice sheet mass balance, surface conditions, and ice-bedrock interactions for major ice sheets.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over grounded ice sheet areas, where ice rests directly on bedrock or sediment. Includes ice sheet mass balance, surface conditions, and ice-bedrock interactions for major ice sheets.",
-    "ui-label": "Grounded Ice Sheet",
-    "validation-key": "gis"
+    ]
 }

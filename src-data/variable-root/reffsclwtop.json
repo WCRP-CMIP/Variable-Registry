@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "reffsclwtop",
+    "validation-key": "reffsclwtop",
+    "ui-label": "reffsclwtop",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "effective-radius-of-stratiform-cloud-liquid-water-particles-at-stratiform-liquid-water-cloud-top",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "effective-radius-of-stratiform-cloud-liquid-water-particles-at-stratiform-liquid-water-cloud-top",
-    "ui-label": "reffsclwtop",
-    "validation-key": "reffsclwtop"
+    ]
 }

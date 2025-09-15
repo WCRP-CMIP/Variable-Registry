@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ficeberg-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ficeberg_tavg-u-hxy-sea",
+    "ui-label": "Water Flux into Sea Water from Icebergs",
+    "description": "computed as the iceberg melt water flux into the ocean divided by the area of the ocean portion of the grid cell.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "computed as the iceberg melt water flux into the ocean divided by the area of the ocean portion of the grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "water_flux_into_sea_water_from_icebergs",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Water Flux into Sea Water from Icebergs",
     "units": "kg m-2 s-1",
-    "validation-key": "ficeberg_tavg-u-hxy-sea",
     "variable-root": "ficeberg",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

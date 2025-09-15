@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "siconc-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "siconc_tavg-u-hxy-u",
+    "ui-label": "Sea-Ice Area Fraction (Ocean Grid)",
+    "description": "Areal fraction of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
     "area-label": "u",
     "cell-measures": "area: areacello",
     "cell-methods": "amn-twm",
-    "description": "Areal fraction of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_ice_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea-Ice Area Fraction (Ocean Grid)",
     "units": "1",
-    "validation-key": "siconc_tavg-u-hxy-u",
     "variable-root": "siconc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

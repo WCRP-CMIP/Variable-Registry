@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "limon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table LImon containing variables",
-    "ui-label": "LImon",
     "validation-key": "limon",
+    "ui-label": "LImon",
+    "description": "CMIP6 CMOR table LImon containing variables",
     "variables": [
         "acabf_tavg-u-hxy-is",
         "agesno_tavg-u-hxy-lnd",
@@ -47,5 +40,12 @@
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-lnd",
         "tsn_tavg-u-hxy-is"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

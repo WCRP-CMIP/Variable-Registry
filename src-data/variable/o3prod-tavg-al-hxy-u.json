@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "o3prod-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "o3prod_tavg-al-hxy-u",
+    "ui-label": "O3 Production Rate",
+    "description": "ONLY provide the sum of all the HO2/RO2 + NO reactions (as k\\*[HO2]\\*[NO])",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "ONLY provide the sum of all the HO2/RO2 + NO reactions (as k\\*[HO2]\\*[NO])",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "O3 Production Rate",
     "units": "mol m-3 s-1",
-    "validation-key": "o3prod_tavg-al-hxy-u",
     "variable-root": "o3prod",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

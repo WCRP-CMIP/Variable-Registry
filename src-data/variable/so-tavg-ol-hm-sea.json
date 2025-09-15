@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "so-tavg-ol-hm-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "so_tavg-ol-hm-sea",
+    "ui-label": "Global Mean Sea Water Salinity",
+    "description": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand.",
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "amns-tmn",
-    "description": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand.",
     "dimensions": [
         "olevel",
         "time"
@@ -24,9 +21,12 @@
     "standard-name": "sea_water_salinity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Global Mean Sea Water Salinity",
     "units": "1E-03",
-    "validation-key": "so_tavg-ol-hm-sea",
     "variable-root": "so",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

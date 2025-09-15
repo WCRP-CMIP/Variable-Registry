@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "epfz-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "epfz_tavg-p39-hy-air",
+    "ui-label": "Upward Component of the Eliassen-Palm Flux",
+    "description": "zonal mean; hence YZT",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "zonal mean; hence YZT",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "upward_eliassen_palm_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Upward Component of the Eliassen-Palm Flux",
     "units": "m3 s-2",
-    "validation-key": "epfz_tavg-p39-hy-air",
     "variable-root": "epfz",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

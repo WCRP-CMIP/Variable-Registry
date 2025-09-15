@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "n2o-tclm-u-hm-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "n2o_tclm-u-hm-u",
+    "ui-label": "Global Mean Mole Fraction of N2O",
+    "description": "Global mean Nitrous Oxide (N2O)",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "Error: height: area: time: mean (with all samples weighted by the number of moles of air in the sample) not found in cell methods, please register",
-    "description": "Global mean Nitrous Oxide (N2O)",
     "dimensions": [
         "time2"
     ],
@@ -23,9 +20,12 @@
     "standard-name": "mole_fraction_of_nitrous_oxide_in_air",
     "temporal-label": "tclm",
     "temporal-shape": "climatology",
-    "ui-label": "Global Mean Mole Fraction of N2O",
     "units": "mol mol-1",
-    "validation-key": "n2o_tclm-u-hm-u",
     "variable-root": "n2o",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

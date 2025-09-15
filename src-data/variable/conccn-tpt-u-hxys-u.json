@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "conccn-tpt-u-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "conccn_tpt-u-hxys-u",
+    "ui-label": "Sub-daily Aerosol Number Concentration at CF sites",
+    "description": "The variable represents the instantaneous Aerosol Number Concentration at CF sites, sampled every 3 hours",
     "area-label": "u",
     "cell-measures": "::MODEL",
     "cell-methods": "apt-tpt",
-    "description": "The variable represents the instantaneous Aerosol Number Concentration at CF sites, sampled every 3 hours",
     "dimensions": [
         "site",
         "time1"
@@ -24,9 +21,12 @@
     "standard-name": "number_concentration_of_ambient_aerosol_particles_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Sub-daily Aerosol Number Concentration at CF sites",
     "units": "m-3",
-    "validation-key": "conccn_tpt-u-hxys-u",
     "variable-root": "conccn",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "depthsl-ti-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "depthsl_ti-u-hxy-u",
+    "ui-label": "Total (Cumulative) Thickness of All Soil Layers",
+    "description": "Total (cumulative) thickness of all soil layers. This is the sum of individual thicknesses of all soil layers.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
-    "description": "Total (cumulative) thickness of all soil layers. This is the sum of individual thicknesses of all soil layers.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -24,9 +21,12 @@
     "standard-name": "depth",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Total (Cumulative) Thickness of All Soil Layers",
     "units": "m",
-    "validation-key": "depthsl_ti-u-hxy-u",
     "variable-root": "depthsl",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

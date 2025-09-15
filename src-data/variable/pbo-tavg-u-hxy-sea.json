@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "pbo-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "pbo_tavg-u-hxy-sea",
+    "ui-label": "Sea Water Pressure at Sea Floor",
+    "description": "\"Sea water pressure\" is the pressure that exists in the medium of sea water.  It includes the pressure due to overlying sea water, sea ice, air and any other medium that may be present.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "\"Sea water pressure\" is the pressure that exists in the medium of sea water.  It includes the pressure due to overlying sea water, sea ice, air and any other medium that may be present.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "sea_water_pressure_at_sea_floor",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea Water Pressure at Sea Floor",
     "units": "Pa",
-    "validation-key": "pbo_tavg-u-hxy-sea",
     "variable-root": "pbo",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

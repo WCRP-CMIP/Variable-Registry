@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "eminh3",
+    "validation-key": "eminh3",
+    "ui-label": "eminh3",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-ammonia-due-to-emission",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-ammonia-due-to-emission",
-    "ui-label": "eminh3",
-    "validation-key": "eminh3"
+    ]
 }

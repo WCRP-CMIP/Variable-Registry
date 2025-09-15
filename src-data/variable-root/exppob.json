@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "exppob",
+    "validation-key": "exppob",
+    "ui-label": "exppob",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sinking-mole-flux-of-particulate-organic-phosphorus-in-sea-water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sinking-mole-flux-of-particulate-organic-phosphorus-in-sea-water",
-    "ui-label": "exppob",
-    "validation-key": "exppob"
+    ]
 }

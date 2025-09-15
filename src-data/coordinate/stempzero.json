@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "stempzero",
+    "validation-key": "stempzero",
+    "ui-label": "Soil Temperature Zero",
+    "description": "Specifying temperature ..",
+    "axis-flag": "Z",
+    "cf-standard-name": "soil_temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "soil_temperature",
-    "description": "Specifying temperature ..",
-    "ui-label": "Soil Temperature Zero",
-    "validation-key": "stempzero"
+    ]
 }

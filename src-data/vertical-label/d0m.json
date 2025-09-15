@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "d0m",
+    "validation-key": "d0m",
+    "ui-label": "Surface Level",
+    "description": "Variables at the Earth's surface level (0 meters depth/height), including surface temperature, pressure, and exchange fluxes. Represents the interface between atmosphere, ocean, land, or ice.",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "Variables at the Earth's surface level (0 meters depth/height), including surface temperature, pressure, and exchange fluxes. Represents the interface between atmosphere, ocean, land, or ice.",
-    "ui-label": "Surface Level",
-    "validation-key": "d0m"
+    ]
 }

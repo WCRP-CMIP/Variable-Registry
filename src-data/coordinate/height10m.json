@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "height10m",
+    "validation-key": "height10m",
+    "ui-label": "height",
+    "description": "~10 m standard wind speed height",
+    "axis-flag": "Z",
+    "cf-standard-name": "height",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "height",
-    "description": "~10 m standard wind speed height",
-    "ui-label": "height",
-    "validation-key": "height10m"
+    ]
 }

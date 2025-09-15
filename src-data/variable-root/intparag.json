@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "intparag",
+    "validation-key": "intparag",
+    "ui-label": "intparag",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-ocean-mole-content-of-aragonite-expressed-as-carbon-due-to-biological-production",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-ocean-mole-content-of-aragonite-expressed-as-carbon-due-to-biological-production",
-    "ui-label": "intparag",
-    "validation-key": "intparag"
+    ]
 }

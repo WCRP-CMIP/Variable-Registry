@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "mc-tavg-alh-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "mc_tavg-alh-hxy-u",
+    "ui-label": "Convective Mass Flux",
+    "description": "The net mass flux should represent the difference between the updraft and downdraft components.  This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "The net mass flux should represent the difference between the updraft and downdraft components.  This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "atmosphere_net_upward_convective_mass_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Convective Mass Flux",
     "units": "kg m-2 s-1",
-    "validation-key": "mc_tavg-alh-hxy-u",
     "variable-root": "mc",
-    "vertical-label": "alh"
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

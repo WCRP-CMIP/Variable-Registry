@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "tendlicalvf",
+    "validation-key": "tendlicalvf",
+    "ui-label": "tendlicalvf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-land-ice-mass-due-to-calving",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-land-ice-mass-due-to-calving",
-    "ui-label": "tendlicalvf",
-    "validation-key": "tendlicalvf"
+    ]
 }

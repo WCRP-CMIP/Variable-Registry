@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tauuo-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tauuo_tavg-u-hxy-sea",
+    "ui-label": "Sea Water Surface Downward X Stress",
+    "description": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
     "area-label": "sea",
     "cell-measures": "::OPT",
     "cell-methods": "amns-tmn",
-    "description": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "downward_x_stress_at_sea_water_surface",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea Water Surface Downward X Stress",
     "units": "N m-2",
-    "validation-key": "tauuo_tavg-u-hxy-sea",
     "variable-root": "tauuo",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

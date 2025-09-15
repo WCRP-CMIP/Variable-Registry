@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "wetlandfrac",
+    "validation-key": "wetlandfrac",
+    "ui-label": "wetlandFrac",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "area-fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "area-fraction",
-    "ui-label": "wetlandFrac",
-    "validation-key": "wetlandfrac"
+    ]
 }

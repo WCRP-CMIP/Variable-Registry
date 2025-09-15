@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sino3-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sino3_tavg-u-hxy-si",
+    "ui-label": "Dissolved Nitrate Amount in Sea Ice",
+    "description": "Vertically-integrated amount of nitrate in ice algae, expressed in moles of nitrogen per square meter of sea ice.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea_ice (mask=siconc) depth: sum where sea_ice time: mean not found in cell methods, please register",
-    "description": "Vertically-integrated amount of nitrate in ice algae, expressed in moles of nitrogen per square meter of sea ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_ice_mole_content_of_nitrate",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Dissolved Nitrate Amount in Sea Ice",
     "units": "mol m-2",
-    "validation-key": "sino3_tavg-u-hxy-si",
     "variable-root": "sino3",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vos-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vos_tavg-u-hxy-sea",
+    "ui-label": "Daily Surface Sea Water Y Velocity",
+    "description": "Daily surface prognostic y-ward velocity component resolved by the model.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Daily surface prognostic y-ward velocity component resolved by the model.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "surface_sea_water_y_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Daily Surface Sea Water Y Velocity",
     "units": "m s-1",
-    "validation-key": "vos_tavg-u-hxy-sea",
     "variable-root": "vos",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "simon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table SImon containing variables",
-    "ui-label": "SImon",
     "validation-key": "simon",
+    "ui-label": "SImon",
+    "description": "CMIP6 CMOR table SImon containing variables",
     "variables": [
         "siage_tavg-u-hxy-si",
         "siage_tavg-u-hxy-si",
@@ -116,5 +109,12 @@
         "sivol_tavg-u-hm-u",
         "sivol_tavg-u-hm-u",
         "siv_tavg-u-hxy-si"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ua-tpt-h100m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ua_tpt-h100m-hxy-u",
+    "ui-label": "Eastward Wind at 100m",
+    "description": "Zonal wind (positive in a eastward direction) at 100m above the surface",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
-    "description": "Zonal wind (positive in a eastward direction) at 100m above the surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "eastward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Eastward Wind at 100m",
     "units": "m s-1",
-    "validation-key": "ua_tpt-h100m-hxy-u",
     "variable-root": "ua",
-    "vertical-label": "h100m"
+    "vertical-label": "h100m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "tauuo",
+    "validation-key": "tauuo",
+    "ui-label": "tauuo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "downward-x-stress-at-sea-water-surface",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "downward-x-stress-at-sea-water-surface",
-    "ui-label": "tauuo",
-    "validation-key": "tauuo"
+    ]
 }

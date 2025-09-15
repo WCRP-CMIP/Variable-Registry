@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amni-twm",
+    "validation-key": "amni-twm",
+    "ui-label": "Weighted Time Mean on Ice Sheet",
+    "description": "area: time: mean where ice_sheet",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: time: mean where ice_sheet",
-    "mask": "",
-    "ui-label": "Weighted Time Mean on Ice Sheet",
-    "validation-key": "amni-twm"
+    ]
 }

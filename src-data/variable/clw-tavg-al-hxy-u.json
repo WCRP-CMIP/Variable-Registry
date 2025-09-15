@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "clw-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "clw_tavg-al-hxy-u",
+    "ui-label": "Mass Fraction of Cloud Liquid Water",
+    "description": "Calculated as the mass of  cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Calculated as the mass of  cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_fraction_of_cloud_liquid_water_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mass Fraction of Cloud Liquid Water",
     "units": "kg kg-1",
-    "validation-key": "clw_tavg-al-hxy-u",
     "variable-root": "clw",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hfls-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hfls_tavg-u-hxy-u",
+    "ui-label": "Surface upward latent heat flux",
+    "description": "Hourly surface upward latent heat flux",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Hourly surface upward latent heat flux",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_upward_latent_heat_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface upward latent heat flux",
     "units": "W m-2",
-    "validation-key": "hfls_tavg-u-hxy-u",
     "variable-root": "hfls",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rlut-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rlut_tavg-u-hxy-u",
+    "ui-label": "TOA Outgoing Longwave Radiation",
+    "description": "TOA outgoing longwave radiation",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "TOA outgoing longwave radiation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "toa_outgoing_longwave_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "TOA Outgoing Longwave Radiation",
     "units": "W m-2",
-    "validation-key": "rlut_tavg-u-hxy-u",
     "variable-root": "rlut",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

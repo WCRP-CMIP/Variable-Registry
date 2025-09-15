@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "intdic-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "intdic_tavg-u-hxy-sea",
+    "ui-label": "Dissolved Inorganic Carbon Content",
+    "description": "Vertically integrated DIC",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
-    "description": "Vertically integrated DIC",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "ocean_mass_content_of_dissolved_inorganic_carbon",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Dissolved Inorganic Carbon Content",
     "units": "kg m-2",
-    "validation-key": "intdic_tavg-u-hxy-sea",
     "variable-root": "intdic",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

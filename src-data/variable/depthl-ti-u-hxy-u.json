@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "depthl-ti-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "depthl_ti-u-hxy-u",
+    "ui-label": "Depth of Lake Below the Surface",
+    "description": "Depth of lakes, if this quantity is present in the model. If computed via volume and area, then this is lake volume divided by lake area.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
-    "description": "Depth of lakes, if this quantity is present in the model. If computed via volume and area, then this is lake volume divided by lake area.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -24,9 +21,12 @@
     "standard-name": "depth",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Depth of Lake Below the Surface",
     "units": "m",
-    "validation-key": "depthl_ti-u-hxy-u",
     "variable-root": "depthl",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

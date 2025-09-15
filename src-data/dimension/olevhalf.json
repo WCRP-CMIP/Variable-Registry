@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "olevhalf",
+    "validation-key": "olevhalf",
+    "ui-label": "Ocean Model Half-levels",
+    "description": "generic ocean model vertical coordinate (nondimensional or dimensional)",
+    "axis-flag": "Z",
+    "cf-standard-name": "",
+    "spatial-shape": "Global ocean field on model half levels",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "",
-    "description": "generic ocean model vertical coordinate (nondimensional or dimensional)",
-    "spatial-shape": "Global ocean field on model half levels",
-    "ui-label": "Ocean Model Half-levels",
-    "validation-key": "olevhalf"
+    ]
 }

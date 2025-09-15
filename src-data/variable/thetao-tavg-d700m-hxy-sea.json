@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "thetao-tavg-d700m-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "thetao_tavg-d700m-hxy-sea",
+    "ui-label": "Depth Average Potential Temperature of Upper 700m",
+    "description": "Upper 700m, 2D field",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "admns-tmn",
-    "description": "Upper 700m, 2D field",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "sea_water_potential_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Depth Average Potential Temperature of Upper 700m",
     "units": "degC",
-    "validation-key": "thetao_tavg-d700m-hxy-sea",
     "variable-root": "thetao",
-    "vertical-label": "d700m"
+    "vertical-label": "d700m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

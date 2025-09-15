@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "abs550so4",
+    "validation-key": "abs550so4",
+    "ui-label": "abs550so4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-sulfate-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "atmosphere-absorption-optical-thickness-due-to-sulfate-ambient-aerosol-particles",
-    "ui-label": "abs550so4",
-    "validation-key": "abs550so4"
+    ]
 }

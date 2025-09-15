@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typenatgr",
+    "validation-key": "typenatgr",
+    "ui-label": "Natural grass area type",
+    "description": "Coordinate for natural grassland area type, used to identify and analyze variables specific to non-cultivated grass-dominated ecosystems and prairie regions.",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "Coordinate for natural grassland area type, used to identify and analyze variables specific to non-cultivated grass-dominated ecosystems and prairie regions.",
-    "ui-label": "Natural grass area type",
-    "validation-key": "typenatgr"
+    ]
 }

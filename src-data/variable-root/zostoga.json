@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "zostoga",
+    "validation-key": "zostoga",
+    "ui-label": "zostoga",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "global-average-thermosteric-sea-level-change",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "global-average-thermosteric-sea-level-change",
-    "ui-label": "zostoga",
-    "validation-key": "zostoga"
+    ]
 }

@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "shb",
+    "validation-key": "shb",
+    "ui-label": "Shrubs",
+    "description": "Variables calculated over shrubland areas, including woody vegetation that is shorter than trees. Covers shrub ecosystems, desert shrublands, tundra shrubs, and their role in ecosystem dynamics and carbon cycling.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over shrubland areas, including woody vegetation that is shorter than trees. Covers shrub ecosystems, desert shrublands, tundra shrubs, and their role in ecosystem dynamics and carbon cycling.",
-    "ui-label": "Shrubs",
-    "validation-key": "shb"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vsfpr-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vsfpr_tavg-u-hxy-sea",
+    "ui-label": "Virtual Salt Flux into Sea Water Due to Rainfall",
+    "description": "zero for models using real water fluxes.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "zero for models using real water fluxes.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "virtual_salt_flux_into_sea_water_due_to_rainfall",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Virtual Salt Flux into Sea Water Due to Rainfall",
     "units": "kg m-2 s-1",
-    "validation-key": "vsfpr_tavg-u-hxy-sea",
     "variable-root": "vsfpr",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

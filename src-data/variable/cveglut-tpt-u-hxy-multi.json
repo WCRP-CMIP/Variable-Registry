@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "cveglut-tpt-u-hxy-multi",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "cVegLut_tpt-u-hxy-multi",
+    "ui-label": "Carbon in Vegetation on Land-Use Tiles",
+    "description": "end of year values (not annual mean)",
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amnlu-tpt",
-    "description": "end of year values (not annual mean)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "vegetation_carbon_content",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Carbon in Vegetation on Land-Use Tiles",
     "units": "kg m-2",
-    "validation-key": "cVegLut_tpt-u-hxy-multi",
     "variable-root": "cVegLut",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

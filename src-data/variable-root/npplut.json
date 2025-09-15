@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "npplut",
+    "validation-key": "npplut",
+    "ui-label": "nppLut",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon",
-    "ui-label": "nppLut",
-    "validation-key": "npplut"
+    ]
 }

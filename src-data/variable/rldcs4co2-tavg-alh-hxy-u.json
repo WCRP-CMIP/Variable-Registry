@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rldcs4co2-tavg-alh-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rldcs4co2_tavg-alh-hxy-u",
+    "ui-label": "Downwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
+    "description": "Downwelling clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Downwelling clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Downwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
     "units": "W m-2",
-    "validation-key": "rldcs4co2_tavg-alh-hxy-u",
     "variable-root": "rldcs4co2",
-    "vertical-label": "alh"
+    "vertical-label": "alh",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "e1hr",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table E1hr containing variables",
-    "ui-label": "E1hr",
     "validation-key": "e1hr",
+    "ui-label": "E1hr",
+    "description": "CMIP6 CMOR table E1hr containing variables",
     "variables": [
         "bldep_tavg-u-hxy-u",
         "clt_tavg-u-hxy-u",
@@ -41,5 +34,12 @@
         "vas_tpt-h10m-hxy-u",
         "wsg_tmax-h100m-hxy-u",
         "wsg_tmax-h10m-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

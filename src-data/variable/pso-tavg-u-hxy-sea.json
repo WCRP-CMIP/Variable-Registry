@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "pso-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "pso_tavg-u-hxy-sea",
+    "ui-label": "Sea Water Pressure at Sea Water Surface",
+    "description": "The surface called \"surface\" means the lower boundary of the atmosphere.  \"Sea water pressure\" is the pressure that exists in the medium of sea water.  It includes the pressure due to overlying sea water, sea ice, air and any other medium that may be present.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "The surface called \"surface\" means the lower boundary of the atmosphere.  \"Sea water pressure\" is the pressure that exists in the medium of sea water.  It includes the pressure due to overlying sea water, sea ice, air and any other medium that may be present.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_water_pressure_at_sea_water_surface",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea Water Pressure at Sea Water Surface",
     "units": "Pa",
-    "validation-key": "pso_tavg-u-hxy-sea",
     "variable-root": "pso",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

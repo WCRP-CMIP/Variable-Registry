@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "esn-tavg-u-hxy-sn",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "esn_tavg-u-hxy-sn",
+    "ui-label": "Snow Evaporation",
+    "description": "liquid_water_evaporation_flux_from_surface_snow",
     "area-label": "sn",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "liquid_water_evaporation_flux_from_surface_snow",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "water_evapotranspiration_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Evaporation",
     "units": "kg m-2 s-1",
-    "validation-key": "esn_tavg-u-hxy-sn",
     "variable-root": "esn",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

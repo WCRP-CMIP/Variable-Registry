@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "zostoga-tavg-u-hm-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "zostoga_tavg-u-hm-sea",
+    "ui-label": "Global Average Thermosteric Sea Level Change",
+    "description": "There is no CMIP6 request for zosga nor zossga.",
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "amns-tmn",
-    "description": "There is no CMIP6 request for zosga nor zossga.",
     "dimensions": [
         "time"
     ],
@@ -23,9 +20,12 @@
     "standard-name": "global_average_thermosteric_sea_level_change",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Global Average Thermosteric Sea Level Change",
     "units": "m",
-    "validation-key": "zostoga_tavg-u-hm-sea",
     "variable-root": "zostoga",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

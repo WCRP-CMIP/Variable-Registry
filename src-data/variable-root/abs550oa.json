@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "abs550oa",
+    "validation-key": "abs550oa",
+    "ui-label": "abs550oa",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-particulate-organic-matter-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "atmosphere-absorption-optical-thickness-due-to-particulate-organic-matter-ambient-aerosol-particles",
-    "ui-label": "abs550oa",
-    "validation-key": "abs550oa"
+    ]
 }

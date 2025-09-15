@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "croot",
+    "validation-key": "croot",
+    "ui-label": "cRoot",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "root-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "root-mass-content-of-carbon",
-    "ui-label": "cRoot",
-    "validation-key": "croot"
+    ]
 }

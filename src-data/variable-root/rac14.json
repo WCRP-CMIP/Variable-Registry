@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "rac14",
+    "validation-key": "rac14",
+    "ui-label": "rac14",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-14c-due-to-plant-respiration",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-14c-due-to-plant-respiration",
-    "ui-label": "rac14",
-    "validation-key": "rac14"
+    ]
 }

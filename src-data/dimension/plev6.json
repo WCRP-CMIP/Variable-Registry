@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "plev6",
+    "validation-key": "plev6",
+    "ui-label": "Pressure Levels (6, boundary layer)",
+    "description": "6 pressure levels used for accurate assessment of land–atmosphere coupling",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "spatial-shape": "Global field (6 pressure levels)",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "6 pressure levels used for accurate assessment of land–atmosphere coupling",
-    "spatial-shape": "Global field (6 pressure levels)",
-    "ui-label": "Pressure Levels (6, boundary layer)",
-    "validation-key": "plev6"
+    ]
 }

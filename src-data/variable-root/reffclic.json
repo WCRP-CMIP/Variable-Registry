@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "reffclic",
+    "validation-key": "reffclic",
+    "ui-label": "reffclic",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "effective-radius-of-convective-cloud-ice-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "effective-radius-of-convective-cloud-ice-particles",
-    "ui-label": "reffclic",
-    "validation-key": "reffclic"
+    ]
 }

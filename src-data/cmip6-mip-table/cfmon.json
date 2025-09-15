@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "cfmon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table CFmon containing variables",
-    "ui-label": "CFmon",
     "validation-key": "cfmon",
+    "ui-label": "CFmon",
+    "description": "CMIP6 CMOR table CFmon containing variables",
     "variables": [
         "albisccp_tavg-u-hxy-cl",
         "albisccp_tavg-u-hxy-cl",
@@ -103,5 +96,12 @@
         "tntmp_tavg-al-hxy-u",
         "tntr_tavg-al-hxy-u",
         "tntscpbl_tavg-al-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

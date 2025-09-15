@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sftof",
+    "validation-key": "sftof",
+    "ui-label": "sftof",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-area-fraction",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-area-fraction",
-    "ui-label": "sftof",
-    "validation-key": "sftof"
+    ]
 }

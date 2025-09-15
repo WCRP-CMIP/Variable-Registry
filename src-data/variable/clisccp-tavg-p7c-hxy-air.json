@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "clisccp-tavg-p7c-hxy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "clisccp_tavg-p7c-hxy-air",
+    "ui-label": "ISCCP Cloud Area Percentage",
+    "description": "Percentage cloud cover in optical depth categories.",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
-    "description": "Percentage cloud cover in optical depth categories.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -27,9 +24,12 @@
     "standard-name": "isccp_cloud_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "ISCCP Cloud Area Percentage",
     "units": "%",
-    "validation-key": "clisccp_tavg-p7c-hxy-air",
     "variable-root": "clisccp",
-    "vertical-label": "p7c"
+    "vertical-label": "p7c",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

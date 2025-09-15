@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "cl-tpt-al-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "cl_tpt-al-hxys-u",
+    "ui-label": "Percentage Cloud Cover",
+    "description": "Includes both large-scale and convective cloud.",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
-    "description": "Includes both large-scale and convective cloud.",
     "dimensions": [
         "alevel",
         "site",
@@ -25,9 +22,12 @@
     "standard-name": "cloud_area_fraction_in_atmosphere_layer",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Percentage Cloud Cover",
     "units": "%",
-    "validation-key": "cl_tpt-al-hxys-u",
     "variable-root": "cl",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

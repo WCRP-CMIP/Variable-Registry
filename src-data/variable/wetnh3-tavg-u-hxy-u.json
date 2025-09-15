@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "wetnh3-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "wetnh3_tavg-u-hxy-u",
+    "ui-label": "Wet Deposition Rate of NH3",
+    "description": "Surface deposition rate of ammonia (NH3) due to wet processes",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Surface deposition rate of ammonia (NH3) due to wet processes",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Wet Deposition Rate of NH3",
     "units": "kg m-2 s-1",
-    "validation-key": "wetnh3_tavg-u-hxy-u",
     "variable-root": "wetnh3",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

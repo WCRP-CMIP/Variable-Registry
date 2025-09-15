@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "e90inst-tpt-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "e90inst_tpt-al-hxy-u",
+    "ui-label": "Artificial tracer with 90 day lifetime",
+    "description": "Mole fraction of an artificial tracer with a 90-day lifetime (e90)",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
-    "description": "Mole fraction of an artificial tracer with a 90-day lifetime (e90)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Artificial tracer with 90 day lifetime",
     "units": "mol mol-1",
-    "validation-key": "e90inst_tpt-al-hxy-u",
     "variable-root": "e90inst",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

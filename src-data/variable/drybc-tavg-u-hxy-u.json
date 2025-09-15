@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "drybc-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "drybc_tavg-u-hxy-u",
+    "ui-label": "Dry Deposition Rate of Black Carbon Aerosol Mass",
+    "description": "Dry Deposition Rate of Black Carbon Aerosol Mass",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Dry Deposition Rate of Black Carbon Aerosol Mass",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_dry_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Dry Deposition Rate of Black Carbon Aerosol Mass",
     "units": "kg m-2 s-1",
-    "validation-key": "drybc_tavg-u-hxy-u",
     "variable-root": "drybc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

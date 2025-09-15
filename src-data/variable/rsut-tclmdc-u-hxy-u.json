@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rsut-tclmdc-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rsut_tclmdc-u-hxy-u",
+    "ui-label": "TOA Outgoing Shortwave Radiation",
+    "description": "at the top of the atmosphere",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tdnl",
-    "description": "at the top of the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "toa_outgoing_shortwave_flux",
     "temporal-label": "tclmdc",
     "temporal-shape": "diurnal-cycle",
-    "ui-label": "TOA Outgoing Shortwave Radiation",
     "units": "W m-2",
-    "validation-key": "rsut_tclmdc-u-hxy-u",
     "variable-root": "rsut",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

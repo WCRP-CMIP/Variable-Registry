@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "ygre",
+    "validation-key": "ygre",
+    "ui-label": "Y-coordinate of Greenland grid",
+    "description": "Y-coordinate of Greenland grid (stubb)",
+    "axis-flag": "Y",
+    "cf-standard-name": "projection_y_coordinate",
+    "spatial-shape": "Polar stereographic grid (Greenland)",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Y",
-    "cf-standard-name": "projection_y_coordinate",
-    "description": "Y-coordinate of Greenland grid (stubb)",
-    "spatial-shape": "Polar stereographic grid (Greenland)",
-    "ui-label": "Y-coordinate of Greenland grid",
-    "validation-key": "ygre"
+    ]
 }

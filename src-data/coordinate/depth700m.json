@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "depth700m",
+    "validation-key": "depth700m",
+    "ui-label": "depth",
+    "description": "coordinate value for 700 m ocean depth",
+    "axis-flag": "Z",
+    "cf-standard-name": "depth",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "depth",
-    "description": "coordinate value for 700 m ocean depth",
-    "ui-label": "depth",
-    "validation-key": "depth700m"
+    ]
 }

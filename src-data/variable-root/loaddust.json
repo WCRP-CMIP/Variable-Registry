@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "loaddust",
+    "validation-key": "loaddust",
+    "ui-label": "loaddust",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-mass-content-of-dust-dry-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "atmosphere-mass-content-of-dust-dry-aerosol-particles",
-    "ui-label": "loaddust",
-    "validation-key": "loaddust"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "cly-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "cly_tavg-p39-hy-air",
+    "ui-label": "Total Inorganic Chlorine Volume Mixing Ratio",
+    "description": "Total family (the sum of all appropriate species in the model) ; list the species in the netCDF header, e.g. Cly = HCl + ClONO2 + HOCl + ClO + Cl + 2\\*Cl2O2 +2Cl2 + OClO + BrCl Definition: Total inorganic stratospheric chlorine (e.g., HCl, ClO) resulting from degradation of chlorine-containing source gases (CFCs, HCFCs, VSLS), and natural inorganic chlorine sources (e.g., sea salt and other aerosols) add comment attribute with detailed description about how the model calculates these fields",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "Total family (the sum of all appropriate species in the model) ; list the species in the netCDF header, e.g. Cly = HCl + ClONO2 + HOCl + ClO + Cl + 2\\*Cl2O2 +2Cl2 + OClO + BrCl Definition: Total inorganic stratospheric chlorine (e.g., HCl, ClO) resulting from degradation of chlorine-containing source gases (CFCs, HCFCs, VSLS), and natural inorganic chlorine sources (e.g., sea salt and other aerosols) add comment attribute with detailed description about how the model calculates these fields",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "mole_fraction_of_inorganic_chlorine_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Total Inorganic Chlorine Volume Mixing Ratio",
     "units": "mol mol-1",
-    "validation-key": "cly_tavg-p39-hy-air",
     "variable-root": "cly",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "fric-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "fric_tavg-u-hxy-sea",
+    "ui-label": "Downward Inorganic Carbon Flux at Ocean Bottom",
+    "description": "Inorganic Carbon loss to sediments",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Inorganic Carbon loss to sediments",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Downward Inorganic Carbon Flux at Ocean Bottom",
     "units": "mol m-2 s-1",
-    "validation-key": "fric_tavg-u-hxy-sea",
     "variable-root": "fric",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

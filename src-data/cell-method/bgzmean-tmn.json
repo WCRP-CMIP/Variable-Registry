@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "bgzmean-tmn",
+    "validation-key": "bgzmean-tmn",
+    "ui-label": "Basin Zonal Mean on Model Grid",
+    "description": "time: mean grid_longitude: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "time: mean grid_longitude: mean",
-    "mask": "",
-    "ui-label": "Basin Zonal Mean on Model Grid",
-    "validation-key": "bgzmean-tmn"
+    ]
 }

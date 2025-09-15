@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typenwd",
+    "validation-key": "typenwd",
+    "ui-label": "Non-Woody Vegetation area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "Non-Woody Vegetation area type",
-    "validation-key": "typenwd"
+    ]
 }

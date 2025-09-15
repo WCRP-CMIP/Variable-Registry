@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "emiavnox-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "emiavnox_tavg-al-hxy-u",
+    "ui-label": "Emission rate of NOx from aviation",
+    "description": "Emission rate of NOx from aircraft",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Emission rate of NOx from aircraft",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "tendency_of_atmosphere_moles_of_nox_expressed_as_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Emission rate of NOx from aviation",
     "units": "mol m-2 s-1",
-    "validation-key": "emiavnox_tavg-al-hxy-u",
     "variable-root": "emiavnox",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

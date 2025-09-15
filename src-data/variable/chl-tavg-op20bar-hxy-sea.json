@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "chl-tavg-op20bar-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "chl_tavg-op20bar-hxy-sea",
+    "ui-label": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water at 200 meters",
+    "description": "Sum of chlorophyll from all phytoplankton group concentrations. In most models this is equal to chldiat+chlmisc, that is the sum of Diatom Chlorophyll Mass Concentration and Other Phytoplankton Chlorophyll Mass Concentration",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Sum of chlorophyll from all phytoplankton group concentrations. In most models this is equal to chldiat+chlmisc, that is the sum of Diatom Chlorophyll Mass Concentration and Other Phytoplankton Chlorophyll Mass Concentration",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water at 200 meters",
     "units": "kg m-3",
-    "validation-key": "chl_tavg-op20bar-hxy-sea",
     "variable-root": "chl",
-    "vertical-label": "op20bar"
+    "vertical-label": "op20bar",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

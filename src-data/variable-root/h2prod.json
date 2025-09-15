@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "h2prod",
+    "validation-key": "h2prod",
+    "ui-label": "h2prod",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-molecular-hydrogen-due-to-chemical-production",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mole-concentration-of-molecular-hydrogen-due-to-chemical-production",
-    "ui-label": "h2prod",
-    "validation-key": "h2prod"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "wetoa-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "wetoa_tavg-u-hxy-u",
+    "ui-label": "Wet Deposition Rate of Dry Aerosol Total Organic Matter",
+    "description": "Deposition rate of organic matter in aerosols (measured by the dry mass) due to wet processes",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Deposition rate of organic matter in aerosols (measured by the dry mass) due to wet processes",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Wet Deposition Rate of Dry Aerosol Total Organic Matter",
     "units": "kg m-2 s-1",
-    "validation-key": "wetoa_tavg-u-hxy-u",
     "variable-root": "wetoa",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

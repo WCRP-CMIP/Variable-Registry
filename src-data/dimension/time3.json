@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "time3",
+    "validation-key": "time3",
+    "ui-label": "Diurnal Mean",
+    "description": "Diurnal cycle: monthly mean of the diurnal cycle (1 hour steps).",
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "spatial-shape": "",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "T",
-    "cf-standard-name": "time",
-    "description": "Diurnal cycle: monthly mean of the diurnal cycle (1 hour steps).",
-    "spatial-shape": "",
-    "ui-label": "Diurnal Mean",
-    "validation-key": "time3"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "hflslut",
+    "validation-key": "hflslut",
+    "ui-label": "hflsLut",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-latent-heat-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-upward-latent-heat-flux",
-    "ui-label": "hflsLut",
-    "validation-key": "hflslut"
+    ]
 }

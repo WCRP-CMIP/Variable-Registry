@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "mmrsoa-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "mmrsoa_tavg-al-hxy-u",
+    "ui-label": "Secondary Organic Aerosol Mass Mixing Ratio",
+    "description": "Mass fraction in the atmosphere of secondary organic aerosols (particulate organic matter formed within the atmosphere from gaseous precursors; dry mass).",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Mass fraction in the atmosphere of secondary organic aerosols (particulate organic matter formed within the atmosphere from gaseous precursors; dry mass).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_fraction_of_secondary_particulate_organic_matter_dry_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Secondary Organic Aerosol Mass Mixing Ratio",
     "units": "kg kg-1",
-    "validation-key": "mmrsoa_tavg-al-hxy-u",
     "variable-root": "mmrsoa",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "mrsow",
+    "validation-key": "mrsow",
+    "ui-label": "mrsow",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "volume-fraction-of-condensed-water-in-soil-at-field-capacity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "volume-fraction-of-condensed-water-in-soil-at-field-capacity",
-    "ui-label": "mrsow",
-    "validation-key": "mrsow"
+    ]
 }

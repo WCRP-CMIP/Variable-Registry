@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "ccn1",
+    "validation-key": "ccn1",
+    "ui-label": "ccn1",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "number-concentration-of-cloud-condensation-nuclei-assuming-reference-relative-humidity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "number-concentration-of-cloud-condensation-nuclei-assuming-reference-relative-humidity",
-    "ui-label": "ccn1",
-    "validation-key": "ccn1"
+    ]
 }

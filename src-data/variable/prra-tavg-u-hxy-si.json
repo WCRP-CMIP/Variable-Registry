@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "prra-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "prra_tavg-u-hxy-si",
+    "ui-label": "Rainfall Rate over Sea Ice",
+    "description": "Mass of liquid precipitation falling onto sea ice divided by grid-cell area. If the rain is directly put into the ocean, it should not be counted towards sipr. Always positive or zero.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Mass of liquid precipitation falling onto sea ice divided by grid-cell area. If the rain is directly put into the ocean, it should not be counted towards sipr. Always positive or zero.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "rainfall_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Rainfall Rate over Sea Ice",
     "units": "kg m-2 s-1",
-    "validation-key": "prra_tavg-u-hxy-si",
     "variable-root": "prra",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

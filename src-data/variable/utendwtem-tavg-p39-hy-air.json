@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "utendwtem-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "utendwtem_tavg-p39-hy-air",
+    "ui-label": "Tendency of Eastward Wind Due to TEM Upward Advection",
+    "description": "Zonal mean tendency of eastward wind due to TEM upward advection",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "Zonal mean tendency of eastward wind due to TEM upward advection",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_eastward_wind_due_to_advection_by_upward_transformed_eulerian_mean_air_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Eastward Wind Due to TEM Upward Advection",
     "units": "m s-2",
-    "validation-key": "utendwtem_tavg-p39-hy-air",
     "variable-root": "utendwtem",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "d100cm",
+    "validation-key": "d100cm",
+    "ui-label": "10 Centimeter Depth",
+    "description": "Variables at 10 centimeter depth below the surface, typically used for shallow soil temperature, moisture content, and near-surface subsurface conditions in land models.",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "Variables at 10 centimeter depth below the surface, typically used for shallow soil temperature, moisture content, and near-surface subsurface conditions in land models.",
-    "ui-label": "10 Centimeter Depth",
-    "validation-key": "d100cm"
+    ]
 }

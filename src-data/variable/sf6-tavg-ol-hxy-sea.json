@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sf6-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sf6_tavg-ol-hxy-sea",
+    "ui-label": "Mole Concentration of SF6 in Sea Water",
+    "description": "Mole concentration means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". The chemical formula of sulfur hexafluoride is SF6.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Mole concentration means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". The chemical formula of sulfur hexafluoride is SF6.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mole_concentration_of_sulfur_hexafluoride_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mole Concentration of SF6 in Sea Water",
     "units": "mol m-3",
-    "validation-key": "sf6_tavg-ol-hxy-sea",
     "variable-root": "sf6",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

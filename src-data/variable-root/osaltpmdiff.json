@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "osaltpmdiff",
+    "validation-key": "osaltpmdiff",
+    "ui-label": "osaltpmdiff",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-parameterized-mesoscale-eddy-diffusion",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-parameterized-mesoscale-eddy-diffusion",
-    "ui-label": "osaltpmdiff",
-    "validation-key": "osaltpmdiff"
+    ]
 }

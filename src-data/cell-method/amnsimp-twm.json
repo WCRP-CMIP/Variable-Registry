@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amnsimp-twm",
+    "validation-key": "amnsimp-twm",
+    "ui-label": "Weighted Time Mean in Sea-Ice Melt Ponds",
+    "description": "area: time: mean where sea_ice_melt_pond",
+    "mask": "simpconc",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: time: mean where sea_ice_melt_pond",
-    "mask": "simpconc",
-    "ui-label": "Weighted Time Mean in Sea-Ice Melt Ponds",
-    "validation-key": "amnsimp-twm"
+    ]
 }

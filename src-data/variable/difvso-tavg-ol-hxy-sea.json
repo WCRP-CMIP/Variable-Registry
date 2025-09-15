@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "difvso-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "difvso_tavg-ol-hxy-sea",
+    "ui-label": "Ocean Vertical Salt Diffusivity",
+    "description": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_vertical_salt_diffusivity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ocean Vertical Salt Diffusivity",
     "units": "m2 s-1",
-    "validation-key": "difvso_tavg-ol-hxy-sea",
     "variable-root": "difvso",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

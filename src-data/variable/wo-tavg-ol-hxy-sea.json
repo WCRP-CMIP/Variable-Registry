@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "wo-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "wo_tavg-ol-hxy-sea",
+    "ui-label": "Sea Water Vertical Velocity",
+    "description": "Prognostic z-ward velocity component resolved by the model.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Prognostic z-ward velocity component resolved by the model.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "upward_sea_water_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea Water Vertical Velocity",
     "units": "m s-1",
-    "validation-key": "wo_tavg-ol-hxy-sea",
     "variable-root": "wo",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

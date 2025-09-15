@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ocfriver-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ocfriver_tavg-u-hxy-sea",
+    "ui-label": "Flux of Organic Carbon into Ocean Surface by Runoff",
+    "description": "Organic Carbon supply to ocean through runoff (separate from gas exchange)",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Organic Carbon supply to ocean through runoff (separate from gas exchange)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_ocean_mole_content_of_organic_carbon_due_to_runoff_and_sediment_dissolution",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Flux of Organic Carbon into Ocean Surface by Runoff",
     "units": "mol m-2 s-1",
-    "validation-key": "ocfriver_tavg-u-hxy-sea",
     "variable-root": "ocfriver",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ua-tpt-p6-hxy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ua_tpt-p6-hxy-air",
+    "ui-label": "Eastward wind",
+    "description": "Zonal wind (positive in a eastward direction) on 6 pressure levels in the lower troposphere",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-tpt",
-    "description": "Zonal wind (positive in a eastward direction) on 6 pressure levels in the lower troposphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "eastward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Eastward wind",
     "units": "m s-1",
-    "validation-key": "ua_tpt-p6-hxy-air",
     "variable-root": "ua",
-    "vertical-label": "p6"
+    "vertical-label": "p6",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

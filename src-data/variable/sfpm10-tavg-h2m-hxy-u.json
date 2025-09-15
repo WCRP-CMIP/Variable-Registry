@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sfpm10-tavg-h2m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sfpm10_tavg-h2m-hxy-u",
+    "ui-label": "Hourly Surface PM10 Mixing Ratio",
+    "description": "Hourly PM10 Mass Mixing Ratio in Lowest Model Layer",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Hourly PM10 Mass Mixing Ratio in Lowest Model Layer",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_fraction_of_pm10_ambient_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Hourly Surface PM10 Mixing Ratio",
     "units": "kg kg-1",
-    "validation-key": "sfpm10_tavg-h2m-hxy-u",
     "variable-root": "sfpm10",
-    "vertical-label": "h2m"
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

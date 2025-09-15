@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tslsi-tpt-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tslsi_tpt-u-hxy-u",
+    "ui-label": "Surface Temperature Where Land or Sea Ice",
+    "description": "Surface temperature of all surfaces except open ocean, sampled synoptically.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amnlsi-tpt",
-    "description": "Surface temperature of all surfaces except open ocean, sampled synoptically.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_temperature",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Surface Temperature Where Land or Sea Ice",
     "units": "K",
-    "validation-key": "tslsi_tpt-u-hxy-u",
     "variable-root": "tslsi",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

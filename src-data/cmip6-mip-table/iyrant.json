@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "iyrant",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table IyrAnt containing variables",
-    "ui-label": "IyrAnt",
     "validation-key": "iyrant",
+    "ui-label": "IyrAnt",
+    "description": "CMIP6 CMOR table IyrAnt containing variables",
     "variables": [
         "acabf_tavg-u-hxy-is",
         "hfgeoubed_tavg-u-hxy-gis",
@@ -44,5 +37,12 @@
         "yvelsurf_tavg-u-hxy-is",
         "zvelbase_tavg-u-hxy-is",
         "zvelsurf_tavg-u-hxy-is"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

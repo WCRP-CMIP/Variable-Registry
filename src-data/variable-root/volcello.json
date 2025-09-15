@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "volcello",
+    "validation-key": "volcello",
+    "ui-label": "volcello",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-volume",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "ocean-volume",
-    "ui-label": "volcello",
-    "validation-key": "volcello"
+    ]
 }

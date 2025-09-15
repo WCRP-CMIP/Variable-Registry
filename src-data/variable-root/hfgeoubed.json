@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "hfgeoubed",
+    "validation-key": "hfgeoubed",
+    "ui-label": "hfgeoubed",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "upward-geothermal-heat-flux-at-ground-level-in-land-ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "upward-geothermal-heat-flux-at-ground-level-in-land-ice",
-    "ui-label": "hfgeoubed",
-    "validation-key": "hfgeoubed"
+    ]
 }

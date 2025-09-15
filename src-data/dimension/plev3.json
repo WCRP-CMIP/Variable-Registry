@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "plev3",
+    "validation-key": "plev3",
+    "ui-label": "Pressure Levels (3)",
+    "description": "",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "spatial-shape": "Global field (3 pressure levels)",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "",
-    "spatial-shape": "Global field (3 pressure levels)",
-    "ui-label": "Pressure Levels (3)",
-    "validation-key": "plev3"
+    ]
 }

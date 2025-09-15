@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "rh",
+    "validation-key": "rh",
+    "ui-label": "rh",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-heterotrophic-respiration",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-heterotrophic-respiration",
-    "ui-label": "rh",
-    "validation-key": "rh"
+    ]
 }

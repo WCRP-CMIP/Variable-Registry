@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tos-tpt-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tos_tpt-u-hxy-sea",
+    "ui-label": "Sea Surface Temperature",
+    "description": "temperature of surface of open ocean, sampled synoptically.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tpt",
-    "description": "temperature of surface of open ocean, sampled synoptically.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_surface_temperature",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Sea Surface Temperature",
     "units": "degC",
-    "validation-key": "tos_tpt-u-hxy-sea",
     "variable-root": "tos",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

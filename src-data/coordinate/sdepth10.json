@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sdepth10",
+    "validation-key": "sdepth10",
+    "ui-label": "depth",
+    "description": "coordinate value for topmost 1 meter layer of soil",
+    "axis-flag": "Z",
+    "cf-standard-name": "depth",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "depth",
-    "description": "coordinate value for topmost 1 meter layer of soil",
-    "ui-label": "depth",
-    "validation-key": "sdepth10"
+    ]
 }

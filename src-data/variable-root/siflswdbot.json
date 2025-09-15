@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "siflswdbot",
+    "validation-key": "siflswdbot",
+    "ui-label": "siflswdbot",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "downwelling-shortwave-flux-in-sea-water-at-sea-ice-base",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "downwelling-shortwave-flux-in-sea-water-at-sea-ice-base",
-    "ui-label": "siflswdbot",
-    "validation-key": "siflswdbot"
+    ]
 }

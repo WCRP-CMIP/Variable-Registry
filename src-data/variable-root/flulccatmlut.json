@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "flulccatmlut",
+    "validation-key": "flulccatmlut",
+    "ui-label": "fLulccAtmLut",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-anthropogenic-land-use-or-land-cover-change-excluding-forestry-and-agricultural-products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-anthropogenic-land-use-or-land-cover-change-excluding-forestry-and-agricultural-products",
-    "ui-label": "fLulccAtmLut",
-    "validation-key": "flulccatmlut"
+    ]
 }

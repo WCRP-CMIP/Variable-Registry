@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typetreene",
+    "validation-key": "typetreene",
+    "ui-label": "Tree area type (Needleleaf Evergreen)",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "Tree area type (Needleleaf Evergreen)",
-    "validation-key": "typetreene"
+    ]
 }

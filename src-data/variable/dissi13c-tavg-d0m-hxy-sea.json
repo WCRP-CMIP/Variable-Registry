@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "dissi13c-tavg-d0m-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "dissi13c_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Dissolved Inorganic Carbon-13 Concentration",
+    "description": "Dissolved inorganic 14carbon (CO3+HCO3+H2CO3) concentration",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Dissolved inorganic 14carbon (CO3+HCO3+H2CO3) concentration",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "mole_concentration_of_dissolved_inorganic_13C_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface Dissolved Inorganic Carbon-13 Concentration",
     "units": "mol m-3",
-    "validation-key": "dissi13c_tavg-d0m-hxy-sea",
     "variable-root": "dissi13c",
-    "vertical-label": "d0m"
+    "vertical-label": "d0m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

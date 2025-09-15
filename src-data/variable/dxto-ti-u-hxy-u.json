@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "dxto-ti-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "dxto_ti-u-hxy-u",
+    "ui-label": "Cell Length in the X Direction at t-points",
+    "description": "The linear extent of the cell in the x direction of the horizontal grid centered at t-points (points for tracers such as temperature, salinity, etc.). Not applicable to unstructured grids.",
     "area-label": "u",
     "cell-measures": "::MODEL",
     "cell-methods": "apt-fx",
-    "description": "The linear extent of the cell in the x direction of the horizontal grid centered at t-points (points for tracers such as temperature, salinity, etc.). Not applicable to unstructured grids.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -24,9 +21,12 @@
     "standard-name": "cell_x_length",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Cell Length in the X Direction at t-points",
     "units": "m",
-    "validation-key": "dxto_ti-u-hxy-u",
     "variable-root": "dxto",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sicompstren",
+    "validation-key": "sicompstren",
+    "ui-label": "sicompstren",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "compressive-strength-of-sea-ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "compressive-strength-of-sea-ice",
-    "ui-label": "sicompstren",
-    "validation-key": "sicompstren"
+    ]
 }

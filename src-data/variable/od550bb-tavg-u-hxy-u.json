@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "od550bb-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "od550bb_tavg-u-hxy-u",
+    "ui-label": "Aerosol Optical Depth at 550nm Due to Biomass Burning",
+    "description": "total organic aerosol AOD due to biomass burning (excluding so4, nitrate BB components)",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "total organic aerosol AOD due to biomass burning (excluding so4, nitrate BB components)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "atmosphere_optical_thickness_due_to_biomass_burning_particulate_matter_ambient_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Aerosol Optical Depth at 550nm Due to Biomass Burning",
     "units": "1",
-    "validation-key": "od550bb_tavg-u-hxy-u",
     "variable-root": "od550bb",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "op20bar",
+    "validation-key": "op20bar",
+    "ui-label": "Hydrostatic Pressure 20bar",
+    "description": "Coordinate level as hydrostatic pressure depth of 20bar (approximately 200m)",
+    "axis-flag": "Z",
+    "cf-standard-name": "sea_water_pressure_due_to_sea_water",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "sea_water_pressure_due_to_sea_water",
-    "description": "Coordinate level as hydrostatic pressure depth of 20bar (approximately 200m)",
-    "ui-label": "Hydrostatic Pressure 20bar",
-    "validation-key": "op20bar"
+    ]
 }

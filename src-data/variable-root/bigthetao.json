@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "bigthetao",
+    "validation-key": "bigthetao",
+    "ui-label": "bigthetao",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-water-conservative-temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-water-conservative-temperature",
-    "ui-label": "bigthetao",
-    "validation-key": "bigthetao"
+    ]
 }

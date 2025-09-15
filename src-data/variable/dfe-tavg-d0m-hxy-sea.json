@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "dfe-tavg-d0m-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "dfe_tavg-d0m-hxy-sea",
+    "ui-label": "Surface Dissolved Iron Concentration",
+    "description": "dissolved iron in sea water is meant to include both Fe2+ and Fe3+ ions (but not, e.g., particulate detrital iron)",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "dissolved iron in sea water is meant to include both Fe2+ and Fe3+ ions (but not, e.g., particulate detrital iron)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "mole_concentration_of_dissolved_iron_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface Dissolved Iron Concentration",
     "units": "mol m-3",
-    "validation-key": "dfe_tavg-d0m-hxy-sea",
     "variable-root": "dfe",
-    "vertical-label": "d0m"
+    "vertical-label": "d0m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

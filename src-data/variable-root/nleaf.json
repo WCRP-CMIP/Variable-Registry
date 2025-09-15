@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "nleaf",
+    "validation-key": "nleaf",
+    "ui-label": "nLeaf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "leaf-mass-content-of-nitrogen",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "leaf-mass-content-of-nitrogen",
-    "ui-label": "nLeaf",
-    "validation-key": "nleaf"
+    ]
 }

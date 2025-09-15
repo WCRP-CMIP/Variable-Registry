@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "nlitter",
+    "validation-key": "nlitter",
+    "ui-label": "nLitter",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "litter-mass-content-of-nitrogen",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "litter-mass-content-of-nitrogen",
-    "ui-label": "nLitter",
-    "validation-key": "nlitter"
+    ]
 }

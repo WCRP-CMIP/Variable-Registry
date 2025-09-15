@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "cdnc-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "cdnc_tavg-al-hxy-u",
+    "ui-label": "Cloud Liquid Droplet Number Concentration",
+    "description": "Cloud Droplet Number Concentration in liquid water clouds.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Cloud Droplet Number Concentration in liquid water clouds.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "number_concentration_of_cloud_liquid_water_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Cloud Liquid Droplet Number Concentration",
     "units": "m-3",
-    "validation-key": "cdnc_tavg-al-hxy-u",
     "variable-root": "cdnc",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

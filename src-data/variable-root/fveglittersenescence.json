@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "fveglittersenescence",
+    "validation-key": "fveglittersenescence",
+    "ui-label": "fVegLitterSenescence",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation-due-to-senescence",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation-due-to-senescence",
-    "ui-label": "fVegLitterSenescence",
-    "validation-key": "fveglittersenescence"
+    ]
 }

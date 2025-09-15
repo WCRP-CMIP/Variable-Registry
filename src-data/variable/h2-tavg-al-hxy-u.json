@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "h2-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "h2_tavg-al-hxy-u",
+    "ui-label": "H2 volume mixing ratio",
+    "description": "This is the mole fraction of molecular hydrogen (H2) in air",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "This is the mole fraction of molecular hydrogen (H2) in air",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mole_fraction_of_molecular_hydrogen_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "H2 volume mixing ratio",
     "units": "mol mol-1",
-    "validation-key": "h2_tavg-al-hxy-u",
     "variable-root": "h2",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "reffclws-tpt-al-hxys-scl",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "reffclws_tpt-al-hxys-scl",
+    "ui-label": "Stratiform Cloud Liquid Droplet Effective Radius",
+    "description": "alevel site time1",
     "area-label": "scl",
     "cell-measures": "",
     "cell-methods": "amnsc-tpt",
-    "description": "alevel site time1",
     "dimensions": [
         "alevel",
         "site",
@@ -25,9 +22,12 @@
     "standard-name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Stratiform Cloud Liquid Droplet Effective Radius",
     "units": "m",
-    "validation-key": "reffclws_tpt-al-hxys-scl",
     "variable-root": "reffclws",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

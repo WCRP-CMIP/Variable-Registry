@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "edt-tpt-al-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "edt_tpt-al-hxys-u",
+    "ui-label": "Eddy Diffusivity Coefficient for Temperature",
+    "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
-    "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
     "dimensions": [
         "alevel",
         "site",
@@ -25,9 +22,12 @@
     "standard-name": "atmosphere_heat_diffusivity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Eddy Diffusivity Coefficient for Temperature",
     "units": "m2 s-1",
-    "validation-key": "edt_tpt-al-hxys-u",
     "variable-root": "edt",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

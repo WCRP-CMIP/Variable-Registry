@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "emiaco",
+    "validation-key": "emiaco",
+    "ui-label": "emiaco",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-carbon-monoxide-due-to-emission",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-carbon-monoxide-due-to-emission",
-    "ui-label": "emiaco",
-    "validation-key": "emiaco"
+    ]
 }

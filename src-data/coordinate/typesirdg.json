@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typesirdg",
+    "validation-key": "typesirdg",
+    "ui-label": "Sea Ice Ridge  area type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "Sea Ice Ridge  area type",
-    "validation-key": "typesirdg"
+    ]
 }

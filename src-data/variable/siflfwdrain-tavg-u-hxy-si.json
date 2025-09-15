@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "siflfwdrain-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "siflfwdrain_tavg-u-hxy-si",
+    "ui-label": "Freshwater Flux from Sea-Ice Surface",
+    "description": "Total flux of fresh water from sea-ice surface into underlying ocean divided by grid-cell area. This combines both surface meltwater that drains directly into the ocean and the drainage of surface melt ponds. By definition, this flux is always positive.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Total flux of fresh water from sea-ice surface into underlying ocean divided by grid-cell area. This combines both surface meltwater that drains directly into the ocean and the drainage of surface melt ponds. By definition, this flux is always positive.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "water_flux_into_sea_water_due_to_surface_drainage",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Freshwater Flux from Sea-Ice Surface",
     "units": "kg m-2 s-1",
-    "validation-key": "siflfwdrain_tavg-u-hxy-si",
     "variable-root": "siflfwdrain",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

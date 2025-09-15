@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "lat",
+    "validation-key": "lat",
+    "ui-label": "lat",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "latitude",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "latitude",
-    "ui-label": "lat",
-    "validation-key": "lat"
+    ]
 }

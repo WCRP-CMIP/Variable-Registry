@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "cother",
+    "validation-key": "cother",
+    "ui-label": "cOther",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "miscellaneous-living-matter-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "miscellaneous-living-matter-mass-content-of-carbon",
-    "ui-label": "cOther",
-    "validation-key": "cother"
+    ]
 }

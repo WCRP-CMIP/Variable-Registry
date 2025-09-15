@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hfgeoubed-ti-u-hxy-gis",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hfgeoubed_ti-u-hxy-gis",
+    "ui-label": "Geothermal Heat Flux Beneath Land Ice",
+    "description": "Geothermal Heat Flux Beneath Land Ice",
     "area-label": "gis",
     "cell-measures": "area: areacellg",
     "cell-methods": "amngi-fx",
-    "description": "Geothermal Heat Flux Beneath Land Ice",
     "dimensions": [
         "xgre",
         "ygre"
@@ -24,9 +21,12 @@
     "standard-name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Geothermal Heat Flux Beneath Land Ice",
     "units": "W m-2",
-    "validation-key": "hfgeoubed_ti-u-hxy-gis",
     "variable-root": "hfgeoubed",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

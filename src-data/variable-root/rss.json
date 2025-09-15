@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "rss",
+    "validation-key": "rss",
+    "ui-label": "rss",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-net-downward-shortwave-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-net-downward-shortwave-flux",
-    "ui-label": "rss",
-    "validation-key": "rss"
+    ]
 }

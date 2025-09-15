@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "limndiaz-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "limndiaz_tavg-u-hxy-sea",
+    "ui-label": "Nitrogen Limitation of Diazotrophs",
+    "description": "In ocean modelling, diazotrophs are phytoplankton of the phylum cyanobacteria distinct from other phytoplankton groups in their ability to fix nitrogen gas in addition to nitrate and ammonium. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Nitrogen growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "In ocean modelling, diazotrophs are phytoplankton of the phylum cyanobacteria distinct from other phytoplankton groups in their ability to fix nitrogen gas in addition to nitrate and ammonium. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Nitrogen growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "nitrogen_growth_limitation_of_diazotrophic_phytoplankton",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Nitrogen Limitation of Diazotrophs",
     "units": "1",
-    "validation-key": "limndiaz_tavg-u-hxy-sea",
     "variable-root": "limndiaz",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

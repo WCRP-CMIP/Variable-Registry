@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ci-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ci_tavg-u-hxy-u",
+    "ui-label": "Fraction of Time Convection Occurs in Cell",
+    "description": "Fraction of time that convection occurs in the grid cell .",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Fraction of time that convection occurs in the grid cell .",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "convection_time_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Fraction of Time Convection Occurs in Cell",
     "units": "1",
-    "validation-key": "ci_tavg-u-hxy-u",
     "variable-root": "ci",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

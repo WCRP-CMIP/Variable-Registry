@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amn-ts",
+    "validation-key": "amn-ts",
+    "ui-label": "Area Mean and Time Sum",
+    "description": "area: mean time: sum",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: mean time: sum",
-    "mask": "",
-    "ui-label": "Area Mean and Time Sum",
-    "validation-key": "amn-ts"
+    ]
 }

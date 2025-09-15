@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "unknown02",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "unknown02",
+    "ui-label": "Total Significant Wave Height",
+    "description": "Average height of the highest one-third of waves present in the sea state, incorporating both wind-sea and swell waves. This is a key parameter for describing wave energy and is derived from the wave spectrum using spectral moments. Specifically, this parameter is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
     "area-label": "unknown02",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Average height of the highest one-third of waves present in the sea state, incorporating both wind-sea and swell waves. This is a key parameter for describing wave energy and is derived from the wave spectrum using spectral moments. Specifically, this parameter is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_surface_wave_significant_height",
     "temporal-label": "unknown02",
     "temporal-shape": "time-point",
-    "ui-label": "Total Significant Wave Height",
     "units": "m",
-    "validation-key": "unknown02",
     "variable-root": "unknown02",
-    "vertical-label": "unknown02"
+    "vertical-label": "unknown02",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

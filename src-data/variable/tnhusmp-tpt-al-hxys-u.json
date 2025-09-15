@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tnhusmp-tpt-al-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tnhusmp_tpt-al-hxys-u",
+    "ui-label": "Tendency of Specific Humidity Due to Model Physics",
+    "description": "This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physicsl.  For example any diffusive mixing by the boundary layer scheme would be included.",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
-    "description": "This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physicsl.  For example any diffusive mixing by the boundary layer scheme would be included.",
     "dimensions": [
         "alevel",
         "site",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_specific_humidity_due_to_model_physics",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Tendency of Specific Humidity Due to Model Physics",
     "units": "s-1",
-    "validation-key": "tnhusmp_tpt-al-hxys-u",
     "variable-root": "tnhusmp",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

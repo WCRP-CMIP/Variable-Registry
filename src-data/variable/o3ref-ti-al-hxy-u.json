@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "o3ref-ti-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "o3ref_ti-al-hxy-u",
+    "ui-label": "Fixed Reference Mole Fraction of Ozone in Air",
+    "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
-    "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "reference_mole_fraction_of_ozone_in_air",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Fixed Reference Mole Fraction of Ozone in Air",
     "units": "mol mol-1",
-    "validation-key": "o3ref_ti-al-hxy-u",
     "variable-root": "o3ref",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

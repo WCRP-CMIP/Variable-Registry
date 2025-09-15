@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ta-tavg-700hpa-hxy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ta_tavg-700hPa-hxy-air",
+    "ui-label": "Air Temperature",
+    "description": "Air temperature at 700hPa",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
-    "description": "Air temperature at 700hPa",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Air Temperature",
     "units": "K",
-    "validation-key": "ta_tavg-700hPa-hxy-air",
     "variable-root": "ta",
-    "vertical-label": "700hPa"
+    "vertical-label": "700hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

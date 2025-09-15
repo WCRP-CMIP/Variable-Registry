@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tauv-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tauv_tavg-u-hxy-u",
+    "ui-label": "Surface Downward Northward Wind Stress",
+    "description": "surface, now requesting daily output.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "surface, now requesting daily output.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_downward_northward_stress",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface Downward Northward Wind Stress",
     "units": "Pa",
-    "validation-key": "tauv_tavg-u-hxy-u",
     "variable-root": "tauv",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

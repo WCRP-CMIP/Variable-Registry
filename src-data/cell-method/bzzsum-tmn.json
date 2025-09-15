@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "bzzsum-tmn",
+    "validation-key": "bzzsum-tmn",
+    "ui-label": "Basin Zig-Zag Zonal Sum",
+    "description": "longitude: sum (basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "longitude: sum (basin sum [along zig-zag grid path]) depth: sum time: mean",
-    "mask": "",
-    "ui-label": "Basin Zig-Zag Zonal Sum",
-    "validation-key": "bzzsum-tmn"
+    ]
 }

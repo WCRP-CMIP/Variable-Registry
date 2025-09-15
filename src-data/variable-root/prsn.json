@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "prsn",
+    "validation-key": "prsn",
+    "ui-label": "prsn",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "snowfall-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "snowfall-flux",
-    "ui-label": "prsn",
-    "validation-key": "prsn"
+    ]
 }

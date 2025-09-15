@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "plev27",
+    "validation-key": "plev27",
+    "ui-label": "Pressure Levels (27)",
+    "description": "Used to give extra resolution for HighResMIP monthly mean diagnostics.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "spatial-shape": "Global field (27 pressure levels)",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "Used to give extra resolution for HighResMIP monthly mean diagnostics.",
-    "spatial-shape": "Global field (27 pressure levels)",
-    "ui-label": "Pressure Levels (27)",
-    "validation-key": "plev27"
+    ]
 }

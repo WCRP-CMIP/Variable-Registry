@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "yvelmean-tavg-u-hxy-is",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "yvelmean_tavg-u-hxy-is",
+    "ui-label": "Y-Component of Land Ice Vertical Mean Velocity",
+    "description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-twm",
-    "description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
     "dimensions": [
         "xgre",
         "ygre",
@@ -25,9 +22,12 @@
     "standard-name": "land_ice_vertical_mean_y_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Y-Component of Land Ice Vertical Mean Velocity",
     "units": "m s-1",
-    "validation-key": "yvelmean_tavg-u-hxy-is",
     "variable-root": "yvelmean",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

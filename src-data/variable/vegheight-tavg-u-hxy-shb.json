@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vegheight-tavg-u-hxy-shb",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vegHeight_tavg-u-hxy-shb",
+    "ui-label": "Height of Shrubs",
+    "description": "Vegetation height averaged over the shrub fraction of a grid cell.",
     "area-label": "shb",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where shrubs (mask=shrubFrac) not found in cell methods, please register",
-    "description": "Vegetation height averaged over the shrub fraction of a grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "canopy_height",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Height of Shrubs",
     "units": "m",
-    "validation-key": "vegHeight_tavg-u-hxy-shb",
     "variable-root": "vegHeight",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

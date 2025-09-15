@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "alevel",
+    "validation-key": "alevel",
+    "ui-label": "Atmospheric Model Level",
+    "description": "Generic atmospheric model vertical coordinate (nondimensional or dimensional) [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+    "axis-flag": "Z",
+    "cf-standard-name": "x",
+    "spatial-shape": "Atmospheric profiles at specified sites,Global field on model atmosphere levels,Zonal mean (on model levels)",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "x",
-    "description": "Generic atmospheric model vertical coordinate (nondimensional or dimensional) [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
-    "spatial-shape": "Atmospheric profiles at specified sites,Global field on model atmosphere levels,Zonal mean (on model levels)",
-    "ui-label": "Atmospheric Model Level",
-    "validation-key": "alevel"
+    ]
 }

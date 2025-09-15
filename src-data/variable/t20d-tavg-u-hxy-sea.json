@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "t20d-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "t20d_tavg-u-hxy-sea",
+    "ui-label": "Depth of 20 degree Celsius Isotherm",
+    "description": "Monthly 20C isotherm depth",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Monthly 20C isotherm depth",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "depth_of_isosurface_of_sea_water_potential_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Depth of 20 degree Celsius Isotherm",
     "units": "m",
-    "validation-key": "t20d_tavg-u-hxy-sea",
     "variable-root": "t20d",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

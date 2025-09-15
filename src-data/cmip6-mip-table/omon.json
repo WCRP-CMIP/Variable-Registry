@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "omon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table Omon containing variables",
-    "ui-label": "Omon",
     "validation-key": "omon",
+    "ui-label": "Omon",
+    "description": "CMIP6 CMOR table Omon containing variables",
     "variables": [
         "absscint_tavg-op4-hxy-sea",
         "agessc_tavg-ol-hxy-sea",
@@ -288,5 +281,12 @@
         "zos_tavg-u-hxy-sea",
         "zossq_tavg-u-hxy-sea",
         "zostoga_tavg-u-hm-sea"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "intpppico",
+    "validation-key": "intpppico",
+    "ui-label": "intpppico",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-picophytoplankton",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-picophytoplankton",
-    "ui-label": "intpppico",
-    "validation-key": "intpppico"
+    ]
 }

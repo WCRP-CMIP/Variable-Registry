@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "emic2h4",
+    "validation-key": "emic2h4",
+    "ui-label": "emic2h4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-ethene-due-to-emission",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-ethene-due-to-emission",
-    "ui-label": "emic2h4",
-    "validation-key": "emic2h4"
+    ]
 }

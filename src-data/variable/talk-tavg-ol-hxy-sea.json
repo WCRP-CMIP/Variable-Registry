@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "talk-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "talk_tavg-ol-hxy-sea",
+    "ui-label": "Total Alkalinity",
+    "description": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components)",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "sea_water_alkalinity_expressed_as_mole_equivalent",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Total Alkalinity",
     "units": "mol m-3",
-    "validation-key": "talk_tavg-ol-hxy-sea",
     "variable-root": "talk",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

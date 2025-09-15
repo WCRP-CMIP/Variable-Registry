@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "v1.2.2",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip7",
-        "wcrp:data-request"
-    ],
-    "description": "Data request version 1.2.2 variables",
-    "ui-label": "SImon",
     "validation-key": "v1.2.2",
+    "ui-label": "SImon",
+    "description": "Data request version 1.2.2 variables",
     "variables": [
         "clt_tavg-u-hxy-u",
         "evspsblsoi_tavg-u-hxy-u",
@@ -2002,5 +1995,12 @@
         "sivol_tavg-u-hm-u",
         "sivol_tavg-u-hm-u",
         "siv_tavg-u-hxy-si"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip7",
+        "wcrp:data-request"
     ]
 }

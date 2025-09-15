@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tntscpbl-tpt-al-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tntscpbl_tpt-al-hxys-u",
+    "ui-label": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
+    "description": "To be specified only in  models which do not separate cloud, precipitation and boundary layer terms.  Includes all boundary layer terms including diffusive ones.",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
-    "description": "To be specified only in  models which do not separate cloud, precipitation and boundary layer terms.  Includes all boundary layer terms including diffusive ones.",
     "dimensions": [
         "alevel",
         "site",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
     "units": "K s-1",
-    "validation-key": "tntscpbl_tpt-al-hxys-u",
     "variable-root": "tntscpbl",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

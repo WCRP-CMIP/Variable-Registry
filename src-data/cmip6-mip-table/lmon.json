@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "lmon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table Lmon containing variables",
-    "ui-label": "Lmon",
     "validation-key": "lmon",
+    "ui-label": "Lmon",
+    "description": "CMIP6 CMOR table Lmon containing variables",
     "variables": [
         "baresoilFrac_tavg-u-hxy-u",
         "burntFractionAll_tavg-u-hxy-u",
@@ -51,5 +44,12 @@
         "tran_tavg-u-hxy-lnd",
         "treeFrac_tavg-u-hxy-u",
         "tsl_tavg-sl-hxy-lnd"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

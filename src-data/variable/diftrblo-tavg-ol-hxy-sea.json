@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "diftrblo-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "diftrblo_tavg-ol-hxy-sea",
+    "ui-label": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
+    "description": "Ocean tracer diffusivity associated with parameterized eddy-induced advective transport. Sometimes this diffusivity is called the \"thickness\" diffusivity. For CMIP5, this diagnostic was called \"ocean tracer bolus laplacian diffusivity\".  The CMIP6 name is physically more relevant.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Ocean tracer diffusivity associated with parameterized eddy-induced advective transport. Sometimes this diffusivity is called the \"thickness\" diffusivity. For CMIP5, this diagnostic was called \"ocean tracer bolus laplacian diffusivity\".  The CMIP6 name is physically more relevant.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_tracer_laplacian_diffusivity_due_to_parameterized_mesoscale_eddy_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
     "units": "m2 s-1",
-    "validation-key": "diftrblo_tavg-ol-hxy-sea",
     "variable-root": "diftrblo",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

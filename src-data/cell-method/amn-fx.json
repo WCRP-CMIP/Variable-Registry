@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amn-fx",
+    "validation-key": "amn-fx",
+    "ui-label": "Fixed Area Mean",
+    "description": "area: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: mean",
-    "mask": "",
-    "ui-label": "Fixed Area Mean",
-    "validation-key": "amn-fx"
+    ]
 }

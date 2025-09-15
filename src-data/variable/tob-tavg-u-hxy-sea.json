@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tob-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tob_tavg-u-hxy-sea",
+    "ui-label": "Sea Water Potential Temperature at Sea Floor",
+    "description": "Potential temperature at the ocean bottom-most grid cell.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Potential temperature at the ocean bottom-most grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "sea_water_potential_temperature_at_sea_floor",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea Water Potential Temperature at Sea Floor",
     "units": "degC",
-    "validation-key": "tob_tavg-u-hxy-sea",
     "variable-root": "tob",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

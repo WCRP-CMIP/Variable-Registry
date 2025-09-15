@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "clt-tavg-u-hxy-lnd",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "clt_tavg-u-hxy-lnd",
+    "ui-label": "Total Cloud Cover Percentage",
+    "description": "Total cloud fraction",
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "Total cloud fraction",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "cloud_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Total Cloud Cover Percentage",
     "units": "%",
-    "validation-key": "clt_tavg-u-hxy-lnd",
     "variable-root": "clt",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

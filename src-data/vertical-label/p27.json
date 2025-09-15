@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "p27",
+    "validation-key": "p27",
+    "ui-label": "27 Pressure Levels",
+    "description": "Variables interpolated to a standard set of 27 pressure levels providing higher vertical resolution through the atmosphere. Used for detailed atmospheric profiling and high-resolution analysis of vertical structure.",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "Variables interpolated to a standard set of 27 pressure levels providing higher vertical resolution through the atmosphere. Used for detailed atmospheric profiling and high-resolution analysis of vertical structure.",
-    "ui-label": "27 Pressure Levels",
-    "validation-key": "p27"
+    ]
 }

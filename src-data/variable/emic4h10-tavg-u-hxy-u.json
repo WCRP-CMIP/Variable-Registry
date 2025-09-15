@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "emic4h10-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "emic4h10_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C4H10",
+    "description": "This is the total emission rate of butane (C4H10) into the atmosphere",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "This is the total emission rate of butane (C4H10) into the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_butane_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "total emission rate of C4H10",
     "units": "kg m-2 s-1",
-    "validation-key": "emic4h10_tavg-u-hxy-u",
     "variable-root": "emic4h10",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

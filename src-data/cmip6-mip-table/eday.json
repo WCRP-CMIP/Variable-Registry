@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "eday",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table Eday containing variables",
-    "ui-label": "Eday",
     "validation-key": "eday",
+    "ui-label": "Eday",
+    "description": "CMIP6 CMOR table Eday containing variables",
     "variables": [
         "ccldncl_tavg-u-hxy-ccl",
         "cldnci_tavg-u-hxy-cl",
@@ -106,5 +99,12 @@
         "vtendnogw_tavg-p19-hxy-air",
         "vtendogw_tavg-p19-hxy-air",
         "wtd_tavg-u-hxy-lnd"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

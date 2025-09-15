@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vtem-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vtem_tavg-p39-hy-air",
+    "ui-label": "Transformed Eulerian Mean Northward Wind",
+    "description": "Transformed Eulerian Mean Diagnostics v\\*, meridional component of the residual meridional circulation (v\\*, w\\*) derived from 6 hr or higher frequency data fields (use instantaneous daily fields or 12 hr fields if the 6 hr data are not available).",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "Transformed Eulerian Mean Diagnostics v\\*, meridional component of the residual meridional circulation (v\\*, w\\*) derived from 6 hr or higher frequency data fields (use instantaneous daily fields or 12 hr fields if the 6 hr data are not available).",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "northward_transformed_eulerian_mean_air_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Transformed Eulerian Mean Northward Wind",
     "units": "m s-1",
-    "validation-key": "vtem_tavg-p39-hy-air",
     "variable-root": "vtem",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

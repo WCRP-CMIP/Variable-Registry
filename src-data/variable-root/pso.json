@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "pso",
+    "validation-key": "pso",
+    "ui-label": "pso",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-water-pressure-at-sea-water-surface",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-water-pressure-at-sea-water-surface",
-    "ui-label": "pso",
-    "validation-key": "pso"
+    ]
 }

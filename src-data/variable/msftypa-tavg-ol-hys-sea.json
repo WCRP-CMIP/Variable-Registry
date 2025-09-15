@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "msftypa-tavg-ol-hys-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "msftypa_tavg-ol-hys-sea",
+    "ui-label": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "Error: grid_longitude: sum where sea time: mean not found in cell methods, please register",
-    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
     "dimensions": [
         "gridlatitude",
         "olevel",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_y_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "units": "kg s-1",
-    "validation-key": "msftypa_tavg-ol-hys-sea",
     "variable-root": "msftypa",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

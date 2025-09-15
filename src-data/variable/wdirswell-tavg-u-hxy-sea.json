@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "wdirswell-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "wdirswell_tavg-u-hxy-sea",
+    "ui-label": "Swell Wave Direction",
+    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area). This variable is usually expressed in degrees relative to true north.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area). This variable is usually expressed in degrees relative to true north.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_surface_swell_wave_from_direction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Swell Wave Direction",
     "units": "degree",
-    "validation-key": "wdirswell_tavg-u-hxy-sea",
     "variable-root": "wdirswell",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

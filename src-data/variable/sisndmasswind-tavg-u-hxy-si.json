@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sisndmasswind-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sisndmasswind_tavg-u-hxy-si",
+    "ui-label": "Snow Mass Rate of Change Through Wind Drift of Snow",
+    "description": "Rate of change of snow mass due to wind-driven transport into the ocean divided by grid-cell area.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Rate of change of snow mass due to wind-driven transport into the ocean divided by grid-cell area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_surface_snow_amount_due_to_drifting_into_sea",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Mass Rate of Change Through Wind Drift of Snow",
     "units": "kg m-2 s-1",
-    "validation-key": "sisndmasswind_tavg-u-hxy-si",
     "variable-root": "sisndmasswind",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

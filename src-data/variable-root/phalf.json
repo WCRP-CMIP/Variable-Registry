@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "phalf",
+    "validation-key": "phalf",
+    "ui-label": "phalf",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "air-pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "air-pressure",
-    "ui-label": "phalf",
-    "validation-key": "phalf"
+    ]
 }

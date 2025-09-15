@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "lithk-ti-u-hxy-is",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "lithk_ti-u-hxy-is",
+    "ui-label": "Ice Sheet Thickness",
+    "description": "The thickness of the ice sheet",
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-fx",
-    "description": "The thickness of the ice sheet",
     "dimensions": [
         "xgre",
         "ygre"
@@ -24,9 +21,12 @@
     "standard-name": "land_ice_thickness",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Ice Sheet Thickness",
     "units": "m",
-    "validation-key": "lithk_ti-u-hxy-is",
     "variable-root": "lithk",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

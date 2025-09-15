@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "pr17o",
+    "validation-key": "pr17o",
+    "ui-label": "pr17O",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "precipitation-flux-containing-17o",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "precipitation-flux-containing-17o",
-    "ui-label": "pr17O",
-    "validation-key": "pr17o"
+    ]
 }

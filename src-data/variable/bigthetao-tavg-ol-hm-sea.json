@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "bigthetao-tavg-ol-hm-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "bigthetao_tavg-ol-hm-sea",
+    "ui-label": "Global Average Sea Water Conservative Temperature",
+    "description": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "amns-tmn",
-    "description": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
     "dimensions": [
         "olevel",
         "time"
@@ -24,9 +21,12 @@
     "standard-name": "sea_water_conservative_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Global Average Sea Water Conservative Temperature",
     "units": "degC",
-    "validation-key": "bigthetao_tavg-ol-hm-sea",
     "variable-root": "bigthetao",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

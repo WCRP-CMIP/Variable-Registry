@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "reffclic-tpt-al-hxy-ccl",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "reffclic_tpt-al-hxy-ccl",
+    "ui-label": "Hydrometeor Effective Radius of Convective Cloud Ice",
+    "description": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
     "area-label": "ccl",
     "cell-measures": "area: areacella",
     "cell-methods": "amncc-tpt",
-    "description": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "effective_radius_of_convective_cloud_ice_particles",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Hydrometeor Effective Radius of Convective Cloud Ice",
     "units": "m",
-    "validation-key": "reffclic_tpt-al-hxy-ccl",
     "variable-root": "reffclic",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

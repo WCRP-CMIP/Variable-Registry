@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "fvegfire-tavg-u-hxy-lnd",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "fVegFire_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
+    "description": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources",
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_vegetation_in_fires",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
-    "validation-key": "fVegFire_tavg-u-hxy-lnd",
     "variable-root": "fVegFire",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

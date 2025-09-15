@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "pfull-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "pfull_tavg-al-hxy-u",
+    "ui-label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Air pressure on model levels",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "air_pressure",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Pressure at Model Full-Levels",
     "units": "Pa",
-    "validation-key": "pfull_tavg-al-hxy-u",
     "variable-root": "pfull",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

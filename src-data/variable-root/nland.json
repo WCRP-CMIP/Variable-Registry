@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "nland",
+    "validation-key": "nland",
+    "ui-label": "nLand",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass-content-of-nitrogen-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "mass-content-of-nitrogen-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
-    "ui-label": "nLand",
-    "validation-key": "nland"
+    ]
 }

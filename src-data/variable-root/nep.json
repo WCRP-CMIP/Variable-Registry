@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "nep",
+    "validation-key": "nep",
+    "ui-label": "nep",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes-excluding-anthropogenic-land-use-change",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes-excluding-anthropogenic-land-use-change",
-    "ui-label": "nep",
-    "validation-key": "nep"
+    ]
 }

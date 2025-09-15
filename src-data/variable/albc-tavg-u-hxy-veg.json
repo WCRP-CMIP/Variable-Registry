@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "albc-tavg-u-hxy-veg",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "albc_tavg-u-hxy-veg",
+    "ui-label": "Canopy Albedo",
+    "description": "Canopy Albedo",
     "area-label": "veg",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "Canopy Albedo",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "canopy_albedo",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Canopy Albedo",
     "units": "1",
-    "validation-key": "albc_tavg-u-hxy-veg",
     "variable-root": "albc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

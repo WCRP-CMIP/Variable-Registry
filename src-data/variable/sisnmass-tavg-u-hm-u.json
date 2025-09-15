@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sisnmass-tavg-u-hm-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sisnmass_tavg-u-hm-u",
+    "ui-label": "Snow Mass on Sea Ice South",
+    "description": "Total integrated mass of snow on sea ice in the Southern Hemisphere.",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "asm-tmn",
-    "description": "Total integrated mass of snow on sea ice in the Southern Hemisphere.",
     "dimensions": [
         "time"
     ],
@@ -23,9 +20,12 @@
     "standard-name": "surface_snow_mass",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Mass on Sea Ice South",
     "units": "kg",
-    "validation-key": "sisnmass_tavg-u-hm-u",
     "variable-root": "sisnmass",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

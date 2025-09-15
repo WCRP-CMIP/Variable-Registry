@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "tslsi",
+    "validation-key": "tslsi",
+    "ui-label": "tslsi",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-temperature",
-    "ui-label": "tslsi",
-    "validation-key": "tslsi"
+    ]
 }

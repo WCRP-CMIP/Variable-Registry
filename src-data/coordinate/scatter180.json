@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "scatter180",
+    "validation-key": "scatter180",
+    "ui-label": "Scattering Angle",
+    "description": "Angle of scattering relative to direction of incident radiation",
+    "axis-flag": "",
+    "cf-standard-name": "scattering_angle",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "scattering_angle",
-    "description": "Angle of scattering relative to direction of incident radiation",
-    "ui-label": "Scattering Angle",
-    "validation-key": "scatter180"
+    ]
 }

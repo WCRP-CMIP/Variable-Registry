@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sisndmasssi",
+    "validation-key": "sisndmasssi",
+    "ui-label": "sisndmasssi",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-surface-snow-amount-due-to-conversion-of-snow-to-sea-ice",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-surface-snow-amount-due-to-conversion-of-snow-to-sea-ice",
-    "ui-label": "sisndmasssi",
-    "validation-key": "sisndmasssi"
+    ]
 }

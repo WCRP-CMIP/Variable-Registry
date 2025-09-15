@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ufs",
+    "validation-key": "ufs",
+    "ui-label": "Unfrozen Soil",
+    "description": "Variables calculated over unfrozen soil areas, where soil temperature remains above freezing. Includes soil thermal properties, water content, and biogeochemical processes in non-permafrost regions.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over unfrozen soil areas, where soil temperature remains above freezing. Includes soil thermal properties, water content, and biogeochemical processes in non-permafrost regions.",
-    "ui-label": "Unfrozen Soil",
-    "validation-key": "ufs"
+    ]
 }

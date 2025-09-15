@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "h2o-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "h2o_tavg-al-hxy-u",
+    "ui-label": "Mass Fraction of Water",
+    "description": "includes all phases of water",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "includes all phases of water",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_fraction_of_water_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mass Fraction of Water",
     "units": "1",
-    "validation-key": "h2o_tavg-al-hxy-u",
     "variable-root": "h2o",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

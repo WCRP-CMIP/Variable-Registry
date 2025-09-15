@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "vsm-clim",
+    "validation-key": "vsm-clim",
+    "ui-label": "Integral over Atmospheric Volume and Time Climatology",
+    "description": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
-    "mask": "",
-    "ui-label": "Integral over Atmospheric Volume and Time Climatology",
-    "validation-key": "vsm-clim"
+    ]
 }

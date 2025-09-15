@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typewetla",
+    "validation-key": "typewetla",
+    "ui-label": "Wetland",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "Wetland",
-    "validation-key": "typewetla"
+    ]
 }

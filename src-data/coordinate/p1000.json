@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "p1000",
+    "validation-key": "p1000",
+    "ui-label": "pressure",
+    "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
-    "ui-label": "pressure",
-    "validation-key": "p1000"
+    ]
 }

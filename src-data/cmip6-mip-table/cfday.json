@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "cfday",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table CFday containing variables",
-    "ui-label": "CFday",
     "validation-key": "cfday",
+    "ui-label": "CFday",
+    "description": "CMIP6 CMOR table CFday containing variables",
     "variables": [
         "albisccp_tavg-u-hxy-cl",
         "ccb_tavg-u-hxy-ccl",
@@ -48,5 +41,12 @@
         "wap_tavg-al-hxy-u",
         "wap_tavg-500hPa-hxy-air",
         "zg_tavg-al-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

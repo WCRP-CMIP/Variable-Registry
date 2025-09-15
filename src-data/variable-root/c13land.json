@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "c13land",
+    "validation-key": "c13land",
+    "ui-label": "c13Land",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mass-content-of-13c-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "mass-content-of-13c-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
-    "ui-label": "c13Land",
-    "validation-key": "c13land"
+    ]
 }

@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "sdepth",
+    "validation-key": "sdepth",
+    "ui-label": "depth",
+    "description": "Soil layers (depth). If soil layer thicknesses vary from one location to another, interpolate to a standard set of depths.  Ideally, the interpolation should preserve the vertical integral where appropriate (e.g. for layer mass content).",
+    "axis-flag": "Z",
+    "cf-standard-name": "depth",
+    "spatial-shape": "Global field on soil levels",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "depth",
-    "description": "Soil layers (depth). If soil layer thicknesses vary from one location to another, interpolate to a standard set of depths.  Ideally, the interpolation should preserve the vertical integral where appropriate (e.g. for layer mass content).",
-    "spatial-shape": "Global field on soil levels",
-    "ui-label": "depth",
-    "validation-key": "sdepth"
+    ]
 }

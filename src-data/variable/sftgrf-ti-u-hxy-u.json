@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sftgrf-ti-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sftgrf_ti-u-hxy-u",
+    "ui-label": "Grounded Ice Sheet Area Percentage",
+    "description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land_ice is by definition ice sheet, glacier and ice shelves",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
-    "description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land_ice is by definition ice sheet, glacier and ice shelves",
     "dimensions": [
         "longitude",
         "latitude"
@@ -24,9 +21,12 @@
     "standard-name": "grounded_ice_sheet_area_fraction",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Grounded Ice Sheet Area Percentage",
     "units": "%",
-    "validation-key": "sftgrf_ti-u-hxy-u",
     "variable-root": "sftgrf",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "mpw",
+    "validation-key": "mpw",
+    "ui-label": "mpw",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-surface-wave-mean-period",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-surface-wave-mean-period",
-    "ui-label": "mpw",
-    "validation-key": "mpw"
+    ]
 }

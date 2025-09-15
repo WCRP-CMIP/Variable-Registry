@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "cwood-tavg-u-hxy-lnd",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "cWood_tavg-u-hxy-lnd",
+    "ui-label": "Carbon Mass in Wood",
+    "description": "Carbon Mass in Wood",
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "Carbon Mass in Wood",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "stem_mass_content_of_carbon",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Carbon Mass in Wood",
     "units": "kg m-2",
-    "validation-key": "cWood_tavg-u-hxy-lnd",
     "variable-root": "cWood",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

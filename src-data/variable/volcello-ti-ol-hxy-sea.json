@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "volcello-ti-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "volcello_ti-ol-hxy-sea",
+    "ui-label": "Ocean Grid-Cell Volume",
+    "description": "For oceans with more than 1 mesh (e.g. staggered grids), report areas that apply to surface vertical fluxes of energy. If this field is time-dependent then save it instead as one of your Omon and Odec fields",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "Error: area: sum where sea not found in cell methods, please register",
-    "description": "For oceans with more than 1 mesh (e.g. staggered grids), report areas that apply to surface vertical fluxes of energy. If this field is time-dependent then save it instead as one of your Omon and Odec fields",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "ocean_volume",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Ocean Grid-Cell Volume",
     "units": "m3",
-    "validation-key": "volcello_ti-ol-hxy-sea",
     "variable-root": "volcello",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

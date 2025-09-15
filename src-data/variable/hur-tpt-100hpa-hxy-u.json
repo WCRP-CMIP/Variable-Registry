@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hur-tpt-100hpa-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hur_tpt-100hPa-hxy-u",
+    "ui-label": "hur100",
+    "description": "Relative humidity at 100 hPa",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
-    "description": "Relative humidity at 100 hPa",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "hur100",
     "units": "%",
-    "validation-key": "hur_tpt-100hPa-hxy-u",
     "variable-root": "hur",
-    "vertical-label": "100hPa"
+    "vertical-label": "100hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

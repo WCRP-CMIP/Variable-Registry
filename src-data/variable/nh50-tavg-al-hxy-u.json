@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "nh50-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "nh50_tavg-al-hxy-u",
+    "ui-label": "Artificial Tracer with 50 Day Lifetime",
+    "description": "Fixed surface layer mixing ratio over 30o-50oN (100ppbv), uniform fixed 50-day exponential decay.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Fixed surface layer mixing ratio over 30o-50oN (100ppbv), uniform fixed 50-day exponential decay.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Artificial Tracer with 50 Day Lifetime",
     "units": "mol mol-1",
-    "validation-key": "nh50_tavg-al-hxy-u",
     "variable-root": "nh50",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

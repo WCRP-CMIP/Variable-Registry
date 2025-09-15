@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "expc-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "expc_tavg-ol-hxy-sea",
+    "ui-label": "Downward Flux of Particulate Organic Carbon",
+    "description": "Downward flux of particulate organic carbon",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Downward flux of particulate organic carbon",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "sinking_mole_flux_of_particulate_organic_matter_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Downward Flux of Particulate Organic Carbon",
     "units": "mol m-2 s-1",
-    "validation-key": "expc_tavg-ol-hxy-sea",
     "variable-root": "expc",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

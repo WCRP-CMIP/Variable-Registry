@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "pfull-tclm-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "pfull_tclm-al-hxy-u",
+    "ui-label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: mean time: mean within years time: mean over years not found in cell methods, please register",
-    "description": "Air pressure on model levels",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "air_pressure",
     "temporal-label": "tclm",
     "temporal-shape": "climatology",
-    "ui-label": "Pressure at Model Full-Levels",
     "units": "Pa",
-    "validation-key": "pfull_tclm-al-hxy-u",
     "variable-root": "pfull",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

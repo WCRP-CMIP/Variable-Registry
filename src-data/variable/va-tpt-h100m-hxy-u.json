@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "va-tpt-h100m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "va_tpt-h100m-hxy-u",
+    "ui-label": "Northward Wind at 100m",
+    "description": "Meridional wind (positive in a northward direction) at 100m above the surface.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
-    "description": "Meridional wind (positive in a northward direction) at 100m above the surface.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "northward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Northward Wind at 100m",
     "units": "m s-1",
-    "validation-key": "va_tpt-h100m-hxy-u",
     "variable-root": "va",
-    "vertical-label": "h100m"
+    "vertical-label": "h100m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

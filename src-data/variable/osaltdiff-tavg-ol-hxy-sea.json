@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "osaltdiff-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "osaltdiff_tavg-ol-hxy-sea",
+    "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
+    "description": "Tendency of salt content for a grid cell from parameterized dianeutral mixing.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Tendency of salt content for a grid cell from parameterized dianeutral mixing.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_dianeutral_mixing",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
     "units": "kg m-2 s-1",
-    "validation-key": "osaltdiff_tavg-ol-hxy-sea",
     "variable-root": "osaltdiff",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

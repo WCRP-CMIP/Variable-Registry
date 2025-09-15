@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amndss-tmn",
+    "validation-key": "amndss-tmn",
+    "ui-label": "Sum over Depth, Time Mean",
+    "description": "area: mean where sea depth: sum where sea time: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: mean where sea depth: sum where sea time: mean",
-    "mask": "",
-    "ui-label": "Sum over Depth, Time Mean",
-    "validation-key": "amndss-tmn"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "lat-ti-u-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "lat_ti-u-hxys-u",
+    "ui-label": "Latitude",
+    "description": "Latitude is positive northward; its units of degree_north (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_latitude should be used instead of latitude. Grid latitude is positive in the grid-northward direction, but its units should be plain degree.",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-fx",
-    "description": "Latitude is positive northward; its units of degree_north (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_latitude should be used instead of latitude. Grid latitude is positive in the grid-northward direction, but its units should be plain degree.",
     "dimensions": [
         "site"
     ],
@@ -23,9 +20,12 @@
     "standard-name": "latitude",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Latitude",
     "units": "degrees_north",
-    "validation-key": "lat_ti-u-hxys-u",
     "variable-root": "lat",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

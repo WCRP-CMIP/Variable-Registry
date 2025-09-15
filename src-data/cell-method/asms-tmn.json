@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "asms-tmn",
+    "validation-key": "asms-tmn",
+    "ui-label": "Time Mean of Area Sum on Sea-ice",
+    "description": "area: sum where sea time: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: sum where sea time: mean",
-    "mask": "",
-    "ui-label": "Time Mean of Area Sum on Sea-ice",
-    "validation-key": "asms-tmn"
+    ]
 }

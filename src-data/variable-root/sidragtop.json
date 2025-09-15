@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sidragtop",
+    "validation-key": "sidragtop",
+    "ui-label": "sidragtop",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-drag-coefficient-for-momentum-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-drag-coefficient-for-momentum-in-air",
-    "ui-label": "sidragtop",
-    "validation-key": "sidragtop"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rlus-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rlus_tavg-u-hxy-u",
+    "ui-label": "Surface upwelling shortwave radiation",
+    "description": "Hourly surface upwelling shortwave radiation",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Hourly surface upwelling shortwave radiation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_upwelling_longwave_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface upwelling shortwave radiation",
     "units": "W m-2",
-    "validation-key": "rlus_tavg-u-hxy-u",
     "variable-root": "rlus",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

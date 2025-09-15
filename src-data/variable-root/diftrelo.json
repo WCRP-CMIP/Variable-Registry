@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "diftrelo",
+    "validation-key": "diftrelo",
+    "ui-label": "diftrelo",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "ocean-tracer-epineutral-laplacian-diffusivity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "ocean-tracer-epineutral-laplacian-diffusivity",
-    "ui-label": "diftrelo",
-    "validation-key": "diftrelo"
+    ]
 }

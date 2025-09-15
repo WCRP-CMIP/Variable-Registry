@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "h2o-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "h2o_tavg-p39-hy-air",
+    "ui-label": "Mass Fraction of Water",
+    "description": "includes all phases of water",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "includes all phases of water",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "mass_fraction_of_water_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mass Fraction of Water",
     "units": "1",
-    "validation-key": "h2o_tavg-p39-hy-air",
     "variable-root": "h2o",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

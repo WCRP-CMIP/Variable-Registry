@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "intpbfe-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "intpbfe_tavg-u-hxy-sea",
+    "ui-label": "Iron Production",
+    "description": "Vertically integrated biogenic iron production",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
-    "description": "Vertically integrated biogenic iron production",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_ocean_mole_content_of_iron_due_to_biological_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Iron Production",
     "units": "mol m-2 s-1",
-    "validation-key": "intpbfe_tavg-u-hxy-sea",
     "variable-root": "intpbfe",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sirdgconc-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sirdgconc_tavg-u-hxy-si",
+    "ui-label": "Fraction of Ridged Sea Ice",
+    "description": "Area fraction of sea-ice surface that is ridged sea ice.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Area fraction of sea-ice surface that is ridged sea ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Fraction of Ridged Sea Ice",
     "units": "%",
-    "validation-key": "sirdgconc_tavg-u-hxy-si",
     "variable-root": "sirdgconc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

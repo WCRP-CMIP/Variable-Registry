@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ps-tpt-u-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ps_tpt-u-hxys-u",
+    "ui-label": "Surface Air Pressure",
+    "description": "not, in general, the same as mean sea-level pressure",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
-    "description": "not, in general, the same as mean sea-level pressure",
     "dimensions": [
         "site",
         "time1"
@@ -24,9 +21,12 @@
     "standard-name": "surface_air_pressure",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Surface Air Pressure",
     "units": "Pa",
-    "validation-key": "ps_tpt-u-hxys-u",
     "variable-root": "ps",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

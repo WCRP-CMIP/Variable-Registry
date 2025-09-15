@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sfacrossline-tavg-u-ht-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sfacrossline_tavg-u-ht-sea",
+    "ui-label": "Ocean Salt Mass Transport across Lines",
+    "description": "Depth-integrated total salt mass transport from resolved and parameterized processes across different lines on the Earth's surface (based on appendix J and table J1 of Griffies et al., 2016). Formally, this means the integral along the line of the normal component of the heat transport. Positive and negative numbers refer to total northward/eastward and southward/westward transports, respectively. The transport should be evaluated for the full depth of the ocean, except for the Pacific Equatorial Undercurrent, which is averaged from the surface to 350m.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: depth: sum where sea time: mean not found in cell methods, please register",
-    "description": "Depth-integrated total salt mass transport from resolved and parameterized processes across different lines on the Earth's surface (based on appendix J and table J1 of Griffies et al., 2016). Formally, this means the integral along the line of the normal component of the heat transport. Positive and negative numbers refer to total northward/eastward and southward/westward transports, respectively. The transport should be evaluated for the full depth of the ocean, except for the Pacific Equatorial Undercurrent, which is averaged from the surface to 350m.",
     "dimensions": [
         "oline",
         "time"
@@ -24,9 +21,12 @@
     "standard-name": "ocean_salt_transport_across_line",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ocean Salt Mass Transport across Lines",
     "units": "W",
-    "validation-key": "sfacrossline_tavg-u-ht-sea",
     "variable-root": "sfacrossline",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "limirrpico",
+    "validation-key": "limirrpico",
+    "ui-label": "limirrpico",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "growth-limitation-of-picophytoplankton-due-to-solar-irradiance",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "growth-limitation-of-picophytoplankton-due-to-solar-irradiance",
-    "ui-label": "limirrpico",
-    "validation-key": "limirrpico"
+    ]
 }

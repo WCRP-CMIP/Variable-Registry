@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "op4",
+    "validation-key": "op4",
+    "ui-label": "4 Ocean Pressure Layers",
+    "description": "4 ocean pressure layers²",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "4 ocean pressure layers²",
-    "ui-label": "4 Ocean Pressure Layers",
-    "validation-key": "op4"
+    ]
 }

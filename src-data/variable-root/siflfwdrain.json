@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "siflfwdrain",
+    "validation-key": "siflfwdrain",
+    "ui-label": "siflfwdrain",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "water-flux-into-sea-water-due-to-surface-drainage",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "water-flux-into-sea-water-due-to-surface-drainage",
-    "ui-label": "siflfwdrain",
-    "validation-key": "siflfwdrain"
+    ]
 }

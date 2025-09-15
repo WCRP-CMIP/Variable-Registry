@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "d2000m",
+    "validation-key": "d2000m",
+    "ui-label": "Upper 2000 Meter Depth",
+    "description": "upper 2000 m",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "upper 2000 m",
-    "ui-label": "Upper 2000 Meter Depth",
-    "validation-key": "d2000m"
+    ]
 }

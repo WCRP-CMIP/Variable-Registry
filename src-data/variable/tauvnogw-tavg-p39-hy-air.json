@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tauvnogw-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tauvnogw_tavg-p39-hy-air",
+    "ui-label": "Zonal mean northward Reynolds stress from non-orographic gravity wave parameterization",
+    "description": "Zonal mean vertical wave flux of meridional momentum within the non-orographic gravity wave parameterization",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "Zonal mean vertical wave flux of meridional momentum within the non-orographic gravity wave parameterization",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "upward_northward_momentum_flux_in_air_due_to_nonorographic_gravity_waves",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Zonal mean northward Reynolds stress from non-orographic gravity wave parameterization",
     "units": "Pa",
-    "validation-key": "tauvnogw_tavg-p39-hy-air",
     "variable-root": "tauvnogw",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

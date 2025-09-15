@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tnkebto-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tnkebto_tavg-u-hxy-sea",
+    "ui-label": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
+    "description": "Depth integrated impacts on kinetic energy arising from parameterized eddy-induced advection. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Depth integrated impacts on kinetic energy arising from parameterized eddy-induced advection. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_ocean_eddy_kinetic_energy_content_due_to_parameterized_eddy_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
     "units": "W m-2",
-    "validation-key": "tnkebto_tavg-u-hxy-sea",
     "variable-root": "tnkebto",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

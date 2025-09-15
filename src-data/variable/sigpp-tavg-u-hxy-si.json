@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sigpp-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sigpp_tavg-u-hxy-si",
+    "ui-label": "Gross Primary Productivity in Sea Ice as Carbon Amount Flux",
+    "description": "Change in ice algal carbon mass due to photosynthesis per sea ice unit area per unit time.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Change in ice algal carbon mass due to photosynthesis per sea ice unit area per unit time.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon_due_to_ice_algae_in_sea_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Gross Primary Productivity in Sea Ice as Carbon Amount Flux",
     "units": "kg m-2 s-1",
-    "validation-key": "sigpp_tavg-u-hxy-si",
     "variable-root": "sigpp",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

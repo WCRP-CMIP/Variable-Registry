@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "necblut-tavg-u-hxy-multi",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "necbLut_tavg-u-hxy-multi",
+    "ui-label": "Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1]",
+    "description": "Computed as npp minus heterotrophic respiration minus fire minus C leaching minus harvesting/clearing. Positive rate is into the land, negative rate is from the land.  Do not include fluxes from anthropogenic product pools to atmosphere",
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
-    "description": "Computed as npp minus heterotrophic respiration minus fire minus C leaching minus harvesting/clearing. Positive rate is into the land, negative rate is from the land.  Do not include fluxes from anthropogenic product pools to atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
-    "validation-key": "necbLut_tavg-u-hxy-multi",
     "variable-root": "necbLut",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

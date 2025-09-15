@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vas-tavg-h10m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vas_tavg-h10m-hxy-u",
+    "ui-label": "Northward Near-Surface Wind",
+    "description": "Northward component of the near surface wind",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Northward component of the near surface wind",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "northward_wind",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Northward Near-Surface Wind",
     "units": "m s-1",
-    "validation-key": "vas_tavg-h10m-hxy-u",
     "variable-root": "vas",
-    "vertical-label": "h10m"
+    "vertical-label": "h10m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

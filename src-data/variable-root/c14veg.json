@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "c14veg",
+    "validation-key": "c14veg",
+    "ui-label": "c14Veg",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "vegetation-mass-content-of-14c",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "vegetation-mass-content-of-14c",
-    "ui-label": "c14Veg",
-    "validation-key": "c14veg"
+    ]
 }

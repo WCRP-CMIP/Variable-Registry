@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "c4pftfrac-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "c4PftFrac_tavg-u-hxy-u",
+    "ui-label": "Percentage Cover by C4 Plant Functional Type",
+    "description": "Percentage of entire grid cell  that is covered by C4 PFTs (including grass and crops).",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Percentage of entire grid cell  that is covered by C4 PFTs (including grass and crops).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Percentage Cover by C4 Plant Functional Type",
     "units": "%",
-    "validation-key": "c4PftFrac_tavg-u-hxy-u",
     "variable-root": "c4PftFrac",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

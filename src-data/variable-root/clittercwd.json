@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "clittercwd",
+    "validation-key": "clittercwd",
+    "ui-label": "cLitterCwd",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "wood-debris-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "wood-debris-mass-content-of-carbon",
-    "ui-label": "cLitterCwd",
-    "validation-key": "clittercwd"
+    ]
 }

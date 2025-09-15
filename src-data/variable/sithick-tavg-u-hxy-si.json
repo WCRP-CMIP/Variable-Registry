@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sithick-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sithick_tavg-u-hxy-si",
+    "ui-label": "Sea-Ice Thickness",
+    "description": "Actual (floe) thickness of sea ice averaged over the ice-covered part of a given grid cell, NOT volume divided by grid area.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Actual (floe) thickness of sea ice averaged over the ice-covered part of a given grid cell, NOT volume divided by grid area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_ice_thickness",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea-Ice Thickness",
     "units": "m",
-    "validation-key": "sithick_tavg-u-hxy-si",
     "variable-root": "sithick",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

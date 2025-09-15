@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sisnmassacrossline-tavg-u-ht-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sisnmassacrossline_tavg-u-ht-u",
+    "ui-label": "Snow Mass Flux Through Straits",
+    "description": "Net (sum of transport in all directions) snow mass transport through the following four passages, positive into the Arctic Ocean. Note that the definitions of the passages are for SIMIP purposes just meant as default values as given by the physical ocean MIP described in Griffies et al. (2016). Individual models might chose slightly different definitions as given by their grid geometry. 1. Fram Strait: (11.5W, 81.3N) to (10.5E, 79.6N). 2. Canadian Arctic Archipelago: (128.2W, 70.6N) to (59.3W, 82.1N). 3. Barents Sea Opening: (16.8E, 76.5N) to (19.2E, 70.2N). 4. Bering Strait: (171W, 66.2N) to (166W, 65N).",
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "ax-tmn",
-    "description": "Net (sum of transport in all directions) snow mass transport through the following four passages, positive into the Arctic Ocean. Note that the definitions of the passages are for SIMIP purposes just meant as default values as given by the physical ocean MIP described in Griffies et al. (2016). Individual models might chose slightly different definitions as given by their grid geometry. 1. Fram Strait: (11.5W, 81.3N) to (10.5E, 79.6N). 2. Canadian Arctic Archipelago: (128.2W, 70.6N) to (59.3W, 82.1N). 3. Barents Sea Opening: (16.8E, 76.5N) to (19.2E, 70.2N). 4. Bering Strait: (171W, 66.2N) to (166W, 65N).",
     "dimensions": [
         "siline",
         "time"
@@ -24,9 +21,12 @@
     "standard-name": "snow_transport_across_line_due_to_sea_ice_dynamics",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Mass Flux Through Straits",
     "units": "kg s-1",
-    "validation-key": "sisnmassacrossline_tavg-u-ht-u",
     "variable-root": "sisnmassacrossline",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "zossq-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "zossq_tavg-u-hxy-sea",
+    "ui-label": "Square of Sea Surface Height Above Geoid",
+    "description": "Surface ocean geoid defines z=0.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Surface ocean geoid defines z=0.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "square_of_sea_surface_height_above_geoid",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Square of Sea Surface Height Above Geoid",
     "units": "m2",
-    "validation-key": "zossq_tavg-u-hxy-sea",
     "variable-root": "zossq",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

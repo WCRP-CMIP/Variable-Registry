@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "wpdirwindsea",
+    "validation-key": "wpdirwindsea",
+    "ui-label": "wpdirwindsea",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-surface-wind-wave-from-direction-at-variance-spectral-density-maximum",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-surface-wind-wave-from-direction-at-variance-spectral-density-maximum",
-    "ui-label": "wpdirwindsea",
-    "validation-key": "wpdirwindsea"
+    ]
 }

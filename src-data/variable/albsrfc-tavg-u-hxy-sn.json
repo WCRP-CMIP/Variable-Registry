@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "albsrfc-tavg-u-hxy-sn",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "albsrfc_tavg-u-hxy-sn",
+    "ui-label": "Snow Albedo",
+    "description": "This is similar to Eday.albsn, but providing monthly averages",
     "area-label": "sn",
     "cell-measures": "area: areacella area: areacello",
     "cell-methods": "Error: area: time: mean where snow (mask=snc) not found in cell methods, please register",
-    "description": "This is similar to Eday.albsn, but providing monthly averages",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_albedo",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Albedo",
     "units": "1",
-    "validation-key": "albsrfc_tavg-u-hxy-sn",
     "variable-root": "albsrfc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

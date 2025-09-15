@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amn-fxc",
+    "validation-key": "amn-fxc",
+    "ui-label": "Area and Fixed Monthly Mean",
+    "description": "area: time: mean (monthly mean fixed annual cycle)",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: time: mean (monthly mean fixed annual cycle)",
-    "mask": "",
-    "ui-label": "Area and Fixed Monthly Mean",
-    "validation-key": "amn-fxc"
+    ]
 }

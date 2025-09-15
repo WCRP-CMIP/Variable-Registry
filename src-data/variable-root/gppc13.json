@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "gppc13",
+    "validation-key": "gppc13",
+    "ui-label": "gppc13",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "gross-primary-productivity-of-biomass-expressed-as-13c",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "gross-primary-productivity-of-biomass-expressed-as-13c",
-    "ui-label": "gppc13",
-    "validation-key": "gppc13"
+    ]
 }

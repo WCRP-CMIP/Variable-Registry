@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "c13veg-tavg-u-hxy-lnd",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "c13Veg_tavg-u-hxy-lnd",
+    "ui-label": "Mass of 13C in Vegetation",
+    "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass).",
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
-    "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "vegetation_mass_content_of_13C",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Mass of 13C in Vegetation",
     "units": "kg m-2",
-    "validation-key": "c13Veg_tavg-u-hxy-lnd",
     "variable-root": "c13Veg",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

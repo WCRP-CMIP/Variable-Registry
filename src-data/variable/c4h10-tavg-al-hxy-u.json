@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "c4h10-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "c4h10_tavg-al-hxy-u",
+    "ui-label": "C4H10  volume mixing ratio",
+    "description": "Mole fraction of butane (C4H10) in air",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Mole fraction of butane (C4H10) in air",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mole_fraction_of_butane_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "C4H10  volume mixing ratio",
     "units": "mol mol-1",
-    "validation-key": "c4h10_tavg-al-hxy-u",
     "variable-root": "c4h10",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

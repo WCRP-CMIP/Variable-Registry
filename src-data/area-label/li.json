@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "li",
+    "validation-key": "li",
+    "ui-label": "Land Ice",
+    "description": "Variables calculated over land ice areas, including glaciers, ice caps, and other terrestrial ice masses. Covers ice dynamics, surface energy balance, and interactions between ice and the atmosphere or underlying terrain.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over land ice areas, including glaciers, ice caps, and other terrestrial ice masses. Covers ice dynamics, surface energy balance, and interactions between ice and the atmosphere or underlying terrain.",
-    "ui-label": "Land Ice",
-    "validation-key": "li"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "mmraerh2o-tpt-h2m-hxys-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "mmraerh2o_tpt-h2m-hxys-u",
+    "ui-label": "Instantaneous surface aerosol water mass mixing ratio at CF sites",
+    "description": "This variable represents the instantaneous surface aerosol water Mass Mixing Ratio at CF sites, sampled every 3 hours",
     "area-label": "u",
     "cell-measures": "::MODEL",
     "cell-methods": "apt-tpt",
-    "description": "This variable represents the instantaneous surface aerosol water Mass Mixing Ratio at CF sites, sampled every 3 hours",
     "dimensions": [
         "site",
         "time1",
@@ -25,9 +22,12 @@
     "standard-name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Instantaneous surface aerosol water mass mixing ratio at CF sites",
     "units": "kg kg-1",
-    "validation-key": "mmraerh2o_tpt-h2m-hxys-u",
     "variable-root": "mmraerh2o",
-    "vertical-label": "h2m"
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

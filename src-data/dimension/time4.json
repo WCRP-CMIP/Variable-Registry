@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "time4",
+    "validation-key": "time4",
+    "ui-label": "Monthly Mean Daily Satistics",
+    "description": "",
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "spatial-shape": "",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "T",
-    "cf-standard-name": "time",
-    "description": "",
-    "spatial-shape": "",
-    "ui-label": "Monthly Mean Daily Satistics",
-    "validation-key": "time4"
+    ]
 }

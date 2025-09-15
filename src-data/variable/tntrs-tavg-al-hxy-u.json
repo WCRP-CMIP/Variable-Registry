@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tntrs-tavg-al-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tntrs_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+    "description": "shortwave heating rates",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "shortwave heating rates",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "tendency_of_air_temperature_due_to_shortwave_heating",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
     "units": "K s-1",
-    "validation-key": "tntrs_tavg-al-hxy-u",
     "variable-root": "tntrs",
-    "vertical-label": "al"
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

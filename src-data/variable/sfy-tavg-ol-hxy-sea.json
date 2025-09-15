@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sfy-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sfy_tavg-ol-hxy-sea",
+    "ui-label": "3D Ocean Salt Mass Y Transport",
+    "description": "Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_salt_y_transport",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "3D Ocean Salt Mass Y Transport",
     "units": "kg s-1",
-    "validation-key": "sfy_tavg-ol-hxy-sea",
     "variable-root": "sfy",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

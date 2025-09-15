@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "pl700",
+    "validation-key": "pl700",
+    "ui-label": "pressure",
+    "description": "Layer from 850 to 600hPa",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "Layer from 850 to 600hPa",
-    "ui-label": "pressure",
-    "validation-key": "pl700"
+    ]
 }

@@ -1,18 +1,18 @@
 {
-    "@context": "_context_",
     "id": "aerfx",
+    "validation-key": "aerfx",
+    "ui-label": "AERfx",
+    "description": "CMIP6 CMOR table AERfx containing variables",
+    "variables": [
+        "ch4ref_ti-al-hxy-u",
+        "o3ref_ti-al-hxy-u",
+        "o3ref_tclm-al-hxy-u"
+    ],
+    "@context": "_context_",
     "type": [
         "wcrp:mip-table",
         "variable-registry",
         "cmip6",
         "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table AERfx containing variables",
-    "ui-label": "AERfx",
-    "validation-key": "aerfx",
-    "variables": [
-        "ch4ref_ti-al-hxy-u",
-        "o3ref_ti-al-hxy-u",
-        "o3ref_tclm-al-hxy-u"
     ]
 }

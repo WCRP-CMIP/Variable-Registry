@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "thetaot-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "thetaot_tavg-u-hxy-sea",
+    "ui-label": "Vertically Averaged Sea Water Potential Temperature",
+    "description": "Vertically averaged ocean temperature",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "admns-tmn",
-    "description": "Vertically averaged ocean temperature",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "sea_water_potential_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Vertically Averaged Sea Water Potential Temperature",
     "units": "degC",
-    "validation-key": "thetaot_tavg-u-hxy-sea",
     "variable-root": "thetaot",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

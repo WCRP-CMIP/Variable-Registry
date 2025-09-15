@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "p200",
+    "validation-key": "p200",
+    "ui-label": "pressure",
+    "description": "Atmospheric pressure coordinate at 200 hPa level, located in the upper troposphere at approximately 12 km altitude. Important for jet stream analysis and upper-level weather patterns.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "Atmospheric pressure coordinate at 200 hPa level, located in the upper troposphere at approximately 12 km altitude. Important for jet stream analysis and upper-level weather patterns.",
-    "ui-label": "pressure",
-    "validation-key": "p200"
+    ]
 }

@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rho",
+    "validation-key": "rho",
+    "ui-label": "Density Surface",
+    "description": "Variables on ocean density surfaces (isopycnal coordinates), where water parcels of equal density define the vertical coordinate. Used for ocean circulation analysis and water mass tracking.",
+    "@context": "_context_",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ],
-    "description": "Variables on ocean density surfaces (isopycnal coordinates), where water parcels of equal density define the vertical coordinate. Used for ocean circulation analysis and water mass tracking.",
-    "ui-label": "Density Surface",
-    "validation-key": "rho"
+    ]
 }

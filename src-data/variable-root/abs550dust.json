@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "abs550dust",
+    "validation-key": "abs550dust",
+    "ui-label": "abs550dust",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "atmosphere-absorption-optical-thickness-due-to-dust-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "atmosphere-absorption-optical-thickness-due-to-dust-ambient-aerosol-particles",
-    "ui-label": "abs550dust",
-    "validation-key": "abs550dust"
+    ]
 }

@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "aerday",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table AERday containing variables",
-    "ui-label": "AERday",
     "validation-key": "aerday",
+    "ui-label": "AERday",
+    "description": "CMIP6 CMOR table AERday containing variables",
     "variables": [
         "co_tavg-h2m-hxy-u",
         "cod_tavg-u-hxy-u",
@@ -41,5 +34,12 @@
         "zg_tavg-10hPa-hxy-air",
         "zg_tavg-1000hPa-hxy-air",
         "zg_tavg-500hPa-hxy-air"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

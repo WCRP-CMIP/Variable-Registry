@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "npp-tavg-u-hxy-tree",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "npp_tavg-u-hxy-tree",
+    "ui-label": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total NPP of trees in the grid cell",
     "area-label": "tree",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where trees (mask=treeFrac) not found in cell methods, please register",
-    "description": "Total NPP of trees in the grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "net_primary_productivity_of_biomass_expressed_as_carbon",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
-    "validation-key": "npp_tavg-u-hxy-tree",
     "variable-root": "npp",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

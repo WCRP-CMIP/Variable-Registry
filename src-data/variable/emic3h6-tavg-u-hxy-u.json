@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "emic3h6-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "emic3h6_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C3H6",
+    "description": "This is the total emission rate of propene (C3H6) into the atmosphere",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "This is the total emission rate of propene (C3H6) into the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_propene_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "total emission rate of C3H6",
     "units": "kg m-2 s-1",
-    "validation-key": "emic3h6_tavg-u-hxy-u",
     "variable-root": "emic3h6",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

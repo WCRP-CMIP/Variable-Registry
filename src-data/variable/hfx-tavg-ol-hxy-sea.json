@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hfx-tavg-ol-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hfx_tavg-ol-hxy-sea",
+    "ui-label": "3D Ocean Heat X Transport",
+    "description": "Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
-    "description": "Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "ocean_heat_x_transport",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "3D Ocean Heat X Transport",
     "units": "W",
-    "validation-key": "hfx_tavg-ol-hxy-sea",
     "variable-root": "hfx",
-    "vertical-label": "ol"
+    "vertical-label": "ol",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

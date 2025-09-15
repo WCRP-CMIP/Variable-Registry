@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "intppnitrate",
+    "validation-key": "intppnitrate",
+    "ui-label": "intppnitrate",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-due-to-nitrate-utilization",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-due-to-nitrate-utilization",
-    "ui-label": "intppnitrate",
-    "validation-key": "intppnitrate"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "loadsoa-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "loadsoa_tavg-u-hxy-u",
+    "ui-label": "Load of Dry Aerosol Secondary Organic Matter",
+    "description": "The total dry mass of secondary particulate organic aerosol particles per unit area.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "The total dry mass of secondary particulate organic aerosol particles per unit area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "atmosphere_mass_content_of_secondary_particulate_organic_matter_dry_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Load of Dry Aerosol Secondary Organic Matter",
     "units": "kg m-2",
-    "validation-key": "loadsoa_tavg-u-hxy-u",
     "variable-root": "loadsoa",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

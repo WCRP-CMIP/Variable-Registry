@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "jpdftaureicemodis-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "jpdftaureicemodis_tavg-u-hxy-u",
+    "ui-label": "MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",
+    "description": "MODIS Optical Thickness-Particle Size joint distribution, ice",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "MODIS Optical Thickness-Particle Size joint distribution, ice",
     "dimensions": [
         "longitude",
         "latitude",
@@ -27,9 +24,12 @@
     "standard-name": "modis_cloud_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",
     "units": "%",
-    "validation-key": "jpdftaureicemodis_tavg-u-hxy-u",
     "variable-root": "jpdftaureicemodis",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

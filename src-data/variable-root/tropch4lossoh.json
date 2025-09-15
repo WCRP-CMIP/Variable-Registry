@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "tropch4lossoh",
+    "validation-key": "tropch4lossoh",
+    "ui-label": "tropch4lossoh",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mole-concentration-of-methane-due-to-chemical-destruction-by-hydroxyl-radical",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mole-concentration-of-methane-due-to-chemical-destruction-by-hydroxyl-radical",
-    "ui-label": "tropch4lossoh",
-    "validation-key": "tropch4lossoh"
+    ]
 }

@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "oday",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table Oday containing variables",
-    "ui-label": "Oday",
     "validation-key": "oday",
+    "ui-label": "Oday",
+    "description": "CMIP6 CMOR table Oday containing variables",
     "variables": [
         "bigthetao_tavg-op20bar-hxy-sea",
         "chl_tavg-op20bar-hxy-sea",
@@ -52,5 +45,12 @@
         "zooc_tavg-ol-hxy-sea",
         "zos_tavg-u-hxy-sea",
         "zostoga_tavg-u-hm-sea"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

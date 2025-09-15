@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "clivimodis-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "clivimodis_tavg-u-hxy-u",
+    "ui-label": "MODIS Ice Water Path",
+    "description": "Mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column) as seen by the MODIS instrument simulator.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column) as seen by the MODIS instrument simulator.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "atmosphere_mass_content_of_cloud_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "MODIS Ice Water Path",
     "units": "kg m-2",
-    "validation-key": "clivimodis_tavg-u-hxy-u",
     "variable-root": "clivimodis",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

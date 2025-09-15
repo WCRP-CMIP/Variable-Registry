@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "fsfe-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "fsfe_tavg-u-hxy-sea",
+    "ui-label": "Surface Downward Net Flux of Iron",
+    "description": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_ocean_mole_content_of_iron_due_to_deposition_and_runoff_and_sediment_dissolution",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface Downward Net Flux of Iron",
     "units": "mol m-2 s-1",
-    "validation-key": "fsfe_tavg-u-hxy-sea",
     "variable-root": "fsfe",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

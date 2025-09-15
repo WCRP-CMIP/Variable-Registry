@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "alevhalf",
+    "validation-key": "alevhalf",
+    "ui-label": "Atmospheric Model Half-level",
+    "description": "Atmospheric model \"half\" level [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+    "axis-flag": "Z",
+    "cf-standard-name": "",
+    "spatial-shape": "Atmospheric profile (model half-levels),Atmospheric profiles (half levels) at specified sites,Global field on model atmosphere half-levels",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "",
-    "description": "Atmospheric model \"half\" level [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
-    "spatial-shape": "Atmospheric profile (model half-levels),Atmospheric profiles (half levels) at specified sites,Global field on model atmosphere half-levels",
-    "ui-label": "Atmospheric Model Half-level",
-    "validation-key": "alevhalf"
+    ]
 }

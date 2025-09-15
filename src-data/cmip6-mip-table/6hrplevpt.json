@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "6hrplevpt",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table 6hrPlevPt containing variables",
-    "ui-label": "6hrPlevPt",
     "validation-key": "6hrplevpt",
+    "ui-label": "6hrPlevPt",
+    "description": "CMIP6 CMOR table 6hrPlevPt containing variables",
     "variables": [
         "hur_tpt-100hPa-hxy-u",
         "hur_tpt-500hPa-hxy-air",
@@ -40,5 +33,12 @@
         "zg_tpt-700hPa-hxy-u",
         "zg_tpt-p7h-hxy-air",
         "zg_tpt-925hPa-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

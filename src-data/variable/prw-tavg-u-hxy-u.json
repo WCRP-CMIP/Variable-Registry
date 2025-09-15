@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "prw-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "prw_tavg-u-hxy-u",
+    "ui-label": "Water Vapor Path",
+    "description": "vertically integrated through the atmospheric column",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "vertically integrated through the atmospheric column",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "atmosphere_mass_content_of_water_vapor",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Water Vapor Path",
     "units": "kg m-2",
-    "validation-key": "prw_tavg-u-hxy-u",
     "variable-root": "prw",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

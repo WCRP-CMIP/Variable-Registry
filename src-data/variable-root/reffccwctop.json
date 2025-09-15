@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "reffccwctop",
+    "validation-key": "reffccwctop",
+    "ui-label": "reffccwctop",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "effective-radius-of-cloud-condensed-water-particles-at-cloud-top",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "effective-radius-of-cloud-condensed-water-particles-at-cloud-top",
-    "ui-label": "reffccwctop",
-    "validation-key": "reffccwctop"
+    ]
 }

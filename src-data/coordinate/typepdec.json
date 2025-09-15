@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "typepdec",
+    "validation-key": "typepdec",
+    "ui-label": "surface type",
+    "description": "",
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
-    "description": "",
-    "ui-label": "surface type",
-    "validation-key": "typepdec"
+    ]
 }

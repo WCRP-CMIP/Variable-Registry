@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "litempbot",
+    "validation-key": "litempbot",
+    "ui-label": "litempbot",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "land-ice-basal-temperature",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "land-ice-basal-temperature",
-    "ui-label": "litempbot",
-    "validation-key": "litempbot"
+    ]
 }

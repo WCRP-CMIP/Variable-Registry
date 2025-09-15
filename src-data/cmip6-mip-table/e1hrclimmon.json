@@ -1,20 +1,20 @@
 {
-    "@context": "_context_",
     "id": "e1hrclimmon",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table E1hrClimMon containing variables",
-    "ui-label": "E1hrClimMon",
     "validation-key": "e1hrclimmon",
+    "ui-label": "E1hrClimMon",
+    "description": "CMIP6 CMOR table E1hrClimMon containing variables",
     "variables": [
         "rlut_tclmdc-u-hxy-u",
         "rlutcs_tclmdc-u-hxy-u",
         "rsdt_tclmdc-u-hxy-u",
         "rsut_tclmdc-u-hxy-u",
         "rsutcs_tclmdc-u-hxy-u"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

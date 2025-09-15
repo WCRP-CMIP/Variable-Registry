@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
     "id": "simp",
+    "validation-key": "simp",
+    "ui-label": "Sea Ice Melt Pond",
+    "description": "Variables calculated over sea ice melt pond areas, which are pools of meltwater that form on sea ice surfaces during warmer periods. These features significantly affect ice albedo and heat absorption processes.",
+    "@context": "_context_",
     "type": [
         "wcrp:area-label",
         "variable"
-    ],
-    "description": "Variables calculated over sea ice melt pond areas, which are pools of meltwater that form on sea ice surfaces during warmer periods. These features significantly affect ice albedo and heat absorption processes.",
-    "ui-label": "Sea Ice Melt Pond",
-    "validation-key": "simp"
+    ]
 }

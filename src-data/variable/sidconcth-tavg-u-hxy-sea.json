@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sidconcth-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sidconcth_tavg-u-hxy-sea",
+    "ui-label": "Sea-Ice Area Fraction Tendency Due to Thermodynamics",
+    "description": "Total rate of change in sea-ice area fraction through thermodynamic processes.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Total rate of change in sea-ice area fraction through thermodynamic processes.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_sea_ice_area_fraction_due_to_thermodynamics",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Sea-Ice Area Fraction Tendency Due to Thermodynamics",
     "units": "s-1",
-    "validation-key": "sidconcth_tavg-u-hxy-sea",
     "variable-root": "sidconcth",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

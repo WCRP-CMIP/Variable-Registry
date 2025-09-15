@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "p100",
+    "validation-key": "p100",
+    "ui-label": "pressure",
+    "description": "Atmospheric pressure coordinate at 100 hPa level, located in the lower stratosphere at approximately 16 km altitude. Used for stratospheric analysis and upper-level atmospheric variables.",
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ],
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "description": "Atmospheric pressure coordinate at 100 hPa level, located in the lower stratosphere at approximately 16 km altitude. Used for stratospheric analysis and upper-level atmospheric variables.",
-    "ui-label": "pressure",
-    "validation-key": "p100"
+    ]
 }

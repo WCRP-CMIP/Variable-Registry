@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "cheaqpso4",
+    "validation-key": "cheaqpso4",
+    "ui-label": "cheaqpso4",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-aqueous-phase-net-chemical-production",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-sulfate-dry-aerosol-particles-due-to-aqueous-phase-net-chemical-production",
-    "ui-label": "cheaqpso4",
-    "validation-key": "cheaqpso4"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hurs-tavg-h2m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hurs_tavg-h2m-hxy-u",
+    "ui-label": "Hourly relative humidity at the surface",
+    "description": "Relative humidity at 2m above the surface",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Relative humidity at 2m above the surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Hourly relative humidity at the surface",
     "units": "%",
-    "validation-key": "hurs_tavg-h2m-hxy-u",
     "variable-root": "hurs",
-    "vertical-label": "h2m"
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

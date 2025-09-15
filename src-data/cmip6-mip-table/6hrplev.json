@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "6hrplev",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table 6hrPlev containing variables",
-    "ui-label": "6hrPlev",
     "validation-key": "6hrplev",
+    "ui-label": "6hrPlev",
+    "description": "CMIP6 CMOR table 6hrPlev containing variables",
     "variables": [
         "hurs_tavg-h2m-hxy-u",
         "huss_tavg-h2m-hxy-u",
@@ -28,5 +21,12 @@
         "uas_tavg-h10m-hxy-u",
         "vas_tavg-h10m-hxy-u",
         "zg_tavg-1000hPa-hxy-air"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

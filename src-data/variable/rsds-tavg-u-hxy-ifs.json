@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rsds-tavg-u-hxy-ifs",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rsds_tavg-u-hxy-ifs",
+    "ui-label": "Surface Downwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
+    "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
     "area-label": "ifs",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where ice_free_sea over sea not found in cell methods, please register",
-    "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_downwelling_shortwave_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Surface Downwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
     "units": "W m-2",
-    "validation-key": "rsds_tavg-u-hxy-ifs",
     "variable-root": "rsds",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

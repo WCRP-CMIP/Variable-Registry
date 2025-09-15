@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "psitem-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "psitem_tavg-p39-hy-air",
+    "ui-label": "Transformed Eulerian Mean Mass Streamfunction",
+    "description": "zonal mean; hence YZT",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "zonal mean; hence YZT",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Transformed Eulerian Mean Mass Streamfunction",
     "units": "kg s-1",
-    "validation-key": "psitem_tavg-p39-hy-air",
     "variable-root": "psitem",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "o2",
+    "validation-key": "o2",
+    "ui-label": "o2",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water",
-    "ui-label": "o2",
-    "validation-key": "o2"
+    ]
 }

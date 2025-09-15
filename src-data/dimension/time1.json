@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "time1",
+    "validation-key": "time1",
+    "ui-label": "Time Points",
+    "description": "synoptic times (for fields that are not time-means)",
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "spatial-shape": "",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "T",
-    "cf-standard-name": "time",
-    "description": "synoptic times (for fields that are not time-means)",
-    "spatial-shape": "",
-    "ui-label": "Time Points",
-    "validation-key": "time1"
+    ]
 }

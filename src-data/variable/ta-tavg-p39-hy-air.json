@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "ta-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "ta_tavg-p39-hy-air",
+    "ui-label": "Zonal mean air temperature",
+    "description": "Zonal mean temperature of air with the extended number of vertical levels.",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "zmeana-twm",
-    "description": "Zonal mean temperature of air with the extended number of vertical levels.",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Zonal mean air temperature",
     "units": "K",
-    "validation-key": "ta_tavg-p39-hy-air",
     "variable-root": "ta",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

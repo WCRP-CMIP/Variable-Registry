@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "limirrcalc-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "limirrcalc_tavg-u-hxy-sea",
+    "ui-label": "Irradiance Limitation of Calcareous Phytoplankton",
+    "description": "Growth limitation of calcareous phytoplankton due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "Growth limitation of calcareous phytoplankton due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Irradiance Limitation of Calcareous Phytoplankton",
     "units": "1",
-    "validation-key": "limirrcalc_tavg-u-hxy-sea",
     "variable-root": "limirrcalc",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

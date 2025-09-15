@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "vsfriver-tavg-u-hxy-sea",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "vsfriver_tavg-u-hxy-sea",
+    "ui-label": "Virtual Salt Flux into Sea Water from Rivers",
+    "description": "zero for models using real water fluxes.",
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
-    "description": "zero for models using real water fluxes.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "virtual_salt_flux_into_sea_water_from_rivers",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Virtual Salt Flux into Sea Water from Rivers",
     "units": "kg m-2 s-1",
-    "validation-key": "vsfriver_tavg-u-hxy-sea",
     "variable-root": "vsfriver",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "emic2h4-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "emic2h4_tavg-u-hxy-u",
+    "ui-label": "total emission rate of C2H4",
+    "description": "Total emission rate of ethene (C2H4) into the atmosphere",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Total emission rate of ethene (C2H4) into the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_ethene_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "total emission rate of C2H4",
     "units": "kg m-2 s-1",
-    "validation-key": "emic2h4_tavg-u-hxy-u",
     "variable-root": "emic2h4",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

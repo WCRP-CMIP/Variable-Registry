@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "od443aer-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "od443aer_tavg-u-hxy-u",
+    "ui-label": "Ambient Aerosol Optical Thickness at 443nm",
+    "description": "This is the aerosol optical depth (AOD) from the ambient aerosls (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 443 nm\"",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "This is the aerosol optical depth (AOD) from the ambient aerosls (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 443 nm\"",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Ambient Aerosol Optical Thickness at 443nm",
     "units": "1",
-    "validation-key": "od443aer_tavg-u-hxy-u",
     "variable-root": "od443aer",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

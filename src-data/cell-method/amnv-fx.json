@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amnv-fx",
+    "validation-key": "amnv-fx",
+    "ui-label": "Fixed Area Mean on Vegetation",
+    "description": "area: mean where vegetation",
+    "mask": "vegFrac",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: mean where vegetation",
-    "mask": "vegFrac",
-    "ui-label": "Fixed Area Mean on Vegetation",
-    "validation-key": "amnv-fx"
+    ]
 }

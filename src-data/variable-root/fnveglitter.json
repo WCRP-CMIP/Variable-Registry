@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "fnveglitter",
+    "validation-key": "fnveglitter",
+    "ui-label": "fNVegLitter",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "nitrogen-mass-flux-into-litter-from-vegetation",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "nitrogen-mass-flux-into-litter-from-vegetation",
-    "ui-label": "fNVegLitter",
-    "validation-key": "fnveglitter"
+    ]
 }

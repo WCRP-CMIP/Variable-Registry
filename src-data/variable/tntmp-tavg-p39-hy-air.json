@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "tntmp-tavg-p39-hy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "tntmp_tavg-p39-hy-air",
+    "ui-label": "Tendency of Air Temperature Due to Model Physics",
+    "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
-    "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",
     "dimensions": [
         "latitude",
         "plev39",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_air_temperature_due_to_model_physics",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Tendency of Air Temperature Due to Model Physics",
     "units": "K s-1",
-    "validation-key": "tntmp_tavg-p39-hy-air",
     "variable-root": "tntmp",
-    "vertical-label": "p39"
+    "vertical-label": "p39",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

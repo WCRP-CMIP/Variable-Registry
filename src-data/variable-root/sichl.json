@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "sichl",
+    "validation-key": "sichl",
+    "ui-label": "sichl",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "sea-ice-mass-content-of-ice-algae-expressed-as-chlorophyll",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "sea-ice-mass-content-of-ice-algae-expressed-as-chlorophyll",
-    "ui-label": "sichl",
-    "validation-key": "sichl"
+    ]
 }

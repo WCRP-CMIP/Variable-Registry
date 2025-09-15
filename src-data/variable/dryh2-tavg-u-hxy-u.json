@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "dryh2-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "dryh2_tavg-u-hxy-u",
+    "ui-label": "Total loss rate of molecular hydrogen (H2) from the atmosphere via soil sink",
+    "description": "This is the total loss rate of molecular hydrogen (H2) from the atmosphere via its soil sink due to bacterial consumption.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "This is the total loss rate of molecular hydrogen (H2) from the atmosphere via its soil sink due to bacterial consumption.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_molecular_hydrogen_due_to_dry_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Total loss rate of molecular hydrogen (H2) from the atmosphere via soil sink",
     "units": "kg m-2 s-1",
-    "validation-key": "dryh2_tavg-u-hxy-u",
     "variable-root": "dryh2",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

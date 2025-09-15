@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "snm-tavg-u-hxy-si",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "snm_tavg-u-hxy-si",
+    "ui-label": "Snow Mass Rate of Change Through Melt",
+    "description": "Rate of change of snow mass through melt divided by grid-cell area. Always negative or zero.",
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
-    "description": "Rate of change of snow mass through melt divided by grid-cell area. Always negative or zero.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "surface_snow_melt_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Snow Mass Rate of Change Through Melt",
     "units": "kg m-2 s-1",
-    "validation-key": "snm_tavg-u-hxy-si",
     "variable-root": "snm",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

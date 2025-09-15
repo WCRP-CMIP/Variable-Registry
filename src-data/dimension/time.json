@@ -1,14 +1,14 @@
 {
-    "@context": "_context_",
     "id": "time",
+    "validation-key": "time",
+    "ui-label": "Time Intervals",
+    "description": "for time-mean fields",
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "spatial-shape": "",
+    "@context": "_context_",
     "type": [
         "wcrp:dimension",
         "variable"
-    ],
-    "axis-flag": "T",
-    "cf-standard-name": "time",
-    "description": "for time-mean fields",
-    "spatial-shape": "",
-    "ui-label": "Time Intervals",
-    "validation-key": "time"
+    ]
 }

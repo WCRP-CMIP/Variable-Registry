@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "topg-ti-u-hxy-gis",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "topg_ti-u-hxy-gis",
+    "ui-label": "Bedrock Altitude",
+    "description": "The bedrock topography beneath the land ice",
     "area-label": "gis",
     "cell-measures": "area: areacellg",
     "cell-methods": "amngi-fx",
-    "description": "The bedrock topography beneath the land ice",
     "dimensions": [
         "xgre",
         "ygre"
@@ -24,9 +21,12 @@
     "standard-name": "bedrock_altitude",
     "temporal-label": "ti",
     "temporal-shape": "None",
-    "ui-label": "Bedrock Altitude",
     "units": "m",
-    "validation-key": "topg_ti-u-hxy-gis",
     "variable-root": "topg",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

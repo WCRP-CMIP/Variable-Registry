@@ -1,15 +1,8 @@
 {
-    "@context": "_context_",
     "id": "imongre",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
-    ],
-    "description": "CMIP6 CMOR table ImonGre containing variables",
-    "ui-label": "ImonGre",
     "validation-key": "imongre",
+    "ui-label": "ImonGre",
+    "description": "CMIP6 CMOR table ImonGre containing variables",
     "variables": [
         "acabf_tavg-u-hxy-is",
         "hfls_tavg-u-hxy-is",
@@ -38,5 +31,12 @@
         "tas_tavg-h2m-hm-is",
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-is"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
     ]
 }

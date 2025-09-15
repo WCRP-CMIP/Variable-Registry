@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "vos",
+    "validation-key": "vos",
+    "ui-label": "vos",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "surface-sea-water-y-velocity",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "surface-sea-water-y-velocity",
-    "ui-label": "vos",
-    "validation-key": "vos"
+    ]
 }

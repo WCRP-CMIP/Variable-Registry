@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amntr-twm",
+    "validation-key": "amntr-twm",
+    "ui-label": "Weighted Time Mean on Unfrozen Ground",
+    "description": "area: time: mean where trees",
+    "mask": "treeFrac",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: time: mean where trees",
-    "mask": "treeFrac",
-    "ui-label": "Weighted Time Mean on Unfrozen Ground",
-    "validation-key": "amntr-twm"
+    ]
 }

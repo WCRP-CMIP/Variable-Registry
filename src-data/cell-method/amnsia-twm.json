@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "amnsia-twm",
+    "validation-key": "amnsia-twm",
+    "ui-label": "Weighted Time Mean on Sea-Ice (Atmospheric Grid)",
+    "description": "area: time: mean where sea_ice",
+    "mask": "siconca",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: time: mean where sea_ice",
-    "mask": "siconca",
-    "ui-label": "Weighted Time Mean on Sea-Ice (Atmospheric Grid)",
-    "validation-key": "amnsia-twm"
+    ]
 }

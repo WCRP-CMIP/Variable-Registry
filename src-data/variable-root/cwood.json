@@ -1,13 +1,13 @@
 {
-    "@context": "_context_",
     "id": "cwood",
+    "validation-key": "cwood",
+    "ui-label": "cWood",
+    "description": "",
+    "data-type": "real",
+    "standard-name": "stem-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "data-type": "real",
-    "description": "",
-    "standard-name": "stem-mass-content-of-carbon",
-    "ui-label": "cWood",
-    "validation-key": "cwood"
+    ]
 }

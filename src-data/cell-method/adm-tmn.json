@@ -1,12 +1,12 @@
 {
-    "@context": "_context_",
     "id": "adm-tmn",
+    "validation-key": "adm-tmn",
+    "ui-label": "Area, Depth and Time Mean",
+    "description": "area: depth: time: mean",
+    "mask": "",
+    "@context": "_context_",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ],
-    "description": "area: depth: time: mean",
-    "mask": "",
-    "ui-label": "Area, Depth and Time Mean",
-    "validation-key": "adm-tmn"
+    ]
 }

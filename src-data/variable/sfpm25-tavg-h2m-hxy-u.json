@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "sfpm25-tavg-h2m-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "sfpm25_tavg-h2m-hxy-u",
+    "ui-label": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
+    "description": "Mass fraction of atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers. To specify the relative humidity and temperature at which the particle size applies, provide scalar coordinate variables with the standard names of \"relative_humidity\" and \"air_temperature\".",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "Mass fraction of atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers. To specify the relative humidity and temperature at which the particle size applies, provide scalar coordinate variables with the standard names of \"relative_humidity\" and \"air_temperature\".",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "mass_fraction_of_pm2p5_ambient_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
     "units": "kg kg-1",
-    "validation-key": "sfpm25_tavg-h2m-hxy-u",
     "variable-root": "sfpm25",
-    "vertical-label": "h2m"
+    "vertical-label": "h2m",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

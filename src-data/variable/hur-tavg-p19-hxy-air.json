@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "hur-tavg-p19-hxy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "hur_tavg-p19-hxy-air",
+    "ui-label": "Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
-    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Relative Humidity",
     "units": "%",
-    "validation-key": "hur_tavg-p19-hxy-air",
     "variable-root": "hur",
-    "vertical-label": "p19"
+    "vertical-label": "p19",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

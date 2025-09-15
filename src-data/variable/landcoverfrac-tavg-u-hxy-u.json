@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "landcoverfrac-tavg-u-hxy-u",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "landCoverFrac_tavg-u-hxy-u",
+    "ui-label": "Percentage of Area by Vegetation or Land-Cover Category",
+    "description": "The categories may differ from model to model, depending on their  PFT definitions.   This may include natural PFTs, anthropogenic PFTs, bare soil, lakes, urban areas, etc.   Sum of all should equal the fraction of the grid-cell that is land.",
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
-    "description": "The categories may differ from model to model, depending on their  PFT definitions.   This may include natural PFTs, anthropogenic PFTs, bare soil, lakes, urban areas, etc.   Sum of all should equal the fraction of the grid-cell that is land.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "Percentage of Area by Vegetation or Land-Cover Category",
     "units": "%",
-    "validation-key": "landCoverFrac_tavg-u-hxy-u",
     "variable-root": "landCoverFrac",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

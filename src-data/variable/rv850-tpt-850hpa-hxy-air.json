@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "rv850-tpt-850hpa-hxy-air",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "rv850_tpt-850hPa-hxy-air",
+    "ui-label": "Relative Vorticity at 850hPa",
+    "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-tpt",
-    "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -26,9 +23,12 @@
     "standard-name": "atmosphere_relative_vorticity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
-    "ui-label": "Relative Vorticity at 850hPa",
     "units": "s-1",
-    "validation-key": "rv850_tpt-850hPa-hxy-air",
     "variable-root": "rv850",
-    "vertical-label": "850hPa"
+    "vertical-label": "850hPa",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }

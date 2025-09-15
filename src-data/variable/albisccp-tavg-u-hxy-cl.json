@@ -1,14 +1,11 @@
 {
-    "@context": "_context_",
     "id": "albisccp-tavg-u-hxy-cl",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ],
+    "validation-key": "albisccp_tavg-u-hxy-cl",
+    "ui-label": "ISCCP Mean Cloud Albedo",
+    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
     "area-label": "cl",
     "cell-measures": "area: areacella",
     "cell-methods": "amncl-twm",
-    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
     "dimensions": [
         "longitude",
         "latitude",
@@ -25,9 +22,12 @@
     "standard-name": "cloud_albedo",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
-    "ui-label": "ISCCP Mean Cloud Albedo",
     "units": "1",
-    "validation-key": "albisccp_tavg-u-hxy-cl",
     "variable-root": "albisccp",
-    "vertical-label": "u"
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
 }
