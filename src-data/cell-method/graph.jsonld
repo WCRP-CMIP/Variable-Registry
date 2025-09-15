@@ -159,7 +159,7 @@
       "id": "amn-tpt",
       "validation-key": "amn-tpt",
       "ui-label": "Area Mean Instantaneous",
-      "description": "area: mean time: point",
+      "description": "Cell method representing spatial area mean of instantaneous (point-in-time) values. Variables are spatially averaged over grid cells or regions but represent snapshot conditions at specific time instances.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -179,9 +179,8 @@
     },
     {
       "id": "amn-twm",
-      "validation-key": "amn-twm",
       "ui-label": "Area and Time Mean",
-      "description": "area: time: mean",
+      "description": "Cell method representing spatial area mean followed by temporal mean. Variables are first averaged spatially over grid cells or regions, then averaged temporally over specified time periods.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -731,7 +730,7 @@
       "id": "apt-fx",
       "validation-key": "apt-fx",
       "ui-label": "Point Values",
-      "description": "area: point",
+      "description": "Cell method representing point values in space and time, with no spatial or temporal averaging. Values represent precise measurements or model output at specific locations and times.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -753,7 +752,7 @@
       "id": "asm-fx",
       "validation-key": "asm-fx",
       "ui-label": "Fixed Area Sum",
-      "description": "area: sum",
+      "description": "Cell method representing spatial summation over areas for fixed (time-invariant) variables. Used for total quantities like grid cell areas or basin volumes that don't change over time.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -764,7 +763,7 @@
       "id": "asm-tmn",
       "validation-key": "asm-tmn",
       "ui-label": "Time Mean of Area Sum",
-      "description": "area: sum time: mean",
+      "description": "Cell method representing temporal mean of spatially summed values. Variables are first summed over areas or regions, then averaged over time periods to give time-mean totals.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -863,7 +862,7 @@
       "id": "fixed",
       "validation-key": "fixed",
       "ui-label": "Fixed Field",
-      "description": "fixed",
+      "description": "Cell method for time-invariant variables that remain constant throughout the simulation, such as static boundary conditions, topography, land-sea masks, or grid cell areas.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -896,7 +895,7 @@
       "id": "zmean-tpt",
       "validation-key": "zmean-tpt",
       "ui-label": "Zonal Mean",
-      "description": "longitude: mean time: point",
+      "description": "Cell method representing zonal mean (longitude-averaged) of instantaneous values. Variables are averaged in the east-west direction at specific time instances to show meridional patterns.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
