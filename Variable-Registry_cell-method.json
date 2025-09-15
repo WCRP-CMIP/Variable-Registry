@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "Variable-Registry_cell-method.json",
-        "file_creation_date": "2025-08-18T16:38:49.169495",
+        "file_creation_date": "2025-09-15T11:28:54.024327",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: ac5bd213c55a775da86671ef90a28c45",
+        "checksum": "md5: f6e61e0cf7243815d19f10c19f669eff",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "last_commit": "8a008234c051bbd13b356d148e3ca2d3059570f9",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "cell-method": {
@@ -89,7 +89,7 @@
             "validation-key": "amn-tmin"
         },
         "amn-tpt": {
-            "description": "area: mean time: point",
+            "description": "Cell method representing spatial area mean of instantaneous (point-in-time) values. Variables are spatially averaged over grid cells or regions but represent snapshot conditions at specific time instances.",
             "mask": "",
             "ui-label": "Area Mean Instantaneous",
             "validation-key": "amn-tpt"
@@ -99,12 +99,6 @@
             "mask": "",
             "ui-label": "Area Mean and Time Sum",
             "validation-key": "amn-ts"
-        },
-        "amn-twm": {
-            "description": "area: time: mean",
-            "mask": "",
-            "ui-label": "Area and Time Mean",
-            "validation-key": "amn-twm"
         },
         "amna-clim": {
             "description": "area: mean where air time: mean within years time: mean over years",
@@ -401,7 +395,7 @@
             "validation-key": "amsc-twm"
         },
         "apt-fx": {
-            "description": "area: point",
+            "description": "Cell method representing point values in space and time, with no spatial or temporal averaging. Values represent precise measurements or model output at specific locations and times.",
             "mask": "",
             "ui-label": "Point Values",
             "validation-key": "apt-fx"
@@ -413,13 +407,13 @@
             "validation-key": "apt-tpt"
         },
         "asm-fx": {
-            "description": "area: sum",
+            "description": "Cell method representing spatial summation over areas for fixed (time-invariant) variables. Used for total quantities like grid cell areas or basin volumes that don't change over time.",
             "mask": "",
             "ui-label": "Fixed Area Sum",
             "validation-key": "asm-fx"
         },
         "asm-tmn": {
-            "description": "area: sum time: mean",
+            "description": "Cell method representing temporal mean of spatially summed values. Variables are first summed over areas or regions, then averaged over time periods to give time-mean totals.",
             "mask": "",
             "ui-label": "Time Mean of Area Sum",
             "validation-key": "asm-tmn"
@@ -473,7 +467,7 @@
             "validation-key": "bzzsum-tmn"
         },
         "fixed": {
-            "description": "fixed",
+            "description": "Cell method for time-invariant variables that remain constant throughout the simulation, such as static boundary conditions, topography, land-sea masks, or grid cell areas.",
             "mask": "",
             "ui-label": "Fixed Field",
             "validation-key": "fixed"
@@ -491,7 +485,7 @@
             "validation-key": "vsm-tmn"
         },
         "zmean-tpt": {
-            "description": "longitude: mean time: point",
+            "description": "Cell method representing zonal mean (longitude-averaged) of instantaneous values. Variables are averaged in the east-west direction at specific time instances to show meridional patterns.",
             "mask": "",
             "ui-label": "Zonal Mean",
             "validation-key": "zmean-tpt"

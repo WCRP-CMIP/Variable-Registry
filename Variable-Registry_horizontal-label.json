@@ -1,18 +1,18 @@
 {
     "Header": {
         "file": "Variable-Registry_horizontal-label.json",
-        "file_creation_date": "2025-09-12T05:59:38.719265",
+        "file_creation_date": "2025-09-15T11:28:53.863861",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: ad3a58529373a65e68ee366428c30fee",
+        "checksum": "md5: 46189236073a3bad7497fa43617da154",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "e24f2c715e5a173869302b3587b65b62c67410df",
+        "last_commit": "8a008234c051bbd13b356d148e3ca2d3059570f9",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "horizontal-label": {
         "hm": {
-            "description": "Variables calculated as spatial averages across horizontal dimensions (therefore the variable will not have horizontal dimensions), typically representing area-weighted means over geographic regions. Used for regional or global horizontal averaging operations.",
-            "ui-label": "Horizontal mean",
+            "description": "Variables calculated as spatial averages across horizontal dimensions, typically representing area-weighted means over geographic regions. Used for regional or global horizontal averaging operations.",
+            "ui-label": "Horizontal Mean",
             "validation-key": "hm"
         },
         "hs": {
@@ -21,24 +21,29 @@
             "validation-key": "hs"
         },
         "ht": {
-            "description": "Variables calculated as means or sums across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
-            "ui-label": "Mean or sum along a transect (i.e. line)",
+            "description": "Variables calculated as means across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
+            "ui-label": "Mean Along Line",
             "validation-key": "ht"
         },
         "hxy": {
-            "description": "Variables represented on a 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
-            "ui-label": "Gridded horizontal",
+            "description": "Variables represented on a regular 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
+            "ui-label": "Gridded Horizontal",
             "validation-key": "hxy"
         },
+        "hxys": {
+            "description": "Variables represented as point measurements at specific geographic sites or stations. Used for observational data, tower measurements, or model output extracted at particular locations rather than gridded data.",
+            "ui-label": "Site Values",
+            "validation-key": "hxys"
+        },
         "hy": {
-            "description": "Variables calculated as zonal means, i.e. averaged along lines of constant latitude (east-west direction, therefore the variable has no longitude dimension, for example). Removes longitudinal variability to show meridional (north-south) patterns, often with a focus on large-scale circulation features. See also hybs.",
-            "ui-label": "Zonal mean",
+            "description": "Variables calculated as zonal means, averaged along lines of constant latitude (east-west direction). Removes longitudinal variability to show meridional (north-south) patterns and large-scale circulation features.",
+            "ui-label": "Zonal Mean",
             "validation-key": "hy"
         },
-        "hyb": {
-            "description": "Variables calculated as zonal sums or means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging (therefore the variable has no longitude dimension) while preserving regional characteristics and circulation patterns within each basin. See also hy.",
-            "ui-label": "Zonal mean within basin",
-            "validation-key": "hyb"
+        "hybs": {
+            "description": "Variables calculated as zonal means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging while preserving regional characteristics and circulation patterns within each basin.",
+            "ui-label": "Zonal Mean Within Basin",
+            "validation-key": "hybs"
         }
     }
 }
