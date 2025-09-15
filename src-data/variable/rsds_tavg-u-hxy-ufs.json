@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "W m-2",
-    "variable-root": "rsds",
+    "variable-root": "rsdslni",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

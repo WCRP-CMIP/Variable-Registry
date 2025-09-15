@@ -1,7 +1,7 @@
 {
     "id": "emibboa_tavg-u-hxy-u",
     "validation-key": "emibboa_tavg-u-hxy-u",
-    "ui-label": "total emission of organic aerosol from all biomass burning",
+    "ui-label": "total emission of organic aerosol from all biomass burning ",
     "description": "Total emission rate of particulate organic matter (organic aerosol) into the atmosphere from all biomass burning (natural and anthropogenic)",
     "area-label": "u",
     "cell-measures": "area: areacella",

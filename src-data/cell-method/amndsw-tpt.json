@@ -1,0 +1,11 @@
+{
+    "id": "amndsw-tpt",
+    "validation-key": "area: mean (weighted by downwelling solar radiation) time: point",
+    "ui-label": "Weighted area mean where the weights are provided by downwelling solar radiation, instantaneous time value",
+    "description": "Weighted average (mean) over space, where the weights are provided by downwelling solar radiation. The values represent the instantaneous time value.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

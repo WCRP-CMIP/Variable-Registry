@@ -1,9 +1,8 @@
 {
     "id": "amng-twm",
-    "validation-key": "amng-twm",
-    "ui-label": "Weighted Time Mean on Natural Grasses",
-    "description": "area: time: mean where natural_grasses",
-    "mask": "grassFrac",
+    "validation-key": "area: time: mean where natural_grasses (mask=grassFrac)",
+    "ui-label": "Area and time mean on natural grasses",
+    "description": "Average (mean) over space and time, where the area is an area of natural grasses (see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html for definition)",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

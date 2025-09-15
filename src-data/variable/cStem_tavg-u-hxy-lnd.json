@@ -1,5 +1,5 @@
 {
-    "id": "cStem_tavg-u-hxy-lnd",
+    "id": "cstem_tavg-u-hxy-lnd",
     "validation-key": "cStem_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass in Stem",
     "description": "including sapwood and hardwood.",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "kg m-2",
-    "variable-root": "cStem",
+    "variable-root": "cstem",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

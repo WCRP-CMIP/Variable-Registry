@@ -1,9 +1,8 @@
 {
     "id": "vsm-clim",
-    "validation-key": "vsm-clim",
-    "ui-label": "Integral over Atmospheric Volume and Time Climatology",
-    "description": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
-    "mask": "",
+    "validation-key": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
+    "ui-label": "Sum over atmospheric volume, monthly climatology over time",
+    "description": "Integral (sum) over space (both horizontal and vertical). Monthly climatologies in time (i.e. for each provided month, the value represents an average over the quantity for the month, and this value has itself been calculated by taking the average for the given month over the specified years of data).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

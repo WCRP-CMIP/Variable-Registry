@@ -1,9 +1,8 @@
 {
     "id": "amn-tmax",
-    "validation-key": "amn-tmax",
-    "ui-label": "Time Maximum",
-    "description": "area: mean time: maximum",
-    "mask": "",
+    "validation-key": "area: mean time: maximum",
+    "ui-label": "Area mean, maximum in time",
+    "description": "The mean is taken over each cell's area first, then the maximum value from these averages is taken over the time represented by each cell",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

@@ -1,9 +1,8 @@
 {
     "id": "amna-clim",
-    "validation-key": "amna-clim",
-    "ui-label": "Annual Climatology in Atmosphere",
-    "description": "area: mean where air time: mean within years time: mean over years",
-    "mask": "",
+    "validation-key": "area: mean where air time: mean within years time: mean over years",
+    "ui-label": "Monthly climatology in the atmosphere",
+    "description": "Average (mean) over space, only considering areas where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Monthly climatologies in time (i.e. for each provided month, the value represents an average over the quantity for the month, and this value has itself been calculated by taking the average for the given month over the specified years of data).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

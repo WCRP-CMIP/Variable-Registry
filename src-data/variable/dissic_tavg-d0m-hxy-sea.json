@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dissicos",
     "physical-parameter-name": "dissicos",
     "positive": "",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "mol m-3",
-    "variable-root": "dissic",
+    "variable-root": "dissicos",
     "vertical-label": "d0m",
     "@context": "_context_",
     "type": [

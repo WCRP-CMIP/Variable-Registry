@@ -1,9 +1,8 @@
 {
     "id": "amnsnla-twm",
-    "validation-key": "amnsnla-twm",
-    "ui-label": "Weighted Time Mean in over Snow",
-    "description": "area: time: mean where snow",
-    "mask": "snc",
+    "validation-key": "area: time: mean where snow (mask=snc)",
+    "ui-label": "Spatial and time mean on snow",
+    "description": "Average (mean) over space and time, only considering areas and times where snow is present",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

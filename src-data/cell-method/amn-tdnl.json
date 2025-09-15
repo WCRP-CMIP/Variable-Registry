@@ -1,9 +1,8 @@
 {
     "id": "amn-tdnl",
-    "validation-key": "amn-tdnl",
-    "ui-label": "Mean Diurnal Cycle",
-    "description": "area: mean time: mean within days time: mean over days",
-    "mask": "",
+    "validation-key": "area: mean time: mean within days time: mean over days",
+    "ui-label": "Diurnal Cycle",
+    "description": "Average (mean) over space. Diurnal cycle in time (i.e. for each provided hour, the value represents an average over the quantity for the hour, and this value has itself been calculated by taking the average for the given hour over the specified days of data).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

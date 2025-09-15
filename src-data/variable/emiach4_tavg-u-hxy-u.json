@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "atmoschem",
+    "model-realm": "atmosChem",
     "out-name": "emiach4",
     "physical-parameter-name": "emiach4",
     "positive": "",

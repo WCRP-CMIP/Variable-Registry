@@ -1,9 +1,8 @@
 {
     "id": "amncc-tpt",
-    "validation-key": "amncc-tpt",
-    "ui-label": "Instantaneous Mean over convective cloud",
-    "description": "area: mean where convective_cloud time: point",
-    "mask": "",
+    "validation-key": "area: mean where convective_cloud time: point",
+    "ui-label": "Area mean where the surface is covered by convective clouds, instantaneous time value",
+    "description": "Average (mean) over space, where the area is an area of convective cloud. The values represent the instantaneous time value.",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

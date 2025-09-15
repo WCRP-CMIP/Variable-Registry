@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "atmoschem",
+    "model-realm": "atmosChem",
     "out-name": "emic2h4",
     "physical-parameter-name": "emic2h4",
     "positive": "",

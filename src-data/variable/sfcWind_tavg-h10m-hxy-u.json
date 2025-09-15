@@ -1,5 +1,5 @@
 {
-    "id": "sfcWind_tavg-h10m-hxy-u",
+    "id": "sfcwind_tavg-h10m-hxy-u",
     "validation-key": "sfcWind_tavg-h10m-hxy-u",
     "ui-label": "Near-Surface Wind Speed",
     "description": "Near surface wind speed",
@@ -24,7 +24,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "m s-1",
-    "variable-root": "sfcWind",
+    "variable-root": "sfcwind",
     "vertical-label": "h10m",
     "@context": "_context_",
     "type": [

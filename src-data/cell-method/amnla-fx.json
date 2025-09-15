@@ -1,9 +1,8 @@
 {
     "id": "amnla-fx",
-    "validation-key": "amnla-fx",
-    "ui-label": "Fixed Area Mean",
-    "description": "area: mean where land",
-    "mask": "",
+    "validation-key": "area: mean where land",
+    "ui-label": "Area mean on land",
+    "description": "Area mean i.e. each cell represents the average over the cell's area, only considering areas and times where the surface is land",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

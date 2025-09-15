@@ -14,7 +14,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dpco2",
     "physical-parameter-name": "dpco2",
     "positive": "",

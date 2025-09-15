@@ -1,9 +1,8 @@
 {
     "id": "vsm-tmn",
-    "validation-key": "vsm-tmn",
-    "ui-label": "Integral over Atmospheric Volume and Time Mean",
-    "description": "height: sum (through atmospheric column) area: sum time: mean",
-    "mask": "",
+    "validation-key": "height: sum (through atmospheric column) area: sum time: mean",
+    "ui-label": "Sum over atmospheric volume, mean over time",
+    "description": "Integral (sum) over space (both horizontal and vertical). Mean over time i.e. the value represents an average over the quantity for each time cell.",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

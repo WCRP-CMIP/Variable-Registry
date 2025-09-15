@@ -1,5 +1,5 @@
 {
-    "id": "cVeg_tavg-u-hxy-lnd",
+    "id": "cveg_tavg-u-hxy-lnd",
     "validation-key": "cVeg_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass in Vegetation",
     "description": "Carbon mass per unit area in vegetation.",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "kg m-2",
-    "variable-root": "cVeg",
+    "variable-root": "cveg",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

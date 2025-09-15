@@ -1,7 +1,7 @@
 {
     "id": "emic2h6_tavg-u-hxy-u",
     "validation-key": "emic2h6_tavg-u-hxy-u",
-    "ui-label": "total emission rate of C2H6",
+    "ui-label": "total emission rate of C2H6 ",
     "description": "This is the total emission rate of ethane (C2H6) into the atmosphere",
     "area-label": "u",
     "cell-measures": "area: areacella",
@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "atmoschem",
+    "model-realm": "atmosChem",
     "out-name": "emic2h6",
     "physical-parameter-name": "emic2h6",
     "positive": "",

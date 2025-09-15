@@ -1,0 +1,12 @@
+{
+    "id": "amnsi-twm",
+    "validation-key": "area: time: mean where ice_free_sea over sea",
+    "ui-label": "Spatial and time mean on ice-free sea",
+    "description": "Average (mean) over space and time, only considering areas and times where there is ice-free sea",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+

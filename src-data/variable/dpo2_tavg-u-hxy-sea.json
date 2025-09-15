@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dpo2",
     "physical-parameter-name": "dpo2",
     "positive": "",

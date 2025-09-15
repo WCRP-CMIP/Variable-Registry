@@ -1,5 +1,5 @@
 {
-    "id": "cSoilLut_tpt-u-hxy-multi",
+    "id": "csoillut_tpt-u-hxy-multi",
     "validation-key": "cSoilLut_tpt-u-hxy-multi",
     "ui-label": "Carbon in Soil Pool on Land-Use Tiles",
     "description": "end of year values (not annual mean)",
@@ -24,7 +24,7 @@
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
     "units": "kg m-2",
-    "variable-root": "cSoilLut",
+    "variable-root": "csoillut",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

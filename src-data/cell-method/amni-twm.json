@@ -1,9 +1,8 @@
 {
     "id": "amni-twm",
-    "validation-key": "amni-twm",
-    "ui-label": "Weighted Time Mean on Ice Sheet",
-    "description": "area: time: mean where ice_sheet",
-    "mask": "",
+    "validation-key": "area: time: mean where ice_sheet",
+    "ui-label": "Spatial and time mean on ice sheets",
+    "description": "Average (mean) over space and time, only considering areas and times where ice sheets are present",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

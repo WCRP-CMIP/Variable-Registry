@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "atmoschem",
+    "model-realm": "atmosChem",
     "out-name": "rluto3ref",
     "physical-parameter-name": "rluto3ref",
     "positive": "",

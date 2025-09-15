@@ -5,7 +5,7 @@
     "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
     "area-label": "ifs",
     "cell-measures": "area: areacello",
-    "cell-methods": "Error: area: time: mean where ice_free_sea over sea not found in cell methods, please register",
+    "cell-methods": "amnifs-twm",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,7 +23,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "W m-2",
-    "variable-root": "rsds",
+    "variable-root": "rsdsoni",
     "vertical-label": "u",
     "@context": "_context_",
     "type": [

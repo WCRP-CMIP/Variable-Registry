@@ -14,7 +14,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dissic",
     "physical-parameter-name": "dissic",
     "positive": "",

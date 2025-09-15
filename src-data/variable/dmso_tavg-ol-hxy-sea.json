@@ -14,7 +14,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dmso",
     "physical-parameter-name": "dmso",
     "positive": "",

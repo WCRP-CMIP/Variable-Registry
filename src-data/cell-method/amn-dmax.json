@@ -1,9 +1,8 @@
 {
     "id": "amn-dmax",
-    "validation-key": "amn-dmax",
-    "ui-label": "Daily Maximum",
-    "description": "area: mean time: maximum within days time: mean over days",
-    "mask": "",
+    "validation-key": "area: mean time: maximum within days time: mean over days",
+    "ui-label": "Area mean, maximum for each hour, then averaged over all days considered",
+    "description": "The mean is taken over each cell's area first, then the maximum value from these averages is taken over the time represented by each cell, then an average over all days considered is taken to arrive at the final value.",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

@@ -1,9 +1,10 @@
 {
     "id": "amns-fx",
-    "validation-key": "amns-fx",
+    "validation-key": "area: mean where sea",
     "ui-label": "Fixed Area Mean over Sea",
     "description": "area: mean where sea",
-    "mask": "",
+    "ui-label": "Area mean over sea",
+    "description": "Area mean i.e. each cell represents the average over the cell's area, where the area is over the sea",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

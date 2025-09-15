@@ -1,9 +1,8 @@
 {
     "id": "amn-fx",
-    "validation-key": "amn-fx",
-    "ui-label": "Fixed Area Mean",
-    "description": "area: mean",
-    "mask": "",
+    "validation-key": "area: mean",
+    "ui-label": "Area mean",
+    "description": "Area mean i.e. each cell represents the average over the cell's area",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

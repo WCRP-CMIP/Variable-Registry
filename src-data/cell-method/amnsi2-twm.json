@@ -1,0 +1,12 @@
+{
+    "id": "amnsi-twm",
+    "validation-key": "area: time: mean where sea_ice (mask=siconc)",
+    "ui-label": "Spatial and time mean on sea-ice",
+    "description": "Average (mean) over space and time, only considering areas and times where sea ice is present",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+

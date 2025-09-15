@@ -1,9 +1,8 @@
 {
     "id": "amnshr-twm",
-    "validation-key": "amnshr-twm",
-    "ui-label": "Weighted Time Mean on Shrubs",
-    "description": "area: time: mean where shrubs",
-    "mask": "shrubFrac",
+    "validation-key": "area: time: mean where shrubs (mask=shrubFrac)",
+    "ui-label": "Area and time mean on shrubs",
+    "description": "Average (mean) over space and time, where the area is an area of shrubs (see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html for definition)",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

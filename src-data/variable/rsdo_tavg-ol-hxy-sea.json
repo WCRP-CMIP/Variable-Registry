@@ -1,7 +1,7 @@
 {
     "id": "rsdo_tavg-ol-hxy-sea",
     "validation-key": "rsdo_tavg-ol-hxy-sea",
-    "ui-label": "Downwelling Shortwave Radiation in Sea Water",
+    "ui-label": "Downwelling Shortwave Radiation in Sea Water\n",
     "description": "Downwelling Shortwave Radiation in Sea Water",
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",

@@ -73,6 +73,12 @@ def main():
     # - mask isn't a thing for cell methods
     #   (or, if it is, it needs to be shown elsewhere i.e. in the methods themselves?)
     #   Put another way, can we drop the `mask` key from all cell methods entries?
+    # - how to describe cell methods. They're describing the methods applied in the cell
+    #   not what the data represents (kind of)
+    #   e.g. "time: area: mean" still applies to data with lat, lon, time,
+    #   it just tells you that each cell represents average values,
+    #   rather than e.g. instantaneous values
+    # - Is "area: time: mean where ice_free_sea over sea" a valid cell method?
     # Notes:
     # - helpful link for understanding 'where' in cell methods:
     #   https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html

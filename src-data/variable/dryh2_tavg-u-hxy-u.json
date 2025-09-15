@@ -13,7 +13,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "atmoschem",
+    "model-realm": "atmosChem",
     "out-name": "dryh2",
     "physical-parameter-name": "dryh2",
     "positive": "",

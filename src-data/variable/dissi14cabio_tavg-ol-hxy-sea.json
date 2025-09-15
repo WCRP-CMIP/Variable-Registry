@@ -14,7 +14,7 @@
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
-    "model-realm": "ocnbgchem",
+    "model-realm": "ocnBgchem",
     "out-name": "dissi14cabio",
     "physical-parameter-name": "dissi14cabio",
     "positive": "",

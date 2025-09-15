@@ -1,0 +1,11 @@
+{
+    "id": "amndsw-twm",
+    "validation-key": "area: time: mean (weighted by downwelling solar radiation)",
+    "ui-label": "Weighted area and time mean where the weights are provided by downwelling solar radiation",
+    "description": "Weighted average (mean) over space and time, where the weights are provided by downwelling solar radiation.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}

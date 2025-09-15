@@ -1,5 +1,5 @@
 {
-    "id": "sfcWind_tpt-h10m-hxys-u",
+    "id": "sfcwind_tpt-h10m-hxys-u",
     "validation-key": "sfcWind_tpt-h10m-hxys-u",
     "ui-label": "Near-Surface Wind Speed",
     "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
@@ -23,7 +23,7 @@
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
     "units": "m s-1",
-    "variable-root": "sfcWind",
+    "variable-root": "sfcwind",
     "vertical-label": "h10m",
     "@context": "_context_",
     "type": [

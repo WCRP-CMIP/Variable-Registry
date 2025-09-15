@@ -10,7 +10,7 @@
         "longitude",
         "latitude",
         "time",
-        "lowermodellayer"
+        "lowerModelLayer"
     ],
     "frequency": "mon",
     "horizontal-label": "hxy",
@@ -24,7 +24,7 @@
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
     "units": "1E-06",
-    "variable-root": "co2",
+    "variable-root": "co2s",
     "vertical-label": "h2m",
     "@context": "_context_",
     "type": [

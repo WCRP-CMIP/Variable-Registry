@@ -5,7 +5,7 @@
     "description": "Aerosol Extinction @550nm",
     "area-label": "u",
     "cell-measures": "area: areacella",
-    "cell-methods": "Error: area: mean (weighted by downwelling solar radiation) time: point not found in cell methods, please register",
+    "cell-methods": "amndsw-tpt",
     "dimensions": [
         "longitude",
         "latitude",
