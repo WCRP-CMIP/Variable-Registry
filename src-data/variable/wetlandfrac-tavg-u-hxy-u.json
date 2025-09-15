@@ -1,11 +1,14 @@
 {
-    "id": "wetlandFrac_tavg-u-hxy-u",
-    "validation-key": "wetlandFrac_tavg-u-hxy-u",
-    "ui-label": "Wetland Percentage Cover",
-    "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",
+    "@context": "_context_",
+    "id": "wetlandfrac-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Wetland Percentage Cover",
     "units": "%",
+    "validation-key": "wetlandFrac_tavg-u-hxy-u",
     "variable-root": "wetlandFrac",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

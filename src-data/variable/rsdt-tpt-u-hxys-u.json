@@ -1,11 +1,14 @@
 {
-    "id": "rsdt_tpt-u-hxys-u",
-    "validation-key": "rsdt_tpt-u-hxys-u",
-    "ui-label": "TOA Incident Shortwave Radiation",
-    "description": "at the top of the atmosphere",
+    "@context": "_context_",
+    "id": "rsdt-tpt-u-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "at the top of the atmosphere",
     "dimensions": [
         "site",
         "time1"
@@ -21,12 +24,9 @@
     "standard-name": "toa_incoming_shortwave_flux",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "TOA Incident Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsdt_tpt-u-hxys-u",
     "variable-root": "rsdt",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

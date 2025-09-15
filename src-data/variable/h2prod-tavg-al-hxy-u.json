@@ -1,11 +1,14 @@
 {
-    "id": "h2prod_tavg-al-hxy-u",
-    "validation-key": "h2prod_tavg-al-hxy-u",
-    "ui-label": "chemical production of atmospheric H2",
-    "description": "This is the production of molecular hydrogen (H2) in the atmosphere due to chemical production",
+    "@context": "_context_",
+    "id": "h2prod-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the production of molecular hydrogen (H2) in the atmosphere due to chemical production",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_atmosphere_mole_concentration_of_molecular_hydrogen_due_to_chemical_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "chemical production of atmospheric H2",
     "units": "mol m-3 s-1",
+    "validation-key": "h2prod_tavg-al-hxy-u",
     "variable-root": "h2prod",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

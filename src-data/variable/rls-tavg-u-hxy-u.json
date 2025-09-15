@@ -1,11 +1,14 @@
 {
-    "id": "rls_tavg-u-hxy-u",
-    "validation-key": "rls_tavg-u-hxy-u",
-    "ui-label": "Net Longwave Surface Radiation",
-    "description": "Net longwave surface radiation",
+    "@context": "_context_",
+    "id": "rls-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Net longwave surface radiation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_net_downward_longwave_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Longwave Surface Radiation",
     "units": "W m-2",
+    "validation-key": "rls_tavg-u-hxy-u",
     "variable-root": "rls",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

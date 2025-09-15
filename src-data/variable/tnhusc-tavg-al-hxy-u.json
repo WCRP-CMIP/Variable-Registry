@@ -1,11 +1,14 @@
 {
-    "id": "tnhusc_tavg-al-hxy-u",
-    "validation-key": "tnhusc_tavg-al-hxy-u",
-    "ui-label": "Tendency of Specific Humidity Due to Convection",
-    "description": "Tendencies from cumulus convection scheme.",
+    "@context": "_context_",
+    "id": "tnhusc-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Tendencies from cumulus convection scheme.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_specific_humidity_due_to_convection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Specific Humidity Due to Convection",
     "units": "s-1",
+    "validation-key": "tnhusc_tavg-al-hxy-u",
     "variable-root": "tnhusc",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "clw",
-    "validation-key": "clw",
-    "ui-label": "clw",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mass-fraction-of-cloud-liquid-water-in-air",
     "@context": "_context_",
+    "id": "clw",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mass-fraction-of-cloud-liquid-water-in-air",
+    "ui-label": "clw",
+    "validation-key": "clw"
 }

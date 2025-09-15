@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "3hrpt",
-    "validation-key": "3hrpt",
-    "ui-label": "3hrPt",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table 3hrPt containing variables",
+    "ui-label": "3hrPt",
+    "validation-key": "3hrpt",
     "variables": [
         "bldep_tpt-u-hxy-u",
         "unknown01",
@@ -12,12 +19,5 @@
         "unknown03",
         "unknown04",
         "unknown05"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

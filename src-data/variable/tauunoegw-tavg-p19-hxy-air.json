@@ -1,11 +1,14 @@
 {
-    "id": "tauunoegw_tavg-p19-hxy-air",
-    "validation-key": "tauunoegw_tavg-p19-hxy-air",
-    "ui-label": "Eastward Reynolds stress from non-orographic eastward gravity wave parameterization",
-    "description": "Vertical flux of zonal momentum within the non-orographic gravity wave parameterization associated with the eastward propagating modes.",
+    "@context": "_context_",
+    "id": "tauunoegw-tavg-p19-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Vertical flux of zonal momentum within the non-orographic gravity wave parameterization associated with the eastward propagating modes.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "upward_eastward_momentum_flux_in_air_due_to_nonorographic_eastward_gravity_waves",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Eastward Reynolds stress from non-orographic eastward gravity wave parameterization",
     "units": "Pa",
+    "validation-key": "tauunoegw_tavg-p19-hxy-air",
     "variable-root": "tauunoegw",
-    "vertical-label": "p19",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p19"
 }

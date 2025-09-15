@@ -1,13 +1,13 @@
 {
-    "id": "sidmassmeltbot",
-    "validation-key": "sidmassmeltbot",
-    "ui-label": "sidmassmeltbot",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-sea-ice-amount-due-to-basal-melting",
     "@context": "_context_",
+    "id": "sidmassmeltbot",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-sea-ice-amount-due-to-basal-melting",
+    "ui-label": "sidmassmeltbot",
+    "validation-key": "sidmassmeltbot"
 }

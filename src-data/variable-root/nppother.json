@@ -1,13 +1,13 @@
 {
-    "id": "nppother",
-    "validation-key": "nppother",
-    "ui-label": "nppOther",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-miscellaneous-living-matter",
     "@context": "_context_",
+    "id": "nppother",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-miscellaneous-living-matter",
+    "ui-label": "nppOther",
+    "validation-key": "nppother"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "clc_tavg-al-hxy-u",
-    "validation-key": "clc_tavg-al-hxy-u",
-    "ui-label": "Convective Cloud Area Percentage",
-    "description": "Include only convective cloud.",
+    "@context": "_context_",
+    "id": "clc-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Include only convective cloud.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "convective_cloud_area_fraction_in_atmosphere_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Convective Cloud Area Percentage",
     "units": "%",
+    "validation-key": "clc_tavg-al-hxy-u",
     "variable-root": "clc",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

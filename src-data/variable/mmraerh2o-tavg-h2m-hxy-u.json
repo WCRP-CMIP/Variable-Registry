@@ -1,11 +1,14 @@
 {
-    "id": "mmraerh2o_tavg-h2m-hxy-u",
-    "validation-key": "mmraerh2o_tavg-h2m-hxy-u",
-    "ui-label": "Daily mean surface Aerosol water mass mixing ratio in lowest model layer",
-    "description": "Daily mean Aerosol water mass mixing ratio in lowest model layer",
+    "@context": "_context_",
+    "id": "mmraerh2o-tavg-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Daily mean Aerosol water mass mixing ratio in lowest model layer",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily mean surface Aerosol water mass mixing ratio in lowest model layer",
     "units": "kg kg-1",
+    "validation-key": "mmraerh2o_tavg-h2m-hxy-u",
     "variable-root": "mmraerh2o",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

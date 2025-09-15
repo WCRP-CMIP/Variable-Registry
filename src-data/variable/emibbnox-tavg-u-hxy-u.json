@@ -1,11 +1,14 @@
 {
-    "id": "emibbnox_tavg-u-hxy-u",
-    "validation-key": "emibbnox_tavg-u-hxy-u",
-    "ui-label": "total emission rate of NOx from all biomass burning",
-    "description": "Total emission rate of nitrogen oxides (NOx) from all biomass burning (natural and anthropogenic)",
+    "@context": "_context_",
+    "id": "emibbnox-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Total emission rate of nitrogen oxides (NOx) from all biomass burning (natural and anthropogenic)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_nox_expressed_as_nitrogen_due_to_emission_from_fires",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "total emission rate of NOx from all biomass burning",
     "units": "kg m-2 s-1",
+    "validation-key": "emibbnox_tavg-u-hxy-u",
     "variable-root": "emibbnox",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

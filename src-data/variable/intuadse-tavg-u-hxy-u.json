@@ -1,11 +1,14 @@
 {
-    "id": "intuadse_tavg-u-hxy-u",
-    "validation-key": "intuadse_tavg-u-hxy-u",
-    "ui-label": "Vertically Integrated Eastward Dry Static Energy Transport",
-    "description": "Vertically integrated eastward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of eastward wind by dry static_energy per mass unit)",
+    "@context": "_context_",
+    "id": "intuadse-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Vertically integrated eastward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of eastward wind by dry static_energy per mass unit)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "eastward_atmosphere_dry_static_energy_transport_across_unit_distance",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Vertically Integrated Eastward Dry Static Energy Transport",
     "units": "MJ m-1 s-1",
+    "validation-key": "intuadse_tavg-u-hxy-u",
     "variable-root": "intuadse",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

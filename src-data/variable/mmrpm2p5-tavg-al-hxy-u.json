@@ -1,11 +1,14 @@
 {
-    "id": "mmrpm2p5_tavg-al-hxy-u",
-    "validation-key": "mmrpm2p5_tavg-al-hxy-u",
-    "ui-label": "PM2.5 Mass Mixing Ratio",
-    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers",
+    "@context": "_context_",
+    "id": "mmrpm2p5-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_fraction_of_pm2p5_dry_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "PM2.5 Mass Mixing Ratio",
     "units": "kg kg-1",
+    "validation-key": "mmrpm2p5_tavg-al-hxy-u",
     "variable-root": "mmrpm2p5",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

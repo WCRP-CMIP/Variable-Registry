@@ -1,11 +1,14 @@
 {
-    "id": "tendlibmassbf_tavg-u-hm-is",
-    "validation-key": "tendlibmassbf_tavg-u-hm-is",
-    "ui-label": "Total Basal Mass Balance Flux",
-    "description": "Greenland",
+    "@context": "_context_",
+    "id": "tendlibmassbf-tavg-u-hm-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "",
     "cell-methods": "asmi-tmn",
+    "description": "Greenland",
     "dimensions": [
         "time"
     ],
@@ -20,12 +23,9 @@
     "standard-name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Basal Mass Balance Flux",
     "units": "kg s-1",
+    "validation-key": "tendlibmassbf_tavg-u-hm-is",
     "variable-root": "tendlibmassbf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

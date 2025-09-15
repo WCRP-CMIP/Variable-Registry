@@ -1,11 +1,14 @@
 {
-    "id": "tnhusa_tavg-al-hxy-u",
-    "validation-key": "tnhusa_tavg-al-hxy-u",
-    "ui-label": "Tendency of Specific Humidity Due to Advection",
-    "description": "Tendency of Specific Humidity due to Advection",
+    "@context": "_context_",
+    "id": "tnhusa-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Tendency of Specific Humidity due to Advection",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_specific_humidity_due_to_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Specific Humidity Due to Advection",
     "units": "s-1",
+    "validation-key": "tnhusa_tavg-al-hxy-u",
     "variable-root": "tnhusa",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

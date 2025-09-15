@@ -1,11 +1,14 @@
 {
-    "id": "no_tavg-al-hxy-u",
-    "validation-key": "no_tavg-al-hxy-u",
-    "ui-label": "NO Volume Mixing Ratio",
-    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "@context": "_context_",
+    "id": "no-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_nitrogen_monoxide_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "NO Volume Mixing Ratio",
     "units": "mol mol-1",
+    "validation-key": "no_tavg-al-hxy-u",
     "variable-root": "no",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

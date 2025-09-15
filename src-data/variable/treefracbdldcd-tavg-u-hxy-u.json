@@ -1,11 +1,14 @@
 {
-    "id": "treeFracBdlDcd_tavg-u-hxy-u",
-    "validation-key": "treeFracBdlDcd_tavg-u-hxy-u",
-    "ui-label": "Broadleaf Deciduous Tree Area Percentage",
-    "description": "This is the percentage of the entire grid cell that is covered by broadleaf deciduous trees.",
+    "@context": "_context_",
+    "id": "treefracbdldcd-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the percentage of the entire grid cell that is covered by broadleaf deciduous trees.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Broadleaf Deciduous Tree Area Percentage",
     "units": "%",
+    "validation-key": "treeFracBdlDcd_tavg-u-hxy-u",
     "variable-root": "treeFracBdlDcd",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

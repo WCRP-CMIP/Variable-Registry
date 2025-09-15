@@ -1,11 +1,14 @@
 {
-    "id": "tsn_tavg-u-hxy-is",
-    "validation-key": "tsn_tavg-u-hxy-is",
-    "ui-label": "Ice Sheet Snow Internal Temperature",
-    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "@context": "_context_",
+    "id": "tsn-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacella",
     "cell-methods": "amni-twm",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "temperature_in_surface_snow",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Snow Internal Temperature",
     "units": "K",
+    "validation-key": "tsn_tavg-u-hxy-is",
     "variable-root": "tsn",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

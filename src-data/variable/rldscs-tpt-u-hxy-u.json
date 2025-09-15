@@ -1,11 +1,14 @@
 {
-    "id": "rldscs_tpt-u-hxy-u",
-    "validation-key": "rldscs_tpt-u-hxy-u",
-    "ui-label": "Surface Downwelling Clear-Sky Longwave Radiation",
-    "description": "Surface downwelling clear-sky longwave radiation",
+    "@context": "_context_",
+    "id": "rldscs-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Surface downwelling clear-sky longwave radiation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface Downwelling Clear-Sky Longwave Radiation",
     "units": "W m-2",
+    "validation-key": "rldscs_tpt-u-hxy-u",
     "variable-root": "rldscs",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

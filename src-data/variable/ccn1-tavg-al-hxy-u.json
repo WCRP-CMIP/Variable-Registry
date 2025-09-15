@@ -1,11 +1,14 @@
 {
-    "id": "ccn1_tavg-al-hxy-u",
-    "validation-key": "ccn1_tavg-al-hxy-u",
-    "ui-label": "CCN concentration at 1.0 percent supersaturation",
-    "description": "This is the concentration of cloud condensation nuclei (CCN) at 1.0 percent supersaturation, based on aerosol chemical composition and size",
+    "@context": "_context_",
+    "id": "ccn1-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the concentration of cloud condensation nuclei (CCN) at 1.0 percent supersaturation, based on aerosol chemical composition and size",
     "dimensions": [
         "longitude",
         "latitude",
@@ -24,12 +27,9 @@
     "standard-name": "number_concentration_of_cloud_condensation_nuclei_assuming_reference_relative_humidity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "CCN concentration at 1.0 percent supersaturation",
     "units": "m-3",
+    "validation-key": "ccn1_tavg-al-hxy-u",
     "variable-root": "ccn1",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

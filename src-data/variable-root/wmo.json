@@ -1,13 +1,13 @@
 {
-    "id": "wmo",
-    "validation-key": "wmo",
-    "ui-label": "wmo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "upward-ocean-mass-transport",
     "@context": "_context_",
+    "id": "wmo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "upward-ocean-mass-transport",
+    "ui-label": "wmo",
+    "validation-key": "wmo"
 }

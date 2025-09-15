@@ -1,13 +1,13 @@
 {
-    "id": "rhsoil",
-    "validation-key": "rhsoil",
-    "ui-label": "rhSoil",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-upward-mass-flux-of-carbon-due-to-heterotrophic-respiration-in-soil",
     "@context": "_context_",
+    "id": "rhsoil",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-upward-mass-flux-of-carbon-due-to-heterotrophic-respiration-in-soil",
+    "ui-label": "rhSoil",
+    "validation-key": "rhsoil"
 }

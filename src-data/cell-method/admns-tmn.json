@@ -1,12 +1,12 @@
 {
-    "id": "admns-tmn",
-    "validation-key": "admns-tmn",
-    "ui-label": "Area, Depth and Time Mean",
-    "description": "area: depth: time: mean where sea",
-    "mask": "",
     "@context": "_context_",
+    "id": "admns-tmn",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: depth: time: mean where sea",
+    "mask": "",
+    "ui-label": "Area, Depth and Time Mean",
+    "validation-key": "admns-tmn"
 }

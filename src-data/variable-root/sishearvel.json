@@ -1,13 +1,13 @@
 {
-    "id": "sishearvel",
-    "validation-key": "sishearvel",
-    "ui-label": "sishearvel",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "maximum-over-coordinate-rotation-of-sea-ice-horizontal-shear-strain-rate",
     "@context": "_context_",
+    "id": "sishearvel",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "maximum-over-coordinate-rotation-of-sea-ice-horizontal-shear-strain-rate",
+    "ui-label": "sishearvel",
+    "validation-key": "sishearvel"
 }

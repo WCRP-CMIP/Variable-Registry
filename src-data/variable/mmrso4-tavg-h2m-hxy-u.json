@@ -1,11 +1,14 @@
 {
-    "id": "mmrso4_tavg-h2m-hxy-u",
-    "validation-key": "mmrso4_tavg-h2m-hxy-u",
-    "ui-label": "Daily mean surface sulfate aerosol",
-    "description": "Daily mean sulfate aerosol mass mixing ratio in lowest model layer",
+    "@context": "_context_",
+    "id": "mmrso4-tavg-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Daily mean sulfate aerosol mass mixing ratio in lowest model layer",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily mean surface sulfate aerosol",
     "units": "kg kg-1",
+    "validation-key": "mmrso4_tavg-h2m-hxy-u",
     "variable-root": "mmrso4",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "snm_tavg-u-hxy-is",
-    "validation-key": "snm_tavg-u-hxy-is",
-    "ui-label": "Ice Sheet Surface Snow Melt",
-    "description": "Loss of snow mass resulting from surface melting. Computed as the surface melt water from snow on the ice sheet portion of the grid cell divided by the ice_sheet area in the grid cell; report as 0.0 for snow-free land_ice regions; report as missing where the land fraction is 0.",
+    "@context": "_context_",
+    "id": "snm-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacella",
     "cell-methods": "amni-twm",
+    "description": "Loss of snow mass resulting from surface melting. Computed as the surface melt water from snow on the ice sheet portion of the grid cell divided by the ice_sheet area in the grid cell; report as 0.0 for snow-free land_ice regions; report as missing where the land fraction is 0.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_snow_melt_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Surface Snow Melt",
     "units": "kg m-2 s-1",
+    "validation-key": "snm_tavg-u-hxy-is",
     "variable-root": "snm",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

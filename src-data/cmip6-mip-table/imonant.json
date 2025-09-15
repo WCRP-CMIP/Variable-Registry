@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "imonant",
-    "validation-key": "imonant",
-    "ui-label": "ImonAnt",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table ImonAnt containing variables",
+    "ui-label": "ImonAnt",
+    "validation-key": "imonant",
     "variables": [
         "acabf_tavg-u-hxy-is",
         "hfls_tavg-u-hxy-is",
@@ -31,12 +38,5 @@
         "tas_tavg-h2m-hm-is",
         "ts_tavg-u-hxy-is",
         "tsn_tavg-u-hxy-is"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

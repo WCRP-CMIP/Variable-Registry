@@ -1,13 +1,13 @@
 {
-    "id": "rldcs",
-    "validation-key": "rldcs",
-    "ui-label": "rldcs",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "downwelling-longwave-flux-in-air-assuming-clear-sky",
     "@context": "_context_",
+    "id": "rldcs",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "downwelling-longwave-flux-in-air-assuming-clear-sky",
+    "ui-label": "rldcs",
+    "validation-key": "rldcs"
 }

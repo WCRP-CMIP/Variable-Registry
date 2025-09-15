@@ -1,11 +1,14 @@
 {
-    "id": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
-    "validation-key": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
-    "ui-label": "Net Mass Flux of 14C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
-    "description": "Flux of carbon-14 as carbon dioxide into the land. This flux should be reproducible by differencing the sum of all carbon pools (cVeg, cLitter, cSoil, and cProducts or equivalently cLand) from one time step to the next, except in the case of lateral transfer of carbon due to harvest, riverine transport of dissolved organic and/or inorganic carbon, or any other process (in which case the lateral_carbon_transfer_over_land term, see below, will be zero data).",
+    "@context": "_context_",
+    "id": "netatmoslandc14flux-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Flux of carbon-14 as carbon dioxide into the land. This flux should be reproducible by differencing the sum of all carbon pools (cVeg, cLitter, cSoil, and cProducts or equivalently cLand) from one time step to the next, except in the case of lateral transfer of carbon due to harvest, riverine transport of dissolved organic and/or inorganic carbon, or any other process (in which case the lateral_carbon_transfer_over_land term, see below, will be zero data).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_14C_due_to_all_land_processes",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Mass Flux of 14C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
+    "validation-key": "netAtmosLandC14Flux_tavg-u-hxy-lnd",
     "variable-root": "netAtmosLandC14Flux",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

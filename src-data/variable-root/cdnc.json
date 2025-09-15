@@ -1,13 +1,13 @@
 {
-    "id": "cdnc",
-    "validation-key": "cdnc",
-    "ui-label": "cdnc",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "number-concentration-of-cloud-liquid-water-particles-in-air",
     "@context": "_context_",
+    "id": "cdnc",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "number-concentration-of-cloud-liquid-water-particles-in-air",
+    "ui-label": "cdnc",
+    "validation-key": "cdnc"
 }

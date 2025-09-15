@@ -1,11 +1,14 @@
 {
-    "id": "photo1d_tavg-al-hxy-u",
-    "validation-key": "photo1d_tavg-al-hxy-u",
-    "ui-label": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
-    "description": "proposed name: photolysis_rate_of_ozone_to_O1D",
+    "@context": "_context_",
+    "id": "photo1d-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "proposed name: photolysis_rate_of_ozone_to_O1D",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "photolysis_rate_of_ozone_to_1D_oxygen_atom",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
     "units": "s-1",
+    "validation-key": "photo1d_tavg-al-hxy-u",
     "variable-root": "photo1d",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

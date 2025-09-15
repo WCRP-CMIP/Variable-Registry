@@ -1,13 +1,13 @@
 {
-    "id": "hurs",
-    "validation-key": "hurs",
-    "ui-label": "hurs",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "relative-humidity",
     "@context": "_context_",
+    "id": "hurs",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "relative-humidity",
+    "ui-label": "hurs",
+    "validation-key": "hurs"
 }

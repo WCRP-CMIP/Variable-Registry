@@ -1,11 +1,14 @@
 {
-    "id": "h2loss_tavg-al-hxy-u",
-    "validation-key": "h2loss_tavg-al-hxy-u",
-    "ui-label": "Chemical destruction of atmospheric H2",
-    "description": "This is the loss rate of molecular hydrogen (H2) from the atmosphere due to chemical destruction",
+    "@context": "_context_",
+    "id": "h2loss-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the loss rate of molecular hydrogen (H2) from the atmosphere due to chemical destruction",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_atmosphere_mole_concentration_of_molecular_hydrogen_due_to_chemical_destruction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Chemical destruction of atmospheric H2",
     "units": "mol m-3 s-1",
+    "validation-key": "h2loss_tavg-al-hxy-u",
     "variable-root": "h2loss",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

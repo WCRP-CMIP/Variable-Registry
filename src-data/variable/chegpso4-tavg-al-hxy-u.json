@@ -1,11 +1,14 @@
 {
-    "id": "chegpso4_tavg-al-hxy-u",
-    "validation-key": "chegpso4_tavg-al-hxy-u",
-    "ui-label": "Gas-Phase Production Rate of SO4",
-    "description": "proposed name: tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_due_to_gas_phase_net_chemical_production",
+    "@context": "_context_",
+    "id": "chegpso4-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "proposed name: tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_due_to_gas_phase_net_chemical_production",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_gaseous_phase_net_chemical_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Gas-Phase Production Rate of SO4",
     "units": "kg m-2 s-1",
+    "validation-key": "chegpso4_tavg-al-hxy-u",
     "variable-root": "chegpso4",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

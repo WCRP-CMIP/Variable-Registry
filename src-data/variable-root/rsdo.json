@@ -1,13 +1,13 @@
 {
-    "id": "rsdo",
-    "validation-key": "rsdo",
-    "ui-label": "rsdo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "downwelling-shortwave-flux-in-sea-water",
     "@context": "_context_",
+    "id": "rsdo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "downwelling-shortwave-flux-in-sea-water",
+    "ui-label": "rsdo",
+    "validation-key": "rsdo"
 }

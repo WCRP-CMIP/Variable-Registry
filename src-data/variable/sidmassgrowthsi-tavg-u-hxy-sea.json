@@ -1,11 +1,14 @@
 {
-    "id": "sidmassgrowthsi_tavg-u-hxy-sea",
-    "validation-key": "sidmassgrowthsi_tavg-u-hxy-sea",
-    "ui-label": "Sea-Ice Mass Change Through Snow-to-Ice Conversion",
-    "description": "Rate of change of sea-ice mass due to transformation of snow to sea ice divided by grid-cell area. Always positive or zero.",
+    "@context": "_context_",
+    "id": "sidmassgrowthsi-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Rate of change of sea-ice mass due to transformation of snow to sea ice divided by grid-cell area. Always positive or zero.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_sea_ice_amount_due_to_conversion_of_snow_to_sea_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sea-Ice Mass Change Through Snow-to-Ice Conversion",
     "units": "kg m-2 s-1",
+    "validation-key": "sidmassgrowthsi_tavg-u-hxy-sea",
     "variable-root": "sidmassgrowthsi",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "siforceintstrx_tavg-u-hxy-si",
-    "validation-key": "siforceintstrx_tavg-u-hxy-si",
-    "ui-label": "Internal Stress Term in Force Balance (X-Component)",
-    "description": "X-component of the force on sea ice caused by internal stress (divergence of sigma) divided by grid-cell area.",
+    "@context": "_context_",
+    "id": "siforceintstrx-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "::MODEL",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "X-component of the force on sea ice caused by internal stress (divergence of sigma) divided by grid-cell area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_ice_x_internal_stress",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Internal Stress Term in Force Balance (X-Component)",
     "units": "N m-2",
+    "validation-key": "siforceintstrx_tavg-u-hxy-si",
     "variable-root": "siforceintstrx",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

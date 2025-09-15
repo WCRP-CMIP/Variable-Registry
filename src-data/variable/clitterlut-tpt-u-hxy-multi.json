@@ -1,11 +1,14 @@
 {
-    "id": "cLitterLut_tpt-u-hxy-multi",
-    "validation-key": "cLitterLut_tpt-u-hxy-multi",
-    "ui-label": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
-    "description": "end of year values (not annual mean)",
+    "@context": "_context_",
+    "id": "clitterlut-tpt-u-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amnlu-tpt",
+    "description": "end of year values (not annual mean)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "litter_mass_content_of_carbon",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
     "units": "kg m-2",
+    "validation-key": "cLitterLut_tpt-u-hxy-multi",
     "variable-root": "cLitterLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

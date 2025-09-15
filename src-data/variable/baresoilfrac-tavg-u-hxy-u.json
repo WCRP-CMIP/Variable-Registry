@@ -1,11 +1,14 @@
 {
-    "id": "baresoilFrac_tavg-u-hxy-u",
-    "validation-key": "baresoilFrac_tavg-u-hxy-u",
-    "ui-label": "Bare Soil Percentage Area Coverage",
-    "description": "Percentage of entire grid cell  that is covered by bare soil.",
+    "@context": "_context_",
+    "id": "baresoilfrac-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Percentage of entire grid cell  that is covered by bare soil.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Bare Soil Percentage Area Coverage",
     "units": "%",
+    "validation-key": "baresoilFrac_tavg-u-hxy-u",
     "variable-root": "baresoilFrac",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

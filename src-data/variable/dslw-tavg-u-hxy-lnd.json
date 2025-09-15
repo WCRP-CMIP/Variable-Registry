@@ -1,11 +1,14 @@
 {
-    "id": "dslw_tavg-u-hxy-lnd",
-    "validation-key": "dslw_tavg-u-hxy-lnd",
-    "ui-label": "Change in Soil Moisture",
-    "description": "Change in Soil Moisture",
+    "@context": "_context_",
+    "id": "dslw-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Change in Soil Moisture",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "change_over_time_in_mass_content_of_water_in_soil",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Change in Soil Moisture",
     "units": "kg m-2",
+    "validation-key": "dslw_tavg-u-hxy-lnd",
     "variable-root": "dslw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

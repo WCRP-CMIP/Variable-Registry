@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "e3hr",
-    "validation-key": "e3hr",
-    "ui-label": "E3hr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table E3hr containing variables",
+    "ui-label": "E3hr",
+    "validation-key": "e3hr",
     "variables": [
         "clivi_tavg-u-hxy-u",
         "clwvi_tavg-u-hxy-u",
@@ -12,12 +19,5 @@
         "rsut_tavg-u-hxy-u",
         "rsutcs_tavg-u-hxy-u",
         "sfcWind_tavg-h10m-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

@@ -1,11 +1,14 @@
 {
-    "id": "sob_tavg-u-hxy-sea",
-    "validation-key": "sob_tavg-u-hxy-sea",
-    "ui-label": "Sea Water Salinity at Sea Floor",
-    "description": "Model prognostic salinity at bottom-most model grid cell",
+    "@context": "_context_",
+    "id": "sob-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Model prognostic salinity at bottom-most model grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sea_water_salinity_at_sea_floor",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sea Water Salinity at Sea Floor",
     "units": "1E-03",
+    "validation-key": "sob_tavg-u-hxy-sea",
     "variable-root": "sob",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

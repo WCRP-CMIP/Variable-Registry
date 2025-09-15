@@ -1,11 +1,14 @@
 {
-    "id": "tauvpbl_tavg-u-hxy-u",
-    "validation-key": "tauvpbl_tavg-u-hxy-u",
-    "ui-label": "Northward Surface Stress from Planetary Boundary Layer Scheme",
-    "description": "surface",
+    "@context": "_context_",
+    "id": "tauvpbl-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_northward_stress_due_to_boundary_layer_mixing",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Northward Surface Stress from Planetary Boundary Layer Scheme",
     "units": "Pa",
+    "validation-key": "tauvpbl_tavg-u-hxy-u",
     "variable-root": "tauvpbl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

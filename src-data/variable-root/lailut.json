@@ -1,13 +1,13 @@
 {
-    "id": "lailut",
-    "validation-key": "lailut",
-    "ui-label": "laiLut",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "leaf-area-index",
     "@context": "_context_",
+    "id": "lailut",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "leaf-area-index",
+    "ui-label": "laiLut",
+    "validation-key": "lailut"
 }

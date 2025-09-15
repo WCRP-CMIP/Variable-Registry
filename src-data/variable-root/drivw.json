@@ -1,13 +1,13 @@
 {
-    "id": "drivw",
-    "validation-key": "drivw",
-    "ui-label": "drivw",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "change-over-time-in-river-water-amount",
     "@context": "_context_",
+    "id": "drivw",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "change-over-time-in-river-water-amount",
+    "ui-label": "drivw",
+    "validation-key": "drivw"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "intppcalc",
-    "validation-key": "intppcalc",
-    "ui-label": "intppcalc",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-calcareous-phytoplankton",
     "@context": "_context_",
+    "id": "intppcalc",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-calcareous-phytoplankton",
+    "ui-label": "intppcalc",
+    "validation-key": "intppcalc"
 }

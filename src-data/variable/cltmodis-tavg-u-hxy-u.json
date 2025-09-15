@@ -1,11 +1,14 @@
 {
-    "id": "cltmodis_tavg-u-hxy-u",
-    "validation-key": "cltmodis_tavg-u-hxy-u",
-    "ui-label": "MODIS Total Cloud Cover Percentage",
-    "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",
+    "@context": "_context_",
+    "id": "cltmodis-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "modis_cloud_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "MODIS Total Cloud Cover Percentage",
     "units": "%",
+    "validation-key": "cltmodis_tavg-u-hxy-u",
     "variable-root": "cltmodis",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

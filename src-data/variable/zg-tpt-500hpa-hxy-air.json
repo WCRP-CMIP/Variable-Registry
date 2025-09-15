@@ -1,11 +1,14 @@
 {
-    "id": "zg_tpt-500hPa-hxy-air",
-    "validation-key": "zg_tpt-500hPa-hxy-air",
-    "ui-label": "Geopotential Height at 500hPa",
-    "description": "geopotential height on the 500 hPa surface",
+    "@context": "_context_",
+    "id": "zg-tpt-500hpa-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-tpt",
+    "description": "geopotential height on the 500 hPa surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "geopotential_height",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Geopotential Height at 500hPa",
     "units": "m",
+    "validation-key": "zg_tpt-500hPa-hxy-air",
     "variable-root": "zg",
-    "vertical-label": "500hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "500hPa"
 }

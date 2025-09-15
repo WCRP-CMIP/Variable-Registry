@@ -1,13 +1,13 @@
 {
-    "id": "typesi",
-    "validation-key": "typesi",
-    "ui-label": "Sea Ice area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typesi",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "Sea Ice area type",
+    "validation-key": "typesi"
 }

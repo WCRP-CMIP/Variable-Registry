@@ -1,11 +1,14 @@
 {
-    "id": "mrsow_tavg-u-hxy-lnd",
-    "validation-key": "mrsow_tavg-u-hxy-lnd",
-    "ui-label": "Total Soil Wetness",
-    "description": "relative_soil_moisture_content_above_field_capacity",
+    "@context": "_context_",
+    "id": "mrsow-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "relative_soil_moisture_content_above_field_capacity",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Soil Wetness",
     "units": "1",
+    "validation-key": "mrsow_tavg-u-hxy-lnd",
     "variable-root": "mrsow",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

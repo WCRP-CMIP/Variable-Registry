@@ -1,12 +1,12 @@
 {
-    "id": "amnsib-twm",
-    "validation-key": "amnsib-twm",
-    "ui-label": "Weighted Time Mean in Sea-Ice Thickness Bands",
-    "description": "area: time: mean where sea_ice",
-    "mask": "siitdconc",
     "@context": "_context_",
+    "id": "amnsib-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where sea_ice",
+    "mask": "siitdconc",
+    "ui-label": "Weighted Time Mean in Sea-Ice Thickness Bands",
+    "validation-key": "amnsib-twm"
 }

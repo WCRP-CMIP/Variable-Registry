@@ -1,13 +1,13 @@
 {
-    "id": "tauunowgw",
-    "validation-key": "tauunowgw",
-    "ui-label": "tauunowgw",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "upward-eastward-momentum-flux-in-air-due-to-nonorographic-westward-gravity-waves",
     "@context": "_context_",
+    "id": "tauunowgw",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "upward-eastward-momentum-flux-in-air-due-to-nonorographic-westward-gravity-waves",
+    "ui-label": "tauunowgw",
+    "validation-key": "tauunowgw"
 }

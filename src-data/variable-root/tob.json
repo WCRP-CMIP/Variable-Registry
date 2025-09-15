@@ -1,13 +1,13 @@
 {
-    "id": "tob",
-    "validation-key": "tob",
-    "ui-label": "tob",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-water-potential-temperature-at-sea-floor",
     "@context": "_context_",
+    "id": "tob",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-water-potential-temperature-at-sea-floor",
+    "ui-label": "tob",
+    "validation-key": "tob"
 }

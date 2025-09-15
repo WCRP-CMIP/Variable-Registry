@@ -1,13 +1,13 @@
 {
-    "id": "smc",
-    "validation-key": "smc",
-    "ui-label": "smc",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-net-upward-shallow-convective-mass-flux",
     "@context": "_context_",
+    "id": "smc",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-net-upward-shallow-convective-mass-flux",
+    "ui-label": "smc",
+    "validation-key": "smc"
 }

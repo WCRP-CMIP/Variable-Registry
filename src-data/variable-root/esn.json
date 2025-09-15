@@ -1,13 +1,13 @@
 {
-    "id": "esn",
-    "validation-key": "esn",
-    "ui-label": "esn",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "water-evapotranspiration-flux",
     "@context": "_context_",
+    "id": "esn",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "water-evapotranspiration-flux",
+    "ui-label": "esn",
+    "validation-key": "esn"
 }

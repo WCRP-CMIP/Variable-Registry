@@ -1,13 +1,13 @@
 {
-    "id": "typeburnt",
-    "validation-key": "typeburnt",
-    "ui-label": "Burnt vegetation area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typeburnt",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "Burnt vegetation area type",
+    "validation-key": "typeburnt"
 }

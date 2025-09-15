@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "emon",
-    "validation-key": "emon",
-    "ui-label": "Emon",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table Emon containing variables",
+    "ui-label": "Emon",
+    "validation-key": "emon",
     "variables": [
         "albc_tavg-u-hxy-veg",
         "albsrfc_tavg-u-hxy-sn",
@@ -235,12 +242,5 @@
         "wetlandFrac_tavg-u-hxy-u",
         "wsg_tmax-h100m-hxy-u",
         "wsg_tmax-h10m-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

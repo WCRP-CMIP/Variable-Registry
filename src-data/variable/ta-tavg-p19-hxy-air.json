@@ -1,11 +1,14 @@
 {
-    "id": "ta_tavg-p19-hxy-air",
-    "validation-key": "ta_tavg-p19-hxy-air",
-    "ui-label": "Air Temperature",
-    "description": "Air Temperature",
+    "@context": "_context_",
+    "id": "ta-tavg-p19-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Air Temperature",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Air Temperature",
     "units": "K",
+    "validation-key": "ta_tavg-p19-hxy-air",
     "variable-root": "ta",
-    "vertical-label": "p19",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p19"
 }

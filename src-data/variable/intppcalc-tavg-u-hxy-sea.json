@@ -1,11 +1,14 @@
 {
-    "id": "intppcalc_tavg-u-hxy-sea",
-    "validation-key": "intppcalc_tavg-u-hxy-sea",
-    "ui-label": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
-    "description": "Vertically integrated primary (organic carbon) production by the calcareous phytoplankton component alone",
+    "@context": "_context_",
+    "id": "intppcalc-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "description": "Vertically integrated primary (organic carbon) production by the calcareous phytoplankton component alone",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_calcareous_phytoplankton",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
     "units": "mol m-2 s-1",
+    "validation-key": "intppcalc_tavg-u-hxy-sea",
     "variable-root": "intppcalc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

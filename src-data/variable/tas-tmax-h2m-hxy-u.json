@@ -1,11 +1,14 @@
 {
-    "id": "tas_tmax-h2m-hxy-u",
-    "validation-key": "tas_tmax-h2m-hxy-u",
-    "ui-label": "Daily Maximum Near-Surface Air Temperature",
-    "description": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: max\")",
+    "@context": "_context_",
+    "id": "tas-tmax-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tmax",
+    "description": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: max\")",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tmax",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily Maximum Near-Surface Air Temperature",
     "units": "K",
+    "validation-key": "tas_tmax-h2m-hxy-u",
     "variable-root": "tas",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

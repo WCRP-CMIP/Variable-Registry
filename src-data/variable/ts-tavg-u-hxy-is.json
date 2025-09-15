@@ -1,11 +1,14 @@
 {
-    "id": "ts_tavg-u-hxy-is",
-    "validation-key": "ts_tavg-u-hxy-is",
-    "ui-label": "Ice Sheet Surface Temperature",
-    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "@context": "_context_",
+    "id": "ts-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacella",
     "cell-methods": "amni-twm",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Surface Temperature",
     "units": "K",
+    "validation-key": "ts_tavg-u-hxy-is",
     "variable-root": "ts",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

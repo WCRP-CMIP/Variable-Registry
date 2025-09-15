@@ -1,13 +1,13 @@
 {
-    "id": "hcho",
-    "validation-key": "hcho",
-    "ui-label": "hcho",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-fraction-of-formaldehyde-in-air",
     "@context": "_context_",
+    "id": "hcho",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-fraction-of-formaldehyde-in-air",
+    "ui-label": "hcho",
+    "validation-key": "hcho"
 }

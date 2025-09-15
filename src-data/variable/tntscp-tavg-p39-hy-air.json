@@ -1,11 +1,14 @@
 {
-    "id": "tntscp_tavg-p39-hy-air",
-    "validation-key": "tntscp_tavg-p39-hy-air",
-    "ui-label": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
-    "description": "zonal mean; hence YZT",
+    "@context": "_context_",
+    "id": "tntscp-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "zonal mean; hence YZT",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
     "units": "K s-1",
+    "validation-key": "tntscp_tavg-p39-hy-air",
     "variable-root": "tntscp",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

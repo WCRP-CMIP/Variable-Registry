@@ -1,11 +1,14 @@
 {
-    "id": "ttop_tavg-u-hxy-cl",
-    "validation-key": "ttop_tavg-u-hxy-cl",
-    "ui-label": "Air Temperature at Cloud Top",
-    "description": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+    "@context": "_context_",
+    "id": "ttop-tavg-u-hxy-cl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "cl",
     "cell-measures": "area: areacella",
     "cell-methods": "amncl-twm",
+    "description": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "air_temperature_at_cloud_top",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Air Temperature at Cloud Top",
     "units": "K",
+    "validation-key": "ttop_tavg-u-hxy-cl",
     "variable-root": "ttop",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

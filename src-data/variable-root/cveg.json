@@ -1,13 +1,13 @@
 {
-    "id": "cveg",
-    "validation-key": "cveg",
-    "ui-label": "cVeg",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "vegetation-carbon-content",
     "@context": "_context_",
+    "id": "cveg",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "vegetation-carbon-content",
+    "ui-label": "cVeg",
+    "validation-key": "cveg"
 }

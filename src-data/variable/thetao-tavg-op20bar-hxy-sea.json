@@ -1,11 +1,14 @@
 {
-    "id": "thetao_tavg-op20bar-hxy-sea",
-    "validation-key": "thetao_tavg-op20bar-hxy-sea",
-    "ui-label": "Sea Water Potential Temperature at 200 meters",
-    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "@context": "_context_",
+    "id": "thetao-tavg-op20bar-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sea_water_potential_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sea Water Potential Temperature at 200 meters",
     "units": "degC",
+    "validation-key": "thetao_tavg-op20bar-hxy-sea",
     "variable-root": "thetao",
-    "vertical-label": "op20bar",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "op20bar"
 }

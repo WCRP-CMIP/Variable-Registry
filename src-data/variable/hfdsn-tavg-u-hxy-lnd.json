@@ -1,11 +1,14 @@
 {
-    "id": "hfdsn_tavg-u-hxy-lnd",
-    "validation-key": "hfdsn_tavg-u-hxy-lnd",
-    "ui-label": "Downward Heat Flux into Snow Where Land over Land",
-    "description": "the net downward heat flux from the atmosphere into the snow that lies on land divided by the land area in the grid cell; reported as missing for snow-free land regions or where the land fraction is 0.",
+    "@context": "_context_",
+    "id": "hfdsn-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "the net downward heat flux from the atmosphere into the snow that lies on land divided by the land area in the grid cell; reported as missing for snow-free land regions or where the land fraction is 0.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_heat_flux_in_snow",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Downward Heat Flux into Snow Where Land over Land",
     "units": "W m-2",
+    "validation-key": "hfdsn_tavg-u-hxy-lnd",
     "variable-root": "hfdsn",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

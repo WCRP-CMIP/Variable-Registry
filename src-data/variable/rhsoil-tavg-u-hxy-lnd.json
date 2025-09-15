@@ -1,11 +1,14 @@
 {
-    "id": "rhSoil_tavg-u-hxy-lnd",
-    "validation-key": "rhSoil_tavg-u-hxy-lnd",
-    "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
-    "description": "Needed to calculate soil bulk turnover time",
+    "@context": "_context_",
+    "id": "rhsoil-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Needed to calculate soil bulk turnover time",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
     "units": "kg m-2 s-1",
+    "validation-key": "rhSoil_tavg-u-hxy-lnd",
     "variable-root": "rhSoil",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

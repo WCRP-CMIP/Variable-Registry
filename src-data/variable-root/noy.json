@@ -1,13 +1,13 @@
 {
-    "id": "noy",
-    "validation-key": "noy",
-    "ui-label": "noy",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-fraction-of-noy-expressed-as-nitrogen-in-air",
     "@context": "_context_",
+    "id": "noy",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-fraction-of-noy-expressed-as-nitrogen-in-air",
+    "ui-label": "noy",
+    "validation-key": "noy"
 }

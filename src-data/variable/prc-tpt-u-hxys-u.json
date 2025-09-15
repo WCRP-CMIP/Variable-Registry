@@ -1,11 +1,14 @@
 {
-    "id": "prc_tpt-u-hxys-u",
-    "validation-key": "prc_tpt-u-hxys-u",
-    "ui-label": "Convective Precipitation",
-    "description": "at surface; includes both liquid and solid phases.",
+    "@context": "_context_",
+    "id": "prc-tpt-u-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "at surface; includes both liquid and solid phases.",
     "dimensions": [
         "site",
         "time1"
@@ -21,12 +24,9 @@
     "standard-name": "convective_precipitation_flux",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Convective Precipitation",
     "units": "kg m-2 s-1",
+    "validation-key": "prc_tpt-u-hxys-u",
     "variable-root": "prc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "tnhusd_tpt-al-hxys-u",
-    "validation-key": "tnhusd_tpt-al-hxys-u",
-    "ui-label": "Tendency of Specific Humidity Due to Numerical Diffusion",
-    "description": "This includes any horizontal or vertical numerical moisture diffusion not associated with the parametrized moist physics or the resolved dynamics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be excluded, as should any diffusion which is included in the terms from the resolved dynamics.   This term is required to check the closure of the moisture budget.",
+    "@context": "_context_",
+    "id": "tnhusd-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "This includes any horizontal or vertical numerical moisture diffusion not associated with the parametrized moist physics or the resolved dynamics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be excluded, as should any diffusion which is included in the terms from the resolved dynamics.   This term is required to check the closure of the moisture budget.",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_specific_humidity_due_to_diffusion",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Tendency of Specific Humidity Due to Numerical Diffusion",
     "units": "s-1",
+    "validation-key": "tnhusd_tpt-al-hxys-u",
     "variable-root": "tnhusd",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

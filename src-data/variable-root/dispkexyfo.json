@@ -1,13 +1,13 @@
 {
-    "id": "dispkexyfo",
-    "validation-key": "dispkexyfo",
-    "ui-label": "dispkexyfo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "ocean-kinetic-energy-dissipation-per-unit-area-due-to-xy-friction",
     "@context": "_context_",
+    "id": "dispkexyfo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "ocean-kinetic-energy-dissipation-per-unit-area-due-to-xy-friction",
+    "ui-label": "dispkexyfo",
+    "validation-key": "dispkexyfo"
 }

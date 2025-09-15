@@ -1,11 +1,11 @@
 {
-    "id": "u",
-    "validation-key": "",
-    "ui-label": "Unmasked Area",
-    "description": "unmasked (no \"where\" directive included in the cell_methods)",
     "@context": "_context_",
+    "id": "u",
     "type": [
         "wcrp:area-label",
         "variable"
-    ]
+    ],
+    "description": "unmasked (no \"where\" directive included in the cell_methods)",
+    "ui-label": "Unmasked Area",
+    "validation-key": ""
 }

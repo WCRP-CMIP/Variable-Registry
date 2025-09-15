@@ -1,11 +1,14 @@
 {
-    "id": "fracLut_tpt-u-hxy-u",
-    "validation-key": "fracLut_tpt-u-hxy-u",
-    "ui-label": "Percentage of Grid Cell for Each Land-Use Tile",
-    "description": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac_lnd = 0.5, frac_ocn = 0.5, frac_crop_lnd = 0.2 (of land portion of grid cell), then frac_lut(crop) = 0.5\\*0.2 = 0.1)",
+    "@context": "_context_",
+    "id": "fraclut-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac_lnd = 0.5, frac_ocn = 0.5, frac_crop_lnd = 0.2 (of land portion of grid cell), then frac_lut(crop) = 0.5\\*0.2 = 0.1)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "area_fraction",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Percentage of Grid Cell for Each Land-Use Tile",
     "units": "%",
+    "validation-key": "fracLut_tpt-u-hxy-u",
     "variable-root": "fracLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

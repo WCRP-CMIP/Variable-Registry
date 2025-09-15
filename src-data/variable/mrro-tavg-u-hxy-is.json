@@ -1,11 +1,14 @@
 {
-    "id": "mrro_tavg-u-hxy-is",
-    "validation-key": "mrro_tavg-u-hxy-is",
-    "ui-label": "Ice Sheet Total Runoff",
-    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "@context": "_context_",
+    "id": "mrro-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacella",
     "cell-methods": "amni-twm",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "runoff_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Total Runoff",
     "units": "kg m-2 s-1",
+    "validation-key": "mrro_tavg-u-hxy-is",
     "variable-root": "mrro",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

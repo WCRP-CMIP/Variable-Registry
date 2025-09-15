@@ -1,13 +1,13 @@
 {
-    "id": "wdirswell",
-    "validation-key": "wdirswell",
-    "ui-label": "wdirswell",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-surface-swell-wave-from-direction",
     "@context": "_context_",
+    "id": "wdirswell",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-surface-swell-wave-from-direction",
+    "ui-label": "wdirswell",
+    "validation-key": "wdirswell"
 }

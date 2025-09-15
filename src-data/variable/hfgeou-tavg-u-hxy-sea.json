@@ -1,11 +1,14 @@
 {
-    "id": "hfgeou_tavg-u-hxy-sea",
-    "validation-key": "hfgeou_tavg-u-hxy-sea",
-    "ui-label": "Upward Geothermal Heat Flux at Sea Floor",
-    "description": "Upward geothermal heat flux per unit area on the sea floor",
+    "@context": "_context_",
+    "id": "hfgeou-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Upward geothermal heat flux per unit area on the sea floor",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "upward_geothermal_heat_flux_at_sea_floor",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Upward Geothermal Heat Flux at Sea Floor",
     "units": "W m-2",
+    "validation-key": "hfgeou_tavg-u-hxy-sea",
     "variable-root": "hfgeou",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

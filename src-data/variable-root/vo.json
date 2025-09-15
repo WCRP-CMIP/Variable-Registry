@@ -1,13 +1,13 @@
 {
-    "id": "vo",
-    "validation-key": "vo",
-    "ui-label": "vo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-water-y-velocity",
     "@context": "_context_",
+    "id": "vo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-water-y-velocity",
+    "ui-label": "vo",
+    "validation-key": "vo"
 }

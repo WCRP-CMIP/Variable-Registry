@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "fx",
-    "validation-key": "fx",
-    "ui-label": "fx",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table fx containing variables",
+    "ui-label": "fx",
+    "validation-key": "fx",
     "variables": [
         "areacell_ti-u-hxy-u",
         "areacell_ti-u-hxy-u",
@@ -19,12 +26,5 @@
         "sftlaf_ti-u-hxy-u",
         "sftlf_ti-u-hxy-u",
         "zfull_ti-al-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

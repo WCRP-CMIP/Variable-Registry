@@ -1,12 +1,12 @@
 {
-    "id": "amnshr-twm",
-    "validation-key": "amnshr-twm",
-    "ui-label": "Weighted Time Mean on Shrubs",
-    "description": "area: time: mean where shrubs",
-    "mask": "shrubFrac",
     "@context": "_context_",
+    "id": "amnshr-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where shrubs",
+    "mask": "shrubFrac",
+    "ui-label": "Weighted Time Mean on Shrubs",
+    "validation-key": "amnshr-twm"
 }

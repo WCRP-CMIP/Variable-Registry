@@ -1,11 +1,14 @@
 {
-    "id": "rsds_tpt-u-hxy-u",
-    "validation-key": "rsds_tpt-u-hxy-u",
-    "ui-label": "Surface Downwelling Shortwave Radiation",
-    "description": "Surface solar irradiance for UV calculations.",
+    "@context": "_context_",
+    "id": "rsds-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Surface solar irradiance for UV calculations.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downwelling_shortwave_flux_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface Downwelling Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsds_tpt-u-hxy-u",
     "variable-root": "rsds",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

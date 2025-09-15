@@ -1,14 +1,14 @@
 {
-    "id": "spectband",
-    "validation-key": "spectband",
-    "ui-label": "Spectral Frequency Band",
-    "description": "Spectral Band",
-    "axis-flag": "",
-    "cf-standard-name": "sensor_band_central_radiation_wavenumber",
-    "spatial-shape": "",
     "@context": "_context_",
+    "id": "spectband",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "sensor_band_central_radiation_wavenumber",
+    "description": "Spectral Band",
+    "spatial-shape": "",
+    "ui-label": "Spectral Frequency Band",
+    "validation-key": "spectband"
 }

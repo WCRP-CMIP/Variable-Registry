@@ -1,11 +1,14 @@
 {
-    "id": "no2_tavg-h2m-hxy-u",
-    "validation-key": "no2_tavg-h2m-hxy-u",
-    "ui-label": "NO2 Volume Mixing Ratio in Lowest Model Layer",
-    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "@context": "_context_",
+    "id": "no2-tavg-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_nitrogen_dioxide_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "NO2 Volume Mixing Ratio in Lowest Model Layer",
     "units": "mol mol-1",
+    "validation-key": "no2_tavg-h2m-hxy-u",
     "variable-root": "no2",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

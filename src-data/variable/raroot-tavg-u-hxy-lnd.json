@@ -1,11 +1,14 @@
 {
-    "id": "raRoot_tavg-u-hxy-lnd",
-    "validation-key": "raRoot_tavg-u-hxy-lnd",
-    "ui-label": "Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1]",
-    "description": "Total autotrophic respiration from all belowground plant parts.  This has benchmarking value because the sum of Rh and root respiration can be compared to observations of total soil respiration.",
+    "@context": "_context_",
+    "id": "raroot-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Total autotrophic respiration from all belowground plant parts.  This has benchmarking value because the sum of Rh and root respiration can be compared to observations of total soil respiration.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_roots",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
+    "validation-key": "raRoot_tavg-u-hxy-lnd",
     "variable-root": "raRoot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

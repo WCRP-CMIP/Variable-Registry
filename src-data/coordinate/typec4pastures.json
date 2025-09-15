@@ -1,13 +1,13 @@
 {
-    "id": "typec4pastures",
-    "validation-key": "typec4pastures",
-    "ui-label": "C4 Pastures area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typec4pastures",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "C4 Pastures area type",
+    "validation-key": "typec4pastures"
 }

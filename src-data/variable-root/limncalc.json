@@ -1,13 +1,13 @@
 {
-    "id": "limncalc",
-    "validation-key": "limncalc",
-    "ui-label": "limncalc",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "nitrogen-growth-limitation-of-calcareous-phytoplankton",
     "@context": "_context_",
+    "id": "limncalc",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "nitrogen-growth-limitation-of-calcareous-phytoplankton",
+    "ui-label": "limncalc",
+    "validation-key": "limncalc"
 }

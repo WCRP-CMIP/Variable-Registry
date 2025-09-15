@@ -1,11 +1,14 @@
 {
-    "id": "evspsbl_tavg-u-hxy-u",
-    "validation-key": "evspsbl_tavg-u-hxy-u",
-    "ui-label": "Evaporation Including Sublimation and Transpiration",
-    "description": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+    "@context": "_context_",
+    "id": "evspsbl-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_evapotranspiration_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Evaporation Including Sublimation and Transpiration",
     "units": "kg m-2 s-1",
+    "validation-key": "evspsbl_tavg-u-hxy-u",
     "variable-root": "evspsbl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

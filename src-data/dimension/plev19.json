@@ -1,14 +1,14 @@
 {
-    "id": "plev19",
-    "validation-key": "plev19",
-    "ui-label": "Pressure Levels (19)",
-    "description": "There are 19  requested levels. If the upper levels are above the model top they should be omitted.",
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "spatial-shape": "Atmospheric zonal mean (on 19 pressure levels),Global field (19 pressure levels)",
     "@context": "_context_",
+    "id": "plev19",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "description": "There are 19  requested levels. If the upper levels are above the model top they should be omitted.",
+    "spatial-shape": "Atmospheric zonal mean (on 19 pressure levels),Global field (19 pressure levels)",
+    "ui-label": "Pressure Levels (19)",
+    "validation-key": "plev19"
 }

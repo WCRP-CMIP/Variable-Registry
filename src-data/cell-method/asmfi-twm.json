@@ -1,12 +1,12 @@
 {
-    "id": "asmfi-twm",
-    "validation-key": "asmfi-twm",
-    "ui-label": "Area Sum Time Mean on Floating Ice Shelf",
-    "description": "area: sum where floating_ice_shelf",
-    "mask": "sftflf",
     "@context": "_context_",
+    "id": "asmfi-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: sum where floating_ice_shelf",
+    "mask": "sftflf",
+    "ui-label": "Area Sum Time Mean on Floating Ice Shelf",
+    "validation-key": "asmfi-twm"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "rsd",
-    "validation-key": "rsd",
-    "ui-label": "rsd",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "downwelling-shortwave-flux-in-air",
     "@context": "_context_",
+    "id": "rsd",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "downwelling-shortwave-flux-in-air",
+    "ui-label": "rsd",
+    "validation-key": "rsd"
 }

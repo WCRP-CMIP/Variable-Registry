@@ -1,11 +1,14 @@
 {
-    "id": "prw_tpt-u-hxys-u",
-    "validation-key": "prw_tpt-u-hxys-u",
-    "ui-label": "Water Vapor Path",
-    "description": "vertically integrated through the atmospheric column",
+    "@context": "_context_",
+    "id": "prw-tpt-u-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "vertically integrated through the atmospheric column",
     "dimensions": [
         "site",
         "time1"
@@ -21,12 +24,9 @@
     "standard-name": "atmosphere_mass_content_of_water_vapor",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Water Vapor Path",
     "units": "kg m-2",
+    "validation-key": "prw_tpt-u-hxys-u",
     "variable-root": "prw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

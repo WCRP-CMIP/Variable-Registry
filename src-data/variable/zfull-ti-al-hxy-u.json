@@ -1,11 +1,14 @@
 {
-    "id": "zfull_ti-al-hxy-u",
-    "validation-key": "zfull_ti-al-hxy-u",
-    "ui-label": "Altitude of Model Full-Levels",
-    "description": "Provide only if altitude of full model levels is fixed",
+    "@context": "_context_",
+    "id": "zfull-ti-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
+    "description": "Provide only if altitude of full model levels is fixed",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "height_above_reference_ellipsoid",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Altitude of Model Full-Levels",
     "units": "m",
+    "validation-key": "zfull_ti-al-hxy-u",
     "variable-root": "zfull",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "expnob_tavg-u-hxy-sea",
-    "validation-key": "expnob_tavg-u-hxy-sea",
-    "ui-label": "Sinking Flux of Particulate Organic Nitrogen Reaching the Ocean Bottom",
-    "description": "Downward sinking flux of particulate organic nitrogen at seafloor",
+    "@context": "_context_",
+    "id": "expnob-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Downward sinking flux of particulate organic nitrogen at seafloor",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sinking_mole_flux_of_particulate_organic_nitrogen_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sinking Flux of Particulate Organic Nitrogen Reaching the Ocean Bottom",
     "units": "mol m-2 s-1",
+    "validation-key": "expnob_tavg-u-hxy-sea",
     "variable-root": "expnob",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

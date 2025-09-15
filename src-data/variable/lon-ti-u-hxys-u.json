@@ -1,11 +1,14 @@
 {
-    "id": "lon_ti-u-hxys-u",
-    "validation-key": "lon_ti-u-hxys-u",
-    "ui-label": "Longitude",
-    "description": "Longitude is positive eastward; its units of degree_east (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_longitude should be used instead of longitude. Grid longitude is positive in the grid-eastward direction, but its units should be plain degree.",
+    "@context": "_context_",
+    "id": "lon-ti-u-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-fx",
+    "description": "Longitude is positive eastward; its units of degree_east (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_longitude should be used instead of longitude. Grid longitude is positive in the grid-eastward direction, but its units should be plain degree.",
     "dimensions": [
         "site"
     ],
@@ -20,12 +23,9 @@
     "standard-name": "longitude",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Longitude",
     "units": "degrees_east",
+    "validation-key": "lon_ti-u-hxys-u",
     "variable-root": "lon",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

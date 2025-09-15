@@ -1,11 +1,14 @@
 {
-    "id": "zmisc_tavg-u-hxy-sea",
-    "validation-key": "zmisc_tavg-u-hxy-sea",
-    "ui-label": "Surface Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
-    "description": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
+    "@context": "_context_",
+    "id": "zmisc-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
     "units": "mol m-3",
+    "validation-key": "zmisc_tavg-u-hxy-sea",
     "variable-root": "zmisc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

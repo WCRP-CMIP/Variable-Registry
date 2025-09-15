@@ -1,11 +1,14 @@
 {
-    "id": "snmsl_tavg-u-hxy-lnd",
-    "validation-key": "snmsl_tavg-u-hxy-lnd",
-    "ui-label": "Water Flowing out of Snowpack",
-    "description": "surface_snow_melt_flux_into_soil_layer",
+    "@context": "_context_",
+    "id": "snmsl-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "surface_snow_melt_flux_into_soil_layer",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Water Flowing out of Snowpack",
     "units": "kg m-2 s-1",
+    "validation-key": "snmsl_tavg-u-hxy-lnd",
     "variable-root": "snmsl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "co2_tavg-p19-hxy-air",
-    "validation-key": "co2_tavg-p19-hxy-air",
-    "ui-label": "Mole Fraction of CO2",
-    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "@context": "_context_",
+    "id": "co2-tavg-p19-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_carbon_dioxide_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mole Fraction of CO2",
     "units": "mol mol-1",
+    "validation-key": "co2_tavg-p19-hxy-air",
     "variable-root": "co2",
-    "vertical-label": "p19",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p19"
 }

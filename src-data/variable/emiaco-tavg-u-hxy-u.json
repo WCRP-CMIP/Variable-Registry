@@ -1,11 +1,14 @@
 {
-    "id": "emiaco_tavg-u-hxy-u",
-    "validation-key": "emiaco_tavg-u-hxy-u",
-    "ui-label": "Total Emission Rate of Anthropogenic CO",
-    "description": "anthrophogenic  emission of CO",
+    "@context": "_context_",
+    "id": "emiaco-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "anthrophogenic  emission of CO",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Emission Rate of Anthropogenic CO",
     "units": "kg m-2 s-1",
+    "validation-key": "emiaco_tavg-u-hxy-u",
     "variable-root": "emiaco",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

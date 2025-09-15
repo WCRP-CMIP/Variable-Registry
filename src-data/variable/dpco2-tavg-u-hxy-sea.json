@@ -1,11 +1,14 @@
 {
-    "id": "dpco2_tavg-u-hxy-sea",
-    "validation-key": "dpco2_tavg-u-hxy-sea",
-    "ui-label": "Delta CO2 Partial Pressure",
-    "description": "Difference in partial pressure of carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium.",
+    "@context": "_context_",
+    "id": "dpco2-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Difference in partial pressure of carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "surface_carbon_dioxide_partial_pressure_difference_between_sea_water_and_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Delta CO2 Partial Pressure",
     "units": "Pa",
+    "validation-key": "dpco2_tavg-u-hxy-sea",
     "variable-root": "dpco2",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

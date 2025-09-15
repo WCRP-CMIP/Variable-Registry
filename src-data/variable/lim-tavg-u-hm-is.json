@@ -1,11 +1,14 @@
 {
-    "id": "lim_tavg-u-hm-is",
-    "validation-key": "lim_tavg-u-hm-is",
-    "ui-label": "Ice Sheet Mass",
-    "description": "Greenland",
+    "@context": "_context_",
+    "id": "lim-tavg-u-hm-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "",
     "cell-methods": "asmi-tmn",
+    "description": "Greenland",
     "dimensions": [
         "time"
     ],
@@ -20,12 +23,9 @@
     "standard-name": "land_ice_mass",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Mass",
     "units": "kg",
+    "validation-key": "lim_tavg-u-hm-is",
     "variable-root": "lim",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

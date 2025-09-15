@@ -1,11 +1,14 @@
 {
-    "id": "nh4_tavg-d0m-hxy-sea",
-    "validation-key": "nh4_tavg-d0m-hxy-sea",
-    "ui-label": "Surface Dissolved Ammonium Concentration",
-    "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",
+    "@context": "_context_",
+    "id": "nh4-tavg-d0m-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mole_concentration_of_ammonium_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Dissolved Ammonium Concentration",
     "units": "mol m-3",
+    "validation-key": "nh4_tavg-d0m-hxy-sea",
     "variable-root": "nh4",
-    "vertical-label": "d0m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "d0m"
 }

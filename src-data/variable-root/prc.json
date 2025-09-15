@@ -1,13 +1,13 @@
 {
-    "id": "prc",
-    "validation-key": "prc",
-    "ui-label": "prc",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "convective-precipitation-flux",
     "@context": "_context_",
+    "id": "prc",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "convective-precipitation-flux",
+    "ui-label": "prc",
+    "validation-key": "prc"
 }

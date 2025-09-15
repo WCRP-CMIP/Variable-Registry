@@ -1,13 +1,13 @@
 {
-    "id": "lambda443nm",
-    "validation-key": "lambda443nm",
-    "ui-label": "Radiation Wavelength 443 nanometers",
-    "description": "Radiation wavelength used for monitoring aerosol properties",
-    "axis-flag": "",
-    "cf-standard-name": "radiation_wavelength",
     "@context": "_context_",
+    "id": "lambda443nm",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "radiation_wavelength",
+    "description": "Radiation wavelength used for monitoring aerosol properties",
+    "ui-label": "Radiation Wavelength 443 nanometers",
+    "validation-key": "lambda443nm"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "ch4ref",
-    "validation-key": "ch4ref",
-    "ui-label": "ch4ref",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "reference-mole-fraction-of-methane-in-air",
     "@context": "_context_",
+    "id": "ch4ref",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "reference-mole-fraction-of-methane-in-air",
+    "ui-label": "ch4ref",
+    "validation-key": "ch4ref"
 }

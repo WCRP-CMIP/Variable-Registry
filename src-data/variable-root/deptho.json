@@ -1,13 +1,13 @@
 {
-    "id": "deptho",
-    "validation-key": "deptho",
-    "ui-label": "deptho",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-floor-depth-below-geoid",
     "@context": "_context_",
+    "id": "deptho",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-floor-depth-below-geoid",
+    "ui-label": "deptho",
+    "validation-key": "deptho"
 }

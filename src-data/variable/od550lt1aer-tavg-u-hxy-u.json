@@ -1,11 +1,14 @@
 {
-    "id": "od550lt1aer_tavg-u-hxy-u",
-    "validation-key": "od550lt1aer_tavg-u-hxy-u",
-    "ui-label": "Ambient Fine Aerosol Optical Depth at 550nm",
-    "description": "od550 due to particles with wet diameter less than 1 um  (\"ambient\" means \"wetted\"). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",
+    "@context": "_context_",
+    "id": "od550lt1aer-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "od550 due to particles with wet diameter less than 1 um  (\"ambient\" means \"wetted\"). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "atmosphere_optical_thickness_due_to_pm1_ambient_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ambient Fine Aerosol Optical Depth at 550nm",
     "units": "1",
+    "validation-key": "od550lt1aer_tavg-u-hxy-u",
     "variable-root": "od550lt1aer",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "o3_tmax-h2m-hxy-u",
-    "validation-key": "o3_tmax-h2m-hxy-u",
-    "ui-label": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
-    "description": "maximum near-surface ozone  (add cell_methods attribute \"time: maximum\")",
+    "@context": "_context_",
+    "id": "o3-tmax-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tmax",
+    "description": "maximum near-surface ozone  (add cell_methods attribute \"time: maximum\")",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_ozone_in_air",
     "temporal-label": "tmax",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
     "units": "mol mol-1",
+    "validation-key": "o3_tmax-h2m-hxy-u",
     "variable-root": "o3",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

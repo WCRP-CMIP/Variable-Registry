@@ -1,11 +1,14 @@
 {
-    "id": "rsdscs_tpt-u-hxy-u",
-    "validation-key": "rsdscs_tpt-u-hxy-u",
-    "ui-label": "Surface Downwelling Clear-Sky Shortwave Radiation",
-    "description": "Surface solar irradiance clear sky for UV calculations",
+    "@context": "_context_",
+    "id": "rsdscs-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Surface solar irradiance clear sky for UV calculations",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface Downwelling Clear-Sky Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsdscs_tpt-u-hxy-u",
     "variable-root": "rsdscs",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

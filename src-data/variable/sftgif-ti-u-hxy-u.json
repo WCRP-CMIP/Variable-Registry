@@ -1,11 +1,14 @@
 {
-    "id": "sftgif_ti-u-hxy-u",
-    "validation-key": "sftgif_ti-u-hxy-u",
-    "ui-label": "Land Ice Area Percentage",
-    "description": "fraction of grid cell occupied by \"permanent\" ice (i.e., glaciers).",
+    "@context": "_context_",
+    "id": "sftgif-ti-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
+    "description": "fraction of grid cell occupied by \"permanent\" ice (i.e., glaciers).",
     "dimensions": [
         "longitude",
         "latitude"
@@ -21,12 +24,9 @@
     "standard-name": "land_ice_area_fraction",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Land Ice Area Percentage",
     "units": "%",
+    "validation-key": "sftgif_ti-u-hxy-u",
     "variable-root": "sftgif",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

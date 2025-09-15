@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "eyr",
-    "validation-key": "eyr",
-    "ui-label": "Eyr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table Eyr containing variables",
+    "ui-label": "Eyr",
+    "validation-key": "eyr",
     "variables": [
         "baresoilFrac_tavg-u-hxy-u",
         "cLitterLut_tpt-u-hxy-multi",
@@ -19,12 +26,5 @@
         "treeFrac_tavg-u-hxy-u",
         "vegFrac_tavg-u-hxy-u",
         "zfullo_tavg-ol-hxy-sea"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

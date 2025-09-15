@@ -1,12 +1,12 @@
 {
-    "id": "amnunf-twm",
-    "validation-key": "amnunf-twm",
-    "ui-label": "Weighted Time Mean on Bare Ground",
-    "description": "area: time: mean where unfrozen_soil (at the surface, but frozen below zero isotherm)",
-    "mask": "",
     "@context": "_context_",
+    "id": "amnunf-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where unfrozen_soil (at the surface, but frozen below zero isotherm)",
+    "mask": "",
+    "ui-label": "Weighted Time Mean on Bare Ground",
+    "validation-key": "amnunf-twm"
 }

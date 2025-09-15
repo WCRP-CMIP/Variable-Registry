@@ -1,13 +1,13 @@
 {
-    "id": "intppdiat",
-    "validation-key": "intppdiat",
-    "ui-label": "intppdiat",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-diatoms",
     "@context": "_context_",
+    "id": "intppdiat",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-diatoms",
+    "ui-label": "intppdiat",
+    "validation-key": "intppdiat"
 }

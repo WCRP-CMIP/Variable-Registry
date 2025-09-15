@@ -1,11 +1,14 @@
 {
-    "id": "pr_tavg-u-hxy-u",
-    "validation-key": "pr_tavg-u-hxy-u",
-    "ui-label": "Precipitation",
-    "description": "Total precipitation flux",
+    "@context": "_context_",
+    "id": "pr-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Total precipitation flux",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "precipitation_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Precipitation",
     "units": "kg m-2 s-1",
+    "validation-key": "pr_tavg-u-hxy-u",
     "variable-root": "pr",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

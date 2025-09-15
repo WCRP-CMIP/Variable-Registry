@@ -1,11 +1,14 @@
 {
-    "id": "msftbarot_tavg-u-hxy-sea",
-    "validation-key": "msftbarot_tavg-u-hxy-sea",
-    "ui-label": "Ocean Barotropic Mass Streamfunction",
-    "description": "Streamfunction or its approximation for free surface models. See OMDP document for details.",
+    "@context": "_context_",
+    "id": "msftbarot-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Streamfunction or its approximation for free surface models. See OMDP document for details.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "ocean_barotropic_mass_streamfunction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ocean Barotropic Mass Streamfunction",
     "units": "kg s-1",
+    "validation-key": "msftbarot_tavg-u-hxy-sea",
     "variable-root": "msftbarot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

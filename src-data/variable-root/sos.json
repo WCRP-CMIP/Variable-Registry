@@ -1,13 +1,13 @@
 {
-    "id": "sos",
-    "validation-key": "sos",
-    "ui-label": "sos",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-surface-salinity",
     "@context": "_context_",
+    "id": "sos",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-surface-salinity",
+    "ui-label": "sos",
+    "validation-key": "sos"
 }

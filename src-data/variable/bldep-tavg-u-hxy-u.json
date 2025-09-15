@@ -1,11 +1,14 @@
 {
-    "id": "bldep_tavg-u-hxy-u",
-    "validation-key": "bldep_tavg-u-hxy-u",
-    "ui-label": "Boundary layer depth",
-    "description": "Boundary Layer depth",
+    "@context": "_context_",
+    "id": "bldep-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Boundary Layer depth",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "atmosphere_boundary_layer_thickness",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Boundary layer depth",
     "units": "m",
+    "validation-key": "bldep_tavg-u-hxy-u",
     "variable-root": "bldep",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

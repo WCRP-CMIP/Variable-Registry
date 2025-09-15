@@ -1,12 +1,12 @@
 {
-    "id": "amn-tmax",
-    "validation-key": "amn-tmax",
-    "ui-label": "Time Maximum",
-    "description": "area: mean time: maximum",
-    "mask": "",
     "@context": "_context_",
+    "id": "amn-tmax",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean time: maximum",
+    "mask": "",
+    "ui-label": "Time Maximum",
+    "validation-key": "amn-tmax"
 }

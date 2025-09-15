@@ -1,11 +1,14 @@
 {
-    "id": "prrsn_tavg-u-hxy-lnd",
-    "validation-key": "prrsn_tavg-u-hxy-lnd",
-    "ui-label": "Fraction of Rainfall on Snow",
-    "description": "mass_fraction_of_rainfall_onto_snow",
+    "@context": "_context_",
+    "id": "prrsn-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "mass_fraction_of_rainfall_onto_snow",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mass_fraction_of_rainfall_falling_onto_surface_snow",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Fraction of Rainfall on Snow",
     "units": "1",
+    "validation-key": "prrsn_tavg-u-hxy-lnd",
     "variable-root": "prrsn",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

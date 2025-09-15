@@ -1,11 +1,14 @@
 {
-    "id": "rsutcs_tavg-u-hxy-u",
-    "validation-key": "rsutcs_tavg-u-hxy-u",
-    "ui-label": "TOA Outgoing Clear-Sky Shortwave Radiation",
-    "description": "TOA outgoing clear sky shortwave",
+    "@context": "_context_",
+    "id": "rsutcs-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "TOA outgoing clear sky shortwave",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "TOA Outgoing Clear-Sky Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsutcs_tavg-u-hxy-u",
     "variable-root": "rsutcs",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

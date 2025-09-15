@@ -1,13 +1,13 @@
 {
-    "id": "tntogw",
-    "validation-key": "tntogw",
-    "ui-label": "tntogw",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-air-temperature-due-to-dissipation-of-orographic-gravity-waves",
     "@context": "_context_",
+    "id": "tntogw",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-air-temperature-due-to-dissipation-of-orographic-gravity-waves",
+    "ui-label": "tntogw",
+    "validation-key": "tntogw"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "ps_tpt-u-hxy-u",
-    "validation-key": "ps_tpt-u-hxy-u",
-    "ui-label": "Surface Air Pressure",
-    "description": "Surface pressure.",
+    "@context": "_context_",
+    "id": "ps-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Surface pressure.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_air_pressure",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface Air Pressure",
     "units": "Pa",
+    "validation-key": "ps_tpt-u-hxy-u",
     "variable-root": "ps",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

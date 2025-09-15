@@ -1,11 +1,14 @@
 {
-    "id": "snw_tavg-u-hxy-lnd",
-    "validation-key": "snw_tavg-u-hxy-lnd",
-    "ui-label": "Surface Snow Amount",
-    "description": "Computed as the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excluded is snow on vegetation canopy or on sea ice.",
+    "@context": "_context_",
+    "id": "snw-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Computed as the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excluded is snow on vegetation canopy or on sea ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_snow_amount",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Snow Amount",
     "units": "kg m-2",
+    "validation-key": "snw_tavg-u-hxy-lnd",
     "variable-root": "snw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

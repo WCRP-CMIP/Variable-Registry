@@ -1,11 +1,14 @@
 {
-    "id": "mrsfl_tavg-sl-hxy-lnd",
-    "validation-key": "mrsfl_tavg-sl-hxy-lnd",
-    "ui-label": "Frozen Water Content of Soil Layer",
-    "description": "in each soil layer, the mass of water in ice phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+    "@context": "_context_",
+    "id": "mrsfl-tavg-sl-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "in each soil layer, the mass of water in ice phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "frozen_water_content_of_soil_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Frozen Water Content of Soil Layer",
     "units": "kg m-2",
+    "validation-key": "mrsfl_tavg-sl-hxy-lnd",
     "variable-root": "mrsfl",
-    "vertical-label": "sl",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "sl"
 }

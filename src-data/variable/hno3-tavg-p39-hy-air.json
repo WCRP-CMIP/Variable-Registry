@@ -1,11 +1,14 @@
 {
-    "id": "hno3_tavg-p39-hy-air",
-    "validation-key": "hno3_tavg-p39-hy-air",
-    "ui-label": "HNO3 Volume Mixing Ratio",
-    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "@context": "_context_",
+    "id": "hno3-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "mole_fraction_of_nitric_acid_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "HNO3 Volume Mixing Ratio",
     "units": "mol mol-1",
+    "validation-key": "hno3_tavg-p39-hy-air",
     "variable-root": "hno3",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

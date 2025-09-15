@@ -1,11 +1,14 @@
 {
+    "@context": "_context_",
     "id": "unknown03",
-    "validation-key": "unknown03",
-    "ui-label": "Total Wave Direction",
-    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the total wave energy spectrum, incorporating both wind-sea and swell waves. This variable is usually expressed in degrees relative to true north.",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "unknown03",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the total wave energy spectrum, incorporating both wind-sea and swell waves. This variable is usually expressed in degrees relative to true north.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_surface_wave_from_direction",
     "temporal-label": "unknown03",
     "temporal-shape": "time-point",
+    "ui-label": "Total Wave Direction",
     "units": "degree",
+    "validation-key": "unknown03",
     "variable-root": "unknown03",
-    "vertical-label": "unknown03",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "unknown03"
 }

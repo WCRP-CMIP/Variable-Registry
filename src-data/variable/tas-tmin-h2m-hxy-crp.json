@@ -1,11 +1,14 @@
 {
-    "id": "tas_tmin-h2m-hxy-crp",
-    "validation-key": "tas_tmin-h2m-hxy-crp",
-    "ui-label": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
-    "description": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")",
+    "@context": "_context_",
+    "id": "tas-tmin-h2m-hxy-crp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "crp",
     "cell-measures": "area: areacella",
     "cell-methods": "amncrp-tmin",
+    "description": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tmin",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
     "units": "K",
+    "validation-key": "tas_tmin-h2m-hxy-crp",
     "variable-root": "tas",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

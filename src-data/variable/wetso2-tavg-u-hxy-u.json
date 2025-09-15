@@ -1,11 +1,14 @@
 {
-    "id": "wetso2_tavg-u-hxy-u",
-    "validation-key": "wetso2_tavg-u-hxy-u",
-    "ui-label": "Wet Deposition Rate of SO2",
-    "description": "Deposition rate of sulfur dioxide due to wet processes",
+    "@context": "_context_",
+    "id": "wetso2-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Deposition rate of sulfur dioxide due to wet processes",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Wet Deposition Rate of SO2",
     "units": "kg m-2 s-1",
+    "validation-key": "wetso2_tavg-u-hxy-u",
     "variable-root": "wetso2",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

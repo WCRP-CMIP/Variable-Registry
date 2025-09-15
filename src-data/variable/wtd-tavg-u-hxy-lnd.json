@@ -1,11 +1,14 @@
 {
-    "id": "wtd_tavg-u-hxy-lnd",
-    "validation-key": "wtd_tavg-u-hxy-lnd",
-    "ui-label": "Water Table Depth",
-    "description": "depth_of_soil_moisture_saturation",
+    "@context": "_context_",
+    "id": "wtd-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacellr",
     "cell-methods": "amnla-tmn",
+    "description": "depth_of_soil_moisture_saturation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_table_depth",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Water Table Depth",
     "units": "m",
+    "validation-key": "wtd_tavg-u-hxy-lnd",
     "variable-root": "wtd",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

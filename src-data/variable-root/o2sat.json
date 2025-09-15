@@ -1,13 +1,13 @@
 {
-    "id": "o2sat",
-    "validation-key": "o2sat",
-    "ui-label": "o2sat",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water-at-saturation",
     "@context": "_context_",
+    "id": "o2sat",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water-at-saturation",
+    "ui-label": "o2sat",
+    "validation-key": "o2sat"
 }

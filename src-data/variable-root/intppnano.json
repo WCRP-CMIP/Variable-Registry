@@ -1,13 +1,13 @@
 {
-    "id": "intppnano",
-    "validation-key": "intppnano",
-    "ui-label": "intppnano",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-nanophytoplankton",
     "@context": "_context_",
+    "id": "intppnano",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-nanophytoplankton",
+    "ui-label": "intppnano",
+    "validation-key": "intppnano"
 }

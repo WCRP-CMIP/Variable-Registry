@@ -1,11 +1,14 @@
 {
-    "id": "epn_tavg-d100m-hxy-sea",
-    "validation-key": "epn_tavg-d100m-hxy-sea",
-    "ui-label": "Downward Flux of Particulate Nitrogen",
-    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+    "@context": "_context_",
+    "id": "epn-tavg-d100m-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sinking_mole_flux_of_particulate_organic_nitrogen_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Downward Flux of Particulate Nitrogen",
     "units": "mol m-2 s-1",
+    "validation-key": "epn_tavg-d100m-hxy-sea",
     "variable-root": "epn",
-    "vertical-label": "d100m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "d100m"
 }

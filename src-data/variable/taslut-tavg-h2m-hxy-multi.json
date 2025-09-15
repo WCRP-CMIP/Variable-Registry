@@ -1,11 +1,14 @@
 {
-    "id": "tasLut_tavg-h2m-hxy-multi",
-    "validation-key": "tasLut_tavg-h2m-hxy-multi",
-    "ui-label": "Near-Surface Air Temperature on Land Use Tile",
-    "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+    "@context": "_context_",
+    "id": "taslut-tavg-h2m-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
+    "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -24,12 +27,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Near-Surface Air Temperature on Land Use Tile",
     "units": "K",
+    "validation-key": "tasLut_tavg-h2m-hxy-multi",
     "variable-root": "tasLut",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

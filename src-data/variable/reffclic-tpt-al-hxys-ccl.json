@@ -1,11 +1,14 @@
 {
-    "id": "reffclic_tpt-al-hxys-ccl",
-    "validation-key": "reffclic_tpt-al-hxys-ccl",
-    "ui-label": "Hydrometeor Effective Radius of Convective Cloud Ice",
-    "description": "alevel site time1",
+    "@context": "_context_",
+    "id": "reffclic-tpt-al-hxys-ccl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ccl",
     "cell-measures": "",
     "cell-methods": "amncc-tpt",
+    "description": "alevel site time1",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "effective_radius_of_convective_cloud_ice_particles",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Hydrometeor Effective Radius of Convective Cloud Ice",
     "units": "m",
+    "validation-key": "reffclic_tpt-al-hxys-ccl",
     "variable-root": "reffclic",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

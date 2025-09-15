@@ -1,11 +1,14 @@
 {
-    "id": "rsdt_tavg-u-hxy-u",
-    "validation-key": "rsdt_tavg-u-hxy-u",
-    "ui-label": "TOA Incident Shortwave Radiation",
-    "description": "Shortwave radiation incident at the top of the atmosphere",
+    "@context": "_context_",
+    "id": "rsdt-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Shortwave radiation incident at the top of the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "toa_incoming_shortwave_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "TOA Incident Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsdt_tavg-u-hxy-u",
     "variable-root": "rsdt",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

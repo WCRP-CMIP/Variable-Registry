@@ -1,11 +1,14 @@
 {
-    "id": "snc_tavg-u-hxy-si",
-    "validation-key": "snc_tavg-u-hxy-si",
-    "ui-label": "Snow Area Fraction",
-    "description": "Area fraction of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve an areal fraction of snow, this variable will always be either 0 or 1.",
+    "@context": "_context_",
+    "id": "snc-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Area fraction of the sea-ice surface that is covered by snow. In many models that do not explicitly resolve an areal fraction of snow, this variable will always be either 0 or 1.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_snow_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Snow Area Fraction",
     "units": "1",
+    "validation-key": "snc_tavg-u-hxy-si",
     "variable-root": "snc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

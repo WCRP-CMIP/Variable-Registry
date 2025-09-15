@@ -1,11 +1,14 @@
 {
-    "id": "dtauc_tpt-al-hxy-ccl",
-    "validation-key": "dtauc_tpt-al-hxy-ccl",
-    "ui-label": "Convective Cloud Optical Depth",
-    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell",
+    "@context": "_context_",
+    "id": "dtauc-tpt-al-hxy-ccl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ccl",
     "cell-measures": "area: areacella",
     "cell-methods": "amncc-tpt",
+    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "atmosphere_optical_thickness_due_to_convective_cloud",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Convective Cloud Optical Depth",
     "units": "1",
+    "validation-key": "dtauc_tpt-al-hxy-ccl",
     "variable-root": "dtauc",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

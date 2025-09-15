@@ -1,11 +1,14 @@
 {
-    "id": "cfc114_tavg-al-hxy-u",
-    "validation-key": "cfc114_tavg-al-hxy-u",
-    "ui-label": "Mole Fraction of CFC114",
-    "description": "Mole fraction of cfc114 in air",
+    "@context": "_context_",
+    "id": "cfc114-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mole fraction of cfc114 in air",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_cfc114_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mole Fraction of CFC114",
     "units": "mol mol-1",
+    "validation-key": "cfc114_tavg-al-hxy-u",
     "variable-root": "cfc114",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

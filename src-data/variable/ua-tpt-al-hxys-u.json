@@ -1,11 +1,14 @@
 {
-    "id": "ua_tpt-al-hxys-u",
-    "validation-key": "ua_tpt-al-hxys-u",
-    "ui-label": "Eastward Wind",
-    "description": "Zonal wind (positive in a eastward direction).",
+    "@context": "_context_",
+    "id": "ua-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "Zonal wind (positive in a eastward direction).",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "eastward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Eastward Wind",
     "units": "m s-1",
+    "validation-key": "ua_tpt-al-hxys-u",
     "variable-root": "ua",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

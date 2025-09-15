@@ -1,13 +1,13 @@
 {
-    "id": "frfe",
-    "validation-key": "frfe",
-    "ui-label": "frfe",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "minus-tendency-of-ocean-mole-content-of-iron-due-to-sedimentation",
     "@context": "_context_",
+    "id": "frfe",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "minus-tendency-of-ocean-mole-content-of-iron-due-to-sedimentation",
+    "ui-label": "frfe",
+    "validation-key": "frfe"
 }

@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "amon",
-    "validation-key": "amon",
-    "ui-label": "Amon",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table Amon containing variables",
+    "ui-label": "Amon",
+    "validation-key": "amon",
     "variables": [
         "aod550volso4_tavg-u-hxy-u",
         "ccb_tavg-u-hxy-ccl",
@@ -126,12 +133,5 @@
         "wap_tavg-p19-hxy-air",
         "zg_tavg-p19-hxy-air",
         "zg_tavg-p19-hxy-air"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

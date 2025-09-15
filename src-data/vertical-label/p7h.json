@@ -1,11 +1,11 @@
 {
-    "id": "p7h",
-    "validation-key": "p7h",
-    "ui-label": "7 Pressure Levels (High)",
-    "description": "7 pressure levels",
     "@context": "_context_",
+    "id": "p7h",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ]
+    ],
+    "description": "7 pressure levels",
+    "ui-label": "7 Pressure Levels (High)",
+    "validation-key": "p7h"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "rsus_tavg-u-hxy-ufs",
-    "validation-key": "rsus_tavg-u-hxy-ufs",
-    "ui-label": "Surface Upwelling Shortwave Radiation over Land Not Covered by Ice Sheets or Snow",
-    "description": "Surface Upwelling Shortwave Radiation over the portion of a land grid cell not covered by ice sheets or snow. Can be used for computation of surface albedo.",
+    "@context": "_context_",
+    "id": "rsus-tavg-u-hxy-ufs",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ufs",
     "cell-measures": "area: areacella",
     "cell-methods": "amnunf-twm",
+    "description": "Surface Upwelling Shortwave Radiation over the portion of a land grid cell not covered by ice sheets or snow. Can be used for computation of surface albedo.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_upwelling_shortwave_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Upwelling Shortwave Radiation over Land Not Covered by Ice Sheets or Snow",
     "units": "W m-2",
+    "validation-key": "rsus_tavg-u-hxy-ufs",
     "variable-root": "rsus",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "nStem_tavg-u-hxy-lnd",
-    "validation-key": "nStem_tavg-u-hxy-lnd",
-    "ui-label": "Nitrogen Mass in Stem",
-    "description": "including sapwood and hardwood.",
+    "@context": "_context_",
+    "id": "nstem-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "including sapwood and hardwood.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "stem_mass_content_of_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Nitrogen Mass in Stem",
     "units": "kg m-2",
+    "validation-key": "nStem_tavg-u-hxy-lnd",
     "variable-root": "nStem",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

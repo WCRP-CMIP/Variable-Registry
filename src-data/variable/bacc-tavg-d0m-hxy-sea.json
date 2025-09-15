@@ -1,11 +1,14 @@
 {
-    "id": "bacc_tavg-d0m-hxy-sea",
-    "validation-key": "bacc_tavg-d0m-hxy-sea",
-    "ui-label": "Surface Bacterial Carbon Concentration",
-    "description": "sum of bacterial carbon component concentrations",
+    "@context": "_context_",
+    "id": "bacc-tavg-d0m-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "sum of bacterial carbon component concentrations",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mole_concentration_of_bacteria_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Bacterial Carbon Concentration",
     "units": "mol m-3",
+    "validation-key": "bacc_tavg-d0m-hxy-sea",
     "variable-root": "bacc",
-    "vertical-label": "d0m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "d0m"
 }

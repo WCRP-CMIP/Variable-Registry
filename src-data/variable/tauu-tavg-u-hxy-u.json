@@ -1,11 +1,14 @@
 {
-    "id": "tauu_tavg-u-hxy-u",
-    "validation-key": "tauu_tavg-u-hxy-u",
-    "ui-label": "Surface Downward Eastward Wind Stress",
-    "description": "Downward eastward wind stress at the surface",
+    "@context": "_context_",
+    "id": "tauu-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Downward eastward wind stress at the surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_eastward_stress",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Downward Eastward Wind Stress",
     "units": "Pa",
+    "validation-key": "tauu_tavg-u-hxy-u",
     "variable-root": "tauu",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

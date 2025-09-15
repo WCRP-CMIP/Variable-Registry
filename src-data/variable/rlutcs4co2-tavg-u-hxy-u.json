@@ -1,11 +1,14 @@
 {
-    "id": "rlutcs4co2_tavg-u-hxy-u",
-    "validation-key": "rlutcs4co2_tavg-u-hxy-u",
-    "ui-label": "TOA Outgoing Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
-    "description": "Top-of-atmosphere outgoing clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold",
+    "@context": "_context_",
+    "id": "rlutcs4co2-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Top-of-atmosphere outgoing clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "toa_outgoing_longwave_flux_assuming_clear_sky",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "TOA Outgoing Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
     "units": "W m-2",
+    "validation-key": "rlutcs4co2_tavg-u-hxy-u",
     "variable-root": "rlutcs4co2",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

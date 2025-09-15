@@ -1,11 +1,14 @@
 {
-    "id": "simpthick_tavg-u-hxy-si",
-    "validation-key": "simpthick_tavg-u-hxy-si",
-    "ui-label": "Melt Pond Depth",
-    "description": "Average depth of melt ponds on sea ice, that is melt pond volume divided by melt pond area.",
+    "@context": "_context_",
+    "id": "simpthick-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Average depth of melt ponds on sea ice, that is melt pond volume divided by melt pond area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_ice_melt_pond_thickness",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Melt Pond Depth",
     "units": "m",
+    "validation-key": "simpthick_tavg-u-hxy-si",
     "variable-root": "simpthick",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

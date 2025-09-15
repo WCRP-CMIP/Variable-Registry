@@ -1,11 +1,14 @@
 {
-    "id": "sivol_tavg-u-hm-u",
-    "validation-key": "sivol_tavg-u-hm-u",
-    "ui-label": "Sea-Ice Volume South",
-    "description": "Total integrated volume of sea ice in the Southern Hemisphere.",
+    "@context": "_context_",
+    "id": "sivol-tavg-u-hm-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "asm-tmn",
+    "description": "Total integrated volume of sea ice in the Southern Hemisphere.",
     "dimensions": [
         "time"
     ],
@@ -20,12 +23,9 @@
     "standard-name": "sea_ice_volume",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sea-Ice Volume South",
     "units": "1e3 km3",
+    "validation-key": "sivol_tavg-u-hm-u",
     "variable-root": "sivol",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

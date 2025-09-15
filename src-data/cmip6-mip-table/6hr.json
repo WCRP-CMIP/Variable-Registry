@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "6hr",
-    "validation-key": "6hr",
-    "ui-label": "6hr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table 6hr containing variables",
+    "ui-label": "6hr",
+    "validation-key": "6hr",
     "variables": [
         "mpw_tavg-u-hxy-sea",
         "mpwswell_tavg-u-hxy-sea",
@@ -22,12 +29,5 @@
         "wpp_tavg-u-hxy-sea",
         "wppswell_tavg-u-hxy-sea",
         "wppwindsea_tavg-u-hxy-sea"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

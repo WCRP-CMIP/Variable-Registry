@@ -1,13 +1,13 @@
 {
-    "id": "emibbdms",
-    "validation-key": "emibbdms",
-    "ui-label": "emibbdms",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-dimethyl-sulfide-due-to-emission-from-fires",
     "@context": "_context_",
+    "id": "emibbdms",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-dimethyl-sulfide-due-to-emission-from-fires",
+    "ui-label": "emibbdms",
+    "validation-key": "emibbdms"
 }

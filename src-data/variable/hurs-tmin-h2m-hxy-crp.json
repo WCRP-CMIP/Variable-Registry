@@ -1,11 +1,14 @@
 {
-    "id": "hurs_tmin-h2m-hxy-crp",
-    "validation-key": "hurs_tmin-h2m-hxy-crp",
-    "ui-label": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
-    "description": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "@context": "_context_",
+    "id": "hurs-tmin-h2m-hxy-crp",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "crp",
     "cell-measures": "area: areacella",
     "cell-methods": "amncrp-tmin",
+    "description": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tmin",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
     "units": "%",
+    "validation-key": "hurs_tmin-h2m-hxy-crp",
     "variable-root": "hurs",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

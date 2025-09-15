@@ -1,13 +1,13 @@
 {
-    "id": "aoanh",
-    "validation-key": "aoanh",
-    "ui-label": "aoanh",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tracer-lifetime",
     "@context": "_context_",
+    "id": "aoanh",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tracer-lifetime",
+    "ui-label": "aoanh",
+    "validation-key": "aoanh"
 }

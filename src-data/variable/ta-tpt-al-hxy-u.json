@@ -1,11 +1,14 @@
 {
-    "id": "ta_tpt-al-hxy-u",
-    "validation-key": "ta_tpt-al-hxy-u",
-    "ui-label": "Air Temperature",
-    "description": "Air Temperature",
+    "@context": "_context_",
+    "id": "ta-tpt-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Air Temperature",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Air Temperature",
     "units": "K",
+    "validation-key": "ta_tpt-al-hxy-u",
     "variable-root": "ta",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

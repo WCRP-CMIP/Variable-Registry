@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "e3hrpt",
-    "validation-key": "e3hrpt",
-    "ui-label": "E3hrPt",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table E3hrPt containing variables",
+    "ui-label": "E3hrPt",
+    "validation-key": "e3hrpt",
     "variables": [
         "cltcalipso_tpt-u-hxy-u",
         "conccn_tpt-u-hxys-u",
@@ -21,12 +28,5 @@
         "ua_tpt-p6-hxy-air",
         "va_tpt-p6-hxy-air",
         "wap_tpt-p6-hxy-air"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

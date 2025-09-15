@@ -1,13 +1,13 @@
 {
-    "id": "dpco2",
-    "validation-key": "dpco2",
-    "ui-label": "dpco2",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-carbon-dioxide-partial-pressure-difference-between-sea-water-and-air",
     "@context": "_context_",
+    "id": "dpco2",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-carbon-dioxide-partial-pressure-difference-between-sea-water-and-air",
+    "ui-label": "dpco2",
+    "validation-key": "dpco2"
 }

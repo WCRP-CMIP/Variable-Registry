@@ -1,13 +1,13 @@
 {
-    "id": "siextent",
-    "validation-key": "siextent",
-    "ui-label": "siextent",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-ice-extent",
     "@context": "_context_",
+    "id": "siextent",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-ice-extent",
+    "ui-label": "siextent",
+    "validation-key": "siextent"
 }

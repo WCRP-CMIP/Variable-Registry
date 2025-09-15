@@ -1,13 +1,13 @@
 {
-    "id": "emic3h8",
-    "validation-key": "emic3h8",
-    "ui-label": "emic3h8",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-propane-due-to-emission",
     "@context": "_context_",
+    "id": "emic3h8",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-propane-due-to-emission",
+    "ui-label": "emic3h8",
+    "validation-key": "emic3h8"
 }

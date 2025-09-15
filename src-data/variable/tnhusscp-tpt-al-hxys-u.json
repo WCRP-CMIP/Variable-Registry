@@ -1,11 +1,14 @@
 {
-    "id": "tnhusscp_tpt-al-hxys-u",
-    "validation-key": "tnhusscp_tpt-al-hxys-u",
-    "ui-label": "Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation",
-    "description": "alevel site time1",
+    "@context": "_context_",
+    "id": "tnhusscp-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "alevel site time1",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation",
     "units": "s-1",
+    "validation-key": "tnhusscp_tpt-al-hxys-u",
     "variable-root": "tnhusscp",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

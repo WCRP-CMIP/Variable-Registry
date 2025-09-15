@@ -1,13 +1,13 @@
 {
-    "id": "cproductlut",
-    "validation-key": "cproductlut",
-    "ui-label": "cProductLut",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "carbon-mass-content-of-forestry-and-agricultural-products",
     "@context": "_context_",
+    "id": "cproductlut",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "carbon-mass-content-of-forestry-and-agricultural-products",
+    "ui-label": "cProductLut",
+    "validation-key": "cproductlut"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "vsfcorr_tavg-u-hxy-sea",
-    "validation-key": "vsfcorr_tavg-u-hxy-sea",
-    "ui-label": "Virtual Salt Flux Correction",
-    "description": "It is set to zero in models which receive a real water flux.",
+    "@context": "_context_",
+    "id": "vsfcorr-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "It is set to zero in models which receive a real water flux.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "virtual_salt_flux_correction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Virtual Salt Flux Correction",
     "units": "kg m-2 s-1",
+    "validation-key": "vsfcorr_tavg-u-hxy-sea",
     "variable-root": "vsfcorr",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

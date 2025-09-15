@@ -1,11 +1,14 @@
 {
-    "id": "wfcorr_tavg-u-hxy-sea",
-    "validation-key": "wfcorr_tavg-u-hxy-sea",
-    "ui-label": "Water Flux Correction",
-    "description": "Computed as the water flux into the ocean due to flux correction divided by the area of the ocean portion of the grid cell.",
+    "@context": "_context_",
+    "id": "wfcorr-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Computed as the water flux into the ocean due to flux correction divided by the area of the ocean portion of the grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_flux_correction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Water Flux Correction",
     "units": "kg m-2 s-1",
+    "validation-key": "wfcorr_tavg-u-hxy-sea",
     "variable-root": "wfcorr",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

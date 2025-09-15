@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "day",
-    "validation-key": "day",
-    "ui-label": "day",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table day containing variables",
+    "ui-label": "day",
+    "validation-key": "day",
     "variables": [
         "clt_tavg-u-hxy-u",
         "hfls_tavg-u-hxy-u",
@@ -51,12 +58,5 @@
         "wbgt_tavg-h2m-hxy-u",
         "wbgt_tmax-h2m-hxy-u",
         "zg_tavg-p19-hxy-air"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

@@ -1,11 +1,14 @@
 {
-    "id": "lithk_tavg-u-hxy-is",
-    "validation-key": "lithk_tavg-u-hxy-is",
-    "ui-label": "Ice Sheet Thickness",
-    "description": "This is needed in case ice sheet thickness changes in time",
+    "@context": "_context_",
+    "id": "lithk-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-twm",
+    "description": "This is needed in case ice sheet thickness changes in time",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "land_ice_thickness",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ice Sheet Thickness",
     "units": "m",
+    "validation-key": "lithk_tavg-u-hxy-is",
     "variable-root": "lithk",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

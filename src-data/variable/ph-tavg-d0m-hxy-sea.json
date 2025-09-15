@@ -1,11 +1,14 @@
 {
-    "id": "ph_tavg-d0m-hxy-sea",
-    "validation-key": "ph_tavg-d0m-hxy-sea",
-    "ui-label": "Surface pH",
-    "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+    "@context": "_context_",
+    "id": "ph-tavg-d0m-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_water_ph_reported_on_total_scale",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface pH",
     "units": "1",
+    "validation-key": "ph_tavg-d0m-hxy-sea",
     "variable-root": "ph",
-    "vertical-label": "d0m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "d0m"
 }

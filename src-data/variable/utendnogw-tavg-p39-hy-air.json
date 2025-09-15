@@ -1,11 +1,14 @@
 {
-    "id": "utendnogw_tavg-p39-hy-air",
-    "validation-key": "utendnogw_tavg-p39-hy-air",
-    "ui-label": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
-    "description": "Zonal mean tendency of eastward wind induced by the parameterized non-orographic gravity wave drag",
+    "@context": "_context_",
+    "id": "utendnogw-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "Zonal mean tendency of eastward wind induced by the parameterized non-orographic gravity wave drag",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_eastward_wind_due_to_nonorographic_gravity_wave_drag",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
     "units": "m s-2",
+    "validation-key": "utendnogw_tavg-p39-hy-air",
     "variable-root": "utendnogw",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

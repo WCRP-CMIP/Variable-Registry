@@ -1,11 +1,14 @@
 {
-    "id": "hur_tpt-500hPa-hxy-air",
-    "validation-key": "hur_tpt-500hPa-hxy-air",
-    "ui-label": "hu500",
-    "description": "Relative humidity at 500 hPa, 6 hourly instantaneous",
+    "@context": "_context_",
+    "id": "hur-tpt-500hpa-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-tpt",
+    "description": "Relative humidity at 500 hPa, 6 hourly instantaneous",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "hu500",
     "units": "%",
+    "validation-key": "hur_tpt-500hPa-hxy-air",
     "variable-root": "hur",
-    "vertical-label": "500hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "500hPa"
 }

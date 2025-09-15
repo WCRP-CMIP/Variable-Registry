@@ -1,11 +1,14 @@
 {
-    "id": "hfss_tpt-u-hxys-u",
-    "validation-key": "hfss_tpt-u-hxys-u",
-    "ui-label": "Surface Upward Sensible Heat Flux",
-    "description": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+    "@context": "_context_",
+    "id": "hfss-tpt-u-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
     "dimensions": [
         "site",
         "time1"
@@ -21,12 +24,9 @@
     "standard-name": "surface_upward_sensible_heat_flux",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface Upward Sensible Heat Flux",
     "units": "W m-2",
+    "validation-key": "hfss_tpt-u-hxys-u",
     "variable-root": "hfss",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

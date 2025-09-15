@@ -1,14 +1,14 @@
 {
-    "id": "time2",
-    "validation-key": "time2",
-    "ui-label": "Monthly Climatology",
-    "description": "climatological times",
-    "axis-flag": "T",
-    "cf-standard-name": "time",
-    "spatial-shape": "",
     "@context": "_context_",
+    "id": "time2",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "T",
+    "cf-standard-name": "time",
+    "description": "climatological times",
+    "spatial-shape": "",
+    "ui-label": "Monthly Climatology",
+    "validation-key": "time2"
 }

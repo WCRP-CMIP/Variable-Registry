@@ -1,13 +1,13 @@
 {
-    "id": "c14soil",
-    "validation-key": "c14soil",
-    "ui-label": "c14Soil",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "soil-mass-content-of-14c",
     "@context": "_context_",
+    "id": "c14soil",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "soil-mass-content-of-14c",
+    "ui-label": "c14Soil",
+    "validation-key": "c14soil"
 }

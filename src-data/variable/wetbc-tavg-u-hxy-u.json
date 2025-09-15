@@ -1,11 +1,14 @@
 {
-    "id": "wetbc_tavg-u-hxy-u",
-    "validation-key": "wetbc_tavg-u-hxy-u",
-    "ui-label": "Wet Deposition Rate of Black Carbon Aerosol Mass",
-    "description": "Surface deposition rate of black carbon (dry mass) due to wet processes",
+    "@context": "_context_",
+    "id": "wetbc-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Surface deposition rate of black carbon (dry mass) due to wet processes",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Wet Deposition Rate of Black Carbon Aerosol Mass",
     "units": "kg m-2 s-1",
+    "validation-key": "wetbc_tavg-u-hxy-u",
     "variable-root": "wetbc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

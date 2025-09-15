@@ -1,12 +1,12 @@
 {
-    "id": "amngi-fx",
-    "validation-key": "amngi-fx",
-    "ui-label": "Fixed Area Mean over Grounded Ice Sheets",
-    "description": "area: mean where grounded_ice_sheet",
-    "mask": "",
     "@context": "_context_",
+    "id": "amngi-fx",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean where grounded_ice_sheet",
+    "mask": "",
+    "ui-label": "Fixed Area Mean over Grounded Ice Sheets",
+    "validation-key": "amngi-fx"
 }

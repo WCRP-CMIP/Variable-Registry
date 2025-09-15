@@ -1,14 +1,14 @@
 {
-    "id": "yant",
-    "validation-key": "yant",
-    "ui-label": "Y-coordinate of Antarctic grid",
-    "description": "Y-coordinate of Antarctic grid (stubb)",
-    "axis-flag": "Y",
-    "cf-standard-name": "projection_y_coordinate",
-    "spatial-shape": "Polar stereographic grid (Antarctic)",
     "@context": "_context_",
+    "id": "yant",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "Y",
+    "cf-standard-name": "projection_y_coordinate",
+    "description": "Y-coordinate of Antarctic grid (stubb)",
+    "spatial-shape": "Polar stereographic grid (Antarctic)",
+    "ui-label": "Y-coordinate of Antarctic grid",
+    "validation-key": "yant"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "c2h5oh_tavg-al-hxy-u",
-    "validation-key": "c2h5oh_tavg-al-hxy-u",
-    "ui-label": "C2H5OH  volume mixing ratio",
-    "description": "Mole fraction of ethanol (C2H5OH) in air",
+    "@context": "_context_",
+    "id": "c2h5oh-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mole fraction of ethanol (C2H5OH) in air",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_ethanol_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "C2H5OH  volume mixing ratio",
     "units": "mol mol-1",
+    "validation-key": "c2h5oh_tavg-al-hxy-u",
     "variable-root": "c2h5oh",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

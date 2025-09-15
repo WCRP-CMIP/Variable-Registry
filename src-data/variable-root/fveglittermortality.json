@@ -1,13 +1,13 @@
 {
-    "id": "fveglittermortality",
-    "validation-key": "fveglittermortality",
-    "ui-label": "fVegLitterMortality",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation-due-to-mortality",
     "@context": "_context_",
+    "id": "fveglittermortality",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mass-flux-of-carbon-into-litter-from-vegetation-due-to-mortality",
+    "ui-label": "fVegLitterMortality",
+    "validation-key": "fveglittermortality"
 }

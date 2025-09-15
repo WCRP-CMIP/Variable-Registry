@@ -1,13 +1,13 @@
 {
-    "id": "albisccp",
-    "validation-key": "albisccp",
-    "ui-label": "albisccp",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "cloud-albedo",
     "@context": "_context_",
+    "id": "albisccp",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "cloud-albedo",
+    "ui-label": "albisccp",
+    "validation-key": "albisccp"
 }

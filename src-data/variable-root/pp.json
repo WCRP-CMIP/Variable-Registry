@@ -1,13 +1,13 @@
 {
-    "id": "pp",
-    "validation-key": "pp",
-    "ui-label": "pp",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-mole-concentration-of-particulate-organic-matter-expressed-as-carbon-in-sea-water-due-to-net-primary-production",
     "@context": "_context_",
+    "id": "pp",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-mole-concentration-of-particulate-organic-matter-expressed-as-carbon-in-sea-water-due-to-net-primary-production",
+    "ui-label": "pp",
+    "validation-key": "pp"
 }

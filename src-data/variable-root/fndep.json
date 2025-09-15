@@ -1,13 +1,13 @@
 {
-    "id": "fndep",
-    "validation-key": "fndep",
-    "ui-label": "fNdep",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-deposition",
     "@context": "_context_",
+    "id": "fndep",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-deposition",
+    "ui-label": "fNdep",
+    "validation-key": "fndep"
 }

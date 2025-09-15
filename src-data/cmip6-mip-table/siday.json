@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "siday",
-    "validation-key": "siday",
-    "ui-label": "SIday",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table SIday containing variables",
+    "ui-label": "SIday",
+    "validation-key": "siday",
     "variables": [
         "siage_tavg-u-hxy-si",
         "siarea_tavg-u-hm-u",
@@ -49,12 +56,5 @@
         "siv_tavg-u-hxy-si",
         "sivol_tavg-u-hm-u",
         "sivol_tavg-u-hm-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

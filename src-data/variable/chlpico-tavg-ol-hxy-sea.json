@@ -1,11 +1,14 @@
 {
-    "id": "chlpico_tavg-ol-hxy-sea",
-    "validation-key": "chlpico_tavg-ol-hxy-sea",
-    "ui-label": "Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
-    "description": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
+    "@context": "_context_",
+    "id": "chlpico-tavg-ol-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
+    "description": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_concentration_of_picophytoplankton_expressed_as_chlorophyll_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
     "units": "kg m-3",
+    "validation-key": "chlpico_tavg-ol-hxy-sea",
     "variable-root": "chlpico",
-    "vertical-label": "ol",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "ol"
 }

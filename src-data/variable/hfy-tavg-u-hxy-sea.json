@@ -1,11 +1,14 @@
 {
-    "id": "hfy_tavg-u-hxy-sea",
-    "validation-key": "hfy_tavg-u-hxy-sea",
-    "ui-label": "Vertically Integrated Ocean Heat Y Transport",
-    "description": "Ocean heat y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",
+    "@context": "_context_",
+    "id": "hfy-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "description": "Ocean heat y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "ocean_heat_y_transport",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Vertically Integrated Ocean Heat Y Transport",
     "units": "W",
+    "validation-key": "hfy_tavg-u-hxy-sea",
     "variable-root": "hfy",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

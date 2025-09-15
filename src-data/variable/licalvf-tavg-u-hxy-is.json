@@ -1,11 +1,14 @@
 {
-    "id": "licalvf_tavg-u-hxy-is",
-    "validation-key": "licalvf_tavg-u-hxy-is",
-    "ui-label": "Land Ice Calving Flux",
-    "description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",
+    "@context": "_context_",
+    "id": "licalvf-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-twm",
+    "description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "land_ice_specific_mass_flux_due_to_calving",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Land Ice Calving Flux",
     "units": "kg m-2 s-1",
+    "validation-key": "licalvf_tavg-u-hxy-is",
     "variable-root": "licalvf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "loadoa",
-    "validation-key": "loadoa",
-    "ui-label": "loadoa",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles",
     "@context": "_context_",
+    "id": "loadoa",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles",
+    "ui-label": "loadoa",
+    "validation-key": "loadoa"
 }

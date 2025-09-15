@@ -1,12 +1,12 @@
 {
-    "id": "amna-twm",
-    "validation-key": "amna-twm",
-    "ui-label": "Weighted Time Mean in Air",
-    "description": "area: time: mean where air",
-    "mask": "",
     "@context": "_context_",
+    "id": "amna-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where air",
+    "mask": "",
+    "ui-label": "Weighted Time Mean in Air",
+    "validation-key": "amna-twm"
 }

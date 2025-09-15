@@ -1,11 +1,14 @@
 {
-    "id": "wetnoy_tavg-u-hxy-u",
-    "validation-key": "wetnoy_tavg-u-hxy-u",
-    "ui-label": "Wet Deposition Rate of NOy Including Aerosol Nitrate",
-    "description": "NOy is the sum of all simulated oxidized nitrogen species, out of NO, NO2, HNO3, HNO4, NO3aerosol, NO3(radical), N2O5, PAN, other organic nitrates.",
+    "@context": "_context_",
+    "id": "wetnoy-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "NOy is the sum of all simulated oxidized nitrogen species, out of NO, NO2, HNO3, HNO4, NO3aerosol, NO3(radical), N2O5, PAN, other organic nitrates.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_noy_expressed_as_nitrogen_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Wet Deposition Rate of NOy Including Aerosol Nitrate",
     "units": "kg m-2 s-1",
+    "validation-key": "wetnoy_tavg-u-hxy-u",
     "variable-root": "wetnoy",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "prsn_tavg-u-hxy-u",
-    "validation-key": "prsn_tavg-u-hxy-u",
-    "ui-label": "Snowfall Flux",
-    "description": "at surface; includes precipitation of all forms of water in the solid phase",
+    "@context": "_context_",
+    "id": "prsn-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "at surface; includes precipitation of all forms of water in the solid phase",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "snowfall_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Snowfall Flux",
     "units": "kg m-2 s-1",
+    "validation-key": "prsn_tavg-u-hxy-u",
     "variable-root": "prsn",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

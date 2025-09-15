@@ -1,12 +1,12 @@
 {
-    "id": "ax-tpt",
-    "validation-key": "ax-tpt",
-    "ui-label": "Instantaneous",
-    "description": "time: point",
-    "mask": "",
     "@context": "_context_",
+    "id": "ax-tpt",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "time: point",
+    "mask": "",
+    "ui-label": "Instantaneous",
+    "validation-key": "ax-tpt"
 }

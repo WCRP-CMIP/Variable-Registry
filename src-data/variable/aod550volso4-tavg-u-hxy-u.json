@@ -1,11 +1,14 @@
 {
-    "id": "aod550volso4_tavg-u-hxy-u",
-    "validation-key": "aod550volso4_tavg-u-hxy-u",
-    "ui-label": "Monthly Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
-    "description": "This is the monthly averaged aerosol optical thickness at 550 nm due to stratospheric volcanic sulphate aerosols",
+    "@context": "_context_",
+    "id": "aod550volso4-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the monthly averaged aerosol optical thickness at 550 nm due to stratospheric volcanic sulphate aerosols",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Monthly Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
     "units": "1E-09",
+    "validation-key": "aod550volso4_tavg-u-hxy-u",
     "variable-root": "aod550volso4",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

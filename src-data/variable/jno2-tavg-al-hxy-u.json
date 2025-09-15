@@ -1,11 +1,14 @@
 {
-    "id": "jno2_tavg-al-hxy-u",
-    "validation-key": "jno2_tavg-al-hxy-u",
-    "ui-label": "Photolysis Rate of NO2",
-    "description": "Photolysis rate of nitrogen dioxide (NO2)",
+    "@context": "_context_",
+    "id": "jno2-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Photolysis rate of nitrogen dioxide (NO2)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "photolysis_rate_of_nitrogen_dioxide",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Photolysis Rate of NO2",
     "units": "s-1",
+    "validation-key": "jno2_tavg-al-hxy-u",
     "variable-root": "jno2",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

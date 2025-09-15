@@ -1,11 +1,14 @@
 {
-    "id": "mmrss_tavg-al-hxy-u",
-    "validation-key": "mmrss_tavg-al-hxy-u",
-    "ui-label": "Sea-Salt Aerosol Mass Mixing Ratio",
-    "description": "Mass fraction in the atmosphere of sea salt aerosol (dry mass).",
+    "@context": "_context_",
+    "id": "mmrss-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Mass fraction in the atmosphere of sea salt aerosol (dry mass).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_fraction_of_sea_salt_dry_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sea-Salt Aerosol Mass Mixing Ratio",
     "units": "kg kg-1",
+    "validation-key": "mmrss_tavg-al-hxy-u",
     "variable-root": "mmrss",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

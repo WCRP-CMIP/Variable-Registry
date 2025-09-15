@@ -1,11 +1,14 @@
 {
-    "id": "sitempbot_tavg-u-hxy-si",
-    "validation-key": "sitempbot_tavg-u-hxy-si",
-    "ui-label": "Temperature at Ice-Ocean Interface",
-    "description": "Mean temperature at the base of the sea ice, NOT the temperature within lowermost sea-ice model layer.",
+    "@context": "_context_",
+    "id": "sitempbot-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Mean temperature at the base of the sea ice, NOT the temperature within lowermost sea-ice model layer.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_ice_basal_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Temperature at Ice-Ocean Interface",
     "units": "K",
+    "validation-key": "sitempbot_tavg-u-hxy-si",
     "variable-root": "sitempbot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

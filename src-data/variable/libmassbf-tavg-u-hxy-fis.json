@@ -1,11 +1,14 @@
 {
-    "id": "libmassbf_tavg-u-hxy-fis",
-    "validation-key": "libmassbf_tavg-u-hxy-fis",
-    "ui-label": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
-    "description": "quantity averaged over floating land ice",
+    "@context": "_context_",
+    "id": "libmassbf-tavg-u-hxy-fis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "fis",
     "cell-measures": "area: areacellg",
     "cell-methods": "Error: area: time: mean where floating_ice_shelf (mask=sftflf) not found in cell methods, please register",
+    "description": "quantity averaged over floating land ice",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "land_ice_basal_specific_mass_balance_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
     "units": "kg m-2 s-1",
+    "validation-key": "libmassbf_tavg-u-hxy-fis",
     "variable-root": "libmassbf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

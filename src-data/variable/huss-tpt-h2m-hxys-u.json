@@ -1,11 +1,14 @@
 {
-    "id": "huss_tpt-h2m-hxys-u",
-    "validation-key": "huss_tpt-h2m-hxys-u",
-    "ui-label": "Near-Surface Specific Humidity",
-    "description": "Near-surface (usually, 2 meter) specific humidity.",
+    "@context": "_context_",
+    "id": "huss-tpt-h2m-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "Near-surface (usually, 2 meter) specific humidity.",
     "dimensions": [
         "site",
         "time1",
@@ -22,12 +25,9 @@
     "standard-name": "specific_humidity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Near-Surface Specific Humidity",
     "units": "1",
+    "validation-key": "huss_tpt-h2m-hxys-u",
     "variable-root": "huss",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

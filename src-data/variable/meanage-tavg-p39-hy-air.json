@@ -1,11 +1,14 @@
 {
-    "id": "meanage_tavg-p39-hy-air",
-    "validation-key": "meanage_tavg-p39-hy-air",
-    "ui-label": "Mean Age of Stratospheric Air",
-    "description": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere.",
+    "@context": "_context_",
+    "id": "meanage-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere.",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "age_of_stratospheric_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mean Age of Stratospheric Air",
     "units": "yr",
+    "validation-key": "meanage_tavg-p39-hy-air",
     "variable-root": "meanage",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "tsLut_tavg-u-hxy-multi",
-    "validation-key": "tsLut_tavg-u-hxy-multi",
-    "ui-label": "Surface Temperature on Landuse Tile",
-    "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",
+    "@context": "_context_",
+    "id": "tslut-tavg-u-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
+    "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "surface_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Temperature on Landuse Tile",
     "units": "K",
+    "validation-key": "tsLut_tavg-u-hxy-multi",
     "variable-root": "tsLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

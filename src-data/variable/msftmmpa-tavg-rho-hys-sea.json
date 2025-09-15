@@ -1,11 +1,14 @@
 {
-    "id": "msftmmpa_tavg-rho-hys-sea",
-    "validation-key": "msftmmpa_tavg-rho-hys-sea",
-    "ui-label": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
-    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
+    "@context": "_context_",
+    "id": "msftmmpa-tavg-rho-hys-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
     "dimensions": [
         "latitude",
         "rho",
@@ -23,12 +26,9 @@
     "standard-name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "units": "kg s-1",
+    "validation-key": "msftmmpa_tavg-rho-hys-sea",
     "variable-root": "msftmmpa",
-    "vertical-label": "rho",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "rho"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "sichl_tavg-u-hxy-si",
-    "validation-key": "sichl_tavg-u-hxy-si",
-    "ui-label": "Amount of Total Ice Algae Expressed as Chlorophyll in Sea Ice",
-    "description": "Vertically-integrated content of Chl-a in ice algae, expressed as kg of Chl-a per square meter of sea ice.",
+    "@context": "_context_",
+    "id": "sichl-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea_ice (mask=siconc) depth: sum where sea_ice time: mean not found in cell methods, please register",
+    "description": "Vertically-integrated content of Chl-a in ice algae, expressed as kg of Chl-a per square meter of sea ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_ice_mass_content_of_ice_algae_expressed_as_chlorophyll",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Amount of Total Ice Algae Expressed as Chlorophyll in Sea Ice",
     "units": "kg m-2",
+    "validation-key": "sichl_tavg-u-hxy-si",
     "variable-root": "sichl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "ta_tavg-850hPa-hxy-air",
-    "validation-key": "ta_tavg-850hPa-hxy-air",
-    "ui-label": "Air Temperature",
-    "description": "Air temperature at 850hPa",
+    "@context": "_context_",
+    "id": "ta-tavg-850hpa-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Air temperature at 850hPa",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Air Temperature",
     "units": "K",
+    "validation-key": "ta_tavg-850hPa-hxy-air",
     "variable-root": "ta",
-    "vertical-label": "850hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "850hPa"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "mmrpm1",
-    "validation-key": "mmrpm1",
-    "ui-label": "mmrpm1",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mass-fraction-of-pm1-dry-aerosol-particles-in-air",
     "@context": "_context_",
+    "id": "mmrpm1",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mass-fraction-of-pm1-dry-aerosol-particles-in-air",
+    "ui-label": "mmrpm1",
+    "validation-key": "mmrpm1"
 }

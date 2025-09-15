@@ -1,13 +1,13 @@
 {
-    "id": "sitempsnic",
-    "validation-key": "sitempsnic",
-    "ui-label": "sitempsnic",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-ice-surface-temperature",
     "@context": "_context_",
+    "id": "sitempsnic",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-ice-surface-temperature",
+    "ui-label": "sitempsnic",
+    "validation-key": "sitempsnic"
 }

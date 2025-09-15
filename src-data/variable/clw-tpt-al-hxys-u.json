@@ -1,11 +1,14 @@
 {
-    "id": "clw_tpt-al-hxys-u",
-    "validation-key": "clw_tpt-al-hxys-u",
-    "ui-label": "Mass Fraction of Cloud Liquid Water",
-    "description": "Includes both large-scale and convective cloud.  This is the mass of  cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "@context": "_context_",
+    "id": "clw-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "Includes both large-scale and convective cloud.  This is the mass of  cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "mass_fraction_of_cloud_liquid_water_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Mass Fraction of Cloud Liquid Water",
     "units": "kg kg-1",
+    "validation-key": "clw_tpt-al-hxys-u",
     "variable-root": "clw",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

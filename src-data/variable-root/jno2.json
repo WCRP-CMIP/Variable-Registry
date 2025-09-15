@@ -1,13 +1,13 @@
 {
-    "id": "jno2",
-    "validation-key": "jno2",
-    "ui-label": "jno2",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "photolysis-rate-of-nitrogen-dioxide",
     "@context": "_context_",
+    "id": "jno2",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "photolysis-rate-of-nitrogen-dioxide",
+    "ui-label": "jno2",
+    "validation-key": "jno2"
 }

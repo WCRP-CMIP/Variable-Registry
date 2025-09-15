@@ -1,11 +1,14 @@
 {
-    "id": "lithk_ti-u-hxy-u",
-    "validation-key": "lithk_ti-u-hxy-u",
-    "ui-label": "Ice sheet thickness",
-    "description": "This variable identifies the thickness of a prescribed ice sheet. This information is relevant to better understand how different models treat ice. For models where an ice sheet is just orography + an ice sheet mask, the value should be set to zero. For models that explicitly resolve an ice sheet thickness, the thickness of the ice sheet should be provided.",
+    "@context": "_context_",
+    "id": "lithk-ti-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
+    "description": "This variable identifies the thickness of a prescribed ice sheet. This information is relevant to better understand how different models treat ice. For models where an ice sheet is just orography + an ice sheet mask, the value should be set to zero. For models that explicitly resolve an ice sheet thickness, the thickness of the ice sheet should be provided.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -21,12 +24,9 @@
     "standard-name": "land_ice_thickness",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Ice sheet thickness",
     "units": "m",
+    "validation-key": "lithk_ti-u-hxy-u",
     "variable-root": "lithk",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "nRoot_tavg-u-hxy-lnd",
-    "validation-key": "nRoot_tavg-u-hxy-lnd",
-    "ui-label": "Nitrogen Mass in Roots",
-    "description": "including fine and coarse roots.",
+    "@context": "_context_",
+    "id": "nroot-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "including fine and coarse roots.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "root_mass_content_of_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Nitrogen Mass in Roots",
     "units": "kg m-2",
+    "validation-key": "nRoot_tavg-u-hxy-lnd",
     "variable-root": "nRoot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

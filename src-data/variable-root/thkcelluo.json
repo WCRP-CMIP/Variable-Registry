@@ -1,13 +1,13 @@
 {
-    "id": "thkcelluo",
-    "validation-key": "thkcelluo",
-    "ui-label": "thkcelluo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "cell-thickness",
     "@context": "_context_",
+    "id": "thkcelluo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "cell-thickness",
+    "ui-label": "thkcelluo",
+    "validation-key": "thkcelluo"
 }

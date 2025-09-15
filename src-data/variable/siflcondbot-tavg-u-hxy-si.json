@@ -1,11 +1,14 @@
 {
-    "id": "siflcondbot_tavg-u-hxy-si",
-    "validation-key": "siflcondbot_tavg-u-hxy-si",
-    "ui-label": "Net Conductive Heat Flux in Sea Ice at the Base",
-    "description": "Net heat conduction flux at the ice base, i.e. the conductive heat flux from the centre of the lowermost vertical sea-ice grid box to the base of the sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
+    "@context": "_context_",
+    "id": "siflcondbot-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Net heat conduction flux at the ice base, i.e. the conductive heat flux from the centre of the lowermost vertical sea-ice grid box to the base of the sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "basal_downward_heat_flux_in_sea_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Conductive Heat Flux in Sea Ice at the Base",
     "units": "W m-2",
+    "validation-key": "siflcondbot_tavg-u-hxy-si",
     "variable-root": "siflcondbot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

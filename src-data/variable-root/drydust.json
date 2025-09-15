@@ -1,13 +1,13 @@
 {
-    "id": "drydust",
-    "validation-key": "drydust",
-    "ui-label": "drydust",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-dust-dry-aerosol-particles-due-to-dry-deposition",
     "@context": "_context_",
+    "id": "drydust",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "minus-tendency-of-atmosphere-mass-content-of-dust-dry-aerosol-particles-due-to-dry-deposition",
+    "ui-label": "drydust",
+    "validation-key": "drydust"
 }

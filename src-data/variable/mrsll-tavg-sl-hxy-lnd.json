@@ -1,11 +1,14 @@
 {
-    "id": "mrsll_tavg-sl-hxy-lnd",
-    "validation-key": "mrsll_tavg-sl-hxy-lnd",
-    "ui-label": "Liquid Water Content of Soil Layer",
-    "description": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+    "@context": "_context_",
+    "id": "mrsll-tavg-sl-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "liquid_water_content_of_soil_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Liquid Water Content of Soil Layer",
     "units": "kg m-2",
+    "validation-key": "mrsll_tavg-sl-hxy-lnd",
     "variable-root": "mrsll",
-    "vertical-label": "sl",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "sl"
 }

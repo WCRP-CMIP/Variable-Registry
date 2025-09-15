@@ -1,14 +1,14 @@
 {
-    "id": "soilpools",
-    "validation-key": "soilpools",
-    "ui-label": "Soil Pools",
-    "description": "Carbon soil pools",
-    "axis-flag": "",
-    "cf-standard-name": "",
-    "spatial-shape": "",
     "@context": "_context_",
+    "id": "soilpools",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "",
+    "description": "Carbon soil pools",
+    "spatial-shape": "",
+    "ui-label": "Soil Pools",
+    "validation-key": "soilpools"
 }

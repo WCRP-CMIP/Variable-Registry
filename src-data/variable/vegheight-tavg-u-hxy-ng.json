@@ -1,11 +1,14 @@
 {
-    "id": "vegHeight_tavg-u-hxy-ng",
-    "validation-key": "vegHeight_tavg-u-hxy-ng",
-    "ui-label": "Height of Grass",
-    "description": "Vegetation height averaged over the grass fraction of a grid cell.",
+    "@context": "_context_",
+    "id": "vegheight-tavg-u-hxy-ng",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ng",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where natural_grasses (mask=grassFrac) not found in cell methods, please register",
+    "description": "Vegetation height averaged over the grass fraction of a grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "canopy_height",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Height of Grass",
     "units": "m",
+    "validation-key": "vegHeight_tavg-u-hxy-ng",
     "variable-root": "vegHeight",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

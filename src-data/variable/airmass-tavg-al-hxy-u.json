@@ -1,11 +1,14 @@
 {
-    "id": "airmass_tavg-al-hxy-u",
-    "validation-key": "airmass_tavg-al-hxy-u",
-    "ui-label": "Vertically Integrated Mass Content of Air in Layer",
-    "description": "The mass of air in an atmospheric layer.",
+    "@context": "_context_",
+    "id": "airmass-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "The mass of air in an atmospheric layer.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "atmosphere_mass_of_air_per_unit_area",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Vertically Integrated Mass Content of Air in Layer",
     "units": "kg m-2",
+    "validation-key": "airmass_tavg-al-hxy-u",
     "variable-root": "airmass",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

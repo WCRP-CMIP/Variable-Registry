@@ -1,11 +1,14 @@
 {
-    "id": "tauuogw_tavg-p39-hy-air",
-    "validation-key": "tauuogw_tavg-p39-hy-air",
-    "ui-label": "Zonal mean eastward Reynolds stress from orographic gravity wave parameterization",
-    "description": "Zonal mean of the vertical flux of zonal momentum within the orographic gravity wave parameterization",
+    "@context": "_context_",
+    "id": "tauuogw-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "Zonal mean of the vertical flux of zonal momentum within the orographic gravity wave parameterization",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "upward_eastward_momentum_flux_in_air_due_to_orographic_gravity_waves",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Zonal mean eastward Reynolds stress from orographic gravity wave parameterization",
     "units": "Pa",
+    "validation-key": "tauuogw_tavg-p39-hy-air",
     "variable-root": "tauuogw",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

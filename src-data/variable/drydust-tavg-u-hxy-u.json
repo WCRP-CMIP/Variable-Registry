@@ -1,11 +1,14 @@
 {
-    "id": "drydust_tavg-u-hxy-u",
-    "validation-key": "drydust_tavg-u-hxy-u",
-    "ui-label": "Dry Deposition Rate of Dust",
-    "description": "Dry Deposition Rate of Dust",
+    "@context": "_context_",
+    "id": "drydust-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Dry Deposition Rate of Dust",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_dry_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Dry Deposition Rate of Dust",
     "units": "kg m-2 s-1",
+    "validation-key": "drydust_tavg-u-hxy-u",
     "variable-root": "drydust",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "evu_tpt-al-hxys-u",
-    "validation-key": "evu_tpt-al-hxys-u",
-    "ui-label": "Eddy Viscosity Coefficient for Momentum",
-    "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
+    "@context": "_context_",
+    "id": "evu-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "atmosphere_momentum_diffusivity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Eddy Viscosity Coefficient for Momentum",
     "units": "m2 s-1",
+    "validation-key": "evu_tpt-al-hxys-u",
     "variable-root": "evu",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

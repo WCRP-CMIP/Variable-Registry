@@ -1,11 +1,14 @@
 {
-    "id": "evspsblveg_tavg-u-hxy-u",
-    "validation-key": "evspsblveg_tavg-u-hxy-u",
-    "ui-label": "Daily water evaporation flux from canopy",
-    "description": "The same as the current variable evspsblveg but defined on daily timescales.",
+    "@context": "_context_",
+    "id": "evspsblveg-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "The same as the current variable evspsblveg but defined on daily timescales.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_evaporation_flux_from_canopy",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily water evaporation flux from canopy",
     "units": "kg m-2 s-1",
+    "validation-key": "evspsblveg_tavg-u-hxy-u",
     "variable-root": "evspsblveg",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

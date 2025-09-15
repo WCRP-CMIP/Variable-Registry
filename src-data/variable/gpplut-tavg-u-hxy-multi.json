@@ -1,11 +1,14 @@
 {
-    "id": "gppLut_tavg-u-hxy-multi",
-    "validation-key": "gppLut_tavg-u-hxy-multi",
-    "ui-label": "Gross Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
-    "description": "The rate of synthesis of biomass from inorganic precursors by autotrophs (\"producers\") expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. Reported on land-use tiles.",
+    "@context": "_context_",
+    "id": "gpplut-tavg-u-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
+    "description": "The rate of synthesis of biomass from inorganic precursors by autotrophs (\"producers\") expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. Reported on land-use tiles.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Gross Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
+    "validation-key": "gppLut_tavg-u-hxy-multi",
     "variable-root": "gppLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

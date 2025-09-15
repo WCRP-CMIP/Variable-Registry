@@ -1,11 +1,11 @@
 {
-    "id": "tpt",
-    "validation-key": "tpt",
-    "ui-label": "Point in Time",
-    "description": "Instantaneous values sampled at specific points in time, without temporal averaging. Represents snapshots of conditions at discrete time instances, often used for model output at specific time steps.",
     "@context": "_context_",
+    "id": "tpt",
     "type": [
         "wcrp:temporal-label",
         "variable"
-    ]
+    ],
+    "description": "Instantaneous values sampled at specific points in time, without temporal averaging. Represents snapshots of conditions at discrete time instances, often used for model output at specific time steps.",
+    "ui-label": "Point in Time",
+    "validation-key": "tpt"
 }

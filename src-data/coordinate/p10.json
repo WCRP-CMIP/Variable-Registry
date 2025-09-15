@@ -1,13 +1,13 @@
 {
-    "id": "p10",
-    "validation-key": "p10",
-    "ui-label": "pressure",
-    "description": "10 hPa",
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
     "@context": "_context_",
+    "id": "p10",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "description": "10 hPa",
+    "ui-label": "pressure",
+    "validation-key": "p10"
 }

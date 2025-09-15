@@ -1,11 +1,14 @@
 {
-    "id": "ua_tavg-p19-hxy-air",
-    "validation-key": "ua_tavg-p19-hxy-air",
-    "ui-label": "Eastward Wind",
-    "description": "Zonal wind (positive in a eastward direction).",
+    "@context": "_context_",
+    "id": "ua-tavg-p19-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Zonal wind (positive in a eastward direction).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "eastward_wind",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Eastward Wind",
     "units": "m s-1",
+    "validation-key": "ua_tavg-p19-hxy-air",
     "variable-root": "ua",
-    "vertical-label": "p19",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p19"
 }

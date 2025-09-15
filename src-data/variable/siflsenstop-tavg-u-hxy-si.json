@@ -1,11 +1,14 @@
 {
-    "id": "siflsenstop_tavg-u-hxy-si",
-    "validation-key": "siflsenstop_tavg-u-hxy-si",
-    "ui-label": "Net Downward Sensible Heat Flux over Sea Ice",
-    "description": "Net sensible heat flux over sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
+    "@context": "_context_",
+    "id": "siflsenstop-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconca) not found in cell methods, please register",
+    "description": "Net sensible heat flux over sea ice (energy flow per sea ice area). Positive for a downward heat flux.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_sensible_heat_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Downward Sensible Heat Flux over Sea Ice",
     "units": "W m-2",
+    "validation-key": "siflsenstop_tavg-u-hxy-si",
     "variable-root": "siflsenstop",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

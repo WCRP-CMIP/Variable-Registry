@@ -1,11 +1,14 @@
 {
-    "id": "friver_tavg-u-hxy-sea",
-    "validation-key": "friver_tavg-u-hxy-sea",
-    "ui-label": "Water Flux into Sea Water from Rivers",
-    "description": "computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell.",
+    "@context": "_context_",
+    "id": "friver-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_flux_into_sea_water_from_rivers",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Water Flux into Sea Water from Rivers",
     "units": "kg m-2 s-1",
+    "validation-key": "friver_tavg-u-hxy-sea",
     "variable-root": "friver",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

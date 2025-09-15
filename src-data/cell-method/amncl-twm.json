@@ -1,12 +1,12 @@
 {
-    "id": "amncl-twm",
-    "validation-key": "amncl-twm",
-    "ui-label": "Weighted Time Mean on Cloud",
-    "description": "area: time: mean where cloud",
-    "mask": "",
     "@context": "_context_",
+    "id": "amncl-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where cloud",
+    "mask": "",
+    "ui-label": "Weighted Time Mean on Cloud",
+    "validation-key": "amncl-twm"
 }

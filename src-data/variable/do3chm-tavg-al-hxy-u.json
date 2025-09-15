@@ -1,11 +1,14 @@
 {
-    "id": "do3chm_tavg-al-hxy-u",
-    "validation-key": "do3chm_tavg-al-hxy-u",
-    "ui-label": "Net Chemistry Tendency of O3",
-    "description": "Net chemical production of ozone in the atmosphere",
+    "@context": "_context_",
+    "id": "do3chm-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Net chemical production of ozone in the atmosphere",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_net_chemical_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net Chemistry Tendency of O3",
     "units": "mol m-3 s-1",
+    "validation-key": "do3chm_tavg-al-hxy-u",
     "variable-root": "do3chm",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "clmodis_tavg-p7c-hxy-air",
-    "validation-key": "clmodis_tavg-p7c-hxy-air",
-    "ui-label": "MODIS Cloud Area Fraction",
-    "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP _clisccp _variable.",
+    "@context": "_context_",
+    "id": "clmodis-tavg-p7c-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP _clisccp _variable.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -24,12 +27,9 @@
     "standard-name": "modis_cloud_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "MODIS Cloud Area Fraction",
     "units": "1",
+    "validation-key": "clmodis_tavg-p7c-hxy-air",
     "variable-root": "clmodis",
-    "vertical-label": "p7c",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p7c"
 }

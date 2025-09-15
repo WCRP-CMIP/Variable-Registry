@@ -1,11 +1,14 @@
 {
-    "id": "va_tpt-200hPa-hxy-u",
-    "validation-key": "va_tpt-200hPa-hxy-u",
-    "ui-label": "va200",
-    "description": "Meridional wind (positive in a northward direction) at 200 hPa, 6 hourly instantaneous",
+    "@context": "_context_",
+    "id": "va-tpt-200hpa-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Meridional wind (positive in a northward direction) at 200 hPa, 6 hourly instantaneous",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "northward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "va200",
     "units": "m s-1",
+    "validation-key": "va_tpt-200hPa-hxy-u",
     "variable-root": "va",
-    "vertical-label": "200hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "200hPa"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "irrSurf_tavg-u-hxy-u",
-    "validation-key": "irrSurf_tavg-u-hxy-u",
-    "ui-label": "irrigation water withdrawal from surface water",
-    "description": "the amount of water withdrawal for irrigation from surface water, including rivers, lakes, reservoirs, etc.)",
+    "@context": "_context_",
+    "id": "irrsurf-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "the amount of water withdrawal for irrigation from surface water, including rivers, lakes, reservoirs, etc.)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "irrigation water withdrawal from surface water",
     "units": "kg m-2 s-1",
+    "validation-key": "irrSurf_tavg-u-hxy-u",
     "variable-root": "irrSurf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

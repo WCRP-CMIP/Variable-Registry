@@ -1,11 +1,14 @@
 {
-    "id": "sisnhc_tavg-u-hxy-si",
-    "validation-key": "sisnhc_tavg-u-hxy-si",
-    "ui-label": "Snow Heat Content",
-    "description": "Heat content of all snow in grid cell divided by grid-cell area. This includes both the latent and sensible heat content contributions. Snow-water equivalent at 0 C is assumed to have a heat content of 0 J. Does not include the heat content of sea ice.",
+    "@context": "_context_",
+    "id": "sisnhc-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Heat content of all snow in grid cell divided by grid-cell area. This includes both the latent and sensible heat content contributions. Snow-water equivalent at 0 C is assumed to have a heat content of 0 J. Does not include the heat content of sea ice.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "thermal_energy_content_of_surface_snow",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Snow Heat Content",
     "units": "J m-2",
+    "validation-key": "sisnhc_tavg-u-hxy-si",
     "variable-root": "sisnhc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

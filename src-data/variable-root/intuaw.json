@@ -1,13 +1,13 @@
 {
-    "id": "intuaw",
-    "validation-key": "intuaw",
-    "ui-label": "intuaw",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "eastward-atmosphere-water-transport-across-unit-distance",
     "@context": "_context_",
+    "id": "intuaw",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "eastward-atmosphere-water-transport-across-unit-distance",
+    "ui-label": "intuaw",
+    "validation-key": "intuaw"
 }

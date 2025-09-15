@@ -1,13 +1,13 @@
 {
-    "id": "limfediaz",
-    "validation-key": "limfediaz",
-    "ui-label": "limfediaz",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "iron-growth-limitation-of-diazotrophic-phytoplankton",
     "@context": "_context_",
+    "id": "limfediaz",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "iron-growth-limitation-of-diazotrophic-phytoplankton",
+    "ui-label": "limfediaz",
+    "validation-key": "limfediaz"
 }

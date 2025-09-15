@@ -1,13 +1,13 @@
 {
-    "id": "cct",
-    "validation-key": "cct",
-    "ui-label": "cct",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "air-pressure-at-convective-cloud-top",
     "@context": "_context_",
+    "id": "cct",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "air-pressure-at-convective-cloud-top",
+    "ui-label": "cct",
+    "validation-key": "cct"
 }

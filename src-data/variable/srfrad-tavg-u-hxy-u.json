@@ -1,11 +1,14 @@
 {
-    "id": "srfrad_tavg-u-hxy-u",
-    "validation-key": "srfrad_tavg-u-hxy-u",
-    "ui-label": "Net radiative flux at surface",
-    "description": "Net radiative flux at surface",
+    "@context": "_context_",
+    "id": "srfrad-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Net radiative flux at surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_net_downward_radiative_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net radiative flux at surface",
     "units": "W m-2",
+    "validation-key": "srfrad_tavg-u-hxy-u",
     "variable-root": "srfrad",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "sistryubot_tavg-u-hxy-si",
-    "validation-key": "sistryubot_tavg-u-hxy-si",
-    "ui-label": "Y-Component of Ocean Stress on Sea Ice",
-    "description": "Y-component of the ocean stress on the sea ice bottom divided by grid-cell area.",
+    "@context": "_context_",
+    "id": "sistryubot-tavg-u-hxy-si",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "si",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "description": "Y-component of the ocean stress on the sea ice bottom divided by grid-cell area.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "upward_y_stress_at_sea_ice_base",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Y-Component of Ocean Stress on Sea Ice",
     "units": "N m-2",
+    "validation-key": "sistryubot_tavg-u-hxy-si",
     "variable-root": "sistryubot",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

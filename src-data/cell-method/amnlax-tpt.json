@@ -1,12 +1,12 @@
 {
-    "id": "amnlax-tpt",
-    "validation-key": "amnlax-tpt",
-    "ui-label": "Contribution from Land (Instantaneous)",
-    "description": "area: mean where land over all_area_types time: point",
-    "mask": "",
     "@context": "_context_",
+    "id": "amnlax-tpt",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean where land over all_area_types time: point",
+    "mask": "",
+    "ui-label": "Contribution from Land (Instantaneous)",
+    "validation-key": "amnlax-tpt"
 }

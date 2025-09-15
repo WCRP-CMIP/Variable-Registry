@@ -1,11 +1,14 @@
 {
-    "id": "wbgt_tavg-h2m-hxy-u",
-    "validation-key": "wbgt_tavg-h2m-hxy-u",
-    "ui-label": "mean 2m daily wet bulb globe temperature",
-    "description": "mean 2m daily wet bulb globe temperature (WBGT). \nWet Bulb Globe Temperature (WBGT) is a particularly effective indicator of heat stress for active populations such as outdoor workers and athletes.\nThe calculation should be done with: \nWBGT = 0.567 \\* T_C + 0.393 \\* e/100 + 3.94, where T_C is temperature in degrees C, and e = huss \\* p \\* M_air / M_H2O, where \"huss=specific humidity in kg/kg\", M_H2O = 18.01528/1000 # kg/mol, M_air = 28.964/1000 # kg/mol for dry air and \"P = surface pressure in Pa\"",
+    "@context": "_context_",
+    "id": "wbgt-tavg-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "mean 2m daily wet bulb globe temperature (WBGT). \nWet Bulb Globe Temperature (WBGT) is a particularly effective indicator of heat stress for active populations such as outdoor workers and athletes.\nThe calculation should be done with: \nWBGT = 0.567 \\* T_C + 0.393 \\* e/100 + 3.94, where T_C is temperature in degrees C, and e = huss \\* p \\* M_air / M_H2O, where \"huss=specific humidity in kg/kg\", M_H2O = 18.01528/1000 # kg/mol, M_air = 28.964/1000 # kg/mol for dry air and \"P = surface pressure in Pa\"",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "wet_bulb_globe_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "mean 2m daily wet bulb globe temperature",
     "units": "degC",
+    "validation-key": "wbgt_tavg-h2m-hxy-u",
     "variable-root": "wbgt",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

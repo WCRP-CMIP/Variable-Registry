@@ -1,13 +1,13 @@
 {
-    "id": "mcd",
-    "validation-key": "mcd",
-    "ui-label": "mcd",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-downdraft-convective-mass-flux",
     "@context": "_context_",
+    "id": "mcd",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-downdraft-convective-mass-flux",
+    "ui-label": "mcd",
+    "validation-key": "mcd"
 }

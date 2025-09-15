@@ -1,13 +1,13 @@
 {
-    "id": "zfullo",
-    "validation-key": "zfullo",
-    "ui-label": "zfullo",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "depth-below-geoid",
     "@context": "_context_",
+    "id": "zfullo",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "depth-below-geoid",
+    "ui-label": "zfullo",
+    "validation-key": "zfullo"
 }

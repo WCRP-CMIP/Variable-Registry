@@ -1,11 +1,14 @@
 {
-    "id": "topg_tavg-u-hxy-gis",
-    "validation-key": "topg_tavg-u-hxy-gis",
-    "ui-label": "Bedrock Altitude",
-    "description": "This is needed in case bed rock elevation changes in time",
+    "@context": "_context_",
+    "id": "topg-tavg-u-hxy-gis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "gis",
     "cell-measures": "area: areacellg",
     "cell-methods": "Error: area: time: mean where grounded_ice_sheet (mask=sfgrlf) not found in cell methods, please register",
+    "description": "This is needed in case bed rock elevation changes in time",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "bedrock_altitude",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Bedrock Altitude",
     "units": "m",
+    "validation-key": "topg_tavg-u-hxy-gis",
     "variable-root": "topg",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

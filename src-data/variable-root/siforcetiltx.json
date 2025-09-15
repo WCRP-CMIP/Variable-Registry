@@ -1,13 +1,13 @@
 {
-    "id": "siforcetiltx",
-    "validation-key": "siforcetiltx",
-    "ui-label": "siforcetiltx",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-ice-x-force-per-unit-area-due-to-sea-surface-tilt",
     "@context": "_context_",
+    "id": "siforcetiltx",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-ice-x-force-per-unit-area-due-to-sea-surface-tilt",
+    "ui-label": "siforcetiltx",
+    "validation-key": "siforcetiltx"
 }

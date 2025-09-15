@@ -1,12 +1,12 @@
 {
-    "id": "amnlsi-twm",
-    "validation-key": "amnlsi-twm",
-    "ui-label": "Weighted TIme Mean Excluding Ice-free Ocean",
-    "description": "area: time: mean (over land and sea ice)",
-    "mask": "",
     "@context": "_context_",
+    "id": "amnlsi-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean (over land and sea ice)",
+    "mask": "",
+    "ui-label": "Weighted TIme Mean Excluding Ice-free Ocean",
+    "validation-key": "amnlsi-twm"
 }

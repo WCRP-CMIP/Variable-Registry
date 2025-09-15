@@ -1,11 +1,14 @@
 {
-    "id": "huss_tavg-h2m-hxy-u",
-    "validation-key": "huss_tavg-h2m-hxy-u",
-    "ui-label": "Near-Surface Specific Humidity",
-    "description": "Near-surface (usually, 2 meter) specific humidity.",
+    "@context": "_context_",
+    "id": "huss-tavg-h2m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Near-surface (usually, 2 meter) specific humidity.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "specific_humidity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Near-Surface Specific Humidity",
     "units": "1",
+    "validation-key": "huss_tavg-h2m-hxy-u",
     "variable-root": "huss",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

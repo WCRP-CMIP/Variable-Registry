@@ -1,11 +1,14 @@
 {
-    "id": "hfdsl_tavg-u-hxy-lnd",
-    "validation-key": "hfdsl_tavg-u-hxy-lnd",
-    "ui-label": "Ground heat flux at 3hr",
-    "description": "Ground heat flux at 3hr",
+    "@context": "_context_",
+    "id": "hfdsl-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Ground heat flux at 3hr",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_heat_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Ground heat flux at 3hr",
     "units": "W m-2",
+    "validation-key": "hfdsl_tavg-u-hxy-lnd",
     "variable-root": "hfdsl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

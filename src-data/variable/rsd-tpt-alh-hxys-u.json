@@ -1,11 +1,14 @@
 {
-    "id": "rsd_tpt-alh-hxys-u",
-    "validation-key": "rsd_tpt-alh-hxys-u",
-    "ui-label": "Downwelling Shortwave Radiation",
-    "description": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
+    "@context": "_context_",
+    "id": "rsd-tpt-alh-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
     "dimensions": [
         "alevhalf",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "downwelling_shortwave_flux_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Downwelling Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsd_tpt-alh-hxys-u",
     "variable-root": "rsd",
-    "vertical-label": "alh",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "alh"
 }

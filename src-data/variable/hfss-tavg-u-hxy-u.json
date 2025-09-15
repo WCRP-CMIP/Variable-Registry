@@ -1,11 +1,14 @@
 {
-    "id": "hfss_tavg-u-hxy-u",
-    "validation-key": "hfss_tavg-u-hxy-u",
-    "ui-label": "Surface upward sensible heat flux",
-    "description": "Hourly surface upward sensible heat flux",
+    "@context": "_context_",
+    "id": "hfss-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Hourly surface upward sensible heat flux",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_upward_sensible_heat_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface upward sensible heat flux",
     "units": "W m-2",
+    "validation-key": "hfss_tavg-u-hxy-u",
     "variable-root": "hfss",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

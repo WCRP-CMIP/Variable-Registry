@@ -1,11 +1,14 @@
 {
-    "id": "psl_tpt-u-hxy-u",
-    "validation-key": "psl_tpt-u-hxy-u",
-    "ui-label": "Sea Level Pressure",
-    "description": "Sea level pressure",
+    "@context": "_context_",
+    "id": "psl-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Sea level pressure",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "air_pressure_at_mean_sea_level",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Sea Level Pressure",
     "units": "Pa",
+    "validation-key": "psl_tpt-u-hxy-u",
     "variable-root": "psl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

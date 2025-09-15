@@ -1,11 +1,14 @@
 {
-    "id": "bldep_tpt-u-hxy-u",
-    "validation-key": "bldep_tpt-u-hxy-u",
-    "ui-label": "Boundary Layer Depth",
-    "description": "Boundary Layer Depth every 3 hours",
+    "@context": "_context_",
+    "id": "bldep-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Boundary Layer Depth every 3 hours",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "atmosphere_boundary_layer_thickness",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Boundary Layer Depth",
     "units": "m",
+    "validation-key": "bldep_tpt-u-hxy-u",
     "variable-root": "bldep",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

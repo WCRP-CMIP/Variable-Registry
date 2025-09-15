@@ -1,11 +1,14 @@
 {
-    "id": "ps_tavg-u-hxy-u",
-    "validation-key": "ps_tavg-u-hxy-u",
-    "ui-label": "Surface Air Pressure",
-    "description": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
+    "@context": "_context_",
+    "id": "ps-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_air_pressure",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Air Pressure",
     "units": "Pa",
+    "validation-key": "ps_tavg-u-hxy-u",
     "variable-root": "ps",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "cf3hr",
-    "validation-key": "cf3hr",
-    "ui-label": "CF3hr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table CF3hr containing variables",
+    "ui-label": "CF3hr",
+    "validation-key": "cf3hr",
     "variables": [
         "clic_tpt-al-hxy-u",
         "clis_tpt-al-hxy-u",
@@ -31,12 +38,5 @@
         "rsutcs_tpt-u-hxy-u",
         "ta_tpt-al-hxy-u",
         "ts_tpt-u-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

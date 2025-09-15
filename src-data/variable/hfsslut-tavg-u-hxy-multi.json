@@ -1,11 +1,14 @@
 {
-    "id": "hfssLut_tavg-u-hxy-multi",
-    "validation-key": "hfssLut_tavg-u-hxy-multi",
-    "ui-label": "Sensible Heat Flux on Land-Use Tile",
-    "description": "Upward sensible heat flux on land use tiles. The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+    "@context": "_context_",
+    "id": "hfsslut-tavg-u-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
+    "description": "Upward sensible heat flux on land use tiles. The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "surface_upward_sensible_heat_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sensible Heat Flux on Land-Use Tile",
     "units": "W m-2",
+    "validation-key": "hfssLut_tavg-u-hxy-multi",
     "variable-root": "hfssLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

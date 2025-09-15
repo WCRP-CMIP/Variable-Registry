@@ -1,11 +1,14 @@
 {
-    "id": "pflw_tavg-u-hxy-lnd",
-    "validation-key": "pflw_tavg-u-hxy-lnd",
-    "ui-label": "Liquid Water Content of Permafrost Layer",
-    "description": "\"where land over land\", i.e., this is the total mass of liquid water contained within the permafrost layer within the land portion of a grid cell divided by the area of the land portion of the cell.",
+    "@context": "_context_",
+    "id": "pflw-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "\"where land over land\", i.e., this is the total mass of liquid water contained within the permafrost layer within the land portion of a grid cell divided by the area of the land portion of the cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "liquid_water_content_of_permafrost_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Liquid Water Content of Permafrost Layer",
     "units": "kg m-2",
+    "validation-key": "pflw_tavg-u-hxy-lnd",
     "variable-root": "pflw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

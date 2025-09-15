@@ -1,11 +1,14 @@
 {
-    "id": "tntpbl_tavg-al-hxy-u",
-    "validation-key": "tntpbl_tavg-al-hxy-u",
-    "ui-label": "Tendency of Air Temperature Due to Boundary Layer Mixing",
-    "description": "Includes all boundary layer terms including diffusive terms.",
+    "@context": "_context_",
+    "id": "tntpbl-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Includes all boundary layer terms including diffusive terms.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_air_temperature_due_to_boundary_layer_mixing",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Air Temperature Due to Boundary Layer Mixing",
     "units": "K s-1",
+    "validation-key": "tntpbl_tavg-al-hxy-u",
     "variable-root": "tntpbl",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

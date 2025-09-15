@@ -1,12 +1,12 @@
 {
-    "id": "amn-clim",
-    "validation-key": "amn-clim",
-    "ui-label": "Annual Ocean Climatology",
-    "description": "area: mean where sea time: mean within years time: mean over years",
-    "mask": "",
     "@context": "_context_",
+    "id": "amn-clim",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean where sea time: mean within years time: mean over years",
+    "mask": "",
+    "ui-label": "Annual Ocean Climatology",
+    "validation-key": "amn-clim"
 }

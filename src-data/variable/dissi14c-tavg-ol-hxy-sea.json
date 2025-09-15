@@ -1,11 +1,14 @@
 {
-    "id": "dissi14c_tavg-ol-hxy-sea",
-    "validation-key": "dissi14c_tavg-ol-hxy-sea",
-    "ui-label": "Dissolved Inorganic Carbon-14 Concentration",
-    "description": "Dissolved inorganic carbon-14 (CO3+HCO3+H2CO3) concentration",
+    "@context": "_context_",
+    "id": "dissi14c-tavg-ol-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
+    "description": "Dissolved inorganic carbon-14 (CO3+HCO3+H2CO3) concentration",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_concentration_of_dissolved_inorganic_14C_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Dissolved Inorganic Carbon-14 Concentration",
     "units": "mol m-3",
+    "validation-key": "dissi14c_tavg-ol-hxy-sea",
     "variable-root": "dissi14c",
-    "vertical-label": "ol",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "ol"
 }

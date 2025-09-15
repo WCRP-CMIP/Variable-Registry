@@ -1,13 +1,13 @@
 {
-    "id": "hfsnthermds",
-    "validation-key": "hfsnthermds",
-    "ui-label": "hfsnthermds",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "heat-flux-into-sea-water-due-to-snow-thermodynamics",
     "@context": "_context_",
+    "id": "hfsnthermds",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "heat-flux-into-sea-water-due-to-snow-thermodynamics",
+    "ui-label": "hfsnthermds",
+    "validation-key": "hfsnthermds"
 }

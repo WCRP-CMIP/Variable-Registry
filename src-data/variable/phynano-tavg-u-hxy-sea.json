@@ -1,11 +1,14 @@
 {
-    "id": "phynano_tavg-u-hxy-sea",
-    "validation-key": "phynano_tavg-u-hxy-sea",
-    "ui-label": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
-    "description": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
+    "@context": "_context_",
+    "id": "phynano-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
+    "description": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mole_concentration_of_nanophytoplankton_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mole Concentration of Nanophytoplankton Expressed as Carbon in Sea Water",
     "units": "mol m-3",
+    "validation-key": "phynano_tavg-u-hxy-sea",
     "variable-root": "phynano",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

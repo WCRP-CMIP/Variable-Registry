@@ -1,13 +1,13 @@
 {
-    "id": "spco2",
-    "validation-key": "spco2",
-    "ui-label": "spco2",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-partial-pressure-of-carbon-dioxide-in-sea-water",
     "@context": "_context_",
+    "id": "spco2",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-partial-pressure-of-carbon-dioxide-in-sea-water",
+    "ui-label": "spco2",
+    "validation-key": "spco2"
 }

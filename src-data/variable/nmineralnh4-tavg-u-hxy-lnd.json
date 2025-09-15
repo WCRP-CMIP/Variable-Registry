@@ -1,11 +1,14 @@
 {
-    "id": "nMineralNH4_tavg-u-hxy-lnd",
-    "validation-key": "nMineralNH4_tavg-u-hxy-lnd",
-    "ui-label": "Mineral Ammonium in the Soil",
-    "description": "SUM of ammonium over all soil layers",
+    "@context": "_context_",
+    "id": "nmineralnh4-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "SUM of ammonium over all soil layers",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "soil_mass_content_of_inorganic_ammonium_expressed_as_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mineral Ammonium in the Soil",
     "units": "kg m-2",
+    "validation-key": "nMineralNH4_tavg-u-hxy-lnd",
     "variable-root": "nMineralNH4",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

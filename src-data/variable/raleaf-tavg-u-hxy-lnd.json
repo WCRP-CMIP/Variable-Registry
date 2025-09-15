@@ -1,11 +1,14 @@
 {
-    "id": "raLeaf_tavg-u-hxy-lnd",
-    "validation-key": "raLeaf_tavg-u-hxy-lnd",
-    "ui-label": "Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1]",
-    "description": "added for completeness with Ra_root",
+    "@context": "_context_",
+    "id": "raleaf-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "added for completeness with Ra_root",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_leaves",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
+    "validation-key": "raLeaf_tavg-u-hxy-lnd",
     "variable-root": "raLeaf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

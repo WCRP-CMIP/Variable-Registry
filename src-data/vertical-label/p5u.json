@@ -1,11 +1,11 @@
 {
-    "id": "p5u",
-    "validation-key": "p5u",
-    "ui-label": "5 Pressure Levels",
-    "description": "5 pressure levels²",
     "@context": "_context_",
+    "id": "p5u",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ]
+    ],
+    "description": "5 pressure levels²",
+    "ui-label": "5 Pressure Levels",
+    "validation-key": "p5u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "tntrscs_tavg-p39-hy-air",
-    "validation-key": "tntrscs_tavg-p39-hy-air",
-    "ui-label": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
-    "description": "zonal mean; hence YZT",
+    "@context": "_context_",
+    "id": "tntrscs-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "zonal mean; hence YZT",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_air_temperature_due_to_shortwave_heating_assuming_clear_sky",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
     "units": "K s-1",
+    "validation-key": "tntrscs_tavg-p39-hy-air",
     "variable-root": "tntrscs",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

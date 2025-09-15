@@ -1,11 +1,14 @@
 {
-    "id": "prra_tavg-u-hxy-lnd",
-    "validation-key": "prra_tavg-u-hxy-lnd",
-    "ui-label": "Rainfall Flux over Land",
-    "description": "rainfall_flux",
+    "@context": "_context_",
+    "id": "prra-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "rainfall_flux",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "rainfall_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Rainfall Flux over Land",
     "units": "kg m-2 s-1",
+    "validation-key": "prra_tavg-u-hxy-lnd",
     "variable-root": "prra",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

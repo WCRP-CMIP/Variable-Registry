@@ -1,13 +1,13 @@
 {
-    "id": "intpbsi",
-    "validation-key": "intpbsi",
-    "ui-label": "intpbsi",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-ocean-mole-content-of-silicon-due-to-biological-production",
     "@context": "_context_",
+    "id": "intpbsi",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-ocean-mole-content-of-silicon-due-to-biological-production",
+    "ui-label": "intpbsi",
+    "validation-key": "intpbsi"
 }

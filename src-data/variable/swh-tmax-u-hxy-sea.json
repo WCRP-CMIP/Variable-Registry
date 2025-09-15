@@ -1,11 +1,14 @@
 {
-    "id": "swh_tmax-u-hxy-sea",
-    "validation-key": "swh_tmax-u-hxy-sea",
-    "ui-label": "Maximum Significant Wave Height",
-    "description": "Highest value of the significant wave height simulated within a given time range (e.g., daily or monthly). The significant wave height (swh) is derived from the wave spectrum using spectral moments. Specifically, swh is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
+    "@context": "_context_",
+    "id": "swh-tmax-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmax",
+    "description": "Highest value of the significant wave height simulated within a given time range (e.g., daily or monthly). The significant wave height (swh) is derived from the wave spectrum using spectral moments. Specifically, swh is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_surface_wave_significant_height",
     "temporal-label": "tmax",
     "temporal-shape": "time-intv",
+    "ui-label": "Maximum Significant Wave Height",
     "units": "m",
+    "validation-key": "swh_tmax-u-hxy-sea",
     "variable-root": "swh",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

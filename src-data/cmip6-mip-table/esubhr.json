@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "esubhr",
-    "validation-key": "esubhr",
-    "ui-label": "Esubhr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table Esubhr containing variables",
+    "ui-label": "Esubhr",
+    "validation-key": "esubhr",
     "variables": [
         "reffclic_tpt-al-hxys-ccl",
         "reffclis_tpt-al-hxys-scl",
@@ -17,12 +24,5 @@
         "tntrs_tpt-al-hxys-u",
         "tntrscs_tpt-al-hxys-u",
         "tntscp_tpt-al-hxys-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

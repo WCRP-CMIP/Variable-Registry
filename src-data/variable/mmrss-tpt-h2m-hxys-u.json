@@ -1,11 +1,14 @@
 {
-    "id": "mmrss_tpt-h2m-hxys-u",
-    "validation-key": "mmrss_tpt-h2m-hxys-u",
-    "ui-label": "Sea salt Aerosol Mass Mixing Ratio at CF sites",
-    "description": "This variable represents instantaneous surface sea salt aerosol mass mixing ratio at CF sites, sampled every 3 hours",
+    "@context": "_context_",
+    "id": "mmrss-tpt-h2m-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "::MODEL",
     "cell-methods": "apt-tpt",
+    "description": "This variable represents instantaneous surface sea salt aerosol mass mixing ratio at CF sites, sampled every 3 hours",
     "dimensions": [
         "site",
         "time1",
@@ -22,12 +25,9 @@
     "standard-name": "mass_fraction_of_sea_salt_dry_aerosol_particles_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Sea salt Aerosol Mass Mixing Ratio at CF sites",
     "units": "kg kg-1",
+    "validation-key": "mmrss_tpt-h2m-hxys-u",
     "variable-root": "mmrss",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

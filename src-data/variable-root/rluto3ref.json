@@ -1,13 +1,13 @@
 {
-    "id": "rluto3ref",
-    "validation-key": "rluto3ref",
-    "ui-label": "rluto3ref",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "toa-outgoing-longwave-flux-assuming-reference-mole-fraction-of-ozone-in-air",
     "@context": "_context_",
+    "id": "rluto3ref",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "toa-outgoing-longwave-flux-assuming-reference-mole-fraction-of-ozone-in-air",
+    "ui-label": "rluto3ref",
+    "validation-key": "rluto3ref"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "ccb_tavg-u-hxy-ccl",
-    "validation-key": "ccb_tavg-u-hxy-ccl",
-    "ui-label": "Air Pressure at Convective Cloud Base",
-    "description": "Where convective cloud is present in the grid cell, the instantaneous cloud base altitude should be that of the bottom of the lowest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
+    "@context": "_context_",
+    "id": "ccb-tavg-u-hxy-ccl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ccl",
     "cell-measures": "area: areacella",
     "cell-methods": "amcc-twm",
+    "description": "Where convective cloud is present in the grid cell, the instantaneous cloud base altitude should be that of the bottom of the lowest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "air_pressure_at_convective_cloud_base",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Air Pressure at Convective Cloud Base",
     "units": "Pa",
+    "validation-key": "ccb_tavg-u-hxy-ccl",
     "variable-root": "ccb",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

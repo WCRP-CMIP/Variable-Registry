@@ -1,11 +1,11 @@
 {
-    "id": "pst",
-    "validation-key": "pst",
-    "ui-label": "Pastures",
-    "description": "Variables calculated over pasture and grazing land areas used for livestock. Includes managed grasslands, forage production, livestock impacts on vegetation, and agricultural land management practices.",
     "@context": "_context_",
+    "id": "pst",
     "type": [
         "wcrp:area-label",
         "variable"
-    ]
+    ],
+    "description": "Variables calculated over pasture and grazing land areas used for livestock. Includes managed grasslands, forage production, livestock impacts on vegetation, and agricultural land management practices.",
+    "ui-label": "Pastures",
+    "validation-key": "pst"
 }

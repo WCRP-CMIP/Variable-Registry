@@ -1,13 +1,13 @@
 {
-    "id": "fnvegsoil",
-    "validation-key": "fnvegsoil",
-    "ui-label": "fNVegSoil",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "nitrogen-mass-flux-into-soil-from-vegetation-excluding-litter",
     "@context": "_context_",
+    "id": "fnvegsoil",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "nitrogen-mass-flux-into-soil-from-vegetation-excluding-litter",
+    "ui-label": "fNVegSoil",
+    "validation-key": "fnvegsoil"
 }

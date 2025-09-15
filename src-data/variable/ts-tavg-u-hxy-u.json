@@ -1,11 +1,14 @@
 {
-    "id": "ts_tavg-u-hxy-u",
-    "validation-key": "ts_tavg-u-hxy-u",
-    "ui-label": "Surface Temperature",
-    "description": "Surface temperature (skin for open ocean)",
+    "@context": "_context_",
+    "id": "ts-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Surface temperature (skin for open ocean)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Temperature",
     "units": "K",
+    "validation-key": "ts_tavg-u-hxy-u",
     "variable-root": "ts",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

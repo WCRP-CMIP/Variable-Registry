@@ -1,12 +1,12 @@
 {
-    "id": "amnsi-twm",
-    "validation-key": "amnsi-twm",
-    "ui-label": "Weighted Time Mean on Sea-Ice",
-    "description": "area: time: mean where sea_ice",
-    "mask": "siconc",
     "@context": "_context_",
+    "id": "amnsi-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where sea_ice",
+    "mask": "siconc",
+    "ui-label": "Weighted Time Mean on Sea-Ice",
+    "validation-key": "amnsi-twm"
 }

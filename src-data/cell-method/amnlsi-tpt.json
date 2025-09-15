@@ -1,12 +1,12 @@
 {
-    "id": "amnlsi-tpt",
-    "validation-key": "amnlsi-tpt",
-    "ui-label": "Area Mean Excluding Ice-free Ocean",
-    "description": "area: mean (over land and sea ice) time: point",
-    "mask": "",
     "@context": "_context_",
+    "id": "amnlsi-tpt",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean (over land and sea ice) time: point",
+    "mask": "",
+    "ui-label": "Area Mean Excluding Ice-free Ocean",
+    "validation-key": "amnlsi-tpt"
 }

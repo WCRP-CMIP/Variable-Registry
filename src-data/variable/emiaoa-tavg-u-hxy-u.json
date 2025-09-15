@@ -1,11 +1,14 @@
 {
-    "id": "emiaoa_tavg-u-hxy-u",
-    "validation-key": "emiaoa_tavg-u-hxy-u",
-    "ui-label": "Total Emission Rate of Anthropogenic Organic Aerosol",
-    "description": "anthropogenic part of emioa",
+    "@context": "_context_",
+    "id": "emiaoa-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "anthropogenic part of emioa",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production_and_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Emission Rate of Anthropogenic Organic Aerosol",
     "units": "kg m-2 s-1",
+    "validation-key": "emiaoa_tavg-u-hxy-u",
     "variable-root": "emiaoa",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

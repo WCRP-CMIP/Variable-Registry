@@ -1,11 +1,14 @@
 {
-    "id": "vtendogw_tavg-p19-hxy-air",
-    "validation-key": "vtendogw_tavg-p19-hxy-air",
-    "ui-label": "Northward Acceleration Due to Orographic Gravity Wave Drag",
-    "description": "Tendency of northward wind induced by the parameterized orographic gravity wave drag",
+    "@context": "_context_",
+    "id": "vtendogw-tavg-p19-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Tendency of northward wind induced by the parameterized orographic gravity wave drag",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Northward Acceleration Due to Orographic Gravity Wave Drag",
     "units": "m s-2",
+    "validation-key": "vtendogw_tavg-p19-hxy-air",
     "variable-root": "vtendogw",
-    "vertical-label": "p19",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p19"
 }

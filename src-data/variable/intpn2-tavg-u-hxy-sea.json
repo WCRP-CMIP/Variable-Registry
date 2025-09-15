@@ -1,11 +1,14 @@
 {
-    "id": "intpn2_tavg-u-hxy-sea",
-    "validation-key": "intpn2_tavg-u-hxy-sea",
-    "ui-label": "Nitrogen Fixation Rate in Ocean",
-    "description": "Vertically integrated nitrogen fixation",
+    "@context": "_context_",
+    "id": "intpn2-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "description": "Vertically integrated nitrogen fixation",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Nitrogen Fixation Rate in Ocean",
     "units": "mol m-2 s-1",
+    "validation-key": "intpn2_tavg-u-hxy-sea",
     "variable-root": "intpn2",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "chepnh4_tavg-al-hxy-u",
-    "validation-key": "chepnh4_tavg-al-hxy-u",
-    "ui-label": "Net chemical production of ammonium aerosol",
-    "description": "Net chemical production rate of ammonium aerosol in the atmosphere.",
+    "@context": "_context_",
+    "id": "chepnh4-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Net chemical production rate of ammonium aerosol in the atmosphere.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_net_chemical_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Net chemical production of ammonium aerosol",
     "units": "kg m-2 s-1",
+    "validation-key": "chepnh4_tavg-al-hxy-u",
     "variable-root": "chepnh4",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "zg_tpt-700hPa-hxy-u",
-    "validation-key": "zg_tpt-700hPa-hxy-u",
-    "ui-label": "zg700",
-    "description": "700 hPa geopotential height at 6 hourly instantaneous frequency",
+    "@context": "_context_",
+    "id": "zg-tpt-700hpa-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "700 hPa geopotential height at 6 hourly instantaneous frequency",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "geopotential_height",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "zg700",
     "units": "m",
+    "validation-key": "zg_tpt-700hPa-hxy-u",
     "variable-root": "zg",
-    "vertical-label": "700hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "700hPa"
 }

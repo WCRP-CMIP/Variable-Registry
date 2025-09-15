@@ -1,11 +1,14 @@
 {
-    "id": "areacell_tavg-u-hxy-u",
-    "validation-key": "areacell_tavg-u-hxy-u",
-    "ui-label": "The Cell Area of the Ice Sheet Model",
-    "description": "When interpolated to a regular grid, it should be interpolated (not summed) with a conservative scheme to preserve total area",
+    "@context": "_context_",
+    "id": "areacell-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacellg",
     "cell-methods": "asm-tmn",
+    "description": "When interpolated to a regular grid, it should be interpolated (not summed) with a conservative scheme to preserve total area",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "cell_area",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "The Cell Area of the Ice Sheet Model",
     "units": "m2",
+    "validation-key": "areacell_tavg-u-hxy-u",
     "variable-root": "areacell",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "pr_tmax-u-hxy-u",
-    "validation-key": "pr_tmax-u-hxy-u",
-    "ui-label": "Maximum Hourly Precipitation Rate",
-    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
+    "@context": "_context_",
+    "id": "pr-tmax-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tmax",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "precipitation_flux",
     "temporal-label": "tmax",
     "temporal-shape": "time-intv",
+    "ui-label": "Maximum Hourly Precipitation Rate",
     "units": "kg m-2 s-1",
+    "validation-key": "pr_tmax-u-hxy-u",
     "variable-root": "pr",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

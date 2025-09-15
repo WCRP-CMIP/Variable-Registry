@@ -1,11 +1,14 @@
 {
-    "id": "fNProduct_tavg-u-hxy-lnd",
-    "validation-key": "fNProduct_tavg-u-hxy-lnd",
-    "ui-label": "Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change",
-    "description": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
+    "@context": "_context_",
+    "id": "fnproduct-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "nitrogen_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change",
     "units": "kg m-2 s-1",
+    "validation-key": "fNProduct_tavg-u-hxy-lnd",
     "variable-root": "fNProduct",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

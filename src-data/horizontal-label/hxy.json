@@ -1,11 +1,11 @@
 {
-    "id": "hxy",
-    "validation-key": "hxy",
-    "ui-label": "Gridded Horizontal",
-    "description": "Variables represented on a regular 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
     "@context": "_context_",
+    "id": "hxy",
     "type": [
         "wcrp:horizontal-label",
         "variable"
-    ]
+    ],
+    "description": "Variables represented on a regular 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
+    "ui-label": "Gridded Horizontal",
+    "validation-key": "hxy"
 }

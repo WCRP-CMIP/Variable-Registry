@@ -1,11 +1,14 @@
 {
-    "id": "cldnvi_tavg-u-hxy-u",
-    "validation-key": "cldnvi_tavg-u-hxy-u",
-    "ui-label": "Column Integrated Cloud Droplet Number",
-    "description": "Droplets are liquid only.  Values are weighted by liquid cloud fraction in each layer when vertically integrating, and for monthly means the samples are weighted by total liquid cloud fraction (as seen from TOA).",
+    "@context": "_context_",
+    "id": "cldnvi-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Droplets are liquid only.  Values are weighted by liquid cloud fraction in each layer when vertically integrating, and for monthly means the samples are weighted by total liquid cloud fraction (as seen from TOA).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "atmosphere_number_content_of_cloud_droplets",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Column Integrated Cloud Droplet Number",
     "units": "m-2",
+    "validation-key": "cldnvi_tavg-u-hxy-u",
     "variable-root": "cldnvi",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

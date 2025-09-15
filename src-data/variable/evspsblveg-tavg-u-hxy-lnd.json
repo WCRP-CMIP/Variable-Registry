@@ -1,11 +1,14 @@
 {
-    "id": "evspsblveg_tavg-u-hxy-lnd",
-    "validation-key": "evspsblveg_tavg-u-hxy-lnd",
-    "ui-label": "Evaporation from Canopy",
-    "description": "the canopy evaporation+sublimation (if present in model).",
+    "@context": "_context_",
+    "id": "evspsblveg-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "the canopy evaporation+sublimation (if present in model).",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_evaporation_flux_from_canopy",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Evaporation from Canopy",
     "units": "kg m-2 s-1",
+    "validation-key": "evspsblveg_tavg-u-hxy-lnd",
     "variable-root": "evspsblveg",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

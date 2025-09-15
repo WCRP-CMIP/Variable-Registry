@@ -1,11 +1,14 @@
 {
-    "id": "dtaus_tpt-al-hxy-scl",
-    "validation-key": "dtaus_tpt-al-hxy-scl",
-    "ui-label": "Stratiform Cloud Optical Depth",
-    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",
+    "@context": "_context_",
+    "id": "dtaus-tpt-al-hxy-scl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "scl",
     "cell-measures": "area: areacella",
     "cell-methods": "amnsc-tpt",
+    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Stratiform Cloud Optical Depth",
     "units": "1",
+    "validation-key": "dtaus_tpt-al-hxy-scl",
     "variable-root": "dtaus",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

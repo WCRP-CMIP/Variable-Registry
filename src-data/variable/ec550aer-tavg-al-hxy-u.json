@@ -1,11 +1,14 @@
 {
-    "id": "ec550aer_tavg-al-hxy-u",
-    "validation-key": "ec550aer_tavg-al-hxy-u",
-    "ui-label": "Aerosol Extinction Coefficient",
-    "description": "Aerosol Extinction at 550nm",
+    "@context": "_context_",
+    "id": "ec550aer-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean (weighted by downwelling solar radiation) not found in cell methods, please register",
+    "description": "Aerosol Extinction at 550nm",
     "dimensions": [
         "longitude",
         "latitude",
@@ -24,12 +27,9 @@
     "standard-name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Aerosol Extinction Coefficient",
     "units": "m-1",
+    "validation-key": "ec550aer_tavg-al-hxy-u",
     "variable-root": "ec550aer",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

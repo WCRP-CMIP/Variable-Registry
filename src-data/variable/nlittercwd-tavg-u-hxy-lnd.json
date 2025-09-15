@@ -1,11 +1,14 @@
 {
-    "id": "nLitterCwd_tavg-u-hxy-lnd",
-    "validation-key": "nLitterCwd_tavg-u-hxy-lnd",
-    "ui-label": "Nitrogen Mass in Coarse Woody Debris",
-    "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent. The sum of the quantities with standard names wood_debris_mass_content_of_nitrogen, surface_litter_mass_content_of_nitrogen and subsurface_litter_mass_content_of_nitrogen is the total nitrogen mass content of dead plant material.",
+    "@context": "_context_",
+    "id": "nlittercwd-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent. The sum of the quantities with standard names wood_debris_mass_content_of_nitrogen, surface_litter_mass_content_of_nitrogen and subsurface_litter_mass_content_of_nitrogen is the total nitrogen mass content of dead plant material.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "wood_debris_mass_content_of_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Nitrogen Mass in Coarse Woody Debris",
     "units": "kg m-2",
+    "validation-key": "nLitterCwd_tavg-u-hxy-lnd",
     "variable-root": "nLitterCwd",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

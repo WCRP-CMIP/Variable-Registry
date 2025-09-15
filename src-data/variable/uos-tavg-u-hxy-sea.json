@@ -1,11 +1,14 @@
 {
-    "id": "uos_tavg-u-hxy-sea",
-    "validation-key": "uos_tavg-u-hxy-sea",
-    "ui-label": "Daily Surface Sea Water X Velocity",
-    "description": "Daily surface prognostic x-ward velocity component resolved by the model.",
+    "@context": "_context_",
+    "id": "uos-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Daily surface prognostic x-ward velocity component resolved by the model.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "surface_sea_water_x_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Daily Surface Sea Water X Velocity",
     "units": "m s-1",
+    "validation-key": "uos_tavg-u-hxy-sea",
     "variable-root": "uos",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "clivimodis",
-    "validation-key": "clivimodis",
-    "ui-label": "clivimodis",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-mass-content-of-cloud-ice",
     "@context": "_context_",
+    "id": "clivimodis",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-mass-content-of-cloud-ice",
+    "ui-label": "clivimodis",
+    "validation-key": "clivimodis"
 }

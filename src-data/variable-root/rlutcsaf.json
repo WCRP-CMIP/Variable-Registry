@@ -1,13 +1,13 @@
 {
-    "id": "rlutcsaf",
-    "validation-key": "rlutcsaf",
-    "ui-label": "rlutcsaf",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "toa-outgoing-longwave-flux-assuming-clear-sky",
     "@context": "_context_",
+    "id": "rlutcsaf",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "toa-outgoing-longwave-flux-assuming-clear-sky",
+    "ui-label": "rlutcsaf",
+    "validation-key": "rlutcsaf"
 }

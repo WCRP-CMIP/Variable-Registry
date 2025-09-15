@@ -1,13 +1,13 @@
 {
-    "id": "netatmoslandco2flux",
-    "validation-key": "netatmoslandco2flux",
-    "ui-label": "netAtmosLandCO2Flux",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes",
     "@context": "_context_",
+    "id": "netatmoslandco2flux",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-all-land-processes",
+    "ui-label": "netAtmosLandCO2Flux",
+    "validation-key": "netatmoslandco2flux"
 }

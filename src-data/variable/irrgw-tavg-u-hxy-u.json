@@ -1,11 +1,14 @@
 {
-    "id": "irrGw_tavg-u-hxy-u",
-    "validation-key": "irrGw_tavg-u-hxy-u",
-    "ui-label": "irrigation water withdrawal from groundwater",
-    "description": "the amount of water withdrawal for irrigation from ground water, including deep soil water, confined and unconfined aquifer, etc",
+    "@context": "_context_",
+    "id": "irrgw-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "the amount of water withdrawal for irrigation from ground water, including deep soil water, confined and unconfined aquifer, etc",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "irrigation water withdrawal from groundwater",
     "units": "kg m-2 s-1",
+    "validation-key": "irrGw_tavg-u-hxy-u",
     "variable-root": "irrGw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

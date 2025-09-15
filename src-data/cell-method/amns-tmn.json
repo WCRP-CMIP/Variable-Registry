@@ -1,12 +1,12 @@
 {
-    "id": "amns-tmn",
-    "validation-key": "amns-tmn",
-    "ui-label": "Time Mean over Sea",
-    "description": "area: mean where sea time: mean",
-    "mask": "",
     "@context": "_context_",
+    "id": "amns-tmn",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean where sea time: mean",
+    "mask": "",
+    "ui-label": "Time Mean over Sea",
+    "validation-key": "amns-tmn"
 }

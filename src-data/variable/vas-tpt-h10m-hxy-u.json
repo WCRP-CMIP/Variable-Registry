@@ -1,11 +1,14 @@
 {
-    "id": "vas_tpt-h10m-hxy-u",
-    "validation-key": "vas_tpt-h10m-hxy-u",
-    "ui-label": "Surface wind speed Northward Component",
-    "description": "Meridional wind (positive in a northward direction) at 10 meters above the surface.",
+    "@context": "_context_",
+    "id": "vas-tpt-h10m-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Meridional wind (positive in a northward direction) at 10 meters above the surface.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "northward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Surface wind speed Northward Component",
     "units": "m s-1",
+    "validation-key": "vas_tpt-h10m-hxy-u",
     "variable-root": "vas",
-    "vertical-label": "h10m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h10m"
 }

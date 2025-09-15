@@ -1,13 +1,13 @@
 {
-    "id": "typec4crop",
-    "validation-key": "typec4crop",
-    "ui-label": "surface type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typec4crop",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "surface type",
+    "validation-key": "typec4crop"
 }

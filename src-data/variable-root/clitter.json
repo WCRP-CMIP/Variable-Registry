@@ -1,13 +1,13 @@
 {
-    "id": "clitter",
-    "validation-key": "clitter",
-    "ui-label": "cLitter",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "litter-mass-content-of-carbon",
     "@context": "_context_",
+    "id": "clitter",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "litter-mass-content-of-carbon",
+    "ui-label": "cLitter",
+    "validation-key": "clitter"
 }

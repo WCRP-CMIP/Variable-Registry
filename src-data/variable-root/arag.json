@@ -1,13 +1,13 @@
 {
-    "id": "arag",
-    "validation-key": "arag",
-    "ui-label": "arag",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-concentration-of-aragonite-expressed-as-carbon-in-sea-water",
     "@context": "_context_",
+    "id": "arag",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-concentration-of-aragonite-expressed-as-carbon-in-sea-water",
+    "ui-label": "arag",
+    "validation-key": "arag"
 }

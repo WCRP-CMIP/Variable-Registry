@@ -1,13 +1,13 @@
 {
-    "id": "airmass",
-    "validation-key": "airmass",
-    "ui-label": "airmass",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-mass-of-air-per-unit-area",
     "@context": "_context_",
+    "id": "airmass",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-mass-of-air-per-unit-area",
+    "ui-label": "airmass",
+    "validation-key": "airmass"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "wetdust_tavg-u-hxy-u",
-    "validation-key": "wetdust_tavg-u-hxy-u",
-    "ui-label": "Wet Deposition Rate of Dust",
-    "description": "Surface deposition rate of dust (dry mass) due to wet processes",
+    "@context": "_context_",
+    "id": "wetdust-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Surface deposition rate of dust (dry mass) due to wet processes",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_wet_deposition",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Wet Deposition Rate of Dust",
     "units": "kg m-2 s-1",
+    "validation-key": "wetdust_tavg-u-hxy-u",
     "variable-root": "wetdust",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "sftlf_ti-u-hxy-u",
-    "validation-key": "sftlf_ti-u-hxy-u",
-    "ui-label": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
-    "description": "Percentage of horizontal area occupied by land.",
+    "@context": "_context_",
+    "id": "sftlf-ti-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-fx",
+    "description": "Percentage of horizontal area occupied by land.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -21,12 +24,9 @@
     "standard-name": "land_area_fraction",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
     "units": "%",
+    "validation-key": "sftlf_ti-u-hxy-u",
     "variable-root": "sftlf",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

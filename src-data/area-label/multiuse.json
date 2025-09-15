@@ -1,11 +1,11 @@
 {
-    "id": "multiuse",
-    "validation-key": "multiuse",
-    "ui-label": "Multi-Use Sector",
-    "description": "sector (auxiliary coordinate for land-use or vegetation area types)",
     "@context": "_context_",
+    "id": "multiuse",
     "type": [
         "wcrp:area-label",
         "variable"
-    ]
+    ],
+    "description": "sector (auxiliary coordinate for land-use or vegetation area types)",
+    "ui-label": "Multi-Use Sector",
+    "validation-key": "multiuse"
 }

@@ -1,12 +1,12 @@
 {
-    "id": "ax-tmn",
-    "validation-key": "ax-tmn",
-    "ui-label": "Time Mean",
-    "description": "time: mean",
-    "mask": "",
     "@context": "_context_",
+    "id": "ax-tmn",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "time: mean",
+    "mask": "",
+    "ui-label": "Time Mean",
+    "validation-key": "ax-tmn"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "hus_tpt-p7h-hxy-air",
-    "validation-key": "hus_tpt-p7h-hxy-air",
-    "ui-label": "Specific Humidity",
-    "description": "Extra levels - 925, 700, 600, 300, 50",
+    "@context": "_context_",
+    "id": "hus-tpt-p7h-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-tpt",
+    "description": "Extra levels - 925, 700, 600, 300, 50",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "specific_humidity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Specific Humidity",
     "units": "1",
+    "validation-key": "hus_tpt-p7h-hxy-air",
     "variable-root": "hus",
-    "vertical-label": "p7h",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p7h"
 }

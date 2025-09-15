@@ -1,14 +1,14 @@
 {
-    "id": "alt40",
-    "validation-key": "alt40",
-    "ui-label": "Altitude (40 Levels for CloudSat)",
-    "description": "CloudSat vertical coordinate heights",
-    "axis-flag": "Z",
-    "cf-standard-name": "altitude",
-    "spatial-shape": "Global field on 40 altitude levels",
     "@context": "_context_",
+    "id": "alt40",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "altitude",
+    "description": "CloudSat vertical coordinate heights",
+    "spatial-shape": "Global field on 40 altitude levels",
+    "ui-label": "Altitude (40 Levels for CloudSat)",
+    "validation-key": "alt40"
 }

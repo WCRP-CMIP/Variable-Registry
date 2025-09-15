@@ -1,11 +1,14 @@
 {
-    "id": "hur_tpt-al-hxys-u",
-    "validation-key": "hur_tpt-al-hxys-u",
-    "ui-label": "Relative Humidity",
-    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "@context": "_context_",
+    "id": "hur-tpt-al-hxys-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "apt-tpt",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
     "dimensions": [
         "alevel",
         "site",
@@ -22,12 +25,9 @@
     "standard-name": "relative_humidity",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Relative Humidity",
     "units": "%",
+    "validation-key": "hur_tpt-al-hxys-u",
     "variable-root": "hur",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

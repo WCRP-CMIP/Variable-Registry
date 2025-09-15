@@ -1,13 +1,13 @@
 {
-    "id": "nppleaf",
-    "validation-key": "nppleaf",
-    "ui-label": "nppLeaf",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-leaves",
     "@context": "_context_",
+    "id": "nppleaf",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-leaves",
+    "ui-label": "nppLeaf",
+    "validation-key": "nppleaf"
 }

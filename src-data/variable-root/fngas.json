@@ -1,13 +1,13 @@
 {
-    "id": "fngas",
-    "validation-key": "fngas",
-    "ui-label": "fNgas",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen",
     "@context": "_context_",
+    "id": "fngas",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen",
+    "ui-label": "fNgas",
+    "validation-key": "fngas"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "ocontempmint_tavg-u-hxy-sea",
-    "validation-key": "ocontempmint_tavg-u-hxy-sea",
-    "ui-label": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
-    "description": "Full column sum of density\\*cell thickness\\*conservative temperature. If the model is Boussinesq, then use Boussinesq reference density for the density factor.",
+    "@context": "_context_",
+    "id": "ocontempmint-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Full column sum of density\\*cell thickness\\*conservative temperature. If the model is Boussinesq, then use Boussinesq reference density for the density factor.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
     "units": "degC kg m-2",
+    "validation-key": "ocontempmint_tavg-u-hxy-sea",
     "variable-root": "ocontempmint",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

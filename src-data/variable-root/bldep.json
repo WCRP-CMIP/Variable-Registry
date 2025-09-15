@@ -1,13 +1,13 @@
 {
-    "id": "bldep",
-    "validation-key": "bldep",
-    "ui-label": "bldep",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-boundary-layer-thickness",
     "@context": "_context_",
+    "id": "bldep",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-boundary-layer-thickness",
+    "ui-label": "bldep",
+    "validation-key": "bldep"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "zmeso",
-    "validation-key": "zmeso",
-    "ui-label": "zmeso",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-concentration-of-mesozooplankton-expressed-as-carbon-in-sea-water",
     "@context": "_context_",
+    "id": "zmeso",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-concentration-of-mesozooplankton-expressed-as-carbon-in-sea-water",
+    "ui-label": "zmeso",
+    "validation-key": "zmeso"
 }

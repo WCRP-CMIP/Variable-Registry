@@ -1,11 +1,14 @@
 {
-    "id": "emico_tavg-u-hxy-u",
-    "validation-key": "emico_tavg-u-hxy-u",
-    "ui-label": "Total Emission Rate of CO",
-    "description": "Integrate 3D emission field vertically to 2d field.",
+    "@context": "_context_",
+    "id": "emico-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Integrate 3D emission field vertically to 2d field.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Emission Rate of CO",
     "units": "kg m-2 s-1",
+    "validation-key": "emico_tavg-u-hxy-u",
     "variable-root": "emico",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

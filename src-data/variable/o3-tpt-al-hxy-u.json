@@ -1,11 +1,14 @@
 {
-    "id": "o3_tpt-al-hxy-u",
-    "validation-key": "o3_tpt-al-hxy-u",
-    "ui-label": "O3 volume mixing ratio",
-    "description": "This is the mole fraction of ozone in air, sampled on the first day of the month as an instantaneous field.",
+    "@context": "_context_",
+    "id": "o3-tpt-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "This is the mole fraction of ozone in air, sampled on the first day of the month as an instantaneous field.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_fraction_of_ozone_in_air",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "O3 volume mixing ratio",
     "units": "mol mol-1",
+    "validation-key": "o3_tpt-al-hxy-u",
     "variable-root": "o3",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

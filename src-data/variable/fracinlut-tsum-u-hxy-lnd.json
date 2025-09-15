@@ -1,11 +1,14 @@
 {
-    "id": "fracInLut_tsum-u-hxy-lnd",
-    "validation-key": "fracInLut_tsum-u-hxy-lnd",
-    "ui-label": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
-    "description": "Cumulative percentage transitions over the year; note that percentage should be reported as a percentage of atmospheric grid cell",
+    "@context": "_context_",
+    "id": "fracinlut-tsum-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnlax-tsum",
+    "description": "Cumulative percentage transitions over the year; note that percentage should be reported as a percentage of atmospheric grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "area_fraction",
     "temporal-label": "tsum",
     "temporal-shape": "time-intv",
+    "ui-label": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
     "units": "%",
+    "validation-key": "fracInLut_tsum-u-hxy-lnd",
     "variable-root": "fracInLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

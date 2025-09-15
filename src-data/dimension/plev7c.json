@@ -1,14 +1,14 @@
 {
-    "id": "plev7c",
-    "validation-key": "plev7c",
-    "ui-label": "Pressure Levels (7 for ISCCP)",
-    "description": "7 pressure layers defined by ISCCP simulator",
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "spatial-shape": "Global field (7 pressure levels)",
     "@context": "_context_",
+    "id": "plev7c",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "description": "7 pressure layers defined by ISCCP simulator",
+    "spatial-shape": "Global field (7 pressure levels)",
+    "ui-label": "Pressure Levels (7 for ISCCP)",
+    "validation-key": "plev7c"
 }

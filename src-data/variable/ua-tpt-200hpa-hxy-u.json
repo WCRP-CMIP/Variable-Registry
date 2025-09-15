@@ -1,11 +1,14 @@
 {
-    "id": "ua_tpt-200hPa-hxy-u",
-    "validation-key": "ua_tpt-200hPa-hxy-u",
-    "ui-label": "ua200",
-    "description": "Zonal wind (positive in a eastward direction) at 200 hPa, 6hourly instantaneous",
+    "@context": "_context_",
+    "id": "ua-tpt-200hpa-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "Zonal wind (positive in a eastward direction) at 200 hPa, 6hourly instantaneous",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "eastward_wind",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "ua200",
     "units": "m s-1",
+    "validation-key": "ua_tpt-200hPa-hxy-u",
     "variable-root": "ua",
-    "vertical-label": "200hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "200hPa"
 }

@@ -1,11 +1,11 @@
 {
-    "id": "h10m",
-    "validation-key": "h10m",
-    "ui-label": "10 Meter Height",
-    "description": "Variables at 10 meter height above the surface, the standard measurement height for wind speed and direction in meteorological observations and climate models.",
     "@context": "_context_",
+    "id": "h10m",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ]
+    ],
+    "description": "Variables at 10 meter height above the surface, the standard measurement height for wind speed and direction in meteorological observations and climate models.",
+    "ui-label": "10 Meter Height",
+    "validation-key": "h10m"
 }

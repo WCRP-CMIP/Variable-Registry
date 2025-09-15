@@ -1,12 +1,12 @@
 {
-    "id": "apt-tpt",
-    "validation-key": "apt-tpt",
-    "ui-label": "Instantaneous Point Values",
-    "description": "area: point time: point",
-    "mask": "",
     "@context": "_context_",
+    "id": "apt-tpt",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: point time: point",
+    "mask": "",
+    "ui-label": "Instantaneous Point Values",
+    "validation-key": "apt-tpt"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "cl_tavg-al-hxy-u",
-    "validation-key": "cl_tavg-al-hxy-u",
-    "ui-label": "Percentage Cloud Cover",
-    "description": "Percentage cloud cover, including both large-scale and convective cloud.",
+    "@context": "_context_",
+    "id": "cl-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Percentage cloud cover, including both large-scale and convective cloud.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "cloud_area_fraction_in_atmosphere_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Percentage Cloud Cover",
     "units": "%",
+    "validation-key": "cl_tavg-al-hxy-u",
     "variable-root": "cl",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

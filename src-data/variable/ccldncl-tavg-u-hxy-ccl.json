@@ -1,11 +1,14 @@
 {
-    "id": "ccldncl_tavg-u-hxy-ccl",
-    "validation-key": "ccldncl_tavg-u-hxy-ccl",
-    "ui-label": "Cloud Droplet Number Concentration of Convective Cloud Tops",
-    "description": "Cloud Droplet Number Concentration of Convective Cloud Tops",
+    "@context": "_context_",
+    "id": "ccldncl-tavg-u-hxy-ccl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ccl",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where convective_cloud (mean over the portion of the cell containing liquid topped cloud, as seen from top of atmosphere) not found in cell methods, please register",
+    "description": "Cloud Droplet Number Concentration of Convective Cloud Tops",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "number_concentration_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Cloud Droplet Number Concentration of Convective Cloud Tops",
     "units": "m-3",
+    "validation-key": "ccldncl_tavg-u-hxy-ccl",
     "variable-root": "ccldncl",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

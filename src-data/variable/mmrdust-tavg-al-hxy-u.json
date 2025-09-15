@@ -1,11 +1,14 @@
 {
-    "id": "mmrdust_tavg-al-hxy-u",
-    "validation-key": "mmrdust_tavg-al-hxy-u",
-    "ui-label": "Dust Aerosol Mass Mixing Ratio",
-    "description": "Dry mass fraction of dust aerosol particles in air.",
+    "@context": "_context_",
+    "id": "mmrdust-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Dry mass fraction of dust aerosol particles in air.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mass_fraction_of_dust_dry_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Dust Aerosol Mass Mixing Ratio",
     "units": "kg kg-1",
+    "validation-key": "mmrdust_tavg-al-hxy-u",
     "variable-root": "mmrdust",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

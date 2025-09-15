@@ -1,13 +1,13 @@
 {
-    "id": "c4h10",
-    "validation-key": "c4h10",
-    "ui-label": "c4h10",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-fraction-of-butane-in-air",
     "@context": "_context_",
+    "id": "c4h10",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-fraction-of-butane-in-air",
+    "ui-label": "c4h10",
+    "validation-key": "c4h10"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "intpbsi_tavg-u-hxy-sea",
-    "validation-key": "intpbsi_tavg-u-hxy-sea",
-    "ui-label": "Silicon Production",
-    "description": "Vertically integrated biogenic silica production",
+    "@context": "_context_",
+    "id": "intpbsi-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "description": "Vertically integrated biogenic silica production",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_ocean_mole_content_of_silicon_due_to_biological_production",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Silicon Production",
     "units": "mol m-2 s-1",
+    "validation-key": "intpbsi_tavg-u-hxy-sea",
     "variable-root": "intpbsi",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

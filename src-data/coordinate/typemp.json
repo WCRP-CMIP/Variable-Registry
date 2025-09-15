@@ -1,13 +1,13 @@
 {
-    "id": "typemp",
-    "validation-key": "typemp",
-    "ui-label": "Melt pond area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typemp",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "Melt pond area type",
+    "validation-key": "typemp"
 }

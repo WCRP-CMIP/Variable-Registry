@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "edayz",
-    "validation-key": "edayz",
-    "ui-label": "EdayZ",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table EdayZ containing variables",
+    "ui-label": "EdayZ",
+    "validation-key": "edayz",
     "variables": [
         "epfy_tavg-p39-hy-air",
         "epfz_tavg-p39-hy-air",
@@ -25,12 +32,5 @@
         "vtem_tavg-p39-hy-air",
         "wtem_tavg-p39-hy-air",
         "zg_tavg-p39-hy-air"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

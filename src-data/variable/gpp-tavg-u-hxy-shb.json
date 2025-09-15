@@ -1,11 +1,14 @@
 {
-    "id": "gpp_tavg-u-hxy-shb",
-    "validation-key": "gpp_tavg-u-hxy-shb",
-    "ui-label": "Gross Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
-    "description": "Total GPP of shrubs in the grid cell",
+    "@context": "_context_",
+    "id": "gpp-tavg-u-hxy-shb",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "shb",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where shrubs (mask=shrubFrac) not found in cell methods, please register",
+    "description": "Total GPP of shrubs in the grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Gross Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "units": "kg m-2 s-1",
+    "validation-key": "gpp_tavg-u-hxy-shb",
     "variable-root": "gpp",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

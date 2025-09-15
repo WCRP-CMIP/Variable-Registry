@@ -1,11 +1,14 @@
 {
-    "id": "rsd_tavg-alh-hxy-u",
-    "validation-key": "rsd_tavg-alh-hxy-u",
-    "ui-label": "Downwelling Shortwave Radiation",
-    "description": "Includes also the fluxes at the surface and TOA.",
+    "@context": "_context_",
+    "id": "rsd-tavg-alh-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Includes also the fluxes at the surface and TOA.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "downwelling_shortwave_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Downwelling Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsd_tavg-alh-hxy-u",
     "variable-root": "rsd",
-    "vertical-label": "alh",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "alh"
 }

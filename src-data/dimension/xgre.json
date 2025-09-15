@@ -1,14 +1,14 @@
 {
-    "id": "xgre",
-    "validation-key": "xgre",
-    "ui-label": "X-coordinate of Greenland grid",
-    "description": "X-coordinate of Greenland grid (stubb)",
-    "axis-flag": "X",
-    "cf-standard-name": "projection_x_coordinate",
-    "spatial-shape": "Polar stereographic grid (Greenland)",
     "@context": "_context_",
+    "id": "xgre",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "X",
+    "cf-standard-name": "projection_x_coordinate",
+    "description": "X-coordinate of Greenland grid (stubb)",
+    "spatial-shape": "Polar stereographic grid (Greenland)",
+    "ui-label": "X-coordinate of Greenland grid",
+    "validation-key": "xgre"
 }

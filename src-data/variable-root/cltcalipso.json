@@ -1,13 +1,13 @@
 {
-    "id": "cltcalipso",
-    "validation-key": "cltcalipso",
-    "ui-label": "cltcalipso",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "cloud-area-fraction",
     "@context": "_context_",
+    "id": "cltcalipso",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "cloud-area-fraction",
+    "ui-label": "cltcalipso",
+    "validation-key": "cltcalipso"
 }

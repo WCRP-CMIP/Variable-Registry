@@ -1,13 +1,13 @@
 {
-    "id": "lambda550nm",
-    "validation-key": "lambda550nm",
-    "ui-label": "Radiation Wavelength 550 nanometers",
-    "description": "Radiation wavelength used for monitoring aerosol properties",
-    "axis-flag": "",
-    "cf-standard-name": "radiation_wavelength",
     "@context": "_context_",
+    "id": "lambda550nm",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "radiation_wavelength",
+    "description": "Radiation wavelength used for monitoring aerosol properties",
+    "ui-label": "Radiation Wavelength 550 nanometers",
+    "validation-key": "lambda550nm"
 }

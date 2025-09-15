@@ -1,11 +1,14 @@
 {
-    "id": "pr_tpt-u-hxy-u",
-    "validation-key": "pr_tpt-u-hxy-u",
-    "ui-label": "Precipitation",
-    "description": "at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)",
+    "@context": "_context_",
+    "id": "pr-tpt-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tpt",
+    "description": "at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "precipitation_flux",
     "temporal-label": "tpt",
     "temporal-shape": "time-point",
+    "ui-label": "Precipitation",
     "units": "kg m-2 s-1",
+    "validation-key": "pr_tpt-u-hxy-u",
     "variable-root": "pr",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

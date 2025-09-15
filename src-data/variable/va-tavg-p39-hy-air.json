@@ -1,11 +1,14 @@
 {
-    "id": "va_tavg-p39-hy-air",
-    "validation-key": "va_tavg-p39-hy-air",
-    "ui-label": "Northward Wind",
-    "description": "Meridional wind (positive in a northward direction).",
+    "@context": "_context_",
+    "id": "va-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "Meridional wind (positive in a northward direction).",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "northward_wind",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Northward Wind",
     "units": "m s-1",
+    "validation-key": "va_tavg-p39-hy-air",
     "variable-root": "va",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "rsdsdiff_tavg-u-hxy-u",
-    "validation-key": "rsdsdiff_tavg-u-hxy-u",
-    "ui-label": "Surface Diffuse Downwelling Shortwave Radiation",
-    "description": "Surface downwelling solar irradiance from diffuse radiation for UV calculations.",
+    "@context": "_context_",
+    "id": "rsdsdiff-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Surface downwelling solar irradiance from diffuse radiation for UV calculations.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_diffuse_downwelling_shortwave_flux_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Diffuse Downwelling Shortwave Radiation",
     "units": "W m-2",
+    "validation-key": "rsdsdiff_tavg-u-hxy-u",
     "variable-root": "rsdsdiff",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

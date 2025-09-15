@@ -1,13 +1,13 @@
 {
-    "id": "sidivvel",
-    "validation-key": "sidivvel",
-    "ui-label": "sidivvel",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "divergence-of-sea-ice-velocity",
     "@context": "_context_",
+    "id": "sidivvel",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "divergence-of-sea-ice-velocity",
+    "ui-label": "sidivvel",
+    "validation-key": "sidivvel"
 }

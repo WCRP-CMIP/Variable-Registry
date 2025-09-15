@@ -1,11 +1,14 @@
 {
-    "id": "snc_tavg-u-hxy-lnd",
-    "validation-key": "snc_tavg-u-hxy-lnd",
-    "ui-label": "Snow Area Percentage",
-    "description": "Fraction of each grid cell that is occupied by snow that rests on land portion of cell.",
+    "@context": "_context_",
+    "id": "snc-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Fraction of each grid cell that is occupied by snow that rests on land portion of cell.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "surface_snow_area_fraction",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Snow Area Percentage",
     "units": "%",
+    "validation-key": "snc_tavg-u-hxy-lnd",
     "variable-root": "snc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

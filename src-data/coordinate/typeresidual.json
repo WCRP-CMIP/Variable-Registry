@@ -1,13 +1,13 @@
 {
-    "id": "typeresidual",
-    "validation-key": "typeresidual",
-    "ui-label": "Residual area",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "",
     "@context": "_context_",
+    "id": "typeresidual",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "",
+    "description": "",
+    "ui-label": "Residual area",
+    "validation-key": "typeresidual"
 }

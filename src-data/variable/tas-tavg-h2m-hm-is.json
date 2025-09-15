@@ -1,11 +1,14 @@
 {
-    "id": "tas_tavg-h2m-hm-is",
-    "validation-key": "tas_tavg-h2m-hm-is",
-    "ui-label": "Near-Surface Air Temperature",
-    "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",
+    "@context": "_context_",
+    "id": "tas-tavg-h2m-hm-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "",
     "cell-methods": "amni-twm",
+    "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",
     "dimensions": [
         "time",
         "height2m"
@@ -21,12 +24,9 @@
     "standard-name": "air_temperature",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Near-Surface Air Temperature",
     "units": "K",
+    "validation-key": "tas_tavg-h2m-hm-is",
     "variable-root": "tas",
-    "vertical-label": "h2m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h2m"
 }

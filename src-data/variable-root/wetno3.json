@@ -1,13 +1,13 @@
 {
-    "id": "wetno3",
-    "validation-key": "wetno3",
-    "ui-label": "wetno3",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "tendency-of-atmosphere-mass-content-of-nitrate-dry-aerosol-particles-due-to-wet-deposition",
     "@context": "_context_",
+    "id": "wetno3",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "tendency-of-atmosphere-mass-content-of-nitrate-dry-aerosol-particles-due-to-wet-deposition",
+    "ui-label": "wetno3",
+    "validation-key": "wetno3"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "tntc_tavg-p39-hy-air",
-    "validation-key": "tntc_tavg-p39-hy-air",
-    "ui-label": "Tendency of Air Temperature Due to Convection",
-    "description": "zonal mean; hence YZT",
+    "@context": "_context_",
+    "id": "tntc-tavg-p39-hy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "",
     "cell-methods": "zmeana-twm",
+    "description": "zonal mean; hence YZT",
     "dimensions": [
         "latitude",
         "plev39",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_air_temperature_due_to_convection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Tendency of Air Temperature Due to Convection",
     "units": "K s-1",
+    "validation-key": "tntc_tavg-p39-hy-air",
     "variable-root": "tntc",
-    "vertical-label": "p39",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "p39"
 }

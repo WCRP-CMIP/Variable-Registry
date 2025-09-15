@@ -1,14 +1,14 @@
 {
-    "id": "plev5u",
-    "validation-key": "plev5u",
-    "ui-label": "Pressure Levels (5, UTLS)",
-    "description": "The UTLS region (150, 175, 200, 225, and 250 hPa) impacts of climate change on aviation.",
-    "axis-flag": "Z",
-    "cf-standard-name": "air_pressure",
-    "spatial-shape": "\"Global field (5 pressure levels, UTLS)\"",
     "@context": "_context_",
+    "id": "plev5u",
     "type": [
         "wcrp:dimension",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "air_pressure",
+    "description": "The UTLS region (150, 175, 200, 225, and 250 hPa) impacts of climate change on aviation.",
+    "spatial-shape": "\"Global field (5 pressure levels, UTLS)\"",
+    "ui-label": "Pressure Levels (5, UTLS)",
+    "validation-key": "plev5u"
 }

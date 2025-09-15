@@ -1,11 +1,14 @@
 {
-    "id": "rlut_tclmdc-u-hxy-u",
-    "validation-key": "rlut_tclmdc-u-hxy-u",
-    "ui-label": "TOA Outgoing Longwave Radiation",
-    "description": "at the top of the atmosphere (to be compared with satellite measurements)",
+    "@context": "_context_",
+    "id": "rlut-tclmdc-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-tdnl",
+    "description": "at the top of the atmosphere (to be compared with satellite measurements)",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "toa_outgoing_longwave_flux",
     "temporal-label": "tclmdc",
     "temporal-shape": "diurnal-cycle",
+    "ui-label": "TOA Outgoing Longwave Radiation",
     "units": "W m-2",
+    "validation-key": "rlut_tclmdc-u-hxy-u",
     "variable-root": "rlut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

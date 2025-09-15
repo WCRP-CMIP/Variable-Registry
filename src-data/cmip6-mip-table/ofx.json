@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "ofx",
-    "validation-key": "ofx",
-    "ui-label": "Ofx",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table Ofx containing variables",
+    "ui-label": "Ofx",
+    "validation-key": "ofx",
     "variables": [
         "areacell_ti-u-hxy-u",
         "basin_ti-u-hxy-u",
@@ -18,12 +25,5 @@
         "sftof_ti-u-hxy-u",
         "thkcello_ti-ol-hxy-sea",
         "volcello_ti-ol-hxy-sea"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

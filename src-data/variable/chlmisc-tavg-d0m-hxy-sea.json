@@ -1,11 +1,14 @@
 {
-    "id": "chlmisc_tavg-d0m-hxy-sea",
-    "validation-key": "chlmisc_tavg-d0m-hxy-sea",
-    "ui-label": "Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
-    "description": "chlorophyll from additional phytoplankton component concentrations alone",
+    "@context": "_context_",
+    "id": "chlmisc-tavg-d0m-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "chlorophyll from additional phytoplankton component concentrations alone",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "mass_concentration_of_miscellaneous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
     "units": "kg m-3",
+    "validation-key": "chlmisc_tavg-d0m-hxy-sea",
     "variable-root": "chlmisc",
-    "vertical-label": "d0m",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "d0m"
 }

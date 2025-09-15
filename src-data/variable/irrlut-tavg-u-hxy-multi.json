@@ -1,11 +1,14 @@
 {
-    "id": "irrLut_tavg-u-hxy-multi",
-    "validation-key": "irrLut_tavg-u-hxy-multi",
-    "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
-    "description": "Mass flux of water due to irrigation.",
+    "@context": "_context_",
+    "id": "irrlut-tavg-u-hxy-multi",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "multi",
     "cell-measures": "area: areacella",
     "cell-methods": "amlu-twm",
+    "description": "Mass flux of water due to irrigation.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "surface_downward_mass_flux_of_water_due_to_irrigation",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
     "units": "kg m-2 s-1",
+    "validation-key": "irrLut_tavg-u-hxy-multi",
     "variable-root": "irrLut",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

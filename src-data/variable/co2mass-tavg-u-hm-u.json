@@ -1,11 +1,14 @@
 {
-    "id": "co2mass_tavg-u-hm-u",
-    "validation-key": "co2mass_tavg-u-hm-u",
-    "ui-label": "Total Atmospheric Mass of CO2",
-    "description": "Total atmospheric mass of Carbon Dioxide",
+    "@context": "_context_",
+    "id": "co2mass-tavg-u-hm-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "",
     "cell-methods": "vsm-tmn",
+    "description": "Total atmospheric mass of Carbon Dioxide",
     "dimensions": [
         "time"
     ],
@@ -20,12 +23,9 @@
     "standard-name": "atmosphere_mass_of_carbon_dioxide",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Atmospheric Mass of CO2",
     "units": "kg",
+    "validation-key": "co2mass_tavg-u-hm-u",
     "variable-root": "co2mass",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

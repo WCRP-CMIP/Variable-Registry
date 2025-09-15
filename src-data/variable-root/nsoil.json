@@ -1,13 +1,13 @@
 {
-    "id": "nsoil",
-    "validation-key": "nsoil",
-    "ui-label": "nSoil",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "soil-mass-content-of-nitrogen",
     "@context": "_context_",
+    "id": "nsoil",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "soil-mass-content-of-nitrogen",
+    "ui-label": "nSoil",
+    "validation-key": "nsoil"
 }

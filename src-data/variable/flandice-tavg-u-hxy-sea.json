@@ -1,11 +1,14 @@
 {
-    "id": "flandice_tavg-u-hxy-sea",
-    "validation-key": "flandice_tavg-u-hxy-sea",
-    "ui-label": "Water Flux into Sea Water from Land Ice",
-    "description": "Computed as the water flux into the ocean due to land ice (runoff water from surface and base of land ice or melt from base of ice shelf or vertical ice front) into the ocean divided by the area ocean portion of the grid cell",
+    "@context": "_context_",
+    "id": "flandice-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Computed as the water flux into the ocean due to land ice (runoff water from surface and base of land ice or melt from base of ice shelf or vertical ice front) into the ocean divided by the area ocean portion of the grid cell",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "water_flux_into_sea_water_from_land_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Water Flux into Sea Water from Land Ice",
     "units": "kg m-2 s-1",
+    "validation-key": "flandice_tavg-u-hxy-sea",
     "variable-root": "flandice",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

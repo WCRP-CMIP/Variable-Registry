@@ -1,11 +1,11 @@
 {
-    "id": "p7c",
-    "validation-key": "p7c",
-    "ui-label": "7 Pressure Levels (Climate)",
-    "description": "7 pressure levels",
     "@context": "_context_",
+    "id": "p7c",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ]
+    ],
+    "description": "7 pressure levels",
+    "ui-label": "7 Pressure Levels (Climate)",
+    "validation-key": "p7c"
 }

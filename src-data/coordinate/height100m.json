@@ -1,13 +1,13 @@
 {
-    "id": "height100m",
-    "validation-key": "height100m",
-    "ui-label": "height",
-    "description": "~100 m height for wind turbine diagnostics",
-    "axis-flag": "Z",
-    "cf-standard-name": "height",
     "@context": "_context_",
+    "id": "height100m",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "Z",
+    "cf-standard-name": "height",
+    "description": "~100 m height for wind turbine diagnostics",
+    "ui-label": "height",
+    "validation-key": "height100m"
 }

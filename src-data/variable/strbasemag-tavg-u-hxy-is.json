@@ -1,11 +1,14 @@
 {
-    "id": "strbasemag_tavg-u-hxy-is",
-    "validation-key": "strbasemag_tavg-u-hxy-is",
-    "ui-label": "Land Ice Basal Drag",
-    "description": "Magnitude of basal drag at land ice base",
+    "@context": "_context_",
+    "id": "strbasemag-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-twm",
+    "description": "Magnitude of basal drag at land ice base",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "land_ice_basal_drag",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Land Ice Basal Drag",
     "units": "Pa",
+    "validation-key": "strbasemag_tavg-u-hxy-is",
     "variable-root": "strbasemag",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

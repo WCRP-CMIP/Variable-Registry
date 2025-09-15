@@ -1,13 +1,13 @@
 {
-    "id": "typelkins",
-    "validation-key": "typelkins",
-    "ui-label": "Lake and inland sea area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typelkins",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "Lake and inland sea area type",
+    "validation-key": "typelkins"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "zg_tavg-1000hPa-hxy-air",
-    "validation-key": "zg_tavg-1000hPa-hxy-air",
-    "ui-label": "Geopotential Height at 1000hPa",
-    "description": "Geopotential height on the 1000 hPa surface",
+    "@context": "_context_",
+    "id": "zg-tavg-1000hpa-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "Geopotential height on the 1000 hPa surface",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "geopotential_height",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Geopotential Height at 1000hPa",
     "units": "m",
+    "validation-key": "zg_tavg-1000hPa-hxy-air",
     "variable-root": "zg",
-    "vertical-label": "1000hPa",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "1000hPa"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "dyvo_ti-u-hxy-u",
-    "validation-key": "dyvo_ti-u-hxy-u",
-    "ui-label": "Cell Length in the Y Direction at v-points",
-    "description": "The linear extent of the cell in the y direction of the horizontal grid centered at v-points (points for velocity in the y-direction). Not applicable to unstructured grids.",
+    "@context": "_context_",
+    "id": "dyvo-ti-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "::MODEL",
     "cell-methods": "apt-fx",
+    "description": "The linear extent of the cell in the y direction of the horizontal grid centered at v-points (points for velocity in the y-direction). Not applicable to unstructured grids.",
     "dimensions": [
         "longitude",
         "latitude"
@@ -21,12 +24,9 @@
     "standard-name": "cell_y_length",
     "temporal-label": "ti",
     "temporal-shape": "None",
+    "ui-label": "Cell Length in the Y Direction at v-points",
     "units": "m",
+    "validation-key": "dyvo_ti-u-hxy-u",
     "variable-root": "dyvo",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,13 +1,13 @@
 {
-    "id": "ficeberg",
-    "validation-key": "ficeberg",
-    "ui-label": "ficeberg",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "water-flux-into-sea-water-from-icebergs",
     "@context": "_context_",
+    "id": "ficeberg",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "water-flux-into-sea-water-from-icebergs",
+    "ui-label": "ficeberg",
+    "validation-key": "ficeberg"
 }

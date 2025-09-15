@@ -1,11 +1,14 @@
 {
-    "id": "dsw_tavg-u-hxy-lnd",
-    "validation-key": "dsw_tavg-u-hxy-lnd",
-    "ui-label": "Change in Surface Water Storage",
-    "description": "Change in Surface Water Storage",
+    "@context": "_context_",
+    "id": "dsw-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Change in Surface Water Storage",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "change_over_time_in_land_water_amount",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Change in Surface Water Storage",
     "units": "kg m-2",
+    "validation-key": "dsw_tavg-u-hxy-lnd",
     "variable-root": "dsw",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

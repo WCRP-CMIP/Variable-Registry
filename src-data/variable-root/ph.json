@@ -1,13 +1,13 @@
 {
-    "id": "ph",
-    "validation-key": "ph",
-    "ui-label": "ph",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "sea-water-ph-reported-on-total-scale",
     "@context": "_context_",
+    "id": "ph",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "sea-water-ph-reported-on-total-scale",
+    "ui-label": "ph",
+    "validation-key": "ph"
 }

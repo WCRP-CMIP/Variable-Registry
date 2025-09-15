@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "aermon",
-    "validation-key": "aermon",
-    "ui-label": "AERmon",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table AERmon containing variables",
+    "ui-label": "AERmon",
+    "validation-key": "aermon",
     "variables": [
         "abs550aer_tavg-u-hxy-u",
         "abs550bc_tavg-u-hxy-u",
@@ -218,12 +225,5 @@
         "wetss_tavg-u-hxy-u",
         "zg_tavg-al-hxy-u",
         "ztp_tavg-u-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

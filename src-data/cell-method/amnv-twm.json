@@ -1,12 +1,12 @@
 {
-    "id": "amnv-twm",
-    "validation-key": "amnv-twm",
-    "ui-label": "Weighted Time Mean on Vegetation",
-    "description": "area: time: mean where vegetation",
-    "mask": "vegFrac",
     "@context": "_context_",
+    "id": "amnv-twm",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: time: mean where vegetation",
+    "mask": "vegFrac",
+    "ui-label": "Weighted Time Mean on Vegetation",
+    "validation-key": "amnv-twm"
 }

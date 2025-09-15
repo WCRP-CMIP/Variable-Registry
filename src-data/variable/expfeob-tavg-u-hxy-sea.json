@@ -1,11 +1,14 @@
 {
-    "id": "expfeob_tavg-u-hxy-sea",
-    "validation-key": "expfeob_tavg-u-hxy-sea",
-    "ui-label": "Sinking Flux of Particulate Iron Reaching the Ocean Bottom",
-    "description": "Downward sinking flux of particulate iron at seafloor",
+    "@context": "_context_",
+    "id": "expfeob-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Downward sinking flux of particulate iron at seafloor",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sinking Flux of Particulate Iron Reaching the Ocean Bottom",
     "units": "mol m-2 s-1",
+    "validation-key": "expfeob_tavg-u-hxy-sea",
     "variable-root": "expfeob",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

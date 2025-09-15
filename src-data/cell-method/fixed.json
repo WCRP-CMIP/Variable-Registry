@@ -1,12 +1,12 @@
 {
-    "id": "fixed",
-    "validation-key": "fixed",
-    "ui-label": "Fixed Field",
-    "description": "Cell method for time-invariant variables that remain constant throughout the simulation, such as static boundary conditions, topography, land-sea masks, or grid cell areas.",
-    "mask": "",
     "@context": "_context_",
+    "id": "fixed",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "Cell method for time-invariant variables that remain constant throughout the simulation, such as static boundary conditions, topography, land-sea masks, or grid cell areas.",
+    "mask": "",
+    "ui-label": "Fixed Field",
+    "validation-key": "fixed"
 }

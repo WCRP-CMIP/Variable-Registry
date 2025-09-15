@@ -1,11 +1,11 @@
 {
-    "id": "d700m",
-    "validation-key": "d700m",
-    "ui-label": "Upper 700 Meter Depth",
-    "description": "upper 700 m",
     "@context": "_context_",
+    "id": "d700m",
     "type": [
         "wcrp:vertical-label",
         "variable"
-    ]
+    ],
+    "description": "upper 700 m",
+    "ui-label": "Upper 700 Meter Depth",
+    "validation-key": "d700m"
 }

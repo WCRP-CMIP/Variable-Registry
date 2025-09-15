@@ -1,11 +1,14 @@
 {
-    "id": "xvelbase_tavg-u-hxy-is",
-    "validation-key": "xvelbase_tavg-u-hxy-is",
-    "ui-label": "X-Component of Land Ice Basal Velocity",
-    "description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice.",
+    "@context": "_context_",
+    "id": "xvelbase-tavg-u-hxy-is",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "is",
     "cell-measures": "area: areacellg",
     "cell-methods": "amni-twm",
+    "description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice.",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "land_ice_basal_x_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "X-Component of Land Ice Basal Velocity",
     "units": "m s-1",
+    "validation-key": "xvelbase_tavg-u-hxy-is",
     "variable-root": "xvelbase",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

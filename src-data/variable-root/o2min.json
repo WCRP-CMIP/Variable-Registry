@@ -1,13 +1,13 @@
 {
-    "id": "o2min",
-    "validation-key": "o2min",
-    "ui-label": "o2min",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water-at-shallowest-local-minimum-in-vertical-profile",
     "@context": "_context_",
+    "id": "o2min",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water-at-shallowest-local-minimum-in-vertical-profile",
+    "ui-label": "o2min",
+    "validation-key": "o2min"
 }

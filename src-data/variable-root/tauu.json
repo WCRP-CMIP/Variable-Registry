@@ -1,13 +1,13 @@
 {
-    "id": "tauu",
-    "validation-key": "tauu",
-    "ui-label": "tauu",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-downward-eastward-stress",
     "@context": "_context_",
+    "id": "tauu",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-downward-eastward-stress",
+    "ui-label": "tauu",
+    "validation-key": "tauu"
 }

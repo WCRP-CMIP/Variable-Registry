@@ -1,13 +1,13 @@
 {
-    "id": "baresoilfrac",
-    "validation-key": "baresoilfrac",
-    "ui-label": "baresoilFrac",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "area-fraction",
     "@context": "_context_",
+    "id": "baresoilfrac",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "area-fraction",
+    "ui-label": "baresoilFrac",
+    "validation-key": "baresoilfrac"
 }

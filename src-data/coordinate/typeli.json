@@ -1,13 +1,13 @@
 {
-    "id": "typeli",
-    "validation-key": "typeli",
-    "ui-label": "Land Ice area type",
-    "description": "",
-    "axis-flag": "",
-    "cf-standard-name": "area_type",
     "@context": "_context_",
+    "id": "typeli",
     "type": [
         "wcrp:coordinate",
         "variable"
-    ]
+    ],
+    "axis-flag": "",
+    "cf-standard-name": "area_type",
+    "description": "",
+    "ui-label": "Land Ice area type",
+    "validation-key": "typeli"
 }

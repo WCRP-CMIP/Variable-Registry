@@ -1,13 +1,13 @@
 {
-    "id": "loadsoa",
-    "validation-key": "loadsoa",
-    "ui-label": "loadsoa",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "atmosphere-mass-content-of-secondary-particulate-organic-matter-dry-aerosol-particles",
     "@context": "_context_",
+    "id": "loadsoa",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "atmosphere-mass-content-of-secondary-particulate-organic-matter-dry-aerosol-particles",
+    "ui-label": "loadsoa",
+    "validation-key": "loadsoa"
 }

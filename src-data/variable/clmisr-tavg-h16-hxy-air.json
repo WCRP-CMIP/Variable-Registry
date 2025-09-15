@@ -1,11 +1,14 @@
 {
-    "id": "clmisr_tavg-h16-hxy-air",
-    "validation-key": "clmisr_tavg-h16-hxy-air",
-    "ui-label": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
-    "description": "MISR cloud area fraction",
+    "@context": "_context_",
+    "id": "clmisr-tavg-h16-hxy-air",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "air",
     "cell-measures": "area: areacella",
     "cell-methods": "amna-twm",
+    "description": "MISR cloud area fraction",
     "dimensions": [
         "longitude",
         "latitude",
@@ -24,12 +27,9 @@
     "standard-name": "cloud_area_fraction_in_atmosphere_layer",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
     "units": "%",
+    "validation-key": "clmisr_tavg-h16-hxy-air",
     "variable-root": "clmisr",
-    "vertical-label": "h16",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "h16"
 }

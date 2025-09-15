@@ -1,11 +1,14 @@
 {
-    "id": "conccn_tavg-al-hxy-u",
-    "validation-key": "conccn_tavg-al-hxy-u",
-    "ui-label": "Aerosol Number Concentration",
-    "description": "This is the number concentration of air particles in air",
+    "@context": "_context_",
+    "id": "conccn-tavg-al-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is the number concentration of air particles in air",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "number_concentration_of_ambient_aerosol_particles_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Aerosol Number Concentration",
     "units": "m-3",
+    "validation-key": "conccn_tavg-al-hxy-u",
     "variable-root": "conccn",
-    "vertical-label": "al",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "al"
 }

@@ -1,11 +1,14 @@
 {
-    "id": "snwc_tavg-u-hxy-lnd",
-    "validation-key": "snwc_tavg-u-hxy-lnd",
-    "ui-label": "Snow Water Equivalent Intercepted by the Vegetation",
-    "description": "canopy_snow_amount",
+    "@context": "_context_",
+    "id": "snwc-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "canopy_snow_amount",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "canopy_snow_amount",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Snow Water Equivalent Intercepted by the Vegetation",
     "units": "kg m-2",
+    "validation-key": "snwc_tavg-u-hxy-lnd",
     "variable-root": "snwc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

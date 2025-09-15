@@ -1,11 +1,14 @@
 {
-    "id": "c13Soil_tavg-u-hxy-lnd",
-    "validation-key": "c13Soil_tavg-u-hxy-lnd",
-    "ui-label": "Mass of 13C in Soil Pool",
-    "description": "Carbon-13 mass content per unit area in soil.",
+    "@context": "_context_",
+    "id": "c13soil-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "Carbon-13 mass content per unit area in soil.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "soil_mass_content_of_13C",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mass of 13C in Soil Pool",
     "units": "kg m-2",
+    "validation-key": "c13Soil_tavg-u-hxy-lnd",
     "variable-root": "c13Soil",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

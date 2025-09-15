@@ -1,11 +1,14 @@
 {
-    "id": "exppob_tavg-u-hxy-sea",
-    "validation-key": "exppob_tavg-u-hxy-sea",
-    "ui-label": "Sinking Flux of Particulate Organic Phosphorus Reaching the Ocean Bottom",
-    "description": "Downward sinking flux of particulate organic phosphorus at seafloor",
+    "@context": "_context_",
+    "id": "exppob-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "Downward sinking flux of particulate organic phosphorus at seafloor",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Sinking Flux of Particulate Organic Phosphorus Reaching the Ocean Bottom",
     "units": "mol m-2 s-1",
+    "validation-key": "exppob_tavg-u-hxy-sea",
     "variable-root": "exppob",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

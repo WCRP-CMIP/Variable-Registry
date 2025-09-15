@@ -1,11 +1,14 @@
 {
-    "id": "hfgeoubed_tavg-u-hxy-gis",
-    "validation-key": "hfgeoubed_tavg-u-hxy-gis",
-    "ui-label": "Geothermal Heat Flux Beneath Land Ice",
-    "description": "Geothermal Heat Flux Beneath Land Ice",
+    "@context": "_context_",
+    "id": "hfgeoubed-tavg-u-hxy-gis",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "gis",
     "cell-measures": "area: areacellg",
     "cell-methods": "Error: area: time: mean where grounded_ice_sheet (mask=sfgrlf) not found in cell methods, please register",
+    "description": "Geothermal Heat Flux Beneath Land Ice",
     "dimensions": [
         "xgre",
         "ygre",
@@ -22,12 +25,9 @@
     "standard-name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Geothermal Heat Flux Beneath Land Ice",
     "units": "W m-2",
+    "validation-key": "hfgeoubed_tavg-u-hxy-gis",
     "variable-root": "hfgeoubed",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

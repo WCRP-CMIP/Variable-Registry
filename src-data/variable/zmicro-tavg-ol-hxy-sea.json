@@ -1,11 +1,14 @@
 {
-    "id": "zmicro_tavg-ol-hxy-sea",
-    "validation-key": "zmicro_tavg-ol-hxy-sea",
-    "ui-label": "Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
-    "description": "carbon  concentration from the microzooplankton (<20 um) component alone",
+    "@context": "_context_",
+    "id": "zmicro-tavg-ol-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello volume: volcello",
     "cell-methods": "amns-tmn",
+    "description": "carbon  concentration from the microzooplankton (<20 um) component alone",
     "dimensions": [
         "longitude",
         "latitude",
@@ -23,12 +26,9 @@
     "standard-name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
     "units": "mol m-3",
+    "validation-key": "zmicro_tavg-ol-hxy-sea",
     "variable-root": "zmicro",
-    "vertical-label": "ol",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "ol"
 }

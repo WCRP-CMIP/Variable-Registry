@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "aerhr",
-    "validation-key": "aerhr",
-    "ui-label": "AERhr",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table AERhr containing variables",
+    "ui-label": "AERhr",
+    "validation-key": "aerhr",
     "variables": [
         "ps_tavg-u-hxy-u",
         "no2_tavg-h2m-hxy-u",
@@ -11,12 +18,5 @@
         "sfpm10_tavg-h2m-hxy-u",
         "sfpm25_tavg-h2m-hxy-u",
         "tas_tavg-h2m-hxy-u"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

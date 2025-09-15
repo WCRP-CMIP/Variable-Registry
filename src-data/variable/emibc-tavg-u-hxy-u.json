@@ -1,11 +1,14 @@
 {
-    "id": "emibc_tavg-u-hxy-u",
-    "validation-key": "emibc_tavg-u-hxy-u",
-    "ui-label": "Total Emission Rate of Black Carbon Aerosol Mass",
-    "description": "Integrate 3D emission field vertically to 2d field.",
+    "@context": "_context_",
+    "id": "emibc-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Integrate 3D emission field vertically to 2d field.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_emission",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Total Emission Rate of Black Carbon Aerosol Mass",
     "units": "kg m-2 s-1",
+    "validation-key": "emibc_tavg-u-hxy-u",
     "variable-root": "emibc",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

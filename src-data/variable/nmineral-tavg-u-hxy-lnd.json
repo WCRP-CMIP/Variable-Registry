@@ -1,11 +1,14 @@
 {
-    "id": "nMineral_tavg-u-hxy-lnd",
-    "validation-key": "nMineral_tavg-u-hxy-lnd",
-    "ui-label": "Mineral Nitrogen in the Soil",
-    "description": "SUM of ammonium, nitrite, nitrate, etc over all soil layers",
+    "@context": "_context_",
+    "id": "nmineral-tavg-u-hxy-lnd",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "lnd",
     "cell-measures": "area: areacella",
     "cell-methods": "amnla-tmn",
+    "description": "SUM of ammonium, nitrite, nitrate, etc over all soil layers",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "soil_mass_content_of_inorganic_nitrogen_expressed_as_nitrogen",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Mineral Nitrogen in the Soil",
     "units": "kg m-2",
+    "validation-key": "nMineral_tavg-u-hxy-lnd",
     "variable-root": "nMineral",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

@@ -1,12 +1,12 @@
 {
-    "id": "amn-tmin",
-    "validation-key": "amn-tmin",
-    "ui-label": "Temporal Minimum",
-    "description": "area: mean time: minimum",
-    "mask": "",
     "@context": "_context_",
+    "id": "amn-tmin",
     "type": [
         "wcrp:cell-method",
         "variable"
-    ]
+    ],
+    "description": "area: mean time: minimum",
+    "mask": "",
+    "ui-label": "Temporal Minimum",
+    "validation-key": "amn-tmin"
 }

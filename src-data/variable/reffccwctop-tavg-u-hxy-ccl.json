@@ -1,11 +1,14 @@
 {
-    "id": "reffccwctop_tavg-u-hxy-ccl",
-    "validation-key": "reffccwctop_tavg-u-hxy-ccl",
-    "ui-label": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
-    "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
+    "@context": "_context_",
+    "id": "reffccwctop-tavg-u-hxy-ccl",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "ccl",
     "cell-measures": "area: areacella",
     "cell-methods": "Error: area: time: mean where convective_cloud not found in cell methods, please register",
+    "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "effective_radius_of_cloud_condensed_water_particles_at_cloud_top",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
     "units": "m",
+    "validation-key": "reffccwctop_tavg-u-hxy-ccl",
     "variable-root": "reffccwctop",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

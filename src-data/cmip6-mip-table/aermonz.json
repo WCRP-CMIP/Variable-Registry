@@ -1,8 +1,15 @@
 {
+    "@context": "_context_",
     "id": "aermonz",
-    "validation-key": "aermonz",
-    "ui-label": "AERmonZ",
+    "type": [
+        "wcrp:mip-table",
+        "variable-registry",
+        "cmip6",
+        "wcrp:cmip6-mip-table"
+    ],
     "description": "CMIP6 CMOR table AERmonZ containing variables",
+    "ui-label": "AERmonZ",
+    "validation-key": "aermonz",
     "variables": [
         "bry_tavg-p39-hy-air",
         "ch4_tavg-p39-hy-air",
@@ -21,12 +28,5 @@
         "va_tavg-p39-hy-air",
         "vt100_tavg-100hPa-hy-air",
         "zg_tavg-p39-hy-air"
-    ],
-    "@context": "_context_",
-    "type": [
-        "wcrp:mip-table",
-        "variable-registry",
-        "cmip6",
-        "wcrp:cmip6-mip-table"
     ]
 }

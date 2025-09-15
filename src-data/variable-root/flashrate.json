@@ -1,13 +1,13 @@
 {
-    "id": "flashrate",
-    "validation-key": "flashrate",
-    "ui-label": "flashrate",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "frequency-of-lightning-flashes-per-unit-area",
     "@context": "_context_",
+    "id": "flashrate",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "frequency-of-lightning-flashes-per-unit-area",
+    "ui-label": "flashrate",
+    "validation-key": "flashrate"
 }

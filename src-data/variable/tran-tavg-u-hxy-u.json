@@ -1,11 +1,14 @@
 {
-    "id": "tran_tavg-u-hxy-u",
-    "validation-key": "tran_tavg-u-hxy-u",
-    "ui-label": "Transpiration",
-    "description": "Transpiration",
+    "@context": "_context_",
+    "id": "tran-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "Transpiration",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "transpiration_flux",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Transpiration",
     "units": "kg m-2 s-1",
+    "validation-key": "tran_tavg-u-hxy-u",
     "variable-root": "tran",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

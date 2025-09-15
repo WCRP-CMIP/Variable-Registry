@@ -1,11 +1,14 @@
 {
-    "id": "hfbasinpsmadv_tavg-u-hys-sea",
-    "validation-key": "hfbasinpsmadv_tavg-u-hys-sea",
-    "ui-label": "Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection",
-    "description": "Contributions to heat transport from parameterized mesoscale eddy-induced advective transport. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",
+    "@context": "_context_",
+    "id": "hfbasinpsmadv-tavg-u-hys-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "",
     "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean not found in cell methods, please register",
+    "description": "Contributions to heat transport from parameterized mesoscale eddy-induced advective transport. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",
     "dimensions": [
         "latitude",
         "basin",
@@ -22,12 +25,9 @@
     "standard-name": "northward_ocean_heat_transport_due_to_parameterized_submesoscale_eddy_advection",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection",
     "units": "W",
+    "validation-key": "hfbasinpsmadv_tavg-u-hys-sea",
     "variable-root": "hfbasinpsmadv",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

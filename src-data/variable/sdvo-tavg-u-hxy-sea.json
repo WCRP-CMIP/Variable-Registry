@@ -1,11 +1,14 @@
 {
-    "id": "sdvo_tavg-u-hxy-sea",
-    "validation-key": "sdvo_tavg-u-hxy-sea",
-    "ui-label": "Northward Surface Stokes Drift",
-    "description": "The northward component of the net drift velocity of ocean water caused by surface wind-sea waves. The Stokes drift velocity could be defined as the difference between the average Lagrangian flow velocity of a fluid parcel, and the average Eulerian flow velocity of the fluid at a fixed position.",
+    "@context": "_context_",
+    "id": "sdvo-tavg-u-hxy-sea",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "sea",
     "cell-measures": "area: areacello",
     "cell-methods": "amns-tmn",
+    "description": "The northward component of the net drift velocity of ocean water caused by surface wind-sea waves. The Stokes drift velocity could be defined as the difference between the average Lagrangian flow velocity of a fluid parcel, and the average Eulerian flow velocity of the fluid at a fixed position.",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "sea_surface_wave_stokes_drift_northward_velocity",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "Northward Surface Stokes Drift",
     "units": "m s-1",
+    "validation-key": "sdvo_tavg-u-hxy-sea",
     "variable-root": "sdvo",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

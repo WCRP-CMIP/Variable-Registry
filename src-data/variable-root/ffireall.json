@@ -1,13 +1,13 @@
 {
-    "id": "ffireall",
-    "validation-key": "ffireall",
-    "ui-label": "fFireAll",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-fires",
     "@context": "_context_",
+    "id": "ffireall",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-fires",
+    "ui-label": "fFireAll",
+    "validation-key": "ffireall"
 }

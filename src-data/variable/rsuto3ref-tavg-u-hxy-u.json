@@ -1,11 +1,14 @@
 {
-    "id": "rsuto3ref_tavg-u-hxy-u",
-    "validation-key": "rsuto3ref_tavg-u-hxy-u",
-    "ui-label": "TOA shortwave flux assuming reference ozone field",
-    "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",
+    "@context": "_context_",
+    "id": "rsuto3ref-tavg-u-hxy-u",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ],
     "area-label": "u",
     "cell-measures": "area: areacella",
     "cell-methods": "amn-twm",
+    "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",
     "dimensions": [
         "longitude",
         "latitude",
@@ -22,12 +25,9 @@
     "standard-name": "toa_outgoing_shortwave_flux_assuming_reference_mole_fraction_of_ozone_in_air",
     "temporal-label": "tavg",
     "temporal-shape": "time-intv",
+    "ui-label": "TOA shortwave flux assuming reference ozone field",
     "units": "W m-2",
+    "validation-key": "rsuto3ref_tavg-u-hxy-u",
     "variable-root": "rsuto3ref",
-    "vertical-label": "u",
-    "@context": "_context_",
-    "type": [
-        "wcrp:variable",
-        "variable-registry"
-    ]
+    "vertical-label": "u"
 }

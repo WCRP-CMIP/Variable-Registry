@@ -1,13 +1,13 @@
 {
-    "id": "fharvesttoproduct",
-    "validation-key": "fharvesttoproduct",
-    "ui-label": "fHarvestToProduct",
-    "description": "",
-    "data-type": "real",
-    "standard-name": "mass-flux-of-carbon-into-forestry-and-agricultural-products-due-to-crop-harvesting",
     "@context": "_context_",
+    "id": "fharvesttoproduct",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ]
+    ],
+    "data-type": "real",
+    "description": "",
+    "standard-name": "mass-flux-of-carbon-into-forestry-and-agricultural-products-due-to-crop-harvesting",
+    "ui-label": "fHarvestToProduct",
+    "validation-key": "fharvesttoproduct"
 }
