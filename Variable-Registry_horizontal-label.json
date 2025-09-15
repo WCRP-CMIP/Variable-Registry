@@ -1,42 +1,42 @@
 {
     "Header": {
         "file": "Variable-Registry_horizontal-label.json",
-        "file_creation_date": "2025-08-18T16:38:49.803521",
+        "file_creation_date": "2025-09-15T12:19:33.742986",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: c7eed5ecf85ccf743ca2a18e93802185",
+        "checksum": "md5: 46189236073a3bad7497fa43617da154",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "d21a916ab1ac0db825c78caa7967ffd82f147cb9",
+        "last_commit": "c831573cc7768bc8ae8980b27d55e6801d10ea38",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "horizontal-label": {
         "hm": {
-            "description": "horizontal mean",
+            "description": "Variables calculated as spatial averages across horizontal dimensions, typically representing area-weighted means over geographic regions. Used for regional or global horizontal averaging operations.",
             "ui-label": "Horizontal Mean",
             "validation-key": "hm"
         },
         "ht": {
-            "description": "mean across labeled areas or mean along a line",
+            "description": "Variables calculated as means across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
             "ui-label": "Mean Along Line",
             "validation-key": "ht"
         },
         "hxy": {
-            "description": "gridded",
+            "description": "Variables represented on a regular 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
             "ui-label": "Gridded Horizontal",
             "validation-key": "hxy"
         },
         "hxys": {
-            "description": "site values",
+            "description": "Variables represented as point measurements at specific geographic sites or stations. Used for observational data, tower measurements, or model output extracted at particular locations rather than gridded data.",
             "ui-label": "Site Values",
             "validation-key": "hxys"
         },
         "hy": {
-            "description": "zonal mean",
+            "description": "Variables calculated as zonal means, averaged along lines of constant latitude (east-west direction). Removes longitudinal variability to show meridional (north-south) patterns and large-scale circulation features.",
             "ui-label": "Zonal Mean",
             "validation-key": "hy"
         },
         "hybs": {
-            "description": "zonal mean within a basin",
+            "description": "Variables calculated as zonal means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging while preserving regional characteristics and circulation patterns within each basin.",
             "ui-label": "Zonal Mean Within Basin",
             "validation-key": "hybs"
         }
