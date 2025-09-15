@@ -1,5 +1,5 @@
 {
-    "id": "sistrydtop_tavg-u-hxy-si",
+    "id": "sistrydtop-tavg-u-hxy-si",
     "validation-key": "sistrydtop_tavg-u-hxy-si",
     "ui-label": "Y-Component of Atmospheric Stress on Sea Ice",
     "description": "Y-component of the atmospheric stress on the surface of sea ice divided by grid-cell area.",

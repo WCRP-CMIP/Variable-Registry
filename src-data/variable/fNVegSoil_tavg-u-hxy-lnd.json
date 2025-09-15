@@ -1,5 +1,5 @@
 {
-    "id": "fNVegSoil_tavg-u-hxy-lnd",
+    "id": "fnvegsoil-tavg-u-hxy-lnd",
     "validation-key": "fNVegSoil_tavg-u-hxy-lnd",
     "ui-label": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
     "description": "In some models part of nitrogen (e.g., root exudate) can go directly into the soil pool without entering litter.",

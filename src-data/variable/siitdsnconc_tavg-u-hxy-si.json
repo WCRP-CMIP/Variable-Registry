@@ -1,5 +1,5 @@
 {
-    "id": "siitdsnconc_tavg-u-hxy-si",
+    "id": "siitdsnconc-tavg-u-hxy-si",
     "validation-key": "siitdsnconc_tavg-u-hxy-si",
     "ui-label": "Snow Area Fractions in Ice Thickness Categories",
     "description": "Area fraction of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",

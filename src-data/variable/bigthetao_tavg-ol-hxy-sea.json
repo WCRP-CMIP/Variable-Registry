@@ -1,5 +1,5 @@
 {
-    "id": "bigthetao_tavg-ol-hxy-sea",
+    "id": "bigthetao-tavg-ol-hxy-sea",
     "validation-key": "bigthetao_tavg-ol-hxy-sea",
     "ui-label": "Sea Water Conservative Temperature",
     "description": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",

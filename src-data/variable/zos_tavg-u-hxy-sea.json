@@ -1,5 +1,5 @@
 {
-    "id": "zos_tavg-u-hxy-sea",
+    "id": "zos-tavg-u-hxy-sea",
     "validation-key": "zos_tavg-u-hxy-sea",
     "ui-label": "Sea Surface Height Above Geoid",
     "description": "This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.",

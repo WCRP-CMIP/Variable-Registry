@@ -1,5 +1,5 @@
 {
-    "id": "sidmassth_tavg-u-hxy-sea",
+    "id": "sidmassth-tavg-u-hxy-sea",
     "validation-key": "sidmassth_tavg-u-hxy-sea",
     "ui-label": "Sea-Ice Mass Change from Thermodynamics",
     "description": "Total rate of change in sea-ice mass from thermodynamic processes divided by grid-cell area.",

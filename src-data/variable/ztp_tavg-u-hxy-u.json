@@ -1,5 +1,5 @@
 {
-    "id": "ztp_tavg-u-hxy-u",
+    "id": "ztp-tavg-u-hxy-u",
     "validation-key": "ztp_tavg-u-hxy-u",
     "ui-label": "Tropopause Altitude Above Geoid",
     "description": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",

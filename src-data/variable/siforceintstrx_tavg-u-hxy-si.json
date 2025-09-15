@@ -1,5 +1,5 @@
 {
-    "id": "siforceintstrx_tavg-u-hxy-si",
+    "id": "siforceintstrx-tavg-u-hxy-si",
     "validation-key": "siforceintstrx_tavg-u-hxy-si",
     "ui-label": "Internal Stress Term in Force Balance (X-Component)",
     "description": "X-component of the force on sea ice caused by internal stress (divergence of sigma) divided by grid-cell area.",

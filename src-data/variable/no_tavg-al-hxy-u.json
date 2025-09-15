@@ -1,5 +1,5 @@
 {
-    "id": "no_tavg-al-hxy-u",
+    "id": "no-tavg-al-hxy-u",
     "validation-key": "no_tavg-al-hxy-u",
     "ui-label": "NO Volume Mixing Ratio",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

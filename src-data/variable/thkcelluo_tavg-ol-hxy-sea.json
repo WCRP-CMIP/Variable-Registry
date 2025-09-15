@@ -1,5 +1,5 @@
 {
-    "id": "thkcelluo_tavg-ol-hxy-sea",
+    "id": "thkcelluo-tavg-ol-hxy-sea",
     "validation-key": "thkcelluo_tavg-ol-hxy-sea",
     "ui-label": "Ocean Model Cell Thickness at u-points",
     "description": "The time varying thickness of ocean cells centered at u-points (points for velocity in the x-direction). \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",

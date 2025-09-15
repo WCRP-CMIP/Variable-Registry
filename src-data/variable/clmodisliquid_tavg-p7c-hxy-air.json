@@ -1,5 +1,5 @@
 {
-    "id": "clmodisliquid_tavg-p7c-hxy-air",
+    "id": "clmodisliquid-tavg-p7c-hxy-air",
     "validation-key": "clmodisliquid_tavg-p7c-hxy-air",
     "ui-label": "MODIS Liquid Topped Cloud Area Fraction",
     "description": "Percentage liquid-cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by clisccp (ISCCP simulator).",

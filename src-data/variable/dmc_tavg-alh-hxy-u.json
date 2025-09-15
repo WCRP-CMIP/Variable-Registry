@@ -1,5 +1,5 @@
 {
-    "id": "dmc_tavg-alh-hxy-u",
+    "id": "dmc-tavg-alh-hxy-u",
     "validation-key": "dmc_tavg-alh-hxy-u",
     "ui-label": "Deep Convective Mass Flux",
     "description": "The net mass flux  represents the difference between the updraft and downdraft components.   This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",

@@ -1,5 +1,5 @@
 {
-    "id": "ficeberg_tavg-ol-hxy-sea",
+    "id": "ficeberg-tavg-ol-hxy-sea",
     "validation-key": "ficeberg_tavg-ol-hxy-sea",
     "ui-label": "Water Flux into Sea Water from Icebergs",
     "description": "computed as the iceberg melt water  flux into the ocean divided by the area of the ocean portion of the grid cell.",

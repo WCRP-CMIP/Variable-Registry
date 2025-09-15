@@ -2,11 +2,12 @@
     "id": "sieqthick",
     "validation-key": "sieqthick",
     "ui-label": "sieqthick",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-ice-thickness",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

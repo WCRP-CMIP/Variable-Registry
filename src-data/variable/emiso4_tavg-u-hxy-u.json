@@ -1,5 +1,5 @@
 {
-    "id": "emiso4_tavg-u-hxy-u",
+    "id": "emiso4-tavg-u-hxy-u",
     "validation-key": "emiso4_tavg-u-hxy-u",
     "ui-label": "Total Direct Emission Rate of SO4",
     "description": "Direct primary emission does not include secondary sulfate production. Integrate 3D emission field vertically to 2d field.",

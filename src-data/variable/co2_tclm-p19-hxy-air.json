@@ -1,5 +1,5 @@
 {
-    "id": "co2_tclm-p19-hxy-air",
+    "id": "co2-tclm-p19-hxy-air",
     "validation-key": "co2_tclm-p19-hxy-air",
     "ui-label": "Mole Fraction of CO2",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

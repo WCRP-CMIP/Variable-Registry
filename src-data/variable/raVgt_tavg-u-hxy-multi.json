@@ -1,5 +1,5 @@
 {
-    "id": "raVgt_tavg-u-hxy-multi",
+    "id": "ravgt-tavg-u-hxy-multi",
     "validation-key": "raVgt_tavg-u-hxy-multi",
     "ui-label": "Autotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on vegetation type.",

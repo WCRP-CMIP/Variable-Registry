@@ -1,5 +1,5 @@
 {
-    "id": "sidmassdyn_tavg-u-hxy-sea",
+    "id": "sidmassdyn-tavg-u-hxy-sea",
     "validation-key": "sidmassdyn_tavg-u-hxy-sea",
     "ui-label": "Sea-Ice Mass Change from Dynamics",
     "description": "Total rate of change in sea-ice mass through dynamics-related processes (advection, divergence, etc.) divided by grid-cell area.",

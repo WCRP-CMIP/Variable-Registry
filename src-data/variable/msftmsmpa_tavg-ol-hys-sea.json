@@ -1,5 +1,5 @@
 {
-    "id": "msftmsmpa_tavg-ol-hys-sea",
+    "id": "msftmsmpa-tavg-ol-hys-sea",
     "validation-key": "msftmsmpa_tavg-ol-hys-sea",
     "ui-label": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
     "description": "Report only if there is a submesoscale eddy parameterization.",

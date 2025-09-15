@@ -1,5 +1,5 @@
 {
-    "id": "hfy_tavg-u-hxy-sea",
+    "id": "hfy-tavg-u-hxy-sea",
     "validation-key": "hfy_tavg-u-hxy-sea",
     "ui-label": "Vertically Integrated Ocean Heat Y Transport",
     "description": "Ocean heat y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",

@@ -1,5 +1,5 @@
 {
-    "id": "clisccp_tavg-p7c-hxy-air",
+    "id": "clisccp-tavg-p7c-hxy-air",
     "validation-key": "clisccp_tavg-p7c-hxy-air",
     "ui-label": "ISCCP Cloud Area Percentage",
     "description": "Percentage cloud cover in optical depth categories.",

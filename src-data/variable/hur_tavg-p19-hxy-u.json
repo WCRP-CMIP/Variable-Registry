@@ -1,5 +1,5 @@
 {
-    "id": "hur_tavg-p19-hxy-u",
+    "id": "hur-tavg-p19-hxy-u",
     "validation-key": "hur_tavg-p19-hxy-u",
     "ui-label": "Relative Humidity",
     "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",

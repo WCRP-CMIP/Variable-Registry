@@ -2,11 +2,12 @@
     "id": "drynoy",
     "validation-key": "drynoy",
     "ui-label": "drynoy",
+    "description": "",
     "data-type": "real",
     "standard-name": "minus-tendency-of-atmosphere-mass-content-of-noy-expressed-as-nitrogen-due-to-dry-deposition",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

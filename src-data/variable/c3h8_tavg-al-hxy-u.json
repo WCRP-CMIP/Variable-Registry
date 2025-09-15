@@ -1,5 +1,5 @@
 {
-    "id": "c3h8_tavg-al-hxy-u",
+    "id": "c3h8-tavg-al-hxy-u",
     "validation-key": "c3h8_tavg-al-hxy-u",
     "ui-label": "C3H8 Volume Mixing Ratio",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

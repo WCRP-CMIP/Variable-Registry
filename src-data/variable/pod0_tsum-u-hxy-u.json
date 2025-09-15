@@ -1,5 +1,5 @@
 {
-    "id": "pod0_tsum-u-hxy-u",
+    "id": "pod0-tsum-u-hxy-u",
     "validation-key": "pod0_tsum-u-hxy-u",
     "ui-label": "Phytotoxic Ozone Dose",
     "description": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration \\* stomatal conductance \\* Rc/(Rb+Rc) )",

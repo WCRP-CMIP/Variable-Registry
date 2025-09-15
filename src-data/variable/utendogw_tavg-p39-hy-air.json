@@ -1,5 +1,5 @@
 {
-    "id": "utendogw_tavg-p39-hy-air",
+    "id": "utendogw-tavg-p39-hy-air",
     "validation-key": "utendogw_tavg-p39-hy-air",
     "ui-label": "Eastward Acceleration Due to Orographic Gravity Wave Drag",
     "description": "Zonal mean tendency of eastward wind induced by the parameterized orographic gravity wave drag",

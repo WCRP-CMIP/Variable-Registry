@@ -1,5 +1,5 @@
 {
-    "id": "tntpbl_tavg-al-hxy-u",
+    "id": "tntpbl-tavg-al-hxy-u",
     "validation-key": "tntpbl_tavg-al-hxy-u",
     "ui-label": "Tendency of Air Temperature Due to Boundary Layer Mixing",
     "description": "Includes all boundary layer terms including diffusive terms.",

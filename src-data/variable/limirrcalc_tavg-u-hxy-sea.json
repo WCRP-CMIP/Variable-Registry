@@ -1,5 +1,5 @@
 {
-    "id": "limirrcalc_tavg-u-hxy-sea",
+    "id": "limirrcalc-tavg-u-hxy-sea",
     "validation-key": "limirrcalc_tavg-u-hxy-sea",
     "ui-label": "Irradiance Limitation of Calcareous Phytoplankton",
     "description": "Growth limitation of calcareous phytoplankton due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",

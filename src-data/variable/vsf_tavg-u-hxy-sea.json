@@ -1,5 +1,5 @@
 {
-    "id": "vsf_tavg-u-hxy-sea",
+    "id": "vsf-tavg-u-hxy-sea",
     "validation-key": "vsf_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux into Sea Water",
     "description": "It is set to zero in models which receive a real water flux.",

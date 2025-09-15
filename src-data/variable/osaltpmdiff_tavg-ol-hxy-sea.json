@@ -1,5 +1,5 @@
 {
-    "id": "osaltpmdiff_tavg-ol-hxy-sea",
+    "id": "osaltpmdiff-tavg-ol-hxy-sea",
     "validation-key": "osaltpmdiff_tavg-ol-hxy-sea",
     "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion",
     "description": "Tendency of salt content for a grid cell from parameterized mesoscale eddy diffusion.",

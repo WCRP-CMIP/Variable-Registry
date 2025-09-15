@@ -1,5 +1,5 @@
 {
-    "id": "ci_tpt-u-hxys-u",
+    "id": "ci-tpt-u-hxys-u",
     "validation-key": "ci_tpt-u-hxys-u",
     "ui-label": "Fraction of Time Convection Occurs in Cell",
     "description": "Fraction of time that convection occurs in the grid cell .",

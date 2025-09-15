@@ -1,5 +1,5 @@
 {
-    "id": "mc_tavg-alh-hxy-u",
+    "id": "mc-tavg-alh-hxy-u",
     "validation-key": "mc_tavg-alh-hxy-u",
     "ui-label": "Convective Mass Flux",
     "description": "The net mass flux should represent the difference between the updraft and downdraft components.  This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",

@@ -1,5 +1,5 @@
 {
-    "id": "rsuto3ref_tavg-u-hxy-u",
+    "id": "rsuto3ref-tavg-u-hxy-u",
     "validation-key": "rsuto3ref_tavg-u-hxy-u",
     "ui-label": "TOA shortwave flux assuming reference ozone field",
     "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",

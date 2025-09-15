@@ -1,5 +1,5 @@
 {
-    "id": "simprefrozen_tavg-u-hxy-simp",
+    "id": "simprefrozen-tavg-u-hxy-simp",
     "validation-key": "simprefrozen_tavg-u-hxy-simp",
     "ui-label": "Thickness of Refrozen Ice on Melt Pond",
     "description": "Volume of refrozen ice on melt ponds divided by melt pond covered area.",

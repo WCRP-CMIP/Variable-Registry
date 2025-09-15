@@ -1,5 +1,5 @@
 {
-    "id": "n2o_tavg-p19-hxy-air",
+    "id": "n2o-tavg-p19-hxy-air",
     "validation-key": "n2o_tavg-p19-hxy-air",
     "ui-label": "Mole Fraction of N2O",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.   The chemical formula of  nitrous oxide is N2O.",

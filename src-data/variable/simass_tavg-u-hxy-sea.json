@@ -1,5 +1,5 @@
 {
-    "id": "simass_tavg-u-hxy-sea",
+    "id": "simass-tavg-u-hxy-sea",
     "validation-key": "simass_tavg-u-hxy-sea",
     "ui-label": "Sea-Ice Mass",
     "description": "Total mass of sea ice divided by grid-cell area.",

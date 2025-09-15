@@ -1,5 +1,5 @@
 {
-    "id": "mrsol_tavg-d100cm-hxy-lnd",
+    "id": "mrsol-tavg-d100cm-hxy-lnd",
     "validation-key": "mrsol_tavg-d100cm-hxy-lnd",
     "ui-label": "Soil moisture in the top 1 m of the soil column",
     "description": "Soil moisture at 3hr but for 0-1m",

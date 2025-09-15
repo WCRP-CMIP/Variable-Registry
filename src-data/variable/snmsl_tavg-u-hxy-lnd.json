@@ -1,5 +1,5 @@
 {
-    "id": "snmsl_tavg-u-hxy-lnd",
+    "id": "snmsl-tavg-u-hxy-lnd",
     "validation-key": "snmsl_tavg-u-hxy-lnd",
     "ui-label": "Water Flowing out of Snowpack",
     "description": "surface_snow_melt_flux_into_soil_layer",

@@ -1,5 +1,5 @@
 {
-    "id": "emibc_tavg-u-hxy-u",
+    "id": "emibc-tavg-u-hxy-u",
     "validation-key": "emibc_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of Black Carbon Aerosol Mass",
     "description": "Integrate 3D emission field vertically to 2d field.",

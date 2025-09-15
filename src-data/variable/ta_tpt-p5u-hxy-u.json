@@ -1,5 +1,5 @@
 {
-    "id": "ta_tpt-p5u-hxy-u",
+    "id": "ta-tpt-p5u-hxy-u",
     "validation-key": "ta_tpt-p5u-hxy-u",
     "ui-label": "6 hourly instantaneous temperature in the UTLS region",
     "description": "6 hourly instantaneous temperature at 5 pressure levels in the UTLS region (150, 175, 200, 225, and 250 hPa)",

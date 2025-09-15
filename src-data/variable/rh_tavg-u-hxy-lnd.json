@@ -1,5 +1,5 @@
 {
-    "id": "rh_tavg-u-hxy-lnd",
+    "id": "rh-tavg-u-hxy-lnd",
     "validation-key": "rh_tavg-u-hxy-lnd",
     "ui-label": "Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers)",

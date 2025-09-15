@@ -1,5 +1,5 @@
 {
-    "id": "emiss_tavg-u-hxy-u",
+    "id": "emiss-tavg-u-hxy-u",
     "validation-key": "emiss_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of Sea-Salt Aerosol",
     "description": "Integrate 3D emission field vertically to 2d field.",

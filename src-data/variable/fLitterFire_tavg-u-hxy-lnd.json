@@ -1,5 +1,5 @@
 {
-    "id": "fLitterFire_tavg-u-hxy-lnd",
+    "id": "flitterfire-tavg-u-hxy-lnd",
     "validation-key": "fLitterFire_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass Flux from Litter, CWD or any non-Living Pool into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
     "description": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources",

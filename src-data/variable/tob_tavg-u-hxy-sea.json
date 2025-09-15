@@ -1,5 +1,5 @@
 {
-    "id": "tob_tavg-u-hxy-sea",
+    "id": "tob-tavg-u-hxy-sea",
     "validation-key": "tob_tavg-u-hxy-sea",
     "ui-label": "Sea Water Potential Temperature at Sea Floor",
     "description": "Potential temperature at the ocean bottom-most grid cell.",

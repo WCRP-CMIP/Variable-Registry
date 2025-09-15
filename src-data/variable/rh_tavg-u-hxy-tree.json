@@ -1,5 +1,5 @@
 {
-    "id": "rh_tavg-u-hxy-tree",
+    "id": "rh-tavg-u-hxy-tree",
     "validation-key": "rh_tavg-u-hxy-tree",
     "ui-label": "Heterotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RH of trees in the grid cell",

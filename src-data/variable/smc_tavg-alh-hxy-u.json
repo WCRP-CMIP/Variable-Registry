@@ -1,5 +1,5 @@
 {
-    "id": "smc_tavg-alh-hxy-u",
+    "id": "smc-tavg-alh-hxy-u",
     "validation-key": "smc_tavg-alh-hxy-u",
     "ui-label": "Shallow Convective Mass Flux",
     "description": "The net mass flux represents the difference between the updraft and downdraft components.  For models with a distinct shallow convection scheme, this is calculated as convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",

@@ -2,11 +2,12 @@
     "id": "rsutcsaf",
     "validation-key": "rsutcsaf",
     "ui-label": "rsutcsaf",
+    "description": "",
     "data-type": "real",
     "standard-name": "toa-outgoing-shortwave-flux-assuming-clear-sky-and-no-aerosol",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

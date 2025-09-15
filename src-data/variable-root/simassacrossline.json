@@ -2,11 +2,12 @@
     "id": "simassacrossline",
     "validation-key": "simassacrossline",
     "ui-label": "simassacrossline",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-ice-transport-across-line",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

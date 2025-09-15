@@ -1,5 +1,5 @@
 {
-    "id": "wppwindsea_tavg-u-hxy-sea",
+    "id": "wppwindsea-tavg-u-hxy-sea",
     "validation-key": "wppwindsea_tavg-u-hxy-sea",
     "ui-label": "Wind Sea Wave Peak Period",
     "description": "Wave period associated with the most energetic wind-sea waves (i.e., local wind waves). In spectral wind wave models, this represents the spectral peak across part of the two-dimensional wave spectrum, incorporating just wind-sea waves.",

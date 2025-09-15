@@ -1,5 +1,5 @@
 {
-    "id": "dtaus_tpt-al-hxy-scl",
+    "id": "dtaus-tpt-al-hxy-scl",
     "validation-key": "dtaus_tpt-al-hxy-scl",
     "ui-label": "Stratiform Cloud Optical Depth",
     "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",

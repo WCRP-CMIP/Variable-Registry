@@ -1,5 +1,5 @@
 {
-    "id": "sltbasin_tavg-u-hys-sea",
+    "id": "sltbasin-tavg-u-hys-sea",
     "validation-key": "sltbasin_tavg-u-hys-sea",
     "ui-label": "Northward Ocean Salt Transport",
     "description": "Northward Ocean Salt Transport from all physical processes affecting northward salt transport, resolved and parameterized. Diagnosed here as a function of latitude and basin.",

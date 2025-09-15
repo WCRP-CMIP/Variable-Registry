@@ -1,5 +1,5 @@
 {
-    "id": "hfrainds_tavg-u-hxy-ifs",
+    "id": "hfrainds-tavg-u-hxy-ifs",
     "validation-key": "hfrainds_tavg-u-hxy-ifs",
     "ui-label": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
     "description": "This is defined as \"where ice_free_sea over sea\"; i.e., the total flux (considered here) entering the ice-free portion of the grid cell divided by the area of the ocean portion of the grid cell.  All such heat fluxes are computed based on Celsius scale.",

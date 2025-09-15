@@ -2,11 +2,12 @@
     "id": "pctisccp",
     "validation-key": "pctisccp",
     "ui-label": "pctisccp",
+    "description": "",
     "data-type": "real",
     "standard-name": "air-pressure-at-cloud-top",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

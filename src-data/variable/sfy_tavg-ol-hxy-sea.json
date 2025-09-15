@@ -1,5 +1,5 @@
 {
-    "id": "sfy_tavg-ol-hxy-sea",
+    "id": "sfy-tavg-ol-hxy-sea",
     "validation-key": "sfy_tavg-ol-hxy-sea",
     "ui-label": "3D Ocean Salt Mass Y Transport",
     "description": "Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",

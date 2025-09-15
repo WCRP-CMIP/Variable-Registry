@@ -1,5 +1,5 @@
 {
-    "id": "zvelsurf_tavg-u-hxy-is",
+    "id": "zvelsurf-tavg-u-hxy-is",
     "validation-key": "zvelsurf_tavg-u-hxy-is",
     "ui-label": "Upward Component of Land-Ice Surface Velocity",
     "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface called \"surface\" means the lower boundary of the atmosphere",

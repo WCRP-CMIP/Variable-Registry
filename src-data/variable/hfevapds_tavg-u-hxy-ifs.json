@@ -1,5 +1,5 @@
 {
-    "id": "hfevapds_tavg-u-hxy-ifs",
+    "id": "hfevapds-tavg-u-hxy-ifs",
     "validation-key": "hfevapds_tavg-u-hxy-ifs",
     "ui-label": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
     "description": "This is defined as \"where ice_free_sea over sea\"",

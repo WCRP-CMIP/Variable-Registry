@@ -1,5 +1,5 @@
 {
-    "id": "cltcalipso_tavg-u-hxy-u",
+    "id": "cltcalipso-tavg-u-hxy-u",
     "validation-key": "cltcalipso_tavg-u-hxy-u",
     "ui-label": "CALIPSO Total Cloud Cover Percentage",
     "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",

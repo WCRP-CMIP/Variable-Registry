@@ -1,5 +1,5 @@
 {
-    "id": "sisndmasssi_tavg-u-hxy-si",
+    "id": "sisndmasssi-tavg-u-hxy-si",
     "validation-key": "sisndmasssi_tavg-u-hxy-si",
     "ui-label": "Snow Mass Rate of Change Through Snow-to-Ice Conversion",
     "description": "Rate of change of snow mass due to transformation of snow to sea ice divided by grid-cell area. Always negative or zero.",

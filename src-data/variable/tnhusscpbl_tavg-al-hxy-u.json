@@ -1,5 +1,5 @@
 {
-    "id": "tnhusscpbl_tavg-al-hxy-u",
+    "id": "tnhusscpbl-tavg-al-hxy-u",
     "validation-key": "tnhusscpbl_tavg-al-hxy-u",
     "ui-label": "Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
     "description": "To be specified only in  models which do not separate budget terms for stratiform cloud, precipitation and boundary layer schemes.  Includes all bounday layer terms including and diffusive terms.",

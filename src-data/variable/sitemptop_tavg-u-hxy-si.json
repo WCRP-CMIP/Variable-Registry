@@ -1,5 +1,5 @@
 {
-    "id": "sitemptop_tavg-u-hxy-si",
+    "id": "sitemptop-tavg-u-hxy-si",
     "validation-key": "sitemptop_tavg-u-hxy-si",
     "ui-label": "Surface Temperature of Sea Ice",
     "description": "Mean surface temperature of the sea-ice covered part of the grid cell. Wherever snow covers the ice, the surface temperature of the snow is used for the averaging, otherwise the surface temperature of the ice is used.",

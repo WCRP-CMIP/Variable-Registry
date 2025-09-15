@@ -1,5 +1,5 @@
 {
-    "id": "sitempsnic_tavg-u-hxy-si",
+    "id": "sitempsnic-tavg-u-hxy-si",
     "validation-key": "sitempsnic_tavg-u-hxy-si",
     "ui-label": "Temperature at Snow-Ice Interface",
     "description": "Mean temperature at the snow-ice interface. This is the surface temperature of ice where snow thickness is zero.",

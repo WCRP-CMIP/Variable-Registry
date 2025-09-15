@@ -1,5 +1,5 @@
 {
-    "id": "opottemptend_tavg-ol-hxy-sea",
+    "id": "opottemptend-tavg-ol-hxy-sea",
     "validation-key": "opottemptend_tavg-ol-hxy-sea",
     "ui-label": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
     "description": "Tendency of heat content for a grid cell from all processes. Reported only for models that use potential temperature as prognostic field.",

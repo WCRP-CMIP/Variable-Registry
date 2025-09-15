@@ -1,5 +1,5 @@
 {
-    "id": "wpdirswell_tavg-u-hxy-sea",
+    "id": "wpdirswell-tavg-u-hxy-sea",
     "validation-key": "wpdirswell_tavg-u-hxy-sea",
     "ui-label": "Swell Peak Wave Direction",
     "description": "Direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area), by identifying the direction associated with the peak (maximum) energy density. This variable is typically expressed in degrees relative to true north.",

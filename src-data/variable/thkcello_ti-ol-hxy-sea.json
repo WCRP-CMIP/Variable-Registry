@@ -1,5 +1,5 @@
 {
-    "id": "thkcello_ti-ol-hxy-sea",
+    "id": "thkcello-ti-ol-hxy-sea",
     "validation-key": "thkcello_ti-ol-hxy-sea",
     "ui-label": "Ocean Model Cell Thickness",
     "description": "Thickness of ocean cells. \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",

@@ -1,5 +1,5 @@
 {
-    "id": "pflw_tavg-u-hxy-lnd",
+    "id": "pflw-tavg-u-hxy-lnd",
     "validation-key": "pflw_tavg-u-hxy-lnd",
     "ui-label": "Liquid Water Content of Permafrost Layer",
     "description": "\"where land over land\", i.e., this is the total mass of liquid water contained within the permafrost layer within the land portion of a grid cell divided by the area of the land portion of the cell.",

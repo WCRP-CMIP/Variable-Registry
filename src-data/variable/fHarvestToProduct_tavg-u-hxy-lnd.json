@@ -1,5 +1,5 @@
 {
-    "id": "fHarvestToProduct_tavg-u-hxy-lnd",
+    "id": "fharvesttoproduct-tavg-u-hxy-lnd",
     "validation-key": "fHarvestToProduct_tavg-u-hxy-lnd",
     "ui-label": "Harvested Biomass That Goes into Product Pool",
     "description": "be it food or wood harvest, any carbon that is subsequently stored is reported here",

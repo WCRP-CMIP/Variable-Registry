@@ -1,5 +1,5 @@
 {
-    "id": "basin_ti-u-hxy-u",
+    "id": "basin-ti-u-hxy-u",
     "validation-key": "basin_ti-u-hxy-u",
     "ui-label": "Region Selection Index",
     "description": "A variable with the standard name of region contains strings which indicate geographical regions. These strings must be chosen from the standard region list.",

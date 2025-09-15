@@ -1,5 +1,5 @@
 {
-    "id": "o3_tavg-h2m-hxy-u",
+    "id": "o3-tavg-h2m-hxy-u",
     "validation-key": "o3_tavg-h2m-hxy-u",
     "ui-label": "O3 Volume Mixing Ratio in Lowest Model Layer",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

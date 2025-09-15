@@ -2,11 +2,12 @@
     "id": "h2o",
     "validation-key": "h2o",
     "ui-label": "h2o",
+    "description": "",
     "data-type": "real",
     "standard-name": "mass-fraction-of-water-in-air",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

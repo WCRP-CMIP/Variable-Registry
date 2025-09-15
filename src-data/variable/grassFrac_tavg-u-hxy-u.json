@@ -1,5 +1,5 @@
 {
-    "id": "grassFrac_tavg-u-hxy-u",
+    "id": "grassfrac-tavg-u-hxy-u",
     "validation-key": "grassFrac_tavg-u-hxy-u",
     "ui-label": "Natural Grass Area Percentage",
     "description": "Percentage of entire grid cell that is covered by natural grass.",

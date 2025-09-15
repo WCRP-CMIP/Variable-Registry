@@ -2,11 +2,12 @@
     "id": "siflfwbot",
     "validation-key": "siflfwbot",
     "ui-label": "siflfwbot",
+    "description": "",
     "data-type": "real",
     "standard-name": "water-flux-into-sea-water-due-to-sea-ice-thermodynamics",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

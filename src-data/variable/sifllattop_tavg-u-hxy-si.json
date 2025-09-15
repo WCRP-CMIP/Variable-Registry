@@ -1,5 +1,5 @@
 {
-    "id": "sifllattop_tavg-u-hxy-si",
+    "id": "sifllattop-tavg-u-hxy-si",
     "validation-key": "sifllattop_tavg-u-hxy-si",
     "ui-label": "Net Latent Heat Flux over Sea Ice",
     "description": "Net latent heat flux over sea ice (energy flow per sea ice area). Positive for a downward heat flux.",

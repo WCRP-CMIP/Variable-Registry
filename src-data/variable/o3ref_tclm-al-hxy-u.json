@@ -1,5 +1,5 @@
 {
-    "id": "o3ref_tclm-al-hxy-u",
+    "id": "o3ref-tclm-al-hxy-u",
     "validation-key": "o3ref_tclm-al-hxy-u",
     "ui-label": "Fixed Reference Climatology of Mole Fraction of Ozone in Air",
     "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",

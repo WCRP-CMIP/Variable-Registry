@@ -1,5 +1,5 @@
 {
-    "id": "wdir_tavg-u-hxy-sea",
+    "id": "wdir-tavg-u-hxy-sea",
     "validation-key": "wdir_tavg-u-hxy-sea",
     "ui-label": "Total Wave Direction",
     "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the total wave energy spectrum, incorporating both wind-sea and swell waves. This variable is usually expressed in degrees relative to true north.",

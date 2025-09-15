@@ -1,5 +1,5 @@
 {
-    "id": "emidust_tavg-u-hxy-u",
+    "id": "emidust-tavg-u-hxy-u",
     "validation-key": "emidust_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of Dust",
     "description": "Integrate 3D emission field vertically to 2d field.",

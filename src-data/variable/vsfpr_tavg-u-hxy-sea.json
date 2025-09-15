@@ -1,5 +1,5 @@
 {
-    "id": "vsfpr_tavg-u-hxy-sea",
+    "id": "vsfpr-tavg-u-hxy-sea",
     "validation-key": "vsfpr_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux into Sea Water Due to Rainfall",
     "description": "zero for models using real water fluxes.",

@@ -1,5 +1,5 @@
 {
-    "id": "topg_tavg-u-hxy-gis",
+    "id": "topg-tavg-u-hxy-gis",
     "validation-key": "topg_tavg-u-hxy-gis",
     "ui-label": "Bedrock Altitude",
     "description": "This is needed in case bed rock elevation changes in time",

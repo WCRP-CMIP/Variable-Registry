@@ -1,5 +1,5 @@
 {
-    "id": "sootsn_tavg-u-hxy-lnd",
+    "id": "sootsn-tavg-u-hxy-lnd",
     "validation-key": "sootsn_tavg-u-hxy-lnd",
     "ui-label": "Snow Soot Content",
     "description": "the entire land portion of the grid cell is considered, with snow soot content set to 0.0 in regions free of snow.",

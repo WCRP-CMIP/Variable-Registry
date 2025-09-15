@@ -1,5 +1,5 @@
 {
-    "id": "vmo_tavg-ol-hxy-sea",
+    "id": "vmo-tavg-ol-hxy-sea",
     "validation-key": "vmo_tavg-ol-hxy-sea",
     "ui-label": "Ocean Mass Y Transport",
     "description": "Y-ward mass transport from residual mean (resolved plus parameterized) advective transport.",

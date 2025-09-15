@@ -1,5 +1,5 @@
 {
-    "id": "mrsll_tavg-sl-hxy-lnd",
+    "id": "mrsll-tavg-sl-hxy-lnd",
     "validation-key": "mrsll_tavg-sl-hxy-lnd",
     "ui-label": "Liquid Water Content of Soil Layer",
     "description": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",

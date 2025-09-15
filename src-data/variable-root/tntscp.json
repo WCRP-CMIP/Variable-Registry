@@ -2,11 +2,12 @@
     "id": "tntscp",
     "validation-key": "tntscp",
     "ui-label": "tntscp",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-air-temperature-due-to-stratiform-cloud-and-precipitation",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

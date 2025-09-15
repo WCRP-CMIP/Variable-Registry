@@ -1,5 +1,5 @@
 {
-    "id": "siflsensbot_tavg-u-hxy-si",
+    "id": "siflsensbot-tavg-u-hxy-si",
     "validation-key": "siflsensbot_tavg-u-hxy-si",
     "ui-label": "Net Upward Sensible Heat Flux under Sea Ice",
     "description": "Net sensible heat flux under sea ice from or to the ocean (energy flow per sea ice area). Per sign convention, heat from the ocean is counted as negative since it describes an upward heat flux.",

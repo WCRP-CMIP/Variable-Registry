@@ -1,5 +1,5 @@
 {
-    "id": "rsus_tavg-u-hxy-sn",
+    "id": "rsus-tavg-u-hxy-sn",
     "validation-key": "rsus_tavg-u-hxy-sn",
     "ui-label": "Surface Upwelling Shortwave Radiation over Snow",
     "description": "Surface Upwelling Shortwave Radiation over the portion of a land grid cell covered by snow. Can be used for computation of surface albedo.",

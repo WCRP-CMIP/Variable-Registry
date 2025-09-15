@@ -2,11 +2,12 @@
     "id": "csoil",
     "validation-key": "csoil",
     "ui-label": "cSoil",
+    "description": "",
     "data-type": "real",
     "standard-name": "soil-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

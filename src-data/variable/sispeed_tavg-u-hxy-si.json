@@ -1,5 +1,5 @@
 {
-    "id": "sispeed_tavg-u-hxy-si",
+    "id": "sispeed-tavg-u-hxy-si",
     "validation-key": "sispeed_tavg-u-hxy-si",
     "ui-label": "Sea-Ice Speed",
     "description": "Speed of ice (i.e. mean absolute velocity) to account for back-and-forth movement of the ice.",

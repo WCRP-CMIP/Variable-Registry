@@ -1,5 +1,5 @@
 {
-    "id": "nh50_tavg-al-hxy-u",
+    "id": "nh50-tavg-al-hxy-u",
     "validation-key": "nh50_tavg-al-hxy-u",
     "ui-label": "Artificial Tracer with 50 Day Lifetime",
     "description": "Fixed surface layer mixing ratio over 30o-50oN (100ppbv), uniform fixed 50-day exponential decay.",

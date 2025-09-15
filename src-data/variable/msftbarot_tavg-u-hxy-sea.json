@@ -1,5 +1,5 @@
 {
-    "id": "msftbarot_tavg-u-hxy-sea",
+    "id": "msftbarot-tavg-u-hxy-sea",
     "validation-key": "msftbarot_tavg-u-hxy-sea",
     "ui-label": "Ocean Barotropic Mass Streamfunction",
     "description": "Streamfunction or its approximation for free surface models. See OMDP document for details.",

@@ -1,5 +1,5 @@
 {
-    "id": "uo_tavg-ol-hxy-sea",
+    "id": "uo-tavg-ol-hxy-sea",
     "validation-key": "uo_tavg-ol-hxy-sea",
     "ui-label": "Sea Water X Velocity",
     "description": "Prognostic x-ward velocity component resolved by the model.",

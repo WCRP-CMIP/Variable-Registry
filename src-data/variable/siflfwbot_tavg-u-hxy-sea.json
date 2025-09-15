@@ -1,5 +1,5 @@
 {
-    "id": "siflfwbot_tavg-u-hxy-sea",
+    "id": "siflfwbot-tavg-u-hxy-sea",
     "validation-key": "siflfwbot_tavg-u-hxy-sea",
     "ui-label": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
     "description": "computed as the sea ice thermodynamic water flux into the ocean divided by the area of the ocean portion of the grid cell.",

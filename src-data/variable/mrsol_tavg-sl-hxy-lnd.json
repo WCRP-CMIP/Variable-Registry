@@ -1,5 +1,5 @@
 {
-    "id": "mrsol_tavg-sl-hxy-lnd",
+    "id": "mrsol-tavg-sl-hxy-lnd",
     "validation-key": "mrsol_tavg-sl-hxy-lnd",
     "ui-label": "Total Water Content of Soil Layer",
     "description": "in each soil layer, the mass of water in all phases, including ice.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",

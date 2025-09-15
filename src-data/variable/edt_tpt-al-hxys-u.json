@@ -1,5 +1,5 @@
 {
-    "id": "edt_tpt-al-hxys-u",
+    "id": "edt-tpt-al-hxys-u",
     "validation-key": "edt_tpt-al-hxys-u",
     "ui-label": "Eddy Diffusivity Coefficient for Temperature",
     "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",

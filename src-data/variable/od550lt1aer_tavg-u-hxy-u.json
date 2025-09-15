@@ -1,5 +1,5 @@
 {
-    "id": "od550lt1aer_tavg-u-hxy-u",
+    "id": "od550lt1aer-tavg-u-hxy-u",
     "validation-key": "od550lt1aer_tavg-u-hxy-u",
     "ui-label": "Ambient Fine Aerosol Optical Depth at 550nm",
     "description": "od550 due to particles with wet diameter less than 1 um  (\"ambient\" means \"wetted\"). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",

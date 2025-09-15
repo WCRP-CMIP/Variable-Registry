@@ -1,5 +1,5 @@
 {
-    "id": "npp_tavg-u-hxy-tree",
+    "id": "npp-tavg-u-hxy-tree",
     "validation-key": "npp_tavg-u-hxy-tree",
     "ui-label": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total NPP of trees in the grid cell",

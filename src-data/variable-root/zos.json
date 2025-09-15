@@ -2,11 +2,12 @@
     "id": "zos",
     "validation-key": "zos",
     "ui-label": "zos",
+    "description": "",
     "data-type": "real",
     "standard-name": "sea-surface-height-above-geoid",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

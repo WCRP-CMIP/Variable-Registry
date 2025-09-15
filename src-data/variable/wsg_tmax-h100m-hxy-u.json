@@ -1,5 +1,5 @@
 {
-    "id": "wsg_tmax-h100m-hxy-u",
+    "id": "wsg-tmax-h100m-hxy-u",
     "validation-key": "wsg_tmax-h100m-hxy-u",
     "ui-label": "Maximum Wind Speed of Gust at 100m",
     "description": "Maximum Wind Speed of Gust at 100m, monthly",

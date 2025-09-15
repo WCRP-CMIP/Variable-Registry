@@ -2,11 +2,12 @@
     "id": "fanthdisturb",
     "validation-key": "fanthdisturb",
     "ui-label": "fAnthDisturb",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-atmosphere-mass-content-of-carbon-dioxide-expressed-as-carbon-due-to-anthropogenic-emission",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

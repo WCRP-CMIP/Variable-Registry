@@ -1,5 +1,5 @@
 {
-    "id": "somint_tavg-u-hxy-sea",
+    "id": "somint-tavg-u-hxy-sea",
     "validation-key": "somint_tavg-u-hxy-sea",
     "ui-label": "Depth Integral of Product of Sea Water Density and Prognostic Salinity",
     "description": "Full column sum of density\\*cell thickness\\*salinity. If the model is Boussinesq, then use Boussinesq reference density for the density factor.",

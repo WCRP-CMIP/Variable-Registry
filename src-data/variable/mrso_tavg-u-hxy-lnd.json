@@ -1,5 +1,5 @@
 {
-    "id": "mrso_tavg-u-hxy-lnd",
+    "id": "mrso-tavg-u-hxy-lnd",
     "validation-key": "mrso_tavg-u-hxy-lnd",
     "ui-label": "Total Soil Moisture Content",
     "description": "the mass per unit area  (summed over all soil layers) of water in all phases.",

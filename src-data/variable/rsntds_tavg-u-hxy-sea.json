@@ -1,5 +1,5 @@
 {
-    "id": "rsntds_tavg-u-hxy-sea",
+    "id": "rsntds-tavg-u-hxy-sea",
     "validation-key": "rsntds_tavg-u-hxy-sea",
     "ui-label": "Net Downward Shortwave Radiation at Sea Water Surface",
     "description": "The radiative flux into the surface of liquid sea water only. This excludes shortwave flux absorbed by sea ice, but includes any light that passes through the ice and is absorbed by the ocean.",

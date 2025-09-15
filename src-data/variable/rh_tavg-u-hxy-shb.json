@@ -1,5 +1,5 @@
 {
-    "id": "rh_tavg-u-hxy-shb",
+    "id": "rh-tavg-u-hxy-shb",
     "validation-key": "rh_tavg-u-hxy-shb",
     "ui-label": "Heterotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RH of shrubs in the grid cell",

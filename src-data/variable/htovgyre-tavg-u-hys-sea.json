@@ -1,0 +1,33 @@
+{
+    "id": "htovgyre_tavg-u-hys-sea",
+    "validation-key": "htovgyre_tavg-u-hys-sea",
+    "ui-label": "Northward Ocean Heat Transport Due to Gyre",
+    "description": "From all advective mass transport processes, resolved and parameterized.",
+    "area-label": "sea",
+    "cell-measures": "",
+    "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hys",
+    "model-realm": "ocean",
+    "out-name": "htovgyre",
+    "physical-parameter-name": "htovgyre",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "YB-na",
+    "standard-name": "northward_ocean_heat_transport_due_to_gyre",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W",
+    "variable-root": "htovgyre",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

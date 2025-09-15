@@ -1,5 +1,5 @@
 {
-    "id": "emiisop_tavg-u-hxy-u",
+    "id": "emiisop-tavg-u-hxy-u",
     "validation-key": "emiisop_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of Isoprene",
     "description": "Integrate 3D emission field vertically to 2d field",

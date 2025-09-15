@@ -1,5 +1,5 @@
 {
-    "id": "o3_tavg-al-hxy-u",
+    "id": "o3-tavg-al-hxy-u",
     "validation-key": "o3_tavg-al-hxy-u",
     "ui-label": "Mole Fraction of O3",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

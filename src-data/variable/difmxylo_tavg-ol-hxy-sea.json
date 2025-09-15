@@ -1,5 +1,5 @@
 {
-    "id": "difmxylo_tavg-ol-hxy-sea",
+    "id": "difmxylo-tavg-ol-hxy-sea",
     "validation-key": "difmxylo_tavg-ol-hxy-sea",
     "ui-label": "Ocean Momentum XY Laplacian Diffusivity",
     "description": "Lateral Laplacian viscosity applied to the momentum equations.",

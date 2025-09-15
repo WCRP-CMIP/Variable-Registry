@@ -1,5 +1,5 @@
 {
-    "id": "tntscpbl_tpt-al-hxys-u",
+    "id": "tntscpbl-tpt-al-hxys-u",
     "validation-key": "tntscpbl_tpt-al-hxys-u",
     "ui-label": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
     "description": "To be specified only in  models which do not separate cloud, precipitation and boundary layer terms.  Includes all boundary layer terms including diffusive ones.",

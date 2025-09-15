@@ -1,5 +1,5 @@
 {
-    "id": "fNAnthDisturb_tavg-u-hxy-lnd",
+    "id": "fnanthdisturb-tavg-u-hxy-lnd",
     "validation-key": "fNAnthDisturb_tavg-u-hxy-lnd",
     "ui-label": "Nitrogen Mass Flux out of Land Due to any Human Activity",
     "description": "will require some careful definition to make sure we capture everything - any human activity that releases nitrogen from land  instead of into product pool goes here. E.g. Deforestation fire, harvest assumed to decompose straight away, grazing...",

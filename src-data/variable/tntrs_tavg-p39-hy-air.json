@@ -1,5 +1,5 @@
 {
-    "id": "tntrs_tavg-p39-hy-air",
+    "id": "tntrs-tavg-p39-hy-air",
     "validation-key": "tntrs_tavg-p39-hy-air",
     "ui-label": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
     "description": "zonal mean; hence YZT",

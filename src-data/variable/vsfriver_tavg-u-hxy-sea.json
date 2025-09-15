@@ -1,5 +1,5 @@
 {
-    "id": "vsfriver_tavg-u-hxy-sea",
+    "id": "vsfriver-tavg-u-hxy-sea",
     "validation-key": "vsfriver_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux into Sea Water from Rivers",
     "description": "zero for models using real water fluxes.",

@@ -1,5 +1,5 @@
 {
-    "id": "rlus_tavg-u-hxy-si",
+    "id": "rlus-tavg-u-hxy-si",
     "validation-key": "rlus_tavg-u-hxy-si",
     "ui-label": "Upwelling Longwave Flux over Sea Ice",
     "description": "Upward longwave flux from the sea-ice surface to the atmosphere (energy flow per sea ice area). Always positive or zero.",

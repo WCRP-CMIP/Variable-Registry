@@ -1,5 +1,5 @@
 {
-    "id": "clcalipso_tavg-220hPa-hxy-air",
+    "id": "clcalipso-tavg-220hpa-hxy-air",
     "validation-key": "clcalipso_tavg-220hPa-hxy-air",
     "ui-label": "CALIPSO High Level Cloud Area Percentage",
     "description": "Percentage cloud cover in layer centred on 220hPa",

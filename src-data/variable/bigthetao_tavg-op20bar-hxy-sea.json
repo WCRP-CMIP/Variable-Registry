@@ -1,5 +1,5 @@
 {
-    "id": "bigthetao_tavg-op20bar-hxy-sea",
+    "id": "bigthetao-tavg-op20bar-hxy-sea",
     "validation-key": "bigthetao_tavg-op20bar-hxy-sea",
     "ui-label": "Sea Water Conservative Temperature at 200 meters",
     "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",

@@ -1,5 +1,5 @@
 {
-    "id": "vas_tpt-h10m-hxy-u",
+    "id": "vas-tpt-h10m-hxy-u",
     "validation-key": "vas_tpt-h10m-hxy-u",
     "ui-label": "Surface wind speed Northward Component",
     "description": "Meridional wind (positive in a northward direction) at 10 meters above the surface.",

@@ -1,5 +1,5 @@
 {
-    "id": "gpp_tavg-u-hxy-tree",
+    "id": "gpp-tavg-u-hxy-tree",
     "validation-key": "gpp_tavg-u-hxy-tree",
     "ui-label": "Gross Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total GPP of trees in the grid cell",

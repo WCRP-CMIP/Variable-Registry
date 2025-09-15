@@ -1,5 +1,5 @@
 {
-    "id": "evspsblveg_tavg-u-hxy-u",
+    "id": "evspsblveg-tavg-u-hxy-u",
     "validation-key": "evspsblveg_tavg-u-hxy-u",
     "ui-label": "Daily water evaporation flux from canopy",
     "description": "The same as the current variable evspsblveg but defined on daily timescales.",

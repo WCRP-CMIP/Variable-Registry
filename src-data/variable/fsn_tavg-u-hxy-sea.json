@@ -1,5 +1,5 @@
 {
-    "id": "fsn_tavg-u-hxy-sea",
+    "id": "fsn-tavg-u-hxy-sea",
     "validation-key": "fsn_tavg-u-hxy-sea",
     "ui-label": "Surface Downward Net Flux of Nitrogen",
     "description": "Flux of nitrogen into the ocean due to deposition (sum of dry and wet deposition), fixation (the production of ammonia from nitrogen gas by diazotrophs) and runoff (liquid water which drains from land).",

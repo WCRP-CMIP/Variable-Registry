@@ -1,5 +1,5 @@
 {
-    "id": "psitem_tavg-p39-hy-air",
+    "id": "psitem-tavg-p39-hy-air",
     "validation-key": "psitem_tavg-p39-hy-air",
     "ui-label": "Transformed Eulerian Mean Mass Streamfunction",
     "description": "zonal mean; hence YZT",

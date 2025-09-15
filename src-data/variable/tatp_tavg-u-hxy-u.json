@@ -1,5 +1,5 @@
 {
-    "id": "tatp_tavg-u-hxy-u",
+    "id": "tatp-tavg-u-hxy-u",
     "validation-key": "tatp_tavg-u-hxy-u",
     "ui-label": "Tropopause Air Temperature",
     "description": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",

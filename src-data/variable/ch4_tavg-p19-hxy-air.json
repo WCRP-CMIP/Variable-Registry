@@ -1,5 +1,5 @@
 {
-    "id": "ch4_tavg-p19-hxy-air",
+    "id": "ch4-tavg-p19-hxy-air",
     "validation-key": "ch4_tavg-p19-hxy-air",
     "ui-label": "Mole Fraction of CH4",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

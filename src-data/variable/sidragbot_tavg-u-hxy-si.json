@@ -1,5 +1,5 @@
 {
-    "id": "sidragbot_tavg-u-hxy-si",
+    "id": "sidragbot-tavg-u-hxy-si",
     "validation-key": "sidragbot_tavg-u-hxy-si",
     "ui-label": "Ocean Drag Coefficient",
     "description": "Oceanic drag coefficient that is used to calculate the oceanic momentum drag on sea ice.",

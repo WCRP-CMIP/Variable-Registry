@@ -1,5 +1,5 @@
 {
-    "id": "mmroa_tavg-al-hxy-u",
+    "id": "mmroa-tavg-al-hxy-u",
     "validation-key": "mmroa_tavg-al-hxy-u",
     "ui-label": "Total Organic Aerosol Mass Mixing Ratio",
     "description": "We recommend a scale factor of POM=1.4\\*OC, unless your model has more detailed info available.",

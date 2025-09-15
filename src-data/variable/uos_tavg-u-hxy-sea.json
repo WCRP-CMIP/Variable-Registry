@@ -1,5 +1,5 @@
 {
-    "id": "uos_tavg-u-hxy-sea",
+    "id": "uos-tavg-u-hxy-sea",
     "validation-key": "uos_tavg-u-hxy-sea",
     "ui-label": "Daily Surface Sea Water X Velocity",
     "description": "Daily surface prognostic x-ward velocity component resolved by the model.",

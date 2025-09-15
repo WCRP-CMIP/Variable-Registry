@@ -1,5 +1,5 @@
 {
-    "id": "rluscsaf_tavg-u-hxy-u",
+    "id": "rluscsaf-tavg-u-hxy-u",
     "validation-key": "rluscsaf_tavg-u-hxy-u",
     "ui-label": "Surface Upwelling Clear-Sky, Aerosol-Free Longwave Radiation",
     "description": "Flux corresponding to rluscs resulting from an aerosol-free call to radiation",

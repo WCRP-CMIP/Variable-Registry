@@ -1,5 +1,5 @@
 {
-    "id": "masso_tavg-u-hm-sea",
+    "id": "masso-tavg-u-hm-sea",
     "validation-key": "masso_tavg-u-hm-sea",
     "ui-label": "Sea Water Mass",
     "description": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",

@@ -1,5 +1,5 @@
 {
-    "id": "vsfevap_tavg-u-hxy-sea",
+    "id": "vsfevap-tavg-u-hxy-sea",
     "validation-key": "vsfevap_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux into Sea Water Due to Evaporation",
     "description": "zero for models using real water fluxes.",

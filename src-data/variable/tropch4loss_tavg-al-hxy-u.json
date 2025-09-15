@@ -1,5 +1,5 @@
 {
-    "id": "tropch4loss_tavg-al-hxy-u",
+    "id": "tropch4loss-tavg-al-hxy-u",
     "validation-key": "tropch4loss_tavg-al-hxy-u",
     "ui-label": "Loss of Tropospheric Methane by all chemical destruction",
     "description": "This is the loss rate of tropospheric methane by all chemical destruction. The distinction between stratosphere and troposphere should be consistent with the tropopause used in the calculation of the tropopause pressure (ptp).  It should have zero values in the stratosphere.",

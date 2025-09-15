@@ -1,5 +1,5 @@
 {
-    "id": "tntc_tavg-p39-hy-air",
+    "id": "tntc-tavg-p39-hy-air",
     "validation-key": "tntc_tavg-p39-hy-air",
     "ui-label": "Tendency of Air Temperature Due to Convection",
     "description": "zonal mean; hence YZT",

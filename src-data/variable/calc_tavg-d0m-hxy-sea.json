@@ -1,5 +1,5 @@
 {
-    "id": "calc_tavg-d0m-hxy-sea",
+    "id": "calc-tavg-d0m-hxy-sea",
     "validation-key": "calc_tavg-d0m-hxy-sea",
     "ui-label": "Surface Calcite Concentration",
     "description": "sum of particulate calcite component concentrations (e.g. Phytoplankton, Detrital, etc.)",

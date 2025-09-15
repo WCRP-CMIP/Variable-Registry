@@ -2,11 +2,12 @@
     "id": "od550oa",
     "validation-key": "od550oa",
     "ui-label": "od550oa",
+    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere-optical-thickness-due-to-particulate-organic-matter-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

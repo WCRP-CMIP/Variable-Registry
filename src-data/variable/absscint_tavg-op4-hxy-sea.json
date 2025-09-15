@@ -1,5 +1,5 @@
 {
-    "id": "absscint_tavg-op4-hxy-sea",
+    "id": "absscint-tavg-op4-hxy-sea",
     "validation-key": "absscint_tavg-op4-hxy-sea",
     "ui-label": "Integral wrt depth of seawater absolute salinity expressed as salt mass content",
     "description": "This is a fundamental aspect of the changes in the hydrological cycle and their impact on the oceans, and due to new numerical schemes and vertical discretizations, it is important to calculate it consistently with the model formulation.",

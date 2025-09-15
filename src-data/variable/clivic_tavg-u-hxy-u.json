@@ -1,5 +1,5 @@
 {
-    "id": "clivic_tavg-u-hxy-u",
+    "id": "clivic-tavg-u-hxy-u",
     "validation-key": "clivic_tavg-u-hxy-u",
     "ui-label": "Convective Ice Water Path",
     "description": "calculate mass of convective ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). This includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",

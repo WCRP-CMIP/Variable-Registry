@@ -1,5 +1,5 @@
 {
-    "id": "osalttend_tavg-ol-hxy-sea",
+    "id": "osalttend-tavg-ol-hxy-sea",
     "validation-key": "osalttend_tavg-ol-hxy-sea",
     "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content",
     "description": "Tendency of salt content for a grid cell from all processes.",

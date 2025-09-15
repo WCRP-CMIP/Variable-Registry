@@ -1,5 +1,5 @@
 {
-    "id": "hfbasinpmdiff_tavg-u-hys-sea",
+    "id": "hfbasinpmdiff-tavg-u-hys-sea",
     "validation-key": "hfbasinpmdiff_tavg-u-hys-sea",
     "ui-label": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
     "description": "Contributions to heat transport from parameterized mesoscale eddy-induced diffusive transport (i.e., neutral diffusion). Diagnosed here as a function of latitude and basin.",

@@ -1,0 +1,33 @@
+{
+    "id": "hfbasin_tavg-u-hys-sea",
+    "validation-key": "hfbasin_tavg-u-hys-sea",
+    "ui-label": "Northward Ocean Heat Transport",
+    "description": "Contains contributions from all physical processes affecting the northward heat transport, including resolved advection, parameterized advection, lateral diffusion, etc. Diagnosed here as a function of latitude and basin.   Use Celsius for temperature scale.",
+    "area-label": "sea",
+    "cell-measures": "",
+    "cell-methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hys",
+    "model-realm": "ocean",
+    "out-name": "hfbasin",
+    "physical-parameter-name": "hfbasin",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "YB-na",
+    "standard-name": "northward_ocean_heat_transport",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W",
+    "variable-root": "hfbasin",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

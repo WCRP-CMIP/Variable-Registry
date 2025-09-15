@@ -1,5 +1,5 @@
 {
-    "id": "tropdo3chm_tavg-al-hxy-u",
+    "id": "tropdo3chm-tavg-al-hxy-u",
     "validation-key": "tropdo3chm_tavg-al-hxy-u",
     "ui-label": "Net Chemistry Tendency of O3 in troposphere",
     "description": "This is the net chemical tendency of ozone in the troposphere. The distinction between the stratosphere and troposphere should be consistent with the definition of the tropopause used in the calculation of the tropopause pressure (ptp). It should have zero values in the stratosphere.",

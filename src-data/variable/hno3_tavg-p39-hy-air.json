@@ -1,5 +1,5 @@
 {
-    "id": "hno3_tavg-p39-hy-air",
+    "id": "hno3-tavg-p39-hy-air",
     "validation-key": "hno3_tavg-p39-hy-air",
     "ui-label": "HNO3 Volume Mixing Ratio",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

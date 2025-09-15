@@ -1,5 +1,5 @@
 {
-    "id": "tnpeo_tavg-u-hxy-sea",
+    "id": "tnpeo-tavg-u-hxy-sea",
     "validation-key": "tnpeo_tavg-u-hxy-sea",
     "ui-label": "Tendency of Ocean Potential Energy Content",
     "description": "Rate that work is done against vertical stratification, as measured by the vertical heat and salt diffusivity. Report here as depth integrated two-dimensional field.",

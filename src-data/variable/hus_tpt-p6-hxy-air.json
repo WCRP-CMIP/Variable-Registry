@@ -1,5 +1,5 @@
 {
-    "id": "hus_tpt-p6-hxy-air",
+    "id": "hus-tpt-p6-hxy-air",
     "validation-key": "hus_tpt-p6-hxy-air",
     "ui-label": "Specific humidity",
     "description": "Specific humidity on 6 pressure levels in the lower troposphere",

@@ -1,5 +1,5 @@
 {
-    "id": "thetao_tavg-op20bar-hxy-sea",
+    "id": "thetao-tavg-op20bar-hxy-sea",
     "validation-key": "thetao_tavg-op20bar-hxy-sea",
     "ui-label": "Sea Water Potential Temperature at 200 meters",
     "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",

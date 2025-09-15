@@ -1,5 +1,5 @@
 {
-    "id": "burntFractionAll_tavg-u-hxy-u",
+    "id": "burntfractionall-tavg-u-hxy-u",
     "validation-key": "burntFractionAll_tavg-u-hxy-u",
     "ui-label": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
     "description": "Percentage of grid cell burned due to all fires including natural and anthropogenic fires and those associated with anthropogenic land use change",

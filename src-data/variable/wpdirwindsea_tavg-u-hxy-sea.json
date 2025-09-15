@@ -1,5 +1,5 @@
 {
-    "id": "wpdirwindsea_tavg-u-hxy-sea",
+    "id": "wpdirwindsea-tavg-u-hxy-sea",
     "validation-key": "wpdirwindsea_tavg-u-hxy-sea",
     "ui-label": "Wind Sea Peak Wave Direction",
     "description": "Direction of wave propagation (direction from which the wave is coming) derived from the wind-sea component of the wave energy spectrum (i.e., local wind waves), by identifying the direction associated with the peak (maximum) energy density. This variable is typically expressed in degrees relative to true north.",

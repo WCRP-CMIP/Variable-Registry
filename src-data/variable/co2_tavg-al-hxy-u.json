@@ -1,5 +1,5 @@
 {
-    "id": "co2_tavg-al-hxy-u",
+    "id": "co2-tavg-al-hxy-u",
     "validation-key": "co2_tavg-al-hxy-u",
     "ui-label": "Mole Fraction of CO2",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

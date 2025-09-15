@@ -1,5 +1,5 @@
 {
-    "id": "clcalipso_tavg-h40-hxy-air",
+    "id": "clcalipso-tavg-h40-hxy-air",
     "validation-key": "clcalipso_tavg-h40-hxy-air",
     "ui-label": "CALIPSO Percentage Cloud Cover",
     "description": "Percentage cloud cover in CALIPSO standard atmospheric layers.",

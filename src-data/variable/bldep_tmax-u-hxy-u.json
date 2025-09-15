@@ -1,5 +1,5 @@
 {
-    "id": "bldep_tmax-u-hxy-u",
+    "id": "bldep-tmax-u-hxy-u",
     "validation-key": "bldep_tmax-u-hxy-u",
     "ui-label": "Maximum PBL Height",
     "description": "maximum boundary layer height during the day (add cell_methods attribute: \"time: maximum\")",

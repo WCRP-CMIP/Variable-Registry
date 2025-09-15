@@ -1,5 +1,5 @@
 {
-    "id": "mrsolLut_tavg-d10cm-hxy-multi",
+    "id": "mrsollut-tavg-d10cm-hxy-multi",
     "validation-key": "mrsolLut_tavg-d10cm-hxy-multi",
     "ui-label": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
     "description": "the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm",

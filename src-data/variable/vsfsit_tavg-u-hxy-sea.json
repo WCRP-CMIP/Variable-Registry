@@ -1,5 +1,5 @@
 {
-    "id": "vsfsit_tavg-u-hxy-sea",
+    "id": "vsfsit-tavg-u-hxy-sea",
     "validation-key": "vsfsit_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
     "description": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux.",

@@ -1,5 +1,5 @@
 {
-    "id": "dfe_tavg-ol-hxy-sea",
+    "id": "dfe-tavg-ol-hxy-sea",
     "validation-key": "dfe_tavg-ol-hxy-sea",
     "ui-label": "Dissolved Iron Concentration",
     "description": "dissolved iron in sea water is meant to include both Fe2+ and Fe3+ ions (but not, e.g., particulate detrital iron)",

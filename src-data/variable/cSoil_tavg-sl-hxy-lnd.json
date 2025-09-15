@@ -1,5 +1,5 @@
 {
-    "id": "cSoil_tavg-sl-hxy-lnd",
+    "id": "csoil-tavg-sl-hxy-lnd",
     "validation-key": "cSoil_tavg-sl-hxy-lnd",
     "ui-label": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
     "description": "for models with vertically discretised soil carbon, report total soil carbon for each level",

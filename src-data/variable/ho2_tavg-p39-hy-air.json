@@ -1,5 +1,5 @@
 {
-    "id": "ho2_tavg-p39-hy-air",
+    "id": "ho2-tavg-p39-hy-air",
     "validation-key": "ho2_tavg-p39-hy-air",
     "ui-label": "HO2 Volume Mixing Ratio",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hydroperoxyl radical is HO2.",

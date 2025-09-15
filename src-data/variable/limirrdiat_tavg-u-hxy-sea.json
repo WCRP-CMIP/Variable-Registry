@@ -1,5 +1,5 @@
 {
-    "id": "limirrdiat_tavg-u-hxy-sea",
+    "id": "limirrdiat-tavg-u-hxy-sea",
     "validation-key": "limirrdiat_tavg-u-hxy-sea",
     "ui-label": "Irradiance Limitation of Diatoms",
     "description": "Growth limitation of diatoms due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",

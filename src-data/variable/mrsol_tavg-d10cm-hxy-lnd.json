@@ -1,5 +1,5 @@
 {
-    "id": "mrsol_tavg-d10cm-hxy-lnd",
+    "id": "mrsol-tavg-d10cm-hxy-lnd",
     "validation-key": "mrsol_tavg-d10cm-hxy-lnd",
     "ui-label": "Moisture in Upper Portion of Soil Column",
     "description": "the mass of water in all phases in a thin surface soil layer.",

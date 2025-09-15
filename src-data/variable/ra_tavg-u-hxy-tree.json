@@ -1,5 +1,5 @@
 {
-    "id": "ra_tavg-u-hxy-tree",
+    "id": "ra-tavg-u-hxy-tree",
     "validation-key": "ra_tavg-u-hxy-tree",
     "ui-label": "Autotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RA of trees in the grid cell",

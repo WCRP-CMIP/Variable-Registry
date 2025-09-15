@@ -1,0 +1,34 @@
+{
+    "id": "meanage_tavg-al-hxy-u",
+    "validation-key": "meanage_tavg-al-hxy-u",
+    "ui-label": "Mean Age of Stratospheric Air",
+    "description": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmoschem",
+    "out-name": "meanage",
+    "physical-parameter-name": "meanage",
+    "positive": "",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "age_of_stratospheric_air",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "yr",
+    "variable-root": "meanage",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

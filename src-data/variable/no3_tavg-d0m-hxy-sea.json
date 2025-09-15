@@ -1,5 +1,5 @@
 {
-    "id": "no3_tavg-d0m-hxy-sea",
+    "id": "no3-tavg-d0m-hxy-sea",
     "validation-key": "no3_tavg-d0m-hxy-sea",
     "ui-label": "Surface Dissolved Nitrate Concentration",
     "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",

@@ -1,5 +1,5 @@
 {
-    "id": "tropoz_tavg-u-hxy-u",
+    "id": "tropoz-tavg-u-hxy-u",
     "validation-key": "tropoz_tavg-u-hxy-u",
     "ui-label": "Tropospheric Ozone Column",
     "description": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp).",

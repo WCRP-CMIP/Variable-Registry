@@ -1,5 +1,5 @@
 {
-    "id": "osaltpsmadvect_tavg-ol-hxy-sea",
+    "id": "osaltpsmadvect-tavg-ol-hxy-sea",
     "validation-key": "osaltpsmadvect_tavg-ol-hxy-sea",
     "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection",
     "description": "Tendency of salt content for a grid cell from parameterized submesoscale eddy advection.",

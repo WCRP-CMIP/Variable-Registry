@@ -1,5 +1,5 @@
 {
-    "id": "tas_tmax-h2m-hxy-crp",
+    "id": "tas-tmax-h2m-hxy-crp",
     "validation-key": "tas_tmax-h2m-hxy-crp",
     "ui-label": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
     "description": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: max\")",

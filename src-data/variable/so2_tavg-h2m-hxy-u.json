@@ -1,5 +1,5 @@
 {
-    "id": "so2_tavg-h2m-hxy-u",
+    "id": "so2-tavg-h2m-hxy-u",
     "validation-key": "so2_tavg-h2m-hxy-u",
     "ui-label": "Surface SO2 volume mixing ratio at CF sites",
     "description": "This variable represents the instantaneous surface so2 volume mixing ration at CF sites, sampled every 3 hours",

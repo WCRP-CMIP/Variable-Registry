@@ -1,5 +1,5 @@
 {
-    "id": "siflswdbot_tavg-u-hxy-si",
+    "id": "siflswdbot-tavg-u-hxy-si",
     "validation-key": "siflswdbot_tavg-u-hxy-si",
     "ui-label": "Downwelling Shortwave Flux under Sea Ice",
     "description": "Downwelling shortwave flux underneath sea ice, i.e. the amount of shortwave radiation that penetrates the sea ice and reaches the sea ice-ocean interface (energy flow per sea ice area). Always positive or zero.",

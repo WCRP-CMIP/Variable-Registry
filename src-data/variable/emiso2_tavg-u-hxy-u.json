@@ -1,5 +1,5 @@
 {
-    "id": "emiso2_tavg-u-hxy-u",
+    "id": "emiso2-tavg-u-hxy-u",
     "validation-key": "emiso2_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of SO2",
     "description": "Integrate 3D emission field vertically to 2d field.",

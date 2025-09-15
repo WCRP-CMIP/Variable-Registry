@@ -1,5 +1,5 @@
 {
-    "id": "pctisccp_tavg-u-hxy-cl",
+    "id": "pctisccp-tavg-u-hxy-cl",
     "validation-key": "pctisccp_tavg-u-hxy-cl",
     "ui-label": "ISCCP Mean Cloud Top Pressure",
     "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",

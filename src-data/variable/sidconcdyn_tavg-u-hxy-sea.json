@@ -1,5 +1,5 @@
 {
-    "id": "sidconcdyn_tavg-u-hxy-sea",
+    "id": "sidconcdyn-tavg-u-hxy-sea",
     "validation-key": "sidconcdyn_tavg-u-hxy-sea",
     "ui-label": "Sea-Ice Area Fraction Tendency Due to Dynamics",
     "description": "Total rate of change in sea-ice area fraction through dynamics-related processes (advection, divergence, etc.).",

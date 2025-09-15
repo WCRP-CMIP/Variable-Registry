@@ -1,5 +1,5 @@
 {
-    "id": "simpthick_tavg-u-hxy-simp",
+    "id": "simpthick-tavg-u-hxy-simp",
     "validation-key": "simpthick_tavg-u-hxy-simp",
     "ui-label": "Melt Pond Depth",
     "description": "Average depth of melt ponds on sea ice, that is melt pond volume divided by melt pond area.",

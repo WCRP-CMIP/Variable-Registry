@@ -1,5 +1,5 @@
 {
-    "id": "rsutcsch4ref_tavg-u-hxy-u",
+    "id": "rsutcsch4ref-tavg-u-hxy-u",
     "validation-key": "rsutcsch4ref_tavg-u-hxy-u",
     "ui-label": "TOA outgoing shortwave flux assuming clear-sky and reference methane field",
     "description": "This is the outgoing shortwave flux at the top-of-atmosphere for clear-sky conditions from a diagnostic call to the radiation scheme with a reference methane field",

@@ -1,5 +1,5 @@
 {
-    "id": "chl_tavg-d0m-hxy-sea",
+    "id": "chl-tavg-d0m-hxy-sea",
     "validation-key": "chl_tavg-d0m-hxy-sea",
     "ui-label": "Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
     "description": "sum of chlorophyll from all phytoplankton group concentrations.  In most models this is equal to chldiat+chlmisc, that is the sum of \"Diatom Chlorophyll Mass Concentration\" plus \"Other Phytoplankton Chlorophyll Mass Concentration\"",

@@ -1,5 +1,5 @@
 {
-    "id": "masscello_tavg-ol-hxy-sea",
+    "id": "masscello-tavg-ol-hxy-sea",
     "validation-key": "masscello_tavg-ol-hxy-sea",
     "ui-label": "Ocean Grid-Cell Mass per Area",
     "description": "For Boussinesq models, report this diagnostic as Boussinesq reference density times grid celll volume.",

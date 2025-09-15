@@ -1,5 +1,5 @@
 {
-    "id": "rsds_tavg-u-hxy-si",
+    "id": "rsds-tavg-u-hxy-si",
     "validation-key": "rsds_tavg-u-hxy-si",
     "ui-label": "Downwelling Shortwave Flux over Sea Ice",
     "description": "Downwelling shortwave flux from the atmosphere to the sea-ice surface (energy flow per sea ice area). Always positive or zero.",

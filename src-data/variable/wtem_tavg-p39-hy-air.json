@@ -1,5 +1,5 @@
 {
-    "id": "wtem_tavg-p39-hy-air",
+    "id": "wtem-tavg-p39-hy-air",
     "validation-key": "wtem_tavg-p39-hy-air",
     "ui-label": "Transformed Eulerian Mean Upward Wind",
     "description": "Transformed Eulerian Mean Diagnostics w\\*, upward component of the residual meridional circulation (v\\*, w\\*) derived from 6 hr or higher frequency data fields (use instantaneous daily fields or 12 hr fields if the 6 hr data are not available). Scale height: 6950 m",

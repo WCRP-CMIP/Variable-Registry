@@ -1,5 +1,5 @@
 {
-    "id": "chcint_tavg-op4-hxy-sea",
+    "id": "chcint-tavg-op4-hxy-sea",
     "validation-key": "chcint_tavg-op4-hxy-sea",
     "ui-label": "Depth Integrated Seawater Conservative Temperature Expressed As Heat Content",
     "description": "This is the vertically-integrated heat content derived from conservative temperature (bigthetao).",

@@ -1,5 +1,5 @@
 {
-    "id": "phyc_tavg-ol-hxy-sea",
+    "id": "phyc-tavg-ol-hxy-sea",
     "validation-key": "phyc_tavg-ol-hxy-sea",
     "ui-label": "Phytoplankton Carbon Concentration",
     "description": "sum of phytoplankton carbon component concentrations.  In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., \"Diatom Carbon Concentration\" and \"Non-Diatom Phytoplankton Carbon Concentration\"",

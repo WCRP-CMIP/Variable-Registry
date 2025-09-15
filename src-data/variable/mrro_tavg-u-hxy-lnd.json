@@ -1,5 +1,5 @@
 {
-    "id": "mrro_tavg-u-hxy-lnd",
+    "id": "mrro-tavg-u-hxy-lnd",
     "validation-key": "mrro_tavg-u-hxy-lnd",
     "ui-label": "Total Runoff",
     "description": "the total runoff (including \"drainage\" through the base of the soil model) leaving the land portion of the grid cell.",

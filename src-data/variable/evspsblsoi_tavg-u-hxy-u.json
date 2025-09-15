@@ -1,5 +1,5 @@
 {
-    "id": "evspsblsoi_tavg-u-hxy-u",
+    "id": "evspsblsoi-tavg-u-hxy-u",
     "validation-key": "evspsblsoi_tavg-u-hxy-u",
     "ui-label": "Daily water evaporation flux from soil",
     "description": "Water evaporation flux from soil but for daily averages i.e., the evspsblsoi variable, which is only currently defined for monthly averages",

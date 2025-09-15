@@ -1,5 +1,5 @@
 {
-    "id": "deptho_ti-u-hxy-sea",
+    "id": "deptho-ti-u-hxy-sea",
     "validation-key": "deptho_ti-u-hxy-sea",
     "ui-label": "Sea Floor Depth Below Geoid",
     "description": "Ocean bathymetry. Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",

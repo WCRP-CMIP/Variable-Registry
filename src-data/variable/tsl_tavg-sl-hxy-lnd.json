@@ -1,5 +1,5 @@
 {
-    "id": "tsl_tavg-sl-hxy-lnd",
+    "id": "tsl-tavg-sl-hxy-lnd",
     "validation-key": "tsl_tavg-sl-hxy-lnd",
     "ui-label": "Temperature of Soil",
     "description": "Temperature of each soil layer.  Reported as \"missing\" for grid cells occupied entirely by \"sea\".",

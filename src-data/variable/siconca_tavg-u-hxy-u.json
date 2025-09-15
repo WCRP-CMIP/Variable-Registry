@@ -1,5 +1,5 @@
 {
-    "id": "siconca_tavg-u-hxy-u",
+    "id": "siconca-tavg-u-hxy-u",
     "validation-key": "siconca_tavg-u-hxy-u",
     "ui-label": "Sea-Ice Area Fraction (Atmospheric Grid)",
     "description": "Areal fraction of a given grid cell that is covered by sea ice on the atmosphere grid, independent of the thickness of that ice.",

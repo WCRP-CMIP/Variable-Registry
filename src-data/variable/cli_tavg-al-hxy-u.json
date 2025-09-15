@@ -1,5 +1,5 @@
 {
-    "id": "cli_tavg-al-hxy-u",
+    "id": "cli-tavg-al-hxy-u",
     "validation-key": "cli_tavg-al-hxy-u",
     "ui-label": "Mass Fraction of Cloud Ice",
     "description": "Calculated as the mass of cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",

@@ -1,5 +1,5 @@
 {
-    "id": "hfrunoffds_tavg-ol-hxy-sea",
+    "id": "hfrunoffds-tavg-ol-hxy-sea",
     "validation-key": "hfrunoffds_tavg-ol-hxy-sea",
     "ui-label": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
     "description": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius.",

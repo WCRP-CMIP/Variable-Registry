@@ -1,5 +1,5 @@
 {
-    "id": "ua_tavg-p19-hxy-air",
+    "id": "ua-tavg-p19-hxy-air",
     "validation-key": "ua_tavg-p19-hxy-air",
     "ui-label": "Eastward Wind",
     "description": "Zonal wind (positive in a eastward direction).",

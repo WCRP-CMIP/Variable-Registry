@@ -1,5 +1,5 @@
 {
-    "id": "sfy_tavg-u-hxy-sea",
+    "id": "sfy-tavg-u-hxy-sea",
     "validation-key": "sfy_tavg-u-hxy-sea",
     "ui-label": "Vertically Integrated Ocean Salt Mass Y Transport",
     "description": "Ocean salt mass y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",

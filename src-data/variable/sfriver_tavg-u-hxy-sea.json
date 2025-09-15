@@ -1,5 +1,5 @@
 {
-    "id": "sfriver_tavg-u-hxy-sea",
+    "id": "sfriver-tavg-u-hxy-sea",
     "validation-key": "sfriver_tavg-u-hxy-sea",
     "ui-label": "Salt Flux into Sea Water from Rivers",
     "description": "This field is physical, and it arises when rivers carry a nonzero salt content.  Often this is zero, with rivers assumed to be fresh.",

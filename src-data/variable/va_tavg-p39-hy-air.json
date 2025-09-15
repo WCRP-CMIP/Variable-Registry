@@ -1,5 +1,5 @@
 {
-    "id": "va_tavg-p39-hy-air",
+    "id": "va-tavg-p39-hy-air",
     "validation-key": "va_tavg-p39-hy-air",
     "ui-label": "Northward Wind",
     "description": "Meridional wind (positive in a northward direction).",

@@ -1,5 +1,5 @@
 {
-    "id": "tntmp_tavg-p39-hy-air",
+    "id": "tntmp-tavg-p39-hy-air",
     "validation-key": "tntmp_tavg-p39-hy-air",
     "ui-label": "Tendency of Air Temperature Due to Model Physics",
     "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",

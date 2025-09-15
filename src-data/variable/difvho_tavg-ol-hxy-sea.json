@@ -1,5 +1,5 @@
 {
-    "id": "difvho_tavg-ol-hxy-sea",
+    "id": "difvho-tavg-ol-hxy-sea",
     "validation-key": "difvho_tavg-ol-hxy-sea",
     "ui-label": "Ocean Vertical Heat Diffusivity",
     "description": "Vertical/dianeutral diffusivity applied to prognostic temperature field.",

@@ -1,5 +1,5 @@
 {
-    "id": "fgco2_tavg-u-hxy-sea",
+    "id": "fgco2-tavg-u-hxy-sea",
     "validation-key": "fgco2_tavg-u-hxy-sea",
     "ui-label": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
     "description": "Gas exchange flux of CO2 (positive into ocean)",

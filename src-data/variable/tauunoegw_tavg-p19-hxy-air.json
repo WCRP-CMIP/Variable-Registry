@@ -1,5 +1,5 @@
 {
-    "id": "tauunoegw_tavg-p19-hxy-air",
+    "id": "tauunoegw-tavg-p19-hxy-air",
     "validation-key": "tauunoegw_tavg-p19-hxy-air",
     "ui-label": "Eastward Reynolds stress from non-orographic eastward gravity wave parameterization",
     "description": "Vertical flux of zonal momentum within the non-orographic gravity wave parameterization associated with the eastward propagating modes.",

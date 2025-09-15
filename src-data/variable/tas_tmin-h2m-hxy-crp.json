@@ -1,5 +1,5 @@
 {
-    "id": "tas_tmin-h2m-hxy-crp",
+    "id": "tas-tmin-h2m-hxy-crp",
     "validation-key": "tas_tmin-h2m-hxy-crp",
     "ui-label": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
     "description": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")",

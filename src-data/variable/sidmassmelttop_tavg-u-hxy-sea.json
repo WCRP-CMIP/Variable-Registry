@@ -1,5 +1,5 @@
 {
-    "id": "sidmassmelttop_tavg-u-hxy-sea",
+    "id": "sidmassmelttop-tavg-u-hxy-sea",
     "validation-key": "sidmassmelttop_tavg-u-hxy-sea",
     "ui-label": "Sea-Ice Mass Change Through Surface Melting",
     "description": "Rate of change of sea-ice mass through melting at the ice surface divided by grid-cell area. This number is independent of the actual fate of the meltwater, and will hence include all sea-ice meltwater that drains into the ocean and all sea-ice meltwater that is collected by a melt-pond parameterisation. Always negative or zero.",

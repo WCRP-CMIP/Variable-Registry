@@ -1,5 +1,5 @@
 {
-    "id": "sisndmassdyn_tavg-u-hxy-si",
+    "id": "sisndmassdyn-tavg-u-hxy-si",
     "validation-key": "sisndmassdyn_tavg-u-hxy-si",
     "ui-label": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
     "description": "Rate of change of snow mass due to sea ice dynamics (advection, divergence, etc.) divided by grid-cell area.",

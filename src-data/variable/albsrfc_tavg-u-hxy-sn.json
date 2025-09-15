@@ -1,5 +1,5 @@
 {
-    "id": "albsrfc_tavg-u-hxy-sn",
+    "id": "albsrfc-tavg-u-hxy-sn",
     "validation-key": "albsrfc_tavg-u-hxy-sn",
     "ui-label": "Snow Albedo",
     "description": "This is similar to Eday.albsn, but providing monthly averages",

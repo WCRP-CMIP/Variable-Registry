@@ -1,5 +1,5 @@
 {
-    "id": "clmisr_tavg-h16-hxy-air",
+    "id": "clmisr-tavg-h16-hxy-air",
     "validation-key": "clmisr_tavg-h16-hxy-air",
     "ui-label": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
     "description": "MISR cloud area fraction",

@@ -1,5 +1,5 @@
 {
-    "id": "siforceintstry_tavg-u-hxy-si",
+    "id": "siforceintstry-tavg-u-hxy-si",
     "validation-key": "siforceintstry_tavg-u-hxy-si",
     "ui-label": "Internal Stress Term in Force Balance (Y-Component)",
     "description": "Y-component of the force on sea ice caused by internal stress (divergence of sigma) divided by grid-cell area.",

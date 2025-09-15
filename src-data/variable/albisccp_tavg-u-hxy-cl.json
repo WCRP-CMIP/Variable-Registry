@@ -1,5 +1,5 @@
 {
-    "id": "albisccp_tavg-u-hxy-cl",
+    "id": "albisccp-tavg-u-hxy-cl",
     "validation-key": "albisccp_tavg-u-hxy-cl",
     "ui-label": "ISCCP Mean Cloud Albedo",
     "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",

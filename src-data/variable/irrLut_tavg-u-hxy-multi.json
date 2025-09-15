@@ -1,5 +1,5 @@
 {
-    "id": "irrLut_tavg-u-hxy-multi",
+    "id": "irrlut-tavg-u-hxy-multi",
     "validation-key": "irrLut_tavg-u-hxy-multi",
     "ui-label": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
     "description": "Mass flux of water due to irrigation.",

@@ -1,5 +1,5 @@
 {
-    "id": "thetao_tavg-d2000m-hxy-sea",
+    "id": "thetao-tavg-d2000m-hxy-sea",
     "validation-key": "thetao_tavg-d2000m-hxy-sea",
     "ui-label": "Depth Average Potential Temperature of Upper 2000m",
     "description": "Upper 2000m, 2D field",

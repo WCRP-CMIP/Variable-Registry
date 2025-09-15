@@ -1,5 +1,5 @@
 {
-    "id": "nh4_tavg-ol-hxy-sea",
+    "id": "nh4-tavg-ol-hxy-sea",
     "validation-key": "nh4_tavg-ol-hxy-sea",
     "ui-label": "Dissolved Ammonium Concentration",
     "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",

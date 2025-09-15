@@ -1,5 +1,5 @@
 {
-    "id": "msftm_tavg-rho-hys-sea",
+    "id": "msftm-tavg-rho-hys-sea",
     "validation-key": "msftm_tavg-rho-hys-sea",
     "ui-label": "Ocean Meridional Overturning Mass Streamfunction",
     "description": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",

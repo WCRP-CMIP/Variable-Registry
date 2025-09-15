@@ -1,5 +1,5 @@
 {
-    "id": "mcd_tavg-alh-hxy-u",
+    "id": "mcd-tavg-alh-hxy-u",
     "validation-key": "mcd_tavg-alh-hxy-u",
     "ui-label": "Downdraft Convective Mass Flux",
     "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",

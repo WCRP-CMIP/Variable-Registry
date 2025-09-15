@@ -1,5 +1,5 @@
 {
-    "id": "nppLeaf_tavg-u-hxy-lnd",
+    "id": "nppleaf-tavg-u-hxy-lnd",
     "validation-key": "nppLeaf_tavg-u-hxy-lnd",
     "ui-label": "Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "This is the rate of carbon uptake by leaves due to NPP",

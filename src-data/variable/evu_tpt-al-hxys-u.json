@@ -1,5 +1,5 @@
 {
-    "id": "evu_tpt-al-hxys-u",
+    "id": "evu-tpt-al-hxys-u",
     "validation-key": "evu_tpt-al-hxys-u",
     "ui-label": "Eddy Viscosity Coefficient for Momentum",
     "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",

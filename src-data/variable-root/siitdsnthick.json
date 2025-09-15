@@ -2,11 +2,12 @@
     "id": "siitdsnthick",
     "validation-key": "siitdsnthick",
     "ui-label": "siitdsnthick",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-snow-thickness",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

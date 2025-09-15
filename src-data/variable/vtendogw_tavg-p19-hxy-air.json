@@ -1,5 +1,5 @@
 {
-    "id": "vtendogw_tavg-p19-hxy-air",
+    "id": "vtendogw-tavg-p19-hxy-air",
     "validation-key": "vtendogw_tavg-p19-hxy-air",
     "ui-label": "Northward Acceleration Due to Orographic Gravity Wave Drag",
     "description": "Tendency of northward wind induced by the parameterized orographic gravity wave drag",

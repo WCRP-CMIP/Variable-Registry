@@ -2,11 +2,12 @@
     "id": "npproot",
     "validation-key": "npproot",
     "ui-label": "nppRoot",
+    "description": "",
     "data-type": "real",
     "standard-name": "net-primary-productivity-of-biomass-expressed-as-carbon-accumulated-in-roots",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

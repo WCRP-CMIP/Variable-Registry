@@ -1,5 +1,5 @@
 {
-    "id": "rlds_tavg-u-hxy-is",
+    "id": "rlds-tavg-u-hxy-is",
     "validation-key": "rlds_tavg-u-hxy-is",
     "ui-label": "Ice Sheet Surface Downwelling Longwave Radiation",
     "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",

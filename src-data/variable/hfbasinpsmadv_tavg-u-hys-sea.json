@@ -1,5 +1,5 @@
 {
-    "id": "hfbasinpsmadv_tavg-u-hys-sea",
+    "id": "hfbasinpsmadv-tavg-u-hys-sea",
     "validation-key": "hfbasinpsmadv_tavg-u-hys-sea",
     "ui-label": "Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection",
     "description": "Contributions to heat transport from parameterized mesoscale eddy-induced advective transport. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",

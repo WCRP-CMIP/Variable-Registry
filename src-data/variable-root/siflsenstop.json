@@ -2,11 +2,12 @@
     "id": "siflsenstop",
     "validation-key": "siflsenstop",
     "ui-label": "siflsenstop",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-downward-sensible-heat-flux",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "id": "nppStem_tavg-u-hxy-lnd",
+    "id": "nppstem-tavg-u-hxy-lnd",
     "validation-key": "nppStem_tavg-u-hxy-lnd",
     "ui-label": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "added for completeness with npp_root",

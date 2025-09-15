@@ -1,5 +1,5 @@
 {
-    "id": "clivimodis_tavg-u-hxy-u",
+    "id": "clivimodis-tavg-u-hxy-u",
     "validation-key": "clivimodis_tavg-u-hxy-u",
     "ui-label": "MODIS Ice Water Path",
     "description": "Mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column) as seen by the MODIS instrument simulator.",

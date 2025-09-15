@@ -1,5 +1,5 @@
 {
-    "id": "sidivvel_tpt-u-hxy-si",
+    "id": "sidivvel-tpt-u-hxy-si",
     "validation-key": "sidivvel_tpt-u-hxy-si",
     "ui-label": "Divergence of the Sea-Ice Velocity Field",
     "description": "Divergence of sea-ice velocity field (first shear strain invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",

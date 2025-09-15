@@ -1,5 +1,5 @@
 {
-    "id": "emidms_tavg-u-hxy-u",
+    "id": "emidms-tavg-u-hxy-u",
     "validation-key": "emidms_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of DMS",
     "description": "Integrate 3D emission field vertically to 2d field.",

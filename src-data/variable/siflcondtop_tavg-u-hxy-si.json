@@ -1,5 +1,5 @@
 {
-    "id": "siflcondtop_tavg-u-hxy-si",
+    "id": "siflcondtop-tavg-u-hxy-si",
     "validation-key": "siflcondtop_tavg-u-hxy-si",
     "ui-label": "Net Conductive Heat Flux in Sea Ice at the Surface",
     "description": "Net heat conduction flux at the ice surface, i.e. the conductive heat flux from the centre of the uppermost vertical sea-ice grid box to the surface of the sea ice (energy flow per sea ice area). Positive for a downward heat flux.",

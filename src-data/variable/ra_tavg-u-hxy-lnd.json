@@ -1,5 +1,5 @@
 {
-    "id": "ra_tavg-u-hxy-lnd",
+    "id": "ra-tavg-u-hxy-lnd",
     "validation-key": "ra_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
     "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]",

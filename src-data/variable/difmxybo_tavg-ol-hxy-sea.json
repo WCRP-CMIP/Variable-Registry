@@ -1,5 +1,5 @@
 {
-    "id": "difmxybo_tavg-ol-hxy-sea",
+    "id": "difmxybo-tavg-ol-hxy-sea",
     "validation-key": "difmxybo_tavg-ol-hxy-sea",
     "ui-label": "Ocean Momentum XY Biharmonic Diffusivity",
     "description": "Lateral biharmonic viscosity applied to the momentum equations.",

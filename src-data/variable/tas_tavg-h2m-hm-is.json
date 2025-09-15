@@ -1,5 +1,5 @@
 {
-    "id": "tas_tavg-h2m-hm-is",
+    "id": "tas-tavg-h2m-hm-is",
     "validation-key": "tas_tavg-h2m-hm-is",
     "ui-label": "Near-Surface Air Temperature",
     "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",

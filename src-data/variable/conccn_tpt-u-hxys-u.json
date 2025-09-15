@@ -1,5 +1,5 @@
 {
-    "id": "conccn_tpt-u-hxys-u",
+    "id": "conccn-tpt-u-hxys-u",
     "validation-key": "conccn_tpt-u-hxys-u",
     "ui-label": "Sub-daily Aerosol Number Concentration at CF sites",
     "description": "The variable represents the instantaneous Aerosol Number Concentration at CF sites, sampled every 3 hours",

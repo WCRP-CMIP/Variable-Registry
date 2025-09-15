@@ -1,5 +1,5 @@
 {
-    "id": "wmo_tavg-ol-hxy-sea",
+    "id": "wmo-tavg-ol-hxy-sea",
     "validation-key": "wmo_tavg-ol-hxy-sea",
     "ui-label": "Upward Ocean Mass Transport",
     "description": "Upward mass transport from residual mean (resolved plus parameterized) advective transport.",

@@ -1,5 +1,5 @@
 {
-    "id": "rhSoil_tavg-u-hxy-lnd",
+    "id": "rhsoil-tavg-u-hxy-lnd",
     "validation-key": "rhSoil_tavg-u-hxy-lnd",
     "ui-label": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
     "description": "Needed to calculate soil bulk turnover time",

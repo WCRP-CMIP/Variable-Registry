@@ -1,5 +1,5 @@
 {
-    "id": "ua_tavg-h100m-hxy-u",
+    "id": "ua-tavg-h100m-hxy-u",
     "validation-key": "ua_tavg-h100m-hxy-u",
     "ui-label": "3-hourly u-wind at 100m",
     "description": "Zonal wind (positive in a eastward direction) at 100m",

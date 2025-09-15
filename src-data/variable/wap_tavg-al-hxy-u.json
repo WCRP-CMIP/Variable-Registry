@@ -1,5 +1,5 @@
 {
-    "id": "wap_tavg-al-hxy-u",
+    "id": "wap-tavg-al-hxy-u",
     "validation-key": "wap_tavg-al-hxy-u",
     "ui-label": "Omega (=dp/dt)",
     "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",

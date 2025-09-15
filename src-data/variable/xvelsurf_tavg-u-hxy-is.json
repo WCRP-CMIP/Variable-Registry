@@ -1,5 +1,5 @@
 {
-    "id": "xvelsurf_tavg-u-hxy-is",
+    "id": "xvelsurf-tavg-u-hxy-is",
     "validation-key": "xvelsurf_tavg-u-hxy-is",
     "ui-label": "X-Component of Land Ice Surface Velocity",
     "description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere.",

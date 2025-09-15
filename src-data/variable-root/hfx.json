@@ -2,11 +2,12 @@
     "id": "hfx",
     "validation-key": "hfx",
     "ui-label": "hfx",
+    "description": "",
     "data-type": "real",
     "standard-name": "ocean-heat-x-transport",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

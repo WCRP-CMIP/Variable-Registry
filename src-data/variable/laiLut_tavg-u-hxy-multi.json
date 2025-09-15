@@ -1,5 +1,5 @@
 {
-    "id": "laiLut_tavg-u-hxy-multi",
+    "id": "lailut-tavg-u-hxy-multi",
     "validation-key": "laiLut_tavg-u-hxy-multi",
     "ui-label": "Leaf Area Index on Land-Use Tile",
     "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",

@@ -2,11 +2,12 @@
     "id": "dxuo",
     "validation-key": "dxuo",
     "ui-label": "dxuo",
+    "description": "",
     "data-type": "real",
     "standard-name": "cell-x-length",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

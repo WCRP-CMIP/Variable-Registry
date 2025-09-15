@@ -1,5 +1,5 @@
 {
-    "id": "siforcecorioly_tavg-u-hxy-si",
+    "id": "siforcecorioly-tavg-u-hxy-si",
     "validation-key": "siforcecorioly_tavg-u-hxy-si",
     "ui-label": "Coriolis Force Term in Force Balance (Y-Component)",
     "description": "Y-component of the force on sea ice caused by the Coriolis force divided by grid-cell area.",

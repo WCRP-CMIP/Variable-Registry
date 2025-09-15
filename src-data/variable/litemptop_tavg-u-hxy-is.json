@@ -1,5 +1,5 @@
 {
-    "id": "litemptop_tavg-u-hxy-is",
+    "id": "litemptop-tavg-u-hxy-is",
     "validation-key": "litemptop_tavg-u-hxy-is",
     "ui-label": "Ice Sheet Temperature at Top of Ice Sheet Model",
     "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",

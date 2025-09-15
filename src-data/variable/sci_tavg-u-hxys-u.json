@@ -1,5 +1,5 @@
 {
-    "id": "sci_tavg-u-hxys-u",
+    "id": "sci-tavg-u-hxys-u",
     "validation-key": "sci_tavg-u-hxys-u",
     "ui-label": "Fraction of Time Shallow Convection Occurs",
     "description": "Fraction of time that shallow convection occurs in the grid cell.",

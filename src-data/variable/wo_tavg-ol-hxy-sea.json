@@ -1,5 +1,5 @@
 {
-    "id": "wo_tavg-ol-hxy-sea",
+    "id": "wo-tavg-ol-hxy-sea",
     "validation-key": "wo_tavg-ol-hxy-sea",
     "ui-label": "Sea Water Vertical Velocity",
     "description": "Prognostic z-ward velocity component resolved by the model.",

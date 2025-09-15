@@ -1,5 +1,5 @@
 {
-    "id": "hurs_tmax-h2m-hxy-u",
+    "id": "hurs-tmax-h2m-hxy-u",
     "validation-key": "hurs_tmax-h2m-hxy-u",
     "ui-label": "Daily Maximum Near-Surface Relative Humidity",
     "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",

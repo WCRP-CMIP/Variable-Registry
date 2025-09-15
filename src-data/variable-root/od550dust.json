@@ -2,11 +2,12 @@
     "id": "od550dust",
     "validation-key": "od550dust",
     "ui-label": "od550dust",
+    "description": "",
     "data-type": "real",
     "standard-name": "atmosphere-optical-thickness-due-to-dust-ambient-aerosol-particles",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

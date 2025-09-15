@@ -1,5 +1,5 @@
 {
-    "id": "siv_tavg-u-hxy-si",
+    "id": "siv-tavg-u-hxy-si",
     "validation-key": "siv_tavg-u-hxy-si",
     "ui-label": "Y-Component of Sea-Ice Velocity",
     "description": "Y-component of sea-ice velocity on native model grid.",

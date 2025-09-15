@@ -1,5 +1,5 @@
 {
-    "id": "tntrlcs_tavg-p39-hy-air",
+    "id": "tntrlcs-tavg-p39-hy-air",
     "validation-key": "tntrlcs_tavg-p39-hy-air",
     "ui-label": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
     "description": "zonal mean; hence YZT",

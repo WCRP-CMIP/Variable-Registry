@@ -2,11 +2,12 @@
     "id": "sisndmasswind",
     "validation-key": "sisndmasswind",
     "ui-label": "sisndmasswind",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-surface-snow-amount-due-to-drifting-into-sea",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

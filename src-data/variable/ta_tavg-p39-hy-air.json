@@ -1,5 +1,5 @@
 {
-    "id": "ta_tavg-p39-hy-air",
+    "id": "ta-tavg-p39-hy-air",
     "validation-key": "ta_tavg-p39-hy-air",
     "ui-label": "Zonal mean air temperature",
     "description": "Zonal mean temperature of air with the extended number of vertical levels.",

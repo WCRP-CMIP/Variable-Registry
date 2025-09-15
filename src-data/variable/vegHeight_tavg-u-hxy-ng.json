@@ -1,5 +1,5 @@
 {
-    "id": "vegHeight_tavg-u-hxy-ng",
+    "id": "vegheight-tavg-u-hxy-ng",
     "validation-key": "vegHeight_tavg-u-hxy-ng",
     "ui-label": "Height of Grass",
     "description": "Vegetation height averaged over the grass fraction of a grid cell.",

@@ -1,5 +1,5 @@
 {
-    "id": "wdirwindsea_tavg-u-hxy-sea",
+    "id": "wdirwindsea-tavg-u-hxy-sea",
     "validation-key": "wdirwindsea_tavg-u-hxy-sea",
     "ui-label": "Sea Wave Direction",
     "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the wind-sea component of the wave energy spectrum (i.e., local wind waves). This variable is usually expressed in degrees relative to true north.",

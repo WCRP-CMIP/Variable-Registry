@@ -2,11 +2,12 @@
     "id": "sisnhc",
     "validation-key": "sisnhc",
     "ui-label": "sisnhc",
+    "description": "",
     "data-type": "real",
     "standard-name": "thermal-energy-content-of-surface-snow",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

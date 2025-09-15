@@ -1,5 +1,5 @@
 {
-    "id": "vegFrac_tavg-u-hxy-u",
+    "id": "vegfrac-tavg-u-hxy-u",
     "validation-key": "vegFrac_tavg-u-hxy-u",
     "ui-label": "Total Vegetated Percentage Cover",
     "description": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions.",

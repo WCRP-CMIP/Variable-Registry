@@ -1,5 +1,5 @@
 {
-    "id": "mcu_tavg-alh-hxy-u",
+    "id": "mcu-tavg-alh-hxy-u",
     "validation-key": "mcu_tavg-alh-hxy-u",
     "ui-label": "Convective Updraft Mass Flux",
     "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",

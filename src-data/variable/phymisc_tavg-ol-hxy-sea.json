@@ -1,5 +1,5 @@
 {
-    "id": "phymisc_tavg-ol-hxy-sea",
+    "id": "phymisc-tavg-ol-hxy-sea",
     "validation-key": "phymisc_tavg-ol-hxy-sea",
     "ui-label": "Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water",
     "description": "carbon concentration from additional phytoplankton component alone",

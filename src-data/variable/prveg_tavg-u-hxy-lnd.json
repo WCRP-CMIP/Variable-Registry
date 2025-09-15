@@ -1,5 +1,5 @@
 {
-    "id": "prveg_tavg-u-hxy-lnd",
+    "id": "prveg-tavg-u-hxy-lnd",
     "validation-key": "prveg_tavg-u-hxy-lnd",
     "ui-label": "Precipitation onto Canopy",
     "description": "the precipitation flux that is intercepted by the vegetation canopy (if present in model) before reaching the ground.",

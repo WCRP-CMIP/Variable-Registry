@@ -1,5 +1,5 @@
 {
-    "id": "o3prod_tavg-al-hxy-u",
+    "id": "o3prod-tavg-al-hxy-u",
     "validation-key": "o3prod_tavg-al-hxy-u",
     "ui-label": "O3 Production Rate",
     "description": "ONLY provide the sum of all the HO2/RO2 + NO reactions (as k\\*[HO2]\\*[NO])",

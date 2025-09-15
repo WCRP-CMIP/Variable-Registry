@@ -1,5 +1,5 @@
 {
-    "id": "npp_tavg-u-hxy-ng",
+    "id": "npp-tavg-u-hxy-ng",
     "validation-key": "npp_tavg-u-hxy-ng",
     "ui-label": "Net Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total NPP of grass in the grid cell",

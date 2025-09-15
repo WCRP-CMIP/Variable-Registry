@@ -1,5 +1,5 @@
 {
-    "id": "hcho_tavg-al-hxy-u",
+    "id": "hcho-tavg-al-hxy-u",
     "validation-key": "hcho_tavg-al-hxy-u",
     "ui-label": "Formaldehyde Volume Mixing Ratio",
     "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",

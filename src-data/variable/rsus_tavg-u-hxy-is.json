@@ -1,5 +1,5 @@
 {
-    "id": "rsus_tavg-u-hxy-is",
+    "id": "rsus-tavg-u-hxy-is",
     "validation-key": "rsus_tavg-u-hxy-is",
     "ui-label": "Ice Sheet Surface Upwelling Shortwave Radiation",
     "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",

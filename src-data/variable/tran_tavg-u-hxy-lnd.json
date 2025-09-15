@@ -1,5 +1,5 @@
 {
-    "id": "tran_tavg-u-hxy-lnd",
+    "id": "tran-tavg-u-hxy-lnd",
     "validation-key": "tran_tavg-u-hxy-lnd",
     "ui-label": "Transpiration",
     "description": "Transpiration (may include dew formation as a negative flux).",

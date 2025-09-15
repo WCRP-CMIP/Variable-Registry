@@ -1,5 +1,5 @@
 {
-    "id": "rluto3ref_tavg-u-hxy-u",
+    "id": "rluto3ref-tavg-u-hxy-u",
     "validation-key": "rluto3ref_tavg-u-hxy-u",
     "ui-label": "toa_outgoing_longwave_flux_assuming_reference_mole_fraction_of_ozone_in_air",
     "description": "This is outgoing longwave flux at the top-of-atmosphere for all-sky conditions from a diagnostic call to the radiation scheme using a reference ozone field",

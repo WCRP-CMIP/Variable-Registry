@@ -1,5 +1,5 @@
 {
-    "id": "fHarvestToAtmos_tavg-u-hxy-lnd",
+    "id": "fharvesttoatmos-tavg-u-hxy-lnd",
     "validation-key": "fHarvestToAtmos_tavg-u-hxy-lnd",
     "ui-label": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here",

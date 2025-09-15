@@ -2,11 +2,12 @@
     "id": "tnhusc",
     "validation-key": "tnhusc",
     "ui-label": "tnhusc",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-specific-humidity-due-to-convection",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

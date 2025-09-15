@@ -1,5 +1,5 @@
 {
-    "id": "o3loss_tavg-al-hxy-u",
+    "id": "o3loss-tavg-al-hxy-u",
     "validation-key": "o3loss_tavg-al-hxy-u",
     "ui-label": "O3 Destruction Rate",
     "description": "ONLY provide the sum of the following reactions: (i) O(1D)+H2O; (ii) O3+HO2; (iii) O3+OH; (iv) O3+alkenes (isoprene, ethene, ...)",

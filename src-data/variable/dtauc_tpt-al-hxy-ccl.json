@@ -1,5 +1,5 @@
 {
-    "id": "dtauc_tpt-al-hxy-ccl",
+    "id": "dtauc-tpt-al-hxy-ccl",
     "validation-key": "dtauc_tpt-al-hxy-ccl",
     "ui-label": "Convective Cloud Optical Depth",
     "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell",

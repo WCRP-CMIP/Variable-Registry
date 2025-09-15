@@ -1,5 +1,5 @@
 {
-    "id": "gpp_tavg-u-hxy-shb",
+    "id": "gpp-tavg-u-hxy-shb",
     "validation-key": "gpp_tavg-u-hxy-shb",
     "ui-label": "Gross Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total GPP of shrubs in the grid cell",

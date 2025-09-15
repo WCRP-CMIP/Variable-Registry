@@ -1,5 +1,5 @@
 {
-    "id": "tntscp_tavg-p39-hy-air",
+    "id": "tntscp-tavg-p39-hy-air",
     "validation-key": "tntscp_tavg-p39-hy-air",
     "ui-label": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
     "description": "zonal mean; hence YZT",

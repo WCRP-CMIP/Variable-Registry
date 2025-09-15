@@ -1,5 +1,5 @@
 {
-    "id": "masscello_ti-ol-hxy-sea",
+    "id": "masscello-ti-ol-hxy-sea",
     "validation-key": "masscello_ti-ol-hxy-sea",
     "ui-label": "Ocean Grid-Cell Mass per Area",
     "description": "Tracer grid-cell mass per unit area used for computing tracer budgets. For Boussinesq models with static ocean grid cell thickness, masscello = rhozero\\*thickcello, where thickcello is static cell thickness and rhozero is constant Boussinesq reference density. More generally, masscello is time dependent and reported as part of Omon.",

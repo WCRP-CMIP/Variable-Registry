@@ -1,5 +1,5 @@
 {
-    "id": "clwc_tavg-al-hxy-u",
+    "id": "clwc-tavg-al-hxy-u",
     "validation-key": "clwc_tavg-al-hxy-u",
     "ui-label": "Mass Fraction of Convective Cloud Liquid Water",
     "description": "Calculated as the mass of convective cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",

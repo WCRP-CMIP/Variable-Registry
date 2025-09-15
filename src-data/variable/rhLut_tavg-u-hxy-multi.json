@@ -1,5 +1,5 @@
 {
-    "id": "rhLut_tavg-u-hxy-multi",
+    "id": "rhlut-tavg-u-hxy-multi",
     "validation-key": "rhLut_tavg-u-hxy-multi",
     "ui-label": "Heterotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on land-use tiles.",

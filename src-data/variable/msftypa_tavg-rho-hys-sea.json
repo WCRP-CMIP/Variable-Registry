@@ -1,5 +1,5 @@
 {
-    "id": "msftypa_tavg-rho-hys-sea",
+    "id": "msftypa-tavg-rho-hys-sea",
     "validation-key": "msftypa_tavg-rho-hys-sea",
     "ui-label": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",

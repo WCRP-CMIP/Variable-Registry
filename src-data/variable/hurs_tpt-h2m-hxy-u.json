@@ -1,5 +1,5 @@
 {
-    "id": "hurs_tpt-h2m-hxy-u",
+    "id": "hurs-tpt-h2m-hxy-u",
     "validation-key": "hurs_tpt-h2m-hxy-u",
     "ui-label": "Near-Surface Relative Humidity",
     "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",

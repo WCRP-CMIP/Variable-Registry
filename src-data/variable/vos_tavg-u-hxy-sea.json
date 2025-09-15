@@ -1,5 +1,5 @@
 {
-    "id": "vos_tavg-u-hxy-sea",
+    "id": "vos-tavg-u-hxy-sea",
     "validation-key": "vos_tavg-u-hxy-sea",
     "ui-label": "Daily Surface Sea Water Y Velocity",
     "description": "Daily surface prognostic y-ward velocity component resolved by the model.",

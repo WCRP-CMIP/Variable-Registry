@@ -2,11 +2,12 @@
     "id": "tnhusmp",
     "validation-key": "tnhusmp",
     "ui-label": "tnhusmp",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-specific-humidity-due-to-model-physics",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

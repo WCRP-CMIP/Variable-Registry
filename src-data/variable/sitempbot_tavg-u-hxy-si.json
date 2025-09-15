@@ -1,5 +1,5 @@
 {
-    "id": "sitempbot_tavg-u-hxy-si",
+    "id": "sitempbot-tavg-u-hxy-si",
     "validation-key": "sitempbot_tavg-u-hxy-si",
     "ui-label": "Temperature at Ice-Ocean Interface",
     "description": "Mean temperature at the base of the sea ice, NOT the temperature within lowermost sea-ice model layer.",

@@ -1,5 +1,5 @@
 {
-    "id": "rsdoabsorb_tavg-ol-hxy-sea",
+    "id": "rsdoabsorb-tavg-ol-hxy-sea",
     "validation-key": "rsdoabsorb_tavg-ol-hxy-sea",
     "ui-label": "Net Rate of Absorption of Shortwave Energy in Ocean Layer",
     "description": "Tendency of heat content for a grid cell from penetrative shortwave radiation within a grid cell.",

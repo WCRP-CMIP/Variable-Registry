@@ -1,5 +1,5 @@
 {
-    "id": "rsdscsdiff_tavg-u-hxy-u",
+    "id": "rsdscsdiff-tavg-u-hxy-u",
     "validation-key": "rsdscsdiff_tavg-u-hxy-u",
     "ui-label": "Surface Diffuse Downwelling Clear Sky Shortwave Radiation",
     "description": "Surface downwelling solar irradiance from diffuse radiation for UV calculations in clear sky conditions",

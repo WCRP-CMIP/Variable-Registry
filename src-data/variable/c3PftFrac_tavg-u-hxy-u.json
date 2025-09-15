@@ -1,5 +1,5 @@
 {
-    "id": "c3PftFrac_tavg-u-hxy-u",
+    "id": "c3pftfrac-tavg-u-hxy-u",
     "validation-key": "c3PftFrac_tavg-u-hxy-u",
     "ui-label": "Percentage Cover by C3 Plant Functional Type",
     "description": "Percentage of entire grid cell  that is covered by C3 PFTs (including grass, crops, and trees).",

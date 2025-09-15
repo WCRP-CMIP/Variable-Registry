@@ -1,5 +1,5 @@
 {
-    "id": "cltmodis_tavg-u-hxy-u",
+    "id": "cltmodis-tavg-u-hxy-u",
     "validation-key": "cltmodis_tavg-u-hxy-u",
     "ui-label": "MODIS Total Cloud Cover Percentage",
     "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",

@@ -1,5 +1,5 @@
 {
-    "id": "fNLandToOcean_tavg-u-hxy-lnd",
+    "id": "fnlandtoocean-tavg-u-hxy-lnd",
     "validation-key": "fNLandToOcean_tavg-u-hxy-lnd",
     "ui-label": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
     "description": "leached nitrogen etc that goes into run off or river routing and finds its way into ocean should be reported here.",

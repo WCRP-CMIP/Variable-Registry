@@ -1,5 +1,5 @@
 {
-    "id": "ra_tavg-u-hxy-ng",
+    "id": "ra-tavg-u-hxy-ng",
     "validation-key": "ra_tavg-u-hxy-ng",
     "ui-label": "Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RA of grass in the grid cell",

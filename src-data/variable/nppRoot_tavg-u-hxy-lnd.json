@@ -1,5 +1,5 @@
 {
-    "id": "nppRoot_tavg-u-hxy-lnd",
+    "id": "npproot-tavg-u-hxy-lnd",
     "validation-key": "nppRoot_tavg-u-hxy-lnd",
     "ui-label": "Net Primary Production Allocated to Roots as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "This is the rate of carbon uptake by roots due to NPP",

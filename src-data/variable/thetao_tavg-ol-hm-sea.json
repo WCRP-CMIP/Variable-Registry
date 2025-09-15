@@ -1,5 +1,5 @@
 {
-    "id": "thetao_tavg-ol-hm-sea",
+    "id": "thetao-tavg-ol-hm-sea",
     "validation-key": "thetao_tavg-ol-hm-sea",
     "ui-label": "Global Average Sea Water Potential Temperature",
     "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field",

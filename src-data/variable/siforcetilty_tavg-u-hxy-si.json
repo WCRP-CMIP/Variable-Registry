@@ -1,5 +1,5 @@
 {
-    "id": "siforcetilty_tavg-u-hxy-si",
+    "id": "siforcetilty-tavg-u-hxy-si",
     "validation-key": "siforcetilty_tavg-u-hxy-si",
     "ui-label": "Sea-Surface Tilt Term in Force Balance (Y-Component)",
     "description": "Y-component of the force on sea ice caused by sea-surface tilt divided by grid-cell area.",

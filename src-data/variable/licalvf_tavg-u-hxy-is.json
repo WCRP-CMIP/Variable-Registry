@@ -1,5 +1,5 @@
 {
-    "id": "licalvf_tavg-u-hxy-is",
+    "id": "licalvf-tavg-u-hxy-is",
     "validation-key": "licalvf_tavg-u-hxy-is",
     "ui-label": "Land Ice Calving Flux",
     "description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",

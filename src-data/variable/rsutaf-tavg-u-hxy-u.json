@@ -1,0 +1,33 @@
+{
+    "id": "rsutaf_tavg-u-hxy-u",
+    "validation-key": "rsutaf_tavg-u-hxy-u",
+    "ui-label": "TOA Outgoing Aerosol-Free Shortwave Radiation",
+    "description": "Flux corresponding to rsut resulting fom aerosol-free call to radiation",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "aerosol",
+    "out-name": "rsutaf",
+    "physical-parameter-name": "rsutaf",
+    "positive": "up",
+    "remove-cmip6-table": "AERmon",
+    "spatial-shape": "XY-na",
+    "standard-name": "toa_outgoing_shortwave_flux",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W m-2",
+    "variable-root": "rsutaf",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

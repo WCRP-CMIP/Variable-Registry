@@ -1,5 +1,5 @@
 {
-    "id": "va_tpt-200hPa-hxy-u",
+    "id": "va-tpt-200hpa-hxy-u",
     "validation-key": "va_tpt-200hPa-hxy-u",
     "ui-label": "va200",
     "description": "Meridional wind (positive in a northward direction) at 200 hPa, 6 hourly instantaneous",

@@ -1,5 +1,5 @@
 {
-    "id": "wdirswell_tavg-u-hxy-sea",
+    "id": "wdirswell-tavg-u-hxy-sea",
     "validation-key": "wdirswell_tavg-u-hxy-sea",
     "ui-label": "Swell Wave Direction",
     "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area). This variable is usually expressed in degrees relative to true north.",

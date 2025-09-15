@@ -1,5 +1,5 @@
 {
-    "id": "rh_tavg-u-hxy-ng",
+    "id": "rh-tavg-u-hxy-ng",
     "validation-key": "rh_tavg-u-hxy-ng",
     "ui-label": "Heterotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RH of grass in the grid cell",

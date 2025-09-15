@@ -1,5 +1,5 @@
 {
-    "id": "wa_tavg-al-hxy-u",
+    "id": "wa-tavg-al-hxy-u",
     "validation-key": "wa_tavg-al-hxy-u",
     "ui-label": "Upward Air Velocity",
     "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",

@@ -1,5 +1,5 @@
 {
-    "id": "va_tavg-h100m-hxy-u",
+    "id": "va-tavg-h100m-hxy-u",
     "validation-key": "va_tavg-h100m-hxy-u",
     "ui-label": "3-hourly v-wind at 100m",
     "description": "Meridional wind (positive in a northward direction) at 100m",

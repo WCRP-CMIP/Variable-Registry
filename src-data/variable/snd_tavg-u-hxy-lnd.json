@@ -1,5 +1,5 @@
 {
-    "id": "snd_tavg-u-hxy-lnd",
+    "id": "snd-tavg-u-hxy-lnd",
     "validation-key": "snd_tavg-u-hxy-lnd",
     "ui-label": "Snow Depth",
     "description": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as missing where the land fraction is 0.",

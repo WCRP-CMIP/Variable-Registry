@@ -1,5 +1,5 @@
 {
-    "id": "sob_tavg-u-hxy-sea",
+    "id": "sob-tavg-u-hxy-sea",
     "validation-key": "sob_tavg-u-hxy-sea",
     "ui-label": "Sea Water Salinity at Sea Floor",
     "description": "Model prognostic salinity at bottom-most model grid cell",

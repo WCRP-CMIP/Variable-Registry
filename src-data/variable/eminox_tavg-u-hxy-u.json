@@ -1,5 +1,5 @@
 {
-    "id": "eminox_tavg-u-hxy-u",
+    "id": "eminox-tavg-u-hxy-u",
     "validation-key": "eminox_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of NOx",
     "description": "Store flux as Nitrogen. NOx=NO+NO2. Integrate 3D emission field vertically to 2d field.",

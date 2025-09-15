@@ -1,5 +1,5 @@
 {
-    "id": "tropo3ste_tavg-al-hxy-u",
+    "id": "tropo3ste-tavg-al-hxy-u",
     "validation-key": "tropo3ste_tavg-al-hxy-u",
     "ui-label": "Tropospheric ozone volume mixing ratio due to stratosphere-troposphere exchange (STE)",
     "description": "Ozone tracer intended to map out strat-trop exchange (STE) of ozone in the troposphere. It represents the ozone volume mixing ratio in the troposphere that is considered to be stratospheric in origin. It should be consistent with the definition of tropopause used to calculate the pressure of the tropopause (ptp). It should have zero values in the stratosphere and non-zero positive values in the troposphere.",

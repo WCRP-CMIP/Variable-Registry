@@ -1,0 +1,34 @@
+{
+    "id": "tnt_tavg-al-hxy-u",
+    "validation-key": "tnt_tavg-al-hxy-u",
+    "ui-label": "Tendency of Air Temperature",
+    "description": "Tendency of Air Temperature",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "tnt",
+    "physical-parameter-name": "tnt",
+    "positive": "",
+    "remove-cmip6-table": "CFmon",
+    "spatial-shape": "XY-A",
+    "standard-name": "tendency_of_air_temperature",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "K s-1",
+    "variable-root": "tnt",
+    "vertical-label": "al",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

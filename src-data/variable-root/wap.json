@@ -2,11 +2,12 @@
     "id": "wap",
     "validation-key": "wap",
     "ui-label": "wap",
+    "description": "",
     "data-type": "real",
     "standard-name": "lagrangian-tendency-of-air-pressure",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

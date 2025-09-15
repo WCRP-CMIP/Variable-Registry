@@ -2,11 +2,12 @@
     "id": "sistrydtop",
     "validation-key": "sistrydtop",
     "ui-label": "sistrydtop",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-downward-y-stress",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

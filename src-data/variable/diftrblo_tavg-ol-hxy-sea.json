@@ -1,5 +1,5 @@
 {
-    "id": "diftrblo_tavg-ol-hxy-sea",
+    "id": "diftrblo-tavg-ol-hxy-sea",
     "validation-key": "diftrblo_tavg-ol-hxy-sea",
     "ui-label": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
     "description": "Ocean tracer diffusivity associated with parameterized eddy-induced advective transport. Sometimes this diffusivity is called the \"thickness\" diffusivity. For CMIP5, this diagnostic was called \"ocean tracer bolus laplacian diffusivity\".  The CMIP6 name is physically more relevant.",

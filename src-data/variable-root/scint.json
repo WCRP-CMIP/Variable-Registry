@@ -2,11 +2,12 @@
     "id": "scint",
     "validation-key": "scint",
     "ui-label": "scint",
+    "description": "",
     "data-type": "real",
     "standard-name": "integral-wrt-depth-of-sea-water-practical-salinity-expressed-as-salt-mass-content",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

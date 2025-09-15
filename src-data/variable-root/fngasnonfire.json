@@ -2,11 +2,12 @@
     "id": "fngasnonfire",
     "validation-key": "fngasnonfire",
     "ui-label": "fNgasNonFire",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen-due-to-all-land-processes-excluding-fires",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

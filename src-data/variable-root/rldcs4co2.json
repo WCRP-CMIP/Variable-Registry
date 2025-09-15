@@ -2,11 +2,12 @@
     "id": "rldcs4co2",
     "validation-key": "rldcs4co2",
     "ui-label": "rldcs4co2",
+    "description": "",
     "data-type": "real",
     "standard-name": "downwelling-longwave-flux-in-air-assuming-clear-sky",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

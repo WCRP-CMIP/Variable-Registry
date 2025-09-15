@@ -1,5 +1,5 @@
 {
-    "id": "sistrxubot_tavg-u-hxy-si",
+    "id": "sistrxubot-tavg-u-hxy-si",
     "validation-key": "sistrxubot_tavg-u-hxy-si",
     "ui-label": "X-Component of Ocean Stress on Sea Ice",
     "description": "X-component of the ocean stress on the sea ice bottom divided by grid-cell area.",

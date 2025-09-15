@@ -2,11 +2,12 @@
     "id": "drybc",
     "validation-key": "drybc",
     "ui-label": "drybc",
+    "description": "",
     "data-type": "real",
     "standard-name": "minus-tendency-of-atmosphere-mass-content-of-elemental-carbon-dry-aerosol-particles-due-to-dry-deposition",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

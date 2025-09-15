@@ -1,5 +1,5 @@
 {
-    "id": "sftflf_ti-u-hxy-u",
+    "id": "sftflf-ti-u-hxy-u",
     "validation-key": "sftflf_ti-u-hxy-u",
     "ui-label": "Floating Ice Shelf Area Percentage",
     "description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land_ice is by definition ice sheet, glacier and ice shelves",

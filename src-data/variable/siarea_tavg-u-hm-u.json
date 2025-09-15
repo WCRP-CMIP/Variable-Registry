@@ -1,5 +1,5 @@
 {
-    "id": "siarea_tavg-u-hm-u",
+    "id": "siarea-tavg-u-hm-u",
     "validation-key": "siarea_tavg-u-hm-u",
     "ui-label": "Sea-Ice Area South",
     "description": "Total integrated area of sea ice in the Southern Hemisphere (where siconc > 0). Does not include grid cells partially covered by land.",

@@ -1,5 +1,5 @@
 {
-    "id": "zg_tavg-500hPa-hxy-air",
+    "id": "zg-tavg-500hpa-hxy-air",
     "validation-key": "zg_tavg-500hPa-hxy-air",
     "ui-label": "Geopotential Height at 500hPa",
     "description": "geopotential height on the 500 hPa surface",

@@ -1,5 +1,5 @@
 {
-    "id": "vsfcorr_tavg-u-hxy-sea",
+    "id": "vsfcorr-tavg-u-hxy-sea",
     "validation-key": "vsfcorr_tavg-u-hxy-sea",
     "ui-label": "Virtual Salt Flux Correction",
     "description": "It is set to zero in models which receive a real water flux.",

@@ -2,11 +2,12 @@
     "id": "fnox",
     "validation-key": "fnox",
     "ui-label": "fNOx",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-upward-mass-flux-of-nox-expressed-as-nitrogen-out-of-vegetation-and-litter-and-soil",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

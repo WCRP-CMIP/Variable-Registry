@@ -1,5 +1,5 @@
 {
-    "id": "sithick_tavg-u-hxy-si",
+    "id": "sithick-tavg-u-hxy-si",
     "validation-key": "sithick_tavg-u-hxy-si",
     "ui-label": "Sea-Ice Thickness",
     "description": "Actual (floe) thickness of sea ice averaged over the ice-covered part of a given grid cell, NOT volume divided by grid area.",

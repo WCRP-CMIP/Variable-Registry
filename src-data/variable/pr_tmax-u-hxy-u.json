@@ -1,5 +1,5 @@
 {
-    "id": "pr_tmax-u-hxy-u",
+    "id": "pr-tmax-u-hxy-u",
     "validation-key": "pr_tmax-u-hxy-u",
     "ui-label": "Maximum Hourly Precipitation Rate",
     "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",

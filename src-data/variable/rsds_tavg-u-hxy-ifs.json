@@ -1,5 +1,5 @@
 {
-    "id": "rsds_tavg-u-hxy-ifs",
+    "id": "rsds-tavg-u-hxy-ifs",
     "validation-key": "rsds_tavg-u-hxy-ifs",
     "ui-label": "Surface Downwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
     "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",

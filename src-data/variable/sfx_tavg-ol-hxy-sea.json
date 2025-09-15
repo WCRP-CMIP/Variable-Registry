@@ -1,5 +1,5 @@
 {
-    "id": "sfx_tavg-ol-hxy-sea",
+    "id": "sfx-tavg-ol-hxy-sea",
     "validation-key": "sfx_tavg-ol-hxy-sea",
     "ui-label": "3D Ocean Salt Mass X Transport",
     "description": "Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",

@@ -1,5 +1,5 @@
 {
-    "id": "ph_tavg-ol-hxy-sea",
+    "id": "ph-tavg-ol-hxy-sea",
     "validation-key": "ph_tavg-ol-hxy-sea",
     "ui-label": "pH",
     "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",

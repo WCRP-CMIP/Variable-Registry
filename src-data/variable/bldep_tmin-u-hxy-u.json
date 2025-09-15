@@ -1,5 +1,5 @@
 {
-    "id": "bldep_tmin-u-hxy-u",
+    "id": "bldep-tmin-u-hxy-u",
     "validation-key": "bldep_tmin-u-hxy-u",
     "ui-label": "Minimum PBL Height",
     "description": "minimum boundary layer height during the day (add cell_methods attribute: \"time: minimum\")",

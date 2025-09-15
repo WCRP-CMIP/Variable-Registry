@@ -1,5 +1,5 @@
 {
-    "id": "friver_tavg-u-hxy-sea",
+    "id": "friver-tavg-u-hxy-sea",
     "validation-key": "friver_tavg-u-hxy-sea",
     "ui-label": "Water Flux into Sea Water from Rivers",
     "description": "computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell.",

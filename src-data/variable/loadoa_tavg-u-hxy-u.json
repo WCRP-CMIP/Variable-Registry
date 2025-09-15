@@ -1,5 +1,5 @@
 {
-    "id": "loadoa_tavg-u-hxy-u",
+    "id": "loadoa-tavg-u-hxy-u",
     "validation-key": "loadoa_tavg-u-hxy-u",
     "ui-label": "Load of Dry Aerosol Organic Matter",
     "description": "atmosphere dry organic content: This is the vertically integrated sum of atmosphere_primary_organic_content and atmosphere_secondary_organic_content (see next two table entries).",

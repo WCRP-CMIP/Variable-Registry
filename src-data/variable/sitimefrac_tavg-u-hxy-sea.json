@@ -1,5 +1,5 @@
 {
-    "id": "sitimefrac_tavg-u-hxy-sea",
+    "id": "sitimefrac-tavg-u-hxy-sea",
     "validation-key": "sitimefrac_tavg-u-hxy-sea",
     "ui-label": "Fraction of Time Steps with Sea Ice",
     "description": "Fraction of time steps of the averaging period during which sea ice is present (siconc > 0) in a grid cell.",

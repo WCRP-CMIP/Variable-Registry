@@ -1,5 +1,5 @@
 {
-    "id": "volcello_tavg-ol-hxy-sea",
+    "id": "volcello-tavg-ol-hxy-sea",
     "validation-key": "volcello_tavg-ol-hxy-sea",
     "ui-label": "Ocean Grid-Cell Volume",
     "description": "For oceans with more than 1 mesh (e.g. staggered grids), report areas that apply to surface vertical fluxes of energy. If this field is time-dependent then save it instead as one of your Omon and Odec fields",

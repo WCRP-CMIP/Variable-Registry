@@ -1,5 +1,5 @@
 {
-    "id": "o3_tmax-h2m-hxy-u",
+    "id": "o3-tmax-h2m-hxy-u",
     "validation-key": "o3_tmax-h2m-hxy-u",
     "ui-label": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
     "description": "maximum near-surface ozone  (add cell_methods attribute \"time: maximum\")",

@@ -1,5 +1,5 @@
 {
-    "id": "osaltrmadvect_tavg-ol-hxy-sea",
+    "id": "osaltrmadvect-tavg-ol-hxy-sea",
     "validation-key": "osaltrmadvect_tavg-ol-hxy-sea",
     "ui-label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
     "description": "Tendency of salt content for a grid cell from residual mean  (sum of Eulerian mean + parameterized eddy-induced)  advection.",

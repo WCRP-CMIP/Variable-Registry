@@ -1,5 +1,5 @@
 {
-    "id": "wfcorr_tavg-u-hxy-sea",
+    "id": "wfcorr-tavg-u-hxy-sea",
     "validation-key": "wfcorr_tavg-u-hxy-sea",
     "ui-label": "Water Flux Correction",
     "description": "Computed as the water flux into the ocean due to flux correction divided by the area of the ocean portion of the grid cell.",

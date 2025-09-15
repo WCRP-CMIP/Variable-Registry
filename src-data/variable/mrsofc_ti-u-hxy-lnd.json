@@ -1,5 +1,5 @@
 {
-    "id": "mrsofc_ti-u-hxy-lnd",
+    "id": "mrsofc-ti-u-hxy-lnd",
     "validation-key": "mrsofc_ti-u-hxy-lnd",
     "ui-label": "Capacity of Soil to Store Water (Field Capacity)",
     "description": "reported \"where land\": divide the total water holding capacity of all the soil in the grid cell by the land area in the grid cell;  reported as \"missing\" where the land fraction is 0.",

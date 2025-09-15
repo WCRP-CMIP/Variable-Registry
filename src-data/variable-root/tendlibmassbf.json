@@ -2,11 +2,12 @@
     "id": "tendlibmassbf",
     "validation-key": "tendlibmassbf",
     "ui-label": "tendlibmassbf",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-land-ice-mass-due-to-basal-mass-balance",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

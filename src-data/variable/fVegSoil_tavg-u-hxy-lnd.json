@@ -1,5 +1,5 @@
 {
-    "id": "fVegSoil_tavg-u-hxy-lnd",
+    "id": "fvegsoil-tavg-u-hxy-lnd",
     "validation-key": "fVegSoil_tavg-u-hxy-lnd",
     "ui-label": "Total Carbon Mass Flux from Vegetation Directly to Soil",
     "description": "In some models part of carbon (e.g., root exudate) can go directly into the soil pool without entering litter.",

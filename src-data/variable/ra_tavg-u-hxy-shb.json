@@ -1,5 +1,5 @@
 {
-    "id": "ra_tavg-u-hxy-shb",
+    "id": "ra-tavg-u-hxy-shb",
     "validation-key": "ra_tavg-u-hxy-shb",
     "ui-label": "Autotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "description": "Total RA of shrubs in the grid cell",

@@ -1,5 +1,5 @@
 {
-    "id": "chepsoa_tavg-u-hxy-u",
+    "id": "chepsoa-tavg-u-hxy-u",
     "validation-key": "chepsoa_tavg-u-hxy-u",
     "ui-label": "Chemical Production of Dry Aerosol Secondary Organic Matter",
     "description": "If model lumps SOA emissions with POA, then the sum of POA and SOA emissions is reported as OA emissions. \"mass\" refers to the mass of primary organic matter, not mass of organic carbon alone.",

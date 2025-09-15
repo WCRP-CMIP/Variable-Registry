@@ -1,5 +1,5 @@
 {
-    "id": "tossq_tavg-u-hxy-sea",
+    "id": "tossq-tavg-u-hxy-sea",
     "validation-key": "tossq_tavg-u-hxy-sea",
     "ui-label": "Square of Sea Surface Temperature",
     "description": "Square of temperature of liquid ocean, averaged over the day.",

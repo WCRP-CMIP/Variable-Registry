@@ -1,0 +1,32 @@
+{
+    "id": "fco2antt_tpt-u-hxys-u",
+    "validation-key": "fco2antt_tpt-u-hxys-u",
+    "ui-label": "Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1]",
+    "description": "This is requested only for the emission-driven coupled carbon climate model runs.  Does not include natural fire sources but, includes all anthropogenic sources, including fossil fuel use, cement production, agricultural burning, and sources associated with anthropogenic land use change excluding forest regrowth.",
+    "area-label": "u",
+    "cell-measures": "",
+    "cell-methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal-label": "hxys",
+    "model-realm": "atmos",
+    "out-name": "fco2antt",
+    "physical-parameter-name": "fco2antt",
+    "positive": "",
+    "remove-cmip6-table": "CFsubhr",
+    "spatial-shape": "S-na",
+    "standard-name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
+    "temporal-label": "tpt",
+    "temporal-shape": "time-point",
+    "units": "kg m-2 s-1",
+    "variable-root": "fco2antt",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

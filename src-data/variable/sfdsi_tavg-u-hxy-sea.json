@@ -1,5 +1,5 @@
 {
-    "id": "sfdsi_tavg-u-hxy-sea",
+    "id": "sfdsi-tavg-u-hxy-sea",
     "validation-key": "sfdsi_tavg-u-hxy-sea",
     "ui-label": "Downward Sea Ice Basal Salt Flux",
     "description": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing.",

@@ -1,5 +1,5 @@
 {
-    "id": "eminh3_tavg-u-hxy-u",
+    "id": "eminh3-tavg-u-hxy-u",
     "validation-key": "eminh3_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of NH3",
     "description": "Integrate 3D emission field vertically to 2d field.",

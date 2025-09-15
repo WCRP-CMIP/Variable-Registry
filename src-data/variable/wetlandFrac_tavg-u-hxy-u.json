@@ -1,5 +1,5 @@
 {
-    "id": "wetlandFrac_tavg-u-hxy-u",
+    "id": "wetlandfrac-tavg-u-hxy-u",
     "validation-key": "wetlandFrac_tavg-u-hxy-u",
     "ui-label": "Wetland Percentage Cover",
     "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",

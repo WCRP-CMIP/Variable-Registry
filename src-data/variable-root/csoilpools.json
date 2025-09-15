@@ -2,11 +2,12 @@
     "id": "csoilpools",
     "validation-key": "csoilpools",
     "ui-label": "cSoilPools",
+    "description": "",
     "data-type": "real",
     "standard-name": "soil-mass-content-of-carbon",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

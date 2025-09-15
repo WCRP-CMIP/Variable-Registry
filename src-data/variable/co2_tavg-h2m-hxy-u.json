@@ -1,5 +1,5 @@
 {
-    "id": "co2_tavg-h2m-hxy-u",
+    "id": "co2-tavg-h2m-hxy-u",
     "validation-key": "co2_tavg-h2m-hxy-u",
     "ui-label": "Atmosphere CO2",
     "description": "As co2, but only at the surface",

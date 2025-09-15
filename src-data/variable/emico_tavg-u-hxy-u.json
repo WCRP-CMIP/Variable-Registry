@@ -1,5 +1,5 @@
 {
-    "id": "emico_tavg-u-hxy-u",
+    "id": "emico-tavg-u-hxy-u",
     "validation-key": "emico_tavg-u-hxy-u",
     "ui-label": "Total Emission Rate of CO",
     "description": "Integrate 3D emission field vertically to 2d field.",

@@ -1,5 +1,5 @@
 {
-    "id": "intvadse_tavg-u-hxy-u",
+    "id": "intvadse-tavg-u-hxy-u",
     "validation-key": "intvadse_tavg-u-hxy-u",
     "ui-label": "Vertically Integrated Northward Dry Static Energy Transport",
     "description": "Vertically integrated northward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of northward wind by dry static_energy per mass unit)",

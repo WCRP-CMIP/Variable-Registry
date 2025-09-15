@@ -1,5 +1,5 @@
 {
-    "id": "msfty_tavg-rho-hys-sea",
+    "id": "msfty-tavg-rho-hys-sea",
     "validation-key": "msfty_tavg-rho-hys-sea",
     "ui-label": "Ocean Y Overturning Mass Streamfunction",
     "description": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",

@@ -2,11 +2,12 @@
     "id": "snw",
     "validation-key": "snw",
     "ui-label": "snw",
+    "description": "",
     "data-type": "real",
     "standard-name": "surface-snow-amount",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

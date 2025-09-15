@@ -2,11 +2,12 @@
     "id": "fbnf",
     "validation-key": "fbnf",
     "ui-label": "fBNF",
+    "description": "",
     "data-type": "real",
     "standard-name": "tendency-of-soil-and-vegetation-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-fixation",
+    "@context": "_context_",
     "type": [
         "wcrp:variable-root",
         "variable-registry"
-    ],
-    "@context": "_context_"
+    ]
 }

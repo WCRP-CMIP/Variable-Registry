@@ -1,5 +1,5 @@
 {
-    "id": "sidragtop_tavg-u-hxy-si",
+    "id": "sidragtop-tavg-u-hxy-si",
     "validation-key": "sidragtop_tavg-u-hxy-si",
     "ui-label": "Atmospheric Drag Coefficient",
     "description": "Atmospheric drag coefficient that is used to calculate the atmospheric momentum drag on sea ice.",

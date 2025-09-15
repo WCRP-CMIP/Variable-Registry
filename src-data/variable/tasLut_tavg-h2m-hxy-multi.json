@@ -1,5 +1,5 @@
 {
-    "id": "tasLut_tavg-h2m-hxy-multi",
+    "id": "taslut-tavg-h2m-hxy-multi",
     "validation-key": "tasLut_tavg-h2m-hxy-multi",
     "ui-label": "Near-Surface Air Temperature on Land Use Tile",
     "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",

@@ -1,5 +1,5 @@
 {
-    "id": "rsds_tavg-u-hxy-ufs",
+    "id": "rsds-tavg-u-hxy-ufs",
     "validation-key": "rsds_tavg-u-hxy-ufs",
     "ui-label": "Surface Downwelling Shortwave Radiation over Land Not Covered by Ice Sheets or Snow",
     "description": "Surface Downwelling Shortwave Radiation over the portion of a land grid cell not covered by ice sheets or snow. Can be used for computation of surface albedo.",

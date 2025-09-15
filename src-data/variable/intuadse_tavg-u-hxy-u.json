@@ -1,5 +1,5 @@
 {
-    "id": "intuadse_tavg-u-hxy-u",
+    "id": "intuadse-tavg-u-hxy-u",
     "validation-key": "intuadse_tavg-u-hxy-u",
     "ui-label": "Vertically Integrated Eastward Dry Static Energy Transport",
     "description": "Vertically integrated eastward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of eastward wind by dry static_energy per mass unit)",
