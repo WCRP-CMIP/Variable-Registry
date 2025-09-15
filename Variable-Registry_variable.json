@@ -1,15 +1,42 @@
 {
     "Header": {
         "file": "Variable-Registry_variable.json",
-        "file_creation_date": "2025-09-15T11:28:53.453497",
+        "file_creation_date": "2025-09-15T11:36:53.611127",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: a8ba984844cfbdd9e201dceef0673292",
+        "checksum": "md5: 034818aab47854956c4f07d6195626b9",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "8a008234c051bbd13b356d148e3ca2d3059570f9",
+        "last_commit": "de24c1fa3cd21445705205adbf5538abe8c612e7",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "variable": {
+        "": {
+            "area-label": "vr:area-label/u",
+            "cell-measures": "area: areacella",
+            "vr:variable/cell-methods": "amn-twm",
+            "description": "Hourly Temperature at 2m above the surface",
+            "vr:variable/dimensions": [
+                "longitude",
+                "latitude",
+                "time"
+            ],
+            "frequency": "1hr",
+            "vr:variable/horizontal-label": "hxy",
+            "model-realm": "universal:realm/land",
+            "out-name": "tas",
+            "physical-parameter-name": "tas",
+            "positive": "",
+            "remove-cmip6-table": "E1hr",
+            "spatial-shape": "XY-na",
+            "standard-name": "air_temperature",
+            "vr:variable/temporal-label": "tavg",
+            "temporal-shape": "time-intv",
+            "ui-label": "Hourly Temperature at Surface",
+            "units": "K",
+            "validation-key": "",
+            "vr:variable/variable-root": "tas",
+            "vr:variable/vertical-label": "u"
+        },
         "abs550aer_tavg-u-hxy-u": {
             "area-label": "vr:area-label/u",
             "cell-measures": "area: areacella",
@@ -9713,22 +9740,6 @@
             "validation-key": "hcfc22_tavg-al-hxy-u",
             "vr:variable/variable-root": "hcfc22",
             "vr:variable/vertical-label": "al"
-        },
-        "hcfc22_tavg-u-hm-u": {
-            "area-label": "u",
-            "cell-methods": "vr:cell-method/ area: time: mean (with all samples weighted by the number of moles of air in the sample)",
-            "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox\\_expressed\\_as\\_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane.",
-            "dimensions": "time",
-            "horizontal-label": "hm",
-            "model-realm": "universal:realm/atmosChem",
-            "physical-parameter-name": "hcfc22global",
-            "standard-name": "mole_fraction_of_hcfc22_in_air",
-            "temporal-label": "tavg",
-            "ui-label": "Global Mean Mole Fraction of HCFC22",
-            "units": "1E-12",
-            "validation-key": "hcfc22_tavg-u-hm-u",
-            "variable-root": "hcfc22global",
-            "vertical-label": "u"
         },
         "hcho_tavg-al-hxy-u": {
             "area-label": "vr:area-label/u",

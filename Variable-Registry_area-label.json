@@ -1,15 +1,20 @@
 {
     "Header": {
         "file": "Variable-Registry_area-label.json",
-        "file_creation_date": "2025-09-15T11:28:53.878879",
+        "file_creation_date": "2025-09-15T11:36:54.058873",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: 1e40697fd84094f4b672c245ab8f8b52",
+        "checksum": "md5: a0bb471050768adf85b594745d6884ee",
         "repo_url": "https://github.com/WCRP-CMIP/Variable-Registry",
         "repo_prefix": "vr",
-        "last_commit": "8a008234c051bbd13b356d148e3ca2d3059570f9",
+        "last_commit": "de24c1fa3cd21445705205adbf5538abe8c612e7",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "area-label": {
+        "": {
+            "description": "unmasked (no \"where\" directive included in the cell_methods)",
+            "ui-label": "Unmasked Area",
+            "validation-key": ""
+        },
         "air": {
             "description": "Variables calculated over atmospheric air regions, typically representing conditions in the atmosphere above the surface. Used for atmospheric composition, temperature, humidity, and other meteorological variables.",
             "ui-label": "Air",
