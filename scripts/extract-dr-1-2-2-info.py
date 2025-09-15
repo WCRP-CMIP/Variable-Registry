@@ -79,6 +79,8 @@ def main():
     #   it just tells you that each cell represents average values,
     #   rather than e.g. instantaneous values
     # - Is "area: time: mean where ice_free_sea over sea" a valid cell method?
+    # - I'm not sure that these cell methods achieve what the DR wants?
+    #   "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)"
     # Notes:
     # - helpful link for understanding 'where' in cell methods:
     #   https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html

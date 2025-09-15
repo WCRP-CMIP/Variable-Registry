@@ -1,8 +1,8 @@
 {
     "id": "amsc-twm",
-    "validation-key": "amsc-twm",
-    "ui-label": "Weighted Time Mean on Stratiform Cloud",
-    "description": "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)",
+    "validation-key": "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)",
+    "ui-label": "Weighted spatial and time mean where there is stratiform cloud",
+    "description": "Weighted average (mean) over space and time, only considering areas and times where stratiform cloud is present and using total stratiform cloud area for the weights.",
     "mask": "",
     "@context": "_context_",
     "type": [

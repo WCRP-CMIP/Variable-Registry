@@ -1,0 +1,13 @@
+{
+    "id": "amsc-twm",
+    "validation-key": "area: time: mean where stratiform_cloud",
+    "ui-label": "Spatial and time mean where there is stratiform cloud",
+    "description": "Average (mean) over space and time, only considering areas and times where stratiform cloud is present.",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+
