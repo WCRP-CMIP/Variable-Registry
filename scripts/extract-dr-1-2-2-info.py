@@ -81,6 +81,10 @@ def main():
     # - Is "area: time: mean where ice_free_sea over sea" a valid cell method?
     # - I'm not sure that these cell methods achieve what the DR wants?
     #   "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)"
+    # - Is "depth: sum where sea time: mean" a valid cell methods?
+    # - can we strip 'mask' from everything in cell methods
+    # - Is "area: mean where sea depth: sum where sea (over entire ocean column) time: mean"
+    #   actually what is desired?
     # Notes:
     # - helpful link for understanding 'where' in cell methods:
     #   https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html

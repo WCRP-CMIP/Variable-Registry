@@ -1,0 +1,13 @@
+{
+    "id": "amndsfc-tmn",
+    "validation-key": "area: mean where sea depth: sum where sea (over entire ocean column) time: mean",
+    "ui-label": "Depth integrated values over the entire ocean column where sea, average space and time values",
+    "description": "Average (mean) over space in the cell, only considering areas where the surface is sea. Depth integral (sum) values over the entire sea column. Average (mean) over time in the cell.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+
+

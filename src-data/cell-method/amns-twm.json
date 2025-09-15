@@ -1,0 +1,13 @@
+{
+    "id": "amns-twm",
+    "validation-key": "area: time: mean where sea",
+    "ui-label": "Area and time mean on sea",
+    "description": "Average (mean) over space and time, only considering areas and times where the surface is sea",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+

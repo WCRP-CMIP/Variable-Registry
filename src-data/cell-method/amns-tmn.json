@@ -2,7 +2,7 @@
     "id": "amns-tmn",
     "validation-key": "area: mean where sea time: mean",
     "ui-label": "Area and time mean on sea",
-    "description": "Average (mean) over space and time, only considering areas and times where the surface is sea",
+    "description": "Average (mean) over space, only considering areas where the surface is sea, and then average (mean) over time",
     "mask": "",
     "@context": "_context_",
     "type": [

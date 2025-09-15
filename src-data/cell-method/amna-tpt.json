@@ -1,8 +1,8 @@
 {
     "id": "amna-tpt",
-    "validation-key": "amna-tpt",
-    "ui-label": "Instantaneous Value on Levels above Ground",
-    "description": "area: mean where air time: point",
+    "validation-key": "area: mean where air time: point",
+    "ui-label": "Average spatial values where the surface is atmosphere, instantaneous time values",
+    "description": "Average (mean) over space, only considering areas where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Instantaneous values in time.",
     "mask": "",
     "@context": "_context_",
     "type": [
