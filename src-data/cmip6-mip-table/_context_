@@ -2,12 +2,16 @@
     "@context": [
         "../_context_",
         {
-        "@base": "https://wcrp-cmip.github.io/Variable-Registry/cmip6-mip-table/",
-        "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/cmip6-mip-table/",
-        "variables": {
-            "@type": "@id",
-            "@context": "https://wcrp-cmip.github.io/Variable-Registry/variable/_context_"
+            "@base": "https://wcrp-cmip.github.io/Variable-Registry/cmip6-mip-table/",
+            "@vocab": "https://wcrp-cmip.github.io/Variable-Registry/cmip6-mip-table/",
+            "variables": {
+                "@type": "@id",
+                "@context": "https://wcrp-cmip.github.io/Variable-Registry/variable/_context_"
+            }
         }
-    }],
-    "@embed": "@always"
+    ],
+    "@embed": "@always",
+    "@type": [
+        "vr"
+    ]
 }
