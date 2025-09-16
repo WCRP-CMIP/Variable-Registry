@@ -1,0 +1,13 @@
+{
+    "id": "amns-tmin",
+    "validation-key": "area: mean where sea time: minimum",
+    "ui-label": "Spatial mean over sea, time minimum",
+    "description": "Average (mean) over the area where there is sea (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html). The value in each cell is the minimum over the time represented by the cell.",
+    "mask": "",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+

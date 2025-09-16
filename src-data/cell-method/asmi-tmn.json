@@ -1,8 +1,8 @@
 {
     "id": "asmi-tmn",
-    "validation-key": "asmi-tmn",
-    "ui-label": "Time Mean of Area Sum on Ice Sheet",
-    "description": "area: sum where ice_sheet time: mean",
+    "validation-key": "area: sum where ice_sheet time: mean",
+    "ui-label": "Spatial sum over ice sheets and time mean",
+    "description": "Integral (sum) over space where there is ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
     "mask": "",
     "@context": "_context_",
     "type": [
