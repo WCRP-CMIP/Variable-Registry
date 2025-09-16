@@ -47,10 +47,9 @@
     },
     {
       "id": "amlu-twm",
-      "validation-key": "amlu-twm",
-      "ui-label": "Weighted Time Mean on Landuse Tiles",
-      "description": "area: time: mean where sector",
-      "mask": "",
+      "validation-key": "area: time: mean where sector",
+      "ui-label": "Spatial and time mean over areas where vegetation/land-use types are considered",
+      "description": "Average (mean) over the area and times where there is vegetation/land-use information (`sector` is an auxilliary co-ordinate used for land-use and vegetation types).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -69,10 +68,9 @@
     },
     {
       "id": "amn-dmax",
-      "validation-key": "amn-dmax",
-      "ui-label": "Daily Maximum",
-      "description": "area: mean time: maximum within days time: mean over days",
-      "mask": "",
+      "validation-key": "area: mean time: maximum within days time: mean over days",
+      "ui-label": "Area mean, maximum for each hour, then averaged over all days considered",
+      "description": "The mean is taken over each cell's area first, then the maximum value from these averages is taken over the time represented by each cell, then an average over all days considered is taken to arrive at the final value.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -91,10 +89,9 @@
     },
     {
       "id": "amn-fx",
-      "validation-key": "amn-fx",
-      "ui-label": "Fixed Area Mean",
-      "description": "area: mean",
-      "mask": "",
+      "validation-key": "area: mean",
+      "ui-label": "Area mean",
+      "description": "Area mean i.e. each cell represents the average over the cell's area",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -113,10 +110,9 @@
     },
     {
       "id": "amn-tdnl",
-      "validation-key": "amn-tdnl",
-      "ui-label": "Mean Diurnal Cycle",
-      "description": "area: mean time: mean within days time: mean over days",
-      "mask": "",
+      "validation-key": "area: mean time: mean within days time: mean over days",
+      "ui-label": "Diurnal Cycle",
+      "description": "Average (mean) over space. Diurnal cycle in time (i.e. for each provided hour, the value represents an average over the quantity for the hour, and this value has itself been calculated by taking the average for the given hour over the specified days of data).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -124,10 +120,9 @@
     },
     {
       "id": "amn-tmax",
-      "validation-key": "amn-tmax",
-      "ui-label": "Time Maximum",
-      "description": "area: mean time: maximum",
-      "mask": "",
+      "validation-key": "area: mean time: maximum",
+      "ui-label": "Area mean, maximum in time",
+      "description": "The mean is taken over each cell's area first, then the maximum value from these averages is taken over the time represented by each cell",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -146,9 +141,9 @@
     },
     {
       "id": "amn-tmin",
-      "validation-key": "amn-tmin",
-      "ui-label": "Temporal Minimum",
-      "description": "area: mean time: minimum",
+      "validation-key": "area: mean time: minimum",
+      "ui-label": "Spatial mean, time minimum",
+      "description": "Average (mean) over area. The value in each cell is the minimum over the time represented by the cell.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -157,10 +152,9 @@
     },
     {
       "id": "amn-tpt",
-      "validation-key": "amn-tpt",
-      "ui-label": "Area Mean Instantaneous",
-      "description": "Cell method representing spatial area mean of instantaneous (point-in-time) values. Variables are spatially averaged over grid cells or regions but represent snapshot conditions at specific time instances.",
-      "mask": "",
+      "validation-key": "area: mean time: point",
+      "ui-label": "Area mean, instantaneous time value",
+      "description": "Average (mean) over space. The values represent the instantaneous time value.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -179,10 +173,9 @@
     },
     {
       "id": "amn-twm",
-      "validation-key": "",
-      "ui-label": "Area and Time Mean",
-      "description": "Cell method representing spatial area mean followed by temporal mean. Variables are first averaged spatially over grid cells or regions, then averaged temporally over specified time periods.",
-      "mask": "",
+      "validation-key": "area: time: mean",
+      "ui-label": "Area and time mean",
+      "description": "Average (mean) over space and time",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -190,10 +183,9 @@
     },
     {
       "id": "amna-clim",
-      "validation-key": "amna-clim",
-      "ui-label": "Annual Climatology in Atmosphere",
-      "description": "area: mean where air time: mean within years time: mean over years",
-      "mask": "",
+      "validation-key": "area: mean where air time: mean within years time: mean over years",
+      "ui-label": "Monthly climatology in the atmosphere",
+      "description": "Average (mean) over space, only considering areas where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Monthly climatologies in time (i.e. for each provided month, the value represents an average over the quantity for the month, and this value has itself been calculated by taking the average for the given month over the specified years of data).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -201,9 +193,9 @@
     },
     {
       "id": "amna-tpt",
-      "validation-key": "amna-tpt",
-      "ui-label": "Instantaneous Value on Levels above Ground",
-      "description": "area: mean where air time: point",
+      "validation-key": "area: mean where air time: point",
+      "ui-label": "Average spatial values where the surface is atmosphere, instantaneous time values",
+      "description": "Average (mean) over space, only considering areas where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Instantaneous values in time.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -212,10 +204,9 @@
     },
     {
       "id": "amna-twm",
-      "validation-key": "amna-twm",
-      "ui-label": "Weighted Time Mean in Air",
-      "description": "area: time: mean where air",
-      "mask": "",
+      "validation-key": "area: time: mean where air",
+      "ui-label": "Area and time mean in the atmosphere",
+      "description": "Average (mean) over area and time, only considering areas and times where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -223,10 +214,9 @@
     },
     {
       "id": "amncc-tpt",
-      "validation-key": "amncc-tpt",
-      "ui-label": "Instantaneous Mean over convective cloud",
-      "description": "area: mean where convective_cloud time: point",
-      "mask": "",
+      "validation-key": "area: mean where convective_cloud time: point",
+      "ui-label": "Area mean where the surface is covered by convective clouds, instantaneous time value",
+      "description": "Average (mean) over space, where the area is an area of convective cloud. The values represent the instantaneous time value.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -278,9 +268,9 @@
     },
     {
       "id": "amncrp-tmin",
-      "validation-key": "amncrp-tmin",
-      "ui-label": "Temporal Minimum over Crops",
-      "description": "area: mean where crops time: minimum",
+      "validation-key": "area: mean where crops time: minimum",
+      "ui-label": "Spatial mean where there are crops, time minimum",
+      "description": "Average (mean) over the area where there are crops (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html). The value in each cell is the minimum over the time represented by the cell.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -310,6 +300,16 @@
       ]
     },
     {
+      "id": "amndsfc-tmn",
+      "validation-key": "area: mean where sea depth: sum where sea (over entire ocean column) time: mean",
+      "ui-label": "Depth integrated values over the entire ocean column where sea, average space and time values",
+      "description": "Average (mean) over space in the cell, only considering areas where the surface is sea. Depth integral (sum) values over the entire sea column. Average (mean) over time in the cell.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "amndss-tmn",
       "validation-key": "amndss-tmn",
       "ui-label": "Sum over Depth, Time Mean",
@@ -321,10 +321,30 @@
       ]
     },
     {
+      "id": "amndsw-tpt",
+      "validation-key": "area: mean (weighted by downwelling solar radiation) time: point",
+      "ui-label": "Weighted area mean where the weights are provided by downwelling solar radiation, instantaneous time value",
+      "description": "Weighted average (mean) over space, where the weights are provided by downwelling solar radiation. The values represent the instantaneous time value.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
+      "id": "amndsw-twm",
+      "validation-key": "area: time: mean (weighted by downwelling solar radiation)",
+      "ui-label": "Weighted area and time mean where the weights are provided by downwelling solar radiation",
+      "description": "Weighted average (mean) over space and time, where the weights are provided by downwelling solar radiation.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "amnfi-twm",
-      "validation-key": "amnfi-twm",
-      "ui-label": "Weighted Time Mean on Floating Ice Shelf",
-      "description": "area: time: mean where floating_ice_shelf",
+      "validation-key": "area: time: mean where floating_ice_shelf (mask=sftflf)",
+      "ui-label": "Spatial and time mean over floating ice shelf",
+      "description": "Average (mean) over the area and times where there is floating ice shelf (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).",
       "mask": "sftflf",
       "type": [
         "wcrp:cell-method",
@@ -333,10 +353,9 @@
     },
     {
       "id": "amng-twm",
-      "validation-key": "amng-twm",
-      "ui-label": "Weighted Time Mean on Natural Grasses",
-      "description": "area: time: mean where natural_grasses",
-      "mask": "grassFrac",
+      "validation-key": "area: time: mean where natural_grasses (mask=grassFrac)",
+      "ui-label": "Area and time mean on natural grasses",
+      "description": "Average (mean) over space and time, where the area is an area of natural grasses (see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html for definition)",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -355,10 +374,9 @@
     },
     {
       "id": "amngi-twm",
-      "validation-key": "amngi-twm",
-      "ui-label": "Weighted Time Mean on Grounded Ice Sheet",
-      "description": "area: time: mean where grounded_ice_sheet",
-      "mask": "sftgrf",
+      "validation-key": "area: time: mean where grounded_ice_sheet (mask=sfgrlf)",
+      "ui-label": "Spatial and time mean over grounded ice sheets",
+      "description": "Average (mean) over the area and times where there is grounded ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -366,9 +384,9 @@
     },
     {
       "id": "amni-fx",
-      "validation-key": "amni-fx",
-      "ui-label": "Fixed Area Mean over Ice Sheets",
-      "description": "area: mean where ice_sheet",
+      "validation-key": "area: mean where ice_sheet",
+      "ui-label": "Spatial sum over ice sheets",
+      "description": "Integral (sum) over space where there is ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -377,10 +395,9 @@
     },
     {
       "id": "amni-twm",
-      "validation-key": "amni-twm",
-      "ui-label": "Weighted Time Mean on Ice Sheet",
-      "description": "area: time: mean where ice_sheet",
-      "mask": "",
+      "validation-key": "area: time: mean where ice_sheet",
+      "ui-label": "Spatial and time mean on ice sheets",
+      "description": "Average (mean) over space and time, only considering areas and times where ice sheets are present",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -398,11 +415,20 @@
       ]
     },
     {
+      "id": "amnsi-twm",
+      "validation-key": "area: time: mean where ice_free_sea over sea",
+      "ui-label": "Spatial and time mean on ice-free sea",
+      "description": "Average (mean) over space and time, only considering areas and times where there is ice-free sea",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "amnla-fx",
-      "validation-key": "amnla-fx",
-      "ui-label": "Fixed Area Mean",
-      "description": "area: mean where land",
-      "mask": "",
+      "validation-key": "area: mean where land",
+      "ui-label": "Area mean on land",
+      "description": "Area mean i.e. each cell represents the average over the cell's area, only considering areas and times where the surface is land",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -410,10 +436,9 @@
     },
     {
       "id": "amnla-tmn",
-      "validation-key": "amnla-tmn",
-      "ui-label": "Time Mean over Land",
-      "description": "area: mean where land time: mean",
-      "mask": "",
+      "validation-key": "area: mean where land time: mean",
+      "ui-label": "Area and time mean on land",
+      "description": "Average (mean) over space and time, only considering areas and times where the surface is land",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -498,10 +523,9 @@
     },
     {
       "id": "amnlu-tpt",
-      "validation-key": "amnlu-tpt",
-      "ui-label": "Instantaneous Mean on Landuse Tiles",
-      "description": "area: mean where sector time: point",
-      "mask": "",
+      "validation-key": "area: mean where sector time: point",
+      "ui-label": "Spatial mean over areas where vegetation/land-use types are considered, instantaneous time values",
+      "description": "Average (mean) over the area where there is vegetation/land-use information (`sector` is an auxilliary co-ordinate used for land-use and vegetation types). Time values represent the value at the exact point in time specified (other values from within the temporal cell are not considered).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -520,10 +544,9 @@
     },
     {
       "id": "amns-fx",
-      "validation-key": "amns-fx",
-      "ui-label": "Fixed Area Mean over Sea",
-      "description": "area: mean where sea",
-      "mask": "",
+      "validation-key": "area: mean where sea",
+      "ui-label": "Area mean over sea",
+      "description": "Area mean i.e. each cell represents the average over the cell's area, where the area is over the sea",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -541,10 +564,21 @@
       ]
     },
     {
+      "id": "amns-tmin",
+      "validation-key": "area: mean where sea time: minimum",
+      "ui-label": "Spatial mean over sea, time minimum",
+      "description": "Average (mean) over the area where there is sea (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html). The value in each cell is the minimum over the time represented by the cell.",
+      "mask": "",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "amns-tmn",
-      "validation-key": "amns-tmn",
-      "ui-label": "Time Mean over Sea",
-      "description": "area: mean where sea time: mean",
+      "validation-key": "area: mean where sea time: mean",
+      "ui-label": "Area and time mean on sea",
+      "description": "Average (mean) over space, only considering areas where the surface is sea, and then average (mean) over time",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -563,10 +597,10 @@
       ]
     },
     {
-      "id": "amnsc-tpt",
-      "validation-key": "amnsc-tpt",
-      "ui-label": "Instantaneous Mean over Stratiform Cloud",
-      "description": "area: mean where stratiform_cloud time: point",
+      "id": "amns-twm",
+      "validation-key": "area: time: mean where sea",
+      "ui-label": "Area and time mean on sea",
+      "description": "Average (mean) over space and time, only considering areas and times where the surface is sea",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -574,11 +608,20 @@
       ]
     },
     {
+      "id": "amnsc-tpt",
+      "validation-key": "area: mean where stratiform_cloud time: point",
+      "ui-label": "Area mean where the surface is covered by stratiform clouds, instantaneous time value",
+      "description": "Average (mean) over space, where the area is an area of stratiform cloud. The values represent the instantaneous time value.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "amnshr-twm",
-      "validation-key": "amnshr-twm",
-      "ui-label": "Weighted Time Mean on Shrubs",
-      "description": "area: time: mean where shrubs",
-      "mask": "shrubFrac",
+      "validation-key": "area: time: mean where shrubs (mask=shrubFrac)",
+      "ui-label": "Area and time mean on shrubs",
+      "description": "Average (mean) over space and time, where the area is an area of shrubs (see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html for definition)",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -597,32 +640,19 @@
     },
     {
       "id": "amnsi-twm",
-      "validation-key": "amnsi-twm",
-      "ui-label": "Weighted Time Mean on Sea-Ice",
-      "description": "area: time: mean where sea_ice",
-      "mask": "siconc",
+      "validation-key": "area: time: mean where sea_ice",
+      "ui-label": "Spatial and time mean on sea-ice",
+      "description": "Average (mean) over space and time, only considering areas and times where sea ice is present",
       "type": [
         "wcrp:cell-method",
         "variable"
       ]
     },
     {
-      "id": "amnsia-twm",
-      "validation-key": "amnsia-twm",
-      "ui-label": "Weighted Time Mean on Sea-Ice (Atmospheric Grid)",
-      "description": "area: time: mean where sea_ice",
-      "mask": "siconca",
-      "type": [
-        "wcrp:cell-method",
-        "variable"
-      ]
-    },
-    {
-      "id": "amnsib-twm",
-      "validation-key": "amnsib-twm",
-      "ui-label": "Weighted Time Mean in Sea-Ice Thickness Bands",
-      "description": "area: time: mean where sea_ice",
-      "mask": "siitdconc",
+      "id": "amnsi-twm",
+      "validation-key": "area: time: mean where sea_ice (mask=siconc)",
+      "ui-label": "Spatial and time mean on sea-ice",
+      "description": "Average (mean) over space and time, only considering areas and times where sea ice is present",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -652,10 +682,9 @@
     },
     {
       "id": "amnsnla-twm",
-      "validation-key": "amnsnla-twm",
-      "ui-label": "Weighted Time Mean in over Snow",
-      "description": "area: time: mean where snow",
-      "mask": "snc",
+      "validation-key": "area: time: mean where snow (mask=snc)",
+      "ui-label": "Spatial and time mean on snow",
+      "description": "Average (mean) over space and time, only considering areas and times where snow is present",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -674,10 +703,9 @@
     },
     {
       "id": "amntr-twm",
-      "validation-key": "amntr-twm",
-      "ui-label": "Weighted Time Mean on Unfrozen Ground",
-      "description": "area: time: mean where trees",
-      "mask": "treeFrac",
+      "validation-key": "area: time: mean where trees (mask=treeFrac)",
+      "ui-label": "Area and time mean where the surface is covered by trees",
+      "description": "Average (mean) over space and time, where the area is an area of trees (see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html for definition)",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -685,10 +713,9 @@
     },
     {
       "id": "amnunf-twm",
-      "validation-key": "amnunf-twm",
-      "ui-label": "Weighted Time Mean on Bare Ground",
-      "description": "area: time: mean where unfrozen_soil (at the surface, but frozen below zero isotherm)",
-      "mask": "",
+      "validation-key": "area: time: mean where unfrozen_soil (at the surface, but frozen below zero isotherm)",
+      "ui-label": "Spatial and time mean on unfrozen soil",
+      "description": "Average (mean) over space and time, only considering areas and times where the soil at the surface is not frozen",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -718,9 +745,20 @@
     },
     {
       "id": "amsc-twm",
-      "validation-key": "amsc-twm",
-      "ui-label": "Weighted Time Mean on Stratiform Cloud",
-      "description": "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)",
+      "validation-key": "area: time: mean where stratiform_cloud (weighted by total stratiform cloud area)",
+      "ui-label": "Weighted spatial and time mean where there is stratiform cloud",
+      "description": "Weighted average (mean) over space and time, only considering areas and times where stratiform cloud is present and using total stratiform cloud area for the weights.",
+      "mask": "",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
+      "id": "amsc-twm",
+      "validation-key": "area: time: mean where stratiform_cloud",
+      "ui-label": "Spatial and time mean where there is stratiform cloud",
+      "description": "Average (mean) over space and time, only considering areas and times where stratiform cloud is present.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -729,10 +767,9 @@
     },
     {
       "id": "apt-fx",
-      "validation-key": "apt-fx",
-      "ui-label": "Point Values",
-      "description": "Cell method representing point values in space and time, with no spatial or temporal averaging. Values represent precise measurements or model output at specific locations and times.",
-      "mask": "",
+      "validation-key": "area: point",
+      "ui-label": "Point values at the given location",
+      "description": "Point (i.e. exact) values in space. No spatial. Values represent precise measurements or model output at the given locations.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -740,10 +777,9 @@
     },
     {
       "id": "apt-tpt",
-      "validation-key": "apt-tpt",
-      "ui-label": "Instantaneous Point Values",
-      "description": "area: point time: point",
-      "mask": "",
+      "validation-key": "area: point time: point",
+      "ui-label": "Exact, instantaneous point values",
+      "description": "Values are provided for the exact spatial and time point specified. Other values from within the cell (both in space and time) are not considered.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -773,9 +809,9 @@
     },
     {
       "id": "asmfi-twm",
-      "validation-key": "asmfi-twm",
-      "ui-label": "Area Sum Time Mean on Floating Ice Shelf",
-      "description": "area: sum where floating_ice_shelf",
+      "validation-key": "area: sum where floating_ice_shelf (mask=sftflf) time: mean",
+      "ui-label": "Spatial sum over floating ice shelf and time mean",
+      "description": "Integral (sum) over space where there is floating ice shelf (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
       "mask": "sftflf",
       "type": [
         "wcrp:cell-method",
@@ -784,9 +820,9 @@
     },
     {
       "id": "asmgi-twm",
-      "validation-key": "asmgi-twm",
-      "ui-label": "Area Sum Time Mean on Grounded Ice Sheet",
-      "description": "area: sum where grounded_ice_sheet",
+      "validation-key": "area: sum where grounded_ice_sheet (mask=sfgrlf) time: mean",
+      "ui-label": "Spatial sum over grounded ice sheets and time mean",
+      "description": "Integral (sum) over space where there is grounded ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
       "mask": "sftgrf",
       "type": [
         "wcrp:cell-method",
@@ -795,9 +831,9 @@
     },
     {
       "id": "asmi-tmn",
-      "validation-key": "asmi-tmn",
-      "ui-label": "Time Mean of Area Sum on Ice Sheet",
-      "description": "area: sum where ice_sheet time: mean",
+      "validation-key": "area: sum where ice_sheet time: mean",
+      "ui-label": "Spatial sum over ice sheets and time mean",
+      "description": "Integral (sum) over space where there is ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -806,9 +842,9 @@
     },
     {
       "id": "asms-tmn",
-      "validation-key": "asms-tmn",
-      "ui-label": "Time Mean of Area Sum on Sea-ice",
-      "description": "area: sum where sea time: mean",
+      "validation-key": "area: sum where sea time: mean",
+      "ui-label": "Spatial sum over sea and time mean",
+      "description": "Integral (sum) over space where there is sea (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -817,9 +853,9 @@
     },
     {
       "id": "ax-tmn",
-      "validation-key": "ax-tmn",
-      "ui-label": "Time Mean",
-      "description": "time: mean",
+      "validation-key": "time: mean",
+      "ui-label": "Time mean",
+      "description": "Average (mean) over time",
       "mask": "",
       "type": [
         "wcrp:cell-method",
@@ -860,6 +896,26 @@
       ]
     },
     {
+      "id": "dlsmszz-tmn",
+      "validation-key": "depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean",
+      "ui-label": "Depth and longitude (east-west) integrated values where sea, following a zig-zag grid path that spans a given basin, average time values",
+      "description": "Depth and longitude integral (sum) values, only considering areas where the surface is sea. The path followed when calculating the integral can be a zig-zag in order to span a given basin. Average (mean) over time in the cell.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
+      "id": "dsmamnsi-twm",
+      "validation-key": "depth: sum where sea time: mean",
+      "ui-label": "Depth integrated values where sea, average time values",
+      "description": "Depth integral (sum) values, only considering areas where the surface is sea. Average (mean) over time in the cell.",
+      "type": [
+        "wcrp:cell-method",
+        "variable"
+      ]
+    },
+    {
       "id": "fixed",
       "validation-key": "fixed",
       "ui-label": "Fixed Field",
@@ -872,10 +928,9 @@
     },
     {
       "id": "vsm-clim",
-      "validation-key": "vsm-clim",
-      "ui-label": "Integral over Atmospheric Volume and Time Climatology",
-      "description": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
-      "mask": "",
+      "validation-key": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
+      "ui-label": "Sum over atmospheric volume, monthly climatology over time",
+      "description": "Integral (sum) over space (both horizontal and vertical). Monthly climatologies in time (i.e. for each provided month, the value represents an average over the quantity for the month, and this value has itself been calculated by taking the average for the given month over the specified years of data).",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -883,10 +938,9 @@
     },
     {
       "id": "vsm-tmn",
-      "validation-key": "vsm-tmn",
-      "ui-label": "Integral over Atmospheric Volume and Time Mean",
-      "description": "height: sum (through atmospheric column) area: sum time: mean",
-      "mask": "",
+      "validation-key": "height: sum (through atmospheric column) area: sum time: mean",
+      "ui-label": "Sum over atmospheric volume, mean over time",
+      "description": "Integral (sum) over space (both horizontal and vertical). Mean over time i.e. the value represents an average over the quantity for each time cell.",
       "type": [
         "wcrp:cell-method",
         "variable"
@@ -905,10 +959,9 @@
     },
     {
       "id": "zmeana-twm",
-      "validation-key": "zmeana-twm",
-      "ui-label": "Zonal Time Mean",
-      "description": "longitude: time: mean where air",
-      "mask": "",
+      "validation-key": "longitude: time: mean where air",
+      "ui-label": "Zonal and time mean in the atmosphere",
+      "description": "Average (mean) over longitudes (east-west) and time, only considering areas and times where the surface is atmosphere (the nature of the surface can vary if e.g. the surface is defined by pressure or height). Values processed this way generally result in a zonal-mean (perhaps with other varying dimensions too).",
       "type": [
         "wcrp:cell-method",
         "variable"
