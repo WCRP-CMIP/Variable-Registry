@@ -1,0 +1,33 @@
+{
+    "id": "hfls_tavg-u-hxy-u",
+    "validation-key": "hfls_tavg-u-hxy-u",
+    "ui-label": "Surface Upward Latent Heat Flux",
+    "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
+    "area-label": "u",
+    "cell-measures": "area: areacella",
+    "cell-methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal-label": "hxy",
+    "model-realm": "atmos",
+    "out-name": "hfls",
+    "physical-parameter-name": "hfls",
+    "positive": "up",
+    "remove-cmip6-table": "day",
+    "spatial-shape": "XY-na",
+    "standard-name": "surface_upward_latent_heat_flux",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "W m-2",
+    "variable-root": "hfls",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

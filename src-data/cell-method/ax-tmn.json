@@ -1,8 +1,8 @@
 {
     "id": "ax-tmn",
-    "validation-key": "ax-tmn",
-    "ui-label": "Time Mean",
-    "description": "time: mean",
+    "validation-key": "time: mean",
+    "ui-label": "Time mean",
+    "description": "Average (mean) over time",
     "mask": "",
     "@context": "_context_",
     "type": [

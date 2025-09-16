@@ -1,0 +1,33 @@
+{
+    "id": "libmassbf_tavg-u-hxy-gis",
+    "validation-key": "libmassbf_tavg-u-hxy-gis",
+    "ui-label": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+    "description": "quantity averaged over grounded ice sheet",
+    "area-label": "gis",
+    "cell-measures": "area: areacellg",
+    "cell-methods": "amngi-twm",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "landIce",
+    "out-name": "libmassbfgr",
+    "physical-parameter-name": "libmassbfgr",
+    "positive": "",
+    "remove-cmip6-table": "ImonGre",
+    "spatial-shape": "XYG-na",
+    "standard-name": "land_ice_basal_specific_mass_balance_flux",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable-root": "libmassbfgr",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

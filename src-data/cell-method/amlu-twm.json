@@ -1,9 +1,8 @@
 {
     "id": "amlu-twm",
-    "validation-key": "amlu-twm",
-    "ui-label": "Weighted Time Mean on Landuse Tiles",
-    "description": "area: time: mean where sector",
-    "mask": "",
+    "validation-key": "area: time: mean where sector",
+    "ui-label": "Spatial and time mean over areas where vegetation/land-use types are considered",
+    "description": "Average (mean) over the area and times where there is vegetation/land-use information (`sector` is an auxilliary co-ordinate used for land-use and vegetation types).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

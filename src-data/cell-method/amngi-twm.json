@@ -1,9 +1,8 @@
 {
     "id": "amngi-twm",
-    "validation-key": "amngi-twm",
-    "ui-label": "Weighted Time Mean on Grounded Ice Sheet",
-    "description": "area: time: mean where grounded_ice_sheet",
-    "mask": "sftgrf",
+    "validation-key": "area: time: mean where grounded_ice_sheet (mask=sfgrlf)",
+    "ui-label": "Spatial and time mean over grounded ice sheets",
+    "description": "Average (mean) over the area and times where there is grounded ice sheets (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

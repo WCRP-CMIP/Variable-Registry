@@ -1,0 +1,31 @@
+{
+    "id": "iareafl_tavg-u-hm-fis",
+    "validation-key": "iareafl_tavg-u-hm-fis",
+    "ui-label": "Area Covered by Floating Ice Shelves",
+    "description": "Greenland",
+    "area-label": "fis",
+    "cell-measures": "",
+    "cell-methods": "asmfi-twm",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal-label": "hm",
+    "model-realm": "landIce",
+    "out-name": "iareafl",
+    "physical-parameter-name": "iareafl",
+    "positive": "",
+    "remove-cmip6-table": "IyrGre",
+    "spatial-shape": "na-na",
+    "standard-name": "floating_ice_shelf_area",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "m2",
+    "variable-root": "iareafl",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

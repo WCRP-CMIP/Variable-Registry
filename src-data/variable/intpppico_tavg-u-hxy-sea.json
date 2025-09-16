@@ -1,0 +1,33 @@
+{
+    "id": "intpppico_tavg-u-hxy-sea",
+    "validation-key": "intpppico_tavg-u-hxy-sea",
+    "ui-label": "Net Primary Mole Productivity of Carbon by Picophytoplankton",
+    "description": "Vertically integrated primary (organic carbon) production by the picophytoplankton component alone",
+    "area-label": "sea",
+    "cell-measures": "area: areacello",
+    "cell-methods": "amndsfc-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal-label": "hxy",
+    "model-realm": "ocnBgchem",
+    "out-name": "intpppico",
+    "physical-parameter-name": "intpppico",
+    "positive": "",
+    "remove-cmip6-table": "Omon",
+    "spatial-shape": "XY-int",
+    "standard-name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_picophytoplankton",
+    "temporal-label": "tavg",
+    "temporal-shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable-root": "intpppico",
+    "vertical-label": "u",
+    "@context": "_context_",
+    "type": [
+        "wcrp:variable",
+        "variable-registry"
+    ]
+}

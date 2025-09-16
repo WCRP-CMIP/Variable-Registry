@@ -1,8 +1,8 @@
 {
     "id": "amnfi-twm",
-    "validation-key": "amnfi-twm",
-    "ui-label": "Weighted Time Mean on Floating Ice Shelf",
-    "description": "area: time: mean where floating_ice_shelf",
+    "validation-key": "area: time: mean where floating_ice_shelf (mask=sftflf)",
+    "ui-label": "Spatial and time mean over floating ice shelf",
+    "description": "Average (mean) over the area and times where there is floating ice shelf (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).",
     "mask": "sftflf",
     "@context": "_context_",
     "type": [

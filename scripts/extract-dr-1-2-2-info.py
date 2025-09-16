@@ -85,6 +85,7 @@ def main():
     # - can we strip 'mask' from everything in cell methods
     # - Is "area: mean where sea depth: sum where sea (over entire ocean column) time: mean"
     #   actually what is desired?
+    # - Double space in "dlsmszz-tmn"
     # Notes:
     # - helpful link for understanding 'where' in cell methods:
     #   https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html

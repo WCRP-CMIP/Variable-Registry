@@ -1,8 +1,8 @@
 {
     "id": "amn-tmin",
-    "validation-key": "amn-tmin",
-    "ui-label": "Temporal Minimum",
-    "description": "area: mean time: minimum",
+    "validation-key": "area: mean time: minimum",
+    "ui-label": "Spatial mean, time minimum",
+    "description": "Average (mean) over area. The value in each cell is the minimum over the time represented by the cell.",
     "mask": "",
     "@context": "_context_",
     "type": [

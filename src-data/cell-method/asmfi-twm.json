@@ -1,8 +1,8 @@
 {
     "id": "asmfi-twm",
-    "validation-key": "asmfi-twm",
-    "ui-label": "Area Sum Time Mean on Floating Ice Shelf",
-    "description": "area: sum where floating_ice_shelf",
+    "validation-key": "area: sum where floating_ice_shelf (mask=sftflf) time: mean",
+    "ui-label": "Spatial sum over floating ice shelf and time mean",
+    "description": "Integral (sum) over space where there is floating ice shelf (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html) and average (mean) over time.",
     "mask": "sftflf",
     "@context": "_context_",
     "type": [

@@ -1,8 +1,8 @@
 {
     "id": "amncrp-tmin",
-    "validation-key": "amncrp-tmin",
-    "ui-label": "Temporal Minimum over Crops",
-    "description": "area: mean where crops time: minimum",
+    "validation-key": "area: mean where crops time: minimum",
+    "ui-label": "Spatial mean where there are crops, time minimum",
+    "description": "Average (mean) over the area where there are crops (for details, see https://cfconventions.org/Data/area-type-table/current/build/area-type-table.html). The value in each cell is the minimum over the time represented by the cell.",
     "mask": "",
     "@context": "_context_",
     "type": [

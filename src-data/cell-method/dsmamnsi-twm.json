@@ -2,7 +2,7 @@
     "id": "dsmamnsi-twm",
     "validation-key": "depth: sum where sea time: mean",
     "ui-label": "Depth integrated values where sea, average time values",
-    "description": "Average (mean) over time in the cell, only considering areas where the surface is sea. Depth integral (sum) values.",
+    "description": "Depth integral (sum) values, only considering areas where the surface is sea. Average (mean) over time in the cell.",
     "@context": "_context_",
     "type": [
         "wcrp:cell-method",

@@ -1,0 +1,13 @@
+{
+    "id": "dlsmszz-tmn",
+    "validation-key": "depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean",
+    "ui-label": "Depth and longitude (east-west) integrated values where sea, following a zig-zag grid path that spans a given basin, average time values",
+    "description": "Depth and longitude integral (sum) values, only considering areas where the surface is sea. The path followed when calculating the integral can be a zig-zag in order to span a given basin. Average (mean) over time in the cell.",
+    "@context": "_context_",
+    "type": [
+        "wcrp:cell-method",
+        "variable"
+    ]
+}
+
+
