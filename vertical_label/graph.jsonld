@@ -1,0 +1,470 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/Variable-Registry/vertical_label/",
+  "@vocab": "https://esgf.github.io/esgf-vocab/api_documentation/data_descriptors.html#esgvoc.api.data_descriptors.VerticalLabel."
+},
+  "@graph": [
+    {
+  "validation_key": "1000hPa",
+  "ui_label": "1000 hPa Pressure Level",
+  "description": "Variables at the 1000 hPa pressure level, approximately equivalent to sea level pressure. This level is commonly used for surface meteorological conditions and represents the lower boundary of the atmosphere.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "1000hpa"
+}
+    ,{
+  "validation_key": "100hPa",
+  "ui_label": "100 hPa Pressure Level",
+  "description": "Variables at the 100 hPa pressure level, located in the lower stratosphere at approximately 16 km altitude. This level is important for stratospheric dynamics, ozone studies, and upper-level atmospheric analysis.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "100hpa"
+}
+    ,{
+  "validation_key": "10hPa",
+  "ui_label": "10 hPa Pressure Level",
+  "description": "10 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "10hpa"
+}
+    ,{
+  "validation_key": "200hPa",
+  "ui_label": "200 hPa Pressure Level",
+  "description": "200 hPa²",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "200hpa"
+}
+    ,{
+  "validation_key": "20bar",
+  "ui_label": "20 Bar Pressure Depth",
+  "description": "pressure depth of 20 bar",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "20bar"
+}
+    ,{
+  "validation_key": "220hPa",
+  "ui_label": "220 hPa Pressure Level",
+  "description": "220 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "220hpa"
+}
+    ,{
+  "validation_key": "500hPa",
+  "ui_label": "500 hPa Pressure Level",
+  "description": "Variables at the 500 hPa pressure level, located in the middle troposphere at approximately 5-6 km altitude. This level is crucial for weather analysis, representing mid-level atmospheric dynamics and circulation patterns.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "500hpa"
+}
+    ,{
+  "validation_key": "560hPa",
+  "ui_label": "560 hPa Pressure Level",
+  "description": "560 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "560hpa"
+}
+    ,{
+  "validation_key": "700hPa",
+  "ui_label": "700 hPa Pressure Level",
+  "description": "700 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "700hpa"
+}
+    ,{
+  "validation_key": "840hPa",
+  "ui_label": "840 hPa Pressure Level",
+  "description": "840 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "840hpa"
+}
+    ,{
+  "validation_key": "850hPa",
+  "ui_label": "850 hPa Pressure Level",
+  "description": "850 hPa",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "850hpa"
+}
+    ,{
+  "validation_key": "925hPa",
+  "ui_label": "925 hPa Pressure Level",
+  "description": "925hPa²",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "925hpa"
+}
+    ,{
+  "validation_key": "al",
+  "ui_label": "Atmospheric Model Levels",
+  "description": "Variables on native atmospheric model vertical levels, using the model's natural vertical coordinate system. Includes all atmospheric layers from surface to model top, typically hybrid sigma-pressure coordinates.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "al"
+}
+    ,{
+  "validation_key": "alh",
+  "ui_label": "Atmospheric Model Half-Levels",
+  "description": "Variables on atmospheric model half-levels, which are intermediate vertical positions between full model levels. Often used for flux calculations and variables defined at layer interfaces in the atmospheric model.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "alh"
+}
+    ,{
+  "validation_key": "d0m",
+  "ui_label": "Surface Level",
+  "description": "Variables at the Earth's surface level (0 meters depth/height), including surface temperature, pressure, and exchange fluxes. Represents the interface between atmosphere, ocean, land, or ice.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d0m"
+}
+    ,{
+  "validation_key": "d100cm",
+  "ui_label": "10 Centimeter Depth",
+  "description": "Variables at 10 centimeter depth below the surface, typically used for shallow soil temperature, moisture content, and near-surface subsurface conditions in land models.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d100cm"
+}
+    ,{
+  "validation_key": "d100m",
+  "ui_label": "100 Meter Depth",
+  "description": "Variables at 100 meter depth below the surface, used for subsurface ocean conditions, deep soil properties, or underground environmental conditions at intermediate depths.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d100m"
+}
+    ,{
+  "validation_key": "d10cm",
+  "ui_label": "0.1 Meter Depth",
+  "description": "10 cm depth",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d10cm"
+}
+    ,{
+  "validation_key": "d2000m",
+  "ui_label": "Upper 2000 Meter Depth",
+  "description": "upper 2000 m",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d2000m"
+}
+    ,{
+  "validation_key": "d300m",
+  "ui_label": "Upper 300 Meter Depth",
+  "description": "upper 300 m",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d300m"
+}
+    ,{
+  "validation_key": "d700m",
+  "ui_label": "Upper 700 Meter Depth",
+  "description": "upper 700 m",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "d700m"
+}
+    ,{
+  "validation_key": "h100m",
+  "ui_label": "100 Meter Height",
+  "description": "100 m height",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "h100m"
+}
+    ,{
+  "validation_key": "h10m",
+  "ui_label": "10 Meter Height",
+  "description": "Variables at 10 meter height above the surface, the standard measurement height for wind speed and direction in meteorological observations and climate models.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "h10m"
+}
+    ,{
+  "validation_key": "h16",
+  "ui_label": "16 Height Levels",
+  "description": "16 height levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "h16"
+}
+    ,{
+  "validation_key": "h2m",
+  "ui_label": "2 Meter Height",
+  "description": "Variables at 2 meter height above the surface, the standard measurement height for near-surface air temperature and humidity in meteorological observations and climate models.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "h2m"
+}
+    ,{
+  "validation_key": "h40",
+  "ui_label": "40 Height Levels",
+  "description": "40 height levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "h40"
+}
+    ,{
+  "validation_key": "ol",
+  "ui_label": "Ocean Model Levels",
+  "description": "Variables on native ocean model vertical levels, using the model's natural ocean vertical coordinate system. Includes all ocean depths from surface to bottom, typically using z-coordinates or terrain-following coordinates.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "ol"
+}
+    ,{
+  "validation_key": "olh",
+  "ui_label": "Ocean Model Half-Levels",
+  "description": "ocean model half-levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "olh"
+}
+    ,{
+  "validation_key": "op4",
+  "ui_label": "4 Ocean Pressure Layers",
+  "description": "4 ocean pressure layers²",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "op4"
+}
+    ,{
+  "validation_key": "p19",
+  "ui_label": "19 Pressure Levels",
+  "description": "Variables interpolated to a standard set of 19 pressure levels spanning the atmosphere from surface to stratosphere. Commonly used for atmospheric analysis and comparison across different models.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p19"
+}
+    ,{
+  "validation_key": "p27",
+  "ui_label": "27 Pressure Levels",
+  "description": "Variables interpolated to a standard set of 27 pressure levels providing higher vertical resolution through the atmosphere. Used for detailed atmospheric profiling and high-resolution analysis of vertical structure.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p27"
+}
+    ,{
+  "validation_key": "p3",
+  "ui_label": "3 Pressure Levels",
+  "description": "3 pressure levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p3"
+}
+    ,{
+  "validation_key": "p39",
+  "ui_label": "39 Pressure Levels",
+  "description": "Variables interpolated to a standard set of 39 pressure levels providing very high vertical resolution through the atmosphere. Used for comprehensive atmospheric profiling and detailed vertical structure analysis.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p39"
+}
+    ,{
+  "validation_key": "p4",
+  "ui_label": "4 Pressure Levels",
+  "description": "4 pressure levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p4"
+}
+    ,{
+  "validation_key": "p5u",
+  "ui_label": "5 Pressure Levels",
+  "description": "5 pressure levels²",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p5u"
+}
+    ,{
+  "validation_key": "p6",
+  "ui_label": "6 Pressure Levels",
+  "description": "6 pressure levels²",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p6"
+}
+    ,{
+  "validation_key": "p7c",
+  "ui_label": "7 Pressure Levels (Climate)",
+  "description": "7 pressure levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p7c"
+}
+    ,{
+  "validation_key": "p7h",
+  "ui_label": "7 Pressure Levels (High)",
+  "description": "7 pressure levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p7h"
+}
+    ,{
+  "validation_key": "p8",
+  "ui_label": "8 Pressure Levels",
+  "description": "8 pressure levels",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "p8"
+}
+    ,{
+  "validation_key": "rho",
+  "ui_label": "Density Surface",
+  "description": "Variables on ocean density surfaces (isopycnal coordinates), where water parcels of equal density define the vertical coordinate. Used for ocean circulation analysis and water mass tracking.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "rho"
+}
+    ,{
+  "validation_key": "sl",
+  "ui_label": "Model Soil Levels",
+  "description": "Variables on native soil model vertical levels, representing different depths within the soil column. Used for soil temperature, moisture, carbon content, and other subsurface properties at various soil layer depths.",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "sl"
+}
+    ,{
+  "validation_key": "u",
+  "ui_label": "Unspecified Vertical Dimension",
+  "description": "unspecified (no vertical dimension)",
+  "@type": [
+    "wcrp:vertical_label",
+    "esgvoc:VerticalLabel",
+    "vr"
+  ],
+  "@id": "u"
+}
+  ]
+}
