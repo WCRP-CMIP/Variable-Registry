@@ -1,0 +1,567 @@
+{
+  "vertical-label": {
+    "folder": "vertical-label",
+    "prefix": "vr",
+    "graph_file": "vertical-label/graph.jsonld",
+    "files": [
+      {
+        "file_id": "1000hPa",
+        "rel": "vertical-label/1000hPa.json",
+        "location": "src-data/vertical-label/1000hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "100hPa",
+        "rel": "vertical-label/100hPa.json",
+        "location": "src-data/vertical-label/100hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "10hPa",
+        "rel": "vertical-label/10hPa.json",
+        "location": "src-data/vertical-label/10hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "200hPa",
+        "rel": "vertical-label/200hPa.json",
+        "location": "src-data/vertical-label/200hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "20bar",
+        "rel": "vertical-label/20bar.json",
+        "location": "src-data/vertical-label/20bar.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "220hPa",
+        "rel": "vertical-label/220hPa.json",
+        "location": "src-data/vertical-label/220hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "500hPa",
+        "rel": "vertical-label/500hPa.json",
+        "location": "src-data/vertical-label/500hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "560hPa",
+        "rel": "vertical-label/560hPa.json",
+        "location": "src-data/vertical-label/560hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "700hPa",
+        "rel": "vertical-label/700hPa.json",
+        "location": "src-data/vertical-label/700hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "840hPa",
+        "rel": "vertical-label/840hPa.json",
+        "location": "src-data/vertical-label/840hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "850hPa",
+        "rel": "vertical-label/850hPa.json",
+        "location": "src-data/vertical-label/850hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "925hPa",
+        "rel": "vertical-label/925hPa.json",
+        "location": "src-data/vertical-label/925hPa.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "al",
+        "rel": "vertical-label/al.json",
+        "location": "src-data/vertical-label/al.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "alh",
+        "rel": "vertical-label/alh.json",
+        "location": "src-data/vertical-label/alh.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d0m",
+        "rel": "vertical-label/d0m.json",
+        "location": "src-data/vertical-label/d0m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d100cm",
+        "rel": "vertical-label/d100cm.json",
+        "location": "src-data/vertical-label/d100cm.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d100m",
+        "rel": "vertical-label/d100m.json",
+        "location": "src-data/vertical-label/d100m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d10cm",
+        "rel": "vertical-label/d10cm.json",
+        "location": "src-data/vertical-label/d10cm.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d2000m",
+        "rel": "vertical-label/d2000m.json",
+        "location": "src-data/vertical-label/d2000m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d300m",
+        "rel": "vertical-label/d300m.json",
+        "location": "src-data/vertical-label/d300m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "d700m",
+        "rel": "vertical-label/d700m.json",
+        "location": "src-data/vertical-label/d700m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "h100m",
+        "rel": "vertical-label/h100m.json",
+        "location": "src-data/vertical-label/h100m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "h10m",
+        "rel": "vertical-label/h10m.json",
+        "location": "src-data/vertical-label/h10m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "h16",
+        "rel": "vertical-label/h16.json",
+        "location": "src-data/vertical-label/h16.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "h2m",
+        "rel": "vertical-label/h2m.json",
+        "location": "src-data/vertical-label/h2m.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "h40",
+        "rel": "vertical-label/h40.json",
+        "location": "src-data/vertical-label/h40.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "ol",
+        "rel": "vertical-label/ol.json",
+        "location": "src-data/vertical-label/ol.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "olh",
+        "rel": "vertical-label/olh.json",
+        "location": "src-data/vertical-label/olh.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "op4",
+        "rel": "vertical-label/op4.json",
+        "location": "src-data/vertical-label/op4.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p19",
+        "rel": "vertical-label/p19.json",
+        "location": "src-data/vertical-label/p19.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p27",
+        "rel": "vertical-label/p27.json",
+        "location": "src-data/vertical-label/p27.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p3",
+        "rel": "vertical-label/p3.json",
+        "location": "src-data/vertical-label/p3.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p39",
+        "rel": "vertical-label/p39.json",
+        "location": "src-data/vertical-label/p39.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p4",
+        "rel": "vertical-label/p4.json",
+        "location": "src-data/vertical-label/p4.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p5u",
+        "rel": "vertical-label/p5u.json",
+        "location": "src-data/vertical-label/p5u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p6",
+        "rel": "vertical-label/p6.json",
+        "location": "src-data/vertical-label/p6.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p7c",
+        "rel": "vertical-label/p7c.json",
+        "location": "src-data/vertical-label/p7c.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p7h",
+        "rel": "vertical-label/p7h.json",
+        "location": "src-data/vertical-label/p7h.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "p8",
+        "rel": "vertical-label/p8.json",
+        "location": "src-data/vertical-label/p8.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "rho",
+        "rel": "vertical-label/rho.json",
+        "location": "src-data/vertical-label/rho.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "sl",
+        "rel": "vertical-label/sl.json",
+        "location": "src-data/vertical-label/sl.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "u",
+        "rel": "vertical-label/u.json",
+        "location": "src-data/vertical-label/u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      }
+    ]
+  },
+  "variable": {
+    "folder": "variable",
+    "prefix": "vr",
+    "graph_file": "variable/graph.jsonld",
+    "files": [
+      {
+        "file_id": "abs550aer-tavg-u-hxy-u",
+        "rel": "variable/abs550aer-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550aer-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550aer-tavg-u-hxy-u",
+        "rel": "variable/abs550aer-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550aer-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550bc-tavg-u-hxy-u",
+        "rel": "variable/abs550bc-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550bc-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550bc-tavg-u-hxy-u",
+        "rel": "variable/abs550bc-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550bc-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550dust-tavg-u-hxy-u",
+        "rel": "variable/abs550dust-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550dust-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550dust-tavg-u-hxy-u",
+        "rel": "variable/abs550dust-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550dust-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550no3-tavg-u-hxy-u",
+        "rel": "variable/abs550no3-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550no3-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550no3-tavg-u-hxy-u",
+        "rel": "variable/abs550no3-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550no3-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550oa-tavg-u-hxy-u",
+        "rel": "variable/abs550oa-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550oa-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550oa-tavg-u-hxy-u",
+        "rel": "variable/abs550oa-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550oa-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550so4-tavg-u-hxy-u",
+        "rel": "variable/abs550so4-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550so4-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550so4-tavg-u-hxy-u",
+        "rel": "variable/abs550so4-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550so4-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550ss-tavg-u-hxy-u",
+        "rel": "variable/abs550ss-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550ss-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "abs550ss-tavg-u-hxy-u",
+        "rel": "variable/abs550ss-tavg-u-hxy-u.json",
+        "location": "src-data/variable/abs550ss-tavg-u-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "absscint-tavg-op4-hxy-sea",
+        "rel": "variable/absscint-tavg-op4-hxy-sea.json",
+        "location": "src-data/variable/absscint-tavg-op4-hxy-sea.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "absscint-tavg-op4-hxy-sea",
+        "rel": "variable/absscint-tavg-op4-hxy-sea.json",
+        "location": "src-data/variable/absscint-tavg-op4-hxy-sea.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "acabf-tavg-u-hxy-is",
+        "rel": "variable/acabf-tavg-u-hxy-is.json",
+        "location": "src-data/variable/acabf-tavg-u-hxy-is.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "acabf-tavg-u-hxy-is",
+        "rel": "variable/acabf-tavg-u-hxy-is.json",
+        "location": "src-data/variable/acabf-tavg-u-hxy-is.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "agesno-tavg-u-hxy-lnd",
+        "rel": "variable/agesno-tavg-u-hxy-lnd.json",
+        "location": "src-data/variable/agesno-tavg-u-hxy-lnd.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "agesno-tavg-u-hxy-lnd",
+        "rel": "variable/agesno-tavg-u-hxy-lnd.json",
+        "location": "src-data/variable/agesno-tavg-u-hxy-lnd.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "agessc-tavg-ol-hxy-sea",
+        "rel": "variable/agessc-tavg-ol-hxy-sea.json",
+        "location": "src-data/variable/agessc-tavg-ol-hxy-sea.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "agessc-tavg-ol-hxy-sea",
+        "rel": "variable/agessc-tavg-ol-hxy-sea.json",
+        "location": "src-data/variable/agessc-tavg-ol-hxy-sea.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "airmass-tavg-al-hxy-u",
+        "rel": "variable/airmass-tavg-al-hxy-u.json",
+        "location": "src-data/variable/airmass-tavg-al-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "airmass-tavg-al-hxy-u",
+        "rel": "variable/airmass-tavg-al-hxy-u.json",
+        "location": "src-data/variable/airmass-tavg-al-hxy-u.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "albc-tavg-u-hxy-veg",
+        "rel": "variable/albc-tavg-u-hxy-veg.json",
+        "location": "src-data/variable/albc-tavg-u-hxy-veg.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "albc-tavg-u-hxy-veg",
+        "rel": "variable/albc-tavg-u-hxy-veg.json",
+        "location": "src-data/variable/albc-tavg-u-hxy-veg.json",
+        "links_to_files": [],
+        "total_links": 0,
+        "property_links": {}
+      },
+      {
+        "file_id": "albisccp-tavg-u-hxy-cl",
+        "rel": "variable/albisccp-tavg-u-hxy-cl.json",
+        "location": "src-data/variable/albisccp-tavg-u-hxy-cl.json",
+        "links_to_files": [
+          "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>"
+        ],
+        "total_links": 1,
+        "property_links": {
+          "description": 
