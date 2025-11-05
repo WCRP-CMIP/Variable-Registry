@@ -1,0 +1,35 @@
+{
+    "validation_key": "ua_tpt-h100m-hxy-u",
+    "ui_label": "Eastward Wind at 100m",
+    "description": "Zonal wind (positive in a eastward direction) at 100m above the surface",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height100m"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ua100m",
+    "physical_parameter_name": "ua100m",
+    "positive": "",
+    "remove_cmip6_table": "E1hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "eastward_wind",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m s-1",
+    "variable_root": "ua",
+    "vertical_label": "h100m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ua-tpt-h100m-hxy-u"
+}

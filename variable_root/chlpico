@@ -1,0 +1,14 @@
+{
+    "validation_key": "chlpico",
+    "ui_label": "chlpico",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-concentration-of-picophytoplankton-expressed-as-chlorophyll-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "chlpico"
+}

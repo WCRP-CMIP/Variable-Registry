@@ -1,0 +1,14 @@
+{
+    "validation_key": "sitempbot",
+    "ui_label": "sitempbot",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-basal-temperature",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sitempbot"
+}

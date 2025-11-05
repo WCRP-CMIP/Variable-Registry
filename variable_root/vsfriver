@@ -1,0 +1,14 @@
+{
+    "validation_key": "vsfriver",
+    "ui_label": "vsfriver",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "virtual-salt-flux-into-sea-water-from-rivers",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "vsfriver"
+}

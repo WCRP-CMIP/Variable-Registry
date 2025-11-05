@@ -1,0 +1,14 @@
+{
+    "validation_key": "t20d",
+    "ui_label": "t20d",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "depth-of-isosurface-of-sea-water-potential-temperature",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "t20d"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "loadss",
+    "ui_label": "loadss",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-mass-content-of-sea-salt-dry-aerosol-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "loadss"
+}

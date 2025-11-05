@@ -1,0 +1,15 @@
+{
+    "validation_key": "plev39",
+    "ui_label": "Pressure Levels (39)",
+    "description": "Used for zonal mean fields (daily and monthly)",
+    "axis_flag": "Z",
+    "cf_standard_name": "air_pressure",
+    "spatial_shape": "Atmospheric zonal mean (on 39 pressure levels)",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "plev39"
+}

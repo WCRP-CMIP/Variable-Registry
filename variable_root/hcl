@@ -1,0 +1,14 @@
+{
+    "validation_key": "hcl",
+    "ui_label": "hcl",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-hydrogen-chloride-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hcl"
+}

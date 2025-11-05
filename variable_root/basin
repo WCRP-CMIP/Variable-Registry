@@ -1,0 +1,14 @@
+{
+    "validation_key": "basin",
+    "ui_label": "basin",
+    "description": "",
+    "data_type": "integer",
+    "standard_name": "region",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "basin"
+}

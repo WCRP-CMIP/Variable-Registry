@@ -1,0 +1,14 @@
+{
+    "validation_key": "simpthick",
+    "ui_label": "simpthick",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-melt-pond-thickness",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "simpthick"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "rsut_tavg-u-hxy-u",
+    "ui_label": "TOA Outgoing Shortwave Radiation",
+    "description": "TOA outgoing shortwave radiation",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rsut",
+    "physical_parameter_name": "rsut",
+    "positive": "up",
+    "remove_cmip6_table": "E3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_shortwave_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rsut",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsut-tavg-u-hxy-u"
+}

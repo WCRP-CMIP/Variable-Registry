@@ -1,0 +1,33 @@
+{
+    "validation_key": "conccn_tpt-u-hxys-u",
+    "ui_label": "Sub-daily Aerosol Number Concentration at CF sites",
+    "description": "The variable represents the instantaneous Aerosol Number Concentration at CF sites, sampled every 3 hours",
+    "area_label": "u",
+    "cell_measures": "::MODEL",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxys",
+    "model_realm": "aerosol",
+    "out_name": "conccn",
+    "physical_parameter_name": "conccn",
+    "positive": "",
+    "remove_cmip6_table": "E3hrPt",
+    "spatial_shape": "S-na",
+    "standard_name": "number_concentration_of_ambient_aerosol_particles_in_air",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m-3",
+    "variable_root": "conccn",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "conccn-tpt-u-hxys-u"
+}

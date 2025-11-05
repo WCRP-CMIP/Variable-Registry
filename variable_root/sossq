@@ -1,0 +1,14 @@
+{
+    "validation_key": "sossq",
+    "ui_label": "sossq",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "square-of-sea-surface-salinity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sossq"
+}

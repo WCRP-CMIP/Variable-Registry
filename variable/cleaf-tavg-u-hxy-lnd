@@ -1,0 +1,34 @@
+{
+    "validation_key": "cLeaf_tavg-u-hxy-lnd",
+    "ui_label": "Carbon Mass in Leaves",
+    "description": "Carbon mass per unit area in leaves.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "cLeaf",
+    "physical_parameter_name": "cLeaf",
+    "positive": "",
+    "remove_cmip6_table": "Lmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "leaf_mass_content_of_carbon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "cLeaf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "cleaf-tavg-u-hxy-lnd"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "sistryubot",
+    "ui_label": "sistryubot",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "upward-y-stress-at-sea-ice-base",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sistryubot"
+}

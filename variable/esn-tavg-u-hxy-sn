@@ -1,0 +1,34 @@
+{
+    "validation_key": "esn_tavg-u-hxy-sn",
+    "ui_label": "Snow Evaporation",
+    "description": "liquid_water_evaporation_flux_from_surface_snow",
+    "area_label": "sn",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "esn",
+    "physical_parameter_name": "esn",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "water_evapotranspiration_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "esn",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "esn-tavg-u-hxy-sn"
+}

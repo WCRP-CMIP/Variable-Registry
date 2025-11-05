@@ -1,0 +1,35 @@
+{
+    "validation_key": "abs550bc_tavg-u-hxy-u",
+    "ui_label": "black carbon aaod@550nm",
+    "description": "This is the black carbon aerosol optical depth at 550nm due to absorption",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "abs550bc",
+    "physical_parameter_name": "abs550bc",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_absorption_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "abs550bc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "abs550bc-tavg-u-hxy-u"
+}

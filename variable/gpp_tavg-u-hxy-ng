@@ -1,0 +1,34 @@
+{
+    "validation_key": "gpp_tavg-u-hxy-ng",
+    "ui_label": "Gross Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total GPP of grass in the grid cell",
+    "area_label": "ng",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: time: mean where natural_grasses (mask=grassFrac) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "gppGrass",
+    "physical_parameter_name": "gppGrass",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "gpp",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "gpp-tavg-u-hxy-ng"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "hfx_tavg-ol-hxy-sea",
+    "ui_label": "3D Ocean Heat X Transport",
+    "description": "Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "hfx",
+    "physical_parameter_name": "hfx",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "ocean_heat_x_transport",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W",
+    "variable_root": "hfx",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hfx-tavg-ol-hxy-sea"
+}

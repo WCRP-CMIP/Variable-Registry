@@ -1,0 +1,32 @@
+{
+    "validation_key": "tos_tavg-u-hm-sea",
+    "ui_label": "Global Average Sea Surface Temperature",
+    "description": "This may differ from \"surface temperature\" in regions of sea ice or floating ice shelves. For models using conservative temperature as the prognostic field, they should report the top ocean layer as surface potential temperature, which is the same as surface in situ temperature.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hm",
+    "model_realm": "ocean",
+    "out_name": "tosga",
+    "physical_parameter_name": "tosga",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "na-na",
+    "standard_name": "sea_surface_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "degC",
+    "variable_root": "tos",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tos-tavg-u-hm-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "phalf",
+    "ui_label": "phalf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "air-pressure",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "phalf"
+}

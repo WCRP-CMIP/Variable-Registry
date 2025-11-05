@@ -1,0 +1,14 @@
+{
+    "validation_key": "cfaddbze94",
+    "ui_label": "cfadDbze94",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "histogram-of-equivalent-reflectivity-factor-over-height-above-reference-ellipsoid",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "cfaddbze94"
+}

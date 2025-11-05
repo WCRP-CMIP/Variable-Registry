@@ -1,0 +1,14 @@
+{
+    "validation_key": "typetree",
+    "ui_label": "Tree area type",
+    "description": "Coordinate for tree-covered area type, used to identify and analyze variables specific to forested regions and tree-dominated ecosystems.",
+    "axis_flag": "",
+    "cf_standard_name": "area_type",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "typetree"
+}

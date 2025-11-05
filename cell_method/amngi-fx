@@ -1,0 +1,13 @@
+{
+    "validation_key": "amngi-fx",
+    "ui_label": "Fixed Area Mean over Grounded Ice Sheets",
+    "description": "area: mean where grounded_ice_sheet",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amngi-fx"
+}

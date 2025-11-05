@@ -1,0 +1,34 @@
+{
+    "validation_key": "swh_tavg-u-hxy-sea",
+    "ui_label": "Total Significant Wave Height",
+    "description": "Average height of the highest one-third of waves present in the sea state, incorporating both wind-sea and swell waves. This is a key parameter for describing wave energy and is derived from the wave spectrum using spectral moments. Specifically, this parameter is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "swh",
+    "physical_parameter_name": "swh",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_surface_wave_significant_height",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "swh",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "swh-tavg-u-hxy-sea"
+}

@@ -1,0 +1,32 @@
+{
+    "validation_key": "volo_tavg-u-hm-sea",
+    "ui_label": "Sea Water Volume",
+    "description": "Total volume of liquid sea water.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "Error: depth: area: sum where sea time: mean not found in cell methods, please register",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hm",
+    "model_realm": "ocean",
+    "out_name": "volo",
+    "physical_parameter_name": "volo",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "na-na",
+    "standard_name": "sea_water_volume",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m3",
+    "variable_root": "volo",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "volo-tavg-u-hm-sea"
+}

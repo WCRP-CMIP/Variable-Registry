@@ -1,0 +1,13 @@
+{
+    "validation_key": "amncrp-tmin",
+    "ui_label": "Temporal Minimum over Crops",
+    "description": "area: mean where crops time: minimum",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amncrp-tmin"
+}

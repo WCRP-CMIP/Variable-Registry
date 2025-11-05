@@ -1,0 +1,14 @@
+{
+    "validation_key": "sf6",
+    "ui_label": "sf6",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-sulfur-hexafluoride-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sf6"
+}

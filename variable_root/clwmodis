@@ -1,0 +1,14 @@
+{
+    "validation_key": "clwmodis",
+    "ui_label": "clwmodis",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "modis-liquid-topped-cloud-area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "clwmodis"
+}

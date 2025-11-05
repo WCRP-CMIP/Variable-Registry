@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnlu-tpt",
+    "ui_label": "Instantaneous Mean on Landuse Tiles",
+    "description": "area: mean where sector time: point",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnlu-tpt"
+}

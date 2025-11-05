@@ -1,0 +1,34 @@
+{
+    "validation_key": "rsds_tavg-u-hxy-u",
+    "ui_label": "Hourly downward solar radiation flux at the surface",
+    "description": "Hourly downward solar radiation flux at the surface",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rsds",
+    "physical_parameter_name": "rsds",
+    "positive": "down",
+    "remove_cmip6_table": "E1hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_downwelling_shortwave_flux_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rsds",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsds-tavg-u-hxy-u"
+}

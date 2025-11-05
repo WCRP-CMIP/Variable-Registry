@@ -1,0 +1,34 @@
+{
+    "validation_key": "nppLeaf_tavg-u-hxy-lnd",
+    "ui_label": "Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "This is the rate of carbon uptake by leaves due to NPP",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "nppLeaf",
+    "physical_parameter_name": "nppLeaf",
+    "positive": "down",
+    "remove_cmip6_table": "Lmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_leaves",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "nppLeaf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "nppleaf-tavg-u-hxy-lnd"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "chepnh4_tavg-al-hxy-u",
+    "ui_label": "Net chemical production of ammonium aerosol",
+    "description": "Net chemical production rate of ammonium aerosol in the atmosphere.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "chepnh4",
+    "physical_parameter_name": "chepnh4",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_net_chemical_production",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "chepnh4",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "chepnh4-tavg-al-hxy-u"
+}

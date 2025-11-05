@@ -1,0 +1,14 @@
+{
+    "validation_key": "od550bc",
+    "ui_label": "od550bc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-optical-thickness-due-to-black-carbon-ambient-aerosol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "od550bc"
+}

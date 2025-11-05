@@ -1,0 +1,14 @@
+{
+    "validation_key": "rlutcso3ref",
+    "ui_label": "rlutcso3ref",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "toa-outgoing-longwave-flux-assuming-clear-sky-and-reference-mole-fraction-of-ozone-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rlutcso3ref"
+}

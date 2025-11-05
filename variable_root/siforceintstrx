@@ -1,0 +1,14 @@
+{
+    "validation_key": "siforceintstrx",
+    "ui_label": "siforceintstrx",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-x-internal-stress",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siforceintstrx"
+}

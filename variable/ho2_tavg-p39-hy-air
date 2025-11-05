@@ -1,0 +1,34 @@
+{
+    "validation_key": "ho2_tavg-p39-hy-air",
+    "ui_label": "HO2 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hydroperoxyl radical is HO2.",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "aerosol",
+    "out_name": "ho2",
+    "physical_parameter_name": "ho2",
+    "positive": "",
+    "remove_cmip6_table": "AERmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol mol-1",
+    "variable_root": "ho2",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ho2-tavg-p39-hy-air"
+}

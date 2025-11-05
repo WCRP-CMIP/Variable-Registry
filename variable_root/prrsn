@@ -1,0 +1,14 @@
+{
+    "validation_key": "prrsn",
+    "ui_label": "prrsn",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-fraction-of-rainfall-falling-onto-surface-snow",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "prrsn"
+}

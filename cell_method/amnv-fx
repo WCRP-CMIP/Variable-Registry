@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnv-fx",
+    "ui_label": "Fixed Area Mean on Vegetation",
+    "description": "area: mean where vegetation",
+    "mask": "vegFrac",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnv-fx"
+}

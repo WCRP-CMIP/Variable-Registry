@@ -1,0 +1,14 @@
+{
+    "validation_key": "rhlitter",
+    "ui_label": "rhLitter",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-mass-flux-of-carbon-due-to-heterotrophic-respiration-in-litter",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rhlitter"
+}

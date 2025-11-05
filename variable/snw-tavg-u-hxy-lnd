@@ -1,0 +1,34 @@
+{
+    "validation_key": "snw_tavg-u-hxy-lnd",
+    "ui_label": "Surface Snow Amount",
+    "description": "Computed as the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excluded is snow on vegetation canopy or on sea ice.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "snw",
+    "physical_parameter_name": "snw",
+    "positive": "",
+    "remove_cmip6_table": "LImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_snow_amount",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "snw",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "snw-tavg-u-hxy-lnd"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "snd_tavg-u-hxy-lnd",
+    "ui_label": "Snow Depth",
+    "description": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as missing where the land fraction is 0.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "snd",
+    "physical_parameter_name": "snd",
+    "positive": "",
+    "remove_cmip6_table": "LImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_snow_thickness",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "snd",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "snd-tavg-u-hxy-lnd"
+}

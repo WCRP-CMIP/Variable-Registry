@@ -1,0 +1,14 @@
+{
+    "validation_key": "cdnc",
+    "ui_label": "cdnc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "number-concentration-of-cloud-liquid-water-particles-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "cdnc"
+}

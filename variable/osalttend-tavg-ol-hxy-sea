@@ -1,0 +1,35 @@
+{
+    "validation_key": "osalttend_tavg-ol-hxy-sea",
+    "ui_label": "Tendency of Sea Water Salinity Expressed as Salt Content",
+    "description": "Tendency of salt content for a grid cell from all processes.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "osalttend",
+    "physical_parameter_name": "osalttend",
+    "positive": "",
+    "remove_cmip6_table": "Oyr",
+    "spatial_shape": "XY-O",
+    "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "osalttend",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "osalttend-tavg-ol-hxy-sea"
+}

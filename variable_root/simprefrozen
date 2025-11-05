@@ -1,0 +1,14 @@
+{
+    "validation_key": "simprefrozen",
+    "ui_label": "simprefrozen",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "thickness-of-ice-on-sea-ice-melt-pond",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "simprefrozen"
+}

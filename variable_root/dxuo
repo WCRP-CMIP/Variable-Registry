@@ -1,0 +1,14 @@
+{
+    "validation_key": "dxuo",
+    "ui_label": "dxuo",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "cell-x-length",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dxuo"
+}

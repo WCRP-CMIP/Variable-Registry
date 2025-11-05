@@ -1,0 +1,33 @@
+{
+    "validation_key": "prc_tpt-u-hxys-u",
+    "ui_label": "Convective Precipitation",
+    "description": "at surface; includes both liquid and solid phases.",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "prc",
+    "physical_parameter_name": "prc",
+    "positive": "",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "convective_precipitation_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "kg m-2 s-1",
+    "variable_root": "prc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "prc-tpt-u-hxys-u"
+}

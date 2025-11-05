@@ -1,0 +1,14 @@
+{
+    "validation_key": "pfscint",
+    "ui_label": "pfscint",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "integral-wrt-depth-of-sea-water-preformed-salinity-expressed-as-salt-mass-content",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pfscint"
+}

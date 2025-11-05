@@ -1,0 +1,14 @@
+{
+    "validation_key": "rluscsaf",
+    "ui_label": "rluscsaf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upwelling-longwave-flux-in-air-assuming-clear-sky-and-no-aerosol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rluscsaf"
+}

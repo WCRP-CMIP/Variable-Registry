@@ -1,0 +1,14 @@
+{
+    "validation_key": "tropch4lossoh",
+    "ui_label": "tropch4lossoh",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mole-concentration-of-methane-due-to-chemical-destruction-by-hydroxyl-radical",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tropch4lossoh"
+}

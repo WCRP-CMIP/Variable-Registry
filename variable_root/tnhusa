@@ -1,0 +1,14 @@
+{
+    "validation_key": "tnhusa",
+    "ui_label": "tnhusa",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-specific-humidity-due-to-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tnhusa"
+}

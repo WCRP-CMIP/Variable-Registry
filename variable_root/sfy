@@ -1,0 +1,14 @@
+{
+    "validation_key": "sfy",
+    "ui_label": "sfy",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "ocean-salt-y-transport",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sfy"
+}

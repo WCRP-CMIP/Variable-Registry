@@ -1,0 +1,14 @@
+{
+    "validation_key": "evspsblpot",
+    "ui_label": "evspsblpot",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "water-potential-evaporation-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "evspsblpot"
+}

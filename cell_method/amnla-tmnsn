@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnla-tmnsn",
+    "ui_label": "Snow Mass Weighted",
+    "description": "area: mean where land time: mean (weighted by snow mass on land)",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnla-tmnsn"
+}

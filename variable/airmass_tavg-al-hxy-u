@@ -1,0 +1,35 @@
+{
+    "validation_key": "airmass_tavg-al-hxy-u",
+    "ui_label": "Vertically Integrated Mass Content of Air in Layer",
+    "description": "The mass of air in an atmospheric layer.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "airmass",
+    "physical_parameter_name": "airmass",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "atmosphere_mass_of_air_per_unit_area",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "airmass",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "airmass-tavg-al-hxy-u"
+}

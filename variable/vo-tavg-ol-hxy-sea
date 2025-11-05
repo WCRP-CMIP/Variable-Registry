@@ -1,0 +1,35 @@
+{
+    "validation_key": "vo_tavg-ol-hxy-sea",
+    "ui_label": "Sea Water Y Velocity",
+    "description": "Prognostic y-ward velocity component resolved by the model.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "vo",
+    "physical_parameter_name": "vo",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "sea_water_y_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "vo",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vo-tavg-ol-hxy-sea"
+}

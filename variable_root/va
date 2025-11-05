@@ -1,0 +1,14 @@
+{
+    "validation_key": "va",
+    "ui_label": "va",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "northward-wind",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "va"
+}

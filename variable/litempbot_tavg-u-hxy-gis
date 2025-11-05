@@ -1,0 +1,34 @@
+{
+    "validation_key": "litempbot_tavg-u-hxy-gis",
+    "ui_label": "Basal Temperature of Grounded Ice Sheet",
+    "description": "quantity averaged over grounded land ice",
+    "area_label": "gis",
+    "cell_measures": "area: areacellg",
+    "cell_methods": "Error: area: time: mean where grounded_ice_sheet (mask=sfgrlf) not found in cell methods, please register",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "litempbotgr",
+    "physical_parameter_name": "litempbotgr",
+    "positive": "",
+    "remove_cmip6_table": "IyrGre",
+    "spatial_shape": "XYG-na",
+    "standard_name": "land_ice_basal_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K",
+    "variable_root": "litempbot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "litempbot-tavg-u-hxy-gis"
+}

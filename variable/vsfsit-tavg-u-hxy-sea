@@ -1,0 +1,34 @@
+{
+    "validation_key": "vsfsit_tavg-u-hxy-sea",
+    "ui_label": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "description": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "vsfsit",
+    "physical_parameter_name": "vsfsit",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "virtual_salt_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "vsfsit",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vsfsit-tavg-u-hxy-sea"
+}

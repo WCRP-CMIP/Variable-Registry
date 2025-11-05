@@ -1,0 +1,14 @@
+{
+    "validation_key": "prsn2h",
+    "ui_label": "prsn2h",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "solid-precipitation-flux-containing-single-2h",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "prsn2h"
+}

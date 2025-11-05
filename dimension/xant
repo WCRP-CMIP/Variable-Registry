@@ -1,0 +1,15 @@
+{
+    "validation_key": "xant",
+    "ui_label": "X-coordinate of Antarctic grid",
+    "description": "X-coordinate of Antarctic grid (stubb)",
+    "axis_flag": "X",
+    "cf_standard_name": "projection_x_coordinate",
+    "spatial_shape": "Polar stereographic grid (Antarctic)",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "xant"
+}

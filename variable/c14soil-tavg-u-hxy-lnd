@@ -1,0 +1,34 @@
+{
+    "validation_key": "c14Soil_tavg-u-hxy-lnd",
+    "ui_label": "Mass of 14C in Soil Pool",
+    "description": "Carbon-14 mass content per unit area in soil.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "c14Soil",
+    "physical_parameter_name": "c14Soil",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "soil_mass_content_of_14C",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "c14Soil",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "c14soil-tavg-u-hxy-lnd"
+}

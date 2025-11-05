@@ -1,0 +1,14 @@
+{
+    "validation_key": "evu",
+    "ui_label": "evu",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-momentum-diffusivity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "evu"
+}

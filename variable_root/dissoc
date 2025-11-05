@@ -1,0 +1,14 @@
+{
+    "validation_key": "dissoc",
+    "ui_label": "dissoc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-dissolved-organic-carbon-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dissoc"
+}

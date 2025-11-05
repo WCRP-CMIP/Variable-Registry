@@ -1,0 +1,14 @@
+{
+    "validation_key": "nlittercwd",
+    "ui_label": "nLitterCwd",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "wood-debris-mass-content-of-nitrogen",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "nlittercwd"
+}

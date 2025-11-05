@@ -1,0 +1,14 @@
+{
+    "validation_key": "clittersurf",
+    "ui_label": "cLitterSurf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-litter-mass-content-of-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "clittersurf"
+}

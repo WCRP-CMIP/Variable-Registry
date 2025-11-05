@@ -1,0 +1,34 @@
+{
+    "validation_key": "dryo3_tavg-u-hxy-u",
+    "ui_label": "Dry Deposition Rate of O3",
+    "description": "Dry Deposition Rate of O3",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "dryo3",
+    "physical_parameter_name": "dryo3",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ozone_due_to_dry_deposition",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "dryo3",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "dryo3-tavg-u-hxy-u"
+}

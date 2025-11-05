@@ -1,0 +1,14 @@
+{
+    "validation_key": "sistressmax",
+    "ui_label": "sistressmax",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "maximum-over-coordinate-rotation-of-sea-ice-horizontal-shear-stress",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sistressmax"
+}

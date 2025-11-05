@@ -1,0 +1,13 @@
+{
+    "validation_key": "vsm-tmn",
+    "ui_label": "Integral over Atmospheric Volume and Time Mean",
+    "description": "height: sum (through atmospheric column) area: sum time: mean",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "vsm-tmn"
+}

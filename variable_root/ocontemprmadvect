@@ -1,0 +1,14 @@
+{
+    "validation_key": "ocontemprmadvect",
+    "ui_label": "ocontemprmadvect",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-water-conservative-temperature-expressed-as-heat-content-due-to-residual-mean-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "ocontemprmadvect"
+}

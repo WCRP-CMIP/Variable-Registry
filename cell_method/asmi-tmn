@@ -1,0 +1,13 @@
+{
+    "validation_key": "asmi-tmn",
+    "ui_label": "Time Mean of Area Sum on Ice Sheet",
+    "description": "area: sum where ice_sheet time: mean",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "asmi-tmn"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "evspsblpot_tavg-u-hxy-lnd",
+    "ui_label": "Potential Evapotranspiration",
+    "description": "at surface; potential flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "evspsblpot",
+    "physical_parameter_name": "evspsblpot",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "water_potential_evaporation_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "evspsblpot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "evspsblpot-tavg-u-hxy-lnd"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "chldiat_tavg-d0m-hxy-sea",
+    "ui_label": "Surface Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water",
+    "description": "chlorophyll from diatom phytoplankton component concentration alone",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "chldiatos",
+    "physical_parameter_name": "chldiatos",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "mass_concentration_of_diatoms_expressed_as_chlorophyll_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-3",
+    "variable_root": "chldiat",
+    "vertical_label": "d0m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "chldiat-tavg-d0m-hxy-sea"
+}

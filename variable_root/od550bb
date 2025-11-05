@@ -1,0 +1,14 @@
+{
+    "validation_key": "od550bb",
+    "ui_label": "od550bb",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-optical-thickness-due-to-biomass-burning-particulate-matter-ambient-aerosol-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "od550bb"
+}

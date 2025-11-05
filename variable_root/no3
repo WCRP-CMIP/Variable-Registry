@@ -1,0 +1,14 @@
+{
+    "validation_key": "no3",
+    "ui_label": "no3",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-nitrate-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "no3"
+}

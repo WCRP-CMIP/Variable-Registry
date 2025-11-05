@@ -1,0 +1,34 @@
+{
+    "validation_key": "snw_tavg-u-hxy-si",
+    "ui_label": "Snow Mass per Area",
+    "description": "Total mass of snow on sea ice divided by grid-cell area. This then allows one to analyse the storage of latent heat in the snow, and to calculate the snow-water equivalent.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "sisnmass",
+    "physical_parameter_name": "sisnmass",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_snow_amount",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "snw",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "snw-tavg-u-hxy-si"
+}

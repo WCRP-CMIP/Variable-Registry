@@ -1,0 +1,12 @@
+{
+    "validation_key": "ccl",
+    "ui_label": "Convective Cloud",
+    "description": "Variables specific to convective clouds, which form through vertical air motion and convection. These clouds are typically associated with thunderstorms, cumulus formations, and localized precipitation events.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:area_label",
+        "esgvoc:AreaLabel",
+        "vr"
+    ],
+    "@id": "ccl"
+}

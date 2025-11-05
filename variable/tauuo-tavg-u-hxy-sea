@@ -1,0 +1,34 @@
+{
+    "validation_key": "tauuo_tavg-u-hxy-sea",
+    "ui_label": "Sea Water Surface Downward X Stress",
+    "description": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
+    "area_label": "sea",
+    "cell_measures": "::OPT",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "tauuo",
+    "physical_parameter_name": "tauuo",
+    "positive": "down",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "downward_x_stress_at_sea_water_surface",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "N m-2",
+    "variable_root": "tauuo",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tauuo-tavg-u-hxy-sea"
+}

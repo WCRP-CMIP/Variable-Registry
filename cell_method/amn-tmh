@@ -1,0 +1,13 @@
+{
+    "validation_key": "amn-tmh",
+    "ui_label": "Maximum Hourly Rate",
+    "description": "area: mean time: mean within hours time: maximum over hours",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amn-tmh"
+}

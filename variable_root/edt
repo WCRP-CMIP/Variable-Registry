@@ -1,0 +1,14 @@
+{
+    "validation_key": "edt",
+    "ui_label": "edt",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-heat-diffusivity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "edt"
+}

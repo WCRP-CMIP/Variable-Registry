@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnsirdg-twm",
+    "ui_label": "Weighted Time Mean on Sea-Ice Rdges",
+    "description": "area: time: mean where sea_ice_ridges",
+    "mask": "sirdgconc",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnsirdg-twm"
+}

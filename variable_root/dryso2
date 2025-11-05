@@ -1,0 +1,14 @@
+{
+    "validation_key": "dryso2",
+    "ui_label": "dryso2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-sulfur-dioxide-due-to-dry-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dryso2"
+}

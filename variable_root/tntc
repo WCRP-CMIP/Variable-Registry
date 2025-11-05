@@ -1,0 +1,14 @@
+{
+    "validation_key": "tntc",
+    "ui_label": "tntc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-air-temperature-due-to-convection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tntc"
+}

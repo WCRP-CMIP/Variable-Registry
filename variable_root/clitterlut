@@ -1,0 +1,14 @@
+{
+    "validation_key": "clitterlut",
+    "ui_label": "cLitterLut",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "litter-mass-content-of-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "clitterlut"
+}

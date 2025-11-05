@@ -1,0 +1,35 @@
+{
+    "validation_key": "hfy_tavg-ol-hxy-sea",
+    "ui_label": "3D Ocean Heat Y Transport",
+    "description": "Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "hfy",
+    "physical_parameter_name": "hfy",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "ocean_heat_y_transport",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W",
+    "variable_root": "hfy",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hfy-tavg-ol-hxy-sea"
+}

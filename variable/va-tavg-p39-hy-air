@@ -1,0 +1,34 @@
+{
+    "validation_key": "va_tavg-p39-hy-air",
+    "ui_label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "atmos",
+    "out_name": "va",
+    "physical_parameter_name": "va",
+    "positive": "",
+    "remove_cmip6_table": "AERmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "northward_wind",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "va",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "va-tavg-p39-hy-air"
+}

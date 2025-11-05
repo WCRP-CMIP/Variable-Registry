@@ -1,0 +1,14 @@
+{
+    "validation_key": "limnpico",
+    "ui_label": "limnpico",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "nitrogen-growth-limitation-of-picophytoplankton",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "limnpico"
+}

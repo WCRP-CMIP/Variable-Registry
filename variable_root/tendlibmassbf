@@ -1,0 +1,14 @@
+{
+    "validation_key": "tendlibmassbf",
+    "ui_label": "tendlibmassbf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-land-ice-mass-due-to-basal-mass-balance",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tendlibmassbf"
+}

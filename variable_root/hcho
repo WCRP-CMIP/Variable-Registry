@@ -1,0 +1,14 @@
+{
+    "validation_key": "hcho",
+    "ui_label": "hcho",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-formaldehyde-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hcho"
+}

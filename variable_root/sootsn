@@ -1,0 +1,14 @@
+{
+    "validation_key": "sootsn",
+    "ui_label": "sootsn",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "soot-content-of-surface-snow",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sootsn"
+}

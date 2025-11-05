@@ -1,0 +1,34 @@
+{
+    "validation_key": "hfls_tavg-u-hxy-u",
+    "ui_label": "Surface upward latent heat flux",
+    "description": "Hourly surface upward latent heat flux",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "hfls",
+    "physical_parameter_name": "hfls",
+    "positive": "up",
+    "remove_cmip6_table": "E1hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_upward_latent_heat_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "hfls",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hfls-tavg-u-hxy-u"
+}

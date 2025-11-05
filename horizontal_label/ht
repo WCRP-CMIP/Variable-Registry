@@ -1,0 +1,12 @@
+{
+    "validation_key": "ht",
+    "ui_label": "Mean Along Line",
+    "description": "Variables calculated as means across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:horizontal_label",
+        "esgvoc:HorizontalLabel",
+        "vr"
+    ],
+    "@id": "ht"
+}

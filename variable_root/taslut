@@ -1,0 +1,14 @@
+{
+    "validation_key": "taslut",
+    "ui_label": "tasLut",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "air-temperature",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "taslut"
+}

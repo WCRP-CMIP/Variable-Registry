@@ -1,0 +1,34 @@
+{
+    "validation_key": "oh_tavg-p39-hy-air",
+    "ui_label": "OH Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "aerosol",
+    "out_name": "oh",
+    "physical_parameter_name": "oh",
+    "positive": "",
+    "remove_cmip6_table": "AERmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "mole_fraction_of_hydroxyl_radical_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol mol-1",
+    "variable_root": "oh",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "oh-tavg-p39-hy-air"
+}

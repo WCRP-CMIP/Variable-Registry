@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfdsl",
+    "ui_label": "hfdsl",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-heat-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfdsl"
+}

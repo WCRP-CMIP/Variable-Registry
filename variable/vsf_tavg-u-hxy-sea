@@ -1,0 +1,34 @@
+{
+    "validation_key": "vsf_tavg-u-hxy-sea",
+    "ui_label": "Virtual Salt Flux into Sea Water",
+    "description": "It is set to zero in models which receive a real water flux.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "vsf",
+    "physical_parameter_name": "vsf",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "virtual_salt_flux_into_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "vsf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vsf-tavg-u-hxy-sea"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "zmeso_tavg-u-hxy-sea",
+    "ui_label": "Surface Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water",
+    "description": "carbon  concentration from mesozooplankton (20-200 um) component alone",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "zmesoos",
+    "physical_parameter_name": "zmesoos",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "mole_concentration_of_mesozooplankton_expressed_as_carbon_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-3",
+    "variable_root": "zmeso",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "zmeso-tavg-u-hxy-sea"
+}

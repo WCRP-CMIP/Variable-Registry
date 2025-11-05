@@ -1,0 +1,14 @@
+{
+    "validation_key": "tropoz",
+    "ui_label": "tropoz",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "equivalent-thickness-at-stp-of-atmosphere-ozone-content",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tropoz"
+}

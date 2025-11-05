@@ -1,0 +1,35 @@
+{
+    "validation_key": "cSoilPools_tavg-u-hxy-lnd",
+    "ui_label": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+    "description": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "soilpools",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "cSoilPools",
+    "physical_parameter_name": "cSoilPools",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "soil_mass_content_of_carbon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "cSoilPools",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "csoilpools-tavg-u-hxy-lnd"
+}

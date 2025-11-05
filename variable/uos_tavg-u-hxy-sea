@@ -1,0 +1,35 @@
+{
+    "validation_key": "uos_tavg-u-hxy-sea",
+    "ui_label": "Daily Surface Sea Water X Velocity",
+    "description": "Daily surface prognostic x-ward velocity component resolved by the model.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "uos",
+    "physical_parameter_name": "uos",
+    "positive": "",
+    "remove_cmip6_table": "Oday",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_sea_water_x_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "uos",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "uos-tavg-u-hxy-sea"
+}

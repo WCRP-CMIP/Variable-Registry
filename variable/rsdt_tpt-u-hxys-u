@@ -1,0 +1,33 @@
+{
+    "validation_key": "rsdt_tpt-u-hxys-u",
+    "ui_label": "TOA Incident Shortwave Radiation",
+    "description": "at the top of the atmosphere",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "rsdt",
+    "physical_parameter_name": "rsdt",
+    "positive": "down",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "toa_incoming_shortwave_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "W m-2",
+    "variable_root": "rsdt",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsdt-tpt-u-hxys-u"
+}

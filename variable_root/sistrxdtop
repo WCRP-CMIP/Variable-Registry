@@ -1,0 +1,14 @@
+{
+    "validation_key": "sistrxdtop",
+    "ui_label": "sistrxdtop",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-x-stress",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sistrxdtop"
+}

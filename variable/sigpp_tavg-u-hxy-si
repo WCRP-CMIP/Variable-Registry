@@ -1,0 +1,34 @@
+{
+    "validation_key": "sigpp_tavg-u-hxy-si",
+    "ui_label": "Gross Primary Productivity in Sea Ice as Carbon Amount Flux",
+    "description": "Change in ice algal carbon mass due to photosynthesis per sea ice unit area per unit time.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "sigpp",
+    "physical_parameter_name": "sigpp",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon_due_to_ice_algae_in_sea_ice",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "sigpp",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sigpp-tavg-u-hxy-si"
+}

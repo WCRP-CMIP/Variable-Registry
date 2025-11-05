@@ -1,0 +1,13 @@
+{
+    "validation_key": "zmeana-twm",
+    "ui_label": "Zonal Time Mean",
+    "description": "longitude: time: mean where air",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "zmeana-twm"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "h2o",
+    "ui_label": "h2o",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-fraction-of-water-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "h2o"
+}

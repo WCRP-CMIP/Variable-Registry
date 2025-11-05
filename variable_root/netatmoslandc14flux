@@ -1,0 +1,14 @@
+{
+    "validation_key": "netatmoslandc14flux",
+    "ui_label": "netAtmosLandC14Flux",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-net-downward-mass-flux-of-carbon-dioxide-expressed-as-14c-due-to-all-land-processes",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "netatmoslandc14flux"
+}

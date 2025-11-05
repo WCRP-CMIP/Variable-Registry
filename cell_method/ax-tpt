@@ -1,0 +1,13 @@
+{
+    "validation_key": "ax-tpt",
+    "ui_label": "Instantaneous",
+    "description": "time: point",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "ax-tpt"
+}

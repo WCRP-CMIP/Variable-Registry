@@ -1,0 +1,21 @@
+{
+    "validation_key": "aerhr",
+    "ui_label": "AERhr",
+    "description": "CMIP6 CMOR table AERhr containing variables",
+    "variables": [
+        "ps_tavg-u-hxy-u",
+        "no2_tavg-h2m-hxy-u",
+        "o3_tavg-h2m-hxy-u",
+        "sfpm1_tavg-h2m-hxy-u",
+        "sfpm10_tavg-h2m-hxy-u",
+        "sfpm25_tavg-h2m-hxy-u",
+        "tas_tavg-h2m-hxy-u"
+    ],
+    "@context": "_context",
+    "@type": [
+        "wcrp:cmip6_mip_table",
+        "esgvoc:Cmip6MipTable",
+        "vr"
+    ],
+    "@id": "aerhr"
+}

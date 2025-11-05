@@ -1,0 +1,14 @@
+{
+    "validation_key": "sispeed",
+    "ui_label": "sispeed",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-speed",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sispeed"
+}

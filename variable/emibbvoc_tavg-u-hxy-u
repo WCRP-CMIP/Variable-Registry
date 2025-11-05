@@ -1,0 +1,34 @@
+{
+    "validation_key": "emibbvoc_tavg-u-hxy-u",
+    "ui_label": "total emission rate of NMVOC from all biomass burning",
+    "description": "Total emission rate of non-methane volatile organic compounds (NMVOCs) from all biomass burning (natural and anthropogenic)",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "emibbvoc",
+    "physical_parameter_name": "emibbvoc",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_nmvoc_due_to_emission_from_fires",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "emibbvoc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "emibbvoc-tavg-u-hxy-u"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "mrsll_tavg-sl-hxy-lnd",
+    "ui_label": "Liquid Water Content of Soil Layer",
+    "description": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "mrsll",
+    "physical_parameter_name": "mrsll",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-S",
+    "standard_name": "liquid_water_content_of_soil_layer",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "mrsll",
+    "vertical_label": "sl",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "mrsll-tavg-sl-hxy-lnd"
+}

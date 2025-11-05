@@ -1,0 +1,13 @@
+{
+    "validation_key": "amn-tdnl",
+    "ui_label": "Mean Diurnal Cycle",
+    "description": "area: mean time: mean within days time: mean over days",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amn-tdnl"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfbasinpsmadv",
+    "ui_label": "hfbasinpsmadv",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "northward-ocean-heat-transport-due-to-parameterized-submesoscale-eddy-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfbasinpsmadv"
+}

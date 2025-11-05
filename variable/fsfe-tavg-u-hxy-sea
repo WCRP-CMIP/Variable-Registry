@@ -1,0 +1,34 @@
+{
+    "validation_key": "fsfe_tavg-u-hxy-sea",
+    "ui_label": "Surface Downward Net Flux of Iron",
+    "description": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "fsfe",
+    "physical_parameter_name": "fsfe",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "tendency_of_ocean_mole_content_of_iron_due_to_deposition_and_runoff_and_sediment_dissolution",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable_root": "fsfe",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "fsfe-tavg-u-hxy-sea"
+}

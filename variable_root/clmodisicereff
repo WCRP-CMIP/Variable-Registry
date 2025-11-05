@@ -1,0 +1,14 @@
+{
+    "validation_key": "clmodisicereff",
+    "ui_label": "clmodisiceReff",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "modis-ice-topped-cloud-area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "clmodisicereff"
+}

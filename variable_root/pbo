@@ -1,0 +1,14 @@
+{
+    "validation_key": "pbo",
+    "ui_label": "pbo",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-water-pressure-at-sea-floor",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pbo"
+}

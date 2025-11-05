@@ -1,0 +1,14 @@
+{
+    "validation_key": "sialgc",
+    "ui_label": "sialgc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-mole-content-of-ice-algae-expressed-as-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sialgc"
+}

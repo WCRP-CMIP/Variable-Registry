@@ -1,0 +1,14 @@
+{
+    "validation_key": "fngas",
+    "ui_label": "fNgas",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-mass-flux-of-nitrogen-compounds-expressed-as-nitrogen",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fngas"
+}

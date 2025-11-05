@@ -1,0 +1,35 @@
+{
+    "validation_key": "hus_tpt-p6-hxy-air",
+    "ui_label": "Specific humidity",
+    "description": "Specific humidity on 6 pressure levels in the lower troposphere",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev6",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "hus6",
+    "physical_parameter_name": "hus6",
+    "positive": "",
+    "remove_cmip6_table": "E3hrPt",
+    "spatial_shape": "XY-P6",
+    "standard_name": "specific_humidity",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "1",
+    "variable_root": "hus",
+    "vertical_label": "p6",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hus-tpt-p6-hxy-air"
+}

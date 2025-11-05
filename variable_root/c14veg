@@ -1,0 +1,14 @@
+{
+    "validation_key": "c14veg",
+    "ui_label": "c14Veg",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "vegetation-mass-content-of-14c",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "c14veg"
+}

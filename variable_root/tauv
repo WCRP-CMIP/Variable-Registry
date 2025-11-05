@@ -1,0 +1,14 @@
+{
+    "validation_key": "tauv",
+    "ui_label": "tauv",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-northward-stress",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tauv"
+}

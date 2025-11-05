@@ -1,0 +1,14 @@
+{
+    "validation_key": "nppvgt",
+    "ui_label": "nppVgt",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "net-primary-productivity-of-biomass-expressed-as-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "nppvgt"
+}

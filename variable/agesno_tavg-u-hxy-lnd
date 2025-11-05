@@ -1,0 +1,34 @@
+{
+    "validation_key": "agesno_tavg-u-hxy-lnd",
+    "ui_label": "Mean Age of Snow",
+    "description": "When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.  Reported as \"missing in regions free of snow on land.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmnsn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "agesno",
+    "physical_parameter_name": "agesno",
+    "positive": "",
+    "remove_cmip6_table": "LImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "age_of_surface_snow",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "day",
+    "variable_root": "agesno",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "agesno-tavg-u-hxy-lnd"
+}

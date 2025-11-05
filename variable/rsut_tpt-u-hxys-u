@@ -1,0 +1,33 @@
+{
+    "validation_key": "rsut_tpt-u-hxys-u",
+    "ui_label": "TOA Outgoing Shortwave Radiation",
+    "description": "at the top of the atmosphere",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "rsut",
+    "physical_parameter_name": "rsut",
+    "positive": "up",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "toa_outgoing_shortwave_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "W m-2",
+    "variable_root": "rsut",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsut-tpt-u-hxys-u"
+}

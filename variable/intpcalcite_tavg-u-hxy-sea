@@ -1,0 +1,34 @@
+{
+    "validation_key": "intpcalcite_tavg-u-hxy-sea",
+    "ui_label": "Calcite Production",
+    "description": "Vertically integrated calcite production",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "intpcalcite",
+    "physical_parameter_name": "intpcalcite",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-int",
+    "standard_name": "tendency_of_ocean_mole_content_of_calcite_expressed_as_carbon_due_to_biological_production",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable_root": "intpcalcite",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "intpcalcite-tavg-u-hxy-sea"
+}

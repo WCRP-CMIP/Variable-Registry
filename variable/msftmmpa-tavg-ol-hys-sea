@@ -1,0 +1,35 @@
+{
+    "validation_key": "msftmmpa_tavg-ol-hys-sea",
+    "ui_label": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "olevel",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hys",
+    "model_realm": "ocean",
+    "out_name": "msftmzmpa",
+    "physical_parameter_name": "msftmzmpa",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "YB-O",
+    "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg s-1",
+    "variable_root": "msftmmpa",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "msftmmpa-tavg-ol-hys-sea"
+}

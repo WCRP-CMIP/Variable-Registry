@@ -1,0 +1,33 @@
+{
+    "validation_key": "evspsbl_tpt-u-hxys-u",
+    "ui_label": "Evaporation Including Sublimation and Transpiration",
+    "description": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "evspsbl",
+    "physical_parameter_name": "evspsbl",
+    "positive": "",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "water_evapotranspiration_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "kg m-2 s-1",
+    "variable_root": "evspsbl",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "evspsbl-tpt-u-hxys-u"
+}

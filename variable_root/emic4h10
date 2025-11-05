@@ -1,0 +1,14 @@
+{
+    "validation_key": "emic4h10",
+    "ui_label": "emic4h10",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-butane-due-to-emission",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emic4h10"
+}

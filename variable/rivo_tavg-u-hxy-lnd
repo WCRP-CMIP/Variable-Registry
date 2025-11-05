@@ -1,0 +1,34 @@
+{
+    "validation_key": "rivo_tavg-u-hxy-lnd",
+    "ui_label": "River Discharge",
+    "description": "water_flux_from_upstream",
+    "area_label": "lnd",
+    "cell_measures": "area: areacellr",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "rivo",
+    "physical_parameter_name": "rivo",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "outgoing_water_volume_transport_along_river_channel",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m3 s-1",
+    "variable_root": "rivo",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rivo-tavg-u-hxy-lnd"
+}

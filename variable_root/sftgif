@@ -1,0 +1,14 @@
+{
+    "validation_key": "sftgif",
+    "ui_label": "sftgif",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "land-ice-area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sftgif"
+}

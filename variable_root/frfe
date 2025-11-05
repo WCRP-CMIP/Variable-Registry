@@ -1,0 +1,14 @@
+{
+    "validation_key": "frfe",
+    "ui_label": "frfe",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-ocean-mole-content-of-iron-due-to-sedimentation",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "frfe"
+}

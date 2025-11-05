@@ -1,0 +1,12 @@
+{
+    "validation_key": "ol",
+    "ui_label": "Ocean Model Levels",
+    "description": "Variables on native ocean model vertical levels, using the model's natural ocean vertical coordinate system. Includes all ocean depths from surface to bottom, typically using z-coordinates or terrain-following coordinates.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "ol"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "expcalc_tavg-ol-hxy-sea",
+    "ui_label": "Downward Flux of Calcite",
+    "description": "Downward flux of Calcite",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "expcalc",
+    "physical_parameter_name": "expcalc",
+    "positive": "down",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-O",
+    "standard_name": "sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-2 s-1",
+    "variable_root": "expcalc",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "expcalc-tavg-ol-hxy-sea"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "200hPa",
+    "ui_label": "200 hPa Pressure Level",
+    "description": "200 hPa²",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "200hpa"
+}

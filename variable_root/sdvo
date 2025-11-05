@@ -1,0 +1,14 @@
+{
+    "validation_key": "sdvo",
+    "ui_label": "sdvo",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-wave-stokes-drift-northward-velocity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sdvo"
+}

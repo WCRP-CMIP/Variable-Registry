@@ -1,0 +1,14 @@
+{
+    "validation_key": "mmrpm1",
+    "ui_label": "mmrpm1",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-fraction-of-pm1-dry-aerosol-particles-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "mmrpm1"
+}

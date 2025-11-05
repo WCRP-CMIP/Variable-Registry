@@ -1,0 +1,34 @@
+{
+    "validation_key": "simprefrozen_tavg-u-hxy-simp",
+    "ui_label": "Thickness of Refrozen Ice on Melt Pond",
+    "description": "Volume of refrozen ice on melt ponds divided by melt pond covered area.",
+    "area_label": "simp",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice_melt_pond (mask=simpconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "simprefrozen",
+    "physical_parameter_name": "simprefrozen",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "thickness_of_ice_on_sea_ice_melt_pond",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "simprefrozen",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "simprefrozen-tavg-u-hxy-simp"
+}
