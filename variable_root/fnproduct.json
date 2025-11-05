@@ -1,0 +1,14 @@
+{
+    "validation_key": "fnproduct",
+    "ui_label": "fNProduct",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "nitrogen-mass-flux-into-forestry-and-agricultural-products-due-to-anthropogenic-land-use-or-land-cover-change",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fnproduct"
+}

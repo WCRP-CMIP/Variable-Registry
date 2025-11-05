@@ -1,0 +1,12 @@
+{
+    "validation_key": "h40",
+    "ui_label": "40 Height Levels",
+    "description": "40 height levels",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "h40"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "pr17o",
+    "ui_label": "pr17O",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "precipitation-flux-containing-17o",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pr17o"
+}

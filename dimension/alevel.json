@@ -1,0 +1,15 @@
+{
+    "validation_key": "alevel",
+    "ui_label": "Atmospheric Model Level",
+    "description": "Generic atmospheric model vertical coordinate (nondimensional or dimensional) [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+    "axis_flag": "Z",
+    "cf_standard_name": "x",
+    "spatial_shape": "Atmospheric profiles at specified sites,Global field on model atmosphere levels,Zonal mean (on model levels)",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "alevel"
+}

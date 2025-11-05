@@ -1,0 +1,35 @@
+{
+    "validation_key": "cSoil_tavg-sl-hxy-lnd",
+    "ui_label": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
+    "description": "for models with vertically discretised soil carbon, report total soil carbon for each level",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "cSoilLevels",
+    "physical_parameter_name": "cSoilLevels",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-S",
+    "standard_name": "soil_mass_content_of_carbon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "cSoil",
+    "vertical_label": "sl",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "csoil-tavg-sl-hxy-lnd"
+}

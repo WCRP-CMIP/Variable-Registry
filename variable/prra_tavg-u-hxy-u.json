@@ -1,0 +1,34 @@
+{
+    "validation_key": "prra_tavg-u-hxy-u",
+    "ui_label": "Rainfall Flux",
+    "description": "Rainfall rate at surface: Includes precipitation of all forms of water in the liquid phase",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "prra",
+    "physical_parameter_name": "prra",
+    "positive": "down",
+    "remove_cmip6_table": "Amon",
+    "spatial_shape": "XY-na",
+    "standard_name": "rainfall_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "prra",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "prra-tavg-u-hxy-u"
+}

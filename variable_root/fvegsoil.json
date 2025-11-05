@@ -1,0 +1,14 @@
+{
+    "validation_key": "fvegsoil",
+    "ui_label": "fVegSoil",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "carbon-mass-flux-into-soil-from-vegetation-excluding-litter",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fvegsoil"
+}

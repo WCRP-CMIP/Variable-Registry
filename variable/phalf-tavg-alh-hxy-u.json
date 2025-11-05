@@ -1,0 +1,35 @@
+{
+    "validation_key": "phalf_tavg-alh-hxy-u",
+    "ui_label": "Pressure on Model Half-Levels",
+    "description": "Air pressure on model half-levels",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "phalf",
+    "physical_parameter_name": "phalf",
+    "positive": "",
+    "remove_cmip6_table": "CFday",
+    "spatial_shape": "XY-AH",
+    "standard_name": "air_pressure",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "Pa",
+    "variable_root": "phalf",
+    "vertical_label": "alh",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "phalf-tavg-alh-hxy-u"
+}

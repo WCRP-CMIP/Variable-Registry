@@ -1,0 +1,15 @@
+{
+    "validation_key": "alevhalf",
+    "ui_label": "Atmospheric Model Half-level",
+    "description": "Atmospheric model \"half\" level [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+    "axis_flag": "Z",
+    "cf_standard_name": "",
+    "spatial_shape": "Atmospheric profile (model half-levels),Atmospheric profiles (half levels) at specified sites,Global field on model atmosphere half-levels",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "alevhalf"
+}

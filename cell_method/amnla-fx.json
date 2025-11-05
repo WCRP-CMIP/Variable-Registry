@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnla-fx",
+    "ui_label": "Fixed Area Mean",
+    "description": "area: mean where land",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnla-fx"
+}

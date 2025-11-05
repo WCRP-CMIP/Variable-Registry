@@ -1,0 +1,14 @@
+{
+    "validation_key": "siitdsnconc",
+    "ui_label": "siitdsnconc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-snow-area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siitdsnconc"
+}

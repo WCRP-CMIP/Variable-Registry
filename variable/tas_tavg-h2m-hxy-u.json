@@ -1,0 +1,35 @@
+{
+    "validation_key": "tas_tavg-h2m-hxy-u",
+    "ui_label": "Near-Surface Air Temperature",
+    "description": "near-surface (usually, 2 meter) air temperature",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tas",
+    "physical_parameter_name": "tas",
+    "positive": "",
+    "remove_cmip6_table": "day",
+    "spatial_shape": "XY-na",
+    "standard_name": "air_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K",
+    "variable_root": "tas",
+    "vertical_label": "h2m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tas-tavg-h2m-hxy-u"
+}

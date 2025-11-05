@@ -1,0 +1,14 @@
+{
+    "validation_key": "sci",
+    "ui_label": "sci",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "shallow-convection-time-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sci"
+}

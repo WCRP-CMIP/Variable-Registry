@@ -1,0 +1,13 @@
+{
+    "validation_key": "amni-twm",
+    "ui_label": "Weighted Time Mean on Ice Sheet",
+    "description": "area: time: mean where ice_sheet",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amni-twm"
+}

@@ -1,0 +1,33 @@
+{
+    "validation_key": "depthl_ti-u-hxy-u",
+    "ui_label": "Depth of Lake Below the Surface",
+    "description": "Depth of lakes, if this quantity is present in the model. If computed via volume and area, then this is lake volume divided by lake area.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-fx",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "depthl",
+    "physical_parameter_name": "depthl",
+    "positive": "",
+    "remove_cmip6_table": "fx",
+    "spatial_shape": "XY-na",
+    "standard_name": "depth",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "m",
+    "variable_root": "depthl",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "depthl-ti-u-hxy-u"
+}

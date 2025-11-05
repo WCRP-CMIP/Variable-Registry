@@ -1,0 +1,34 @@
+{
+    "validation_key": "tropoz_tavg-u-hxy-u",
+    "ui_label": "Tropospheric Ozone Column",
+    "description": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp).",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "tropoz",
+    "physical_parameter_name": "tropoz",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "tropoz",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tropoz-tavg-u-hxy-u"
+}

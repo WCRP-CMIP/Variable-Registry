@@ -1,0 +1,14 @@
+{
+    "validation_key": "chlcalc",
+    "ui_label": "chlcalc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-concentration-of-calcareous-phytoplankton-expressed-as-chlorophyll-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "chlcalc"
+}

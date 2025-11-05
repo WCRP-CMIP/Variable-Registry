@@ -1,0 +1,33 @@
+{
+    "validation_key": "fco2fos_tpt-u-hxys-u",
+    "ui_label": "Carbon Mass Flux into Atmosphere Due to Fossil Fuel Emissions of CO2 [kgC m-2 s-1]",
+    "description": "This is the prescribed anthropogenic CO2 flux from fossil fuel use, including cement production, and flaring (but not from land-use changes, agricultural burning, forest regrowth, etc.)",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "fco2fos",
+    "physical_parameter_name": "fco2fos",
+    "positive": "",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fossil_fuel_combustion",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "kg m-2 s-1",
+    "variable_root": "fco2fos",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "fco2fos-tpt-u-hxys-u"
+}

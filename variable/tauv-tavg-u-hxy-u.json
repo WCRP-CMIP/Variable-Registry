@@ -1,0 +1,34 @@
+{
+    "validation_key": "tauv_tavg-u-hxy-u",
+    "ui_label": "Surface Downward Northward Wind Stress",
+    "description": "surface, now requesting daily output.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tauv",
+    "physical_parameter_name": "tauv",
+    "positive": "down",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_downward_northward_stress",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "Pa",
+    "variable_root": "tauv",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tauv-tavg-u-hxy-u"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "unknown05",
+    "ui_label": "unknown05",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-wave-period-at-variance-spectral-density-maximum",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "unknown05"
+}

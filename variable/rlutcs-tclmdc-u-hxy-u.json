@@ -1,0 +1,34 @@
+{
+    "validation_key": "rlutcs_tclmdc-u-hxy-u",
+    "ui_label": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "description": "Upwelling clear-sky longwave radiation at top of atmosphere",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tdnl",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rlutcs",
+    "physical_parameter_name": "rlutcs",
+    "positive": "up",
+    "remove_cmip6_table": "E1hrClimMon",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+    "temporal_label": "tclmdc",
+    "temporal_shape": "diurnal-cycle",
+    "units": "W m-2",
+    "variable_root": "rlutcs",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rlutcs-tclmdc-u-hxy-u"
+}

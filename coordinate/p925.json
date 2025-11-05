@@ -1,0 +1,14 @@
+{
+    "validation_key": "p925",
+    "ui_label": "pressure",
+    "description": "Atmospheric pressure coordinate at 925 hPa level, located in the lower troposphere at approximately 0.8 km altitude. Used for boundary layer meteorology and near-surface atmospheric analysis.",
+    "axis_flag": "Z",
+    "cf_standard_name": "air_pressure",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "p925"
+}

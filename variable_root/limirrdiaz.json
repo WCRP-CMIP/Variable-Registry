@@ -1,0 +1,14 @@
+{
+    "validation_key": "limirrdiaz",
+    "ui_label": "limirrdiaz",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "growth-limitation-of-diazotrophic-phytoplankton-due-to-solar-irradiance",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "limirrdiaz"
+}

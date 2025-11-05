@@ -1,0 +1,34 @@
+{
+    "validation_key": "cLitterSubSurf_tavg-u-hxy-lnd",
+    "ui_label": "Carbon Mass in Below-Ground Litter",
+    "description": "subsurface litter pool fed by root inputs.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "cLitterSubSurf",
+    "physical_parameter_name": "cLitterSubSurf",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "subsurface_litter_mass_content_of_carbon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "cLitterSubSurf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "clittersubsurf-tavg-u-hxy-lnd"
+}

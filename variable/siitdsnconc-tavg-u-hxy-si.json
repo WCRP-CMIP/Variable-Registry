@@ -1,0 +1,35 @@
+{
+    "validation_key": "siitdsnconc_tavg-u-hxy-si",
+    "ui_label": "Snow Area Fractions in Ice Thickness Categories",
+    "description": "Area fraction of grid cell covered by snow in each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siitdconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "iceband",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "siitdsnconc",
+    "physical_parameter_name": "siitdsnconc",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_snow_area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "siitdsnconc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siitdsnconc-tavg-u-hxy-si"
+}

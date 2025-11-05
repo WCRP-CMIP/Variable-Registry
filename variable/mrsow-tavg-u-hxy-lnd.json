@@ -1,0 +1,34 @@
+{
+    "validation_key": "mrsow_tavg-u-hxy-lnd",
+    "ui_label": "Total Soil Wetness",
+    "description": "relative_soil_moisture_content_above_field_capacity",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "mrsow",
+    "physical_parameter_name": "mrsow",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "mrsow",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "mrsow-tavg-u-hxy-lnd"
+}

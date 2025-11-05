@@ -1,0 +1,14 @@
+{
+    "validation_key": "wtem",
+    "ui_label": "wtem",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "upward-transformed-eulerian-mean-air-velocity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wtem"
+}

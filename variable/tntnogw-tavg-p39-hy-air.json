@@ -1,0 +1,34 @@
+{
+    "validation_key": "tntnogw_tavg-p39-hy-air",
+    "ui_label": "Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation",
+    "description": "zonal mean; hence YZT",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "atmos",
+    "out_name": "tntnogw",
+    "physical_parameter_name": "tntnogw",
+    "positive": "",
+    "remove_cmip6_table": "EmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "tendency_of_air_temperature_due_to_dissipation_of_nonorographic_gravity_waves",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K s-1",
+    "variable_root": "tntnogw",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tntnogw-tavg-p39-hy-air"
+}

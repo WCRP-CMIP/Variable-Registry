@@ -1,0 +1,35 @@
+{
+    "validation_key": "ta_tavg-700hPa-hxy-air",
+    "ui_label": "Air Temperature",
+    "description": "Air temperature at 700hPa",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ta700",
+    "physical_parameter_name": "ta700",
+    "positive": "",
+    "remove_cmip6_table": "CFday",
+    "spatial_shape": "XY-na",
+    "standard_name": "air_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K",
+    "variable_root": "ta",
+    "vertical_label": "700hPa",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ta-tavg-700hpa-hxy-air"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "sltovgyre_tavg-u-hys-sea",
+    "ui_label": "Northward Ocean Salt Transport Due to Gyre",
+    "description": "From all advective mass transport processes, resolved and parameterized.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hys",
+    "model_realm": "ocean",
+    "out_name": "sltovgyre",
+    "physical_parameter_name": "sltovgyre",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "YB-na",
+    "standard_name": "northward_ocean_salt_transport_due_to_gyre",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg s-1",
+    "variable_root": "sltovgyre",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sltovgyre-tavg-u-hys-sea"
+}

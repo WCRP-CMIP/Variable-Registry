@@ -1,0 +1,34 @@
+{
+    "validation_key": "vsfevap_tavg-u-hxy-sea",
+    "ui_label": "Virtual Salt Flux into Sea Water Due to Evaporation",
+    "description": "zero for models using real water fluxes.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "vsfevap",
+    "physical_parameter_name": "vsfevap",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "virtual_salt_flux_into_sea_water_due_to_evaporation",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "vsfevap",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vsfevap-tavg-u-hxy-sea"
+}

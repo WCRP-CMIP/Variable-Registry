@@ -1,0 +1,35 @@
+{
+    "validation_key": "uo_tavg-ol-hxy-sea",
+    "ui_label": "Sea Water X Velocity",
+    "description": "Prognostic x-ward velocity component resolved by the model.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "uo",
+    "physical_parameter_name": "uo",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "sea_water_x_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "uo",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "uo-tavg-ol-hxy-sea"
+}

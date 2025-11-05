@@ -1,0 +1,14 @@
+{
+    "validation_key": "dryo3",
+    "ui_label": "dryo3",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-ozone-due-to-dry-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dryo3"
+}

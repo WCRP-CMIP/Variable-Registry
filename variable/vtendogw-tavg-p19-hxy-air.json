@@ -1,0 +1,35 @@
+{
+    "validation_key": "vtendogw_tavg-p19-hxy-air",
+    "ui_label": "Northward Acceleration Due to Orographic Gravity Wave Drag",
+    "description": "Tendency of northward wind induced by the parameterized orographic gravity wave drag",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "vtendogw",
+    "physical_parameter_name": "vtendogw",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-P19",
+    "standard_name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-2",
+    "variable_root": "vtendogw",
+    "vertical_label": "p19",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vtendogw-tavg-p19-hxy-air"
+}

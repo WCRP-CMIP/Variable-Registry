@@ -1,0 +1,13 @@
+{
+    "validation_key": "amna-tpt",
+    "ui_label": "Instantaneous Value on Levels above Ground",
+    "description": "area: mean where air time: point",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amna-tpt"
+}

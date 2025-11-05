@@ -1,0 +1,35 @@
+{
+    "validation_key": "va_tpt-p7h-hxy-air",
+    "ui_label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7h",
+        "time1"
+    ],
+    "frequency": "6hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "va",
+    "physical_parameter_name": "va",
+    "positive": "",
+    "remove_cmip6_table": "6hrPlevPt",
+    "spatial_shape": "XY-P7T",
+    "standard_name": "northward_wind",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m s-1",
+    "variable_root": "va",
+    "vertical_label": "p7h",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "va-tpt-p7h-hxy-air"
+}

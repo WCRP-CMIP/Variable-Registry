@@ -1,0 +1,33 @@
+{
+    "validation_key": "dyto_ti-u-hxy-u",
+    "ui_label": "Cell Length in the Y Direction at t-points",
+    "description": "The linear extent of the cell in the y direction of the horizontal grid centered at t-points (points for tracers such as temperature, salinity, etc.). Not applicable to unstructured grids.",
+    "area_label": "u",
+    "cell_measures": "::MODEL",
+    "cell_methods": "apt-fx",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "dyto",
+    "physical_parameter_name": "dyto",
+    "positive": "",
+    "remove_cmip6_table": "Ofx",
+    "spatial_shape": "XY-na",
+    "standard_name": "cell_y_length",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "m",
+    "variable_root": "dyto",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "dyto-ti-u-hxy-u"
+}

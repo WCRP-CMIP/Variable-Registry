@@ -1,0 +1,14 @@
+{
+    "validation_key": "typelkins",
+    "ui_label": "Lake and inland sea area type",
+    "description": "",
+    "axis_flag": "",
+    "cf_standard_name": "area_type",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "typelkins"
+}

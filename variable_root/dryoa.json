@@ -1,0 +1,14 @@
+{
+    "validation_key": "dryoa",
+    "ui_label": "dryoa",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-particulate-organic-matter-dry-aerosol-particles-due-to-dry-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dryoa"
+}

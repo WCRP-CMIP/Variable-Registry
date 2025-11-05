@@ -1,0 +1,14 @@
+{
+    "validation_key": "sidmassmeltlat",
+    "ui_label": "sidmassmeltlat",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-ice-amount-due-to-lateral-melting",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sidmassmeltlat"
+}

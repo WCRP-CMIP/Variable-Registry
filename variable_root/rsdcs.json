@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsdcs",
+    "ui_label": "rsdcs",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "downwelling-shortwave-flux-in-air-assuming-clear-sky",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsdcs"
+}

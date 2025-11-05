@@ -1,0 +1,34 @@
+{
+    "validation_key": "reffccwctop_tavg-u-hxy-ccl",
+    "ui_label": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
+    "description": "Cloud-Top Effective Radius of Liquid or Ice Cloud at Liquid or Ice Cloud Top",
+    "area_label": "ccl",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: time: mean where convective_cloud not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "reffccwctop",
+    "physical_parameter_name": "reffccwctop",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "effective_radius_of_cloud_condensed_water_particles_at_cloud_top",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "reffccwctop",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "reffccwctop-tavg-u-hxy-ccl"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "rlds",
+    "ui_label": "rlds",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downwelling-longwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rlds"
+}

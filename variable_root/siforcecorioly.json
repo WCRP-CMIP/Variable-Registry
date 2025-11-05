@@ -1,0 +1,14 @@
+{
+    "validation_key": "siforcecorioly",
+    "ui_label": "siforcecorioly",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-y-force-per-unit-area-due-to-coriolis-effect",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siforcecorioly"
+}

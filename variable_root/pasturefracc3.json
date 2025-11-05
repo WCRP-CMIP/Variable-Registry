@@ -1,0 +1,14 @@
+{
+    "validation_key": "pasturefracc3",
+    "ui_label": "pastureFracC3",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pasturefracc3"
+}

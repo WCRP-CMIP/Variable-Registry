@@ -1,0 +1,14 @@
+{
+    "validation_key": "tpf",
+    "ui_label": "tpf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "permafrost-layer-thickness",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tpf"
+}

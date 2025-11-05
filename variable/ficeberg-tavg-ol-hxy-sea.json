@@ -1,0 +1,35 @@
+{
+    "validation_key": "ficeberg_tavg-ol-hxy-sea",
+    "ui_label": "Water Flux into Sea Water from Icebergs",
+    "description": "computed as the iceberg melt water  flux into the ocean divided by the area of the ocean portion of the grid cell.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "ficeberg",
+    "physical_parameter_name": "ficeberg",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "water_flux_into_sea_water_from_icebergs",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "ficeberg",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ficeberg-tavg-ol-hxy-sea"
+}

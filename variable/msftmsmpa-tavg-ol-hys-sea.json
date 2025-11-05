@@ -1,0 +1,35 @@
+{
+    "validation_key": "msftmsmpa_tavg-ol-hys-sea",
+    "ui_label": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
+    "description": "Report only if there is a submesoscale eddy parameterization.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "olevel",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hys",
+    "model_realm": "ocean",
+    "out_name": "msftmzsmpa",
+    "physical_parameter_name": "msftmzsmpa",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "YB-O",
+    "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg s-1",
+    "variable_root": "msftmsmpa",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "msftmsmpa-tavg-ol-hys-sea"
+}

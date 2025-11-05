@@ -1,0 +1,34 @@
+{
+    "validation_key": "tran_tavg-u-hxy-u",
+    "ui_label": "Transpiration",
+    "description": "Transpiration",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "tran",
+    "physical_parameter_name": "tran",
+    "positive": "up",
+    "remove_cmip6_table": "3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "transpiration_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "tran",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tran-tavg-u-hxy-u"
+}

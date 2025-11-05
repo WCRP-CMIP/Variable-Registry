@@ -1,0 +1,14 @@
+{
+    "validation_key": "pr",
+    "ui_label": "pr",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "precipitation-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pr"
+}

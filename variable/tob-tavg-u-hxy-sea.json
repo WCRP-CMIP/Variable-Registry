@@ -1,0 +1,35 @@
+{
+    "validation_key": "tob_tavg-u-hxy-sea",
+    "ui_label": "Sea Water Potential Temperature at Sea Floor",
+    "description": "Potential temperature at the ocean bottom-most grid cell.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "seafloor"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "tob",
+    "physical_parameter_name": "tob",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_water_potential_temperature_at_sea_floor",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "degC",
+    "variable_root": "tob",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tob-tavg-u-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "limnmisc",
+    "ui_label": "limnmisc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "nitrogen-growth-limitation-of-miscellaneous-phytoplankton",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "limnmisc"
+}

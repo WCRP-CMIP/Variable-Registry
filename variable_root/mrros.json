@@ -1,0 +1,14 @@
+{
+    "validation_key": "mrros",
+    "ui_label": "mrros",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-runoff-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "mrros"
+}

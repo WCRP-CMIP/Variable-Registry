@@ -1,0 +1,35 @@
+{
+    "validation_key": "reffclic_tpt-al-hxy-ccl",
+    "ui_label": "Hydrometeor Effective Radius of Convective Cloud Ice",
+    "description": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+    "area_label": "ccl",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amncc-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "reffclic",
+    "physical_parameter_name": "reffclic",
+    "positive": "",
+    "remove_cmip6_table": "CF3hr",
+    "spatial_shape": "XY-A",
+    "standard_name": "effective_radius_of_convective_cloud_ice_particles",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m",
+    "variable_root": "reffclic",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "reffclic-tpt-al-hxy-ccl"
+}

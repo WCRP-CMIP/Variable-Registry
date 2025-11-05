@@ -1,0 +1,35 @@
+{
+    "validation_key": "fLulccAtmLut_tavg-u-hxy-multi",
+    "ui_label": "Carbon Transferred Directly to Atmosphere Due to any Land-Use or Land-Cover Change Activities [kgC m-2 s-1]",
+    "description": "This annual mean flux refers to the transfer of carbon directly to the atmosphere due to any land-use or land-cover change activities.  Include carbon transferred due to deforestation or agricultural directly into atmosphere, and  emissions form anthropogenic pools into atmosphere",
+    "area_label": "multi",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amlu-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landuse",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "fLulccAtmLut",
+    "physical_parameter_name": "fLulccAtmLut",
+    "positive": "up",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_land_use_or_land_cover_change_excluding_forestry_and_agricultural_products",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "fLulccAtmLut",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "flulccatmlut-tavg-u-hxy-multi"
+}

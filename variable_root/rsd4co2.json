@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsd4co2",
+    "ui_label": "rsd4co2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "downwelling-shortwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsd4co2"
+}

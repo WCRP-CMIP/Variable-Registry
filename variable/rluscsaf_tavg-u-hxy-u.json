@@ -1,0 +1,34 @@
+{
+    "validation_key": "rluscsaf_tavg-u-hxy-u",
+    "ui_label": "Surface Upwelling Clear-Sky, Aerosol-Free Longwave Radiation",
+    "description": "Flux corresponding to rluscs resulting from an aerosol-free call to radiation",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "rluscsaf",
+    "physical_parameter_name": "rluscsaf",
+    "positive": "up",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_upwelling_longwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rluscsaf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rluscsaf-tavg-u-hxy-u"
+}

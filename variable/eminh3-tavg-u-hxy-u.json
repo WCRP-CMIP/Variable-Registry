@@ -1,0 +1,34 @@
+{
+    "validation_key": "eminh3_tavg-u-hxy-u",
+    "ui_label": "Total Emission Rate of NH3",
+    "description": "Integrate 3D emission field vertically to 2d field.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "eminh3",
+    "physical_parameter_name": "eminh3",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "eminh3",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "eminh3-tavg-u-hxy-u"
+}

@@ -1,0 +1,33 @@
+{
+    "validation_key": "topg_ti-u-hxy-gis",
+    "ui_label": "Bedrock Altitude",
+    "description": "The bedrock topography beneath the land ice",
+    "area_label": "gis",
+    "cell_measures": "area: areacellg",
+    "cell_methods": "amngi-fx",
+    "dimensions": [
+        "xgre",
+        "ygre"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "topg",
+    "physical_parameter_name": "topg",
+    "positive": "",
+    "remove_cmip6_table": "IfxGre",
+    "spatial_shape": "XYG-na",
+    "standard_name": "bedrock_altitude",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "m",
+    "variable_root": "topg",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "topg-ti-u-hxy-gis"
+}

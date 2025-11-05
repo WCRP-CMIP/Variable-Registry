@@ -1,0 +1,35 @@
+{
+    "validation_key": "osaltdiff_tavg-ol-hxy-sea",
+    "ui_label": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
+    "description": "Tendency of salt content for a grid cell from parameterized dianeutral mixing.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "osaltdiff",
+    "physical_parameter_name": "osaltdiff",
+    "positive": "",
+    "remove_cmip6_table": "Oyr",
+    "spatial_shape": "XY-O",
+    "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_dianeutral_mixing",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "osaltdiff",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "osaltdiff-tavg-ol-hxy-sea"
+}

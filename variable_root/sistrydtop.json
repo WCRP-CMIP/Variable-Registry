@@ -1,0 +1,14 @@
+{
+    "validation_key": "sistrydtop",
+    "ui_label": "sistrydtop",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-y-stress",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sistrydtop"
+}

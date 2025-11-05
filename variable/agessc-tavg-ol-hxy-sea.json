@@ -1,0 +1,35 @@
+{
+    "validation_key": "agessc_tavg-ol-hxy-sea",
+    "ui_label": "Sea Water Age Since Surface Contact",
+    "description": "Time elapsed since water was last in surface layer of the ocean.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "agessc",
+    "physical_parameter_name": "agessc",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "sea_water_age_since_surface_contact",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "yr",
+    "variable_root": "agessc",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "agessc-tavg-ol-hxy-sea"
+}

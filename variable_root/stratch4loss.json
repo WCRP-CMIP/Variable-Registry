@@ -1,0 +1,14 @@
+{
+    "validation_key": "stratch4loss",
+    "ui_label": "stratch4loss",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mole-concentration-of-methane-due-to-chemical-destruction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "stratch4loss"
+}

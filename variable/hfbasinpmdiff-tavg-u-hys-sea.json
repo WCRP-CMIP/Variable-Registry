@@ -1,0 +1,34 @@
+{
+    "validation_key": "hfbasinpmdiff_tavg-u-hys-sea",
+    "ui_label": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
+    "description": "Contributions to heat transport from parameterized mesoscale eddy-induced diffusive transport (i.e., neutral diffusion). Diagnosed here as a function of latitude and basin.",
+    "area_label": "sea",
+    "cell_measures": "",
+    "cell_methods": "Error: depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean not found in cell methods, please register",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hys",
+    "model_realm": "ocean",
+    "out_name": "hfbasinpmdiff",
+    "physical_parameter_name": "hfbasinpmdiff",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "YB-na",
+    "standard_name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_diffusion",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W",
+    "variable_root": "hfbasinpmdiff",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hfbasinpmdiff-tavg-u-hys-sea"
+}

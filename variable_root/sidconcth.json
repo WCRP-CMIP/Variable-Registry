@@ -1,0 +1,14 @@
+{
+    "validation_key": "sidconcth",
+    "ui_label": "sidconcth",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-ice-area-fraction-due-to-thermodynamics",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sidconcth"
+}

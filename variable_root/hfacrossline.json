@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfacrossline",
+    "ui_label": "hfacrossline",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "ocean-heat-transport-across-line",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfacrossline"
+}

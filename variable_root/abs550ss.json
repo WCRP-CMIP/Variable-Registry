@@ -1,0 +1,14 @@
+{
+    "validation_key": "abs550ss",
+    "ui_label": "abs550ss",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-absorption-optical-thickness-due-to-sea-salt-ambient-aerosol-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "abs550ss"
+}

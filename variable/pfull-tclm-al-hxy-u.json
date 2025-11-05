@@ -1,0 +1,35 @@
+{
+    "validation_key": "pfull_tclm-al-hxy-u",
+    "ui_label": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: mean time: mean within years time: mean over years not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time2"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "pfull",
+    "physical_parameter_name": "pfull",
+    "positive": "",
+    "remove_cmip6_table": "Amon",
+    "spatial_shape": "XY-A",
+    "standard_name": "air_pressure",
+    "temporal_label": "tclm",
+    "temporal_shape": "climatology",
+    "units": "Pa",
+    "variable_root": "pfull",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "pfull-tclm-al-hxy-u"
+}

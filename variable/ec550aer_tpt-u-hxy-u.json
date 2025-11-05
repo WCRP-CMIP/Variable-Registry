@@ -1,0 +1,35 @@
+{
+    "validation_key": "ec550aer_tpt-u-hxy-u",
+    "ui_label": "Aerosol Extinction Coefficient",
+    "description": "Aerosol Extinction @550nm",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: mean (weighted by downwelling solar radiation) time: point not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "lambda550nm"
+    ],
+    "frequency": "6hr",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "ec550aer",
+    "physical_parameter_name": "ec550aer",
+    "positive": "",
+    "remove_cmip6_table": "6hrLev",
+    "spatial_shape": "XY-na",
+    "standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m-1",
+    "variable_root": "ec550aer",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ec550aer-tpt-u-hxy-u"
+}

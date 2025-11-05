@@ -1,0 +1,12 @@
+{
+    "validation_key": "p19",
+    "ui_label": "19 Pressure Levels",
+    "description": "Variables interpolated to a standard set of 19 pressure levels spanning the atmosphere from surface to stratosphere. Commonly used for atmospheric analysis and comparison across different models.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "p19"
+}

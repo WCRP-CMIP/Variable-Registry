@@ -1,0 +1,33 @@
+{
+    "validation_key": "rsuscs_tpt-u-hxys-u",
+    "ui_label": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "description": "Surface Upwelling Clear-sky Shortwave Radiation",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "rsuscs",
+    "physical_parameter_name": "rsuscs",
+    "positive": "up",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "W m-2",
+    "variable_root": "rsuscs",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsuscs-tpt-u-hxys-u"
+}

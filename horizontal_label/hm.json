@@ -1,0 +1,12 @@
+{
+    "validation_key": "hm",
+    "ui_label": "Horizontal Mean",
+    "description": "Variables calculated as spatial averages across horizontal dimensions, typically representing area-weighted means over geographic regions. Used for regional or global horizontal averaging operations.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:horizontal_label",
+        "esgvoc:HorizontalLabel",
+        "vr"
+    ],
+    "@id": "hm"
+}

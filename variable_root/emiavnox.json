@@ -1,0 +1,14 @@
+{
+    "validation_key": "emiavnox",
+    "ui_label": "emiavnox",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-moles-of-nox-expressed-as-nitrogen",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emiavnox"
+}

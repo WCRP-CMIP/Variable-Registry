@@ -1,0 +1,14 @@
+{
+    "validation_key": "o3ste",
+    "ui_label": "o3ste",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-ozone-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "o3ste"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "unknown01",
+    "ui_label": "Total Wave Mean Period",
+    "description": "Average wave period (i.e., time in-between two wave crests) across the entire two-dimensional wave spectrum, incorporating both wind-sea and swell waves. In spectral wind wave models, it is calculated using spectral moments, mathematical measures that describe the shape and characteristics of the wave spectrum.",
+    "area_label": "unknown01",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "unknown01",
+    "model_realm": "ocean",
+    "out_name": "mpw",
+    "physical_parameter_name": "mpw",
+    "positive": "",
+    "remove_cmip6_table": "3hrPt",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_surface_wave_mean_period",
+    "temporal_label": "unknown01",
+    "temporal_shape": "time-point",
+    "units": "s",
+    "variable_root": "unknown01",
+    "vertical_label": "unknown01",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "unknown01"
+}

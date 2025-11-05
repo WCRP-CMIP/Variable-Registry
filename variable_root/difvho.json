@@ -1,0 +1,14 @@
+{
+    "validation_key": "difvho",
+    "ui_label": "difvho",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "ocean-vertical-heat-diffusivity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "difvho"
+}

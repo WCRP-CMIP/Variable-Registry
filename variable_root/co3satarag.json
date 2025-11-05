@@ -1,0 +1,14 @@
+{
+    "validation_key": "co3satarag",
+    "ui_label": "co3satarag",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-carbonate-expressed-as-carbon-at-equilibrium-with-pure-aragonite-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "co3satarag"
+}

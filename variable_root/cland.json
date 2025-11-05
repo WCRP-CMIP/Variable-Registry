@@ -1,0 +1,14 @@
+{
+    "validation_key": "cland",
+    "ui_label": "cLand",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-content-of-carbon-in-vegetation-and-litter-and-soil-and-forestry-and-agricultural-products",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "cland"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "rh100p2pct",
+    "ui_label": "Relative Humidity 100.2 percent",
+    "description": "Reference relative humidity for cloud diagnostics with value 100.2 percent (equivalent to 0.2 percent supersaturation)",
+    "axis_flag": "",
+    "cf_standard_name": "relative_humidity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "rh100p2pct"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "tmaxstat",
+    "ui_label": "Maximum Statistic",
+    "description": "Variables representing maximum values or mean of daily maximum values over a time period. Used for extreme statistics, temperature maxima, or other variables where peak conditions are of interest.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:temporal_label",
+        "esgvoc:TemporalLabel",
+        "vr"
+    ],
+    "@id": "tmaxstat"
+}

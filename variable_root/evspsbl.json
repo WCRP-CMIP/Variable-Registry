@@ -1,0 +1,14 @@
+{
+    "validation_key": "evspsbl",
+    "ui_label": "evspsbl",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "water-evapotranspiration-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "evspsbl"
+}

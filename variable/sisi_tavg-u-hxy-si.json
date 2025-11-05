@@ -1,0 +1,34 @@
+{
+    "validation_key": "sisi_tavg-u-hxy-si",
+    "ui_label": "Dissolved Silicon Amount in Sea Ice",
+    "description": "Vertically-integrated amount of silicate in ice algae, expressed in moles of silicon per square meter of sea ice.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: mean where sea_ice (mask=siconc) depth: sum where sea_ice time: mean not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "sisi",
+    "physical_parameter_name": "sisi",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-int",
+    "standard_name": "sea_ice_mole_content_of_silicon",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-2",
+    "variable_root": "sisi",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sisi-tavg-u-hxy-si"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "intpp",
+    "ui_label": "intpp",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "net-primary-mole-productivity-of-biomass-expressed-as-carbon-by-phytoplankton",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "intpp"
+}

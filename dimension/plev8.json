@@ -1,0 +1,15 @@
+{
+    "validation_key": "plev8",
+    "ui_label": "Pressure Levels (8)",
+    "description": "",
+    "axis_flag": "Z",
+    "cf_standard_name": "air_pressure",
+    "spatial_shape": "Global field (8 pressure levels)",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "plev8"
+}

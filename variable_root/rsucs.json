@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsucs",
+    "ui_label": "rsucs",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "upwelling-shortwave-flux-in-air-assuming-clear-sky",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsucs"
+}

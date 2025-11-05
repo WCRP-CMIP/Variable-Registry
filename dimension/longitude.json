@@ -1,0 +1,15 @@
+{
+    "validation_key": "longitude",
+    "ui_label": "Longitude",
+    "description": "Dimension representing longitude coordinates (east-west position) for global geographic gridded data, typically ranging from -180° to +180° or 0° to 360°.",
+    "axis_flag": "X",
+    "cf_standard_name": "longitude",
+    "spatial_shape": "Global field (3 pressure levels),Global field (4 pressure levels),\"Global field (5 pressure levels, UTLS)\",Global field (6 pressure levels),Global field (7 pressure levels),Global field (7 pressure tropospheric levels),Global field (8 pressure levels),Global field (16 altitudes),Global field (19 pressure levels),Global field (27 pressure levels),Global field (single level),Global field at sea floor,Global field on 40 altitude levels,Global field on model atmosphere half-levels,Global field on model atmosphere levels,Global field on soil levels,Global ocean field on layers,Global ocean field on model half levels,Global ocean field on model levels",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "longitude"
+}

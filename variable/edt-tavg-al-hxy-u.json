@@ -1,0 +1,35 @@
+{
+    "validation_key": "edt_tavg-al-hxy-u",
+    "ui_label": "Eddy Diffusivity Coefficient for Temperature",
+    "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "edt",
+    "physical_parameter_name": "edt",
+    "positive": "",
+    "remove_cmip6_table": "CFmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "atmosphere_heat_diffusivity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m2 s-1",
+    "variable_root": "edt",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "edt-tavg-al-hxy-u"
+}

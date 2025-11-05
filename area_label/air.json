@@ -1,0 +1,12 @@
+{
+    "validation_key": "air",
+    "ui_label": "Air",
+    "description": "Variables calculated over atmospheric air regions, typically representing conditions in the atmosphere above the surface. Used for atmospheric composition, temperature, humidity, and other meteorological variables.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:area_label",
+        "esgvoc:AreaLabel",
+        "vr"
+    ],
+    "@id": "air"
+}

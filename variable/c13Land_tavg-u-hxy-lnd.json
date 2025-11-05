@@ -1,0 +1,34 @@
+{
+    "validation_key": "c13Land_tavg-u-hxy-lnd",
+    "ui_label": "Mass of 13C in All Terrestrial Carbon Pools",
+    "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil, and forestry and agricultural products (e.g. paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock).",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "c13Land",
+    "physical_parameter_name": "c13Land",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "mass_content_of_13C_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "c13Land",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "c13land-tavg-u-hxy-lnd"
+}

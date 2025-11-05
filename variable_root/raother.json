@@ -1,0 +1,14 @@
+{
+    "validation_key": "raother",
+    "ui_label": "raOther",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-plant-respiration-in-miscellaneous-living-matter",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "raother"
+}

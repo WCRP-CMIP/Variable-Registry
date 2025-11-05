@@ -1,0 +1,35 @@
+{
+    "validation_key": "grassFrac_tavg-u-hxy-u",
+    "ui_label": "Natural Grass Area Percentage",
+    "description": "Percentage of entire grid cell that is covered by natural grass.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typenatgr"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "grassFrac",
+    "physical_parameter_name": "grassFrac",
+    "positive": "",
+    "remove_cmip6_table": "Lmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "grassFrac",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "grassfrac-tavg-u-hxy-u"
+}

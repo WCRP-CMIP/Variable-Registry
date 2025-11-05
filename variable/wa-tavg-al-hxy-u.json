@@ -1,0 +1,35 @@
+{
+    "validation_key": "wa_tavg-al-hxy-u",
+    "ui_label": "Upward Air Velocity",
+    "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "wa",
+    "physical_parameter_name": "wa",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "upward_air_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "wa",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wa-tavg-al-hxy-u"
+}

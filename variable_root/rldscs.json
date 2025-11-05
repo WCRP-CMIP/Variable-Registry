@@ -1,0 +1,14 @@
+{
+    "validation_key": "rldscs",
+    "ui_label": "rldscs",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downwelling-longwave-flux-in-air-assuming-clear-sky",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rldscs"
+}

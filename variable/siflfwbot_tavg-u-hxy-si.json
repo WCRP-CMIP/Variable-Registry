@@ -1,0 +1,34 @@
+{
+    "validation_key": "siflfwbot_tavg-u-hxy-si",
+    "ui_label": "Freshwater Flux from Sea Ice",
+    "description": "Total flux of fresh water from water into sea ice divided by grid-cell area. This flux is positive when fresh water enters the ocean, and is therefore negative during ice growth and positive during ice melt.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "siflfwbot",
+    "physical_parameter_name": "siflfwbot",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "water_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "siflfwbot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siflfwbot-tavg-u-hxy-si"
+}

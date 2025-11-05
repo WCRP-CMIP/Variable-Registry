@@ -1,0 +1,19 @@
+{
+    "validation_key": "e1hrclimmon",
+    "ui_label": "E1hrClimMon",
+    "description": "CMIP6 CMOR table E1hrClimMon containing variables",
+    "variables": [
+        "rlut_tclmdc-u-hxy-u",
+        "rlutcs_tclmdc-u-hxy-u",
+        "rsdt_tclmdc-u-hxy-u",
+        "rsut_tclmdc-u-hxy-u",
+        "rsutcs_tclmdc-u-hxy-u"
+    ],
+    "@context": "_context",
+    "@type": [
+        "wcrp:cmip6_mip_table",
+        "esgvoc:Cmip6MipTable",
+        "vr"
+    ],
+    "@id": "e1hrclimmon"
+}

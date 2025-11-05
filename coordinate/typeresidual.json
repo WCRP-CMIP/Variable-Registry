@@ -1,0 +1,14 @@
+{
+    "validation_key": "typeresidual",
+    "ui_label": "Residual area",
+    "description": "",
+    "axis_flag": "",
+    "cf_standard_name": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "typeresidual"
+}

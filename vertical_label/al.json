@@ -1,0 +1,12 @@
+{
+    "validation_key": "al",
+    "ui_label": "Atmospheric Model Levels",
+    "description": "Variables on native atmospheric model vertical levels, using the model's natural vertical coordinate system. Includes all atmospheric layers from surface to model top, typically hybrid sigma-pressure coordinates.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "al"
+}

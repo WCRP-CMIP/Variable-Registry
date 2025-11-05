@@ -1,0 +1,14 @@
+{
+    "validation_key": "wetdust",
+    "ui_label": "wetdust",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-dust-dry-aerosol-particles-due-to-wet-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wetdust"
+}

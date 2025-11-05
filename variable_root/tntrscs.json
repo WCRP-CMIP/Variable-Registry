@@ -1,0 +1,14 @@
+{
+    "validation_key": "tntrscs",
+    "ui_label": "tntrscs",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-air-temperature-due-to-shortwave-heating-assuming-clear-sky",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tntrscs"
+}

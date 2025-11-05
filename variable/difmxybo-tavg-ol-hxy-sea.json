@@ -1,0 +1,35 @@
+{
+    "validation_key": "difmxybo_tavg-ol-hxy-sea",
+    "ui_label": "Ocean Momentum XY Biharmonic Diffusivity",
+    "description": "Lateral biharmonic viscosity applied to the momentum equations.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "difmxybo",
+    "physical_parameter_name": "difmxybo",
+    "positive": "",
+    "remove_cmip6_table": "Oyr",
+    "spatial_shape": "XY-O",
+    "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m4 s-1",
+    "variable_root": "difmxybo",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "difmxybo-tavg-ol-hxy-sea"
+}

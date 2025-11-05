@@ -1,0 +1,35 @@
+{
+    "validation_key": "thetao_tavg-d300m-hxy-sea",
+    "ui_label": "Depth Average Potential Temperature of Upper 300m",
+    "description": "Upper 300m, 2D field",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "admns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer300m"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "thetaot300",
+    "physical_parameter_name": "thetaot300",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_water_potential_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "degC",
+    "variable_root": "thetao",
+    "vertical_label": "d300m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "thetao-tavg-d300m-hxy-sea"
+}

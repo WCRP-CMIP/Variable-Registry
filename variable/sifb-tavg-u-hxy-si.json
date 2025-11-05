@@ -1,0 +1,34 @@
+{
+    "validation_key": "sifb_tavg-u-hxy-si",
+    "ui_label": "Sea-Ice Freeboard",
+    "description": "Mean height of sea-ice surface (i.e. snow-ice interface when snow covered) above sea level. This follows the classical definition of freeboard for in situ observations. In the satellite community, sometimes the total height of sea ice and snow above sea level is referred to as freeboard. This can easily be calculated by adding sisnthick to sifb.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "sifb",
+    "physical_parameter_name": "sifb",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_ice_freeboard",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "sifb",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sifb-tavg-u-hxy-si"
+}

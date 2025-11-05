@@ -1,0 +1,14 @@
+{
+    "validation_key": "emibvoc",
+    "ui_label": "emibvoc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-biogenic-nmvoc-expressed-as-carbon-due-to-emission",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emibvoc"
+}

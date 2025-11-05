@@ -1,0 +1,15 @@
+{
+    "validation_key": "plev3",
+    "ui_label": "Pressure Levels (3)",
+    "description": "",
+    "axis_flag": "Z",
+    "cf_standard_name": "air_pressure",
+    "spatial_shape": "Global field (3 pressure levels)",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "plev3"
+}

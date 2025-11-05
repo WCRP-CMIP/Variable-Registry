@@ -1,0 +1,13 @@
+{
+    "validation_key": "ax-tmn",
+    "ui_label": "Time Mean",
+    "description": "time: mean",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "ax-tmn"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "osaltpmdiff",
+    "ui_label": "osaltpmdiff",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-parameterized-mesoscale-eddy-diffusion",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "osaltpmdiff"
+}

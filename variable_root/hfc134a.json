@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfc134a",
+    "ui_label": "hfc134a",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-hfc134a-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfc134a"
+}

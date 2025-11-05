@@ -1,0 +1,14 @@
+{
+    "validation_key": "prra",
+    "ui_label": "prra",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "rainfall-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "prra"
+}

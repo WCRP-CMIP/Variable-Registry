@@ -1,0 +1,14 @@
+{
+    "validation_key": "zg",
+    "ui_label": "zg",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "geopotential-height",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "zg"
+}

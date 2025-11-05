@@ -1,0 +1,14 @@
+{
+    "validation_key": "swh",
+    "ui_label": "swh",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-wave-significant-height",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "swh"
+}

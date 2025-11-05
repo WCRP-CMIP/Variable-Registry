@@ -1,0 +1,13 @@
+{
+    "validation_key": "amn-fx",
+    "ui_label": "Fixed Area Mean",
+    "description": "area: mean",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amn-fx"
+}

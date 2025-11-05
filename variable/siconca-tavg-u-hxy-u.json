@@ -1,0 +1,34 @@
+{
+    "validation_key": "siconca_tavg-u-hxy-u",
+    "ui_label": "Sea-Ice Area Fraction (Atmospheric Grid)",
+    "description": "Areal fraction of a given grid cell that is covered by sea ice on the atmosphere grid, independent of the thickness of that ice.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "siconca",
+    "physical_parameter_name": "siconca",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_ice_area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "siconca",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siconca-tavg-u-hxy-u"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "tnhus",
+    "ui_label": "tnhus",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-specific-humidity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tnhus"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "va_tavg-p19-hxy-air",
+    "ui_label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "va",
+    "physical_parameter_name": "va",
+    "positive": "",
+    "remove_cmip6_table": "day",
+    "spatial_shape": "XY-P19",
+    "standard_name": "northward_wind",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "va",
+    "vertical_label": "p19",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "va-tavg-p19-hxy-air"
+}

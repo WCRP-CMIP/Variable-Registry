@@ -1,0 +1,14 @@
+{
+    "validation_key": "laivgt",
+    "ui_label": "laiVgt",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "leaf-area-index",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "laivgt"
+}

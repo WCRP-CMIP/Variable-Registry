@@ -1,0 +1,34 @@
+{
+    "validation_key": "ch4losssoil_tavg-u-hxy-u",
+    "ui_label": "loss of methane from the atmosphere due to biological consumption in the soil",
+    "description": "Loss rate of methane from the atmosphere due to soil sink",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "ch4losssoil",
+    "physical_parameter_name": "ch4losssoil",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_downward_mass_flux_of_methane_due_to_soil_biological_consumption",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "ch4losssoil",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ch4losssoil-tavg-u-hxy-u"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "sfpm10_tavg-h2m-hxy-u",
+    "ui_label": "Hourly Surface PM10 Mixing Ratio",
+    "description": "Hourly PM10 Mass Mixing Ratio in Lowest Model Layer",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowermodellayer"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "sfpm10",
+    "physical_parameter_name": "sfpm10",
+    "positive": "",
+    "remove_cmip6_table": "AERhr",
+    "spatial_shape": "XY-na",
+    "standard_name": "mass_fraction_of_pm10_ambient_aerosol_particles_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg kg-1",
+    "variable_root": "sfpm10",
+    "vertical_label": "h2m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sfpm10-tavg-h2m-hxy-u"
+}

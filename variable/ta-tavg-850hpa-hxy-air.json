@@ -1,0 +1,35 @@
+{
+    "validation_key": "ta_tavg-850hPa-hxy-air",
+    "ui_label": "Air Temperature",
+    "description": "Air temperature at 850hPa",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ta850",
+    "physical_parameter_name": "ta850",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "air_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K",
+    "variable_root": "ta",
+    "vertical_label": "850hPa",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ta-tavg-850hpa-hxy-air"
+}

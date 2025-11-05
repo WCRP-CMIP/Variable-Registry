@@ -1,0 +1,14 @@
+{
+    "validation_key": "rlu",
+    "ui_label": "rlu",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "upwelling-longwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rlu"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "bry_tavg-p39-hy-air",
+    "ui_label": "Total Inorganic Bromine Volume Mixing Ratio",
+    "description": "Total family (the sum of all appropriate species in the model) ; list the species in the netCDF header, e.g. Bry = Br + BrO + HOBr + HBr + BrONO2 + BrCl Definition: Total inorganic bromine (e.g., HBr and inorganic bromine oxides and radicals (e.g., BrO, atomic bromine (Br), bromine nitrate (BrONO2)) resulting from degradation of bromine-containing organicsource gases (halons, methyl bromide, VSLS), and natural inorganic bromine sources (e.g., volcanoes, sea salt, and other aerosols) add comment attribute with detailed description about how the model calculates these fields",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "aerosol",
+    "out_name": "bry",
+    "physical_parameter_name": "bry",
+    "positive": "",
+    "remove_cmip6_table": "AERmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "mole_fraction_of_inorganic_bromine_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol mol-1",
+    "variable_root": "bry",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "bry-tavg-p39-hy-air"
+}

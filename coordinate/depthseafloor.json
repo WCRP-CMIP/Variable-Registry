@@ -1,0 +1,14 @@
+{
+    "validation_key": "depthseafloor",
+    "ui_label": "last water column cell above the sea floor",
+    "description": "coordinate value for the lowest ocean cell above sea floor",
+    "axis_flag": "Z",
+    "cf_standard_name": "sea_floor_depth_below_geoid",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "depthseafloor"
+}

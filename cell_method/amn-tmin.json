@@ -1,0 +1,13 @@
+{
+    "validation_key": "amn-tmin",
+    "ui_label": "Temporal Minimum",
+    "description": "area: mean time: minimum",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amn-tmin"
+}

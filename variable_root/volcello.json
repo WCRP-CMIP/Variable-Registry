@@ -1,0 +1,14 @@
+{
+    "validation_key": "volcello",
+    "ui_label": "volcello",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "ocean-volume",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "volcello"
+}

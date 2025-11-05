@@ -1,0 +1,34 @@
+{
+    "validation_key": "snc_tavg-u-hxy-lnd",
+    "ui_label": "Snow Area Percentage",
+    "description": "Fraction of each grid cell that is occupied by snow that rests on land portion of cell.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "snc",
+    "physical_parameter_name": "snc",
+    "positive": "",
+    "remove_cmip6_table": "LImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_snow_area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "snc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "snc-tavg-u-hxy-lnd"
+}

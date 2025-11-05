@@ -1,0 +1,14 @@
+{
+    "validation_key": "loadpoa",
+    "ui_label": "loadpoa",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-mass-content-of-primary-particulate-organic-matter-dry-aerosol-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "loadpoa"
+}

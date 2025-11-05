@@ -1,0 +1,33 @@
+{
+    "validation_key": "cct_tpt-u-hxys-u",
+    "ui_label": "Air Pressure at Convective Cloud Top",
+    "description": "Where convective cloud is present in the grid cell, the instantaneous cloud top altitude should be that of the top of the highest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "cct",
+    "physical_parameter_name": "cct",
+    "positive": "",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "air_pressure_at_convective_cloud_top",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "Pa",
+    "variable_root": "cct",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "cct-tpt-u-hxys-u"
+}

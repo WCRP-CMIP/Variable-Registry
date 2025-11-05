@@ -1,0 +1,35 @@
+{
+    "validation_key": "e90inst_tpt-al-hxy-u",
+    "ui_label": "Artificial tracer with 90 day lifetime",
+    "description": "Mole fraction of an artificial tracer with a 90-day lifetime (e90)",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "e90inst",
+    "physical_parameter_name": "e90inst",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "mol mol-1",
+    "variable_root": "e90inst",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "e90inst-tpt-al-hxy-u"
+}

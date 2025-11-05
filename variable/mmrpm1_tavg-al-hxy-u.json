@@ -1,0 +1,35 @@
+{
+    "validation_key": "mmrpm1_tavg-al-hxy-u",
+    "ui_label": "PM1.0 Mass Mixing Ratio",
+    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 1 micrometers",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "mmrpm1",
+    "physical_parameter_name": "mmrpm1",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "mass_fraction_of_pm1_dry_aerosol_particles_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg kg-1",
+    "variable_root": "mmrpm1",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "mmrpm1-tavg-al-hxy-u"
+}

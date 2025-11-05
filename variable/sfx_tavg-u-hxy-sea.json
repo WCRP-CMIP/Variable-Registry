@@ -1,0 +1,34 @@
+{
+    "validation_key": "sfx_tavg-u-hxy-sea",
+    "ui_label": "Vertically Integrated Ocean Salt Mass X Transport",
+    "description": "Ocean salt mass x transport vertically integrated over the whole ocean depth. Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: mean where sea depth: sum where sea (over entire ocean column) time: mean not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "sfx",
+    "physical_parameter_name": "sfx",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-int",
+    "standard_name": "ocean_salt_x_transport",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg s-1",
+    "variable_root": "sfx",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sfx-tavg-u-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "p700",
+    "ui_label": "pressure",
+    "description": "Atmospheric pressure coordinate at 700 hPa level, located in the lower-middle troposphere at approximately 3 km altitude. Used for analyzing lower-level weather systems and atmospheric moisture.",
+    "axis_flag": "Z",
+    "cf_standard_name": "air_pressure",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "p700"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "sltovgyre",
+    "ui_label": "sltovgyre",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "northward-ocean-salt-transport-due-to-gyre",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sltovgyre"
+}

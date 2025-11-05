@@ -1,0 +1,34 @@
+{
+    "validation_key": "co3_tavg-d0m-hxy-sea",
+    "ui_label": "Surface Carbonate Ion Concentration",
+    "description": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3).",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "co3os",
+    "physical_parameter_name": "co3os",
+    "positive": "",
+    "remove_cmip6_table": "Oday",
+    "spatial_shape": "XY-na",
+    "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-3",
+    "variable_root": "co3",
+    "vertical_label": "d0m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "co3-tavg-d0m-hxy-sea"
+}

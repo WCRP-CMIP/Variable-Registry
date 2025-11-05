@@ -1,0 +1,34 @@
+{
+    "validation_key": "siflswdbot_tavg-u-hxy-si",
+    "ui_label": "Downwelling Shortwave Flux under Sea Ice",
+    "description": "Downwelling shortwave flux underneath sea ice, i.e. the amount of shortwave radiation that penetrates the sea ice and reaches the sea ice-ocean interface (energy flow per sea ice area). Always positive or zero.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "siflswdbot",
+    "physical_parameter_name": "siflswdbot",
+    "positive": "down",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "downwelling_shortwave_flux_in_sea_water_at_sea_ice_base",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "siflswdbot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siflswdbot-tavg-u-hxy-si"
+}

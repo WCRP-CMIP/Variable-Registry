@@ -1,0 +1,35 @@
+{
+    "validation_key": "thkcellvo_tavg-ol-hxy-sea",
+    "ui_label": "Ocean Model Cell Thickness at v-points",
+    "description": "The time varying thickness of ocean cells centered at v-points (points for velocity in the y-direction). \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "thkcellvo",
+    "physical_parameter_name": "thkcellvo",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "cell_thickness",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "thkcellvo",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "thkcellvo-tavg-ol-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "no2",
+    "ui_label": "no2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-nitrogen-dioxide-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "no2"
+}

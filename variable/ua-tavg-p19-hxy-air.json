@@ -1,0 +1,35 @@
+{
+    "validation_key": "ua_tavg-p19-hxy-air",
+    "ui_label": "Eastward Wind",
+    "description": "Zonal wind (positive in a eastward direction).",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ua",
+    "physical_parameter_name": "ua",
+    "positive": "",
+    "remove_cmip6_table": "day",
+    "spatial_shape": "XY-P19",
+    "standard_name": "eastward_wind",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "ua",
+    "vertical_label": "p19",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ua-tavg-p19-hxy-air"
+}

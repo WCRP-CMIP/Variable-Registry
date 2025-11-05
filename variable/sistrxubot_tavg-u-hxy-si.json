@@ -1,0 +1,34 @@
+{
+    "validation_key": "sistrxubot_tavg-u-hxy-si",
+    "ui_label": "X-Component of Ocean Stress on Sea Ice",
+    "description": "X-component of the ocean stress on the sea ice bottom divided by grid-cell area.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "sistrxubot",
+    "physical_parameter_name": "sistrxubot",
+    "positive": "up",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "upward_x_stress_at_sea_ice_base",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "N m-2",
+    "variable_root": "sistrxubot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sistrxubot-tavg-u-hxy-si"
+}

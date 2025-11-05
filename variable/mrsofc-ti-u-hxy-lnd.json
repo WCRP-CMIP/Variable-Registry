@@ -1,0 +1,33 @@
+{
+    "validation_key": "mrsofc_ti-u-hxy-lnd",
+    "ui_label": "Capacity of Soil to Store Water (Field Capacity)",
+    "description": "reported \"where land\": divide the total water holding capacity of all the soil in the grid cell by the land area in the grid cell;  reported as \"missing\" where the land fraction is 0.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-fx",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "mrsofc",
+    "physical_parameter_name": "mrsofc",
+    "positive": "",
+    "remove_cmip6_table": "fx",
+    "spatial_shape": "XY-na",
+    "standard_name": "soil_moisture_content_at_field_capacity",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "kg m-2",
+    "variable_root": "mrsofc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "mrsofc-ti-u-hxy-lnd"
+}

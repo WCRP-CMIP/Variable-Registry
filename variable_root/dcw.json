@@ -1,0 +1,14 @@
+{
+    "validation_key": "dcw",
+    "ui_label": "dcw",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "change-over-time-in-canopy-water-amount",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dcw"
+}

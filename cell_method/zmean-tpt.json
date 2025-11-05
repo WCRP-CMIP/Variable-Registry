@@ -1,0 +1,13 @@
+{
+    "validation_key": "zmean-tpt",
+    "ui_label": "Zonal Mean",
+    "description": "Cell method representing zonal mean (longitude-averaged) of instantaneous values. Variables are averaged in the east-west direction at specific time instances to show meridional patterns.",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "zmean-tpt"
+}

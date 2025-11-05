@@ -1,0 +1,14 @@
+{
+    "validation_key": "od550soa",
+    "ui_label": "od550soa",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-optical-thickness-due-to-secondary-particulate-organic-matter-ambient-aerosol-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "od550soa"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "p6",
+    "ui_label": "6 Pressure Levels",
+    "description": "6 pressure levels²",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "p6"
+}

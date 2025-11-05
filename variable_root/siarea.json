@@ -1,0 +1,14 @@
+{
+    "validation_key": "siarea",
+    "ui_label": "siarea",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-area",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siarea"
+}

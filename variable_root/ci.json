@@ -1,0 +1,14 @@
+{
+    "validation_key": "ci",
+    "ui_label": "ci",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "convection-time-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "ci"
+}

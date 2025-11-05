@@ -1,0 +1,34 @@
+{
+    "validation_key": "rsutcs_tpt-u-hxy-u",
+    "ui_label": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "description": "Calculated in the absence of clouds.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rsutcs",
+    "physical_parameter_name": "rsutcs",
+    "positive": "up",
+    "remove_cmip6_table": "CF3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "W m-2",
+    "variable_root": "rsutcs",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsutcs-tpt-u-hxy-u"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "dryno3",
+    "ui_label": "dryno3",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-nitrate-dry-aerosol-due-to-dry-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dryno3"
+}

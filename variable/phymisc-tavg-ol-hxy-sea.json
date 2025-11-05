@@ -1,0 +1,35 @@
+{
+    "validation_key": "phymisc_tavg-ol-hxy-sea",
+    "ui_label": "Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water",
+    "description": "carbon concentration from additional phytoplankton component alone",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "phymisc",
+    "physical_parameter_name": "phymisc",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "mole_concentration_of_miscellaneous_phytoplankton_expressed_as_carbon_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-3",
+    "variable_root": "phymisc",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "phymisc-tavg-ol-hxy-sea"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "tntpbl_tpt-al-hxys-u",
+    "ui_label": "Tendency of Air Temperature Due to Boundary Layer Mixing",
+    "description": "alevel site time1",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "tntpbl",
+    "physical_parameter_name": "tntpbl",
+    "positive": "",
+    "remove_cmip6_table": "Esubhr",
+    "spatial_shape": "S-A",
+    "standard_name": "tendency_of_air_temperature_due_to_boundary_layer_mixing",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "K s-1",
+    "variable_root": "tntpbl",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tntpbl-tpt-al-hxys-u"
+}

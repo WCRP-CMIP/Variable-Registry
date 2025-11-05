@@ -1,0 +1,34 @@
+{
+    "validation_key": "utendepfd_tavg-p39-hy-air",
+    "ui_label": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
+    "description": "Tendency of the zonal mean zonal wind due to the divergence of the Eliassen-Palm flux.",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "atmos",
+    "out_name": "utendepfd",
+    "physical_parameter_name": "utendepfd",
+    "positive": "",
+    "remove_cmip6_table": "EmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "tendency_of_eastward_wind_due_to_eliassen_palm_flux_divergence",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-2",
+    "variable_root": "utendepfd",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "utendepfd-tavg-p39-hy-air"
+}

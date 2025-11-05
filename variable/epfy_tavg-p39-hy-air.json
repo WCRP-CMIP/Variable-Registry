@@ -1,0 +1,34 @@
+{
+    "validation_key": "epfy_tavg-p39-hy-air",
+    "ui_label": "Northward Component of the Eliassen-Palm Flux",
+    "description": "Transformed Eulerian Mean Diagnostics Meridional component Fy of Eliassen-Palm (EP) flux (Fy, Fz) derived from 6hr or higher frequency fields (use daily fields or 12 hr fields if the 6 hr are not available). Please use the definitions given by equation 3.5.3a of Andrews, Holton and Leovy text book, but scaled by density to have units m3 s-2.",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "atmos",
+    "out_name": "epfy",
+    "physical_parameter_name": "epfy",
+    "positive": "",
+    "remove_cmip6_table": "EmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "northward_eliassen_palm_flux_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m3 s-2",
+    "variable_root": "epfy",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "epfy-tavg-p39-hy-air"
+}

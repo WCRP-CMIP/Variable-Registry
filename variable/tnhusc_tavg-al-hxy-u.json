@@ -1,0 +1,35 @@
+{
+    "validation_key": "tnhusc_tavg-al-hxy-u",
+    "ui_label": "Tendency of Specific Humidity Due to Convection",
+    "description": "Tendencies from cumulus convection scheme.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tnhusc",
+    "physical_parameter_name": "tnhusc",
+    "positive": "",
+    "remove_cmip6_table": "CFmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_specific_humidity_due_to_convection",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "s-1",
+    "variable_root": "tnhusc",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tnhusc-tavg-al-hxy-u"
+}

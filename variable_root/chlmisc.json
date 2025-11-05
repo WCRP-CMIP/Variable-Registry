@@ -1,0 +1,14 @@
+{
+    "validation_key": "chlmisc",
+    "ui_label": "chlmisc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-concentration-of-miscellaneous-phytoplankton-expressed-as-chlorophyll-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "chlmisc"
+}

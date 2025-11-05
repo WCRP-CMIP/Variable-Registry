@@ -1,0 +1,14 @@
+{
+    "validation_key": "o2",
+    "ui_label": "o2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "o2"
+}

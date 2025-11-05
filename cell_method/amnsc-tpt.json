@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnsc-tpt",
+    "ui_label": "Instantaneous Mean over Stratiform Cloud",
+    "description": "area: mean where stratiform_cloud time: point",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnsc-tpt"
+}

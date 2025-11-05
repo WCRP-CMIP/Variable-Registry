@@ -1,0 +1,14 @@
+{
+    "validation_key": "opottemppsmadvect",
+    "ui_label": "opottemppsmadvect",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-water-potential-temperature-expressed-as-heat-content-due-to-parameterized-submesoscale-eddy-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "opottemppsmadvect"
+}

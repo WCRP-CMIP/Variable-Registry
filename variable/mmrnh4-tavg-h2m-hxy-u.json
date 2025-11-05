@@ -1,0 +1,35 @@
+{
+    "validation_key": "mmrnh4_tavg-h2m-hxy-u",
+    "ui_label": "Daily mean surface NH4",
+    "description": "Daily mean NH4 mass mixing ratio in lowest model layer",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowermodellayer"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "mmrnh4",
+    "physical_parameter_name": "mmrnh4",
+    "positive": "",
+    "remove_cmip6_table": "AERday",
+    "spatial_shape": "XY-na",
+    "standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg kg-1",
+    "variable_root": "mmrnh4",
+    "vertical_label": "h2m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "mmrnh4-tavg-h2m-hxy-u"
+}

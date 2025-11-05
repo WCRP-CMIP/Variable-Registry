@@ -1,0 +1,14 @@
+{
+    "validation_key": "tauupbl",
+    "ui_label": "tauupbl",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-eastward-stress-due-to-boundary-layer-mixing",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tauupbl"
+}

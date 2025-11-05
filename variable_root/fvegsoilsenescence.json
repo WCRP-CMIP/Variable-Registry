@@ -1,0 +1,14 @@
+{
+    "validation_key": "fvegsoilsenescence",
+    "ui_label": "fVegSoilSenescence",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-flux-of-carbon-into-soil-from-vegetation-due-to-senescence",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fvegsoilsenescence"
+}

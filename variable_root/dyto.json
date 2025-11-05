@@ -1,0 +1,14 @@
+{
+    "validation_key": "dyto",
+    "ui_label": "dyto",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "cell-y-length",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dyto"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "wetnh4",
+    "ui_label": "wetnh4",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-ammonium-dry-aerosol-particles-due-to-wet-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wetnh4"
+}

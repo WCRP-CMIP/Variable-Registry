@@ -1,0 +1,32 @@
+{
+    "validation_key": "lon_ti-u-hxys-u",
+    "ui_label": "Longitude",
+    "description": "Longitude is positive eastward; its units of degree_east (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_longitude should be used instead of longitude. Grid longitude is positive in the grid-eastward direction, but its units should be plain degree.",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-fx",
+    "dimensions": [
+        "site"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "lon",
+    "physical_parameter_name": "lon",
+    "positive": "",
+    "remove_cmip6_table": "fx",
+    "spatial_shape": "S-na",
+    "standard_name": "longitude",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "degrees_east",
+    "variable_root": "lon",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "lon-ti-u-hxys-u"
+}

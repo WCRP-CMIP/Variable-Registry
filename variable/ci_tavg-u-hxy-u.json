@@ -1,0 +1,34 @@
+{
+    "validation_key": "ci_tavg-u-hxy-u",
+    "ui_label": "Fraction of Time Convection Occurs in Cell",
+    "description": "Fraction of time that convection occurs in the grid cell .",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ci",
+    "physical_parameter_name": "ci",
+    "positive": "",
+    "remove_cmip6_table": "Amon",
+    "spatial_shape": "XY-na",
+    "standard_name": "convection_time_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "ci",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ci-tavg-u-hxy-u"
+}

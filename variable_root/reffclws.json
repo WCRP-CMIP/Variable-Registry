@@ -1,0 +1,14 @@
+{
+    "validation_key": "reffclws",
+    "ui_label": "reffclws",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "effective-radius-of-stratiform-cloud-liquid-water-particles",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "reffclws"
+}

@@ -1,0 +1,13 @@
+{
+    "validation_key": "amlu-twm",
+    "ui_label": "Weighted Time Mean on Landuse Tiles",
+    "description": "area: time: mean where sector",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amlu-twm"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "cl",
+    "ui_label": "Cloud",
+    "description": "Variables specific to cloud regions, including cloud properties, microphysics, and radiative effects. Encompasses all cloud types and their interactions with radiation and precipitation processes.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:area_label",
+        "esgvoc:AreaLabel",
+        "vr"
+    ],
+    "@id": "cl"
+}

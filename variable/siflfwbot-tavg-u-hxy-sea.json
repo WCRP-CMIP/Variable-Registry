@@ -1,0 +1,34 @@
+{
+    "validation_key": "siflfwbot_tavg-u-hxy-sea",
+    "ui_label": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "description": "computed as the sea ice thermodynamic water flux into the ocean divided by the area of the ocean portion of the grid cell.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "fsitherm",
+    "physical_parameter_name": "fsitherm",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "water_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "siflfwbot",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siflfwbot-tavg-u-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "sitimefrac",
+    "ui_label": "sitimefrac",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "fraction-of-time-with-sea-ice-area-fraction-above-threshold",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sitimefrac"
+}

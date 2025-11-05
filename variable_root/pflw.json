@@ -1,0 +1,14 @@
+{
+    "validation_key": "pflw",
+    "ui_label": "pflw",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "liquid-water-content-of-permafrost-layer",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "pflw"
+}

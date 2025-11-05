@@ -1,0 +1,13 @@
+{
+    "validation_key": "amnp-twm",
+    "ui_label": "Weighted Time Mean on Pastures",
+    "description": "area: time: mean where pastures",
+    "mask": "pastureFrac",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amnp-twm"
+}

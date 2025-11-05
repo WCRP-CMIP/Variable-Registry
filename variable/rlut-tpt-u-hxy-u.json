@@ -1,0 +1,34 @@
+{
+    "validation_key": "rlut_tpt-u-hxy-u",
+    "ui_label": "TOA Outgoing Longwave Radiation",
+    "description": "at the top of the atmosphere (to be compared with satellite measurements)",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rlut",
+    "physical_parameter_name": "rlut",
+    "positive": "up",
+    "remove_cmip6_table": "CF3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_longwave_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "W m-2",
+    "variable_root": "rlut",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rlut-tpt-u-hxy-u"
+}

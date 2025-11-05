@@ -1,0 +1,14 @@
+{
+    "validation_key": "intuadse",
+    "ui_label": "intuadse",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "eastward-atmosphere-dry-static-energy-transport-across-unit-distance",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "intuadse"
+}

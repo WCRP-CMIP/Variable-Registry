@@ -1,0 +1,14 @@
+{
+    "validation_key": "dmso",
+    "ui_label": "dmso",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-concentration-of-dimethyl-sulfide-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dmso"
+}

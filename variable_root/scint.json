@@ -1,0 +1,14 @@
+{
+    "validation_key": "scint",
+    "ui_label": "scint",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "integral-wrt-depth-of-sea-water-practical-salinity-expressed-as-salt-mass-content",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "scint"
+}

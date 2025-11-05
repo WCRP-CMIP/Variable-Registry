@@ -1,0 +1,12 @@
+{
+    "validation_key": "wl",
+    "ui_label": "Wetland",
+    "description": "Variables calculated over wetland areas, including marshes, swamps, bogs, and other water-saturated ecosystems. Covers wetland hydrology, methane emissions, biodiversity, and ecosystem services.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:area_label",
+        "esgvoc:AreaLabel",
+        "vr"
+    ],
+    "@id": "wl"
+}

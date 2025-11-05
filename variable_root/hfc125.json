@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfc125",
+    "ui_label": "hfc125",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-hfc125-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfc125"
+}

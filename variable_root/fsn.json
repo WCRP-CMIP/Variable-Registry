@@ -1,0 +1,14 @@
+{
+    "validation_key": "fsn",
+    "ui_label": "fsn",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-ocean-mole-content-of-elemental-nitrogen-due-to-deposition-and-fixation-and-runoff",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fsn"
+}

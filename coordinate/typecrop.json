@@ -1,0 +1,14 @@
+{
+    "validation_key": "typecrop",
+    "ui_label": "Crop area type",
+    "description": "Coordinate for agricultural crop area type, used to identify and analyze variables specific to cultivated agricultural lands and crop-covered regions.",
+    "axis_flag": "",
+    "cf_standard_name": "area_type",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "typecrop"
+}
