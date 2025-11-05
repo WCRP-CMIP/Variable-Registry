@@ -1,0 +1,35 @@
+{
+    "validation_key": "abs550so4_tavg-u-hxy-u",
+    "ui_label": "sulfate aaod@550nm",
+    "description": "This is the sulphate aerosol optical depth at 550nm due to absorption",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "abs550so4",
+    "physical_parameter_name": "abs550so4",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_absorption_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "abs550so4",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "abs550so4-tavg-u-hxy-u"
+}

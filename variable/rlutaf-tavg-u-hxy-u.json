@@ -1,0 +1,34 @@
+{
+    "validation_key": "rlutaf_tavg-u-hxy-u",
+    "ui_label": "TOA Outgoing Aerosol-Free Longwave Radiation",
+    "description": "Flux corresponding to rlut resulting fom aerosol-free call to radiation",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "rlutaf",
+    "physical_parameter_name": "rlutaf",
+    "positive": "up",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_longwave_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rlutaf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rlutaf-tavg-u-hxy-u"
+}

@@ -1,0 +1,13 @@
+{
+    "validation_key": "amcc-twm",
+    "ui_label": "Weighted Time Mean on Convective Cloud",
+    "description": "area: time: mean where convective_cloud (weighted by total convective cloud area)",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amcc-twm"
+}

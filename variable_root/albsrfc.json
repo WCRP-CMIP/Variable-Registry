@@ -1,0 +1,14 @@
+{
+    "validation_key": "albsrfc",
+    "ui_label": "albsrfc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-albedo",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "albsrfc"
+}

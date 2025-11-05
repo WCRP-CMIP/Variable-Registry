@@ -1,0 +1,14 @@
+{
+    "validation_key": "mmrss",
+    "ui_label": "mmrss",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mass-fraction-of-sea-salt-dry-aerosol-particles-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "mmrss"
+}

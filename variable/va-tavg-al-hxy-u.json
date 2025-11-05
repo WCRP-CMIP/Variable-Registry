@@ -1,0 +1,35 @@
+{
+    "validation_key": "va_tavg-al-hxy-u",
+    "ui_label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "va",
+    "physical_parameter_name": "va",
+    "positive": "",
+    "remove_cmip6_table": "CFday",
+    "spatial_shape": "XY-A",
+    "standard_name": "northward_wind",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "va",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "va-tavg-al-hxy-u"
+}

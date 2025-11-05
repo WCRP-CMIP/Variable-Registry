@@ -1,0 +1,14 @@
+{
+    "validation_key": "unknown04",
+    "ui_label": "unknown04",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-wave-from-direction-at-variance-spectral-density-maximum",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "unknown04"
+}

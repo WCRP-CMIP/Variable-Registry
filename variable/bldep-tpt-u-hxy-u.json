@@ -1,0 +1,34 @@
+{
+    "validation_key": "bldep_tpt-u-hxy-u",
+    "ui_label": "Boundary Layer Depth",
+    "description": "Boundary Layer Depth every 3 hours",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "bldep",
+    "physical_parameter_name": "bldep",
+    "positive": "",
+    "remove_cmip6_table": "3hrPt",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_boundary_layer_thickness",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m",
+    "variable_root": "bldep",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "bldep-tpt-u-hxy-u"
+}

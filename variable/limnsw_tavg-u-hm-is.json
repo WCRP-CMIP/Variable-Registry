@@ -1,0 +1,32 @@
+{
+    "validation_key": "limnsw_tavg-u-hm-is",
+    "ui_label": "Ice Sheet Mass That Does not Displace Sea Water",
+    "description": "Greenland",
+    "area_label": "is",
+    "cell_measures": "",
+    "cell_methods": "asmi-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hm",
+    "model_realm": "landice",
+    "out_name": "limnsw",
+    "physical_parameter_name": "limnsw",
+    "positive": "",
+    "remove_cmip6_table": "IyrGre",
+    "spatial_shape": "na-na",
+    "standard_name": "land_ice_mass_not_displacing_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg",
+    "variable_root": "limnsw",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "limnsw-tavg-u-hm-is"
+}

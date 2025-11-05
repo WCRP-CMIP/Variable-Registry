@@ -1,0 +1,14 @@
+{
+    "validation_key": "ch4",
+    "ui_label": "ch4",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-methane-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "ch4"
+}

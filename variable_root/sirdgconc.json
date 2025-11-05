@@ -1,0 +1,14 @@
+{
+    "validation_key": "sirdgconc",
+    "ui_label": "sirdgconc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sirdgconc"
+}

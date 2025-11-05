@@ -1,0 +1,14 @@
+{
+    "validation_key": "wdirswell",
+    "ui_label": "wdirswell",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-swell-wave-from-direction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wdirswell"
+}

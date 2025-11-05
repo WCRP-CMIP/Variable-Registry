@@ -1,0 +1,34 @@
+{
+    "validation_key": "wetnh3_tavg-u-hxy-u",
+    "ui_label": "Wet Deposition Rate of NH3",
+    "description": "Surface deposition rate of ammonia (NH3) due to wet processes",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "wetnh3",
+    "physical_parameter_name": "wetnh3",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_wet_deposition",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "wetnh3",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wetnh3-tavg-u-hxy-u"
+}

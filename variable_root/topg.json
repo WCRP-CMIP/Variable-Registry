@@ -1,0 +1,14 @@
+{
+    "validation_key": "topg",
+    "ui_label": "topg",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "bedrock-altitude",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "topg"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "rh",
+    "ui_label": "rh",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-heterotrophic-respiration",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rh"
+}

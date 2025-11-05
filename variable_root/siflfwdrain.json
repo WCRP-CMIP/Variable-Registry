@@ -1,0 +1,14 @@
+{
+    "validation_key": "siflfwdrain",
+    "ui_label": "siflfwdrain",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "water-flux-into-sea-water-due-to-surface-drainage",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siflfwdrain"
+}

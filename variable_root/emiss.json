@@ -1,0 +1,14 @@
+{
+    "validation_key": "emiss",
+    "ui_label": "emiss",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-sea-salt-dry-aerosol-particles-due-to-emission",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emiss"
+}

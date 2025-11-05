@@ -1,0 +1,15 @@
+{
+    "validation_key": "time4",
+    "ui_label": "Monthly Mean Daily Satistics",
+    "description": "",
+    "axis_flag": "T",
+    "cf_standard_name": "time",
+    "spatial_shape": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "time4"
+}

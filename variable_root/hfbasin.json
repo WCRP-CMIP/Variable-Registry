@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfbasin",
+    "ui_label": "hfbasin",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "northward-ocean-heat-transport",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfbasin"
+}

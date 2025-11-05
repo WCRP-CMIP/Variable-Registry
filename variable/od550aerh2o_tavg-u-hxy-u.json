@@ -1,0 +1,35 @@
+{
+    "validation_key": "od550aerh2o_tavg-u-hxy-u",
+    "ui_label": "Aerosol Water Optical Thickness at 550nm",
+    "description": "proposed name: atmosphere_optical_thickness_due_to_water_ambient_aerosol",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "od550aerh2o",
+    "physical_parameter_name": "od550aerh2o",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_optical_thickness_due_to_water_in_ambient_aerosol_particles",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "od550aerh2o",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "od550aerh2o-tavg-u-hxy-u"
+}

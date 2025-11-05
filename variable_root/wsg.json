@@ -1,0 +1,14 @@
+{
+    "validation_key": "wsg",
+    "ui_label": "wsg",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "wind-speed-of-gust",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wsg"
+}

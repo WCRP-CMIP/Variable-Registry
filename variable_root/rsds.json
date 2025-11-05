@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsds",
+    "ui_label": "rsds",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downwelling-shortwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsds"
+}

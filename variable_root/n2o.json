@@ -1,0 +1,14 @@
+{
+    "validation_key": "n2o",
+    "ui_label": "n2o",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-nitrous-oxide-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "n2o"
+}

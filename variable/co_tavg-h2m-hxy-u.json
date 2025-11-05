@@ -1,0 +1,35 @@
+{
+    "validation_key": "co_tavg-h2m-hxy-u",
+    "ui_label": "Daily mean surface CO",
+    "description": "This is the daily mean for CO volume mixing ratio in lowest model layer",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lowermodellayer"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "co",
+    "physical_parameter_name": "co",
+    "positive": "",
+    "remove_cmip6_table": "AERday",
+    "spatial_shape": "XY-na",
+    "standard_name": "mole_fraction_of_carbon_monoxide_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol mol-1",
+    "variable_root": "co",
+    "vertical_label": "h2m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "co-tavg-h2m-hxy-u"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "tas_tpt-h2m-hxy-u",
+    "ui_label": "Near-Surface Air Temperature",
+    "description": "This is sampled synoptically.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height2m"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tas",
+    "physical_parameter_name": "tas",
+    "positive": "",
+    "remove_cmip6_table": "3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "air_temperature",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "K",
+    "variable_root": "tas",
+    "vertical_label": "h2m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tas-tpt-h2m-hxy-u"
+}

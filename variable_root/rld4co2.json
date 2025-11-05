@@ -1,0 +1,14 @@
+{
+    "validation_key": "rld4co2",
+    "ui_label": "rld4co2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "downwelling-longwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rld4co2"
+}

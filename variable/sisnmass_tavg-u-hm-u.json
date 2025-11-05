@@ -1,0 +1,32 @@
+{
+    "validation_key": "sisnmass_tavg-u-hm-u",
+    "ui_label": "Snow Mass on Sea Ice South",
+    "description": "Total integrated mass of snow on sea ice in the Southern Hemisphere.",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "asm-tmn",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hm",
+    "model_realm": "seaice",
+    "out_name": "sisnmasss",
+    "physical_parameter_name": "sisnmasss",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "na-na",
+    "standard_name": "surface_snow_mass",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg",
+    "variable_root": "sisnmass",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sisnmass-tavg-u-hm-u"
+}

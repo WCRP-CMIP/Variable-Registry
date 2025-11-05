@@ -1,0 +1,32 @@
+{
+    "validation_key": "iareafl_tavg-u-hm-fis",
+    "ui_label": "Area Covered by Floating Ice Shelves",
+    "description": "Greenland",
+    "area_label": "fis",
+    "cell_measures": "",
+    "cell_methods": "Error: area: sum where floating_ice_shelf (mask=sftflf) time: mean not found in cell methods, please register",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hm",
+    "model_realm": "landice",
+    "out_name": "iareafl",
+    "physical_parameter_name": "iareafl",
+    "positive": "",
+    "remove_cmip6_table": "IyrGre",
+    "spatial_shape": "na-na",
+    "standard_name": "floating_ice_shelf_area",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m2",
+    "variable_root": "iareafl",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "iareafl-tavg-u-hm-fis"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "siforcecorioly_tavg-u-hxy-si",
+    "ui_label": "Coriolis Force Term in Force Balance (Y-Component)",
+    "description": "Y-component of the force on sea ice caused by the Coriolis force divided by grid-cell area.",
+    "area_label": "si",
+    "cell_measures": "::MODEL",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "siforcecorioly",
+    "physical_parameter_name": "siforcecorioly",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_ice_y_force_per_unit_area_due_to_coriolis_effect",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "N m-2",
+    "variable_root": "siforcecorioly",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "siforcecorioly-tavg-u-hxy-si"
+}

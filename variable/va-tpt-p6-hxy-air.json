@@ -1,0 +1,35 @@
+{
+    "validation_key": "va_tpt-p6-hxy-air",
+    "ui_label": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction) on 6 pressure levels in the lower troposphere",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev6",
+        "time1"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "va6",
+    "physical_parameter_name": "va6",
+    "positive": "",
+    "remove_cmip6_table": "E3hrPt",
+    "spatial_shape": "XY-P6",
+    "standard_name": "northward_wind",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m s-1",
+    "variable_root": "va",
+    "vertical_label": "p6",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "va-tpt-p6-hxy-air"
+}

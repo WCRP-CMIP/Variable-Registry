@@ -1,0 +1,34 @@
+{
+    "validation_key": "emich3oh_tavg-u-hxy-u",
+    "ui_label": "total emission rate of CH3OH",
+    "description": "This is the total emission rate of methanol (CH3OH) into the atmosphere",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "emich3oh",
+    "physical_parameter_name": "emich3oh",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_methanol_due_to_emission",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "emich3oh",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "emich3oh-tavg-u-hxy-u"
+}

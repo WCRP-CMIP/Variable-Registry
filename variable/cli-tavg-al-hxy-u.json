@@ -1,0 +1,35 @@
+{
+    "validation_key": "cli_tavg-al-hxy-u",
+    "ui_label": "Mass Fraction of Cloud Ice",
+    "description": "Calculated as the mass of cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "cli",
+    "physical_parameter_name": "cli",
+    "positive": "",
+    "remove_cmip6_table": "CFday",
+    "spatial_shape": "XY-A",
+    "standard_name": "mass_fraction_of_cloud_ice_in_air",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg kg-1",
+    "variable_root": "cli",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "cli-tavg-al-hxy-u"
+}

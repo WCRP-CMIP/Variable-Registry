@@ -1,0 +1,34 @@
+{
+    "validation_key": "clwmodis_tavg-u-hxy-u",
+    "ui_label": "MODIS Liquid Cloud Percentage",
+    "description": "MODIS Liquid Cloud Fraction",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "clwmodis",
+    "physical_parameter_name": "clwmodis",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "modis_liquid_topped_cloud_area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "clwmodis",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "clwmodis-tavg-u-hxy-u"
+}

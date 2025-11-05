@@ -1,0 +1,14 @@
+{
+    "validation_key": "emibbnox",
+    "ui_label": "emibbnox",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-nox-expressed-as-nitrogen-due-to-emission-from-fires",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emibbnox"
+}

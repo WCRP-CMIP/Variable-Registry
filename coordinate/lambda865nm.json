@@ -1,0 +1,14 @@
+{
+    "validation_key": "lambda865nm",
+    "ui_label": "Radiation Wavelength 865 nanometers",
+    "description": "Radiation wavelength used for monitoring aerosol properties",
+    "axis_flag": "",
+    "cf_standard_name": "radiation_wavelength",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "lambda865nm"
+}

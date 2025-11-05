@@ -1,0 +1,35 @@
+{
+    "validation_key": "sfcWind_tmax-h10m-hxy-u",
+    "ui_label": "Daily Maximum Near-Surface Wind Speed",
+    "description": "Daily maximum near-surface (usually, 10 meters) wind speed.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-dmax",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time4",
+        "height10m"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "sfcWindmax",
+    "physical_parameter_name": "sfcWindmax",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "wind_speed",
+    "temporal_label": "tmax",
+    "temporal_shape": "monthly-mean-daily-stat",
+    "units": "m s-1",
+    "variable_root": "sfcWind",
+    "vertical_label": "h10m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sfcwind-tmax-h10m-hxy-u"
+}

@@ -1,0 +1,35 @@
+{
+    "validation_key": "hur_tavg-p19-hxy-air",
+    "ui_label": "Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "hur",
+    "physical_parameter_name": "hur",
+    "positive": "",
+    "remove_cmip6_table": "Amon",
+    "spatial_shape": "XY-P19",
+    "standard_name": "relative_humidity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "hur",
+    "vertical_label": "p19",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hur-tavg-p19-hxy-air"
+}

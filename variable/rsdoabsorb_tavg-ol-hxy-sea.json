@@ -1,0 +1,35 @@
+{
+    "validation_key": "rsdoabsorb_tavg-ol-hxy-sea",
+    "ui_label": "Net Rate of Absorption of Shortwave Energy in Ocean Layer",
+    "description": "Tendency of heat content for a grid cell from penetrative shortwave radiation within a grid cell.",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "rsdoabsorb",
+    "physical_parameter_name": "rsdoabsorb",
+    "positive": "",
+    "remove_cmip6_table": "Oyr",
+    "spatial_shape": "XY-O",
+    "standard_name": "net_rate_of_absorption_of_shortwave_energy_in_ocean_layer",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rsdoabsorb",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsdoabsorb-tavg-ol-hxy-sea"
+}

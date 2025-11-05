@@ -1,0 +1,14 @@
+{
+    "validation_key": "fco2fos",
+    "ui_label": "fco2fos",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-fossil-fuel-combustion",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fco2fos"
+}

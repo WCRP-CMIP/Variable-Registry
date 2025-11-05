@@ -1,0 +1,14 @@
+{
+    "validation_key": "depth300m",
+    "ui_label": "depth",
+    "description": "coordinate value for 300 m ocean depth",
+    "axis_flag": "Z",
+    "cf_standard_name": "depth",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "depth300m"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "wo",
+    "ui_label": "wo",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "upward-sea-water-velocity",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wo"
+}

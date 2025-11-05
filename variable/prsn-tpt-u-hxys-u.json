@@ -1,0 +1,33 @@
+{
+    "validation_key": "prsn_tpt-u-hxys-u",
+    "ui_label": "Snowfall Flux",
+    "description": "at surface; includes precipitation of all forms of water in the solid phase",
+    "area_label": "u",
+    "cell_measures": "",
+    "cell_methods": "apt-tpt",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhr",
+    "horizontal_label": "hxys",
+    "model_realm": "atmos",
+    "out_name": "prsn",
+    "physical_parameter_name": "prsn",
+    "positive": "",
+    "remove_cmip6_table": "CFsubhr",
+    "spatial_shape": "S-na",
+    "standard_name": "snowfall_flux",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "kg m-2 s-1",
+    "variable_root": "prsn",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "prsn-tpt-u-hxys-u"
+}

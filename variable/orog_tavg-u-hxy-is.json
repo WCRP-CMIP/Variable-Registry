@@ -1,0 +1,34 @@
+{
+    "validation_key": "orog_tavg-u-hxy-is",
+    "ui_label": "Ice Sheet Surface Altitude",
+    "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "area_label": "is",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amni-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "orogIs",
+    "physical_parameter_name": "orogIs",
+    "positive": "",
+    "remove_cmip6_table": "LImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_altitude",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "orog",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "orog-tavg-u-hxy-is"
+}

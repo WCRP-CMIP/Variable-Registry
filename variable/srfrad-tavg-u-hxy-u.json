@@ -1,0 +1,34 @@
+{
+    "validation_key": "srfrad_tavg-u-hxy-u",
+    "ui_label": "Net radiative flux at surface",
+    "description": "Net radiative flux at surface",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "3hr",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "srfrad",
+    "physical_parameter_name": "srfrad",
+    "positive": "down",
+    "remove_cmip6_table": "3hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_net_downward_radiative_flux",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "srfrad",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "srfrad-tavg-u-hxy-u"
+}

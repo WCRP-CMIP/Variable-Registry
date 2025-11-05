@@ -1,0 +1,35 @@
+{
+    "validation_key": "od550ss_tavg-u-hxy-u",
+    "ui_label": "Sea-Salt Aerosol Optical Depth at 550nm",
+    "description": "Total aerosol AOD due to sea salt aerosol at a wavelength of 550 nanometres.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "od550ss",
+    "physical_parameter_name": "od550ss",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "od550ss",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "od550ss-tavg-u-hxy-u"
+}

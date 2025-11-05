@@ -1,0 +1,35 @@
+{
+    "validation_key": "rlucs4co2_tavg-alh-hxy-u",
+    "ui_label": "Upwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
+    "description": "Upwelling clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rlucs4co2",
+    "physical_parameter_name": "rlucs4co2",
+    "positive": "up",
+    "remove_cmip6_table": "CFmon",
+    "spatial_shape": "XY-AH",
+    "standard_name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "rlucs4co2",
+    "vertical_label": "alh",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rlucs4co2-tavg-alh-hxy-u"
+}

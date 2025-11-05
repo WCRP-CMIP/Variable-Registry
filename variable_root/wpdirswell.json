@@ -1,0 +1,14 @@
+{
+    "validation_key": "wpdirswell",
+    "ui_label": "wpdirswell",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-swell-wave-from-direction-at-variance-spectral-density-maximum",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wpdirswell"
+}

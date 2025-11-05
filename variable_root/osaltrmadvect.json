@@ -1,0 +1,14 @@
+{
+    "validation_key": "osaltrmadvect",
+    "ui_label": "osaltrmadvect",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-water-salinity-expressed-as-salt-content-due-to-residual-mean-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "osaltrmadvect"
+}

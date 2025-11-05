@@ -1,0 +1,35 @@
+{
+    "validation_key": "od550lt1aer_tavg-u-hxy-u",
+    "ui_label": "Ambient Fine Aerosol Optical Depth at 550nm",
+    "description": "od550 due to particles with wet diameter less than 1 um  (\"ambient\" means \"wetted\"). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "od550lt1aer",
+    "physical_parameter_name": "od550lt1aer",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_optical_thickness_due_to_pm1_ambient_aerosol_particles",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "od550lt1aer",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "od550lt1aer-tavg-u-hxy-u"
+}

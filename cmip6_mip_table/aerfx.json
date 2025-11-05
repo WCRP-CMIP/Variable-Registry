@@ -1,0 +1,17 @@
+{
+    "validation_key": "aerfx",
+    "ui_label": "AERfx",
+    "description": "CMIP6 CMOR table AERfx containing variables",
+    "variables": [
+        "ch4ref_ti-al-hxy-u",
+        "o3ref_ti-al-hxy-u",
+        "o3ref_tclm-al-hxy-u"
+    ],
+    "@context": "_context",
+    "@type": [
+        "wcrp:cmip6_mip_table",
+        "esgvoc:Cmip6MipTable",
+        "vr"
+    ],
+    "@id": "aerfx"
+}

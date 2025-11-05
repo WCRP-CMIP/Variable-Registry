@@ -1,0 +1,14 @@
+{
+    "validation_key": "emich3oh",
+    "ui_label": "emich3oh",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-methanol-due-to-emission",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "emich3oh"
+}

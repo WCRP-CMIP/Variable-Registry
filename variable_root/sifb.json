@@ -1,0 +1,14 @@
+{
+    "validation_key": "sifb",
+    "ui_label": "sifb",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-freeboard",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sifb"
+}

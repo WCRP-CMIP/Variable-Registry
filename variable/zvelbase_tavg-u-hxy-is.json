@@ -1,0 +1,34 @@
+{
+    "validation_key": "zvelbase_tavg-u-hxy-is",
+    "ui_label": "Upward Component of Land-Ice Basal Velocity",
+    "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). \"basal\" means the lower boundary of the atmosphere",
+    "area_label": "is",
+    "cell_measures": "area: areacellg",
+    "cell_methods": "amni-twm",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "landice",
+    "out_name": "zvelbase",
+    "physical_parameter_name": "zvelbase",
+    "positive": "",
+    "remove_cmip6_table": "IyrGre",
+    "spatial_shape": "XYG-na",
+    "standard_name": "land_ice_basal_upward_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "zvelbase",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "zvelbase-tavg-u-hxy-is"
+}

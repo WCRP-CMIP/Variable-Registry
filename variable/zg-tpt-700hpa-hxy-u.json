@@ -1,0 +1,35 @@
+{
+    "validation_key": "zg_tpt-700hPa-hxy-u",
+    "ui_label": "zg700",
+    "description": "700 hPa geopotential height at 6 hourly instantaneous frequency",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p700"
+    ],
+    "frequency": "6hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "zg700",
+    "physical_parameter_name": "zg700",
+    "positive": "",
+    "remove_cmip6_table": "6hrPlevPt",
+    "spatial_shape": "XY-na",
+    "standard_name": "geopotential_height",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "m",
+    "variable_root": "zg",
+    "vertical_label": "700hPa",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "zg-tpt-700hpa-hxy-u"
+}

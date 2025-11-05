@@ -1,0 +1,34 @@
+{
+    "validation_key": "irrSurf_tavg-u-hxy-u",
+    "ui_label": "irrigation water withdrawal from surface water",
+    "description": "the amount of water withdrawal for irrigation from surface water, including rivers, lakes, reservoirs, etc.)",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "irrSurf",
+    "physical_parameter_name": "irrSurf",
+    "positive": "",
+    "remove_cmip6_table": "day",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_downward_mass_flux_of_water_due_to_irrigation",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "irrSurf",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "irrsurf-tavg-u-hxy-u"
+}

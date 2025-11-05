@@ -1,0 +1,14 @@
+{
+    "validation_key": "mrfso",
+    "ui_label": "mrfso",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "soil-frozen-water-content",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "mrfso"
+}

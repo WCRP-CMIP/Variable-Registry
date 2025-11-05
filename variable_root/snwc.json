@@ -1,0 +1,14 @@
+{
+    "validation_key": "snwc",
+    "ui_label": "snwc",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "canopy-snow-amount",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "snwc"
+}

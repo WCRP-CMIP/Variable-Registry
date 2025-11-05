@@ -1,0 +1,14 @@
+{
+    "validation_key": "intvaw",
+    "ui_label": "intvaw",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "northward-atmosphere-water-transport-across-unit-distance",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "intvaw"
+}

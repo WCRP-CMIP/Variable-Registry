@@ -1,0 +1,34 @@
+{
+    "validation_key": "dgw_tavg-u-hxy-lnd",
+    "ui_label": "Change in Groundwater",
+    "description": "change_over_time_in_groundwater",
+    "area_label": "lnd",
+    "cell_measures": "area: areacellr",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "dgw",
+    "physical_parameter_name": "dgw",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "change_over_time_in_groundwater_amount",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2",
+    "variable_root": "dgw",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "dgw-tavg-u-hxy-lnd"
+}

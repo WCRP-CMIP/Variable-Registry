@@ -1,0 +1,14 @@
+{
+    "validation_key": "fnfert",
+    "ui_label": "fNfert",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-soil-mass-content-of-nitrogen-compounds-expressed-as-nitrogen-due-to-fertilization",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "fnfert"
+}

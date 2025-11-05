@@ -1,0 +1,35 @@
+{
+    "validation_key": "shrubFrac_tavg-u-hxy-u",
+    "ui_label": "Percentage Cover by Shrub",
+    "description": "fraction of entire grid cell  that is covered by shrub.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typeshrub"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "shrubFrac",
+    "physical_parameter_name": "shrubFrac",
+    "positive": "",
+    "remove_cmip6_table": "Lmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "area_fraction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "shrubFrac",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "shrubfrac-tavg-u-hxy-u"
+}

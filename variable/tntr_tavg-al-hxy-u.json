@@ -1,0 +1,35 @@
+{
+    "validation_key": "tntr_tavg-al-hxy-u",
+    "ui_label": "Tendency of Air Temperature Due to Radiative Heating",
+    "description": "Tendency of Air Temperature due to Radiative Heating",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tntr",
+    "physical_parameter_name": "tntr",
+    "positive": "",
+    "remove_cmip6_table": "CFmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K s-1",
+    "variable_root": "tntr",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tntr-tavg-al-hxy-u"
+}

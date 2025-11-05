@@ -1,0 +1,14 @@
+{
+    "validation_key": "typebare",
+    "ui_label": "surface type",
+    "description": "Coordinate for bare soil or unvegetated surface area type, used to identify and analyze variables over regions with no vegetation cover.",
+    "axis_flag": "",
+    "cf_standard_name": "area_type",
+    "@context": "_context",
+    "@type": [
+        "wcrp:coordinate",
+        "esgvoc:Coordinate",
+        "vr"
+    ],
+    "@id": "typebare"
+}

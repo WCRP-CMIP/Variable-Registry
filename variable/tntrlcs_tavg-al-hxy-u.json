@@ -1,0 +1,35 @@
+{
+    "validation_key": "tntrlcs_tavg-al-hxy-u",
+    "ui_label": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "description": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tntrlcs",
+    "physical_parameter_name": "tntrlcs",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K s-1",
+    "variable_root": "tntrlcs",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tntrlcs-tavg-al-hxy-u"
+}

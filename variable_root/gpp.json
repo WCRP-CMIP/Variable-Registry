@@ -1,0 +1,14 @@
+{
+    "validation_key": "gpp",
+    "ui_label": "gpp",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "gross-primary-productivity-of-biomass-expressed-as-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "gpp"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfls",
+    "ui_label": "hfls",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-latent-heat-flux",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfls"
+}

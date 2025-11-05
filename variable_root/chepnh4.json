@@ -1,0 +1,14 @@
+{
+    "validation_key": "chepnh4",
+    "ui_label": "chepnh4",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-atmosphere-mass-content-of-ammonium-dry-aerosol-particles-due-to-net-chemical-production",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "chepnh4"
+}

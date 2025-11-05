@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsuto3ref",
+    "ui_label": "rsuto3ref",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "toa-outgoing-shortwave-flux-assuming-reference-mole-fraction-of-ozone-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsuto3ref"
+}

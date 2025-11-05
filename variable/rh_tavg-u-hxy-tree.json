@@ -1,0 +1,34 @@
+{
+    "validation_key": "rh_tavg-u-hxy-tree",
+    "ui_label": "Heterotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total RH of trees in the grid cell",
+    "area_label": "tree",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: time: mean where trees (mask=treeFrac) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "rhTree",
+    "physical_parameter_name": "rhTree",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "rh",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rh-tavg-u-hxy-tree"
+}

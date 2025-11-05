@@ -1,0 +1,14 @@
+{
+    "validation_key": "wetnoy",
+    "ui_label": "wetnoy",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "minus-tendency-of-atmosphere-mass-content-of-noy-expressed-as-nitrogen-due-to-wet-deposition",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wetnoy"
+}

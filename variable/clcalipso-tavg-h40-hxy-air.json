@@ -1,0 +1,35 @@
+{
+    "validation_key": "clcalipso_tavg-h40-hxy-air",
+    "ui_label": "CALIPSO Percentage Cloud Cover",
+    "description": "Percentage cloud cover in CALIPSO standard atmospheric layers.",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "clcalipso",
+    "physical_parameter_name": "clcalipso",
+    "positive": "",
+    "remove_cmip6_table": "CFmon",
+    "spatial_shape": "XY-H40",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "%",
+    "variable_root": "clcalipso",
+    "vertical_label": "h40",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "clcalipso-tavg-h40-hxy-air"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "tatp",
+    "ui_label": "tatp",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tropopause-air-temperature",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tatp"
+}

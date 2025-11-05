@@ -1,0 +1,35 @@
+{
+    "validation_key": "vas_tavg-h10m-hxy-u",
+    "ui_label": "Northward Near-Surface Wind",
+    "description": "Northward component of the near surface wind",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "vas",
+    "physical_parameter_name": "vas",
+    "positive": "",
+    "remove_cmip6_table": "day",
+    "spatial_shape": "XY-na",
+    "standard_name": "northward_wind",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "vas",
+    "vertical_label": "h10m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "vas-tavg-h10m-hxy-u"
+}

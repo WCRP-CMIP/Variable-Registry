@@ -1,0 +1,34 @@
+{
+    "validation_key": "wtd_tavg-u-hxy-lnd",
+    "ui_label": "Water Table Depth",
+    "description": "depth_of_soil_moisture_saturation",
+    "area_label": "lnd",
+    "cell_measures": "area: areacellr",
+    "cell_methods": "amnla-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "wtd",
+    "physical_parameter_name": "wtd",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "water_table_depth",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "wtd",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wtd-tavg-u-hxy-lnd"
+}

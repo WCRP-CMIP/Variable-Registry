@@ -1,0 +1,15 @@
+{
+    "validation_key": "oplayer4",
+    "ui_label": "Hydrostatic Pressure Layers",
+    "description": "Coordinate levels as hydrostatic pressure layers spanning 0-30.3, 30.3-70.7. 70.7 to 202.5 and 202.5 bar to ocean floor.",
+    "axis_flag": "Z",
+    "cf_standard_name": "sea_water_pressure_due_to_sea_water",
+    "spatial_shape": "Global ocean field on layers",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "oplayer4"
+}

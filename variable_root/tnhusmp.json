@@ -1,0 +1,14 @@
+{
+    "validation_key": "tnhusmp",
+    "ui_label": "tnhusmp",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-specific-humidity-due-to-model-physics",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tnhusmp"
+}

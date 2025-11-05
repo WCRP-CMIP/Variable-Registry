@@ -1,0 +1,14 @@
+{
+    "validation_key": "ncfc22",
+    "ui_label": "ncfc22",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "mole-fraction-of-hcfc22-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "ncfc22"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "mpwwindsea",
+    "ui_label": "mpwwindsea",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-surface-wind-wave-mean-period",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "mpwwindsea"
+}

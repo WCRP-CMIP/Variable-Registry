@@ -1,0 +1,14 @@
+{
+    "validation_key": "cldnci",
+    "ui_label": "cldnci",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "number-concentration-of-ice-crystals-in-air-at-ice-cloud-top",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "cldnci"
+}

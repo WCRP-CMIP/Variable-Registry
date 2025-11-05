@@ -1,0 +1,14 @@
+{
+    "validation_key": "c4pftfrac",
+    "ui_label": "c4PftFrac",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "c4pftfrac"
+}

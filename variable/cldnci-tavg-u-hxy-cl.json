@@ -1,0 +1,34 @@
+{
+    "validation_key": "cldnci_tavg-u-hxy-cl",
+    "ui_label": "Ice Crystal Number Concentration of Cloud Tops",
+    "description": "Concentration 'as seen from space' over ice-cloud portion of grid cell.  This is the value from uppermost model layer with ice cloud or, if available, it is the sum over all ice cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Weight by total ice cloud top fraction (as seen from TOA) of each time sample when computing monthly mean.",
+    "area_label": "cl",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: time: mean where cloud (mean over the portion of the cell containing ice topped cloud, as seen from top of atmosphere) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "cldnci",
+    "physical_parameter_name": "cldnci",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m-3",
+    "variable_root": "cldnci",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "cldnci-tavg-u-hxy-cl"
+}

@@ -1,0 +1,33 @@
+{
+    "validation_key": "rootd_ti-u-hxy-lnd",
+    "ui_label": "Maximum Root Depth",
+    "description": "report the maximum soil depth reachable by plant roots (if defined in model), i.e., the maximum soil depth from which they can extract moisture; report as \"missing\" where the land fraction is 0.",
+    "area_label": "lnd",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amnla-fx",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "rootd",
+    "physical_parameter_name": "rootd",
+    "positive": "",
+    "remove_cmip6_table": "fx",
+    "spatial_shape": "XY-na",
+    "standard_name": "root_depth",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "m",
+    "variable_root": "rootd",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rootd-ti-u-hxy-lnd"
+}

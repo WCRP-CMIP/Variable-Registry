@@ -1,0 +1,34 @@
+{
+    "validation_key": "ps_tpt-u-hxy-u",
+    "ui_label": "Surface Air Pressure",
+    "description": "Surface pressure.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tpt",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "ps",
+    "physical_parameter_name": "ps",
+    "positive": "",
+    "remove_cmip6_table": "E1hr",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_air_pressure",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "Pa",
+    "variable_root": "ps",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ps-tpt-u-hxy-u"
+}

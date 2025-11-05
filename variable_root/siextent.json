@@ -1,0 +1,14 @@
+{
+    "validation_key": "siextent",
+    "ui_label": "siextent",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sea-ice-extent",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "siextent"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "expnob",
+    "ui_label": "expnob",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sinking-mole-flux-of-particulate-organic-nitrogen-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "expnob"
+}

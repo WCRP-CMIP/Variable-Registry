@@ -1,0 +1,35 @@
+{
+    "validation_key": "tntrl_tavg-al-hxy-u",
+    "ui_label": "Tendency of Air Temperature Due to Longwave Radiative Heating",
+    "description": "longwave heating rates",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tntrl",
+    "physical_parameter_name": "tntrl",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_air_temperature_due_to_longwave_heating",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K s-1",
+    "variable_root": "tntrl",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "tntrl-tavg-al-hxy-u"
+}

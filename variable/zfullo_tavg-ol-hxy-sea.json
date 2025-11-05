@@ -1,0 +1,35 @@
+{
+    "validation_key": "zfullo_tavg-ol-hxy-sea",
+    "ui_label": "Depth Below Geoid of Ocean Layer",
+    "description": "Depth below geoid",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "zfullo",
+    "physical_parameter_name": "zfullo",
+    "positive": "",
+    "remove_cmip6_table": "Eyr",
+    "spatial_shape": "XY-O",
+    "standard_name": "depth_below_geoid",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m",
+    "variable_root": "zfullo",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "zfullo-tavg-ol-hxy-sea"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "sistressmax_tpt-u-hxy-si",
+    "ui_label": "Maximum Shear Stress in Sea Ice",
+    "description": "Maximum shear stress in sea ice (second stress invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: mean where sea_ice (mask=siconc) time: point not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "sistressmax",
+    "physical_parameter_name": "sistressmax",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
+    "temporal_label": "tpt",
+    "temporal_shape": "time-point",
+    "units": "N m-1",
+    "variable_root": "sistressmax",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sistressmax-tpt-u-hxy-si"
+}

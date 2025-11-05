@@ -1,0 +1,12 @@
+{
+    "validation_key": "20bar",
+    "ui_label": "20 Bar Pressure Depth",
+    "description": "pressure depth of 20 bar",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "20bar"
+}

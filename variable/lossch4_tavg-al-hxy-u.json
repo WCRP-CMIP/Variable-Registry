@@ -1,0 +1,35 @@
+{
+    "validation_key": "lossch4_tavg-al-hxy-u",
+    "ui_label": "Monthly Loss of Atmospheric Methane",
+    "description": "monthly averaged atmospheric loss",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "lossch4",
+    "physical_parameter_name": "lossch4",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-3 s-1",
+    "variable_root": "lossch4",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "lossch4-tavg-al-hxy-u"
+}

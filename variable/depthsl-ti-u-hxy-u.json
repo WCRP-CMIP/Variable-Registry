@@ -1,0 +1,33 @@
+{
+    "validation_key": "depthsl_ti-u-hxy-u",
+    "ui_label": "Total (Cumulative) Thickness of All Soil Layers",
+    "description": "Total (cumulative) thickness of all soil layers. This is the sum of individual thicknesses of all soil layers.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-fx",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "horizontal_label": "hxy",
+    "model_realm": "land",
+    "out_name": "depthsl",
+    "physical_parameter_name": "depthsl",
+    "positive": "",
+    "remove_cmip6_table": "fx",
+    "spatial_shape": "XY-na",
+    "standard_name": "depth",
+    "temporal_label": "ti",
+    "temporal_shape": "None",
+    "units": "m",
+    "variable_root": "depthsl",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "depthsl-ti-u-hxy-u"
+}

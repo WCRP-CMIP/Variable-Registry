@@ -1,0 +1,14 @@
+{
+    "validation_key": "vsfpr",
+    "ui_label": "vsfpr",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "virtual-salt-flux-into-sea-water-due-to-rainfall",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "vsfpr"
+}

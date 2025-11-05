@@ -1,0 +1,15 @@
+{
+    "validation_key": "landuse",
+    "ui_label": "Land use type",
+    "description": "In CMIP6, this is encoded as an index dimension called landuse and an auxiliary dimension called sector",
+    "axis_flag": "",
+    "cf_standard_name": "area_type",
+    "spatial_shape": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:dimension",
+        "esgvoc:Dimension",
+        "vr"
+    ],
+    "@id": "landuse"
+}

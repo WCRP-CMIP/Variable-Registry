@@ -1,0 +1,14 @@
+{
+    "validation_key": "sftgrf",
+    "ui_label": "sftgrf",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "grounded-ice-sheet-area-fraction",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sftgrf"
+}

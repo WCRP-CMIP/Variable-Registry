@@ -1,0 +1,35 @@
+{
+    "validation_key": "dissi13c_tavg-ol-hxy-sea",
+    "ui_label": "Dissolved Inorganic Carbon-13 Concentration",
+    "description": "Dissolved inorganic 14carbon (CO3+HCO3+H2CO3) concentration",
+    "area_label": "sea",
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "amns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocnbgchem",
+    "out_name": "dissi13c",
+    "physical_parameter_name": "dissi13c",
+    "positive": "",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-O",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_13C_in_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "mol m-3",
+    "variable_root": "dissi13c",
+    "vertical_label": "ol",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "dissi13c-tavg-ol-hxy-sea"
+}

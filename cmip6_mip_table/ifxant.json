@@ -1,0 +1,18 @@
+{
+    "validation_key": "ifxant",
+    "ui_label": "IfxAnt",
+    "description": "CMIP6 CMOR table IfxAnt containing variables",
+    "variables": [
+        "areacell_ti-u-hxy-u",
+        "hfgeoubed_ti-u-hxy-gis",
+        "lithk_ti-u-hxy-is",
+        "topg_ti-u-hxy-gis"
+    ],
+    "@context": "_context",
+    "@type": [
+        "wcrp:cmip6_mip_table",
+        "esgvoc:Cmip6MipTable",
+        "vr"
+    ],
+    "@id": "ifxant"
+}

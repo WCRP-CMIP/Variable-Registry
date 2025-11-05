@@ -1,0 +1,14 @@
+{
+    "validation_key": "croot",
+    "ui_label": "cRoot",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "root-mass-content-of-carbon",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "croot"
+}

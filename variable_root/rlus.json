@@ -1,0 +1,14 @@
+{
+    "validation_key": "rlus",
+    "ui_label": "rlus",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upwelling-longwave-flux-in-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rlus"
+}

@@ -1,0 +1,13 @@
+{
+    "validation_key": "asm-fx",
+    "ui_label": "Fixed Area Sum",
+    "description": "Cell method representing spatial summation over areas for fixed (time-invariant) variables. Used for total quantities like grid cell areas or basin volumes that don't change over time.",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "asm-fx"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "hfrainds_tavg-u-hxy-ifs",
+    "ui_label": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
+    "description": "This is defined as \"where ice_free_sea over sea\"; i.e., the total flux (considered here) entering the ice-free portion of the grid cell divided by the area of the ocean portion of the grid cell.  All such heat fluxes are computed based on Celsius scale.",
+    "area_label": "ifs",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where ice_free_sea over sea not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "hfrainds",
+    "physical_parameter_name": "hfrainds",
+    "positive": "down",
+    "remove_cmip6_table": "Omon",
+    "spatial_shape": "XY-na",
+    "standard_name": "temperature_flux_due_to_rainfall_expressed_as_heat_flux_into_sea_water",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "W m-2",
+    "variable_root": "hfrainds",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "hfrainds-tavg-u-hxy-ifs"
+}

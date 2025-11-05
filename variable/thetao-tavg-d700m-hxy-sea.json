@@ -1,0 +1,35 @@
+{
+    "validation_key": "thetao_tavg-d700m-hxy-sea",
+    "ui_label": "Depth Average Potential Temperature of Upper 700m",
+    "description": "Upper 700m, 2D field",
+    "area_label": "sea",
+    "cell_measures": "area: areacello",
+    "cell_methods": "admns-tmn",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer700m"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "ocean",
+    "out_name": "thetaot700",
+    "physical_parameter_name": "thetaot700",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_water_potential_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "degC",
+    "variable_root": "thetao",
+    "vertical_label": "d700m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "thetao-tavg-d700m-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "rsdscsdiff",
+    "ui_label": "rsdscsdiff",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-diffuse-downwelling-shortwave-flux-in-air-assuming-clear-sky",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "rsdscsdiff"
+}

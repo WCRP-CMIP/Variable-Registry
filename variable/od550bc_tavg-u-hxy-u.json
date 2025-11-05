@@ -1,0 +1,35 @@
+{
+    "validation_key": "od550bc_tavg-u-hxy-u",
+    "ui_label": "Black Carbon Optical Thickness at 550nm",
+    "description": "Total aerosol AOD due to black carbon aerosol at a wavelength of 550 nanometres.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "aerosol",
+    "out_name": "od550bc",
+    "physical_parameter_name": "od550bc",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-na",
+    "standard_name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "od550bc",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "od550bc-tavg-u-hxy-u"
+}

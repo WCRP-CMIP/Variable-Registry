@@ -1,0 +1,14 @@
+{
+    "validation_key": "expcob",
+    "ui_label": "expcob",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "sinking-mole-flux-of-particulate-organic-matter-expressed-as-carbon-in-sea-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "expcob"
+}

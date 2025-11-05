@@ -1,0 +1,14 @@
+{
+    "validation_key": "lwp",
+    "ui_label": "lwp",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "atmosphere-mass-content-of-cloud-liquid-water",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "lwp"
+}

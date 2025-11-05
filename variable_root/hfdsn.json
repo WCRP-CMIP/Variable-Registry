@@ -1,0 +1,14 @@
+{
+    "validation_key": "hfdsn",
+    "ui_label": "hfdsn",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-heat-flux-in-snow",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "hfdsn"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "925hPa",
+    "ui_label": "925 hPa Pressure Level",
+    "description": "925hPa²",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "925hpa"
+}

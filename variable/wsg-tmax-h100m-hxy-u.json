@@ -1,0 +1,35 @@
+{
+    "validation_key": "wsg_tmax-h100m-hxy-u",
+    "ui_label": "Maximum Wind Speed of Gust at 100m",
+    "description": "Maximum Wind Speed of Gust at 100m, monthly",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tmax",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height100m"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "wsgmax100m",
+    "physical_parameter_name": "wsgmax100m",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-na",
+    "standard_name": "wind_speed_of_gust",
+    "temporal_label": "tmax",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "wsg",
+    "vertical_label": "h100m",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wsg-tmax-h100m-hxy-u"
+}

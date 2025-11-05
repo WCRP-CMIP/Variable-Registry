@@ -1,0 +1,41 @@
+{
+    "validation_key": "cf3hr",
+    "ui_label": "CF3hr",
+    "description": "CMIP6 CMOR table CF3hr containing variables",
+    "variables": [
+        "clic_tpt-al-hxy-u",
+        "clis_tpt-al-hxy-u",
+        "clivi_tpt-u-hxy-u",
+        "clt_tpt-u-hxy-u",
+        "clwc_tpt-al-hxy-u",
+        "clws_tpt-al-hxy-u",
+        "clwvi_tpt-u-hxy-u",
+        "dtauc_tpt-al-hxy-ccl",
+        "dtaus_tpt-al-hxy-scl",
+        "hurs_tpt-h2m-hxy-u",
+        "pfull_tpt-al-hxy-u",
+        "pr_tpt-u-hxy-u",
+        "prw_tpt-u-hxy-u",
+        "reffclic_tpt-al-hxy-ccl",
+        "reffclis_tpt-al-hxy-scl",
+        "reffclwc_tpt-al-hxy-ccl",
+        "reffclws_tpt-al-hxy-scl",
+        "rlds_tpt-u-hxy-u",
+        "rldscs_tpt-u-hxy-u",
+        "rlut_tpt-u-hxy-u",
+        "rlutcs_tpt-u-hxy-u",
+        "rsds_tpt-u-hxy-u",
+        "rsdscs_tpt-u-hxy-u",
+        "rsut_tpt-u-hxy-u",
+        "rsutcs_tpt-u-hxy-u",
+        "ta_tpt-al-hxy-u",
+        "ts_tpt-u-hxy-u"
+    ],
+    "@context": "_context",
+    "@type": [
+        "wcrp:cmip6_mip_table",
+        "esgvoc:Cmip6MipTable",
+        "vr"
+    ],
+    "@id": "cf3hr"
+}

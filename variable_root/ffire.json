@@ -1,0 +1,14 @@
+{
+    "validation_key": "ffire",
+    "ui_label": "fFire",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-upward-mass-flux-of-carbon-dioxide-expressed-as-carbon-due-to-emission-from-fires-excluding-anthropogenic-land-use-change",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "ffire"
+}

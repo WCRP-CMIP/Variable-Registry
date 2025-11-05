@@ -1,0 +1,14 @@
+{
+    "validation_key": "intpcalcite",
+    "ui_label": "intpcalcite",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-ocean-mole-content-of-calcite-expressed-as-carbon-due-to-biological-production",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "intpcalcite"
+}

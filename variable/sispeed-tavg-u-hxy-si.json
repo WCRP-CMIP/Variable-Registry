@@ -1,0 +1,34 @@
+{
+    "validation_key": "sispeed_tavg-u-hxy-si",
+    "ui_label": "Sea-Ice Speed",
+    "description": "Speed of ice (i.e. mean absolute velocity) to account for back-and-forth movement of the ice.",
+    "area_label": "si",
+    "cell_measures": "area: areacello",
+    "cell_methods": "Error: area: time: mean where sea_ice (mask=siconc) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "seaice",
+    "out_name": "sispeed",
+    "physical_parameter_name": "sispeed",
+    "positive": "",
+    "remove_cmip6_table": "SImon",
+    "spatial_shape": "XY-na",
+    "standard_name": "sea_ice_speed",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "sispeed",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "sispeed-tavg-u-hxy-si"
+}

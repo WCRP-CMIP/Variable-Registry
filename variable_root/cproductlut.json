@@ -1,0 +1,14 @@
+{
+    "validation_key": "cproductlut",
+    "ui_label": "cProductLut",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "carbon-mass-content-of-forestry-and-agricultural-products",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "cproductlut"
+}

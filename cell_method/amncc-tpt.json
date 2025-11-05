@@ -1,0 +1,13 @@
+{
+    "validation_key": "amncc-tpt",
+    "ui_label": "Instantaneous Mean over convective cloud",
+    "description": "area: mean where convective_cloud time: point",
+    "mask": "",
+    "@context": "_context",
+    "@type": [
+        "wcrp:cell_method",
+        "esgvoc:CellMethod",
+        "vr"
+    ],
+    "@id": "amncc-tpt"
+}

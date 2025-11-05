@@ -1,0 +1,34 @@
+{
+    "validation_key": "ts_tavg-u-hxy-sn",
+    "ui_label": "Snow Surface Temperature",
+    "description": "Snow Surface Temperature",
+    "area_label": "sn",
+    "cell_measures": "area: areacella",
+    "cell_methods": "Error: area: mean where land time: mean (weighted by snow area) not found in cell methods, please register",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "tsns",
+    "physical_parameter_name": "tsns",
+    "positive": "",
+    "remove_cmip6_table": "Eday",
+    "spatial_shape": "XY-na",
+    "standard_name": "surface_temperature",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "K",
+    "variable_root": "ts",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "ts-tavg-u-hxy-sn"
+}

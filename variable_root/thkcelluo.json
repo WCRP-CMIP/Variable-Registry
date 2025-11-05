@@ -1,0 +1,14 @@
+{
+    "validation_key": "thkcelluo",
+    "ui_label": "thkcelluo",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "cell-thickness",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "thkcelluo"
+}

@@ -1,0 +1,12 @@
+{
+    "validation_key": "d10cm",
+    "ui_label": "0.1 Meter Depth",
+    "description": "10 cm depth",
+    "@context": "_context",
+    "@type": [
+        "wcrp:vertical_label",
+        "esgvoc:VerticalLabel",
+        "vr"
+    ],
+    "@id": "d10cm"
+}

@@ -1,0 +1,14 @@
+{
+    "validation_key": "tnhuspbl",
+    "ui_label": "tnhuspbl",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-specific-humidity-due-to-boundary-layer-mixing",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "tnhuspbl"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "rsutcs_tclmdc-u-hxy-u",
+    "ui_label": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "description": "Calculated in the absence of clouds.",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-tdnl",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "frequency": "1hr",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "rsutcs",
+    "physical_parameter_name": "rsutcs",
+    "positive": "up",
+    "remove_cmip6_table": "E1hrClimMon",
+    "spatial_shape": "XY-na",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "temporal_label": "tclmdc",
+    "temporal_shape": "diurnal-cycle",
+    "units": "W m-2",
+    "variable_root": "rsutcs",
+    "vertical_label": "u",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "rsutcs-tclmdc-u-hxy-u"
+}

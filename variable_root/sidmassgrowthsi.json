@@ -1,0 +1,14 @@
+{
+    "validation_key": "sidmassgrowthsi",
+    "ui_label": "sidmassgrowthsi",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-ice-amount-due-to-conversion-of-snow-to-sea-ice",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "sidmassgrowthsi"
+}

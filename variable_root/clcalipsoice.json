@@ -1,0 +1,14 @@
+{
+    "validation_key": "clcalipsoice",
+    "ui_label": "clcalipsoice",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "ice-cloud-area-fraction-in-atmosphere-layer",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "clcalipsoice"
+}

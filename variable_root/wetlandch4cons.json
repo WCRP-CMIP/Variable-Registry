@@ -1,0 +1,14 @@
+{
+    "validation_key": "wetlandch4cons",
+    "ui_label": "wetlandCH4cons",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-downward-mass-flux-of-methane-due-to-wetland-biological-consumption",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "wetlandch4cons"
+}

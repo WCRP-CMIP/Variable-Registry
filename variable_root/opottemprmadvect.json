@@ -1,0 +1,14 @@
+{
+    "validation_key": "opottemprmadvect",
+    "ui_label": "opottemprmadvect",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "tendency-of-sea-water-potential-temperature-expressed-as-heat-content-due-to-residual-mean-advection",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "opottemprmadvect"
+}

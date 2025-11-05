@@ -1,0 +1,36 @@
+{
+    "validation_key": "cfadDbze94_tavg-h40-hxy-air",
+    "ui_label": "CloudSat Radar Reflectivity CFAD",
+    "description": "CloudSat Radar Reflectivity",
+    "area_label": "air",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amna-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "dbze",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmos",
+    "out_name": "cfadDbze94",
+    "physical_parameter_name": "cfadDbze94",
+    "positive": "",
+    "remove_cmip6_table": "Emon",
+    "spatial_shape": "XY-H40",
+    "standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "1",
+    "variable_root": "cfadDbze94",
+    "vertical_label": "h40",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "cfaddbze94-tavg-h40-hxy-air"
+}

@@ -1,0 +1,34 @@
+{
+    "validation_key": "wtem_tavg-p39-hy-air",
+    "ui_label": "Transformed Eulerian Mean Upward Wind",
+    "description": "Transformed Eulerian Mean Diagnostics w\\*, upward component of the residual meridional circulation (v\\*, w\\*) derived from 6 hr or higher frequency data fields (use instantaneous daily fields or 12 hr fields if the 6 hr data are not available). Scale height: 6950 m",
+    "area_label": "air",
+    "cell_measures": "",
+    "cell_methods": "zmeana-twm",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hy",
+    "model_realm": "atmos",
+    "out_name": "wtem",
+    "physical_parameter_name": "wtem",
+    "positive": "",
+    "remove_cmip6_table": "EmonZ",
+    "spatial_shape": "Y-P39",
+    "standard_name": "upward_transformed_eulerian_mean_air_velocity",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "m s-1",
+    "variable_root": "wtem",
+    "vertical_label": "p39",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wtem-tavg-p39-hy-air"
+}

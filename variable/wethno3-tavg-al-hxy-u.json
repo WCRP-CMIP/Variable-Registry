@@ -1,0 +1,35 @@
+{
+    "validation_key": "wethno3_tavg-al-hxy-u",
+    "ui_label": "wet deposition of HNO3",
+    "description": "This is the loss rate of nitric acid (HNO3) from the atmosphere due to wet deposition",
+    "area_label": "u",
+    "cell_measures": "area: areacella",
+    "cell_methods": "amn-twm",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "horizontal_label": "hxy",
+    "model_realm": "atmoschem",
+    "out_name": "wethno3",
+    "physical_parameter_name": "wethno3",
+    "positive": "",
+    "remove_cmip6_table": "AERmon",
+    "spatial_shape": "XY-A",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_nitric_acid_due_to_wet_deposition",
+    "temporal_label": "tavg",
+    "temporal_shape": "time-intv",
+    "units": "kg m-2 s-1",
+    "variable_root": "wethno3",
+    "vertical_label": "al",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable",
+        "esgvoc:Variable",
+        "vr"
+    ],
+    "@id": "wethno3-tavg-al-hxy-u"
+}

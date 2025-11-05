@@ -1,0 +1,12 @@
+{
+    "validation_key": "ti",
+    "ui_label": "Time Independent",
+    "description": "Time-independent values that do not vary with time, such as fixed geographic coordinates, topography, land-sea masks, or other static boundary conditions and model parameters.",
+    "@context": "_context",
+    "@type": [
+        "wcrp:temporal_label",
+        "esgvoc:TemporalLabel",
+        "vr"
+    ],
+    "@id": "ti"
+}

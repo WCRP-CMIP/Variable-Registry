@@ -1,0 +1,14 @@
+{
+    "validation_key": "dpo2",
+    "ui_label": "dpo2",
+    "description": "",
+    "data_type": "real",
+    "standard_name": "surface-molecular-oxygen-partial-pressure-difference-between-sea-water-and-air",
+    "@context": "_context",
+    "@type": [
+        "wcrp:variable_root",
+        "esgvoc:VariableRoot",
+        "vr"
+    ],
+    "@id": "dpo2"
+}
