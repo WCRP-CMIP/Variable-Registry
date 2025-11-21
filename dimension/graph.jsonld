@@ -1,0 +1,666 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
+  "@vocab": "https://esgf.github.io/esgf-vocab/api_documentation/data_descriptors.html#esgvoc.api.data_descriptors.Dimension."
+},
+  "@graph": [
+    {
+  "validation_key": "alevel",
+  "ui_label": "Atmospheric Model Level",
+  "description": "Generic atmospheric model vertical coordinate (nondimensional or dimensional) [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+  "axis_flag": "Z",
+  "cf_standard_name": "x",
+  "spatial_shape": "Atmospheric profiles at specified sites,Global field on model atmosphere levels,Zonal mean (on model levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "alevel"
+}
+    ,{
+  "validation_key": "alevhalf",
+  "ui_label": "Atmospheric Model Half-level",
+  "description": "Atmospheric model \"half\" level [use CF standard name apporpriate for model vertical coordinate, e.g. model_level_number or atmosphere_sigma_coordinate]",
+  "axis_flag": "Z",
+  "cf_standard_name": "",
+  "spatial_shape": "Atmospheric profile (model half-levels),Atmospheric profiles (half levels) at specified sites,Global field on model atmosphere half-levels",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "alevhalf"
+}
+    ,{
+  "validation_key": "alt16",
+  "ui_label": "Altitude (16 Levels for MISR)",
+  "description": "MISR  vertical coordinate heights (first row is reserved for the retrieval error flag)",
+  "axis_flag": "Z",
+  "cf_standard_name": "altitude",
+  "spatial_shape": "Global field (16 altitudes)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "alt16"
+}
+    ,{
+  "validation_key": "alt40",
+  "ui_label": "Altitude (40 Levels for CloudSat)",
+  "description": "CloudSat vertical coordinate heights",
+  "axis_flag": "Z",
+  "cf_standard_name": "altitude",
+  "spatial_shape": "Global field on 40 altitude levels",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "alt40"
+}
+    ,{
+  "validation_key": "basin",
+  "ui_label": "Ocean Basin",
+  "description": "Dimension representing different ocean basins for regional analysis, allowing variables to be categorized by major oceanic regions such as Atlantic, Pacific, and Indian Ocean basins.",
+  "axis_flag": "",
+  "cf_standard_name": "region",
+  "spatial_shape": "Ocean basin meridional section,Ocean basin meridional section (on density surfaces),Ocean basin meridional section (on model grid and density surfaces),Ocean basin meridional section (on model grid),Ocean basin zonal mean",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "basin"
+}
+    ,{
+  "validation_key": "dbze",
+  "ui_label": "CloudSat Simulator Equivalent Radar Reflectivity Factor",
+  "description": "15 bins of radar reflectivity for CloudSat simulator CFAD",
+  "axis_flag": "",
+  "cf_standard_name": "equivalent_reflectivity_factor",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "dbze"
+}
+    ,{
+  "validation_key": "effectradic",
+  "ui_label": "Effective Radius for Ice Aerosol",
+  "description": "Effective Radius of Ice Aerosols  [Values to be specified]",
+  "axis_flag": "",
+  "cf_standard_name": "",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "effectradic"
+}
+    ,{
+  "validation_key": "effectradli",
+  "ui_label": "Effective Radius for Liquid Aerosols",
+  "description": "Effective Radius of Liquid Aerosols  [Values to be specified]",
+  "axis_flag": "",
+  "cf_standard_name": "",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "effectradli"
+}
+    ,{
+  "validation_key": "gridlatitude",
+  "ui_label": "Grid Latitude",
+  "description": "",
+  "axis_flag": "Y",
+  "cf_standard_name": "grid_latitude",
+  "spatial_shape": "Ocean basin meridional section (on model grid)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "gridlatitude"
+}
+    ,{
+  "validation_key": "iceband",
+  "ui_label": "Ice Depth Band",
+  "description": "Ice depth bands",
+  "axis_flag": "",
+  "cf_standard_name": "sea_ice_thickness",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "iceband"
+}
+    ,{
+  "validation_key": "landuse",
+  "ui_label": "Land use type",
+  "description": "In CMIP6, this is encoded as an index dimension called landuse and an auxiliary dimension called sector",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "landuse"
+}
+    ,{
+  "validation_key": "latitude",
+  "ui_label": "Latitude",
+  "description": "Dimension representing latitude coordinates (north-south position) for global geographic gridded data, typically ranging from -90° (South Pole) to +90° (North Pole).",
+  "axis_flag": "Y",
+  "cf_standard_name": "latitude",
+  "spatial_shape": "Atmospheric zonal mean (on 19 pressure levels),Atmospheric zonal mean (on 39 pressure levels),Global field (3 pressure levels),Global field (4 pressure levels),\"Global field (5 pressure levels, UTLS)\",Global field (6 pressure levels),Global field (7 pressure levels),Global field (7 pressure tropospheric levels),Global field (8 pressure levels),Global field (16 altitudes),Global field (19 pressure levels),Global field (27 pressure levels),Global field (single level),Global field at sea floor,Global field on 40 altitude levels,Global field on model atmosphere half-levels,Global field on model atmosphere levels,Global field on soil levels,Global ocean field on layers,Global ocean field on model half levels,Global ocean field on model levels,Ocean basin meridional section,Ocean basin meridional section (on density surfaces),Ocean basin zonal mean,Zonal mean (on model levels),Zonal mean (on surface)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "latitude"
+}
+    ,{
+  "validation_key": "longitude",
+  "ui_label": "Longitude",
+  "description": "Dimension representing longitude coordinates (east-west position) for global geographic gridded data, typically ranging from -180° to +180° or 0° to 360°.",
+  "axis_flag": "X",
+  "cf_standard_name": "longitude",
+  "spatial_shape": "Global field (3 pressure levels),Global field (4 pressure levels),\"Global field (5 pressure levels, UTLS)\",Global field (6 pressure levels),Global field (7 pressure levels),Global field (7 pressure tropospheric levels),Global field (8 pressure levels),Global field (16 altitudes),Global field (19 pressure levels),Global field (27 pressure levels),Global field (single level),Global field at sea floor,Global field on 40 altitude levels,Global field on model atmosphere half-levels,Global field on model atmosphere levels,Global field on soil levels,Global ocean field on layers,Global ocean field on model half levels,Global ocean field on model levels",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "longitude"
+}
+    ,{
+  "validation_key": "olevel",
+  "ui_label": "Ocean Model Levels",
+  "description": "generic ocean model vertical coordinate (nondimensional or dimensional)",
+  "axis_flag": "Z",
+  "cf_standard_name": "",
+  "spatial_shape": "Global mean ocean profile,Global ocean field on model levels,Ocean basin meridional section,Ocean basin meridional section (on model grid)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "olevel"
+}
+    ,{
+  "validation_key": "olevhalf",
+  "ui_label": "Ocean Model Half-levels",
+  "description": "generic ocean model vertical coordinate (nondimensional or dimensional)",
+  "axis_flag": "Z",
+  "cf_standard_name": "",
+  "spatial_shape": "Global ocean field on model half levels",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "olevhalf"
+}
+    ,{
+  "validation_key": "oline",
+  "ui_label": "Ocean Straits",
+  "description": "opening, passage, strait, channel, etc. Bounds (lon,lat,depth):[([16.8,19.2],[76.5,70.2],[0,10000]),([-171.0,-166.0],[66.2,65.0],[0,10000]),([-75.0,-72.6],[20.2,19.7],[0,10000]),([-50.0,-65.0],[65.0,65.0],[0,10000]),([-37.0,-22.5],[66.1,66.0],[0,10000]),([-68.0,-60.0],[-54.0,-64.7],[0,10000]),([1.5,1.7],[51.1,51.0],[0,10000]),([-6.9,-5.0],[62.0,58.7],[0,10000]),([-78.5,-80.5],[26.0,27.0],[0,10000]),([-20.0,11.0],[79.0,79.0],[0,10000]),([-5.6,-5.6],[35.8,36.0],[0,10000]),([-13.6,-7.4],[64.9,62.2],[0,10000]),([100.0,140.0],[-6.0,-6.0],[0,10000]),([39.0,45.0],[-16.0,-18.0],[0,10000]),([-155.0,-155.0],[-2.0,2.0],[0,350]),([121.8,121.8],[18.3,22.3],[0,10000])]",
+  "axis_flag": "",
+  "cf_standard_name": "region",
+  "spatial_shape": "Ocean transect",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "oline"
+}
+    ,{
+  "validation_key": "oplayer4",
+  "ui_label": "Hydrostatic Pressure Layers",
+  "description": "Coordinate levels as hydrostatic pressure layers spanning 0-30.3, 30.3-70.7. 70.7 to 202.5 and 202.5 bar to ocean floor.",
+  "axis_flag": "Z",
+  "cf_standard_name": "sea_water_pressure_due_to_sea_water",
+  "spatial_shape": "Global ocean field on layers",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "oplayer4"
+}
+    ,{
+  "validation_key": "plev19",
+  "ui_label": "Pressure Levels (19)",
+  "description": "There are 19  requested levels. If the upper levels are above the model top they should be omitted.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Atmospheric zonal mean (on 19 pressure levels),Global field (19 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev19"
+}
+    ,{
+  "validation_key": "plev27",
+  "ui_label": "Pressure Levels (27)",
+  "description": "Used to give extra resolution for HighResMIP monthly mean diagnostics.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (27 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev27"
+}
+    ,{
+  "validation_key": "plev3",
+  "ui_label": "Pressure Levels (3)",
+  "description": "",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (3 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev3"
+}
+    ,{
+  "validation_key": "plev39",
+  "ui_label": "Pressure Levels (39)",
+  "description": "Used for zonal mean fields (daily and monthly)",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Atmospheric zonal mean (on 39 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev39"
+}
+    ,{
+  "validation_key": "plev4",
+  "ui_label": "Pressure Levels (4)",
+  "description": "Used for two HighResMIP variables, neither of which was published by anybody in CMIP6.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (4 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev4"
+}
+    ,{
+  "validation_key": "plev5u",
+  "ui_label": "Pressure Levels (5, UTLS)",
+  "description": "The UTLS region (150, 175, 200, 225, and 250 hPa) impacts of climate change on aviation.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "\"Global field (5 pressure levels, UTLS)\"",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev5u"
+}
+    ,{
+  "validation_key": "plev6",
+  "ui_label": "Pressure Levels (6, boundary layer)",
+  "description": "6 pressure levels used for accurate assessment of land–atmosphere coupling",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (6 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev6"
+}
+    ,{
+  "validation_key": "plev7c",
+  "ui_label": "Pressure Levels (7 for ISCCP)",
+  "description": "7 pressure layers defined by ISCCP simulator",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (7 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev7c"
+}
+    ,{
+  "validation_key": "plev7h",
+  "ui_label": "Pressure Levels (7, Tropospheric)",
+  "description": "7 pressure levels used for tropospheric studies (note it was originally a subset of plev27, but inclusion of 50hPa broke this link);",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (7 pressure tropospheric levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev7h"
+}
+    ,{
+  "validation_key": "plev8",
+  "ui_label": "Pressure Levels (8)",
+  "description": "",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "spatial_shape": "Global field (8 pressure levels)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "plev8"
+}
+    ,{
+  "validation_key": "rho",
+  "ui_label": "potential density referenced to 2000 dbar",
+  "description": "potential density referenced to 2000 dbar",
+  "axis_flag": "Z",
+  "cf_standard_name": "sea_water_potential_density",
+  "spatial_shape": "Ocean basin meridional section (on density surfaces),Ocean basin meridional section (on model grid and density surfaces)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "rho"
+}
+    ,{
+  "validation_key": "scatratio",
+  "ui_label": "lidar backscattering ratio",
+  "description": "15 bins of scattering ratio for the CALIPSO simulator CFAD",
+  "axis_flag": "",
+  "cf_standard_name": "backscattering_ratio",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "scatratio"
+}
+    ,{
+  "validation_key": "sdepth",
+  "ui_label": "depth",
+  "description": "Soil layers (depth). If soil layer thicknesses vary from one location to another, interpolate to a standard set of depths.  Ideally, the interpolation should preserve the vertical integral where appropriate (e.g. for layer mass content).",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "spatial_shape": "Global field on soil levels",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "sdepth"
+}
+    ,{
+  "validation_key": "siline",
+  "ui_label": "ocean passage",
+  "description": "1. Fram Strait = (11.5W,81.3N) to (10.5E,79.6N); 2. Canadian Archipelego = (128.2W,70.6N) to (59.3W,82.1N); 3. Barents opening = (16.8E,76.5N) to (19.2E,70.2N); 4. Bering Strait = (171W,66.2N) to (166W,65N);",
+  "axis_flag": "",
+  "cf_standard_name": "region",
+  "spatial_shape": "Ocean transect for sea-ice fluxes",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "siline"
+}
+    ,{
+  "validation_key": "site",
+  "ui_label": "site index",
+  "description": "An integer assigned to each of 121 stations requested by CFMIP (see http://www.geosci-model-dev.net/10/359/2017/gmd-10-359-2017-supplement.zip ).",
+  "axis_flag": "",
+  "cf_standard_name": "",
+  "spatial_shape": "Atmospheric profiles (half levels) at specified sites,Atmospheric profiles at specified sites,Site (specific locations requested by CFMIP)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "site"
+}
+    ,{
+  "validation_key": "soilpools",
+  "ui_label": "Soil Pools",
+  "description": "Carbon soil pools",
+  "axis_flag": "",
+  "cf_standard_name": "",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "soilpools"
+}
+    ,{
+  "validation_key": "spectband",
+  "ui_label": "Spectral Frequency Band",
+  "description": "Spectral Band",
+  "axis_flag": "",
+  "cf_standard_name": "sensor_band_central_radiation_wavenumber",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "spectband"
+}
+    ,{
+  "validation_key": "sza5",
+  "ui_label": "solar zenith angle",
+  "description": "5 solar zenith angles for PARASOL reflectances",
+  "axis_flag": "",
+  "cf_standard_name": "solar_zenith_angle",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "sza5"
+}
+    ,{
+  "validation_key": "tau",
+  "ui_label": "cloud optical thickness",
+  "description": "isccp optical depth categories",
+  "axis_flag": "",
+  "cf_standard_name": "atmosphere_optical_thickness_due_to_cloud",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "tau"
+}
+    ,{
+  "validation_key": "time",
+  "ui_label": "Time Intervals",
+  "description": "for time-mean fields",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "time"
+}
+    ,{
+  "validation_key": "time1",
+  "ui_label": "Time Points",
+  "description": "synoptic times (for fields that are not time-means)",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "time1"
+}
+    ,{
+  "validation_key": "time2",
+  "ui_label": "Monthly Climatology",
+  "description": "climatological times",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "time2"
+}
+    ,{
+  "validation_key": "time3",
+  "ui_label": "Diurnal Mean",
+  "description": "Diurnal cycle: monthly mean of the diurnal cycle (1 hour steps).",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "time3"
+}
+    ,{
+  "validation_key": "time4",
+  "ui_label": "Monthly Mean Daily Satistics",
+  "description": "",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "time4"
+}
+    ,{
+  "validation_key": "timefxc",
+  "ui_label": "Time Intervals for Fixed Climatology",
+  "description": "For fixed monthly climatologies. In CF terms this is an interval mean over each month for an arbitrary year.",
+  "axis_flag": "T",
+  "cf_standard_name": "time",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "timefxc"
+}
+    ,{
+  "validation_key": "vegtype",
+  "ui_label": "Vegetation or Land Cover Type",
+  "description": "Vegetation or land cover type. Where possible, please use terms from the CF Convention Area Type table: http://cfconventions.org/Data/area-type-table/6/build/area-type-table",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "spatial_shape": "",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "vegtype"
+}
+    ,{
+  "validation_key": "xant",
+  "ui_label": "X-coordinate of Antarctic grid",
+  "description": "X-coordinate of Antarctic grid (stubb)",
+  "axis_flag": "X",
+  "cf_standard_name": "projection_x_coordinate",
+  "spatial_shape": "Polar stereographic grid (Antarctic)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "xant"
+}
+    ,{
+  "validation_key": "xgre",
+  "ui_label": "X-coordinate of Greenland grid",
+  "description": "X-coordinate of Greenland grid (stubb)",
+  "axis_flag": "X",
+  "cf_standard_name": "projection_x_coordinate",
+  "spatial_shape": "Polar stereographic grid (Greenland)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "xgre"
+}
+    ,{
+  "validation_key": "yant",
+  "ui_label": "Y-coordinate of Antarctic grid",
+  "description": "Y-coordinate of Antarctic grid (stubb)",
+  "axis_flag": "Y",
+  "cf_standard_name": "projection_y_coordinate",
+  "spatial_shape": "Polar stereographic grid (Antarctic)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "yant"
+}
+    ,{
+  "validation_key": "ygre",
+  "ui_label": "Y-coordinate of Greenland grid",
+  "description": "Y-coordinate of Greenland grid (stubb)",
+  "axis_flag": "Y",
+  "cf_standard_name": "projection_y_coordinate",
+  "spatial_shape": "Polar stereographic grid (Greenland)",
+  "@type": [
+    "wcrp:dimension",
+    "esgvoc:Dimension",
+    "vr"
+  ],
+  "@id": "ygre"
+}
+  ]
+}

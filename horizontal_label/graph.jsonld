@@ -1,0 +1,74 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/Variable-Registry/horizontal_label/",
+  "@vocab": "https://esgf.github.io/esgf-vocab/api_documentation/data_descriptors.html#esgvoc.api.data_descriptors.HorizontalLabel."
+},
+  "@graph": [
+    {
+  "validation_key": "hm",
+  "ui_label": "Horizontal Mean",
+  "description": "Variables calculated as spatial averages across horizontal dimensions, typically representing area-weighted means over geographic regions. Used for regional or global horizontal averaging operations.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "hm"
+}
+    ,{
+  "validation_key": "ht",
+  "ui_label": "Mean Along Line",
+  "description": "Variables calculated as means across specific labeled geographic areas or means along defined transects or lines. Used for regional averaging within designated boundaries or linear sampling.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "ht"
+}
+    ,{
+  "validation_key": "hxy",
+  "ui_label": "Gridded Horizontal",
+  "description": "Variables represented on a regular 2D horizontal grid with longitude and latitude coordinates. Standard format for most climate model output with spatially distributed data across geographic grid points.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "hxy"
+}
+    ,{
+  "validation_key": "hxys",
+  "ui_label": "Site Values",
+  "description": "Variables represented as point measurements at specific geographic sites or stations. Used for observational data, tower measurements, or model output extracted at particular locations rather than gridded data.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "hxys"
+}
+    ,{
+  "validation_key": "hy",
+  "ui_label": "Zonal Mean",
+  "description": "Variables calculated as zonal means, averaged along lines of constant latitude (east-west direction). Removes longitudinal variability to show meridional (north-south) patterns and large-scale circulation features.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "hy"
+}
+    ,{
+  "validation_key": "hybs",
+  "ui_label": "Zonal Mean Within Basin",
+  "description": "Variables calculated as zonal means within specific ocean basins or geographic regions. Provides basin-specific east-west averaging while preserving regional characteristics and circulation patterns within each basin.",
+  "@type": [
+    "wcrp:horizontal_label",
+    "esgvoc:HorizontalLabel",
+    "vr"
+  ],
+  "@id": "hybs"
+}
+  ]
+}

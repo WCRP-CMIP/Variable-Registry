@@ -1,0 +1,866 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/",
+  "@vocab": "https://esgf.github.io/esgf-vocab/api_documentation/data_descriptors.html#esgvoc.api.data_descriptors.Coordinate."
+},
+  "@graph": [
+    {
+  "validation_key": "deltasigt",
+  "ui_label": "sigma_t criterion that determines  layer thickness. \n\nThe method to calculate the mixed layer depth (mlotst) is documented in Griffies et al. 2016 ( https://doi.org/10.5194/gmd-9-3231-2016 ). It is the depth at which density is larger than the density of the first model level+ a threshold of 0.03 kg.m-3 (appendix H24). For CMIP7, we propose to make the reference depth 10 m instead of the first model level (note than some modelling groups already did it that way for CMIP6). A recent study based on OMIP (Treguier et al. 2023, https://doi.org/10.5194/gmd-16-3849-2023 )discusses the fact that using the first model level as a reference makes mlotst less comparable with obs (obs-based datasets reference the MLD to 10m because the diurnal cycle is not well-sampled by observations). Furthermore, the difference of the depth of the first model level between different models makes a significant difference in the computed MLDs in some seasons/regions (Treguier et al., 2023).",
+  "description": "Coordinate variable for use with ocean_mixed_layer_thickness_defined_by_sigma_t standard name.",
+  "axis_flag": "",
+  "cf_standard_name": "sea_water_sigma_t_difference",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "deltasigt"
+}
+    ,{
+  "validation_key": "depth0m",
+  "ui_label": "depth",
+  "description": "vertical coordinate for ocean surface",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth0m"
+}
+    ,{
+  "validation_key": "depth1000m",
+  "ui_label": "depth",
+  "description": "coordinate value for 1000 m ocean depth",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth1000m"
+}
+    ,{
+  "validation_key": "depth100m",
+  "ui_label": "depth",
+  "description": "coordinate value for 100 m ocean depth",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth100m"
+}
+    ,{
+  "validation_key": "depth2000m",
+  "ui_label": "depth",
+  "description": "coordinate value for 2000 m ocean depth",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth2000m"
+}
+    ,{
+  "validation_key": "depth300m",
+  "ui_label": "depth",
+  "description": "coordinate value for 300 m ocean depth",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth300m"
+}
+    ,{
+  "validation_key": "depth700m",
+  "ui_label": "depth",
+  "description": "coordinate value for 700 m ocean depth",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depth700m"
+}
+    ,{
+  "validation_key": "depthseafloor",
+  "ui_label": "last water column cell above the sea floor",
+  "description": "coordinate value for the lowest ocean cell above sea floor",
+  "axis_flag": "Z",
+  "cf_standard_name": "sea_floor_depth_below_geoid",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "depthseafloor"
+}
+    ,{
+  "validation_key": "height100m",
+  "ui_label": "height",
+  "description": "~100 m height for wind turbine diagnostics",
+  "axis_flag": "Z",
+  "cf_standard_name": "height",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "height100m"
+}
+    ,{
+  "validation_key": "height10m",
+  "ui_label": "height",
+  "description": "~10 m standard wind speed height",
+  "axis_flag": "Z",
+  "cf_standard_name": "height",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "height10m"
+}
+    ,{
+  "validation_key": "height2m",
+  "ui_label": "height",
+  "description": "~2 m standard surface air temperature and surface humidity  height",
+  "axis_flag": "Z",
+  "cf_standard_name": "height",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "height2m"
+}
+    ,{
+  "validation_key": "lambda443nm",
+  "ui_label": "Radiation Wavelength 443 nanometers",
+  "description": "Radiation wavelength used for monitoring aerosol properties",
+  "axis_flag": "",
+  "cf_standard_name": "radiation_wavelength",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "lambda443nm"
+}
+    ,{
+  "validation_key": "lambda550nm",
+  "ui_label": "Radiation Wavelength 550 nanometers",
+  "description": "Radiation wavelength used for monitoring aerosol properties",
+  "axis_flag": "",
+  "cf_standard_name": "radiation_wavelength",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "lambda550nm"
+}
+    ,{
+  "validation_key": "lambda865nm",
+  "ui_label": "Radiation Wavelength 865 nanometers",
+  "description": "Radiation wavelength used for monitoring aerosol properties",
+  "axis_flag": "",
+  "cf_standard_name": "radiation_wavelength",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "lambda865nm"
+}
+    ,{
+  "validation_key": "olayer100m",
+  "ui_label": "depth",
+  "description": "coordinate for 100 m ocean surface layer",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "olayer100m"
+}
+    ,{
+  "validation_key": "op20bar",
+  "ui_label": "Hydrostatic Pressure 20bar",
+  "description": "Coordinate level as hydrostatic pressure depth of 20bar (approximately 200m)",
+  "axis_flag": "Z",
+  "cf_standard_name": "sea_water_pressure_due_to_sea_water",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "op20bar"
+}
+    ,{
+  "validation_key": "p10",
+  "ui_label": "pressure",
+  "description": "10 hPa",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p10"
+}
+    ,{
+  "validation_key": "p100",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 100 hPa level, located in the lower stratosphere at approximately 16 km altitude. Used for stratospheric analysis and upper-level atmospheric variables.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p100"
+}
+    ,{
+  "validation_key": "p1000",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 1000 hPa level, approximately equivalent to sea level pressure. Used for surface meteorological variables and lower atmospheric analysis.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p1000"
+}
+    ,{
+  "validation_key": "p200",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 200 hPa level, located in the upper troposphere at approximately 12 km altitude. Important for jet stream analysis and upper-level weather patterns.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p200"
+}
+    ,{
+  "validation_key": "p220",
+  "ui_label": "pressure",
+  "description": "pressure layer of high-level cloud in ISCCP simulator",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p220"
+}
+    ,{
+  "validation_key": "p500",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 500 hPa level, located in the middle troposphere at approximately 5.5 km altitude. Critical for weather analysis and mid-level atmospheric dynamics.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p500"
+}
+    ,{
+  "validation_key": "p560",
+  "ui_label": "pressure",
+  "description": "pressure layer of mid-level cloud in ISCCP simulator",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p560"
+}
+    ,{
+  "validation_key": "p700",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 700 hPa level, located in the lower-middle troposphere at approximately 3 km altitude. Used for analyzing lower-level weather systems and atmospheric moisture.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p700"
+}
+    ,{
+  "validation_key": "p840",
+  "ui_label": "pressure",
+  "description": "pressure layer of low-level cloud in ISCCP simulator",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p840"
+}
+    ,{
+  "validation_key": "p850",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 850 hPa level, located in the lower troposphere at approximately 1.5 km altitude. Commonly used for boundary layer analysis and near-surface weather patterns.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p850"
+}
+    ,{
+  "validation_key": "p925",
+  "ui_label": "pressure",
+  "description": "Atmospheric pressure coordinate at 925 hPa level, located in the lower troposphere at approximately 0.8 km altitude. Used for boundary layer meteorology and near-surface atmospheric analysis.",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "p925"
+}
+    ,{
+  "validation_key": "pl700",
+  "ui_label": "pressure",
+  "description": "Layer from 850 to 600hPa",
+  "axis_flag": "Z",
+  "cf_standard_name": "air_pressure",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "pl700"
+}
+    ,{
+  "validation_key": "rh100p2pct",
+  "ui_label": "Relative Humidity 100.2 percent",
+  "description": "Reference relative humidity for cloud diagnostics with value 100.2 percent (equivalent to 0.2 percent supersaturation)",
+  "axis_flag": "",
+  "cf_standard_name": "relative_humidity",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "rh100p2pct"
+}
+    ,{
+  "validation_key": "rh101pct",
+  "ui_label": "Relative Humidity 101 percent",
+  "description": "Reference relative humidity for cloud diagnostics with value 101 percent (equivalent to 1 percent supersaturation)",
+  "axis_flag": "",
+  "cf_standard_name": "relative_humidity",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "rh101pct"
+}
+    ,{
+  "validation_key": "scatter180",
+  "ui_label": "Scattering Angle",
+  "description": "Angle of scattering relative to direction of incident radiation",
+  "axis_flag": "",
+  "cf_standard_name": "scattering_angle",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "scatter180"
+}
+    ,{
+  "validation_key": "sdepth1",
+  "ui_label": "depth",
+  "description": "coordinate value for topmost 0.1 meter layer of soil",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "sdepth1"
+}
+    ,{
+  "validation_key": "sdepth10",
+  "ui_label": "depth",
+  "description": "coordinate value for topmost 1 meter layer of soil",
+  "axis_flag": "Z",
+  "cf_standard_name": "depth",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "sdepth10"
+}
+    ,{
+  "validation_key": "stempzero",
+  "ui_label": "Soil Temperature Zero",
+  "description": "Specifying temperature ..",
+  "axis_flag": "Z",
+  "cf_standard_name": "soil_temperature",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "stempzero"
+}
+    ,{
+  "validation_key": "typebare",
+  "ui_label": "surface type",
+  "description": "Coordinate for bare soil or unvegetated surface area type, used to identify and analyze variables over regions with no vegetation cover.",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typebare"
+}
+    ,{
+  "validation_key": "typeburnt",
+  "ui_label": "Burnt vegetation area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typeburnt"
+}
+    ,{
+  "validation_key": "typec3crop",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec3crop"
+}
+    ,{
+  "validation_key": "typec3natg",
+  "ui_label": "C3 Natural grass area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec3natg"
+}
+    ,{
+  "validation_key": "typec3pastures",
+  "ui_label": "C3 Pastures area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec3pastures"
+}
+    ,{
+  "validation_key": "typec3pft",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec3pft"
+}
+    ,{
+  "validation_key": "typec4crop",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec4crop"
+}
+    ,{
+  "validation_key": "typec4natg",
+  "ui_label": "C4 Natural grass area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec4natg"
+}
+    ,{
+  "validation_key": "typec4pastures",
+  "ui_label": "C4 Pastures area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec4pastures"
+}
+    ,{
+  "validation_key": "typec4pft",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typec4pft"
+}
+    ,{
+  "validation_key": "typecrop",
+  "ui_label": "Crop area type",
+  "description": "Coordinate for agricultural crop area type, used to identify and analyze variables specific to cultivated agricultural lands and crop-covered regions.",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typecrop"
+}
+    ,{
+  "validation_key": "typeli",
+  "ui_label": "Land Ice area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typeli"
+}
+    ,{
+  "validation_key": "typelkins",
+  "ui_label": "Lake and inland sea area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typelkins"
+}
+    ,{
+  "validation_key": "typemp",
+  "ui_label": "Melt pond area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typemp"
+}
+    ,{
+  "validation_key": "typenatgr",
+  "ui_label": "Natural grass area type",
+  "description": "Coordinate for natural grassland area type, used to identify and analyze variables specific to non-cultivated grass-dominated ecosystems and prairie regions.",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typenatgr"
+}
+    ,{
+  "validation_key": "typenwd",
+  "ui_label": "Non-Woody Vegetation area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typenwd"
+}
+    ,{
+  "validation_key": "typepasture",
+  "ui_label": "Pasture area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typepasture"
+}
+    ,{
+  "validation_key": "typepdec",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typepdec"
+}
+    ,{
+  "validation_key": "typepever",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typepever"
+}
+    ,{
+  "validation_key": "typeresidual",
+  "ui_label": "Residual area",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typeresidual"
+}
+    ,{
+  "validation_key": "typesdec",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typesdec"
+}
+    ,{
+  "validation_key": "typesever",
+  "ui_label": "surface type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typesever"
+}
+    ,{
+  "validation_key": "typeshrub",
+  "ui_label": "Shrub area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typeshrub"
+}
+    ,{
+  "validation_key": "typesi",
+  "ui_label": "Sea Ice area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typesi"
+}
+    ,{
+  "validation_key": "typesirdg",
+  "ui_label": "Sea Ice Ridge  area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typesirdg"
+}
+    ,{
+  "validation_key": "typetree",
+  "ui_label": "Tree area type",
+  "description": "Coordinate for tree-covered area type, used to identify and analyze variables specific to forested regions and tree-dominated ecosystems.",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typetree"
+}
+    ,{
+  "validation_key": "typetreebd",
+  "ui_label": "Tree area type (Broadleaf Deciduous)",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typetreebd"
+}
+    ,{
+  "validation_key": "typetreebe",
+  "ui_label": "Tree area type (Broadleaf Evergreen)",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typetreebe"
+}
+    ,{
+  "validation_key": "typetreend",
+  "ui_label": "Tree area type (Needleleaf Deciduous)",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typetreend"
+}
+    ,{
+  "validation_key": "typetreene",
+  "ui_label": "Tree area type (Needleleaf Evergreen)",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typetreene"
+}
+    ,{
+  "validation_key": "typeveg",
+  "ui_label": "Vegetation area type",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typeveg"
+}
+    ,{
+  "validation_key": "typewetla",
+  "ui_label": "Wetland",
+  "description": "",
+  "axis_flag": "",
+  "cf_standard_name": "area_type",
+  "@type": [
+    "wcrp:coordinate",
+    "esgvoc:Coordinate",
+    "vr"
+  ],
+  "@id": "typewetla"
+}
+  ]
+}
