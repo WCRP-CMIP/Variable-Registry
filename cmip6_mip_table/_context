@@ -1,6 +1,7 @@
 {
     "@context": {
-        "@base": "https://wcrp-cmip.github.io/Variable-Registry/cmip6_mip_table/",
-        "@vocab": "https://esgf.github.io/esgf-vocab/api_documentation/data_descriptors.html#esgvoc.api.data_descriptors.Cmip6MipTable."
+        "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/cmip6_mip_table/",
+        "@base": "vr.mipcvs.dev/cmip6_mip_table/",
+        "@vocab": "vr.mipcvs.dev/docs/contents/Cmip6MipTable/"
     }
 }
