@@ -1,7 +1,7 @@
 {
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/temporal_label/",
-        "@base": "vr.mipcvs.dev/temporal_label/",
-        "@vocab": "vr.mipcvs.dev/docs/contents/TemporalLabel/"
+        "@base": "https://vr.mipcvs.dev/temporal_label/",
+        "@vocab": "https://vr.mipcvs.dev/docs/contents/TemporalLabel/"
     }
 }

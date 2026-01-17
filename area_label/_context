@@ -1,7 +1,7 @@
 {
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/area_label/",
-        "@base": "vr.mipcvs.dev/area_label/",
-        "@vocab": "vr.mipcvs.dev/docs/contents/AreaLabel/"
+        "@base": "https://vr.mipcvs.dev/area_label/",
+        "@vocab": "https://vr.mipcvs.dev/docs/contents/AreaLabel/"
     }
 }

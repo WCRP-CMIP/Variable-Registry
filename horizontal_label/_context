@@ -1,7 +1,7 @@
 {
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/horizontal_label/",
-        "@base": "vr.mipcvs.dev/horizontal_label/",
-        "@vocab": "vr.mipcvs.dev/docs/contents/HorizontalLabel/"
+        "@base": "https://vr.mipcvs.dev/horizontal_label/",
+        "@vocab": "https://vr.mipcvs.dev/docs/contents/HorizontalLabel/"
     }
 }

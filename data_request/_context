@@ -1,7 +1,7 @@
 {
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/data_request/",
-        "@base": "vr.mipcvs.dev/data_request/",
-        "@vocab": "vr.mipcvs.dev/docs/contents/DataRequest/"
+        "@base": "https://vr.mipcvs.dev/data_request/",
+        "@vocab": "https://vr.mipcvs.dev/docs/contents/DataRequest/"
     }
 }

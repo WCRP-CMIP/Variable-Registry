@@ -1,7 +1,7 @@
 {
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/dimension/",
-        "@base": "vr.mipcvs.dev/dimension/",
-        "@vocab": "vr.mipcvs.dev/docs/contents/Dimension/"
+        "@base": "https://vr.mipcvs.dev/dimension/",
+        "@vocab": "https://vr.mipcvs.dev/docs/contents/Dimension/"
     }
 }
