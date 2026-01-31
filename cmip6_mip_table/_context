@@ -2,6 +2,7 @@
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/cmip6_mip_table/",
         "@base": "https://vr.mipcvs.dev/cmip6_mip_table/",
+        "@esgvoc": "Cmip6MipTable",
         "@vocab": "https://vr.mipcvs.dev/docs/contents/Cmip6MipTable/"
     }
 }

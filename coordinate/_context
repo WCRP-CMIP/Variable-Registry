@@ -2,6 +2,7 @@
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/coordinate/",
         "@base": "https://vr.mipcvs.dev/coordinate/",
+        "@esgvoc": "Coordinate",
         "@vocab": "https://vr.mipcvs.dev/docs/contents/Coordinate/"
     }
 }

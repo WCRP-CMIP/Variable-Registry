@@ -2,6 +2,7 @@
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/variable_root/",
         "@base": "https://vr.mipcvs.dev/variable_root/",
+        "@esgvoc": "VariableRoot",
         "@vocab": "https://vr.mipcvs.dev/docs/contents/VariableRoot/"
     }
 }

@@ -2,6 +2,7 @@
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/variable/",
         "@base": "https://vr.mipcvs.dev/variable/",
+        "@esgvoc": "Variable",
         "@vocab": "https://vr.mipcvs.dev/docs/contents/Variable/"
     }
 }

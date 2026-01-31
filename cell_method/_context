@@ -2,6 +2,7 @@
     "@context": {
         "@alt_base": "https://wcrp-cmip.github.io/Variable-Registry/cell_method/",
         "@base": "https://vr.mipcvs.dev/cell_method/",
+        "@esgvoc": "CellMethod",
         "@vocab": "https://vr.mipcvs.dev/docs/contents/CellMethod/"
     }
 }
